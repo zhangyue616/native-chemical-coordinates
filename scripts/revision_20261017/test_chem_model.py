@@ -325,8 +325,8 @@ def write_report(payload):
         "## CPU 硬停止建议", "",
         f"按三组中最慢实测耗时，60k基础forward约 {cap['base_60000_worst_measured_forward_hours']:.3f} 小时；≤10k分子×6个分开native干预条件约 {cap['intervention_10000_six_separate_conditions_worst_measured_forward_hours']:.3f} 小时。",
         f"以5倍余量及最低缓冲，建议基础硬停止 {cap['suggested_base_wall_stop_seconds']/3600:.1f} 小时、干预硬停止 {cap['suggested_intervention_wall_stop_seconds']/3600:.1f} 小时、总硬停止 {cap['suggested_total_wall_stop_seconds']/3600:.1f} 小时。",
-        "这些是可执行的停止政策，不是未知真实数据耗时的数学上界；仅适用于已测token窗口、right-padding、batch≤8。若冻结后长度/条件/参考模型次数增加，应由主控重新定预算，不能沿用旧GPU耗时或自动扩跑。到时保存已完成计数并停止。", "",
-        "本阶段未读取旧项目根、旧语料/labels/activations，未请求新PubChem，未训练、计算科学AP或更新协议/mapper；科学运行仍待主控冻结。", "",
+        "这些是可执行的停止政策，不是未知真实数据耗时的数学上界；仅适用于已测token窗口、right-padding、batch≤8。若冻结后长度/条件/参考模型次数增加，应由研究操作者重新定预算，不能沿用旧GPU耗时或自动扩跑。到时保存已完成计数并停止。", "",
+        "本阶段未读取旧项目根、旧语料/labels/activations，未请求新PubChem，未训练、计算科学AP或更新协议/mapper；科学运行仍待研究操作者冻结。", "",
         "复现：`.venv_chem/Scripts/python.exe scripts/revision_20261017/test_chem_model.py --threads 4 --benchmark-seconds 2`。", "",
     ])
     (OUT / "CHEM_MODEL_ENGINEERING.md").write_text(text, encoding="utf-8")

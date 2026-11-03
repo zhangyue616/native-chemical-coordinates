@@ -1,6 +1,7 @@
 {
   "graphic": "TOC",
-  "version": "v01",
+  "match_mark": {"style": "halo", "radius_pt": 4.2, "alpha": 0.25, "bond_gap_pt": 0.6, "earlier_v01": "black open circles, radius 3.2 pt, line width 0.9 pt"},
+  "version": "v02",
   "label_records": [
     {
       "label": "Native chemical\nalignment",
@@ -396,7 +397,7 @@
     "orange_filled_cell": "selected or replaced unit coordinate",
     "blue_outline": "fitted chemical reference program",
     "gray_outline": "other coordinate context",
-    "black_open_circles": "chemical query matches, not activation or intervention sites"
+    "light_orange_halos": "chemical query matches, not activation or intervention sites"
   },
   "historical_H_Hpair_removed_from_TOC": true,
   "historical_H_Hpair_retained_in_manuscript": "Figure5D and SI",

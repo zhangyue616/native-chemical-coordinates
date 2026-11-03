@@ -10,7 +10,7 @@
 | D | `./data/revision_20261017/chemistry/development/D.tsv` | 5000 | 同上 |
 | T | `./data/revision_20261017/chemistry/sealed/T.tsv` | 10000 | 原 rank 为 5000–14999，T 内索引为 0–9999 |
 
-仅读取以上 TSV 的分子身份/来源字段及本协议和实现；不读取任何概念标签、分数、AP、模型激活或模型输出。实际输入字节的 SHA256 随本次读取记录。相邻 `8th_paper` 根全程只读。不读取 PubChem 大文件、不联网、不安装、不训练、不做 Git 操作。
+仅读取以上 TSV 的分子身份/来源字段及本协议和实现；不读取任何概念标签、分数、AP、模型激活或模型输出。实际输入字节的 SHA256 随本次读取记录。相邻 `<legacy-source-root>` 全程只读。不读取 PubChem 大文件、不联网、不安装、不训练、不做 Git 操作。
 
 既有标准化来源只读核对：相邻根 `scripts/lineB/build_corpus.py:standardize`、`build_corpus_v5.py`，以及本根 `scripts/revision_20261017/chem_data.py:standardize` 和 `docs/revision_20261017/CHEMISTRY_DATA_PROTOCOL.md`。H4 使用原 v1 标准化，D/T 保存规则也明确复用该 v1 算法：原构建阶段均默认 parse/sanitize、按 heavy-atom 数选择最大片段（平局保留首个）、RemoveHs、原元素/大小/自由基/同位素/手性/键/生物结构过滤及规范立体 SMILES 回读。H4 和 D/T 的抽样盐、排序、排旧对象与 mapper 门不同。本审计**不重做**这些构建步骤，也不把它们相同解释为总体独立性。
 

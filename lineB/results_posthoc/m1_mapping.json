@@ -1,0 +1,1209 @@
+{
+ "head_activation": "relu",
+ "head_activation_source": "released code (RobertaRegressionHead, ReLU)",
+ "n_molecules": 2000,
+ "median_best_rho": {
+  "tanh": 0.8113439645693159,
+  "relu": 0.8280228108914739,
+  "gelu": 0.8323402230259148
+ },
+ "n_descriptors_considered": 199,
+ "accepted": 136,
+ "distinct_accepted": 122,
+ "mapping": [
+  {
+   "output": 0,
+   "descriptor": "MaxAbsEStateIndex",
+   "abs_rho": 0.9637496739374183,
+   "accepted": true
+  },
+  {
+   "output": 1,
+   "descriptor": "MinEStateIndex",
+   "abs_rho": 0.9617886649471662,
+   "accepted": true
+  },
+  {
+   "output": 2,
+   "descriptor": "MaxAbsEStateIndex",
+   "abs_rho": 0.9637582029395504,
+   "accepted": true
+  },
+  {
+   "output": 3,
+   "descriptor": "EState_VSA2",
+   "abs_rho": 0.8435980958551965,
+   "accepted": true
+  },
+  {
+   "output": 4,
+   "descriptor": "qed",
+   "abs_rho": 0.952035231615821,
+   "accepted": true
+  },
+  {
+   "output": 5,
+   "descriptor": "ExactMolWt",
+   "abs_rho": 0.9948837123366259,
+   "accepted": true
+  },
+  {
+   "output": 6,
+   "descriptor": "HeavyAtomMolWt",
+   "abs_rho": 0.9942346782312306,
+   "accepted": true
+  },
+  {
+   "output": 7,
+   "descriptor": "ExactMolWt",
+   "abs_rho": 0.9948866013374239,
+   "accepted": true
+  },
+  {
+   "output": 8,
+   "descriptor": "NumValenceElectrons",
+   "abs_rho": 0.9974310253438498,
+   "accepted": true
+  },
+  {
+   "output": 9,
+   "descriptor": "HallKierAlpha",
+   "abs_rho": 0.4495971208552541,
+   "accepted": false
+  },
+  {
+   "output": 10,
+   "descriptor": "NumHeteroatoms",
+   "abs_rho": 0.700085251464902,
+   "accepted": true
+  },
+  {
+   "output": 11,
+   "descriptor": "SMR_VSA1",
+   "abs_rho": 0.6189857989150821,
+   "accepted": true
+  },
+  {
+   "output": 12,
+   "descriptor": "SMR_VSA1",
+   "abs_rho": 0.6815256864448673,
+   "accepted": true
+  },
+  {
+   "output": 13,
+   "descriptor": "NumHeteroatoms",
+   "abs_rho": 0.7048554182162702,
+   "accepted": true
+  },
+  {
+   "output": 14,
+   "descriptor": "FpDensityMorgan1",
+   "abs_rho": 0.9524524009756163,
+   "accepted": true
+  },
+  {
+   "output": 15,
+   "descriptor": "FpDensityMorgan2",
+   "abs_rho": 0.9486281132155041,
+   "accepted": true
+  },
+  {
+   "output": 16,
+   "descriptor": "FpDensityMorgan3",
+   "abs_rho": 0.9276745133035706,
+   "accepted": true
+  },
+  {
+   "output": 17,
+   "descriptor": "BalabanJ",
+   "abs_rho": 0.9676802460329416,
+   "accepted": true
+  },
+  {
+   "output": 18,
+   "descriptor": "BertzCT",
+   "abs_rho": 0.9958816878407888,
+   "accepted": true
+  },
+  {
+   "output": 19,
+   "descriptor": "Chi0",
+   "abs_rho": 0.9975157668945359,
+   "accepted": true
+  },
+  {
+   "output": 20,
+   "descriptor": "Chi0n",
+   "abs_rho": 0.9962801310477133,
+   "accepted": true
+  },
+  {
+   "output": 21,
+   "descriptor": "Chi0v",
+   "abs_rho": 0.9967443065403216,
+   "accepted": true
+  },
+  {
+   "output": 22,
+   "descriptor": "Chi1",
+   "abs_rho": 0.9976960873097082,
+   "accepted": true
+  },
+  {
+   "output": 23,
+   "descriptor": "Chi1n",
+   "abs_rho": 0.9962791721933973,
+   "accepted": true
+  },
+  {
+   "output": 24,
+   "descriptor": "Chi1v",
+   "abs_rho": 0.994122269903363,
+   "accepted": true
+  },
+  {
+   "output": 25,
+   "descriptor": "Chi2n",
+   "abs_rho": 0.9931415062853765,
+   "accepted": true
+  },
+  {
+   "output": 26,
+   "descriptor": "Chi2v",
+   "abs_rho": 0.9902875905718974,
+   "accepted": true
+  },
+  {
+   "output": 27,
+   "descriptor": "Chi3n",
+   "abs_rho": 0.9894443259821232,
+   "accepted": true
+  },
+  {
+   "output": 28,
+   "descriptor": "Chi3v",
+   "abs_rho": 0.9800997353924712,
+   "accepted": true
+  },
+  {
+   "output": 29,
+   "descriptor": "Chi4n",
+   "abs_rho": 0.9872719879382239,
+   "accepted": true
+  },
+  {
+   "output": 30,
+   "descriptor": "Chi4v",
+   "abs_rho": 0.9707035950399124,
+   "accepted": true
+  },
+  {
+   "output": 31,
+   "descriptor": "HallKierAlpha",
+   "abs_rho": 0.9921066006766751,
+   "accepted": true
+  },
+  {
+   "output": 32,
+   "descriptor": "Kappa1",
+   "abs_rho": 0.9960919611511888,
+   "accepted": true
+  },
+  {
+   "output": 33,
+   "descriptor": "Kappa2",
+   "abs_rho": 0.9836914920857673,
+   "accepted": true
+  },
+  {
+   "output": 34,
+   "descriptor": "Kappa3",
+   "abs_rho": 0.9595189559663115,
+   "accepted": true
+  },
+  {
+   "output": 35,
+   "descriptor": "LabuteASA",
+   "abs_rho": 0.997388546595178,
+   "accepted": true
+  },
+  {
+   "output": 36,
+   "descriptor": "PEOE_VSA1",
+   "abs_rho": 0.8737810267195939,
+   "accepted": true
+  },
+  {
+   "output": 37,
+   "descriptor": "PEOE_VSA10",
+   "abs_rho": 0.8004636311062767,
+   "accepted": true
+  },
+  {
+   "output": 38,
+   "descriptor": "PEOE_VSA11",
+   "abs_rho": 0.7359064207736804,
+   "accepted": true
+  },
+  {
+   "output": 39,
+   "descriptor": "PEOE_VSA12",
+   "abs_rho": 0.8062268244905713,
+   "accepted": true
+  },
+  {
+   "output": 40,
+   "descriptor": "PEOE_VSA13",
+   "abs_rho": 0.780612874650165,
+   "accepted": true
+  },
+  {
+   "output": 41,
+   "descriptor": "PEOE_VSA14",
+   "abs_rho": 0.7808999885257563,
+   "accepted": true
+  },
+  {
+   "output": 42,
+   "descriptor": "PEOE_VSA2",
+   "abs_rho": 0.8160428290479687,
+   "accepted": true
+  },
+  {
+   "output": 43,
+   "descriptor": "PEOE_VSA3",
+   "abs_rho": 0.8929594559962902,
+   "accepted": true
+  },
+  {
+   "output": 44,
+   "descriptor": "PEOE_VSA4",
+   "abs_rho": 0.7801698234474411,
+   "accepted": true
+  },
+  {
+   "output": 45,
+   "descriptor": "PEOE_VSA5",
+   "abs_rho": 0.6364365613467534,
+   "accepted": true
+  },
+  {
+   "output": 46,
+   "descriptor": "PEOE_VSA6",
+   "abs_rho": 0.9491399127300696,
+   "accepted": true
+  },
+  {
+   "output": 47,
+   "descriptor": "PEOE_VSA7",
+   "abs_rho": 0.8941607610904841,
+   "accepted": true
+  },
+  {
+   "output": 48,
+   "descriptor": "PEOE_VSA8",
+   "abs_rho": 0.8308382015270773,
+   "accepted": true
+  },
+  {
+   "output": 49,
+   "descriptor": "PEOE_VSA9",
+   "abs_rho": 0.7161325543088275,
+   "accepted": true
+  },
+  {
+   "output": 50,
+   "descriptor": "SMR_VSA1",
+   "abs_rho": 0.9531348892180159,
+   "accepted": true
+  },
+  {
+   "output": 51,
+   "descriptor": "SMR_VSA10",
+   "abs_rho": 0.9506525078259118,
+   "accepted": true
+  },
+  {
+   "output": 52,
+   "descriptor": "SMR_VSA2",
+   "abs_rho": 0.42382423120595136,
+   "accepted": false
+  },
+  {
+   "output": 53,
+   "descriptor": "SMR_VSA3",
+   "abs_rho": 0.9276140774979728,
+   "accepted": true
+  },
+  {
+   "output": 54,
+   "descriptor": "SMR_VSA4",
+   "abs_rho": 0.8658041242013631,
+   "accepted": true
+  },
+  {
+   "output": 55,
+   "descriptor": "SMR_VSA5",
+   "abs_rho": 0.9750263321469844,
+   "accepted": true
+  },
+  {
+   "output": 56,
+   "descriptor": "SMR_VSA6",
+   "abs_rho": 0.9719049205099592,
+   "accepted": true
+  },
+  {
+   "output": 57,
+   "descriptor": "SMR_VSA7",
+   "abs_rho": 0.992349162855808,
+   "accepted": true
+  },
+  {
+   "output": 58,
+   "descriptor": "NumSaturatedRings",
+   "abs_rho": 0.3261959856458694,
+   "accepted": false
+  },
+  {
+   "output": 59,
+   "descriptor": "SMR_VSA9",
+   "abs_rho": 0.9086951550375123,
+   "accepted": true
+  },
+  {
+   "output": 60,
+   "descriptor": "SlogP_VSA1",
+   "abs_rho": 0.883454368357639,
+   "accepted": true
+  },
+  {
+   "output": 61,
+   "descriptor": "SlogP_VSA10",
+   "abs_rho": 0.9348426235698548,
+   "accepted": true
+  },
+  {
+   "output": 62,
+   "descriptor": "SlogP_VSA11",
+   "abs_rho": 0.8145448671727941,
+   "accepted": true
+  },
+  {
+   "output": 63,
+   "descriptor": "SlogP_VSA12",
+   "abs_rho": 0.8324951427549758,
+   "accepted": true
+  },
+  {
+   "output": 64,
+   "descriptor": "SlogP_VSA2",
+   "abs_rho": 0.9756813535826473,
+   "accepted": true
+  },
+  {
+   "output": 65,
+   "descriptor": "SlogP_VSA3",
+   "abs_rho": 0.964711751528308,
+   "accepted": true
+  },
+  {
+   "output": 66,
+   "descriptor": "SlogP_VSA4",
+   "abs_rho": 0.9206661855252055,
+   "accepted": true
+  },
+  {
+   "output": 67,
+   "descriptor": "SlogP_VSA5",
+   "abs_rho": 0.9720347214957673,
+   "accepted": true
+  },
+  {
+   "output": 68,
+   "descriptor": "SlogP_VSA6",
+   "abs_rho": 0.9878058883214224,
+   "accepted": true
+  },
+  {
+   "output": 69,
+   "descriptor": "SlogP_VSA7",
+   "abs_rho": 0.5849011564627707,
+   "accepted": true
+  },
+  {
+   "output": 70,
+   "descriptor": "SlogP_VSA8",
+   "abs_rho": 0.8507297736576332,
+   "accepted": true
+  },
+  {
+   "output": 71,
+   "descriptor": "NumSaturatedRings",
+   "abs_rho": 0.3419606598841117,
+   "accepted": false
+  },
+  {
+   "output": 72,
+   "descriptor": "TPSA",
+   "abs_rho": 0.9921849304827988,
+   "accepted": true
+  },
+  {
+   "output": 73,
+   "descriptor": "EState_VSA1",
+   "abs_rho": 0.9139951653383674,
+   "accepted": true
+  },
+  {
+   "output": 74,
+   "descriptor": "EState_VSA10",
+   "abs_rho": 0.9530934863371028,
+   "accepted": true
+  },
+  {
+   "output": 75,
+   "descriptor": "fr_Al_COO",
+   "abs_rho": 0.2578843924863802,
+   "accepted": false
+  },
+  {
+   "output": 76,
+   "descriptor": "EState_VSA2",
+   "abs_rho": 0.8927986891754075,
+   "accepted": true
+  },
+  {
+   "output": 77,
+   "descriptor": "EState_VSA3",
+   "abs_rho": 0.8454457292947477,
+   "accepted": true
+  },
+  {
+   "output": 78,
+   "descriptor": "EState_VSA4",
+   "abs_rho": 0.88354031219477,
+   "accepted": true
+  },
+  {
+   "output": 79,
+   "descriptor": "EState_VSA5",
+   "abs_rho": 0.8100211132289744,
+   "accepted": true
+  },
+  {
+   "output": 80,
+   "descriptor": "EState_VSA6",
+   "abs_rho": 0.8604828433054289,
+   "accepted": true
+  },
+  {
+   "output": 81,
+   "descriptor": "EState_VSA7",
+   "abs_rho": 0.8895004212720901,
+   "accepted": true
+  },
+  {
+   "output": 82,
+   "descriptor": "EState_VSA8",
+   "abs_rho": 0.9105704753029359,
+   "accepted": true
+  },
+  {
+   "output": 83,
+   "descriptor": "EState_VSA9",
+   "abs_rho": 0.8280228108914739,
+   "accepted": true
+  },
+  {
+   "output": 84,
+   "descriptor": "VSA_EState1",
+   "abs_rho": 0.9781933487904375,
+   "accepted": true
+  },
+  {
+   "output": 85,
+   "descriptor": "VSA_EState10",
+   "abs_rho": 0.786225744390066,
+   "accepted": true
+  },
+  {
+   "output": 86,
+   "descriptor": "VSA_EState2",
+   "abs_rho": 0.9813456465520025,
+   "accepted": true
+  },
+  {
+   "output": 87,
+   "descriptor": "VSA_EState3",
+   "abs_rho": 0.9636033341250874,
+   "accepted": true
+  },
+  {
+   "output": 88,
+   "descriptor": "VSA_EState4",
+   "abs_rho": 0.9464823934730442,
+   "accepted": true
+  },
+  {
+   "output": 89,
+   "descriptor": "VSA_EState5",
+   "abs_rho": 0.9146042065782417,
+   "accepted": true
+  },
+  {
+   "output": 90,
+   "descriptor": "VSA_EState6",
+   "abs_rho": 0.9843131509819261,
+   "accepted": true
+  },
+  {
+   "output": 91,
+   "descriptor": "VSA_EState7",
+   "abs_rho": 0.9466746177231974,
+   "accepted": true
+  },
+  {
+   "output": 92,
+   "descriptor": "VSA_EState8",
+   "abs_rho": 0.9606994692761373,
+   "accepted": true
+  },
+  {
+   "output": 93,
+   "descriptor": "VSA_EState9",
+   "abs_rho": 0.8818625278877144,
+   "accepted": true
+  },
+  {
+   "output": 94,
+   "descriptor": "FractionCSP3",
+   "abs_rho": 0.9880235494270683,
+   "accepted": true
+  },
+  {
+   "output": 95,
+   "descriptor": "HeavyAtomCount",
+   "abs_rho": 0.9977392573584885,
+   "accepted": true
+  },
+  {
+   "output": 96,
+   "descriptor": "NHOHCount",
+   "abs_rho": 0.8881626715749946,
+   "accepted": true
+  },
+  {
+   "output": 97,
+   "descriptor": "NOCount",
+   "abs_rho": 0.9908570665034935,
+   "accepted": true
+  },
+  {
+   "output": 98,
+   "descriptor": "NumAliphaticCarbocycles",
+   "abs_rho": 0.7155083891090911,
+   "accepted": true
+  },
+  {
+   "output": 99,
+   "descriptor": "NumAliphaticHeterocycles",
+   "abs_rho": 0.8890386565784518,
+   "accepted": true
+  },
+  {
+   "output": 100,
+   "descriptor": "NumAliphaticRings",
+   "abs_rho": 0.9322254246438891,
+   "accepted": true
+  },
+  {
+   "output": 101,
+   "descriptor": "NumAromaticCarbocycles",
+   "abs_rho": 0.9508185063201141,
+   "accepted": true
+  },
+  {
+   "output": 102,
+   "descriptor": "NumAromaticHeterocycles",
+   "abs_rho": 0.9150140456953825,
+   "accepted": true
+  },
+  {
+   "output": 103,
+   "descriptor": "NumAromaticRings",
+   "abs_rho": 0.9692754980574808,
+   "accepted": true
+  },
+  {
+   "output": 104,
+   "descriptor": "NumHAcceptors",
+   "abs_rho": 0.9145931475895109,
+   "accepted": true
+  },
+  {
+   "output": 105,
+   "descriptor": "NumHDonors",
+   "abs_rho": 0.8691786921662785,
+   "accepted": true
+  },
+  {
+   "output": 106,
+   "descriptor": "NumHeteroatoms",
+   "abs_rho": 0.9876321971246317,
+   "accepted": true
+  },
+  {
+   "output": 107,
+   "descriptor": "NumRotatableBonds",
+   "abs_rho": 0.9477157007887059,
+   "accepted": true
+  },
+  {
+   "output": 108,
+   "descriptor": "NumSaturatedCarbocycles",
+   "abs_rho": 0.6309020446222782,
+   "accepted": true
+  },
+  {
+   "output": 109,
+   "descriptor": "NumSaturatedHeterocycles",
+   "abs_rho": 0.8322858866755839,
+   "accepted": true
+  },
+  {
+   "output": 110,
+   "descriptor": "NumSaturatedRings",
+   "abs_rho": 0.8896068609531645,
+   "accepted": true
+  },
+  {
+   "output": 111,
+   "descriptor": "RingCount",
+   "abs_rho": 0.9762187085350381,
+   "accepted": true
+  },
+  {
+   "output": 112,
+   "descriptor": "MolLogP",
+   "abs_rho": 0.9361204873384832,
+   "accepted": true
+  },
+  {
+   "output": 113,
+   "descriptor": "MolMR",
+   "abs_rho": 0.9965486675108728,
+   "accepted": true
+  },
+  {
+   "output": 114,
+   "descriptor": "fr_Al_COO",
+   "abs_rho": 0.45066002321441184,
+   "accepted": false
+  },
+  {
+   "output": 115,
+   "descriptor": "fr_Al_OH",
+   "abs_rho": 0.5662926771457409,
+   "accepted": true
+  },
+  {
+   "output": 116,
+   "descriptor": "fr_Al_OH",
+   "abs_rho": 0.5659365987186133,
+   "accepted": true
+  },
+  {
+   "output": 117,
+   "descriptor": "fr_NH2",
+   "abs_rho": 0.4464561785925549,
+   "accepted": false
+  },
+  {
+   "output": 118,
+   "descriptor": "fr_Al_COO",
+   "abs_rho": 0.3915217309542703,
+   "accepted": false
+  },
+  {
+   "output": 119,
+   "descriptor": "fr_Ar_N",
+   "abs_rho": 0.9129375126811259,
+   "accepted": true
+  },
+  {
+   "output": 120,
+   "descriptor": "fr_Ar_N",
+   "abs_rho": 0.5451011370100437,
+   "accepted": true
+  },
+  {
+   "output": 121,
+   "descriptor": "fr_Ar_OH",
+   "abs_rho": 0.3494546770035319,
+   "accepted": false
+  },
+  {
+   "output": 122,
+   "descriptor": "fr_COO2",
+   "abs_rho": 0.5255219769841571,
+   "accepted": true
+  },
+  {
+   "output": 123,
+   "descriptor": "fr_COO2",
+   "abs_rho": 0.5255219769841571,
+   "accepted": true
+  },
+  {
+   "output": 124,
+   "descriptor": "fr_C_O",
+   "abs_rho": 0.9430170091763033,
+   "accepted": true
+  },
+  {
+   "output": 125,
+   "descriptor": "fr_C_O",
+   "abs_rho": 0.9421616822425914,
+   "accepted": true
+  },
+  {
+   "output": 126,
+   "descriptor": "fr_NH2",
+   "abs_rho": 0.2717277405858123,
+   "accepted": false
+  },
+  {
+   "output": 127,
+   "descriptor": "SMR_VSA7",
+   "abs_rho": 0.4271157809231256,
+   "accepted": false
+  },
+  {
+   "output": 128,
+   "descriptor": "fr_allylic_oxid",
+   "abs_rho": 0.3120606052344901,
+   "accepted": false
+  },
+  {
+   "output": 129,
+   "descriptor": "fr_NH0",
+   "abs_rho": 0.9302554644425993,
+   "accepted": true
+  },
+  {
+   "output": 130,
+   "descriptor": "fr_NH1",
+   "abs_rho": 0.8568676434675183,
+   "accepted": true
+  },
+  {
+   "output": 131,
+   "descriptor": "fr_NH2",
+   "abs_rho": 0.6220524850979973,
+   "accepted": true
+  },
+  {
+   "output": 132,
+   "descriptor": "NumAromaticRings",
+   "abs_rho": 0.347657030774477,
+   "accepted": false
+  },
+  {
+   "output": 133,
+   "descriptor": "fr_Ndealkylation1",
+   "abs_rho": 0.4442640430180113,
+   "accepted": false
+  },
+  {
+   "output": 134,
+   "descriptor": "fr_Ndealkylation2",
+   "abs_rho": 0.5478538235242649,
+   "accepted": true
+  },
+  {
+   "output": 135,
+   "descriptor": "fr_Ar_N",
+   "abs_rho": 0.5450844079903739,
+   "accepted": true
+  },
+  {
+   "output": 136,
+   "descriptor": "NumAromaticRings",
+   "abs_rho": 0.3181509745941455,
+   "accepted": false
+  },
+  {
+   "output": 137,
+   "descriptor": "VSA_EState1",
+   "abs_rho": 0.3074550567333568,
+   "accepted": false
+  },
+  {
+   "output": 138,
+   "descriptor": "PEOE_VSA14",
+   "abs_rho": 0.31787324798492944,
+   "accepted": false
+  },
+  {
+   "output": 139,
+   "descriptor": "fr_alkyl_halide",
+   "abs_rho": 0.5268865647068203,
+   "accepted": true
+  },
+  {
+   "output": 140,
+   "descriptor": "fr_allylic_oxid",
+   "abs_rho": 0.5007818545396098,
+   "accepted": true
+  },
+  {
+   "output": 141,
+   "descriptor": "NumAmideBonds",
+   "abs_rho": 0.9006703558382483,
+   "accepted": true
+  },
+  {
+   "output": 142,
+   "descriptor": "fr_NH2",
+   "abs_rho": 0.36140673241468824,
+   "accepted": false
+  },
+  {
+   "output": 143,
+   "descriptor": "fr_aniline",
+   "abs_rho": 0.8371621915093976,
+   "accepted": true
+  },
+  {
+   "output": 144,
+   "descriptor": "fr_aryl_methyl",
+   "abs_rho": 0.7884665685340502,
+   "accepted": true
+  },
+  {
+   "output": 145,
+   "descriptor": "fr_ether",
+   "abs_rho": 0.3033817641431485,
+   "accepted": false
+  },
+  {
+   "output": 146,
+   "descriptor": "fr_nitro_arom",
+   "abs_rho": 0.219756885599956,
+   "accepted": false
+  },
+  {
+   "output": 147,
+   "descriptor": "fr_imide",
+   "abs_rho": 0.2954211915012737,
+   "accepted": false
+  },
+  {
+   "output": 148,
+   "descriptor": "NumAromaticCarbocycles",
+   "abs_rho": 0.9506887638815545,
+   "accepted": true
+  },
+  {
+   "output": 149,
+   "descriptor": "SlogP_VSA7",
+   "abs_rho": 0.3732738637255082,
+   "accepted": false
+  },
+  {
+   "output": 150,
+   "descriptor": "fr_bicyclic",
+   "abs_rho": 0.8042151904778381,
+   "accepted": true
+  },
+  {
+   "output": 151,
+   "descriptor": "fr_alkyl_halide",
+   "abs_rho": 0.19682817119129337,
+   "accepted": false
+  },
+  {
+   "output": 152,
+   "descriptor": "SlogP_VSA2",
+   "abs_rho": 0.295142794832434,
+   "accepted": false
+  },
+  {
+   "output": 153,
+   "descriptor": "NumAromaticHeterocycles",
+   "abs_rho": 0.3326117604516863,
+   "accepted": false
+  },
+  {
+   "output": 154,
+   "descriptor": "fr_ester",
+   "abs_rho": 0.5379970088018469,
+   "accepted": true
+  },
+  {
+   "output": 155,
+   "descriptor": "fr_ether",
+   "abs_rho": 0.9152866791567457,
+   "accepted": true
+  },
+  {
+   "output": 156,
+   "descriptor": "fr_furan",
+   "abs_rho": 0.32695110269645616,
+   "accepted": false
+  },
+  {
+   "output": 157,
+   "descriptor": "fr_NH2",
+   "abs_rho": 0.31808395767139935,
+   "accepted": false
+  },
+  {
+   "output": 158,
+   "descriptor": "fr_halogen",
+   "abs_rho": 0.8347928556362103,
+   "accepted": true
+  },
+  {
+   "output": 159,
+   "descriptor": "NHOHCount",
+   "abs_rho": 0.32811960414778124,
+   "accepted": false
+  },
+  {
+   "output": 160,
+   "descriptor": "SlogP_VSA11",
+   "abs_rho": 0.28246226681505926,
+   "accepted": false
+  },
+  {
+   "output": 161,
+   "descriptor": "fr_imidazole",
+   "abs_rho": 0.3789537126258519,
+   "accepted": false
+  },
+  {
+   "output": 162,
+   "descriptor": "NumAmideBonds",
+   "abs_rho": 0.4339841203791722,
+   "accepted": false
+  },
+  {
+   "output": 163,
+   "descriptor": "EState_VSA2",
+   "abs_rho": 0.3316730805880213,
+   "accepted": false
+  },
+  {
+   "output": 164,
+   "descriptor": "fr_COO",
+   "abs_rho": 0.4584405234703131,
+   "accepted": false
+  },
+  {
+   "output": 165,
+   "descriptor": "fr_ketone",
+   "abs_rho": 0.45071627720362023,
+   "accepted": false
+  },
+  {
+   "output": 166,
+   "descriptor": "fr_ketone",
+   "abs_rho": 0.45062524391689707,
+   "accepted": false
+  },
+  {
+   "output": 167,
+   "descriptor": "fr_Ar_N",
+   "abs_rho": 0.2802877240189624,
+   "accepted": false
+  },
+  {
+   "output": 168,
+   "descriptor": "PEOE_VSA14",
+   "abs_rho": 0.32005146434141946,
+   "accepted": false
+  },
+  {
+   "output": 169,
+   "descriptor": "fr_methoxy",
+   "abs_rho": 0.6910350493154161,
+   "accepted": true
+  },
+  {
+   "output": 170,
+   "descriptor": "fr_morpholine",
+   "abs_rho": 0.2650676708497095,
+   "accepted": false
+  },
+  {
+   "output": 171,
+   "descriptor": "SMR_VSA2",
+   "abs_rho": 0.4237798487630497,
+   "accepted": false
+  },
+  {
+   "output": 172,
+   "descriptor": "fr_nitro",
+   "abs_rho": 0.3454573053724402,
+   "accepted": false
+  },
+  {
+   "output": 173,
+   "descriptor": "fr_nitro",
+   "abs_rho": 0.3388802631771059,
+   "accepted": false
+  },
+  {
+   "output": 174,
+   "descriptor": "fr_nitro_arom",
+   "abs_rho": 0.29148094714838396,
+   "accepted": false
+  },
+  {
+   "output": 175,
+   "descriptor": "NumHeteroatoms",
+   "abs_rho": 0.33803851539695184,
+   "accepted": false
+  },
+  {
+   "output": 176,
+   "descriptor": "SlogP_VSA8",
+   "abs_rho": 0.22648419059860878,
+   "accepted": false
+  },
+  {
+   "output": 177,
+   "descriptor": "fr_allylic_oxid",
+   "abs_rho": 0.27254487770334934,
+   "accepted": false
+  },
+  {
+   "output": 178,
+   "descriptor": "fr_para_hydroxylation",
+   "abs_rho": 0.6165529729873739,
+   "accepted": true
+  },
+  {
+   "output": 179,
+   "descriptor": "fr_Ar_OH",
+   "abs_rho": 0.34945365970397274,
+   "accepted": false
+  },
+  {
+   "output": 180,
+   "descriptor": "fr_Ar_OH",
+   "abs_rho": 0.3494528119543401,
+   "accepted": false
+  },
+  {
+   "output": 181,
+   "descriptor": "NumAliphaticHeterocycles",
+   "abs_rho": 0.3077818731200164,
+   "accepted": false
+  },
+  {
+   "output": 182,
+   "descriptor": "qed",
+   "abs_rho": 0.2422940645735161,
+   "accepted": false
+  },
+  {
+   "output": 183,
+   "descriptor": "NumSaturatedHeterocycles",
+   "abs_rho": 0.5236630137304878,
+   "accepted": true
+  },
+  {
+   "output": 184,
+   "descriptor": "fr_piperzine",
+   "abs_rho": 0.38243106649456726,
+   "accepted": false
+  },
+  {
+   "output": 185,
+   "descriptor": "NHOHCount",
+   "abs_rho": 0.2975116937228321,
+   "accepted": false
+  },
+  {
+   "output": 186,
+   "descriptor": "NumSaturatedRings",
+   "abs_rho": 0.360366989904493,
+   "accepted": false
+  },
+  {
+   "output": 187,
+   "descriptor": "fr_pyridine",
+   "abs_rho": 0.629656179369416,
+   "accepted": true
+  },
+  {
+   "output": 188,
+   "descriptor": "FractionCSP3",
+   "abs_rho": 0.45515942300916834,
+   "accepted": false
+  },
+  {
+   "output": 189,
+   "descriptor": "fr_sulfide",
+   "abs_rho": 0.441981078882772,
+   "accepted": false
+  },
+  {
+   "output": 190,
+   "descriptor": "fr_sulfonamd",
+   "abs_rho": 0.44051184520138326,
+   "accepted": false
+  },
+  {
+   "output": 191,
+   "descriptor": "SMR_VSA7",
+   "abs_rho": 0.3004498012142123,
+   "accepted": false
+  },
+  {
+   "output": 192,
+   "descriptor": "SMR_VSA9",
+   "abs_rho": 0.3103815712072315,
+   "accepted": false
+  },
+  {
+   "output": 193,
+   "descriptor": "EState_VSA10",
+   "abs_rho": 0.16822615097714075,
+   "accepted": false
+  },
+  {
+   "output": 194,
+   "descriptor": "fr_thiazole",
+   "abs_rho": 0.3628595327609712,
+   "accepted": false
+  },
+  {
+   "output": 195,
+   "descriptor": "fr_nitrile",
+   "abs_rho": 0.23683408362678707,
+   "accepted": false
+  },
+  {
+   "output": 196,
+   "descriptor": "fr_thiophene",
+   "abs_rho": 0.38283910150537703,
+   "accepted": false
+  },
+  {
+   "output": 197,
+   "descriptor": "NumRotatableBonds",
+   "abs_rho": 0.43653833466696135,
+   "accepted": false
+  },
+  {
+   "output": 198,
+   "descriptor": "fr_urea",
+   "abs_rho": 0.3665737468014833,
+   "accepted": false
+  }
+ ]
+}

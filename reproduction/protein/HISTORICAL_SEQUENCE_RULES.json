@@ -741,10 +741,9 @@
     "network_calls_added": 0,
     "forbidden_data_accessed": false
   },
-  "AI_provenance": {
-    "role": "A development-only language-model session proposed the bounded finite 32-rule candidate set before numerical evaluation. The selected rule is an operational sequence predicate, not biological evidence.",
+  "candidate_provenance": {
+    "role": "The bounded finite 32-rule candidate set was fixed for development use before numerical evaluation; the manuscript states how it was proposed. The selected rule is an operational sequence predicate, not biological evidence.",
     "selection": "Each nonconstant candidate was fitted on D_fit only; minimum group-mean D_select MSE won, exact ties selected the smaller candidate_id. D_select is development selection, not independent validation.",
-    "historical_source": "results/pilot3a/HYPOTHESIS.json",
-    "raw_prompts_or_responses_included": false
+    "historical_source": "results/pilot3a/HYPOTHESIS.json"
   }
 }

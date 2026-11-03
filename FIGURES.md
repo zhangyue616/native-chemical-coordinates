@@ -1,6 +1,6 @@
 # Figures and frozen source data
 
-This package contains the 15 PNG figures used in the manuscript and Supporting Information—Figures 1–4, S-B1, S-C1–S-C6, S-E1, S-I1, S-J1, and the TOC graphic—each supplied as an unchanged copy of its selected source image. In particular, `figures/figure_1.png` is the original selected PNG for direct embedding in the repository README rather than a redrawn copy.
+This package contains the 15 PNG figures used in the manuscript and Supporting Information—Figures 1–4, S-B1, S-C1–S-C6, S-E1, S-I1, S-J1, and the TOC graphic. The 14 figures are unchanged copies of their selected source images; the TOC graphic was redrawn from its frozen layout, as described below. In particular, `figures/figure_1.png` is the original selected PNG for direct embedding in the repository README rather than a redrawn copy.
 
 `figure_manifest.json` maps each figure to its image, source-data file, selected source version, and available renderer, while the manuscript and Supporting Information contain the authoritative captions without revisions to their scientific wording here.
 
@@ -20,7 +20,7 @@ This package contains the 15 PNG figures used in the manuscript and Supporting I
 | S-E1 | R7 | `source_data/figure_S_E1_plot_data.json` | Frozen numerical source; renderer not included |
 | S-I1 | R7 | `source_data/figure_S_I1_plot_data.json` | Frozen numerical source; renderer not included |
 | S-J1 | R7 artwork, inherited R4 Figure 5 | `source_data/figure_S_J1_plot_data.json` | Frozen numerical source; renderer not included |
-| TOC | R7 | `source_data/toc_graphic_plot_data.json` | Frozen numerical source; renderer not included |
+| TOC | R7 layout, redrawn v02 | `source_data/toc_graphic_plot_data.json` | `figure_source/main/plot_toc_graphic.py`; saved query geometry in `figure_source/assets/toc/` |
 
 Inherited JSON files retain their original historical figure-number fields, which map to current manuscript labels through the table above and `figure_manifest.json`. `source_data/data_S1_best_units.csv` supplies the retained H2/H3 unit-level source table rather than substituting for per-atom activation arrays.
 
@@ -32,7 +32,7 @@ The main renderers use Python and Matplotlib and resolve every input relative to
 python -B figure_source/main/check_frozen_inputs.py
 ```
 
-Passing under Python 3.7.0 and Matplotlib 2.2.3, this check verifies module import and input portability; the adapted renderers were not run to generate new artwork during packaging, and the selected PNGs remain the presentation reference.
+Passing under Python 3.7.0 and Matplotlib 2.2.3, this check verifies module import and input portability; the four adapted main-figure renderers were not run to generate new artwork during packaging, and their selected PNGs remain the presentation reference. This check does not cover `plot_toc_graphic.py`, which was run to produce `figures/toc_graphic.png`.
 
 ## Render from saved results
 
@@ -43,11 +43,14 @@ python -B figure_source/main/plot_figure_1.py --version local
 python -B figure_source/main/plot_figure_2.py --version local
 python -B figure_source/main/plot_figure_3.py --version local
 python -B figure_source/main/plot_figure_4.py --version local
+python -B figure_source/main/plot_toc_graphic.py --version local
 ```
 
-Outputs are written to `rendered/figure_<n>/local/` (use a new version name for another rendering run). These scripts produce presentation renderings of frozen results—where geometry alignment and marker-overlap measurements are display operations—rather than a new scientific analysis.
+Outputs are written to `rendered/figure_<n>/local/`, or `rendered/toc_graphic/local/` for the TOC graphic (use a new version name for another rendering run). These scripts produce presentation renderings of frozen results—where geometry alignment and marker-overlap measurements are display operations—rather than a new scientific analysis.
 
-The historical `figure_source/historical/plot_S_C2_to_C5.py` script (additionally requiring NumPy ≥1.17 and Pillow) reconstructs the earlier S-C2–S-C4 tile assemblies and S-C5 from saved caches; these historical assemblies predate the final R7 styling and are not claimed to reproduce the R7 PNGs pixel for pixel. Its S-C5 path (`fig_s3`) applies the historical effect/null formulas to the stored matrices and was not executed during initial packaging. Following restoration of the original fixed competitor count `K = 39` in `figure_source/historical/historical_helpers.py` (with `plot_S_C2_to_C5.py` unchanged), a targeted local validation of `fig_s3` verified all 16 J1/J2 effect estimates across the eight model/layer rows against `source_data/figure_S_C5_gates.json` within the `1e-9` tolerance (maximum absolute discrepancy `1.1102230246251565e-16`), confirmed finite 39-twin null clouds for all 16 series, and rendered the two-panel S-C5 figure without model inference, fitting, bootstrapping, or p-value recalculation (validation details in `figure_manifest.json`). That targeted check exercised only S-C5, not the S-C2–S-C4 tile branch (`fig_s2`), and leaves the 15 supplied original PNGs, the frozen source data and matrices, and the four main-figure rendering chains unchanged.
+The historical `figure_source/historical/plot_S_C2_to_C5.py` script (additionally requiring NumPy ≥1.17 and Pillow) reconstructs the earlier S-C2–S-C4 tile assemblies and S-C5 from saved caches; these historical assemblies predate the final R7 styling and are not claimed to reproduce the R7 PNGs pixel for pixel. Its S-C5 path (`fig_s3`) applies the historical effect/null formulas to the stored matrices and was not executed during initial packaging. Following restoration of the original fixed competitor count `K = 39` in `figure_source/historical/historical_helpers.py` (with `plot_S_C2_to_C5.py` unchanged), a targeted local validation of `fig_s3` verified all 16 J1/J2 effect estimates across the eight model/layer rows against `source_data/figure_S_C5_gates.json` within the `1e-9` tolerance (maximum absolute discrepancy `1.1102230246251565e-16`), confirmed finite 39-twin null clouds for all 16 series, and rendered the two-panel S-C5 figure without model inference, fitting, bootstrapping, or p-value recalculation (validation details in `figure_manifest.json`). That targeted check exercised only S-C5, not the S-C2–S-C4 tile branch (`fig_s2`), and leaves the 15 supplied PNGs, the frozen source data and matrices, and the four main-figure rendering chains unchanged.
+
+The TOC graphic v02 replaces the open circles of v01, which crowded the atom labels, with light orange halos like those in the main figures and shortens the matched bond by 0.6 pt at each end; layout and text are unchanged. `--match-mark ring` restores the v01 marks and differs from the v01 PNG in 192 of 2,047,500 pixels by at most 2 of 255 levels (Python 3.7.0, Matplotlib 2.2.3, Arial).
 
 ## Scope and limits
 

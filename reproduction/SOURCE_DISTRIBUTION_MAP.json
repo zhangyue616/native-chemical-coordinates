@@ -221,8 +221,8 @@
       "source": "scripts/revision_20261017/test_chem_model.py",
       "distribution": "scripts/revision_20261017/test_chem_model.py",
       "source_sha256": "e1d79738ec1ab4c62fdaeee1e6d1237f2c39b90015b973bd7f56bb2715d22589",
-      "distribution_sha256": "5f1f51d26467a9426a9ebef6e7dff98fca323225224d4f53bab38ea03a20ac32",
-      "bytes": 24585,
+      "distribution_sha256": "1fef37dfcf929ac2db0b8cf336b32561c4f10443e44387b413e727aa6c805c57",
+      "bytes": 24603,
       "changed": true
     },
     {
@@ -469,8 +469,8 @@
       "source": "docs/strengthening_20261025/A_LINEAGE_PROTOCOL.md",
       "distribution": "docs/strengthening_20261025/A_LINEAGE_PROTOCOL.md",
       "source_sha256": "b445b3fb6485d09f21812dae9855e6044de14eeb775475837d941854243f299a",
-      "distribution_sha256": "a7cac5a1483f3f7d72bd0a08104be5d220aced2f309d387bebce1bdaa6f8b683",
-      "bytes": 5486,
+      "distribution_sha256": "320ef6aae1b49e036d3e5a8437017bb63487635060845c3a5b6a9ecc8f5d84e9",
+      "bytes": 5494,
       "changed": true
     },
     {
@@ -5379,7 +5379,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_D/runner_engineering_fixture/INVALID_LOCK.json",
-      "distribution": "results/revision_20261017/chemistry_D/runner_engineering_fixture/INVALID_LOCK.json",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_D/INVALID_LOCK.json",
       "source_sha256": "6717f46898acfefb44e4d0e3e3eaabbdaa9bd38a735b3df1d464fe7580369d3f",
       "distribution_sha256": "6717f46898acfefb44e4d0e3e3eaabbdaa9bd38a735b3df1d464fe7580369d3f",
       "bytes": 38,
@@ -6163,7 +6163,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_T/runner_engineering_fixture/base/corpus/BUILD_RECEIPT.json",
-      "distribution": "results/revision_20261017/chemistry_T/runner_engineering_fixture/base/corpus/BUILD_RECEIPT.json",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_T/base/corpus/BUILD_RECEIPT.json",
       "source_sha256": "28f3ecf4a57fdf1b0bfd5dbdcbd6d886c62a94b22968dd19c5a7d4b1b7d01738",
       "distribution_sha256": "28f3ecf4a57fdf1b0bfd5dbdcbd6d886c62a94b22968dd19c5a7d4b1b7d01738",
       "bytes": 22,
@@ -6171,7 +6171,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_T/runner_engineering_fixture/D/D_FINAL_WINNERS.npz",
-      "distribution": "results/revision_20261017/chemistry_T/runner_engineering_fixture/D/D_FINAL_WINNERS.npz",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_T/D/D_FINAL_WINNERS.npz",
       "source_sha256": "12dc5f35507626924a314f58832200932e19a43e901df2b7708db1ce78e5cb5f",
       "distribution_sha256": "12dc5f35507626924a314f58832200932e19a43e901df2b7708db1ce78e5cb5f",
       "bytes": 22,
@@ -6179,7 +6179,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_T/runner_engineering_fixture/D/D_PRECISION.json",
-      "distribution": "results/revision_20261017/chemistry_T/runner_engineering_fixture/D/D_PRECISION.json",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_T/D/D_PRECISION.json",
       "source_sha256": "ce1eee2739e66ebbe49b24dadb18fd53797237c369d1ff4fd954bbe093cab281",
       "distribution_sha256": "ce1eee2739e66ebbe49b24dadb18fd53797237c369d1ff4fd954bbe093cab281",
       "bytes": 33,
@@ -6187,7 +6187,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_T/runner_engineering_fixture/REJECTED_T_LOCK.json",
-      "distribution": "results/revision_20261017/chemistry_T/runner_engineering_fixture/REJECTED_T_LOCK.json",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_T/REJECTED_T_LOCK.json",
       "source_sha256": "c14bcc8b303c471e05db5530b7202da498da1275cd7d887a2038f6e205983032",
       "distribution_sha256": "c14bcc8b303c471e05db5530b7202da498da1275cd7d887a2038f6e205983032",
       "bytes": 41,
@@ -6195,7 +6195,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_T/runner_engineering_fixture/SYNTHETIC_BAD_LOCK.json",
-      "distribution": "results/revision_20261017/chemistry_T/runner_engineering_fixture/SYNTHETIC_BAD_LOCK.json",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_T/SYNTHETIC_BAD_LOCK.json",
       "source_sha256": "0172ab03c8cba0b51e215723a2efb625081839078a5654ebdf89221df51cd816",
       "distribution_sha256": "0172ab03c8cba0b51e215723a2efb625081839078a5654ebdf89221df51cd816",
       "bytes": 471,
@@ -6203,7 +6203,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_T/runner_engineering_fixture/SYNTHETIC_LOCK.json",
-      "distribution": "results/revision_20261017/chemistry_T/runner_engineering_fixture/SYNTHETIC_LOCK.json",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_T/SYNTHETIC_LOCK.json",
       "source_sha256": "52d8ec584f06948ed0921b0c723f4866cb1404c78369145657ba92125705f742",
       "distribution_sha256": "52d8ec584f06948ed0921b0c723f4866cb1404c78369145657ba92125705f742",
       "bytes": 471,
@@ -6211,7 +6211,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_T/runner_engineering_fixture/T_DATA_READY.json",
-      "distribution": "results/revision_20261017/chemistry_T/runner_engineering_fixture/T_DATA_READY.json",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_T/T_DATA_READY.json",
       "source_sha256": "07fdaa3b86df8903d18528a0cd7d64512d5345b8ca3525ba470685a50b75635d",
       "distribution_sha256": "07fdaa3b86df8903d18528a0cd7d64512d5345b8ca3525ba470685a50b75635d",
       "bytes": 22,
@@ -6219,7 +6219,7 @@
     },
     {
       "source": "results/revision_20261017/chemistry_T/runner_engineering_fixture/T_READY.json",
-      "distribution": "results/revision_20261017/chemistry_T/runner_engineering_fixture/T_READY.json",
+      "distribution": "tests/fixtures/runner_engineering/chemistry_T/T_READY.json",
       "source_sha256": "dce0a4805e4d67d8a213ca1a1c8c1225f999880acfa8b1175ea9e5310e0d7ee5",
       "distribution_sha256": "e34b17e66d42615f1eb35588a6a4d85fccd7cadca6062b2d2951909b25dd7126",
       "bytes": 1653,
@@ -7368,9 +7368,265 @@
       "distribution_sha256": "fa0a23ea932a7cf879356033b464225e717db485415bd3c893aaa461525ee3c4",
       "bytes": 837,
       "changed": true
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/input/PANEL_BRIER_BOOTSTRAP.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/input/PANEL_BRIER_BOOTSTRAP.npy",
+      "source_sha256": "7c9dbfbb4c935a4b36dba3865acd8607e2938c9acb54e927bc05af091585b34a",
+      "distribution_sha256": "7c9dbfbb4c935a4b36dba3865acd8607e2938c9acb54e927bc05af091585b34a",
+      "bytes": 16128,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/ASSOCIATION_24_BOOTSTRAP.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/ASSOCIATION_24_BOOTSTRAP.npy",
+      "source_sha256": "185c3dd8c6522b25c7b8ef830476d200db2f1d2ee3a707a8325ea91541fe9870",
+      "distribution_sha256": "185c3dd8c6522b25c7b8ef830476d200db2f1d2ee3a707a8325ea91541fe9870",
+      "bytes": 16128,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/ASSOCIATION_25_BOOTSTRAP.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/ASSOCIATION_25_BOOTSTRAP.npy",
+      "source_sha256": "2ae842606f29627674aafc3df7b0b9a1fa8d784b4363f5a98e59ac21e81d53db",
+      "distribution_sha256": "2ae842606f29627674aafc3df7b0b9a1fa8d784b4363f5a98e59ac21e81d53db",
+      "bytes": 16128,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/ASSOCIATION_26_BOOTSTRAP.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/ASSOCIATION_26_BOOTSTRAP.npy",
+      "source_sha256": "7781369a1c091b8850f851ccab439228d3c078ecbad20fd6d2f536be21cd140a",
+      "distribution_sha256": "7781369a1c091b8850f851ccab439228d3c078ecbad20fd6d2f536be21cd140a",
+      "bytes": 16128,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control1_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control1_atom_full.npy",
+      "source_sha256": "7117d8821d29ff8dbed94329165f927f2eecde796103ccb82b1a8de449ebbcc7",
+      "distribution_sha256": "7117d8821d29ff8dbed94329165f927f2eecde796103ccb82b1a8de449ebbcc7",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control2_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control2_atom_full.npy",
+      "source_sha256": "69ef578c6b826187d065225726c4e12898e8409f20d02db11f75e8dde69c02d3",
+      "distribution_sha256": "69ef578c6b826187d065225726c4e12898e8409f20d02db11f75e8dde69c02d3",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control3_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control3_atom_full.npy",
+      "source_sha256": "dbda1a236ec6c15336131852bbc1d85a569aaad7596aac356ccd7472572fb9e4",
+      "distribution_sha256": "dbda1a236ec6c15336131852bbc1d85a569aaad7596aac356ccd7472572fb9e4",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control4_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control4_atom_full.npy",
+      "source_sha256": "3136d80b1308c45babda0e7382625e3b8911db2af638234df7d14827e718a339",
+      "distribution_sha256": "3136d80b1308c45babda0e7382625e3b8911db2af638234df7d14827e718a339",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control5_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/control5_atom_full.npy",
+      "source_sha256": "f514d6f5ae115229a1b41d722f766e3d778bc74345e3b584171251cc9ce3e6bb",
+      "distribution_sha256": "f514d6f5ae115229a1b41d722f766e3d778bc74345e3b584171251cc9ce3e6bb",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/selected_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/selected_atom_full.npy",
+      "source_sha256": "34481175cdd0936fb867a3e3e34d6bc49e8aa7ea71a61db4f03b27c72f72913a",
+      "distribution_sha256": "34481175cdd0936fb867a3e3e34d6bc49e8aa7ea71a61db4f03b27c72f72913a",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/selected_atom_half.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/selected_atom_half.npy",
+      "source_sha256": "94d1f91d4b81f28633ff25d26e7fe080eec0aed8b69b7e0d17351b165e58322b",
+      "distribution_sha256": "94d1f91d4b81f28633ff25d26e7fe080eec0aed8b69b7e0d17351b165e58322b",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/selected_CLS_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_24/selected_CLS_full.npy",
+      "source_sha256": "6c80a649179696f0a3a33e4db932d224f412a53ab2b04b830484e70b6dca721a",
+      "distribution_sha256": "6c80a649179696f0a3a33e4db932d224f412a53ab2b04b830484e70b6dca721a",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control1_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control1_atom_full.npy",
+      "source_sha256": "91608c76283e140e5319bbc0ae05528313fd99823334f9d62f4d08c3cb6b8887",
+      "distribution_sha256": "91608c76283e140e5319bbc0ae05528313fd99823334f9d62f4d08c3cb6b8887",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control2_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control2_atom_full.npy",
+      "source_sha256": "9c3f09251fb86e65d7556b5d7c3b3d0682d05021a80e38a30d4c5333ebd9c7d8",
+      "distribution_sha256": "9c3f09251fb86e65d7556b5d7c3b3d0682d05021a80e38a30d4c5333ebd9c7d8",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control3_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control3_atom_full.npy",
+      "source_sha256": "7046ff1e640bb14c2abfe96590f0d1433463b4bb9c9141f4f3db54375b2c7577",
+      "distribution_sha256": "7046ff1e640bb14c2abfe96590f0d1433463b4bb9c9141f4f3db54375b2c7577",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control4_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control4_atom_full.npy",
+      "source_sha256": "fd0feae5e47756eedd0ba63154c4d1b1c33c679e60a5ac24fb82691503a40de4",
+      "distribution_sha256": "fd0feae5e47756eedd0ba63154c4d1b1c33c679e60a5ac24fb82691503a40de4",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control5_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/control5_atom_full.npy",
+      "source_sha256": "ad3aef94cdc683ebfa23a6911fcde451b0232fe3c51c91ef3ebfa7433f53104a",
+      "distribution_sha256": "ad3aef94cdc683ebfa23a6911fcde451b0232fe3c51c91ef3ebfa7433f53104a",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/selected_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/selected_atom_full.npy",
+      "source_sha256": "66c59a53fe61e62ed5da7340e5619b77f07491116a54b521c907e60ecf8fa041",
+      "distribution_sha256": "66c59a53fe61e62ed5da7340e5619b77f07491116a54b521c907e60ecf8fa041",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/selected_atom_half.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/selected_atom_half.npy",
+      "source_sha256": "bb0a037e47936428f9a6de295b23f88bae00e02a7b99d039fb337073d29c87bd",
+      "distribution_sha256": "bb0a037e47936428f9a6de295b23f88bae00e02a7b99d039fb337073d29c87bd",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/selected_CLS_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_25/selected_CLS_full.npy",
+      "source_sha256": "4b919cce96607b07dbd50260e688437367646f26d40511ec39a94fbae15ee3df",
+      "distribution_sha256": "4b919cce96607b07dbd50260e688437367646f26d40511ec39a94fbae15ee3df",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control1_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control1_atom_full.npy",
+      "source_sha256": "5d22cd23cf035a23dacaab6d35d58594024adfedf7fedd9e07e1a2e2b05fa09e",
+      "distribution_sha256": "5d22cd23cf035a23dacaab6d35d58594024adfedf7fedd9e07e1a2e2b05fa09e",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control2_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control2_atom_full.npy",
+      "source_sha256": "1c9bcf3e0fb5efb66ff8602b6008f288520c0e61ac183c5582225889ffaee358",
+      "distribution_sha256": "1c9bcf3e0fb5efb66ff8602b6008f288520c0e61ac183c5582225889ffaee358",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control3_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control3_atom_full.npy",
+      "source_sha256": "2d76917d903994cd235fa367457d44818772a792717847ce0026b5e53c41abdb",
+      "distribution_sha256": "2d76917d903994cd235fa367457d44818772a792717847ce0026b5e53c41abdb",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control4_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control4_atom_full.npy",
+      "source_sha256": "54b10b33c48b65e58d2a35fbed65a0eb9c09f6abc309cc452de48df1681419d2",
+      "distribution_sha256": "54b10b33c48b65e58d2a35fbed65a0eb9c09f6abc309cc452de48df1681419d2",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control5_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/control5_atom_full.npy",
+      "source_sha256": "0f6e05e9d6b251374d749d8fe31fcea091e15dabd27c8b8ba825b2bb8f50a917",
+      "distribution_sha256": "0f6e05e9d6b251374d749d8fe31fcea091e15dabd27c8b8ba825b2bb8f50a917",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/selected_atom_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/selected_atom_full.npy",
+      "source_sha256": "9af2ab53358798f4bdd2c18f9ec9fce585fb8a07c96e6847a5461964b5727b2a",
+      "distribution_sha256": "9af2ab53358798f4bdd2c18f9ec9fce585fb8a07c96e6847a5461964b5727b2a",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/selected_atom_half.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/selected_atom_half.npy",
+      "source_sha256": "a16b27877330a02b8ecd8bb14f6f518bf629e70dbb844043e7ca549132059bc0",
+      "distribution_sha256": "a16b27877330a02b8ecd8bb14f6f518bf629e70dbb844043e7ca549132059bc0",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/selected_CLS_full.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/concept_26/selected_CLS_full.npy",
+      "source_sha256": "4d3b88338289ed3c814e231a494f5f86a350d17a0ed916170362bcfeb31fe4a3",
+      "distribution_sha256": "4d3b88338289ed3c814e231a494f5f86a350d17a0ed916170362bcfeb31fe4a3",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/secondary/mechanism/FINAL_LAYER_ZERO.npy",
+      "distribution": "results/revision_20261017/chemistry_T/secondary/mechanism/FINAL_LAYER_ZERO.npy",
+      "source_sha256": "babc4e84900ca8fe293fc816afd0f2be26ac4b7930b4967803807ff5eda3173b",
+      "distribution_sha256": "babc4e84900ca8fe293fc816afd0f2be26ac4b7930b4967803807ff5eda3173b",
+      "bytes": 6528,
+      "changed": false
+    },
+    {
+      "source": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+      "distribution": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+      "source_sha256": "8148df6162c8317b9b4f986676d7b22f1b25d298c1647863391984c83e46e83d",
+      "distribution_sha256": "8148df6162c8317b9b4f986676d7b22f1b25d298c1647863391984c83e46e83d",
+      "bytes": 45487590,
+      "changed": false
+    },
+    {
+      "source": "results/chemical_replacement_20261027/forward/CPU_FORWARD_LEDGER.json",
+      "distribution": "results/chemical_replacement_20261027/forward/CPU_FORWARD_LEDGER.json",
+      "source_sha256": "b02d0ea68eecbc4a210b4b2a96a3e7e4ceabbafc817e155d0e993125ba67cdc5",
+      "distribution_sha256": "b02d0ea68eecbc4a210b4b2a96a3e7e4ceabbafc817e155d0e993125ba67cdc5",
+      "bytes": 1333,
+      "changed": false
+    },
+    {
+      "source": "results/strengthening_20261025/scaffold_subset/SLICE_FIXED_REPLICATES.npz",
+      "distribution": "results/strengthening_20261025/scaffold_subset/SLICE_FIXED_REPLICATES.npz",
+      "source_sha256": "cfb2165841e44b06d9e2bead8e662bc89b9c8e250e7f04dfb3aecd9c92d50153",
+      "distribution_sha256": "cfb2165841e44b06d9e2bead8e662bc89b9c8e250e7f04dfb3aecd9c92d50153",
+      "bytes": 90963434,
+      "changed": false
     }
   ],
-  "protocol_cleanup": "Administrative agent/permission/quota/editorial coordination sentences removed from distribution protocols. Scientific quantities and lock schemas preserved; original research lock hashes are not rebound.",
+  "protocol_cleanup": "Administrative coordination sentences (permissions, quotas, editorial notes) removed or reworded in distribution protocols, including role names normalized to research operator. Scientific quantities and lock schemas preserved; original research lock hashes are not rebound.",
   "external_only_assets": [
     {
       "source": "assets/chemberta_mtr_model/config.json",

@@ -115,16 +115,16 @@
     {
       "label": "TOC graphic",
       "png": "figures/toc_graphic.png",
-      "source_png": "manuscript/draft_round7_20261031/figures/toc_graphic.png",
+      "source_png": "rendered by figure_source/main/plot_toc_graphic.py",
       "source_data": "source_data/toc_graphic_plot_data.json",
-      "renderer": null,
-      "render_level": "frozen source-data; renderer not packaged"
+      "renderer": "figure_source/main/plot_toc_graphic.py",
+      "render_level": "frozen layout values and saved query geometry"
     }
   ],
   "figure_count": 15,
-  "frozen_PNG_copied_without_redrawing": true,
+  "frozen_PNG_copied_without_redrawing": "all except the TOC graphic",
   "data_sanitization": "Only provenance/workflow metadata and machine-specific path strings removed or normalized; retained numeric fields unchanged.",
-  "main_rendering_validation": "Import and frozen-data loading only; no new figure rendered during packaging.",
+  "main_rendering_validation": "Import and frozen-data loading of the four main renderers only; no new main figure rendered during packaging. The TOC graphic was rendered by its own script.",
   "reproduction_scope": "Presentation from frozen results; not a full model-training or inference rerun.",
   "historical_SC5_validation": {
     "date": "2026-11-03",

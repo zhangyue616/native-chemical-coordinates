@@ -1,5 +1,5 @@
 {
-  "scope": "v5/v6 and post hoc H2 shuffling source and frozen result packaging; source hashes recorded while copying; no scientific rerun",
+  "scope": "v5/v6 and post hoc M1 and M4 source and frozen result packaging; source hashes recorded while copying; no scientific rerun",
   "source_paths": "Original project-relative layout only",
   "files": [
     {
@@ -344,6 +344,41 @@
       "source_sha256": "4329f242e2208833ba246f1a5ca8ddf74963488d539c1ed64b275fd11ce484f4",
       "source_bytes": 500900,
       "adaptation": "320 original NPY files (39 shuffled networks plus one pipeline check for each of 8 checkpoints) archived byte for byte; hash and size describe this archive."
+    },
+    {
+      "source_layout": "models/ENV_neuroaudit_freeze.txt",
+      "published_path": "models/ENV_neuroaudit_freeze.txt",
+      "source_sha256": "9e3ed8cef42607b07faf37e61140b61ab3f5f3170111ab0de3f143fc146322bc",
+      "source_bytes": 1866,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "scripts/lineB/posthoc_m1_mtr_ablation.py",
+      "published_path": "scripts/lineB/posthoc_m1_mtr_ablation.py",
+      "source_sha256": "4fe3aeb5297234fa6122ae4f4a7f3fc880f070e575531ee18eac70a3fc511524",
+      "source_bytes": 13275,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/results_posthoc/m1_ablation.csv",
+      "published_path": "lineB/results_posthoc/m1_ablation.csv",
+      "source_sha256": "0a2a4058835c4d849554bd56367660a68ad76698b1dd90669cf50b52b2fad802",
+      "source_bytes": 16502,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/results_posthoc/m1_ablation.json",
+      "published_path": "lineB/results_posthoc/m1_ablation.json",
+      "source_sha256": "863132930b5198ca451ea63417f86274095ccde124b8385132f4b43b3737f762",
+      "source_bytes": 49982,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/results_posthoc/m1_mapping.json",
+      "published_path": "lineB/results_posthoc/m1_mapping.json",
+      "source_sha256": "7df7c9a48549a451dd21d0bf71288b061fc1df9a2e3676923aa96ab2a7e81e2d",
+      "source_bytes": 23942,
+      "adaptation": "byte copy"
     }
   ],
   "modified_scientific_formulas": false,

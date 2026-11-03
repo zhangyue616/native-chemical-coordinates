@@ -26,12 +26,12 @@ This standard-library check reads frozen results to verify object coverage witho
 
 | Material | Entry point | Included evidence |
 | --- | --- | --- |
-| Cross-model molecular audit | [CHEMISTRY_AUDIT.md](CHEMISTRY_AUDIT.md) | H4 structures and labels, 173-concept definitions, v5/v6 best-lift vectors, post hoc H2 shuffling results, gate summaries, source code and upstream asset inventory |
+| Cross-model molecular audit | [CHEMISTRY_AUDIT.md](CHEMISTRY_AUDIT.md) | H4 structures and labels, 173-concept definitions, v5/v6 best-lift vectors, post hoc M1 and M4 results, gate summaries, source code and upstream asset inventory |
 | D/T transfer, fitted references and chemical replacement | [WORKFLOWS.md](WORKFLOWS.md) | Selected molecular inputs, adopted analysis code, fixed fits and summaries, and archived original replacement outputs |
 | Protein extension | [WORKFLOWS.md — protein replay](WORKFLOWS.md#executable-protein-replay) | All 116 replay inputs, frozen cohorts, saved activations and six fitted readout programs |
-| Main and supporting figures | [FIGURES.md](FIGURES.md) | 15 original PNGs, frozen numerical data and available plotting sources |
+| Main and supporting figures | [FIGURES.md](FIGURES.md) | 15 final PNGs, frozen numerical data and available plotting sources |
 
-The protein replay has a separate [requirements file](requirements-protein.txt), molecular work uses [requirements-chemistry.txt](requirements-chemistry.txt) and the legacy environment described in CHEMISTRY_AUDIT.md, and figure rendering uses [requirements-figures.txt](requirements-figures.txt) for their respective workflows.
+The protein replay has a separate [requirements file](requirements-protein.txt), molecular work uses [requirements-chemistry.txt](requirements-chemistry.txt) and, for the legacy environment described in CHEMISTRY_AUDIT.md, [requirements-legacy.txt](requirements-legacy.txt), and figure rendering uses [requirements-figures.txt](requirements-figures.txt) for their respective workflows.
 
 ## Data sources and reproduction coverage
 
@@ -45,8 +45,8 @@ Validation of this distribution covers one [offline chemical coverage check](OFF
 
 ## Figures
 
-See [figure reproduction and limits](FIGURES.md) for commands and per-figure coverage. The [figure manifest](figure_manifest.json) maps 4 main figures, 10 supporting figures, and the table-of-contents graphic to their frozen source data, with the original PNGs in [figures](figures/) and plotting code and saved graphical assets in [figure_source](figure_source/). Figure rendering plots existing results without repeating model inference or statistical estimation.
+See [figure reproduction and limits](FIGURES.md) for commands and per-figure coverage. The [figure manifest](figure_manifest.json) maps 4 main figures, 10 supporting figures, and the table-of-contents graphic to their frozen source data, with the final PNGs in [figures](figures/) and plotting code and saved graphical assets in [figure_source](figure_source/). Figure rendering plots existing results without repeating model inference or statistical estimation.
 
 ## Access and rights
 
-The repository is intended for scientific review and reproduction without an access request. See [Access and rights](LICENSE.md) for the first-party notice and third-party terms. Public access does not assign a blanket open-source license to upstream software, checkpoints, or data.
+The repository is publicly accessible without an access request. First-party code is released under the [MIT License](LICENSE), and first-party data, figures, and documentation under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see [Access and rights](RIGHTS.md) for third-party terms. These grants do not extend to upstream software, checkpoints, or data.

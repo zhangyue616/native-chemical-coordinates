@@ -1,8 +1,8 @@
 # Access and rights
 
-This repository provides the study's research code, derived results, and figure sources for anonymous scientific review and reproduction. It is publicly readable and downloadable without requesting access from the authors.
+This repository provides the study's research code, derived results, and figure sources. It is publicly readable and downloadable without requesting access from the authors.
 
-No blanket MIT, GPL, or other open-source license has been assigned to the first-party material. Except for the review and reproduction access described here, rights in that material are reserved by its respective authors. This notice does not grant rights held by upstream software, model, or data providers.
+First-party code is released under the MIT License (see [LICENSE](LICENSE)). First-party derived data, figures, and documentation are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). These grants cover only material created by the authors and do not grant rights held by upstream software, model, or data providers.
 
 Third-party software and model checkpoints must be obtained from their named upstream sources and remain subject to their own terms. Upstream license and attribution notices, where material is redistributed, take precedence over this notice. Public accessibility is not a claim that every dependency has the same license.
 
