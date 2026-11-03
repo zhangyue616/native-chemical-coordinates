@@ -1,0 +1,118 @@
+{
+  "T_output_lock_sha256": "d51ac9b957dea4371507c523f576a9a26fe34ad2f8ae8bdd2934fbf917f799b4",
+  "cases": 2608,
+  "created_utc": "2026-10-17T14:12:58.429578+00:00",
+  "full_Z_readout": "not run",
+  "groups": 1304,
+  "limitations": "Group t-reference approximation; known ID/exact-sequence/Pfam isolation does not rule out residual homology or pretraining overlap",
+  "model_phase_CPU_seconds": 788.4375,
+  "native_cache_sha256": "b2b9f7302da7bc1f258d9a82de5b4422fe565f0ba717d7920ada1c299e393679",
+  "new_fits": 0,
+  "pairs": 1304,
+  "precision": "Actual simultaneous half-widths reported; short-D planning does not guarantee long-T precision",
+  "predictions_sha256": "d799186de27140dfa9ea4de2174786e99f3c5fcfe6e1941a752b22cb50af3c98",
+  "primary": {
+    "alpha": 0.05,
+    "endpoints": [
+      {
+        "CI_95_estimation": [
+          0.010494582338470625,
+          0.023650992019520835
+        ],
+        "CI_98_75_Bonferroni": [
+          0.008685906609393517,
+          0.025459667748597946
+        ],
+        "SD": 0.12108615753475702,
+        "SE": 0.003353171004768141,
+        "actual_half_width_le_0_01": true,
+        "actual_simultaneous_CI_half_width": 0.008386880569602215,
+        "direction": "greater",
+        "mean": 0.01707278717899573,
+        "n_groups": 1304,
+        "name": "gX",
+        "p_Holm": 8.146199268381004e-07,
+        "p_for_Holm": 2.036549817095251e-07,
+        "reject": true,
+        "status": "TESTABLE",
+        "t": 5.091534894796172
+      },
+      {
+        "CI_95_estimation": [
+          0.008687713530243515,
+          0.020255933876372128
+        ],
+        "CI_98_75_Bonferroni": [
+          0.00709737392575435,
+          0.021846273480861295
+        ],
+        "SD": 0.10646911924958358,
+        "SE": 0.002948389566895192,
+        "actual_half_width_le_0_01": true,
+        "actual_simultaneous_CI_half_width": 0.007374449777553473,
+        "direction": "greater",
+        "mean": 0.014471823703307822,
+        "n_groups": 1304,
+        "name": "gS",
+        "p_Holm": 1.4872386680536672e-06,
+        "p_for_Holm": 5.171908526825804e-07,
+        "reject": true,
+        "status": "TESTABLE",
+        "t": 4.9083824830337495
+      },
+      {
+        "CI_95_estimation": [
+          0.011146118994263012,
+          0.02594539412274816
+        ],
+        "CI_98_75_Bonferroni": [
+          0.009111590549061164,
+          0.027979922567950007
+        ],
+        "SD": 0.1362064121634223,
+        "SE": 0.0037718877304268802,
+        "actual_half_width_le_0_01": true,
+        "actual_simultaneous_CI_half_width": 0.009434166009444422,
+        "direction": "greater",
+        "mean": 0.018545756558505586,
+        "n_groups": 1304,
+        "name": "gL",
+        "p_Holm": 1.4872386680536672e-06,
+        "p_for_Holm": 4.957462226845558e-07,
+        "reject": true,
+        "status": "TESTABLE",
+        "t": 4.916836842438755
+      },
+      {
+        "CI_95_estimation": [
+          0.0007282961019707162,
+          0.004473630849405105
+        ],
+        "CI_98_75_Bonferroni": [
+          0.00021340668919188083,
+          0.004988520262183941
+        ],
+        "SD": 0.0344705131751445,
+        "SE": 0.0009545725758552924,
+        "actual_half_width_le_0_01": true,
+        "actual_simultaneous_CI_half_width": 0.00238755678649603,
+        "direction": "two-sided",
+        "mean": 0.002600963475687911,
+        "n_groups": 1304,
+        "name": "psi",
+        "p_Holm": 0.00652127715923928,
+        "p_for_Holm": 0.00652127715923928,
+        "reject": true,
+        "status": "TESTABLE",
+        "t": 2.7247414617557606
+      }
+    ],
+    "family_size": 4,
+    "inference": "Approximate paired group t-reference; residual homology remains a limitation"
+  },
+  "readout_CPU_seconds": 1.625,
+  "secondary_H_regression": "not run",
+  "sequence_forwards": 2608,
+  "status": "PROTEIN_LONG_T_CONFIRMATION_COMPLETE",
+  "transport": "short D (64-256) to long T (257-512)"
+}

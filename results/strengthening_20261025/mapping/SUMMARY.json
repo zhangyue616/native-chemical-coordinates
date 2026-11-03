@@ -1,0 +1,164 @@
+{
+  "schema": "h4-strict-mapping-posthoc-audit/1",
+  "started_utc": "2026-10-25T16:59:06.479365+00:00",
+  "state": "COMPLETE_AUDIT",
+  "input_binding_sha256": "c832fa597a5c98f206b05860ee610a7528743ebf0400521e16836b9876b6322e",
+  "protocol_sha256": "405c10b5274efc631b0dde0d76b1c02547a5882b314ed868917cb4ab1104e030",
+  "planned_model_molecule_denominator": 20000,
+  "models": {
+    "chemberta_mlm": {
+      "family": "chemberta_mlm",
+      "original_molecule_denominator": 10000,
+      "processed_molecules": 10000,
+      "unprocessed_molecules": 0,
+      "category_counts": {
+        "verified_unique_anchor_match": 9835,
+        "ambiguous/unverifiable": 165,
+        "hardfail": 0,
+        "actual_position_disagreement": 0
+      },
+      "reason_subtype_molecule_counts": {
+        "all_graph_indices_have_equal_unique_verified_anchor": 9835,
+        "atom_identity_loss_retained": 4641,
+        "full_offset_defects_retained_anchor_unaffected": 1886,
+        "strict_source_graph_contract_unsupported:original/auxiliary graph edge or stereo mismatch": 114,
+        "strict_anchor_token_source_text_mismatch": 51,
+        "strict_anchor_atom_without_element_anchor": 51,
+        "strict_unique_element_anchor_not_established": 51,
+        "strict_atom_without_anchor": 51
+      },
+      "legacy_parseable_atom_count": 245749,
+      "legacy_position_atom_count": 245749,
+      "strict_graph_atom_count": 242359,
+      "strict_unique_anchor_atom_count": 242296,
+      "definitively_comparable_atom_count": 241267,
+      "actual_position_disagreement_atom_count": 0,
+      "full_offset_blocked_molecule_count": 1937,
+      "element_anchor_blocked_molecule_count": 51,
+      "identity_lossy_molecule_count": 4692,
+      "identity_lossy_atom_count": 8905,
+      "lost_attribute_atom_counts": {
+        "formal_charge": 639,
+        "explicit_hydrogens": 4287,
+        "bracket_boundaries": 6068,
+        "atomic_number": 2984,
+        "stereochemistry": 3907
+      },
+      "full_offset_error_occurrence_counts": {
+        "token_source_text_mismatch": 3330,
+        "atom_without_element_anchor": 63
+      },
+      "full_offset_error_molecule_counts": {
+        "token_source_text_mismatch": 1937,
+        "atom_without_element_anchor": 51
+      },
+      "anchor_error_occurrence_counts": {
+        "atom_without_element_anchor": 63,
+        "token_source_text_mismatch": 63
+      },
+      "anchor_error_molecule_counts": {
+        "atom_without_element_anchor": 51,
+        "token_source_text_mismatch": 51
+      },
+      "lost_syntax_molecule_count": 1888,
+      "encoding_mismatch_molecule_count": 0,
+      "cross_original_tokenizer_encoding_mismatch_count": 0,
+      "exception_molecule_count": 114,
+      "first_actual_disagreement": null,
+      "input_duplicates": {
+        "cid_extra_occurrences": 0,
+        "smiles_extra_occurrences": 0,
+        "whole_row_extra_occurrences": 0,
+        "policy": "all original rows retained"
+      }
+    },
+    "chemberta_mtr": {
+      "family": "chemberta_mtr",
+      "original_molecule_denominator": 10000,
+      "processed_molecules": 10000,
+      "unprocessed_molecules": 0,
+      "category_counts": {
+        "verified_unique_anchor_match": 9835,
+        "ambiguous/unverifiable": 165,
+        "hardfail": 0,
+        "actual_position_disagreement": 0
+      },
+      "reason_subtype_molecule_counts": {
+        "all_graph_indices_have_equal_unique_verified_anchor": 9835,
+        "atom_identity_loss_retained": 4641,
+        "full_offset_defects_retained_anchor_unaffected": 1886,
+        "strict_source_graph_contract_unsupported:original/auxiliary graph edge or stereo mismatch": 114,
+        "strict_anchor_token_source_text_mismatch": 51,
+        "strict_anchor_atom_without_element_anchor": 51,
+        "strict_unique_element_anchor_not_established": 51,
+        "strict_atom_without_anchor": 51
+      },
+      "legacy_parseable_atom_count": 245749,
+      "legacy_position_atom_count": 245749,
+      "strict_graph_atom_count": 242359,
+      "strict_unique_anchor_atom_count": 242296,
+      "definitively_comparable_atom_count": 241267,
+      "actual_position_disagreement_atom_count": 0,
+      "full_offset_blocked_molecule_count": 1937,
+      "element_anchor_blocked_molecule_count": 51,
+      "identity_lossy_molecule_count": 4692,
+      "identity_lossy_atom_count": 8905,
+      "lost_attribute_atom_counts": {
+        "formal_charge": 639,
+        "explicit_hydrogens": 4287,
+        "bracket_boundaries": 6068,
+        "atomic_number": 2984,
+        "stereochemistry": 3907
+      },
+      "full_offset_error_occurrence_counts": {
+        "token_source_text_mismatch": 3330,
+        "atom_without_element_anchor": 63
+      },
+      "full_offset_error_molecule_counts": {
+        "token_source_text_mismatch": 1937,
+        "atom_without_element_anchor": 51
+      },
+      "anchor_error_occurrence_counts": {
+        "atom_without_element_anchor": 63,
+        "token_source_text_mismatch": 63
+      },
+      "anchor_error_molecule_counts": {
+        "atom_without_element_anchor": 51,
+        "token_source_text_mismatch": 51
+      },
+      "lost_syntax_molecule_count": 1888,
+      "encoding_mismatch_molecule_count": 0,
+      "cross_original_tokenizer_encoding_mismatch_count": 0,
+      "exception_molecule_count": 114,
+      "first_actual_disagreement": null,
+      "input_duplicates": {
+        "cid_extra_occurrences": 0,
+        "smiles_extra_occurrences": 0,
+        "whole_row_extra_occurrences": 0,
+        "policy": "all original rows retained"
+      }
+    }
+  },
+  "historical_tokenizer_routing": "both MLM and MTR activation paths call chemberta_tokenizer(), which loads original chemberta_77m_mlm",
+  "interpretation_limit": "element-anchor positions only; identity loss and full-offset defects are retained separately; no old result or scientific population changed",
+  "reused_reference_mapper_engineering_checks": "47/47, not rerun",
+  "adapter_checks": {
+    "checks": 31,
+    "passed": 31
+  },
+  "runtime": {
+    "python": "3.11.15",
+    "rdkit": "2026.03.6",
+    "tokenizers": "0.19.1",
+    "transformers": "4.44.2"
+  },
+  "process_cpu_prior_to_run": 2.921875,
+  "finished_utc": "2026-10-25T16:59:55.587286+00:00",
+  "process_cpu_through_final_summary": 53.375,
+  "processed_model_molecules": 20000,
+  "unprocessed_model_molecules": 0,
+  "classification_sum_checks": {
+    "chemberta_mlm": true,
+    "chemberta_mtr": true
+  }
+}

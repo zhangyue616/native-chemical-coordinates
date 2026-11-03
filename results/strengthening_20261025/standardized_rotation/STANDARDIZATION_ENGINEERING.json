@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": {
+    "chunk_float64_standardize_float32_Q32_matches_scalar_reference": true,
+    "nearconstant_denominator_one_and_retains_464": true
+  },
+  "old_six_statistics_goldens": "reused unchanged, not rerun",
+  "old_evidence_path": ".\\results\\revision_20261017\\chemistry_D\\STATISTICS_ENGINEERING.json",
+  "old_statistical_check_count": 6,
+  "new_model_forwards": 0
+}

@@ -1,0 +1,31 @@
+{
+  "candidate_count": 4,
+  "created_utc": "2026-10-17T13:23:28.435659+00:00",
+  "current_script_sha256": "d8de9b248d1d0d5bb73c9dbef6f61ea9b59c0352b5a80e7b681dfb4d1f6ccfc2",
+  "exact_tie_uses_largest_lambda": true,
+  "lower_Brier_precedes_lambda_tie_break": true,
+  "new_activation_values_read": 0,
+  "new_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "new_http_requests": 0,
+  "new_model_forwards": 0,
+  "new_model_loads": 0,
+  "old_grid": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "planned_fits": 102,
+  "previous_ready_sha256": "84c7ee9b29a68b4d9250be358833468267ff8cc6ec28423ae22de8c8dc1e6dc1",
+  "real_fits_completed": 0,
+  "reused_kernel_solver_script_sha256": "264d2bcf1fe6e1335f96ca6791e7f4a7e55038171c5ae3710ea8ab6a15af165f",
+  "reused_selftest_sha256": "a04fe00d6ced3a4aa5a58d60be3c1c62157d0b5fc78319d652d827b871effc0b",
+  "scope": "D-blind grid revision, production selection and readiness binding only",
+  "status": "PASS",
+  "strictly_increasing": true
+}

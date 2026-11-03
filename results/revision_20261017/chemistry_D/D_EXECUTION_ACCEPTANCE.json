@@ -1,0 +1,70 @@
+{
+  "status": "PASS_D_EXECUTION_RECEIPT_AND_SCHEMA_ACCEPTANCE",
+  "scope": "one consolidated final schema/receipt check; reused existing input/AP/model engineering and cache hash receipts, no scientific recomputation",
+  "handoff_path": ".\\results\\revision_20261017\\chemistry_D\\D_RUN_HANDOFF.json",
+  "winner_path": ".\\results\\revision_20261017\\chemistry_D\\D_FINAL_WINNERS.npz",
+  "D_final_winners_sha256": "04383e2c5ae415c1b9f16675dd9cbc2f86346e829e3ab60721e6a67cb21ad9ca",
+  "winner_shape": [
+    4,
+    10,
+    71
+  ],
+  "candidate_count_per_model_basis_concept": 928,
+  "precision_gate": true,
+  "undefined_D_precision_replicates": 0,
+  "projected_T_max_halfwidth": 0.02140702934662392,
+  "cache": [
+    {
+      "network": "trained",
+      "cache_status": "PASS_D_EXTRACTION",
+      "molecules": 5000,
+      "atom_shape": [
+        124530,
+        464
+      ],
+      "moments": "all7 finite float64[464]"
+    },
+    {
+      "network": "init21000",
+      "cache_status": "PASS_D_EXTRACTION",
+      "molecules": 5000,
+      "atom_shape": [
+        124530,
+        464
+      ],
+      "moments": "all7 finite float64[464]"
+    },
+    {
+      "network": "init21001",
+      "cache_status": "PASS_D_EXTRACTION",
+      "molecules": 5000,
+      "atom_shape": [
+        124530,
+        464
+      ],
+      "moments": "all7 finite float64[464]"
+    },
+    {
+      "network": "init21002",
+      "cache_status": "PASS_D_EXTRACTION",
+      "molecules": 5000,
+      "atom_shape": [
+        124530,
+        464
+      ],
+      "moments": "all7 finite float64[464]"
+    }
+  ],
+  "encoder_cpu_seconds": 237.234375,
+  "statistics_cpu_seconds": 8857.25,
+  "encoder_wall_seconds": 111.98499999998603,
+  "statistics_wall_seconds": 2429.3569999999454,
+  "encoder_remaining_hard_budget_CPU_seconds": 14162.765625,
+  "statistics_remaining_hard_budget_CPU_seconds": 34342.75,
+  "forward_molecule_evaluations": 20000,
+  "T_scientific_reads": 0,
+  "D_OUTPUT_LOCK_created": false,
+  "T_authorized": false,
+  "scientific_T_confirmation": "not executed; D precision is development only",
+  "completed_utc": "2026-10-17T14:37:13.474902+00:00"
+}

@@ -1,0 +1,146 @@
+{
+  "status": "PASS_DATA_BUILD",
+  "completed_at_utc": "2026-10-17T13:38:11.856969+00:00",
+  "data_rule_lock_sha256": "3637235a5ac89af49e044d4aa214f90108cd4065f226de9824645057710070fa",
+  "ready_sha256": "7d1ca4d28e21eed15e20fcaaf6913af7b1cee6f8e3356aea9afa813045f54f86",
+  "source_scan": {
+    "source_lines": 124717116,
+    "all_source_candidates": 249984,
+    "malformed_source_lines": 0,
+    "source_decompression_passes": 1,
+    "ready_sha256": "7d1ca4d28e21eed15e20fcaaf6913af7b1cee6f8e3356aea9afa813045f54f86",
+    "candidate_file_sha256": "3f830f1396f763c7f70b854eb4bb54b0f6d287ef4ab24de356561d65a0deb9f0",
+    "status": "PASS_COMPLETE_SOURCE_SCAN"
+  },
+  "qualification_processed_prefix": {
+    "processed_prefix": 16508,
+    "accepted": 15000,
+    "excluded": {
+      "standardize:heavy_atoms": 949,
+      "standardize:radical_or_isotope": 64,
+      "standardize:element": 56,
+      "standardize:bio_structure": 131,
+      "mapper_gate": 258,
+      "old_canonical_identity": 36,
+      "standardize:parse_fail": 6,
+      "old_cid": 6,
+      "duplicate_new_canonical": 2
+    },
+    "mapper_reasons": {
+      "unsupported_or_invalid_source:original/auxiliary graph edge or stereo mismatch": 166,
+      "atom_without_element_anchor:2": 84,
+      "token_source_text_mismatch:2": 91,
+      "atom_without_element_anchor:3": 6,
+      "token_source_text_mismatch:3": 2,
+      "atom_without_element_anchor:4": 3,
+      "exact_input_is_not_canonical_SMILES": 1,
+      "token_source_text_mismatch:4": 1,
+      "atom_without_element_anchor:5": 1,
+      "atom_without_element_anchor:6": 2,
+      "token_source_text_mismatch:5": 1,
+      "token_source_text_mismatch:6": 1,
+      "atom_without_element_anchor:7": 1,
+      "atom_without_element_anchor:8": 1,
+      "atom_without_element_anchor:9": 1,
+      "token_source_text_mismatch:7": 1,
+      "token_source_text_mismatch:8": 1,
+      "token_source_text_mismatch:9": 1
+    }
+  },
+  "n_D": 5000,
+  "n_T": 10000,
+  "development": {
+    "molecules_D": 5000,
+    "atoms_D": 124530,
+    "n_frozen_definitions": 91,
+    "C_size": 71,
+    "coverage_gate": "PASS",
+    "panel_ids": [
+      0,
+      14,
+      24,
+      1,
+      15,
+      25,
+      2,
+      16,
+      26,
+      3,
+      18,
+      27
+    ],
+    "mechanism_candidate_ids": [
+      24,
+      25,
+      26
+    ],
+    "SMARTS_occurrences": "unique complete substructure matches; function columns=-1, never atom counts",
+    "atom_label_order": "D.tsv order, then RDKit atom index parsed from exact saved canonical SMILES"
+  },
+  "T_boundary": {
+    "input_records_constructed": 10000,
+    "label_calls": 0,
+    "concept_count_calls": 0,
+    "scientific_reads": 0,
+    "activation_calls": 0,
+    "head_output_calls": 0
+  },
+  "execution_ledger": {
+    "model_loads": 0,
+    "model_forwards": 0,
+    "fits": 0,
+    "bootstrap_or_inference": 0
+  },
+  "outputs": {
+    "data/revision_20261017/chemistry/development/D.tsv": {
+      "bytes": 992575,
+      "sha256": "e40b8a81e2aad73d7a66f4030f2ab12948d4ebea2d63539c5b755fb1e2ac31f2"
+    },
+    "data/revision_20261017/chemistry/sealed/T.tsv": {
+      "bytes": 1987478,
+      "sha256": "b1fdc3cb87b03b9cde0bcd8cad5c2a3996c5766296199c1dc77412fc3f6c7494"
+    },
+    "data/revision_20261017/chemistry/development/anchors_D.jsonl.gz": {
+      "bytes": 2140484,
+      "sha256": "b9963f382502d520f01143dfcf0f378ca83de625b8dfd3bd2a2e9ba01f7eb98c"
+    },
+    "data/revision_20261017/chemistry/sealed/anchors_T.jsonl.gz": {
+      "bytes": 4244380,
+      "sha256": "221a9d85d9e85b21ce9701f60fe4bdd89829f9e1485e8899c55b1a6fa589c396"
+    },
+    "data/revision_20261017/chemistry/development/labels_D.npz": {
+      "bytes": 272560,
+      "sha256": "a3c4117202423710d6534b1eaded0a0ef20d6899d2d4440e525b881f780b80a9"
+    },
+    "data/revision_20261017/chemistry/development/atoms_D.npz": {
+      "bytes": 66520,
+      "sha256": "62668f53f0969c30434a0874ef9d5cb5a0e1f864252f7f2685a20e44b28631a0"
+    },
+    "data/revision_20261017/chemistry/development/occurrence_counts_D.npz": {
+      "bytes": 183641,
+      "sha256": "a5b90a5e36e46ab4c5401f1041be36746079dbe1c40c911c689d3416fd4a0a2f"
+    },
+    "data/revision_20261017/chemistry/development/coverage.json": {
+      "bytes": 22296,
+      "sha256": "c45b8499b21dd7fc06994eff73ac677a2789ce03f82139197b0d637bae4df187"
+    },
+    "data/revision_20261017/chemistry/development/panel.json": {
+      "bytes": 1161,
+      "sha256": "cd1d383b6ed714f035a549a984928405c2d2e09f88fb4e0010815ae4e7e49240"
+    },
+    "data/revision_20261017/chemistry/corpus/concepts_91.json": {
+      "bytes": 17777,
+      "sha256": "36ef9b4769a6a02277ac60b1092ff3e02b885e8b491b07e222e49b6e6ee2777d"
+    },
+    "data/revision_20261017/chemistry/corpus/token_collision_counts.json": {
+      "bytes": 453,
+      "sha256": "e8b49401f4e84df33c4fba09222e91a4dfcc343275370656c1ffba696e65ffe5"
+    }
+  },
+  "scope_limitations": [
+    "hash-by-CID molecule split, not scaffold split",
+    "old50k exclusion does not prove absence from MTR pretraining",
+    "prefix exclusion counts do not estimate full-source filter prevalence",
+    "token collisions do not change locked eligibility"
+  ]
+}

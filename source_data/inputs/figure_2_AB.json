@@ -1,0 +1,2078 @@
+{
+  "figure": 2,
+  "version": "finalset_20261102_v03",
+  "source_files": [
+    "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+    "docs/draft_round4_20261027/FIGURE2_SUPPORT_AND_FIGURE3_TRANSFER_FACTS.json"
+  ],
+  "audit": {
+    "models": [
+      {
+        "model": "chemberta_mlm",
+        "H2": {
+          "J1_fold": 2.42536173913757,
+          "J1_p": 0.025,
+          "J2_fold": 1.57709425248941,
+          "J2_p": 0.025,
+          "joint": true,
+          "twin_J1_fold_range": [
+            0.9676684431932805,
+            1.0420230853881944
+          ],
+          "twin_J2_fold_range": [
+            0.9734725998962466,
+            1.024557179404734
+          ]
+        },
+        "H4": {
+          "K": 199,
+          "R": 9,
+          "n_concepts": 173,
+          "J1": {
+            "T_target": 0.8662677549597699,
+            "T_competitors_max": 0.6127458099747292,
+            "T_competitors_median": 0.4951927266389753,
+            "p": 0.005,
+            "E_median_log_ratio": 0.8991045371225832,
+            "win_fraction": 0.7341040462427746,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.8247886833008977,
+            "T_competitors_max": 0.6089406570424376,
+            "T_competitors_median": 0.5016411537456067,
+            "p": 0.005,
+            "E_median_log_ratio": 0.42376540344217944,
+            "win_fraction": 0.5491329479768786,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J1_fold": 2.457401613704458,
+          "J1_fold_ci": [
+            2.171545273439197,
+            3.1573393404649006
+          ],
+          "J2_fold": 1.5277031578395808,
+          "J2_fold_ci": [
+            1.398938956075249,
+            1.7141879101482438
+          ],
+          "supports_familywise": true,
+          "supports_uncorrected": true,
+          "v3_supports": true,
+          "agrees_with_v3_uncorrected": true
+        }
+      },
+      {
+        "model": "chemberta_mtr",
+        "H2": {
+          "J1_fold": 1.7785691705693998,
+          "J1_p": 0.025,
+          "J2_fold": 1.6577209664351764,
+          "J2_p": 0.025,
+          "joint": true,
+          "twin_J1_fold_range": [
+            0.9676684431932805,
+            1.0420230853881944
+          ],
+          "twin_J2_fold_range": [
+            0.9734725998962466,
+            1.024557179404734
+          ]
+        },
+        "H4": {
+          "K": 199,
+          "R": 9,
+          "n_concepts": 173,
+          "J1": {
+            "T_target": 0.6627646905045458,
+            "T_competitors_max": 0.6138495947947832,
+            "T_competitors_median": 0.4960931826763877,
+            "p": 0.005,
+            "E_median_log_ratio": 0.6053587725050646,
+            "win_fraction": 0.5202312138728323,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.8713219275568596,
+            "T_competitors_max": 0.608621140384001,
+            "T_competitors_median": 0.5015830598077091,
+            "p": 0.005,
+            "E_median_log_ratio": 0.5522271974301909,
+            "win_fraction": 0.6184971098265896,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J1_fold": 1.8319093296995521,
+          "J1_fold_ci": [
+            1.554872516742124,
+            2.3025836196666383
+          ],
+          "J2_fold": 1.7371176165492879,
+          "J2_fold_ci": [
+            1.5606403866615506,
+            1.928272135977729
+          ],
+          "supports_familywise": true,
+          "supports_uncorrected": true,
+          "v3_supports": true,
+          "agrees_with_v3_uncorrected": true
+        }
+      },
+      {
+        "model": "chemeleon",
+        "H2": {
+          "J1_fold": 1.1482010205575421,
+          "J1_p": 0.05,
+          "J2_fold": 1.8728923829977921,
+          "J2_p": 0.025,
+          "joint": true,
+          "twin_J1_fold_range": [
+            0.9458447664037568,
+            1.0540745226459887
+          ],
+          "twin_J2_fold_range": [
+            0.9569022975067094,
+            1.0430857986076612
+          ]
+        },
+        "H4": {
+          "K": 199,
+          "R": 9,
+          "n_concepts": 173,
+          "J1": {
+            "T_target": 0.5556394690214077,
+            "T_competitors_max": 0.5741133412728382,
+            "T_competitors_median": 0.5017573416214017,
+            "p": 0.015,
+            "E_median_log_ratio": 0.13283545620456483,
+            "win_fraction": 0.1907514450867052,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.9261916519011242,
+            "T_competitors_max": 0.5724867110117059,
+            "T_competitors_median": 0.49798123565805913,
+            "p": 0.005,
+            "E_median_log_ratio": 0.6766642797111356,
+            "win_fraction": 0.5028901734104047,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J1_fold": 1.1420620636430006,
+          "J1_fold_ci": [
+            1.021917919648823,
+            1.2312365684122066
+          ],
+          "J2_fold": 1.9673043977290794,
+          "J2_fold_ci": [
+            1.8157366592690867,
+            2.208345052067424
+          ],
+          "supports_familywise": false,
+          "supports_uncorrected": true,
+          "v3_supports": true,
+          "agrees_with_v3_uncorrected": true
+        }
+      },
+      {
+        "model": "molclr_gin",
+        "H2": {
+          "J1_fold": 1.7916850349441134,
+          "J1_p": 0.025,
+          "J2_fold": 1.0746001094261288,
+          "J2_p": 0.1,
+          "joint": false,
+          "twin_J1_fold_range": [
+            0.9657571139931765,
+            1.0520121600841823
+          ],
+          "twin_J2_fold_range": [
+            0.9546348235414029,
+            1.0448796537981868
+          ]
+        },
+        "H4": {
+          "K": 199,
+          "R": 9,
+          "n_concepts": 173,
+          "J1": {
+            "T_target": 0.712580242251721,
+            "T_competitors_max": 0.6106253812414675,
+            "T_competitors_median": 0.4948151160426409,
+            "p": 0.005,
+            "E_median_log_ratio": 0.6014071349571877,
+            "win_fraction": 0.44508670520231214,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.5387341330932118,
+            "T_competitors_max": 0.6031893571905772,
+            "T_competitors_median": 0.499375490167601,
+            "p": 0.13,
+            "E_median_log_ratio": 0.05222908735963212,
+            "win_fraction": 0.10982658959537572,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J1_fold": 1.8246845722209462,
+          "J1_fold_ci": [
+            1.4674119557323961,
+            2.4117196978742426
+          ],
+          "J2_fold": 1.0536170852241444,
+          "J2_fold_ci": [
+            0.9814158687883033,
+            1.163929823643711
+          ],
+          "supports_familywise": false,
+          "supports_uncorrected": false,
+          "v3_supports": false,
+          "agrees_with_v3_uncorrected": true
+        }
+      },
+      {
+        "model": "hu_masking",
+        "H2": {
+          "J1_fold": 1.0054373008954673,
+          "J1_p": 0.55,
+          "J2_fold": 0.9706883902539689,
+          "J2_p": 0.95,
+          "joint": false,
+          "twin_J1_fold_range": [
+            0.9554533011489753,
+            1.0781693388266174
+          ],
+          "twin_J2_fold_range": [
+            0.956107561726613,
+            1.0442413678325864
+          ]
+        },
+        "H4": {
+          "K": 199,
+          "R": 9,
+          "n_concepts": 173,
+          "J1": {
+            "T_target": 0.4841258314694861,
+            "T_competitors_max": 0.6142272053911175,
+            "T_competitors_median": 0.49969500682603774,
+            "p": 0.625,
+            "E_median_log_ratio": 0.011700395759543958,
+            "win_fraction": 0.12138728323699421,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.43407790397072066,
+            "T_competitors_max": 0.6193394719261046,
+            "T_competitors_median": 0.5011473552734772,
+            "p": 0.97,
+            "E_median_log_ratio": -0.04845896344477748,
+            "win_fraction": 0.05202312138728324,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J1_fold": 1.0117691131353206,
+          "J1_fold_ci": [
+            0.8414060859960769,
+            1.1484553005579217
+          ],
+          "J2_fold": 0.9526964338834953,
+          "J2_fold_ci": [
+            0.8963915805146613,
+            1.0122616104474922
+          ],
+          "supports_familywise": false,
+          "supports_uncorrected": false,
+          "v3_supports": false,
+          "agrees_with_v3_uncorrected": true
+        }
+      },
+      {
+        "model": "hu_edgepred",
+        "H2": {
+          "J1_fold": 1.009526384321939,
+          "J1_p": 0.425,
+          "J2_fold": 1.0506832205038903,
+          "J2_p": 0.225,
+          "joint": false,
+          "twin_J1_fold_range": [
+            0.9554533011489753,
+            1.0781693388266174
+          ],
+          "twin_J2_fold_range": [
+            0.956107561726613,
+            1.0442413678325864
+          ]
+        },
+        "H4": {
+          "K": 199,
+          "R": 9,
+          "n_concepts": 173,
+          "J1": {
+            "T_target": 0.49690649780695384,
+            "T_competitors_max": 0.6140529235774247,
+            "T_competitors_median": 0.4994916780433961,
+            "p": 0.515,
+            "E_median_log_ratio": -0.0010541493442015604,
+            "win_fraction": 0.23699421965317918,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.5401574345717025,
+            "T_competitors_max": 0.6184680628576408,
+            "T_competitors_median": 0.5008278386150407,
+            "p": 0.11,
+            "E_median_log_ratio": 0.06101083429222059,
+            "win_fraction": 0.14450867052023122,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J1_fold": 0.9989464060760359,
+          "J1_fold_ci": [
+            0.8779931143220034,
+            1.3526575993319427
+          ],
+          "J2_fold": 1.0629104300070153,
+          "J2_fold_ci": [
+            0.998036725919769,
+            1.1402326414014232
+          ],
+          "supports_familywise": false,
+          "supports_uncorrected": false,
+          "v3_supports": false,
+          "agrees_with_v3_uncorrected": true
+        }
+      },
+      {
+        "model": "hu_contextpred",
+        "H2": {
+          "J1_fold": 0.638844994135252,
+          "J1_p": 1.0,
+          "J2_fold": 1.093903872162609,
+          "J2_p": 0.025,
+          "joint": false,
+          "twin_J1_fold_range": [
+            0.9554533011489753,
+            1.0781693388266174
+          ],
+          "twin_J2_fold_range": [
+            0.956107561726613,
+            1.0442413678325864
+          ]
+        },
+        "H4": {
+          "K": 199,
+          "R": 9,
+          "n_concepts": 173,
+          "J1": {
+            "T_target": 0.29325819850698576,
+            "T_competitors_max": 0.6150695674906324,
+            "T_competitors_median": 0.5007116507392454,
+            "p": 1.0,
+            "E_median_log_ratio": -0.4096445851868431,
+            "win_fraction": 0.07514450867052024,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.6215179945972638,
+            "T_competitors_max": 0.6182356871060505,
+            "T_competitors_median": 0.5001888052981671,
+            "p": 0.005,
+            "E_median_log_ratio": 0.09060127484391846,
+            "win_fraction": 0.1329479768786127,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J1_fold": 0.6638861631869861,
+          "J1_fold_ci": [
+            0.5160112239309299,
+            0.7691598377196261
+          ],
+          "J2_fold": 1.0948323810057137,
+          "J2_fold_ci": [
+            1.0628002927849225,
+            1.1575062508838698
+          ],
+          "supports_familywise": false,
+          "supports_uncorrected": false,
+          "v3_supports": false,
+          "agrees_with_v3_uncorrected": true
+        }
+      },
+      {
+        "model": "hu_infomax",
+        "H2": {
+          "J1_fold": 0.7089023086754593,
+          "J1_p": 1.0,
+          "J2_fold": 1.2867676865414508,
+          "J2_p": 0.025,
+          "joint": false,
+          "twin_J1_fold_range": [
+            0.9554533011489753,
+            1.0781693388266174
+          ],
+          "twin_J2_fold_range": [
+            0.956107561726613,
+            1.0442413678325864
+          ]
+        },
+        "H4": {
+          "K": 199,
+          "R": 9,
+          "n_concepts": 173,
+          "J1": {
+            "T_target": 0.33194876114677435,
+            "T_competitors_max": 0.6147790978011445,
+            "T_competitors_median": 0.5004502280187063,
+            "p": 1.0,
+            "E_median_log_ratio": -0.4600093203927307,
+            "win_fraction": 0.1329479768786127,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.698172945653121,
+            "T_competitors_max": 0.6179742643855114,
+            "T_competitors_median": 0.500072617422372,
+            "p": 0.005,
+            "E_median_log_ratio": 0.21526391775410894,
+            "win_fraction": 0.15028901734104047,
+            "chance_win": 0.005,
+            "n_competitors": 199,
+            "n_concepts": 173
+          },
+          "J1_fold": 0.631277761722845,
+          "J1_fold_ci": [
+            0.4957489728777489,
+            0.8202082093930796
+          ],
+          "J2_fold": 1.2401891617169039,
+          "J2_fold_ci": [
+            1.1392769792977886,
+            1.3286752419672363
+          ],
+          "supports_familywise": false,
+          "supports_uncorrected": false,
+          "v3_supports": false,
+          "agrees_with_v3_uncorrected": true
+        }
+      }
+    ],
+    "molformer_primary": {
+      "K": 199,
+      "n_concepts": 173,
+      "layer": "L9",
+      "J1": {
+        "p": 0.005,
+        "T_target": 0.8125018154355592,
+        "T_twins_max": 0.6061811949923026,
+        "E": 0.7781390217172821,
+        "fold": 2.1774163681267655,
+        "fold_ci_conditional_on_layer": [
+          1.850562536393973,
+          2.529215304145482
+        ],
+        "win_share": 0.6647398843930635,
+        "twins_loo_fold_2p5_97p5": [
+          1.0008337840961796,
+          1.024795016700318
+        ],
+        "twins_loo_fold_range": [
+          0.999138728014424,
+          1.0297136129521758
+        ],
+        "twins_win_share_2p5_97p5": [
+          0.0,
+          0.023121387283236993
+        ]
+      },
+      "J2": {
+        "p": 0.005,
+        "p_free": 0.005,
+        "layer_free": "L9",
+        "free_same_as_J1_layer": true,
+        "T_target": 0.761872948557818,
+        "T_twins_max": 0.6049757457809277,
+        "E": 0.2963173978628163,
+        "fold": 1.3448969565155222,
+        "fold_ci_conditional_on_layer": [
+          1.2552383069347077,
+          1.4283058187446802
+        ],
+        "win_share": 0.4277456647398844,
+        "twins_loo_fold_2p5_97p5": [
+          0.9979331799615274,
+          1.0191686587726474
+        ],
+        "twins_loo_fold_range": [
+          0.99357118807487,
+          1.0315504482238245
+        ],
+        "twins_win_share_2p5_97p5": [
+          0.0,
+          0.01763005780346811
+        ]
+      },
+      "T1_by_layer_target": {
+        "L0": 0.5181543555929939,
+        "L1": 0.6268481133993667,
+        "L2": 0.7186801057309669,
+        "L3": 0.7528974351526417,
+        "L4": 0.7682051877886543,
+        "L5": 0.8026548929619194,
+        "L6": 0.7948993522525925,
+        "L7": 0.7248671101170593,
+        "L8": 0.7893513811833736,
+        "L9": 0.8125018154355592,
+        "L10": 0.7967002643274174,
+        "L11": 0.6671217358468643
+      },
+      "T2_by_layer_target": {
+        "L0": 0.5597931855810847,
+        "L1": 0.6585819269759201,
+        "L2": 0.5866616318587156,
+        "L3": 0.6580009875969443,
+        "L4": 0.6376971563017398,
+        "L5": 0.6842884944955995,
+        "L6": 0.6808609521596422,
+        "L7": 0.7163563482150638,
+        "L8": 0.747756121648706,
+        "L9": 0.761872948557818,
+        "L10": 0.7546693002585181,
+        "L11": 0.6303192261887471
+      },
+      "twins_J1_layer_counts": {
+        "L0": 17,
+        "L1": 24,
+        "L2": 16,
+        "L3": 15,
+        "L4": 21,
+        "L5": 14,
+        "L6": 14,
+        "L7": 16,
+        "L8": 16,
+        "L9": 19,
+        "L10": 11,
+        "L11": 16
+      },
+      "twins_T1_by_layer_median": {
+        "L0": 0.501249019664798,
+        "L1": 0.5010892613355796,
+        "L2": 0.49888169169547153,
+        "L3": 0.5005373689255526,
+        "L4": 0.5005954628634502,
+        "L5": 0.4982426583785981,
+        "L6": 0.49792314172016156,
+        "L7": 0.5003921340808086,
+        "L8": 0.4963691288814012,
+        "L9": 0.4985621750370348,
+        "L10": 0.4996369128881401,
+        "L11": 0.4972841084032881
+      },
+      "twins_T1_by_layer_97p5": {
+        "L0": 0.5561594097655909,
+        "L1": 0.5501474133674149,
+        "L2": 0.5574200482179684,
+        "L3": 0.5489775466930026,
+        "L4": 0.5513964330322131,
+        "L5": 0.553205333023499,
+        "L6": 0.5572573851918552,
+        "L7": 0.5521153455136956,
+        "L8": 0.5561492433264589,
+        "L9": 0.5530223371191216,
+        "L10": 0.5522758300171376,
+        "L11": 0.5600887384901385
+      },
+      "twins_T2_by_layer_median": {
+        "L0": 0.4990559735091643,
+        "L1": 0.49989833560867936,
+        "L2": 0.49893978563336905,
+        "L3": 0.49885264472652285,
+        "L4": 0.4991285909315363,
+        "L5": 0.4983297992854445,
+        "L6": 0.4987364568507276,
+        "L7": 0.498896215179946,
+        "L8": 0.49803932959595665,
+        "L9": 0.4986202689749325,
+        "L10": 0.4994771545589217,
+        "L11": 0.5002759462050135
+      },
+      "twins_T2_by_layer_97p5": {
+        "L0": 0.551414587387806,
+        "L1": 0.5499956429546576,
+        "L2": 0.5472347285560752,
+        "L3": 0.5463996281987975,
+        "L4": 0.5523150434252185,
+        "L5": 0.5572428617073808,
+        "L6": 0.5476050774101722,
+        "L7": 0.5611903447875215,
+        "L8": 0.5515278705667064,
+        "L9": 0.5518793388909866,
+        "L10": 0.5462340604757893,
+        "L11": 0.5473719754843582
+      },
+      "pattern": {
+        "J1_pass": true,
+        "J2_pass": true
+      },
+      "outcome": "O1",
+      "outcome_label": "supported, both p = 0.005 (first of 200 networks)",
+      "supports_uncorrected": true,
+      "supports_v5_level": true
+    },
+    "alpha_v5": 0.00625,
+    "alpha_v6": 0.05,
+    "sources": [
+      "lineB/figures/fig3_numbers.json",
+      "lineB/results_v3/gates_v3.json",
+      "lineB/results_v5/gates_v5.json",
+      "lineB/results_v6/gates_v6.json"
+    ],
+    "notes": [
+      "H2 open and H4 filled markers encode cohort only.",
+      "Thin connections pair the two cohorts; they are not training trajectories.",
+      "No significance quadrants or imputed H2 MoLFormer point."
+    ],
+    "new_fits_forwards_bootstraps_p_tests": 0
+  },
+  "depth": [
+    {
+      "metric": "J1",
+      "values": [
+        1.01939572234126,
+        1.148304355430735,
+        1.2332915741868686,
+        1.3388787178574515,
+        1.5261498295960536,
+        1.7249171195671265,
+        1.7337573534267001,
+        1.6311890213753262,
+        1.7028256723926238,
+        2.1774163681267655,
+        1.9502058074744273,
+        1.454597301474328
+      ]
+    },
+    {
+      "metric": "J2",
+      "values": [
+        1.0489025027061485,
+        1.1259648409704328,
+        1.0493583781222129,
+        1.129477839483387,
+        1.1258304886400698,
+        1.2423955257337072,
+        1.162398190988498,
+        1.2886168562463767,
+        1.275648367397214,
+        1.3448969565155222,
+        1.2334410032274232,
+        1.1170707506358823
+      ]
+    }
+  ],
+  "point_count": 58,
+  "A_points": 34,
+  "B_points": 24,
+  "source_display_records": [
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[0].H2.J1_fold",
+      "checkpoint": "ChemBERTa-77M-MLM",
+      "metric": "J1",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 2.42536173913757,
+      "plotted_value": 2.42536173913757,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[0].H4.J1_fold",
+      "checkpoint": "ChemBERTa-77M-MLM",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 2.457401613704458,
+      "plotted_value": 2.457401613704458,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[1].H2.J1_fold",
+      "checkpoint": "ChemBERTa-77M-MTR",
+      "metric": "J1",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.7785691705693998,
+      "plotted_value": 1.7785691705693998,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[1].H4.J1_fold",
+      "checkpoint": "ChemBERTa-77M-MTR",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.8319093296995521,
+      "plotted_value": 1.8319093296995521,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[2].H2.J1_fold",
+      "checkpoint": "CheMeleon",
+      "metric": "J1",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.1482010205575421,
+      "plotted_value": 1.1482010205575421,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[2].H4.J1_fold",
+      "checkpoint": "CheMeleon",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.1420620636430006,
+      "plotted_value": 1.1420620636430006,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[3].H2.J1_fold",
+      "checkpoint": "MolCLR GIN",
+      "metric": "J1",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.7916850349441134,
+      "plotted_value": 1.7916850349441134,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[3].H4.J1_fold",
+      "checkpoint": "MolCLR GIN",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.8246845722209462,
+      "plotted_value": 1.8246845722209462,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[4].H2.J1_fold",
+      "checkpoint": "Hu masking",
+      "metric": "J1",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.0054373008954673,
+      "plotted_value": 1.0054373008954673,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[4].H4.J1_fold",
+      "checkpoint": "Hu masking",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.0117691131353206,
+      "plotted_value": 1.0117691131353206,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[5].H2.J1_fold",
+      "checkpoint": "Hu edgepred",
+      "metric": "J1",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.009526384321939,
+      "plotted_value": 1.009526384321939,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[5].H4.J1_fold",
+      "checkpoint": "Hu edgepred",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 0.9989464060760359,
+      "plotted_value": 0.9989464060760359,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[6].H2.J1_fold",
+      "checkpoint": "Hu contextpred",
+      "metric": "J1",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 0.638844994135252,
+      "plotted_value": 0.638844994135252,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[6].H4.J1_fold",
+      "checkpoint": "Hu contextpred",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 0.6638861631869861,
+      "plotted_value": 0.6638861631869861,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[7].H2.J1_fold",
+      "checkpoint": "Hu infomax",
+      "metric": "J1",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 0.7089023086754593,
+      "plotted_value": 0.7089023086754593,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[7].H4.J1_fold",
+      "checkpoint": "Hu infomax",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 0.631277761722845,
+      "plotted_value": 0.631277761722845,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.molformer_primary.J1.fold",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 2.1774163681267655,
+      "plotted_value": 2.1774163681267655,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[0].H2.J2_fold",
+      "checkpoint": "ChemBERTa-77M-MLM",
+      "metric": "J2",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.57709425248941,
+      "plotted_value": 1.57709425248941,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[0].H4.J2_fold",
+      "checkpoint": "ChemBERTa-77M-MLM",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.5277031578395808,
+      "plotted_value": 1.5277031578395808,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[1].H2.J2_fold",
+      "checkpoint": "ChemBERTa-77M-MTR",
+      "metric": "J2",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.6577209664351764,
+      "plotted_value": 1.6577209664351764,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[1].H4.J2_fold",
+      "checkpoint": "ChemBERTa-77M-MTR",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.7371176165492879,
+      "plotted_value": 1.7371176165492879,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[2].H2.J2_fold",
+      "checkpoint": "CheMeleon",
+      "metric": "J2",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.8728923829977921,
+      "plotted_value": 1.8728923829977921,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[2].H4.J2_fold",
+      "checkpoint": "CheMeleon",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.9673043977290794,
+      "plotted_value": 1.9673043977290794,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[3].H2.J2_fold",
+      "checkpoint": "MolCLR GIN",
+      "metric": "J2",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.0746001094261288,
+      "plotted_value": 1.0746001094261288,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[3].H4.J2_fold",
+      "checkpoint": "MolCLR GIN",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.0536170852241444,
+      "plotted_value": 1.0536170852241444,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[4].H2.J2_fold",
+      "checkpoint": "Hu masking",
+      "metric": "J2",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 0.9706883902539689,
+      "plotted_value": 0.9706883902539689,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[4].H4.J2_fold",
+      "checkpoint": "Hu masking",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 0.9526964338834953,
+      "plotted_value": 0.9526964338834953,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[5].H2.J2_fold",
+      "checkpoint": "Hu edgepred",
+      "metric": "J2",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.0506832205038903,
+      "plotted_value": 1.0506832205038903,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[5].H4.J2_fold",
+      "checkpoint": "Hu edgepred",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.0629104300070153,
+      "plotted_value": 1.0629104300070153,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[6].H2.J2_fold",
+      "checkpoint": "Hu contextpred",
+      "metric": "J2",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.093903872162609,
+      "plotted_value": 1.093903872162609,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[6].H4.J2_fold",
+      "checkpoint": "Hu contextpred",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.0948323810057137,
+      "plotted_value": 1.0948323810057137,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[7].H2.J2_fold",
+      "checkpoint": "Hu infomax",
+      "metric": "J2",
+      "condition": "Earlier cohort",
+      "value_role": "point",
+      "source_value": 1.2867676865414508,
+      "plotted_value": 1.2867676865414508,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 4.5,
+      "marker_fill": "hollow"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.models[7].H4.J2_fold",
+      "checkpoint": "Hu infomax",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.2401891617169039,
+      "plotted_value": 1.2401891617169039,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "A",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "audit.molformer_primary.J2.fold",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Primary cohort",
+      "value_role": "point",
+      "source_value": 1.3448969565155222,
+      "plotted_value": 1.3448969565155222,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[0]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 1",
+      "value_role": "point",
+      "source_value": 1.01939572234126,
+      "plotted_value": 1.01939572234126,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[1]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 2",
+      "value_role": "point",
+      "source_value": 1.148304355430735,
+      "plotted_value": 1.148304355430735,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[2]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 3",
+      "value_role": "point",
+      "source_value": 1.2332915741868686,
+      "plotted_value": 1.2332915741868686,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[3]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 4",
+      "value_role": "point",
+      "source_value": 1.3388787178574515,
+      "plotted_value": 1.3388787178574515,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[4]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 5",
+      "value_role": "point",
+      "source_value": 1.5261498295960536,
+      "plotted_value": 1.5261498295960536,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[5]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 6",
+      "value_role": "point",
+      "source_value": 1.7249171195671265,
+      "plotted_value": 1.7249171195671265,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[6]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 7",
+      "value_role": "point",
+      "source_value": 1.7337573534267001,
+      "plotted_value": 1.7337573534267001,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[7]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 8",
+      "value_role": "point",
+      "source_value": 1.6311890213753262,
+      "plotted_value": 1.6311890213753262,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[8]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 9",
+      "value_role": "point",
+      "source_value": 1.7028256723926238,
+      "plotted_value": 1.7028256723926238,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[9]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 10",
+      "value_role": "point",
+      "source_value": 2.1774163681267655,
+      "plotted_value": 2.1774163681267655,
+      "marker_color": "#EE7733",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[10]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 11",
+      "value_role": "point",
+      "source_value": 1.9502058074744273,
+      "plotted_value": 1.9502058074744273,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[0].values[11]",
+      "checkpoint": "MoLFormer",
+      "metric": "J1",
+      "condition": "Layer 12",
+      "value_role": "point",
+      "source_value": 1.454597301474328,
+      "plotted_value": 1.454597301474328,
+      "marker_color": "#33BBEE",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[0]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 1",
+      "value_role": "point",
+      "source_value": 1.0489025027061485,
+      "plotted_value": 1.0489025027061485,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[1]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 2",
+      "value_role": "point",
+      "source_value": 1.1259648409704328,
+      "plotted_value": 1.1259648409704328,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[2]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 3",
+      "value_role": "point",
+      "source_value": 1.0493583781222129,
+      "plotted_value": 1.0493583781222129,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[3]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 4",
+      "value_role": "point",
+      "source_value": 1.129477839483387,
+      "plotted_value": 1.129477839483387,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[4]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 5",
+      "value_role": "point",
+      "source_value": 1.1258304886400698,
+      "plotted_value": 1.1258304886400698,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[5]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 6",
+      "value_role": "point",
+      "source_value": 1.2423955257337072,
+      "plotted_value": 1.2423955257337072,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[6]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 7",
+      "value_role": "point",
+      "source_value": 1.162398190988498,
+      "plotted_value": 1.162398190988498,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[7]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 8",
+      "value_role": "point",
+      "source_value": 1.2886168562463767,
+      "plotted_value": 1.2886168562463767,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[8]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 9",
+      "value_role": "point",
+      "source_value": 1.275648367397214,
+      "plotted_value": 1.275648367397214,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[9]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 10",
+      "value_role": "point",
+      "source_value": 1.3448969565155222,
+      "plotted_value": 1.3448969565155222,
+      "marker_color": "#EE7733",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[10]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 11",
+      "value_role": "point",
+      "source_value": 1.2334410032274232,
+      "plotted_value": 1.2334410032274232,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    },
+    {
+      "new_panel": "B",
+      "source_file": "manuscript/draft_round3_20261026/figures/figure_2_plot_data.json",
+      "source_key": "depth[1].values[11]",
+      "checkpoint": "MoLFormer",
+      "metric": "J2",
+      "condition": "Layer 12",
+      "value_role": "point",
+      "source_value": 1.1170707506358823,
+      "plotted_value": 1.1170707506358823,
+      "marker_color": "#EE3377",
+      "marker_size_pt": 6.5,
+      "marker_fill": "solid"
+    }
+  ],
+  "support_matrix_records": [
+    {
+      "checkpoint": "ChemBERTa-77M-MLM",
+      "cells": [
+        [
+          "#33BBEE",
+          "#EE3377"
+        ],
+        [
+          "#33BBEE",
+          "#EE3377"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": 0.8991045371225832,
+          "raw_p": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[0].criteria.J1"
+        },
+        {
+          "metric": "J2",
+          "E": 0.42376540344217944,
+          "raw_p": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[0].criteria.J2"
+        }
+      ],
+      "formal_threshold": 0.00625,
+      "scope": "Primary eight-checkpoint family"
+    },
+    {
+      "checkpoint": "ChemBERTa-77M-MTR",
+      "cells": [
+        [
+          "#33BBEE",
+          "#EE3377"
+        ],
+        [
+          "#33BBEE",
+          "#EE3377"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": 0.6053587725050646,
+          "raw_p": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[1].criteria.J1"
+        },
+        {
+          "metric": "J2",
+          "E": 0.5522271974301909,
+          "raw_p": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[1].criteria.J2"
+        }
+      ],
+      "formal_threshold": 0.00625,
+      "scope": "Primary eight-checkpoint family"
+    },
+    {
+      "checkpoint": "CheMeleon",
+      "cells": [
+        [
+          "#33BBEE",
+          "#EE3377"
+        ],
+        [
+          "#BBBBBB",
+          "#EE3377"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": 0.13283545620456483,
+          "raw_p": 0.015,
+          "Direction": true,
+          "Calibrated": false,
+          "nominal_only": true,
+          "source_field": "primary_support_rows[2].criteria.J1"
+        },
+        {
+          "metric": "J2",
+          "E": 0.6766642797111356,
+          "raw_p": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[2].criteria.J2"
+        }
+      ],
+      "formal_threshold": 0.00625,
+      "scope": "Primary eight-checkpoint family"
+    },
+    {
+      "checkpoint": "MolCLR GIN",
+      "cells": [
+        [
+          "#33BBEE",
+          "#EE3377"
+        ],
+        [
+          "#33BBEE",
+          "#FFFFFF"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": 0.6014071349571877,
+          "raw_p": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[3].criteria.J1"
+        },
+        {
+          "metric": "J2",
+          "E": 0.05222908735963212,
+          "raw_p": 0.13,
+          "Direction": true,
+          "Calibrated": false,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[3].criteria.J2"
+        }
+      ],
+      "formal_threshold": 0.00625,
+      "scope": "Primary eight-checkpoint family"
+    },
+    {
+      "checkpoint": "Hu masking",
+      "cells": [
+        [
+          "#33BBEE",
+          "#FFFFFF"
+        ],
+        [
+          "#FFFFFF",
+          "#FFFFFF"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": 0.011700395759543958,
+          "raw_p": 0.625,
+          "Direction": true,
+          "Calibrated": false,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[4].criteria.J1"
+        },
+        {
+          "metric": "J2",
+          "E": -0.04845896344477748,
+          "raw_p": 0.97,
+          "Direction": false,
+          "Calibrated": false,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[4].criteria.J2"
+        }
+      ],
+      "formal_threshold": 0.00625,
+      "scope": "Primary eight-checkpoint family"
+    },
+    {
+      "checkpoint": "Hu edgepred",
+      "cells": [
+        [
+          "#FFFFFF",
+          "#EE3377"
+        ],
+        [
+          "#FFFFFF",
+          "#FFFFFF"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": -0.0010541493442015604,
+          "raw_p": 0.515,
+          "Direction": false,
+          "Calibrated": false,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[5].criteria.J1"
+        },
+        {
+          "metric": "J2",
+          "E": 0.06101083429222059,
+          "raw_p": 0.11,
+          "Direction": true,
+          "Calibrated": false,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[5].criteria.J2"
+        }
+      ],
+      "formal_threshold": 0.00625,
+      "scope": "Primary eight-checkpoint family"
+    },
+    {
+      "checkpoint": "Hu contextpred",
+      "cells": [
+        [
+          "#FFFFFF",
+          "#EE3377"
+        ],
+        [
+          "#FFFFFF",
+          "#EE3377"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": -0.4096445851868431,
+          "raw_p": 1.0,
+          "Direction": false,
+          "Calibrated": false,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[6].criteria.J1"
+        },
+        {
+          "metric": "J2",
+          "E": 0.09060127484391846,
+          "raw_p": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[6].criteria.J2"
+        }
+      ],
+      "formal_threshold": 0.00625,
+      "scope": "Primary eight-checkpoint family"
+    },
+    {
+      "checkpoint": "Hu infomax",
+      "cells": [
+        [
+          "#FFFFFF",
+          "#EE3377"
+        ],
+        [
+          "#FFFFFF",
+          "#EE3377"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": -0.4600093203927307,
+          "raw_p": 1.0,
+          "Direction": false,
+          "Calibrated": false,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[7].criteria.J1"
+        },
+        {
+          "metric": "J2",
+          "E": 0.21526391775410894,
+          "raw_p": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "primary_support_rows[7].criteria.J2"
+        }
+      ],
+      "formal_threshold": 0.00625,
+      "scope": "Primary eight-checkpoint family"
+    },
+    {
+      "checkpoint": "MoLFormer",
+      "cells": [
+        [
+          "#33BBEE",
+          "#EE3377"
+        ],
+        [
+          "#33BBEE",
+          "#EE3377"
+        ]
+      ],
+      "criteria": [
+        {
+          "metric": "J1",
+          "E": 0.7781390217172821,
+          "raw_p": 0.005,
+          "p_free": null,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "molformer_independent_G6.primary_J1"
+        },
+        {
+          "metric": "J2",
+          "E": 0.2963173978628163,
+          "raw_p": 0.005,
+          "p_free": 0.005,
+          "Direction": true,
+          "Calibrated": true,
+          "nominal_only": false,
+          "source_field": "molformer_independent_G6.primary_J2"
+        }
+      ],
+      "formal_threshold": 0.05,
+      "scope": "independent layer-calibrated G6; J2 includes free-max",
+      "G6_pass": true,
+      "part_of_eight_checkpoint_family": false
+    }
+  ],
+  "support_matrix_rows": [
+    "Direction",
+    "Calibrated"
+  ],
+  "support_matrix_columns": [
+    "J1",
+    "J2"
+  ],
+  "Support_scope": "Primary only",
+  "selected_natural_layer": 10,
+  "smoothing": false,
+  "scientific_values_copied_exactly": true,
+  "new_scientific_computation": false,
+  "physical_layout": {
+    "shared_state_glyphs": [
+      {
+        "kind": "state_matrix",
+        "bounds_in": [
+          2.56,
+          3.85,
+          2.72,
+          4.01
+        ],
+        "placement_in": [
+          2.56,
+          3.85,
+          0.16,
+          0.16
+        ],
+        "column_order": [
+          "Native",
+          "Rotated"
+        ],
+        "row_order_top_to_bottom": [
+          "Trained",
+          "Initialization"
+        ],
+        "marker_order": [
+          "filled o",
+          "filled D",
+          "open o",
+          "open D"
+        ],
+        "centers_in": {
+          "trained_native": [
+            2.6,
+            3.97
+          ],
+          "trained_rotated": [
+            2.68,
+            3.97
+          ],
+          "init_native": [
+            2.6,
+            3.89
+          ],
+          "init_rotated": [
+            2.68,
+            3.89
+          ]
+        },
+        "arrows": [
+          {
+            "role": "J1",
+            "start_in": [
+              2.6,
+              3.89
+            ],
+            "end_in": [
+              2.6,
+              3.97
+            ],
+            "color": "#33BBEE"
+          },
+          {
+            "role": "reference",
+            "start_in": [
+              2.68,
+              3.89
+            ],
+            "end_in": [
+              2.6,
+              3.89
+            ],
+            "color": "#999999"
+          }
+        ],
+        "metric": "J1",
+        "schematic_not_statistical_values": true
+      },
+      {
+        "kind": "state_matrix",
+        "bounds_in": [
+          4.91,
+          3.85,
+          5.07,
+          4.01
+        ],
+        "placement_in": [
+          4.91,
+          3.85,
+          0.16,
+          0.16
+        ],
+        "column_order": [
+          "Native",
+          "Rotated"
+        ],
+        "row_order_top_to_bottom": [
+          "Trained",
+          "Initialization"
+        ],
+        "marker_order": [
+          "filled o",
+          "filled D",
+          "open o",
+          "open D"
+        ],
+        "centers_in": {
+          "trained_native": [
+            4.95,
+            3.97
+          ],
+          "trained_rotated": [
+            5.03,
+            3.97
+          ],
+          "init_native": [
+            4.95,
+            3.89
+          ],
+          "init_rotated": [
+            5.03,
+            3.89
+          ]
+        },
+        "arrows": [
+          {
+            "role": "J2",
+            "start_in": [
+              5.03,
+              3.97
+            ],
+            "end_in": [
+              4.95,
+              3.97
+            ],
+            "color": "#EE3377"
+          },
+          {
+            "role": "reference",
+            "start_in": [
+              5.03,
+              3.89
+            ],
+            "end_in": [
+              4.95,
+              3.89
+            ],
+            "color": "#999999"
+          }
+        ],
+        "metric": "J2",
+        "schematic_not_statistical_values": true
+      }
+    ],
+    "pre_crop_canvas_in": [
+      7.0,
+      4.2
+    ],
+    "A_panel_height_in": 2.7,
+    "A_axes_physical_bounds_in": [
+      [
+        1.5,
+        1.845,
+        2.1,
+        1.98
+      ],
+      [
+        3.85,
+        1.845,
+        2.1,
+        1.98
+      ]
+    ],
+    "A_effective_data_axes_width_sum_in": 4.2,
+    "A_width_fraction_of_canvas": 0.6,
+    "A_checkpoint_row_spacing_in": 0.22,
+    "A_cohort_subrow_gap_in": 0.07919999999999999,
+    "A_marker_sizes_pt": {
+      "earlier": 4.5,
+      "primary": 6.5
+    },
+    "A_cohort_fills": {
+      "earlier": "hollow",
+      "primary": "solid"
+    },
+    "A_primary_marker_edge_pt": 0.5,
+    "A_MTR_row_band": {
+      "color": "#EE7733",
+      "alpha": 0.1,
+      "height_in": 0.22,
+      "bold_label": true
+    },
+    "B_axes_physical_bounds_in": [
+      [
+        0.99,
+        0.43,
+        2.3,
+        0.9
+      ],
+      [
+        4.34,
+        0.43,
+        2.3,
+        0.9
+      ]
+    ],
+    "B_profile_height_each_in": 0.9,
+    "Support_cell_height_in": 0.075,
+    "Support_cell_width_in": 0.12,
+    "Support_colors": {
+      "pass_J1": "#33BBEE",
+      "pass_J2": "#EE3377",
+      "nominal_only": "#BBBBBB",
+      "fail": "#FFFFFF"
+    },
+    "metric_colors": {
+      "J1": "#33BBEE",
+      "J2": "#EE3377"
+    },
+    "reference_lines": {
+      "color": "#999999",
+      "linewidth_pt": 0.5,
+      "linestyle": "--"
+    },
+    "deleted_visible_items": [
+      "CID 22326 chemical glyph and its two labels",
+      "G6 cal."
+    ],
+    "minimum_font_pt": 7,
+    "whole_figure_scaling": false,
+    "new_statistics_or_models": 0
+  }
+}

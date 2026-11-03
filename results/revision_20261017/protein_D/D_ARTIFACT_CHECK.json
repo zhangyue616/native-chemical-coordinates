@@ -1,0 +1,18 @@
+{
+  "N_req": 1304,
+  "T_authorized": false,
+  "checks": [
+    "102 completed fits, 17 per model",
+    "OOF 432x4 and group 421x4, numeric arrays finite",
+    "group never straddles folds",
+    "six selected probabilities bounded",
+    "six final 432-coefficient models finite, frozen grid",
+    "new HTTP/model-load/forward all zero"
+  ],
+  "created_utc": "2026-10-17T13:25:00.658910+00:00",
+  "no_refitting_or_old_acceptance_repetition": true,
+  "precision_status": "PRECISION_TARGET_FEASIBLE_PENDING_FRESH_SOURCE",
+  "source_gate": "OPEN; 2074 metadata upper-bound components do not establish 1304 eligible fresh final groups",
+  "status": "D_ARTIFACT_PASS_SOURCE_GATE_OPEN",
+  "target": 1304
+}

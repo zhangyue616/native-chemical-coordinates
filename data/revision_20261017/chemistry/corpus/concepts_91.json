@@ -1,0 +1,730 @@
+[
+  {
+    "id": 0,
+    "name": "topo:ring3",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:ring3",
+    "partition": "readable"
+  },
+  {
+    "id": 1,
+    "name": "topo:ring4",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:ring4",
+    "partition": "readable"
+  },
+  {
+    "id": 2,
+    "name": "topo:ring5",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:ring5",
+    "partition": "readable"
+  },
+  {
+    "id": 3,
+    "name": "topo:ring6",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:ring6",
+    "partition": "readable"
+  },
+  {
+    "id": 4,
+    "name": "topo:ring7",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:ring7",
+    "partition": "readable"
+  },
+  {
+    "id": 5,
+    "name": "topo:ring8",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:ring8",
+    "partition": "readable"
+  },
+  {
+    "id": 6,
+    "name": "topo:ring_ge9",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:ring_ge9",
+    "partition": "readable"
+  },
+  {
+    "id": 7,
+    "name": "topo:fused_ring_atom",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:fused_ring_atom",
+    "partition": "readable"
+  },
+  {
+    "id": 8,
+    "name": "topo:spiro_atom",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:spiro_atom",
+    "partition": "readable"
+  },
+  {
+    "id": 9,
+    "name": "topo:stereocenter",
+    "source": "topology",
+    "kind": "function",
+    "definition": "topo:stereocenter",
+    "partition": "readable"
+  },
+  {
+    "id": 10,
+    "name": "topo:pyridine_type_N",
+    "source": "topology",
+    "kind": "smarts",
+    "definition": "[n;X2;H0]",
+    "partition": "readable"
+  },
+  {
+    "id": 11,
+    "name": "topo:pyrrole_type_N",
+    "source": "topology",
+    "kind": "smarts",
+    "definition": "[n;H1,X3]",
+    "partition": "readable"
+  },
+  {
+    "id": 12,
+    "name": "topo:aromatic_O",
+    "source": "topology",
+    "kind": "smarts",
+    "definition": "[o]",
+    "partition": "readable"
+  },
+  {
+    "id": 13,
+    "name": "topo:aromatic_S",
+    "source": "topology",
+    "kind": "smarts",
+    "definition": "[s]",
+    "partition": "readable"
+  },
+  {
+    "id": 14,
+    "name": "fg:CarboxylicAcid",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "C(=O)[O;H,-]",
+    "partition": "readable"
+  },
+  {
+    "id": 15,
+    "name": "fg:CarboxylicAcid.Aromatic",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[$(C-!@[a])](=O)([O;H,-])",
+    "partition": "readable"
+  },
+  {
+    "id": 16,
+    "name": "fg:CarboxylicAcid.Aliphatic",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[$(C-!@[A;!O])](=O)([O;H,-])",
+    "partition": "readable"
+  },
+  {
+    "id": 17,
+    "name": "fg:CarboxylicAcid.AlphaAmino",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[$(C-[C;!$(C=[!#6])]-[N;!H0;!$(N-[!#6;!#1]);!$(N-C=[O,N,S])])](=O)([O;H,-])",
+    "partition": "readable"
+  },
+  {
+    "id": 18,
+    "name": "fg:Amine.Primary.Aliphatic",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[N;H2;D1;$(N-!@C);!$(N-C=[O,N,S])]",
+    "partition": "readable"
+  },
+  {
+    "id": 19,
+    "name": "fg:Amine.Secondary.Aromatic",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[N;H1;D2;$(N(-[c])-[#6]);!$(N-C=[O,N,S])]",
+    "partition": "readable"
+  },
+  {
+    "id": 20,
+    "name": "fg:Amine.Secondary.Aliphatic",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[N;H1;D2;$(N(-C)-C);!$(N-C=[O,N,S])]",
+    "partition": "readable"
+  },
+  {
+    "id": 21,
+    "name": "fg:Amine.Tertiary.Aromatic",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[N;H0;D3;$(N(-[c])(-[#6])-[#6]);!$(N-C=[O,N,S])]",
+    "partition": "readable"
+  },
+  {
+    "id": 22,
+    "name": "fg:Amine.Tertiary.Aliphatic",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[N;H0;D3;$(N(-C)(-C)-C);!$(N-C=[O,N,S])]",
+    "partition": "readable"
+  },
+  {
+    "id": 23,
+    "name": "fg:Halogen.Bromine.Aromatic",
+    "source": "fg_hierarchy",
+    "kind": "smarts",
+    "definition": "[Br;$(Br-!@c)]",
+    "partition": "readable"
+  },
+  {
+    "id": 24,
+    "name": "frag:fr_C=O",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[CX3]=[OX1]",
+    "partition": "readable"
+  },
+  {
+    "id": 25,
+    "name": "frag:fr_C=O_noCOO",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[C!$(C-[OH])]=O",
+    "partition": "readable"
+  },
+  {
+    "id": 26,
+    "name": "frag:fr_Al_OH",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[C!$(C=O)]-[OH]",
+    "partition": "readable"
+  },
+  {
+    "id": 27,
+    "name": "frag:fr_Ar_OH",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "c[OH1]",
+    "partition": "readable"
+  },
+  {
+    "id": 28,
+    "name": "frag:fr_methoxy",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[OX2](-[#6])-[CH3]",
+    "partition": "readable"
+  },
+  {
+    "id": 29,
+    "name": "frag:fr_oxime",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[CX3]=[NX2]-[OX2]",
+    "partition": "readable"
+  },
+  {
+    "id": 30,
+    "name": "frag:fr_ester",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[#6][CX3](=O)[OX2H0][#6]",
+    "partition": "readable"
+  },
+  {
+    "id": 31,
+    "name": "frag:fr_Al_COO",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C-C(=O)[O;H1,-]",
+    "partition": "readable"
+  },
+  {
+    "id": 32,
+    "name": "frag:fr_Ar_COO",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "c-C(=O)[O;H1,-]",
+    "partition": "readable"
+  },
+  {
+    "id": 33,
+    "name": "frag:fr_COO",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[#6]C(=O)[O;H,-1]",
+    "partition": "readable"
+  },
+  {
+    "id": 34,
+    "name": "frag:fr_ketone",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[#6][CX3](=O)[#6]",
+    "partition": "readable"
+  },
+  {
+    "id": 35,
+    "name": "frag:fr_ether",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[OD2]([#6])[#6]",
+    "partition": "readable"
+  },
+  {
+    "id": 36,
+    "name": "frag:fr_phenol",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[OX2H]-c1ccccc1",
+    "partition": "readable"
+  },
+  {
+    "id": 37,
+    "name": "frag:fr_aldehyde",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[CX3H1](=O)[#6]",
+    "partition": "readable"
+  },
+  {
+    "id": 38,
+    "name": "frag:fr_NH2",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[NH2,nH2]",
+    "partition": "readable"
+  },
+  {
+    "id": 39,
+    "name": "frag:fr_NH1",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[NH1,nH1]",
+    "partition": "readable"
+  },
+  {
+    "id": 40,
+    "name": "frag:fr_NH0",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[NH0,nH0]",
+    "partition": "readable"
+  },
+  {
+    "id": 41,
+    "name": "frag:fr_Ar_N",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "n",
+    "partition": "readable"
+  },
+  {
+    "id": 42,
+    "name": "frag:fr_Ar_NH",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[nH]",
+    "partition": "readable"
+  },
+  {
+    "id": 43,
+    "name": "frag:fr_aniline",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "c-[NX3;!$(N=*)]",
+    "partition": "readable"
+  },
+  {
+    "id": 44,
+    "name": "frag:fr_Imine",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[Nv3](=C)-[#6]",
+    "partition": "readable"
+  },
+  {
+    "id": 45,
+    "name": "frag:fr_nitrile",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[NX1]#[CX2]",
+    "partition": "readable"
+  },
+  {
+    "id": 46,
+    "name": "frag:fr_hdrzine",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[NX3]-[NX3]",
+    "partition": "readable"
+  },
+  {
+    "id": 47,
+    "name": "frag:fr_hdrzone",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C=N-[NX3]",
+    "partition": "readable"
+  },
+  {
+    "id": 48,
+    "name": "frag:fr_N-O",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[N!$(N=O)](-O)-C",
+    "partition": "readable"
+  },
+  {
+    "id": 49,
+    "name": "frag:fr_nitro",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$([NX3](=O)=O),$([NX3+](=O)[O-])][!#8]",
+    "partition": "readable"
+  },
+  {
+    "id": 50,
+    "name": "frag:fr_amide",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C(=O)-N",
+    "partition": "readable"
+  },
+  {
+    "id": 51,
+    "name": "frag:fr_priamide",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C(=O)-[NH2]",
+    "partition": "readable"
+  },
+  {
+    "id": 52,
+    "name": "frag:fr_amidine",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C(=N)(-N)-[!#7]",
+    "partition": "readable"
+  },
+  {
+    "id": 53,
+    "name": "frag:fr_guanido",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C(=N)(N)N",
+    "partition": "readable"
+  },
+  {
+    "id": 54,
+    "name": "frag:fr_imide",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "N(-C(=O))-C=O",
+    "partition": "readable"
+  },
+  {
+    "id": 55,
+    "name": "frag:fr_halogen",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[#9,#17,#35,#53]",
+    "partition": "readable"
+  },
+  {
+    "id": 56,
+    "name": "frag:fr_alkyl_halide",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[CX4]-[Cl,Br,I,F]",
+    "partition": "readable"
+  },
+  {
+    "id": 57,
+    "name": "frag:fr_sulfide",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[SX2](-[#6])-C",
+    "partition": "readable"
+  },
+  {
+    "id": 58,
+    "name": "frag:fr_C=S",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C=[SX1]",
+    "partition": "readable"
+  },
+  {
+    "id": 59,
+    "name": "frag:fr_sulfone",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "S(=,-[OX1;+0,-1])(=,-[OX1;+0,-1])(-[#6])-[#6]",
+    "partition": "readable"
+  },
+  {
+    "id": 60,
+    "name": "frag:fr_sulfonamd",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "N-S(=,-[OX1;+0,-1])(=,-[OX1;+0,-1])-[#6]",
+    "partition": "readable"
+  },
+  {
+    "id": 61,
+    "name": "frag:fr_prisulfonamd",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[NH2]-S(=,-[OX1;+0,-1])(=,-[OX1;+0,-1])-[#6]",
+    "partition": "readable"
+  },
+  {
+    "id": 62,
+    "name": "frag:fr_urea",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C(=O)(-N)-N",
+    "partition": "readable"
+  },
+  {
+    "id": 63,
+    "name": "frag:fr_term_acetylene",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C#[CH]",
+    "partition": "readable"
+  },
+  {
+    "id": 64,
+    "name": "frag:fr_imidazole",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "n1cncc1",
+    "partition": "readable"
+  },
+  {
+    "id": 65,
+    "name": "frag:fr_furan",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "o1cccc1",
+    "partition": "readable"
+  },
+  {
+    "id": 66,
+    "name": "frag:fr_thiophene",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "s1cccc1",
+    "partition": "readable"
+  },
+  {
+    "id": 67,
+    "name": "frag:fr_thiazole",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "c1scnc1",
+    "partition": "readable"
+  },
+  {
+    "id": 68,
+    "name": "frag:fr_oxazole",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "c1ocnc1",
+    "partition": "readable"
+  },
+  {
+    "id": 69,
+    "name": "frag:fr_pyridine",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "n1ccccc1",
+    "partition": "readable"
+  },
+  {
+    "id": 70,
+    "name": "frag:fr_piperdine",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "N1CCCCC1",
+    "partition": "readable"
+  },
+  {
+    "id": 71,
+    "name": "frag:fr_piperzine",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "N1CCNCC1",
+    "partition": "readable"
+  },
+  {
+    "id": 72,
+    "name": "frag:fr_morpholine",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "O1CCNCC1",
+    "partition": "readable"
+  },
+  {
+    "id": 73,
+    "name": "frag:fr_lactam",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "N1C(=O)CC1",
+    "partition": "readable"
+  },
+  {
+    "id": 74,
+    "name": "frag:fr_lactone",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[C&R1](=O)[O&R1][C&R1]",
+    "partition": "readable"
+  },
+  {
+    "id": 75,
+    "name": "frag:fr_tetrazole",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "c1nnnn1",
+    "partition": "readable"
+  },
+  {
+    "id": 76,
+    "name": "frag:fr_unbrch_alkane",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[CR0;D2,D1][CR0;D2][CR0;D2][CR0;D2,D1]",
+    "partition": "readable"
+  },
+  {
+    "id": 77,
+    "name": "frag:fr_bicyclic",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[R2][R2]",
+    "partition": "readable"
+  },
+  {
+    "id": 78,
+    "name": "frag:fr_benzene",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "c1ccccc1",
+    "partition": "readable"
+  },
+  {
+    "id": 79,
+    "name": "frag:fr_nitro_arom",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$(c1(-[$([NX3](=O)=O),$([NX3+](=O)[O-])])ccccc1)]",
+    "partition": "readable"
+  },
+  {
+    "id": 80,
+    "name": "frag:fr_nitro_arom_nonortho",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$(c1(-[$([NX3](=O)=O),$([NX3+](=O)[O-])])ccccc1);!$(cc-!:*)]",
+    "partition": "readable"
+  },
+  {
+    "id": 81,
+    "name": "frag:fr_phenol_noOrthoHbond",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$(c1(-[OX2H])ccccc1);!$(cc-!:[CH2]-[OX2H]);!$(cc-!:C(=O)[O;H1,-]);!$(cc-!:C(=O)-[NH2])]",
+    "partition": "readable"
+  },
+  {
+    "id": 82,
+    "name": "frag:fr_Al_OH_noTert",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$(C-[OX2H]);!$([CX3](-[OX2H])=[OX1]);!$([CD4]-[OX2H])]",
+    "partition": "readable"
+  },
+  {
+    "id": 83,
+    "name": "frag:fr_para_hydroxylation",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$([cH]1[cH]cc(c[cH]1)~[$([#8,$([#8]~[H,c,C])])]),$([cH]1[cH]cc(c[cH]1)~[$([#7X3,$([#7](~[H,c,C])~[H,c,C])])]),$([cH]1[cH]cc(c[cH]1)-!:[$([NX3H,$(NC(=O)[H,c,C])])])]",
+    "partition": "readable"
+  },
+  {
+    "id": 84,
+    "name": "frag:fr_allylic_oxid",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$(C=C-C);!$(C=C-C-[N,O,S]);!$(C=C-C-C-[N,O]);!$(C12=CC(=O)CCC1C3C(C4C(CCC4)CC3)CC2)]",
+    "partition": "readable"
+  },
+  {
+    "id": 85,
+    "name": "frag:fr_aryl_methyl",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$(a-[CH3]),$(a-[CH2]-[CH3]),$(a-[CH2]-[CH2]~[!N;!O]);!$(a(:a!:*):a!:*)]",
+    "partition": "readable"
+  },
+  {
+    "id": 86,
+    "name": "frag:fr_Ndealkylation1",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$(N(-[CH3])-C-[$(C~O),$(C-a),$(C-N),$(C=C)]),$(N(-[CH2][CH3])-C-[$(C~O),$(C-a),$(C-N),$(C=C)])]",
+    "partition": "readable"
+  },
+  {
+    "id": 87,
+    "name": "frag:fr_Ndealkylation2",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$([N&R1]1(-C)CCC1),$([N&R1]1(-C)CCCC1),$([N&R1]1(-C)CCCCC1),$([N&R1]1(-C)CCCCCC1),$([N&R1]1(-C)CCCCCCC1)]",
+    "partition": "readable"
+  },
+  {
+    "id": 88,
+    "name": "frag:fr_alkyl_carbamate",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "C[NH1]C(=O)OC",
+    "partition": "readable"
+  },
+  {
+    "id": 89,
+    "name": "frag:fr_ketone_Topliss",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$([CX3](=[OX1])(C)([c,C]));!$([CX3](=[OX1])([CH1]=C)[c,C])]",
+    "partition": "readable"
+  },
+  {
+    "id": 90,
+    "name": "frag:fr_ArN",
+    "source": "fragment_descriptors",
+    "kind": "smarts",
+    "definition": "[$(a-[NX3H2]),$(a-[NH1][NH2]),$(a-C(=[OX1])[NH1][NH2]),$(a-C(=[NH])[NH2])]",
+    "partition": "readable"
+  }
+]

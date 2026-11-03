@@ -1,0 +1,2 @@
+# Preserve frozen source and input bytes across operating-system checkouts.
+* -text

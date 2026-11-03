@@ -1,0 +1,1377 @@
+{
+  "definition_source": "manuscript/draft_round6_20261027/sources/chemical_assets/queries/query_registry.json",
+  "entries": [
+    {
+      "concept_id": 0,
+      "concept_name": "Ring3",
+      "exact_input_SMILES": "C1CC1",
+      "MolFromSmiles_used": true,
+      "rendered_graph_is_query": false,
+      "frozen_definition": "topo:ring3",
+      "R_mapping": [],
+      "representative_top_level_matches": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "carbon_completed_witness_SMILES": "C1CC1",
+      "carbon_completed_witness_matches": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "semantic_boundary": "A complete cyclopropane example requires no R truncation; the definition remains any atom in a 3-membered ring.",
+      "frozen_label_definition_changed": false,
+      "selection_is_illustrative_not_empirical_response_evidence": true,
+      "mapping_advice_reused": "Frozen figure source",
+      "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_0_representative_geometry.json",
+      "stem": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_0_representative",
+      "asset_metadata": {
+        "asset": "concept_0_representative",
+        "metadata": {
+          "concept_id": 0,
+          "concept_name": "Ring3",
+          "exact_input_SMILES": "C1CC1",
+          "MolFromSmiles_used": true,
+          "rendered_graph_is_query": false,
+          "frozen_definition": "topo:ring3",
+          "R_mapping": [],
+          "representative_top_level_matches": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "carbon_completed_witness_SMILES": "C1CC1",
+          "carbon_completed_witness_matches": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "semantic_boundary": "A complete cyclopropane example requires no R truncation; the definition remains any atom in a 3-membered ring.",
+          "frozen_label_definition_changed": false,
+          "selection_is_illustrative_not_empirical_response_evidence": true,
+          "mapping_advice_reused": "Frozen figure source"
+        },
+        "style": {
+          "atom_center_bond_length_pt": 11.5,
+          "black_bond_linewidth_pt": 0.6,
+          "atom_font_family": "Arial",
+          "atom_fontsize_pt": 7.0,
+          "match_circle_linewidth_pt": 0.9,
+          "match_circle_radius_pt": 3.2,
+          "match_circle_fill": "none",
+          "native_ink_margin_pt": 1.0,
+          "PNG_dpi": 600,
+          "whole_asset_scaling_allowed": false,
+          "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+          "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+        },
+        "width_pt": 12.679999999999998,
+        "height_pt": 14.240000000000002,
+        "width_in": 0.17611111111111108,
+        "height_in": 0.1977777777777778,
+        "ink_bounds_pt": [
+          1.0,
+          1.0,
+          11.679999999999998,
+          13.240000000000002
+        ],
+        "pre_crop_actual_ink_measurement": {
+          "ink_bbox_pt": [
+            14.88,
+            15.107182159423829,
+            25.56,
+            27.34718215942383
+          ],
+          "method": "PDFium non-white pixel bounds at 600dpi, honoring clipping; converted to original PDF points, no scaling.",
+          "render_dpi": 600,
+          "raster_dimensions": [
+            338,
+            354
+          ],
+          "visible_pixel_bbox": [
+            124,
+            126,
+            213,
+            228
+          ],
+          "original_page_size_pt": [
+            40.47532272338867,
+            42.46718215942383
+          ]
+        },
+        "center_bond_lengths_pt": [
+          11.5,
+          11.5,
+          11.500000000000002
+        ],
+        "atom_font_sizes_pt": [],
+        "all_final_text_family": "Arial",
+        "bond_stroke_pt": 0.6,
+        "circle_stroke_pt": 0.9,
+        "actual_text": [],
+        "PNG_dpi": 600,
+        "PNG_pixel_size": [
+          105,
+          118
+        ],
+        "PNG_metadata_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "SVG_text_is_editable": true,
+        "PDF_actual_fonts": [],
+        "post_export_scaling": false,
+        "RDKit": "2026.03.6",
+        "matched_atom_indices": [],
+        "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_0_representative_geometry.json",
+        "source_graph_is_query": false,
+        "atom_label_alignment_records": [],
+        "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+        "new_model_or_scientific_estimation": false
+      }
+    },
+    {
+      "concept_id": 14,
+      "concept_name": "Carboxylic acid",
+      "exact_input_SMILES": "*C(=O)O",
+      "MolFromSmiles_used": true,
+      "rendered_graph_is_query": false,
+      "frozen_definition": "C(=O)[O;H,-]",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "representative_top_level_matches": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "carbon_completed_witness_SMILES": "CC(=O)O",
+      "carbon_completed_witness_matches": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "semantic_boundary": "R is the omitted non-acid substituent; neutral COOH illustrates one permitted state, not all carboxylates.",
+      "frozen_label_definition_changed": false,
+      "selection_is_illustrative_not_empirical_response_evidence": true,
+      "mapping_advice_reused": "Frozen figure source",
+      "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_14_representative_geometry.json",
+      "stem": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_14_representative",
+      "asset_metadata": {
+        "asset": "concept_14_representative",
+        "metadata": {
+          "concept_id": 14,
+          "concept_name": "Carboxylic acid",
+          "exact_input_SMILES": "*C(=O)O",
+          "MolFromSmiles_used": true,
+          "rendered_graph_is_query": false,
+          "frozen_definition": "C(=O)[O;H,-]",
+          "R_mapping": [
+            {
+              "atom_index": 0,
+              "atom_map": 0,
+              "display": "R",
+              "neighbors": [
+                1
+              ]
+            }
+          ],
+          "representative_top_level_matches": [
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "carbon_completed_witness_SMILES": "CC(=O)O",
+          "carbon_completed_witness_matches": [
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "semantic_boundary": "R is the omitted non-acid substituent; neutral COOH illustrates one permitted state, not all carboxylates.",
+          "frozen_label_definition_changed": false,
+          "selection_is_illustrative_not_empirical_response_evidence": true,
+          "mapping_advice_reused": "Frozen figure source"
+        },
+        "style": {
+          "atom_center_bond_length_pt": 11.5,
+          "black_bond_linewidth_pt": 0.6,
+          "atom_font_family": "Arial",
+          "atom_fontsize_pt": 7.0,
+          "match_circle_linewidth_pt": 0.9,
+          "match_circle_radius_pt": 3.2,
+          "match_circle_fill": "none",
+          "native_ink_margin_pt": 1.0,
+          "PNG_dpi": 600,
+          "whole_asset_scaling_allowed": false,
+          "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+          "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+        },
+        "width_pt": 31.04,
+        "height_pt": 24.560000000000002,
+        "width_in": 0.4311111111111111,
+        "height_in": 0.34111111111111114,
+        "ink_bounds_pt": [
+          1.0,
+          1.0,
+          30.04,
+          23.560000000000002
+        ],
+        "pre_crop_actual_ink_measurement": {
+          "ink_bbox_pt": [
+            17.64,
+            17.970630645751953,
+            46.68,
+            40.530630645751955
+          ],
+          "method": "PDFium non-white pixel bounds at 600dpi, honoring clipping; converted to original PDF points, no scaling.",
+          "render_dpi": 600,
+          "raster_dimensions": [
+            537,
+            475
+          ],
+          "visible_pixel_bbox": [
+            147,
+            137,
+            389,
+            325
+          ],
+          "original_page_size_pt": [
+            64.39631652832031,
+            56.97063064575195
+          ]
+        },
+        "center_bond_lengths_pt": [
+          11.499999999999998,
+          11.5,
+          11.500000000000002
+        ],
+        "atom_font_sizes_pt": [
+          7.0
+        ],
+        "all_final_text_family": "Arial",
+        "bond_stroke_pt": 0.6,
+        "circle_stroke_pt": 0.9,
+        "actual_text": [
+          "R",
+          "O",
+          "O",
+          "H"
+        ],
+        "PNG_dpi": 600,
+        "PNG_pixel_size": [
+          258,
+          204
+        ],
+        "PNG_metadata_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "SVG_text_is_editable": true,
+        "PDF_actual_fonts": [
+          {
+            "font": "/ArialMT",
+            "embedded": true
+          }
+        ],
+        "post_export_scaling": false,
+        "RDKit": "2026.03.6",
+        "matched_atom_indices": [],
+        "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_14_representative_geometry.json",
+        "source_graph_is_query": false,
+        "atom_label_alignment_records": [
+          {
+            "atom_index": 0,
+            "primary_symbol": "R",
+            "text_component_indices": [
+              0
+            ],
+            "translation_pt": [
+              -0.5582671392027274,
+              -1.1587521518376889
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "atom_index": 2,
+            "primary_symbol": "O",
+            "text_component_indices": [
+              1
+            ],
+            "translation_pt": [
+              -0.5420649723423754,
+              -1.1496899545762576
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "atom_index": 3,
+            "primary_symbol": "O",
+            "text_component_indices": [
+              2,
+              3
+            ],
+            "translation_pt": [
+              -0.5394665935442937,
+              -1.1565646518376802
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+        "new_model_or_scientific_estimation": false
+      }
+    },
+    {
+      "concept_id": 18,
+      "concept_name": "Primary aliph. amine",
+      "exact_input_SMILES": "*CN",
+      "MolFromSmiles_used": true,
+      "rendered_graph_is_query": false,
+      "frozen_definition": "[N;H2;D1;$(N-!@C);!$(N-C=[O,N,S])]",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "representative_top_level_matches": [
+        [
+          2
+        ]
+      ],
+      "carbon_completed_witness_SMILES": "CCN",
+      "carbon_completed_witness_matches": [
+        [
+          2
+        ]
+      ],
+      "semantic_boundary": "R is the omitted continuation beyond the non-acyl CH2; N remains NH2, and its C-N bond is non-ring.",
+      "frozen_label_definition_changed": false,
+      "selection_is_illustrative_not_empirical_response_evidence": true,
+      "mapping_advice_reused": "Frozen figure source",
+      "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_18_representative_geometry.json",
+      "stem": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_18_representative",
+      "asset_metadata": {
+        "asset": "concept_18_representative",
+        "metadata": {
+          "concept_id": 18,
+          "concept_name": "Primary aliph. amine",
+          "exact_input_SMILES": "*CN",
+          "MolFromSmiles_used": true,
+          "rendered_graph_is_query": false,
+          "frozen_definition": "[N;H2;D1;$(N-!@C);!$(N-C=[O,N,S])]",
+          "R_mapping": [
+            {
+              "atom_index": 0,
+              "atom_map": 0,
+              "display": "R",
+              "neighbors": [
+                1
+              ]
+            }
+          ],
+          "representative_top_level_matches": [
+            [
+              2
+            ]
+          ],
+          "carbon_completed_witness_SMILES": "CCN",
+          "carbon_completed_witness_matches": [
+            [
+              2
+            ]
+          ],
+          "semantic_boundary": "R is the omitted continuation beyond the non-acyl CH2; N remains NH2, and its C-N bond is non-ring.",
+          "frozen_label_definition_changed": false,
+          "selection_is_illustrative_not_empirical_response_evidence": true,
+          "mapping_advice_reused": "Frozen figure source"
+        },
+        "style": {
+          "atom_center_bond_length_pt": 11.5,
+          "black_bond_linewidth_pt": 0.6,
+          "atom_font_family": "Arial",
+          "atom_fontsize_pt": 7.0,
+          "match_circle_linewidth_pt": 0.9,
+          "match_circle_radius_pt": 3.2,
+          "match_circle_fill": "none",
+          "native_ink_margin_pt": 1.0,
+          "PNG_dpi": 600,
+          "whole_asset_scaling_allowed": false,
+          "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+          "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+        },
+        "width_pt": 35.36,
+        "height_pt": 13.639999999999997,
+        "width_in": 0.4911111111111111,
+        "height_in": 0.18944444444444442,
+        "ink_bounds_pt": [
+          1.0,
+          1.0,
+          34.36,
+          12.639999999999997
+        ],
+        "pre_crop_actual_ink_measurement": {
+          "ink_bbox_pt": [
+            18.12,
+            16.645455474853517,
+            51.48,
+            28.285455474853514
+          ],
+          "method": "PDFium non-white pixel bounds at 600dpi, honoring clipping; converted to original PDF points, no scaling.",
+          "render_dpi": 600,
+          "raster_dimensions": [
+            572,
+            363
+          ],
+          "visible_pixel_bbox": [
+            151,
+            127,
+            429,
+            224
+          ],
+          "original_page_size_pt": [
+            68.59696960449219,
+            43.525455474853516
+          ]
+        },
+        "center_bond_lengths_pt": [
+          11.500000000000002,
+          11.5
+        ],
+        "atom_font_sizes_pt": [
+          7.0
+        ],
+        "all_final_text_family": "Arial",
+        "bond_stroke_pt": 0.6,
+        "circle_stroke_pt": 0.9,
+        "actual_text": [
+          "R",
+          "N",
+          "H",
+          "2"
+        ],
+        "PNG_dpi": 600,
+        "PNG_pixel_size": [
+          294,
+          113
+        ],
+        "PNG_metadata_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "SVG_text_is_editable": true,
+        "PDF_actual_fonts": [
+          {
+            "font": "/ArialMT",
+            "embedded": true
+          }
+        ],
+        "post_export_scaling": false,
+        "RDKit": "2026.03.6",
+        "matched_atom_indices": [],
+        "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_18_representative_geometry.json",
+        "source_graph_is_query": false,
+        "atom_label_alignment_records": [
+          {
+            "atom_index": 0,
+            "primary_symbol": "R",
+            "text_component_indices": [
+              0
+            ],
+            "translation_pt": [
+              -0.5568235810048678,
+              -1.1656336379823369
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "atom_index": 2,
+            "primary_symbol": "N",
+            "text_component_indices": [
+              1,
+              2,
+              3
+            ],
+            "translation_pt": [
+              -0.3080623815484387,
+              -1.1656336379823324
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+        "new_model_or_scientific_estimation": false
+      }
+    },
+    {
+      "concept_id": 24,
+      "concept_name": "Carbonyl",
+      "exact_input_SMILES": "*C(=O)*",
+      "MolFromSmiles_used": true,
+      "rendered_graph_is_query": false,
+      "frozen_definition": "[CX3]=[OX1]",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        },
+        {
+          "atom_index": 3,
+          "atom_map": 0,
+          "display": "R′",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "representative_top_level_matches": [
+        [
+          1,
+          2
+        ]
+      ],
+      "carbon_completed_witness_SMILES": "CC(C)=O",
+      "carbon_completed_witness_matches": [
+        [
+          1,
+          2
+        ]
+      ],
+      "semantic_boundary": "R and R prime are omitted substituents; this ketone-like illustration does not restrict the carbonyl definition to ketones.",
+      "frozen_label_definition_changed": false,
+      "selection_is_illustrative_not_empirical_response_evidence": true,
+      "mapping_advice_reused": "Frozen figure source",
+      "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_24_representative_geometry.json",
+      "stem": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_24_representative",
+      "asset_metadata": {
+        "asset": "concept_24_representative",
+        "metadata": {
+          "concept_id": 24,
+          "concept_name": "Carbonyl",
+          "exact_input_SMILES": "*C(=O)*",
+          "MolFromSmiles_used": true,
+          "rendered_graph_is_query": false,
+          "frozen_definition": "[CX3]=[OX1]",
+          "R_mapping": [
+            {
+              "atom_index": 0,
+              "atom_map": 0,
+              "display": "R",
+              "neighbors": [
+                1
+              ]
+            },
+            {
+              "atom_index": 3,
+              "atom_map": 0,
+              "display": "R′",
+              "neighbors": [
+                1
+              ]
+            }
+          ],
+          "representative_top_level_matches": [
+            [
+              1,
+              2
+            ]
+          ],
+          "carbon_completed_witness_SMILES": "CC(C)=O",
+          "carbon_completed_witness_matches": [
+            [
+              1,
+              2
+            ]
+          ],
+          "semantic_boundary": "R and R prime are omitted substituents; this ketone-like illustration does not restrict the carbonyl definition to ketones.",
+          "frozen_label_definition_changed": false,
+          "selection_is_illustrative_not_empirical_response_evidence": true,
+          "mapping_advice_reused": "Frozen figure source"
+        },
+        "style": {
+          "atom_center_bond_length_pt": 11.5,
+          "black_bond_linewidth_pt": 0.6,
+          "atom_font_family": "Arial",
+          "atom_fontsize_pt": 7.0,
+          "match_circle_linewidth_pt": 0.9,
+          "match_circle_radius_pt": 3.2,
+          "match_circle_fill": "none",
+          "native_ink_margin_pt": 1.0,
+          "PNG_dpi": 600,
+          "whole_asset_scaling_allowed": false,
+          "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+          "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+        },
+        "width_pt": 27.92,
+        "height_pt": 24.440000000000005,
+        "width_in": 0.3877777777777778,
+        "height_in": 0.3394444444444445,
+        "ink_bounds_pt": [
+          1.0,
+          1.0,
+          26.92,
+          23.440000000000005
+        ],
+        "pre_crop_actual_ink_measurement": {
+          "ink_bbox_pt": [
+            17.28,
+            18.086430664062497,
+            43.2,
+            40.5264306640625
+          ],
+          "method": "PDFium non-white pixel bounds at 600dpi, honoring clipping; converted to original PDF points, no scaling.",
+          "render_dpi": 600,
+          "raster_dimensions": [
+            508,
+            475
+          ],
+          "visible_pixel_bbox": [
+            144,
+            137,
+            360,
+            324
+          ],
+          "original_page_size_pt": [
+            60.940162658691406,
+            56.9664306640625
+          ]
+        },
+        "center_bond_lengths_pt": [
+          11.499999999999998,
+          11.5,
+          11.500000000000004
+        ],
+        "atom_font_sizes_pt": [
+          7.0
+        ],
+        "all_final_text_family": "Arial",
+        "bond_stroke_pt": 0.6,
+        "circle_stroke_pt": 0.9,
+        "actual_text": [
+          "R",
+          "O",
+          "R",
+          "′"
+        ],
+        "PNG_dpi": 600,
+        "PNG_pixel_size": [
+          232,
+          203
+        ],
+        "PNG_metadata_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "SVG_text_is_editable": true,
+        "PDF_actual_fonts": [
+          {
+            "font": "/ArialMT",
+            "embedded": true
+          }
+        ],
+        "post_export_scaling": false,
+        "RDKit": "2026.03.6",
+        "matched_atom_indices": [],
+        "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_24_representative_geometry.json",
+        "source_graph_is_query": false,
+        "atom_label_alignment_records": [
+          {
+            "atom_index": 0,
+            "primary_symbol": "R",
+            "text_component_indices": [
+              0
+            ],
+            "translation_pt": [
+              -0.5672082191217482,
+              -1.156969244909508
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "atom_index": 2,
+            "primary_symbol": "O",
+            "text_component_indices": [
+              1
+            ],
+            "translation_pt": [
+              -0.5391028063699395,
+              -1.1504107041855187
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "atom_index": 3,
+            "primary_symbol": "R",
+            "text_component_indices": [
+              2,
+              3
+            ],
+            "translation_pt": [
+              -0.5591223936181251,
+              -1.1569692449095008
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+        "new_model_or_scientific_estimation": false
+      }
+    },
+    {
+      "concept_id": 26,
+      "concept_name": "Aliphatic OH",
+      "exact_input_SMILES": "*CO",
+      "MolFromSmiles_used": true,
+      "rendered_graph_is_query": false,
+      "frozen_definition": "[C!$(C=O)]-[OH]",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "representative_top_level_matches": [
+        [
+          1,
+          2
+        ]
+      ],
+      "carbon_completed_witness_SMILES": "CCO",
+      "carbon_completed_witness_matches": [
+        [
+          1,
+          2
+        ]
+      ],
+      "semantic_boundary": "R is the omitted continuation beyond the non-carbonyl non-aromatic carbon; this saturated example does not impose sp3 on the definition.",
+      "frozen_label_definition_changed": false,
+      "selection_is_illustrative_not_empirical_response_evidence": true,
+      "mapping_advice_reused": "Frozen figure source",
+      "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_26_representative_geometry.json",
+      "stem": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_26_representative",
+      "asset_metadata": {
+        "asset": "concept_26_representative",
+        "metadata": {
+          "concept_id": 26,
+          "concept_name": "Aliphatic OH",
+          "exact_input_SMILES": "*CO",
+          "MolFromSmiles_used": true,
+          "rendered_graph_is_query": false,
+          "frozen_definition": "[C!$(C=O)]-[OH]",
+          "R_mapping": [
+            {
+              "atom_index": 0,
+              "atom_map": 0,
+              "display": "R",
+              "neighbors": [
+                1
+              ]
+            }
+          ],
+          "representative_top_level_matches": [
+            [
+              1,
+              2
+            ]
+          ],
+          "carbon_completed_witness_SMILES": "CCO",
+          "carbon_completed_witness_matches": [
+            [
+              1,
+              2
+            ]
+          ],
+          "semantic_boundary": "R is the omitted continuation beyond the non-carbonyl non-aromatic carbon; this saturated example does not impose sp3 on the definition.",
+          "frozen_label_definition_changed": false,
+          "selection_is_illustrative_not_empirical_response_evidence": true,
+          "mapping_advice_reused": "Frozen figure source"
+        },
+        "style": {
+          "atom_center_bond_length_pt": 11.5,
+          "black_bond_linewidth_pt": 0.6,
+          "atom_font_family": "Arial",
+          "atom_fontsize_pt": 7.0,
+          "match_circle_linewidth_pt": 0.9,
+          "match_circle_radius_pt": 3.2,
+          "match_circle_fill": "none",
+          "native_ink_margin_pt": 1.0,
+          "PNG_dpi": 600,
+          "whole_asset_scaling_allowed": false,
+          "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+          "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+        },
+        "width_pt": 31.039999999999996,
+        "height_pt": 10.759999999999998,
+        "width_in": 0.43111111111111106,
+        "height_in": 0.1494444444444444,
+        "ink_bounds_pt": [
+          1.0,
+          1.0,
+          30.039999999999996,
+          9.759999999999998
+        ],
+        "pre_crop_actual_ink_measurement": {
+          "ink_bbox_pt": [
+            17.76,
+            16.23408447265625,
+            46.8,
+            24.994084472656247
+          ],
+          "method": "PDFium non-white pixel bounds at 600dpi, honoring clipping; converted to original PDF points, no scaling.",
+          "render_dpi": 600,
+          "raster_dimensions": [
+            539,
+            333
+          ],
+          "visible_pixel_bbox": [
+            148,
+            124,
+            390,
+            197
+          ],
+          "original_page_size_pt": [
+            64.67306518554688,
+            39.87408447265625
+          ]
+        },
+        "center_bond_lengths_pt": [
+          11.499999999999998,
+          11.500000000000002
+        ],
+        "atom_font_sizes_pt": [
+          7.0
+        ],
+        "all_final_text_family": "Arial",
+        "bond_stroke_pt": 0.6,
+        "circle_stroke_pt": 0.9,
+        "actual_text": [
+          "R",
+          "O",
+          "H"
+        ],
+        "PNG_dpi": 600,
+        "PNG_pixel_size": [
+          258,
+          89
+        ],
+        "PNG_metadata_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "SVG_text_is_editable": true,
+        "PDF_actual_fonts": [
+          {
+            "font": "/ArialMT",
+            "embedded": true
+          }
+        ],
+        "post_export_scaling": false,
+        "RDKit": "2026.03.6",
+        "matched_atom_indices": [],
+        "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_26_representative_geometry.json",
+        "source_graph_is_query": false,
+        "atom_label_alignment_records": [
+          {
+            "atom_index": 0,
+            "primary_symbol": "R",
+            "text_component_indices": [
+              0
+            ],
+            "translation_pt": [
+              -0.5534566773384428,
+              -1.1767831688596555
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "atom_index": 2,
+            "primary_symbol": "O",
+            "text_component_indices": [
+              1,
+              2
+            ],
+            "translation_pt": [
+              -0.5235474633957828,
+              -1.1745956688596513
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+        "new_model_or_scientific_estimation": false
+      }
+    },
+    {
+      "concept_id": 38,
+      "concept_name": "Nitrogen with two hydrogens",
+      "exact_input_SMILES": "*N",
+      "MolFromSmiles_used": true,
+      "rendered_graph_is_query": false,
+      "frozen_definition": "[NH2,nH2]",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "representative_top_level_matches": [
+        [
+          1
+        ]
+      ],
+      "carbon_completed_witness_SMILES": "CN",
+      "carbon_completed_witness_matches": [
+        [
+          1
+        ]
+      ],
+      "semantic_boundary": "R is the omitted N substituent; this neutral NH2 branch is one instance of [NH2,nH2], not a primary-amine definition.",
+      "frozen_label_definition_changed": false,
+      "selection_is_illustrative_not_empirical_response_evidence": true,
+      "mapping_advice_reused": "Frozen figure source",
+      "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_38_representative_geometry.json",
+      "stem": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_38_representative",
+      "asset_metadata": {
+        "asset": "concept_38_representative",
+        "metadata": {
+          "concept_id": 38,
+          "concept_name": "Nitrogen with two hydrogens",
+          "exact_input_SMILES": "*N",
+          "MolFromSmiles_used": true,
+          "rendered_graph_is_query": false,
+          "frozen_definition": "[NH2,nH2]",
+          "R_mapping": [
+            {
+              "atom_index": 0,
+              "atom_map": 0,
+              "display": "R",
+              "neighbors": [
+                1
+              ]
+            }
+          ],
+          "representative_top_level_matches": [
+            [
+              1
+            ]
+          ],
+          "carbon_completed_witness_SMILES": "CN",
+          "carbon_completed_witness_matches": [
+            [
+              1
+            ]
+          ],
+          "semantic_boundary": "R is the omitted N substituent; this neutral NH2 branch is one instance of [NH2,nH2], not a primary-amine definition.",
+          "frozen_label_definition_changed": false,
+          "selection_is_illustrative_not_empirical_response_evidence": true,
+          "mapping_advice_reused": "Frozen figure source"
+        },
+        "style": {
+          "atom_center_bond_length_pt": 11.5,
+          "black_bond_linewidth_pt": 0.6,
+          "atom_font_family": "Arial",
+          "atom_fontsize_pt": 7.0,
+          "match_circle_linewidth_pt": 0.9,
+          "match_circle_radius_pt": 3.2,
+          "match_circle_fill": "none",
+          "native_ink_margin_pt": 1.0,
+          "PNG_dpi": 600,
+          "whole_asset_scaling_allowed": false,
+          "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+          "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+        },
+        "width_pt": 26.959999999999997,
+        "height_pt": 10.160000000000004,
+        "width_in": 0.3744444444444444,
+        "height_in": 0.14111111111111116,
+        "ink_bounds_pt": [
+          1.0,
+          1.0,
+          25.959999999999997,
+          9.160000000000004
+        ],
+        "pre_crop_actual_ink_measurement": {
+          "ink_bbox_pt": [
+            17.16,
+            16.30483444213867,
+            42.12,
+            24.464834442138674
+          ],
+          "method": "PDFium non-white pixel bounds at 600dpi, honoring clipping; converted to original PDF points, no scaling.",
+          "render_dpi": 600,
+          "raster_dimensions": [
+            486,
+            327
+          ],
+          "visible_pixel_bbox": [
+            143,
+            123,
+            351,
+            191
+          ],
+          "original_page_size_pt": [
+            58.2126350402832,
+            39.22483444213867
+          ]
+        },
+        "center_bond_lengths_pt": [
+          11.5
+        ],
+        "atom_font_sizes_pt": [
+          7.0
+        ],
+        "all_final_text_family": "Arial",
+        "bond_stroke_pt": 0.6,
+        "circle_stroke_pt": 0.9,
+        "actual_text": [
+          "R",
+          "N",
+          "H",
+          "2"
+        ],
+        "PNG_dpi": 600,
+        "PNG_pixel_size": [
+          224,
+          84
+        ],
+        "PNG_metadata_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "SVG_text_is_editable": true,
+        "PDF_actual_fonts": [
+          {
+            "font": "/ArialMT",
+            "embedded": true
+          }
+        ],
+        "post_export_scaling": false,
+        "RDKit": "2026.03.6",
+        "matched_atom_indices": [],
+        "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_38_representative_geometry.json",
+        "source_graph_is_query": false,
+        "atom_label_alignment_records": [
+          {
+            "atom_index": 0,
+            "primary_symbol": "R",
+            "text_component_indices": [
+              0
+            ],
+            "translation_pt": [
+              -0.5538446861721429,
+              -1.166439833144799
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "atom_index": 1,
+            "primary_symbol": "N",
+            "text_component_indices": [
+              1,
+              2,
+              3
+            ],
+            "translation_pt": [
+              -0.3004145815341346,
+              -1.1664398331447985
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+        "new_model_or_scientific_estimation": false
+      }
+    },
+    {
+      "concept_id": 90,
+      "concept_name": "Aromatic anchor of amine/hydrazine/hydrazide/amidine motifs",
+      "exact_input_SMILES": "*c1ccc(N)cc1",
+      "MolFromSmiles_used": true,
+      "rendered_graph_is_query": false,
+      "frozen_definition": "[$(a-[NX3H2]),$(a-[NH1][NH2]),$(a-C(=[OX1])[NH1][NH2]),$(a-C(=[NH])[NH2])]",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "representative_top_level_matches": [
+        [
+          4
+        ]
+      ],
+      "carbon_completed_witness_SMILES": "Cc1ccc(N)cc1",
+      "carbon_completed_witness_matches": [
+        [
+          4
+        ]
+      ],
+      "semantic_boundary": "R is the omitted ring substituent; this aniline branch illustrates one of four recursive branches, and the labeled query atom remains aromatic a.",
+      "frozen_label_definition_changed": false,
+      "selection_is_illustrative_not_empirical_response_evidence": true,
+      "mapping_advice_reused": "Frozen figure source",
+      "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_90_representative_geometry.json",
+      "stem": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_90_representative",
+      "asset_metadata": {
+        "asset": "concept_90_representative",
+        "metadata": {
+          "concept_id": 90,
+          "concept_name": "Aromatic anchor of amine/hydrazine/hydrazide/amidine motifs",
+          "exact_input_SMILES": "*c1ccc(N)cc1",
+          "MolFromSmiles_used": true,
+          "rendered_graph_is_query": false,
+          "frozen_definition": "[$(a-[NX3H2]),$(a-[NH1][NH2]),$(a-C(=[OX1])[NH1][NH2]),$(a-C(=[NH])[NH2])]",
+          "R_mapping": [
+            {
+              "atom_index": 0,
+              "atom_map": 0,
+              "display": "R",
+              "neighbors": [
+                1
+              ]
+            }
+          ],
+          "representative_top_level_matches": [
+            [
+              4
+            ]
+          ],
+          "carbon_completed_witness_SMILES": "Cc1ccc(N)cc1",
+          "carbon_completed_witness_matches": [
+            [
+              4
+            ]
+          ],
+          "semantic_boundary": "R is the omitted ring substituent; this aniline branch illustrates one of four recursive branches, and the labeled query atom remains aromatic a.",
+          "frozen_label_definition_changed": false,
+          "selection_is_illustrative_not_empirical_response_evidence": true,
+          "mapping_advice_reused": "Frozen figure source"
+        },
+        "style": {
+          "atom_center_bond_length_pt": 11.5,
+          "black_bond_linewidth_pt": 0.6,
+          "atom_font_family": "Arial",
+          "atom_fontsize_pt": 7.0,
+          "match_circle_linewidth_pt": 0.9,
+          "match_circle_radius_pt": 3.2,
+          "match_circle_fill": "none",
+          "native_ink_margin_pt": 1.0,
+          "PNG_dpi": 600,
+          "whole_asset_scaling_allowed": false,
+          "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+          "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+        },
+        "width_pt": 59.599999999999994,
+        "height_pt": 22.64,
+        "width_in": 0.8277777777777777,
+        "height_in": 0.31444444444444447,
+        "ink_bounds_pt": [
+          1.0,
+          1.0,
+          58.599999999999994,
+          21.64
+        ],
+        "pre_crop_actual_ink_measurement": {
+          "ink_bbox_pt": [
+            21.48,
+            16.084301147460934,
+            79.08,
+            36.724301147460935
+          ],
+          "method": "PDFium non-white pixel bounds at 600dpi, honoring clipping; converted to original PDF points, no scaling.",
+          "render_dpi": 600,
+          "raster_dimensions": [
+            836,
+            442
+          ],
+          "visible_pixel_bbox": [
+            179,
+            135,
+            659,
+            307
+          ],
+          "original_page_size_pt": [
+            100.27005004882812,
+            52.92430114746094
+          ]
+        },
+        "center_bond_lengths_pt": [
+          11.499999999999993,
+          11.500000000000012,
+          11.499999999999993,
+          11.499999999999998,
+          11.500000000000004,
+          11.500000000000002,
+          11.499999999999993,
+          11.500000000000005
+        ],
+        "atom_font_sizes_pt": [
+          7.0
+        ],
+        "all_final_text_family": "Arial",
+        "bond_stroke_pt": 0.6,
+        "circle_stroke_pt": 0.9,
+        "actual_text": [
+          "R",
+          "H",
+          "2",
+          "N"
+        ],
+        "PNG_dpi": 600,
+        "PNG_pixel_size": [
+          496,
+          188
+        ],
+        "PNG_metadata_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "SVG_text_is_editable": true,
+        "PDF_actual_fonts": [
+          {
+            "font": "/ArialMT",
+            "embedded": true
+          }
+        ],
+        "post_export_scaling": false,
+        "RDKit": "2026.03.6",
+        "matched_atom_indices": [],
+        "geometry_file": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_90_representative_geometry.json",
+        "source_graph_is_query": false,
+        "atom_label_alignment_records": [
+          {
+            "atom_index": 0,
+            "primary_symbol": "R",
+            "text_component_indices": [
+              0
+            ],
+            "translation_pt": [
+              -0.5679331971534438,
+              -1.1447679812642626
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "atom_index": 5,
+            "primary_symbol": "N",
+            "text_component_indices": [
+              1,
+              2,
+              3
+            ],
+            "translation_pt": [
+              -0.31645930506301667,
+              -1.1447679812642644
+            ],
+            "primary_ink_center_relative_to_atom_after_pt": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+        "new_model_or_scientific_estimation": false
+      }
+    }
+  ],
+  "new_scientific_estimation": false
+}

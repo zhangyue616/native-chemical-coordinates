@@ -1,0 +1,35 @@
+{
+  "seed_rule": "PCG64(SeedSequence([20261027,coordinate,T_molecule_index]))",
+  "M1_M2_shared_permutation": true,
+  "identity_permutation_molecules_by_coordinate": [
+    0,
+    0
+  ],
+  "nontrivial_delta_rearrangement_molecules_coordinate_by_M1_M2": [
+    [
+      9959,
+      10000
+    ],
+    [
+      10000,
+      10000
+    ]
+  ],
+  "constant_delta_molecules_coordinate_by_M1_M2": [
+    [
+      37,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "single_atom_molecules": 0,
+  "degenerate_permutations_retained": true,
+  "float64_sorted_multiset_exact": true,
+  "float64_canonical_L2_exact": true,
+  "float32_realization_atol": 2e-05,
+  "float32_realization_rtol": 2e-06,
+  "interpretation": "preserves within-molecule intended delta multiset/L2; changes direction and replacement activation marginal; diagnostic, not a strict distribution-matched null"
+}

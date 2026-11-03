@@ -1,0 +1,15 @@
+{
+  "split": "T",
+  "copied": false,
+  "files": {
+    "data/revision_20261017/chemistry/sealed/T.tsv": {
+      "bytes": 1987478,
+      "sha256": "b1fdc3cb87b03b9cde0bcd8cad5c2a3996c5766296199c1dc77412fc3f6c7494"
+    },
+    "data/revision_20261017/chemistry/sealed/anchors_T.jsonl.gz": {
+      "bytes": 4244380,
+      "sha256": "221a9d85d9e85b21ce9701f60fe4bdd89829f9e1485e8899c55b1a6fa589c396"
+    }
+  },
+  "identity_bound_by": "locked accepted BUILD_RECEIPT"
+}

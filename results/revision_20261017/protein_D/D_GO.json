@@ -1,0 +1,9 @@
+{
+  "status": "D_GO",
+  "created_utc": "2026-10-17T13:23:55.1340886+00:00",
+  "D_only_authorized": true,
+  "T_authorized": false,
+  "maximum_real_fits": 102,
+  "ready_sha256": "885ba2082907f35a657e8eb6895539c41257e40fde4872d9e0de5b25136ab0f9",
+  "supervisor_review": "Raw-block train-fold trace normalization, nested kernels, antisymmetric pair target, held-group CV, four-lambda mean-loss grid, four fixed endpoints and precision cap reviewed. Reuse nine synthetic checks plus targeted pre-data grid revision."
+}

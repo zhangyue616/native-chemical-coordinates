@@ -1,0 +1,14 @@
+{
+  "status": "AUTHORIZED_SINGLE_CASE_NUMERIC_GEOMETRY_RESTORATION",
+  "created_utc": "2026-10-25T17:11:41.125530+00:00",
+  "parent_script_sha256": "5dbe44494d9c8ebc4499c3612324857e862d062d3dac2fc0318c491c66c3e4f4",
+  "revised_script_sha256": "3f30cccd6f0e65244c942c8c1a459991aecb5acede8734614a2d53a12fbf8642",
+  "original_protocol_sha256_unchanged": "338fec5881256881f140ea9253729d8a5af5f99aa9abebbe3900d197981b8a7b",
+  "diagnostic": "DIAGNOSTIC.json",
+  "restoration": "RESTORATION.json",
+  "scope": "Only T index8381, concept26, baseline and all18 conditions restored to original accepted T batch [8380,8381,8382,8383]; original per-condition dose and q baseline gates remain",
+  "output_policy": "All original baseline/condition arrays preserved; RESULT_ARRAYS integrates explicit one-row replacements using same geometry baseline",
+  "fixed_science": "pair,tau,alpha,q,means,norms,hook,bootstrap and all samples unchanged",
+  "authority": "2026-10-25 controller explicit approval following independent targeted reviewer; all18 supersedes one-condition-only suggestion",
+  "budget": "76 total extra evaluations; within original 24000 and3600CPU caps"
+}

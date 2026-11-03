@@ -1,0 +1,21 @@
+{
+  "D": {
+    "groups": 0,
+    "molecules": 0,
+    "pairs": 0
+  },
+  "T": {
+    "groups": 0,
+    "molecules": 0,
+    "pairs": 0
+  },
+  "cross_D_T": {
+    "fingerprint_groups": 1,
+    "D_molecules": 1,
+    "T_molecules": 1,
+    "pairs": 1
+  },
+  "hash_contract": "SHA256 ASCII json.dumps(input_ids,separators=(',',':')); no padding",
+  "collision_changes_eligibility": false,
+  "T_chemical_or_collision_examples_disclosed": false
+}

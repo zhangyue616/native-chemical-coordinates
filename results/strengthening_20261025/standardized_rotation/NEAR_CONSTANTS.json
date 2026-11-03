@@ -1,0 +1,30 @@
+{
+  "trained": {
+    "n": 0,
+    "unit_indices": [],
+    "means": [],
+    "original_sd": [],
+    "replacement_denominator": 1.0
+  },
+  "init21000": {
+    "n": 0,
+    "unit_indices": [],
+    "means": [],
+    "original_sd": [],
+    "replacement_denominator": 1.0
+  },
+  "init21001": {
+    "n": 0,
+    "unit_indices": [],
+    "means": [],
+    "original_sd": [],
+    "replacement_denominator": 1.0
+  },
+  "init21002": {
+    "n": 0,
+    "unit_indices": [],
+    "means": [],
+    "original_sd": [],
+    "replacement_denominator": 1.0
+  }
+}

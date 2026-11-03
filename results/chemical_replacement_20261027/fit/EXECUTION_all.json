@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-27T09:25:18.121250+00:00",
+  "stage": "all",
+  "wall_seconds": 17.777077700011432,
+  "process_cpu_seconds": 16.609375,
+  "memory": {
+    "rss_bytes": 1183895552,
+    "peak_rss_bytes": 1332785152,
+    "private_commit_bytes": 581013504,
+    "peak_private_commit_bytes": 731381760
+  },
+  "stages": [
+    {
+      "stage": "D_identity_keys_continuous_fit_and_freeze",
+      "wall_seconds": 3.988767700007884,
+      "process_cpu_seconds": 3.734375,
+      "memory": {
+        "rss_bytes": 489844736,
+        "peak_rss_bytes": 494178304,
+        "private_commit_bytes": 342683648,
+        "peak_private_commit_bytes": 347291648
+      }
+    },
+    {
+      "stage": "T_identity_keys_Dfrozen_apply_and_artifact",
+      "wall_seconds": 13.671211999986554,
+      "process_cpu_seconds": 12.765625,
+      "memory": {
+        "rss_bytes": 1315971072,
+        "peak_rss_bytes": 1332785152,
+        "private_commit_bytes": 713506816,
+        "peak_private_commit_bytes": 731381760
+      }
+    }
+  ],
+  "model_forwards": 0,
+  "model_loads": 0,
+  "network_calls": 0,
+  "T_model_fitting": 0,
+  "threads": 4,
+  "resource_lock_scope": "fit_and_summary_combined; summary adds this fit consumption"
+}

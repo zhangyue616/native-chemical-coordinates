@@ -1,0 +1,22 @@
+{
+  "first_actual_T_unit": {
+    "phase": "T_standardize_rotate_fixed_winner_2000bootstrap",
+    "network": "trained",
+    "basis": "Q30000",
+    "start_cpu": 3517.90625,
+    "start_wall": 29695.4109379,
+    "started_utc": "2026-10-25T17:17:47.728066+00:00",
+    "cpu_seconds": 98.296875,
+    "wall_seconds": 26.665609299998323,
+    "finished_utc": "2026-10-25T17:18:14.393703+00:00",
+    "rss_bytes": 726110208,
+    "peak_rss_bytes": 1205514240,
+    "replicates": 2000,
+    "concepts": 71,
+    "D_winners_reselected": false
+  },
+  "actual_36D_cpu_seconds": 3514.40625,
+  "projected_36T_cpu_seconds": 3538.6875,
+  "projected_complete_total_cpu_seconds": 7056.59375,
+  "limitation": "network sparsity, selected units and ties can change subsequent actual costs"
+}

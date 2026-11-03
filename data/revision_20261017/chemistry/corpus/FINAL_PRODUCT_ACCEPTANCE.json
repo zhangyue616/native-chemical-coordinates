@@ -1,0 +1,57 @@
+{
+  "status": "PASS_FINAL_PRODUCT_ACCEPTANCE",
+  "checked_at_utc": "2026-10-17T13:39:44.557937+00:00",
+  "build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c",
+  "n_D": 5000,
+  "n_T_input_only": 10000,
+  "n_atoms_D": 124530,
+  "labels_D_shape": [
+    124530,
+    91
+  ],
+  "occurrence_D_shape": [
+    5000,
+    91
+  ],
+  "C_size": 71,
+  "panel_ids": [
+    0,
+    14,
+    24,
+    1,
+    15,
+    25,
+    2,
+    16,
+    26,
+    3,
+    18,
+    27
+  ],
+  "mechanism_candidate_ids": [
+    24,
+    25,
+    26
+  ],
+  "checks": [
+    "exact D/T row-rank and anchor alignment",
+    "global unique CID and canonical identity, sorted CID digest",
+    "all accepted element-anchor structure and original source span bounds",
+    "D-only atom-label-offset and occurrence array consistency",
+    "D coverage and frozen panel/mechanism rules",
+    "input fingerprint collision evidence consistency",
+    "sealed file boundary and zero scientific/model ledger"
+  ],
+  "reused_engineering_evidence": {
+    "mapper_checks": 47,
+    "data_builder_checks": 33,
+    "rerun": false
+  },
+  "source_rescanned_or_rehashed": false,
+  "output_file_sha256_recomputed": false,
+  "output_identity_evidence": "builder output manifest reused; final file sizes checked",
+  "T_label_calls": 0,
+  "T_scientific_reads": 0,
+  "model_forwards": 0,
+  "fits": 0
+}

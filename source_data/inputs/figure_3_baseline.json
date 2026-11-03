@@ -1,0 +1,3910 @@
+{
+  "figure": 4,
+  "version": "finalset_20261102_v05",
+  "source_files": [
+    "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+    "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+    "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+    "manuscript/revision_20261017/tables/chemistry_concept_contrasts_descriptive.tsv",
+    "manuscript/draft_round4_20261027/sources/chemical_assets/molecules/T1_CID60628745_geometry.json",
+    "manuscript/draft_round4_20261027/sources/chemical_assets/molecules/T1_CID60628745_metadata.json",
+    "manuscript/draft_round4_20261027/sources/chemical_assets/queries/query_registry.json"
+  ],
+  "old_new_mapping": {
+    "former_sixfig_4": "A",
+    "former_sixfig_6A": "B",
+    "former_sixfig_6B": "C",
+    "former_sixfig_6C": "D"
+  },
+  "preceding_layout_baseline": "manuscript/draft_round3_20261026/figures/figure_4.png",
+  "concept_rows": [
+    {
+      "concept_id": 0,
+      "group": "Rings",
+      "exact_source_name": "topo:ring3",
+      "display_name": "Ring3",
+      "Native_AP": 0.6237854861505485,
+      "Lookup_AP": 0.13919594164414742,
+      "Delta_Brier": 0.0007697700329540557,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 1,
+      "selected_coordinate": 188,
+      "selected_pole": "positive",
+      "plot_y": 20.35
+    },
+    {
+      "concept_id": 1,
+      "group": "Rings",
+      "exact_source_name": "topo:ring4",
+      "display_name": "Ring4",
+      "Native_AP": 0.09279310074216827,
+      "Lookup_AP": 0.09943765641976239,
+      "Delta_Brier": 0.0002109106292067046,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 4,
+      "selected_coordinate": 188,
+      "selected_pole": "positive",
+      "plot_y": 19.35
+    },
+    {
+      "concept_id": 2,
+      "group": "Rings",
+      "exact_source_name": "topo:ring5",
+      "display_name": "Ring5",
+      "Native_AP": 0.31832321121907675,
+      "Lookup_AP": 0.6827015837702143,
+      "Delta_Brier": 0.00282414175172711,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 7,
+      "selected_coordinate": 349,
+      "selected_pole": "negative",
+      "plot_y": 18.35
+    },
+    {
+      "concept_id": 3,
+      "group": "Rings",
+      "exact_source_name": "topo:ring6",
+      "display_name": "Ring6",
+      "Native_AP": 0.7786297621969774,
+      "Lookup_AP": 0.9408811653298458,
+      "Delta_Brier": 0.0019438913656658519,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 10,
+      "selected_coordinate": 121,
+      "selected_pole": "positive",
+      "plot_y": 17.35
+    },
+    {
+      "concept_id": 14,
+      "group": "Carboxylic acids",
+      "exact_source_name": "fg:CarboxylicAcid",
+      "display_name": "Carboxylic acid",
+      "Native_AP": 1.0,
+      "Lookup_AP": 0.7216007077467658,
+      "Delta_Brier": 0.0035833791832020423,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 2,
+      "selected_coordinate": 266,
+      "selected_pole": "positive",
+      "plot_y": 15.5
+    },
+    {
+      "concept_id": 15,
+      "group": "Carboxylic acids",
+      "exact_source_name": "fg:CarboxylicAcid.Aromatic",
+      "display_name": "Arom. carboxylic acid",
+      "Native_AP": 0.707937418917197,
+      "Lookup_AP": 0.49929098888111667,
+      "Delta_Brier": 0.0002901852730141777,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 5,
+      "selected_coordinate": 266,
+      "selected_pole": "positive",
+      "plot_y": 14.5
+    },
+    {
+      "concept_id": 16,
+      "group": "Carboxylic acids",
+      "exact_source_name": "fg:CarboxylicAcid.Aliphatic",
+      "display_name": "Aliph. carboxylic acid",
+      "Native_AP": 0.9756872964112221,
+      "Lookup_AP": 0.6325418379757161,
+      "Delta_Brier": 0.0001128777415506932,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 8,
+      "selected_coordinate": 99,
+      "selected_pole": "positive",
+      "plot_y": 13.5
+    },
+    {
+      "concept_id": 24,
+      "group": "Carbonyls",
+      "exact_source_name": "frag:fr_C=O",
+      "display_name": "Carbonyl",
+      "Native_AP": 0.7849312628894846,
+      "Lookup_AP": 0.999339545223478,
+      "Delta_Brier": 1.460987124840847e-19,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 3,
+      "selected_coordinate": 454,
+      "selected_pole": "positive",
+      "plot_y": 11.65
+    },
+    {
+      "concept_id": 25,
+      "group": "Carbonyls",
+      "exact_source_name": "frag:fr_C=O_noCOO",
+      "display_name": "Carbonyl (noCOO)",
+      "Native_AP": 0.8160537259364388,
+      "Lookup_AP": 0.9519510608413649,
+      "Delta_Brier": 0.000633608638288331,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 6,
+      "selected_coordinate": 454,
+      "selected_pole": "positive",
+      "plot_y": 10.65
+    },
+    {
+      "concept_id": 26,
+      "group": "Hydroxyls",
+      "exact_source_name": "frag:fr_Al_OH",
+      "display_name": "Aliphatic OH",
+      "Native_AP": 0.7780195799040408,
+      "Lookup_AP": 0.975612436707436,
+      "Delta_Brier": 3.324637132396972e-06,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 9,
+      "selected_coordinate": 293,
+      "selected_pole": "positive",
+      "plot_y": 8.8
+    },
+    {
+      "concept_id": 27,
+      "group": "Hydroxyls",
+      "exact_source_name": "frag:fr_Ar_OH",
+      "display_name": "Aromatic OH",
+      "Native_AP": 0.9798930897758531,
+      "Lookup_AP": 0.9993847782224721,
+      "Delta_Brier": 4.019312148238147e-23,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 12,
+      "selected_coordinate": 388,
+      "selected_pole": "positive",
+      "plot_y": 7.8
+    },
+    {
+      "concept_id": 18,
+      "group": "Amine",
+      "exact_source_name": "fg:Amine.Primary.Aliphatic",
+      "display_name": "Primary aliph. amine",
+      "Native_AP": 0.668333548399216,
+      "Lookup_AP": 0.9833366346131087,
+      "Delta_Brier": 3.5756770050096616e-22,
+      "lookup_AP_column": "radius1",
+      "lookup_AP_column_index": 2,
+      "original_D_panel_order": 11,
+      "selected_coordinate": 382,
+      "selected_pole": "positive",
+      "plot_y": 5.95
+    }
+  ],
+  "group_order": [
+    "Rings",
+    "Carboxylic acids",
+    "Carbonyls",
+    "Hydroxyls",
+    "Amine"
+  ],
+  "panel_mean_comparison": {
+    "metric": "Delta_Brier",
+    "original_T": {
+      "point": 0.0008643407710617802,
+      "ci95": [
+        0.0008240835187488196,
+        0.0009087445620562057
+      ]
+    },
+    "D_unseen_slice": {
+      "point": 0.0008461177180704328,
+      "ci95": [
+        0.000796278376385623,
+        0.000894801718836284
+      ]
+    }
+  },
+  "panel_mean_display_geometry": [
+    {
+      "object": "Held-out panel mean",
+      "point": 0.0008643407710617802,
+      "ci95": [
+        0.0008240835187488196,
+        0.0009087445620562057
+      ],
+      "CI_horizontal_span_pt": 1.4513321709837612,
+      "diamond_horizontal_width_pt": 4.242640687119286,
+      "CI_narrower_than_marker": true,
+      "cap_height_pt": 3.0,
+      "CI_linewidth_pt": 0.5
+    },
+    {
+      "object": "Scaffold-unseen mean",
+      "point": 0.0008461177180704328,
+      "ci95": [
+        0.000796278376385623,
+        0.000894801718836284
+      ],
+      "CI_horizontal_span_pt": 1.6889715848684745,
+      "diamond_horizontal_width_pt": 4.242640687119286,
+      "CI_narrower_than_marker": true,
+      "cap_height_pt": 3.0,
+      "CI_linewidth_pt": 0.5
+    }
+  ],
+  "former_F4_full_frozen_scientific_record": {
+    "figure": 4,
+    "current_frozen_input_directory": "Frozen figure source",
+    "panel_map": {
+      "A": "old Figure 6A carbonyl bridge",
+      "B": "old Figure 5B complete 12-concept panel plus existing full-T and D-unseen-slice panel means"
+    },
+    "carbonyl": {
+      "exact_id": 24,
+      "SMARTS": "[CX3]=[OX1]",
+      "unit": 454,
+      "pole": "positive",
+      "q": 124,
+      "native_AP": 0.7849312628894846,
+      "AP_L": 0.999339545223478,
+      "Delta_Brier": 1.460987124840847e-19
+    },
+    "panel_concepts": [
+      {
+        "D_panel_order": "1",
+        "exact_id": "0",
+        "name": "topo:ring3",
+        "D_selected_candidate": "188",
+        "T_prevalence": "0.0080657582218042981",
+        "Delta_L": "0.00076977003295405574",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":4850}",
+        "T_bin_atom_counts": "[49399,35613,161710]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[0];concept_ids[0]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[0]/statistics",
+        "Brier_token": "0.0079023355676246659",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.0078987638219212963",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.007193775590552294",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.006424005557598601",
+        "fallback_fraction_Lj": "0.01755822342555589",
+        "unseen_count_Lj": "4332"
+      },
+      {
+        "D_panel_order": "2",
+        "exact_id": "14",
+        "name": "fg:CarboxylicAcid",
+        "D_selected_candidate": "266",
+        "T_prevalence": "0.012086477898201215",
+        "Delta_L": "0.0035833791832020423",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":4447}",
+        "T_bin_atom_counts": "[49873,36587,160262]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[11];concept_ids[11]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[1]/statistics",
+        "Brier_token": "0.011391350112178964",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.011391086416033324",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.0042053063188904104",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.00062192713568920226",
+        "fallback_fraction_Lj": "0.01594507178119503",
+        "unseen_count_Lj": "3934"
+      },
+      {
+        "D_panel_order": "3",
+        "exact_id": "24",
+        "name": "frag:fr_C=O",
+        "D_selected_candidate": "454",
+        "T_prevalence": "0.077714999067776694",
+        "Delta_L": "1.460987124840847e-19",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":6493}",
+        "T_bin_atom_counts": "[48559,49219,50369,49496,49079]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[20];concept_ids[20]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[2]/statistics",
+        "Brier_token": "0.058491904170371714",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.058101242985576992",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.0029980801864867143",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.0029980801864867143",
+        "fallback_fraction_Lj": "0.023256945063674907",
+        "unseen_count_Lj": "5738"
+      },
+      {
+        "D_panel_order": "4",
+        "exact_id": "1",
+        "name": "topo:ring4",
+        "D_selected_candidate": "188",
+        "T_prevalence": "0.0059297508937184362",
+        "Delta_L": "0.00021091062920670459",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":4850}",
+        "T_bin_atom_counts": "[49399,35613,161710]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[1];concept_ids[1]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[3]/statistics",
+        "Brier_token": "0.0058561775482356788",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.0058547248051231361",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.0055732638126215605",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.0053623531834132666",
+        "fallback_fraction_Lj": "0.01755822342555589",
+        "unseen_count_Lj": "4332"
+      },
+      {
+        "D_panel_order": "5",
+        "exact_id": "15",
+        "name": "fg:CarboxylicAcid.Aromatic",
+        "D_selected_candidate": "266",
+        "T_prevalence": "0.0035019171375069917",
+        "Delta_L": "0.00029018527301417771",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":4447}",
+        "T_bin_atom_counts": "[49873,36587,160262]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[12];concept_ids[12]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[4]/statistics",
+        "Brier_token": "0.0034445052645767256",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.0034443340487171907",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.0020364469444758529",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.0017462616714611307",
+        "fallback_fraction_Lj": "0.01594507178119503",
+        "unseen_count_Lj": "3934"
+      },
+      {
+        "D_panel_order": "6",
+        "exact_id": "25",
+        "name": "frag:fr_C=O_noCOO",
+        "D_selected_candidate": "454",
+        "T_prevalence": "0.070103193067501068",
+        "Delta_L": "0.00063360863828833096",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":6493}",
+        "T_bin_atom_counts": "[48559,49219,50369,49496,49079]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[21];concept_ids[21]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[5]/statistics",
+        "Brier_token": "0.054461143821546508",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.054144475621643817",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.0062782854138475012",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.0056446767755602622",
+        "fallback_fraction_Lj": "0.023256945063674907",
+        "unseen_count_Lj": "5738"
+      },
+      {
+        "D_panel_order": "7",
+        "exact_id": "2",
+        "name": "topo:ring5",
+        "D_selected_candidate": "813",
+        "T_prevalence": "0.14336378596152755",
+        "Delta_L": "0.0028241417517271099",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":4797}",
+        "T_bin_atom_counts": "[4525,143436,48921,49840]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[2];concept_ids[2]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[6]/statistics",
+        "Brier_token": "0.10647985295581026",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.10633828778781394",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.074929508493141297",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.072105366741482879",
+        "fallback_fraction_Lj": "0.016411183437228947",
+        "unseen_count_Lj": "4049"
+      },
+      {
+        "D_panel_order": "8",
+        "exact_id": "16",
+        "name": "fg:CarboxylicAcid.Aliphatic",
+        "D_selected_candidate": "99",
+        "T_prevalence": "0.0085237635881680596",
+        "Delta_L": "0.0001128777415506932",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":3284}",
+        "T_bin_atom_counts": "[8526,238196]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[13];concept_ids[13]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[7]/statistics",
+        "Brier_token": "0.0081811056795994784",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.0081811288182435209",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.003875772052097565",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.0037628943105478541",
+        "fallback_fraction_Lj": "0.011697375994033771",
+        "unseen_count_Lj": "2886"
+      },
+      {
+        "D_panel_order": "9",
+        "exact_id": "26",
+        "name": "frag:fr_Al_OH",
+        "D_selected_candidate": "293",
+        "T_prevalence": "0.013201092727847537",
+        "Delta_L": "3.3246371323969721e-06",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":4656}",
+        "T_bin_atom_counts": "[49983,49272,38,147429]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[22];concept_ids[22]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[8]/statistics",
+        "Brier_token": "0.01264856758428828",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.012637129922164174",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.0020931075488384429",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.0020897829117061009",
+        "fallback_fraction_Lj": "0.016119357009103365",
+        "unseen_count_Lj": "3977"
+      },
+      {
+        "D_panel_order": "10",
+        "exact_id": "3",
+        "name": "topo:ring6",
+        "D_selected_candidate": "121",
+        "T_prevalence": "0.45415893191527307",
+        "Delta_L": "0.0019438913656658519",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":6363}",
+        "T_bin_atom_counts": "[49443,49253,48820,49249,49957]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[3];concept_ids[3]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[9]/statistics",
+        "Brier_token": "0.12576853209494837",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.12535322150347594",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.084693610913039896",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.082749719547400319",
+        "fallback_fraction_Lj": "0.021834291226562691",
+        "unseen_count_Lj": "5387"
+      },
+      {
+        "D_panel_order": "11",
+        "exact_id": "18",
+        "name": "fg:Amine.Primary.Aliphatic",
+        "D_selected_candidate": "382",
+        "T_prevalence": "0.0028817859777401284",
+        "Delta_L": "3.5756770050096616e-22",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":5609}",
+        "T_bin_atom_counts": "[49557,49034,49397,48745,49989]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[14];concept_ids[14]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[10]/statistics",
+        "Brier_token": "0.0027546706687143463",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.0027501516629710432",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.00023600389109164379",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.00023600389109164379",
+        "fallback_fraction_Lj": "0.019151109345741362",
+        "unseen_count_Lj": "4725"
+      },
+      {
+        "D_panel_order": "12",
+        "exact_id": "27",
+        "name": "frag:fr_Ar_OH",
+        "D_selected_candidate": "388",
+        "T_prevalence": "0.003972081938375986",
+        "Delta_L": "4.0193121482381472e-23",
+        "T_atoms": "246722",
+        "D_category_counts": "{\"token\":12,\"r0\":29,\"L\":2993,\"Lj\":4791}",
+        "T_bin_atom_counts": "[48944,49558,37280,110940]",
+        "prevalence_source_path": "results/revision_20261017/chemistry_T/T_FIXED_REPLICATES.npz",
+        "prevalence_source_field": "point_prevalence[23];concept_ids[23]",
+        "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+        "source_field": "concepts[11]/statistics",
+        "Brier_token": "0.0039221634436379929",
+        "fallback_fraction_token": "1.2159434505232611e-05",
+        "unseen_count_token": "3",
+        "Brier_r0": "0.0039213733522572578",
+        "fallback_fraction_r0": "3.2425158680620295e-05",
+        "unseen_count_r0": "8",
+        "Brier_L": "0.00017241457728460347",
+        "fallback_fraction_L": "0.010732727523285317",
+        "unseen_count_L": "2648",
+        "Brier_Lj": "0.00017241457728460347",
+        "fallback_fraction_Lj": "0.016504405768435728",
+        "unseen_count_Lj": "4072"
+      }
+    ],
+    "panel_summary": {
+      "quantity": "Delta_L_panel",
+      "point": "0.00086434077106178019",
+      "macro_Brier_L": "0.016190464645197314",
+      "macro_Brier_Lj": "0.015326123874143546",
+      "relative_Brier_reduction_from_L": "0.053385791575671387",
+      "relative_Brier_reduction_from_L_percent": "5.3385791575671391",
+      "point_summary_definition": "Unweighted mean of the 12 saved per-concept Briers; relative reduction = saved Delta_L_panel / macro_Brier_L; descriptive point values only",
+      "CI95_lower": "0.00082408351874881959",
+      "CI95_upper": "0.00090874456205620568",
+      "defined_replicates": "2000",
+      "undefined_replicates": "0",
+      "source_path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+      "source_field": "statistics.Delta_L_panel/panel_ci95/Brier_per_concept_reference[:,2:4]"
+    },
+    "display_names": {
+      "0": "Ring3",
+      "14": "Carboxylic acid",
+      "24": "Carbonyl",
+      "1": "Ring4",
+      "15": "Arom. carboxylic acid",
+      "25": "Carbonyl (noCOO)",
+      "2": "Ring5",
+      "16": "Aliph. carboxylic acid",
+      "26": "Aliphatic OH",
+      "3": "Ring6",
+      "18": "Primary aliph. amine",
+      "27": "Aromatic OH"
+    },
+    "D_molecules": 5000,
+    "T_molecules": 10000,
+    "bootstrap_replicates_existing": 2000,
+    "per_concept_CI_or_test": false,
+    "frozen_display_sources": [
+      "figure_5_plot_data.json",
+      "figure_6_plot_data.json"
+    ],
+    "panel_mean_comparison": {
+      "metric": "Delta_Brier",
+      "original_T": {
+        "point": 0.0008643407710617802,
+        "ci95": [
+          0.0008240835187488196,
+          0.0009087445620562057
+        ]
+      },
+      "D_unseen_slice": {
+        "point": 0.0008461177180704328,
+        "ci95": [
+          0.000796278376385623,
+          0.000894801718836284
+        ]
+      }
+    },
+    "panel_mean_comparison_source": "results/strengthening_20261025/figures/figure_1_plot_data.json",
+    "slice_molecules": 7205,
+    "between_group_difference_or_test": false,
+    "upstream_source_fields_retained": {
+      "old5": [
+        {
+          "path": "manuscript/revision_20261017/tables/chemistry_primary_effects.tsv",
+          "fields": [
+            "estimand",
+            "point",
+            "CI95_lower",
+            "CI95_upper"
+          ],
+          "stored_upstream_source_fields_retained": true
+        },
+        {
+          "path": "manuscript/revision_20261017/tables/chemistry_panel_brier_fallback.tsv",
+          "fields": [
+            "D_panel_order",
+            "exact_id",
+            "name",
+            "Delta_L",
+            "Brier_L",
+            "Brier_Lj"
+          ],
+          "stored_upstream_source_fields_retained": true
+        },
+        {
+          "path": "manuscript/revision_20261017/tables/chemistry_panel_summary.tsv",
+          "fields": [
+            "point",
+            "CI95_lower",
+            "CI95_upper",
+            "macro_Brier_L",
+            "macro_Brier_Lj"
+          ],
+          "stored_upstream_source_fields_retained": true
+        },
+        {
+          "path": "manuscript/revision_20261017/figures/figure_3_plot_data.json",
+          "fields": [
+            "concept_display_names"
+          ]
+        }
+      ],
+      "old6": [
+        {
+          "path": "manuscript/revision_20261017/tables/chemistry_mechanism_H_rho.tsv",
+          "fields": [
+            "exact_id",
+            "D_selected_unit",
+            "D_anonymous_output_q",
+            "H",
+            "H_CI_lower",
+            "H_CI_upper",
+            "oriented_rho",
+            "oriented_rho_CI_lower",
+            "oriented_rho_CI_upper",
+            "T_positive_subset",
+            "T_negative_subset"
+          ],
+          "stored_upstream_source_fields_retained": true
+        },
+        {
+          "path": "manuscript/revision_20261017/tables/chemistry_mechanism_condition_dose.tsv",
+          "fields": [
+            "exact_id",
+            "condition",
+            "stratum",
+            "unit",
+            "mean",
+            "source_path",
+            "source_field"
+          ],
+          "stored_upstream_source_fields_retained": true
+        },
+        {
+          "path": "manuscript/revision_20261017/tables/chemistry_concept_contrasts_descriptive.tsv",
+          "fields": [
+            "exact_id=24",
+            "trained_native_AP_T",
+            "trained_native_D_candidate_coordinate",
+            "trained_native_D_candidate_pole"
+          ],
+          "stored_upstream_source_fields_retained": true
+        },
+        {
+          "path": "results/revision_20261017/chemistry_T/secondary/input/INPUT_T_RESULTS.json",
+          "fields": [
+            "AP_columns",
+            "concepts[concept_id=24].descriptive_AP_float32_probability_scores"
+          ]
+        }
+      ]
+    },
+    "new_fits_forwards_bootstraps_p_tests": 0,
+    "source_arrays_opened": false,
+    "near_zero_value_policy": "Exact positive carbonyl source value retained; not coerced to zero",
+    "carbonyl_motif": "C and O query-fragment atoms with a double bond, not a new molecule or mechanism"
+  },
+  "absolute_losses": [
+    {
+      "model": "X",
+      "pairs": "1304",
+      "paired_Brier_mean": "0.19433152888970243",
+      "constant_probability_0_5_Brier": "0.25",
+      "reduction_from_0_25": "0.055668471110297574",
+      "selected_D_lambda": "0.01",
+      "loss_source_path": "results/revision_20261017/protein_T/T_PREDICTIONS.npz",
+      "loss_source_field": "X_loss",
+      "loss_accepted_sha256": "d799186de27140dfa9ea4de2174786e99f3c5fcfe6e1941a752b22cb50af3c98",
+      "lambda_source_path": "results/revision_20261017/protein_D/D_DEVELOPMENT.json",
+      "lambda_source_field": "models.X.selected_lambda"
+    },
+    {
+      "model": "Xj",
+      "pairs": "1304",
+      "paired_Brier_mean": "0.17725874171070671",
+      "constant_probability_0_5_Brier": "0.25",
+      "reduction_from_0_25": "0.072741258289293287",
+      "selected_D_lambda": "0.01",
+      "loss_source_path": "results/revision_20261017/protein_T/T_PREDICTIONS.npz",
+      "loss_source_field": "Xj_loss",
+      "loss_accepted_sha256": "d799186de27140dfa9ea4de2174786e99f3c5fcfe6e1941a752b22cb50af3c98",
+      "lambda_source_path": "results/revision_20261017/protein_D/D_DEVELOPMENT.json",
+      "lambda_source_field": "models.Xj.selected_lambda"
+    },
+    {
+      "model": "S",
+      "pairs": "1304",
+      "paired_Brier_mean": "0.18727026427745269",
+      "constant_probability_0_5_Brier": "0.25",
+      "reduction_from_0_25": "0.062729735722547308",
+      "selected_D_lambda": "0.01",
+      "loss_source_path": "results/revision_20261017/protein_T/T_PREDICTIONS.npz",
+      "loss_source_field": "S_loss",
+      "loss_accepted_sha256": "d799186de27140dfa9ea4de2174786e99f3c5fcfe6e1941a752b22cb50af3c98",
+      "lambda_source_path": "results/revision_20261017/protein_D/D_DEVELOPMENT.json",
+      "lambda_source_field": "models.S.selected_lambda"
+    },
+    {
+      "model": "Sj",
+      "pairs": "1304",
+      "paired_Brier_mean": "0.17279844057414487",
+      "constant_probability_0_5_Brier": "0.25",
+      "reduction_from_0_25": "0.077201559425855132",
+      "selected_D_lambda": "0.01",
+      "loss_source_path": "results/revision_20261017/protein_T/T_PREDICTIONS.npz",
+      "loss_source_field": "Sj_loss",
+      "loss_accepted_sha256": "d799186de27140dfa9ea4de2174786e99f3c5fcfe6e1941a752b22cb50af3c98",
+      "lambda_source_path": "results/revision_20261017/protein_D/D_DEVELOPMENT.json",
+      "lambda_source_field": "models.Sj.selected_lambda"
+    },
+    {
+      "model": "L",
+      "pairs": "1304",
+      "paired_Brier_mean": "0.19177128351312969",
+      "constant_probability_0_5_Brier": "0.25",
+      "reduction_from_0_25": "0.058228716486870308",
+      "selected_D_lambda": "0.001",
+      "loss_source_path": "results/revision_20261017/protein_T/T_PREDICTIONS.npz",
+      "loss_source_field": "L_loss",
+      "loss_accepted_sha256": "d799186de27140dfa9ea4de2174786e99f3c5fcfe6e1941a752b22cb50af3c98",
+      "lambda_source_path": "results/revision_20261017/protein_D/D_DEVELOPMENT.json",
+      "lambda_source_field": "models.L.selected_lambda"
+    },
+    {
+      "model": "Lj",
+      "pairs": "1304",
+      "paired_Brier_mean": "0.17322552695462412",
+      "constant_probability_0_5_Brier": "0.25",
+      "reduction_from_0_25": "0.076774473045375879",
+      "selected_D_lambda": "0.01",
+      "loss_source_path": "results/revision_20261017/protein_T/T_PREDICTIONS.npz",
+      "loss_source_field": "Lj_loss",
+      "loss_accepted_sha256": "d799186de27140dfa9ea4de2174786e99f3c5fcfe6e1941a752b22cb50af3c98",
+      "lambda_source_path": "results/revision_20261017/protein_D/D_DEVELOPMENT.json",
+      "lambda_source_field": "models.Lj.selected_lambda"
+    }
+  ],
+  "endpoints": [
+    {
+      "endpoint": "gX",
+      "direction": "greater",
+      "groups": "1304",
+      "mean": "0.01707278717899573",
+      "SD": "0.12108615753475702",
+      "SE": "0.003353171004768141",
+      "CI95_lower": "0.010494582338470625",
+      "CI95_upper": "0.023650992019520835",
+      "CI98_75_lower": "0.0086859066093935167",
+      "CI98_75_upper": "0.025459667748597946",
+      "simultaneous_half_width": "0.0083868805696022154",
+      "half_width_le_0_01": "true",
+      "raw_p": "2.0365498170952511e-07",
+      "Holm_p": "8.1461992683810042e-07",
+      "Holm_reject": "true",
+      "source_path": "results/revision_20261017/protein_T/T_SUMMARY.json",
+      "source_field": "primary.endpoints[name=gX]",
+      "source_accepted_sha256": "1f9996a459ae778b4b88eed3e32a683e121a7c3cd4cbf28e9c348986fff2cba4"
+    },
+    {
+      "endpoint": "gS",
+      "direction": "greater",
+      "groups": "1304",
+      "mean": "0.014471823703307822",
+      "SD": "0.10646911924958358",
+      "SE": "0.0029483895668951919",
+      "CI95_lower": "0.0086877135302435154",
+      "CI95_upper": "0.020255933876372128",
+      "CI98_75_lower": "0.0070973739257543496",
+      "CI98_75_upper": "0.021846273480861295",
+      "simultaneous_half_width": "0.0073744497775534729",
+      "half_width_le_0_01": "true",
+      "raw_p": "5.171908526825804e-07",
+      "Holm_p": "1.4872386680536672e-06",
+      "Holm_reject": "true",
+      "source_path": "results/revision_20261017/protein_T/T_SUMMARY.json",
+      "source_field": "primary.endpoints[name=gS]",
+      "source_accepted_sha256": "1f9996a459ae778b4b88eed3e32a683e121a7c3cd4cbf28e9c348986fff2cba4"
+    },
+    {
+      "endpoint": "gL",
+      "direction": "greater",
+      "groups": "1304",
+      "mean": "0.018545756558505586",
+      "SD": "0.1362064121634223",
+      "SE": "0.0037718877304268802",
+      "CI95_lower": "0.011146118994263012",
+      "CI95_upper": "0.025945394122748159",
+      "CI98_75_lower": "0.0091115905490611639",
+      "CI98_75_upper": "0.027979922567950007",
+      "simultaneous_half_width": "0.0094341660094444217",
+      "half_width_le_0_01": "true",
+      "raw_p": "4.9574622268455576e-07",
+      "Holm_p": "1.4872386680536672e-06",
+      "Holm_reject": "true",
+      "source_path": "results/revision_20261017/protein_T/T_SUMMARY.json",
+      "source_field": "primary.endpoints[name=gL]",
+      "source_accepted_sha256": "1f9996a459ae778b4b88eed3e32a683e121a7c3cd4cbf28e9c348986fff2cba4"
+    },
+    {
+      "endpoint": "psi",
+      "direction": "two-sided",
+      "groups": "1304",
+      "mean": "0.0026009634756879109",
+      "SD": "0.034470513175144497",
+      "SE": "0.00095457257585529237",
+      "CI95_lower": "0.00072829610197071618",
+      "CI95_upper": "0.0044736308494051054",
+      "CI98_75_lower": "0.00021340668919188083",
+      "CI98_75_upper": "0.004988520262183941",
+      "simultaneous_half_width": "0.0023875567864960301",
+      "half_width_le_0_01": "true",
+      "raw_p": "0.0065212771592392804",
+      "Holm_p": "0.0065212771592392804",
+      "Holm_reject": "true",
+      "source_path": "results/revision_20261017/protein_T/T_SUMMARY.json",
+      "source_field": "primary.endpoints[name=psi]",
+      "source_accepted_sha256": "1f9996a459ae778b4b88eed3e32a683e121a7c3cd4cbf28e9c348986fff2cba4"
+    }
+  ],
+  "sequence_example": {
+    "id": "Q5SI12",
+    "length_aa": 272,
+    "known_group_id": "fresh-ec1390f3495e5fa1170ed11adfac172f6870421e28b6236d916de8164d5594bc",
+    "pair_key": "Q5SI12:163:177:2CZL:A:2CZL:A",
+    "sequence_fragment": "DLGAWWEERTGLPLPLGAILAR",
+    "fragment_start_1based": 161,
+    "fragment_end_1based": 182,
+    "HELIX_site_1based": 164,
+    "STRAND_site_1based": 178,
+    "HELIX_mask_fragment_index": 3,
+    "STRAND_mask_fragment_index": 17,
+    "PDB": "2CZL",
+    "chain": "A"
+  },
+  "D": {
+    "length_aa": [
+      64,
+      256
+    ],
+    "pairs": 432,
+    "groups": 421
+  },
+  "T": {
+    "length_aa": [
+      257,
+      512
+    ],
+    "pairs": 1304,
+    "groups": 1304,
+    "masked_forwards": 2608
+  },
+  "coordinate": {
+    "encoder": "ESM-2 8M",
+    "block_natural": 3,
+    "position": "post-GELU",
+    "unit": 1246,
+    "preselected": true
+  },
+  "shared_molecule": {
+    "style": {
+      "atom_center_bond_length_pt": 11.5,
+      "black_bond_linewidth_pt": 0.6,
+      "atom_font_family": "Arial",
+      "atom_fontsize_pt": 7.0,
+      "match_circle_linewidth_pt": 0.9,
+      "match_circle_radius_pt": 3.2,
+      "match_circle_fill": "none",
+      "native_ink_margin_pt": 1.0,
+      "PNG_dpi": 600,
+      "whole_asset_scaling_allowed": false,
+      "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+      "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+    },
+    "width_pt": 83.11999999999999,
+    "height_pt": 64.52,
+    "paths": [
+      {
+        "vertices": [
+          [
+            1.365457096906045,
+            26.537338287879038
+          ],
+          [
+            10.822842797727567,
+            33.09278886195842
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-0 atom-0 atom-1",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            10.822842797727567,
+            33.09278886195842
+          ],
+          [
+            21.219703899292952,
+            28.17620093139888
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-1 atom-1 atom-2",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            21.219703899292952,
+            28.17620093139888
+          ],
+          [
+            30.677089600114474,
+            34.72121288991444
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-2 atom-2 atom-3",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            30.677089600114474,
+            34.72121288991444
+          ],
+          [
+            41.07395070167986,
+            29.815063574918724
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-3 atom-3 atom-4",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            41.88816271565787,
+            30.378748815365043
+          ],
+          [
+            42.54579549617857,
+            22.455839602425154
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-4 atom-4 atom-5",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            40.16579114762746,
+            30.243046813035377
+          ],
+          [
+            40.82342392814816,
+            22.309698984531668
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-4 atom-4 atom-5",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            41.07395070167986,
+            29.815063574918724
+          ],
+          [
+            47.95299835823768,
+            34.58551088758477
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-5 atom-4 atom-6",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            53.09923583120127,
+            35.149196128031086
+          ],
+          [
+            60.917758888502945,
+            31.453926218438568
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-6 atom-6 atom-7",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            60.917758888502945,
+            31.453926218438568
+          ],
+          [
+            61.86767290481062,
+            19.99232632936348
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-7 atom-7 atom-8",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            61.86767290481062,
+            19.99232632936348
+          ],
+          [
+            72.26453400637601,
+            15.075738398803946
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-8 atom-8 atom-9",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            63.50653554833046,
+            21.11969681025611
+          ],
+          [
+            72.09751615735487,
+            17.05907535592987
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-8 atom-8 atom-9",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            72.26453400637601,
+            15.075738398803946
+          ],
+          [
+            72.88041232464143,
+            7.643444117363632
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-9 atom-9 atom-10",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            72.26453400637601,
+            15.075738398803946
+          ],
+          [
+            81.72191970719753,
+            21.6207503573195
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-10 atom-9 atom-11",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            81.72191970719753,
+            21.6207503573195
+          ],
+          [
+            80.77200569088986,
+            33.0823502463946
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-11 atom-11 atom-12",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            79.91603921465655,
+            22.476716833552796
+          ],
+          [
+            79.13314304737,
+            31.95497976550196
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-11 atom-11 atom-12",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            80.77200569088986,
+            33.0823502463946
+          ],
+          [
+            70.37514458932446,
+            37.998938176954134
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-12 atom-12 atom-13",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            70.37514458932446,
+            37.998938176954134
+          ],
+          [
+            69.4356691885806,
+            49.460538066029216
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-13 atom-13 atom-14",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            69.4356691885806,
+            49.460538066029216
+          ],
+          [
+            68.69452748354934,
+            58.35423852640443
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-14 atom-14 atom-15",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            71.1476021410472,
+            49.6066786839227
+          ],
+          [
+            70.41689905157975,
+            58.489940528734095
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-14 atom-14 atom-15",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            67.7132976205502,
+            49.31439744813573
+          ],
+          [
+            66.98259453108275,
+            58.208097908510936
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-14 atom-14 atom-15",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            70.37514458932446,
+            37.998938176954134
+          ],
+          [
+            60.917758888502945,
+            31.453926218438568
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-15 atom-13 atom-7",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            70.5421624383456,
+            36.015601219828206
+          ],
+          [
+            62.72363938104391,
+            30.597959742205276
+          ]
+        ],
+        "codes": [
+          1,
+          2
+        ],
+        "source_class": "bond-15 atom-13 atom-7",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            10.353105097355638,
+            32.758753163916154
+          ],
+          [
+            10.822842797727567,
+            33.09278886195842
+          ],
+          [
+            11.344773575918602,
+            32.842262088426715
+          ]
+        ],
+        "codes": [
+          1,
+          2,
+          2
+        ],
+        "source_class": "",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            20.697773121101918,
+            28.426727704930578
+          ],
+          [
+            21.219703899292952,
+            28.17620093139888
+          ],
+          [
+            21.68944159966488,
+            28.51023662944114
+          ]
+        ],
+        "codes": [
+          1,
+          2,
+          2
+        ],
+        "source_class": "",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            30.196913284178724,
+            34.397615807436004
+          ],
+          [
+            30.677089600114474,
+            34.72121288991444
+          ],
+          [
+            31.188581762741688,
+            34.481124731946565
+          ]
+        ],
+        "codes": [
+          1,
+          2,
+          2
+        ],
+        "source_class": "",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            40.55201992348883,
+            30.0551517328866
+          ],
+          [
+            41.07395070167986,
+            29.815063574918724
+          ],
+          [
+            41.41842501528593,
+            30.0551517328866
+          ]
+        ],
+        "codes": [
+          1,
+          2,
+          2
+        ],
+        "source_class": "",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            61.81547982699152,
+            20.56645018537362
+          ],
+          [
+            61.86767290481062,
+            19.99232632936348
+          ],
+          [
+            62.38960368300165,
+            19.741799555831783
+          ]
+        ],
+        "codes": [
+          1,
+          2,
+          2
+        ],
+        "source_class": "",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            81.24174339126178,
+            21.297153274841065
+          ],
+          [
+            81.72191970719753,
+            21.6207503573195
+          ],
+          [
+            81.66972662937842,
+            22.194874213329637
+          ]
+        ],
+        "codes": [
+          1,
+          2,
+          2
+        ],
+        "source_class": "",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            80.82419876870895,
+            32.50822639038446
+          ],
+          [
+            80.77200569088986,
+            33.0823502463946
+          ],
+          [
+            80.25007491269882,
+            33.332877019926286
+          ]
+        ],
+        "codes": [
+          1,
+          2,
+          2
+        ],
+        "source_class": "",
+        "dash": null,
+        "linewidth_pt": 0.6
+      },
+      {
+        "vertices": [
+          [
+            69.47742365083589,
+            48.88641421001908
+          ],
+          [
+            69.4356691885806,
+            49.460538066029216
+          ],
+          [
+            69.39391472632533,
+            49.90939853527351
+          ]
+        ],
+        "codes": [
+          1,
+          2,
+          2
+        ],
+        "source_class": "",
+        "dash": null,
+        "linewidth_pt": 0.6
+      }
+    ],
+    "texts": [
+      {
+        "x": 39.28163538043242,
+        "y": 20.860166705752942,
+        "text": "O",
+        "source_class": "atom-5",
+        "source_font_size_px": "70px",
+        "font_size_pt": 7.0,
+        "font_family": "Arial",
+        "anchor": "start"
+      },
+      {
+        "x": 48.01725785707271,
+        "y": 38.8677694839449,
+        "text": "N",
+        "source_class": "atom-6",
+        "source_font_size_px": "70px",
+        "font_size_pt": 7.0,
+        "font_family": "Arial",
+        "anchor": "start"
+      },
+      {
+        "x": 48.01725785707271,
+        "y": 45.297956671258426,
+        "text": "H",
+        "source_class": "atom-6",
+        "source_font_size_px": "70px",
+        "font_size_pt": 7.0,
+        "font_family": "Arial",
+        "anchor": "start"
+      },
+      {
+        "x": 69.98294089225823,
+        "y": 6.1205315839078445,
+        "text": "C",
+        "source_class": "atom-10",
+        "source_font_size_px": "70px",
+        "font_size_pt": 7.0,
+        "font_family": "Arial",
+        "anchor": "start"
+      },
+      {
+        "x": 75.02479220958362,
+        "y": 6.1205315839078445,
+        "text": "l",
+        "source_class": "atom-10",
+        "source_font_size_px": "70px",
+        "font_size_pt": 7.0,
+        "font_family": "Arial",
+        "anchor": "start"
+      },
+      {
+        "x": 65.97924051711455,
+        "y": 63.42621363092532,
+        "text": "N",
+        "source_class": "atom-15",
+        "source_font_size_px": "70px",
+        "font_size_pt": 7.0,
+        "font_family": "Arial",
+        "anchor": "start"
+      }
+    ],
+    "circles": [
+      {
+        "x": 41.071366423671165,
+        "y": 29.813881240156434,
+        "atom_index": 4,
+        "radius_pt": 3.2,
+        "color": "#D55E00",
+        "linewidth_pt": 0.9
+      },
+      {
+        "x": 42.01601038043242,
+        "y": 18.35274483075294,
+        "atom_index": 5,
+        "radius_pt": 3.2,
+        "color": "#D55E00",
+        "linewidth_pt": 0.9
+      }
+    ],
+    "atoms": [
+      {
+        "index": 0,
+        "element": "C",
+        "x": 1.36882527654239,
+        "y": 26.54153858380959,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 1,
+        "element": "C",
+        "x": 10.822138584943943,
+        "y": 33.09019245259805,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "x": 21.220095850106777,
+        "y": 28.177709911983015,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "x": 30.673409158508324,
+        "y": 34.72636378077148,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "x": 41.071366423671165,
+        "y": 29.813881240156434,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "x": 42.01601038043242,
+        "y": 18.35274483075294,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 6,
+        "element": "N",
+        "x": 50.52467973207271,
+        "y": 36.3625351089449,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "x": 60.92263699723553,
+        "y": 31.45005256832986,
+        "formal_charge": 0,
+        "is_aromatic": true,
+        "query_description": null
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "x": 61.86728095399681,
+        "y": 19.98891615892636,
+        "formal_charge": 0,
+        "is_aromatic": true,
+        "query_description": null
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "x": 72.26523821915966,
+        "y": 15.076433618311338,
+        "formal_charge": 0,
+        "is_aromatic": true,
+        "query_description": null
+      },
+      {
+        "index": 10,
+        "element": "Cl",
+        "x": 73.20988217592092,
+        "y": 3.6152972089078457,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "x": 81.71855152756119,
+        "y": 21.6250874870998,
+        "formal_charge": 0,
+        "is_aromatic": true,
+        "query_description": null
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "x": 80.77390757079993,
+        "y": 33.08622389650329,
+        "formal_charge": 0,
+        "is_aromatic": true,
+        "query_description": null
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "x": 70.37595030563708,
+        "y": 37.99870643711833,
+        "formal_charge": 0,
+        "is_aromatic": true,
+        "query_description": null
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "x": 69.43130634887582,
+        "y": 49.459842846521816,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      },
+      {
+        "index": 15,
+        "element": "N",
+        "x": 68.48666239211454,
+        "y": 60.92097925592532,
+        "formal_charge": 0,
+        "is_aromatic": false,
+        "query_description": null
+      }
+    ],
+    "bonds": [
+      {
+        "index": 0,
+        "begin": 0,
+        "end": 1,
+        "type": "SINGLE"
+      },
+      {
+        "index": 1,
+        "begin": 1,
+        "end": 2,
+        "type": "SINGLE"
+      },
+      {
+        "index": 2,
+        "begin": 2,
+        "end": 3,
+        "type": "SINGLE"
+      },
+      {
+        "index": 3,
+        "begin": 3,
+        "end": 4,
+        "type": "SINGLE"
+      },
+      {
+        "index": 4,
+        "begin": 4,
+        "end": 5,
+        "type": "DOUBLE"
+      },
+      {
+        "index": 5,
+        "begin": 4,
+        "end": 6,
+        "type": "SINGLE"
+      },
+      {
+        "index": 6,
+        "begin": 6,
+        "end": 7,
+        "type": "SINGLE"
+      },
+      {
+        "index": 7,
+        "begin": 7,
+        "end": 8,
+        "type": "AROMATIC"
+      },
+      {
+        "index": 8,
+        "begin": 8,
+        "end": 9,
+        "type": "AROMATIC"
+      },
+      {
+        "index": 9,
+        "begin": 9,
+        "end": 10,
+        "type": "SINGLE"
+      },
+      {
+        "index": 10,
+        "begin": 9,
+        "end": 11,
+        "type": "AROMATIC"
+      },
+      {
+        "index": 11,
+        "begin": 11,
+        "end": 12,
+        "type": "AROMATIC"
+      },
+      {
+        "index": 12,
+        "begin": 12,
+        "end": 13,
+        "type": "AROMATIC"
+      },
+      {
+        "index": 13,
+        "begin": 13,
+        "end": 14,
+        "type": "SINGLE"
+      },
+      {
+        "index": 14,
+        "begin": 14,
+        "end": 15,
+        "type": "TRIPLE"
+      },
+      {
+        "index": 15,
+        "begin": 13,
+        "end": 7,
+        "type": "AROMATIC"
+      }
+    ],
+    "matched_atom_indices": [
+      4,
+      5
+    ],
+    "center_bond_lengths_pt": [
+      11.5,
+      11.500000000000005,
+      11.499999999999996,
+      11.500000000000012,
+      11.5,
+      11.499999999999996,
+      11.499999999999996,
+      11.500000000000005,
+      11.500000000000009,
+      11.499999999999998,
+      11.499999999999984,
+      11.499999999999995,
+      11.500000000000028,
+      11.499999999999991,
+      11.500000000000009,
+      11.5
+    ],
+    "source_RDKit_SVG": "Frozen figure source",
+    "source_SVG_to_point_unit": 0.10438615563820666,
+    "source_graph_is_query": false,
+    "source_graph_SMARTS": "[#6]-[#6]-[#6]-[#6]-[#6](=[#8])-[#7]-[#6]1:[#6]:[#6](-[#17]):[#6]:[#6]:[#6]:1-[#6]#[#7]",
+    "RDKit": "2026.03.6",
+    "metadata": {
+      "T_row_index": 263,
+      "source_file": "data/revision_20261017/chemistry/sealed/T.tsv",
+      "source_line_number": 265,
+      "source_line_verbatim": "5263\t60628745\t05e2639d5095165004982958b1bf17cc6ca4423888fea864ca244dd6c8c98c14\tb628d2fc3283c9fd6d4f69117b4e17a229033637d52f889d8cbdcd6702a1d247\t33978228\tCCCCC(=O)Nc1cc(Cl)ccc1C#N",
+      "source_fields_verbatim": {
+        "rank": "5263",
+        "cid": "60628745",
+        "cid_sha256": "05e2639d5095165004982958b1bf17cc6ca4423888fea864ca244dd6c8c98c14",
+        "canonical_smiles_sha256": "b628d2fc3283c9fd6d4f69117b4e17a229033637d52f889d8cbdcd6702a1d247",
+        "source_line": "33978228",
+        "smiles": "CCCCC(=O)Nc1cc(Cl)ccc1C#N"
+      },
+      "saved_rank": 5263,
+      "CID": 60628745,
+      "SMILES": "CCCCC(=O)Nc1cc(Cl)ccc1C#N",
+      "SMARTS_matches": {
+        "carbonyl": [
+          [
+            4,
+            5
+          ]
+        ],
+        "ketone": [],
+        "amide": [
+          [
+            6,
+            4,
+            5,
+            3
+          ]
+        ],
+        "amidine": []
+      },
+      "features": {
+        "fragments": 1,
+        "charged_atoms": 0,
+        "heavy_atoms": 16,
+        "heteroatoms": 4,
+        "rings": 1,
+        "tetrahedral_stereocenters": [],
+        "chiral_atoms": [],
+        "bond_directions": [],
+        "stereo_bonds": []
+      },
+      "accepted": true,
+      "chemical_rejection_reasons": [],
+      "role": "Fig1 held-out example; new Fig4 also reuses T1 at native size",
+      "query_definition": "[CX3]=[OX1]",
+      "concept_id": 24,
+      "matched_atom_semantics": "Only the actual carbonyl C/O pair; orange open circles are query matches, not neural responses",
+      "selection_scan": "T_first_three_selection_scan.json",
+      "score_response_access": false
+    },
+    "geometry_finalized": true,
+    "chemical_graph_modified": false,
+    "text_override": "All actual SVG text kept; every final atom text is Arial7pt with original baselines",
+    "atom_label_alignment_records": [
+      {
+        "atom_index": 5,
+        "primary_symbol": "O",
+        "text_component_indices": [
+          0
+        ],
+        "translation_pt": [
+          -0.5396814535889547,
+          -1.1468124274279248
+        ],
+        "primary_ink_center_relative_to_atom_after_pt": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "atom_index": 6,
+        "primary_symbol": "N",
+        "text_component_indices": [
+          1,
+          2
+        ],
+        "translation_pt": [
+          -0.3115306614625126,
+          -1.1458214968266205
+        ],
+        "primary_ink_center_relative_to_atom_after_pt": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "atom_index": 10,
+        "primary_symbol": "Cl",
+        "text_component_indices": [
+          3,
+          4
+        ],
+        "translation_pt": [
+          -1.0393978620231081,
+          -1.1471223731582416
+        ],
+        "primary_ink_center_relative_to_atom_after_pt": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "atom_index": 15,
+        "primary_symbol": "N",
+        "text_component_indices": [
+          5
+        ],
+        "translation_pt": [
+          -0.3144053867560359,
+          -1.149439771516228
+        ],
+        "primary_ink_center_relative_to_atom_after_pt": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+    "native_ink_bounds_pt": [
+      1.0,
+      1.0,
+      82.11999999999999,
+      63.519999999999996
+    ]
+  },
+  "shared_molecule_render_evidence": {
+    "asset": "T1_CID60628745",
+    "metadata": {
+      "T_row_index": 263,
+      "source_file": "data/revision_20261017/chemistry/sealed/T.tsv",
+      "source_line_number": 265,
+      "source_line_verbatim": "5263\t60628745\t05e2639d5095165004982958b1bf17cc6ca4423888fea864ca244dd6c8c98c14\tb628d2fc3283c9fd6d4f69117b4e17a229033637d52f889d8cbdcd6702a1d247\t33978228\tCCCCC(=O)Nc1cc(Cl)ccc1C#N",
+      "source_fields_verbatim": {
+        "rank": "5263",
+        "cid": "60628745",
+        "cid_sha256": "05e2639d5095165004982958b1bf17cc6ca4423888fea864ca244dd6c8c98c14",
+        "canonical_smiles_sha256": "b628d2fc3283c9fd6d4f69117b4e17a229033637d52f889d8cbdcd6702a1d247",
+        "source_line": "33978228",
+        "smiles": "CCCCC(=O)Nc1cc(Cl)ccc1C#N"
+      },
+      "saved_rank": 5263,
+      "CID": 60628745,
+      "SMILES": "CCCCC(=O)Nc1cc(Cl)ccc1C#N",
+      "SMARTS_matches": {
+        "carbonyl": [
+          [
+            4,
+            5
+          ]
+        ],
+        "ketone": [],
+        "amide": [
+          [
+            6,
+            4,
+            5,
+            3
+          ]
+        ],
+        "amidine": []
+      },
+      "features": {
+        "fragments": 1,
+        "charged_atoms": 0,
+        "heavy_atoms": 16,
+        "heteroatoms": 4,
+        "rings": 1,
+        "tetrahedral_stereocenters": [],
+        "chiral_atoms": [],
+        "bond_directions": [],
+        "stereo_bonds": []
+      },
+      "accepted": true,
+      "chemical_rejection_reasons": [],
+      "role": "Fig1 held-out example; new Fig4 also reuses T1 at native size",
+      "query_definition": "[CX3]=[OX1]",
+      "concept_id": 24,
+      "matched_atom_semantics": "Only the actual carbonyl C/O pair; orange open circles are query matches, not neural responses",
+      "selection_scan": "T_first_three_selection_scan.json",
+      "score_response_access": false
+    },
+    "style": {
+      "atom_center_bond_length_pt": 11.5,
+      "black_bond_linewidth_pt": 0.6,
+      "atom_font_family": "Arial",
+      "atom_fontsize_pt": 7.0,
+      "match_circle_linewidth_pt": 0.9,
+      "match_circle_radius_pt": 3.2,
+      "match_circle_fill": "none",
+      "native_ink_margin_pt": 1.0,
+      "PNG_dpi": 600,
+      "whole_asset_scaling_allowed": false,
+      "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+      "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+    },
+    "width_pt": 83.11999999999999,
+    "height_pt": 64.52,
+    "width_in": 1.1544444444444444,
+    "height_in": 0.8961111111111111,
+    "ink_bounds_pt": [
+      1.0,
+      1.0,
+      82.11999999999999,
+      63.519999999999996
+    ],
+    "pre_crop_actual_ink_measurement": {
+      "ink_bbox_pt": [
+        23.76,
+        23.02031707763672,
+        104.88,
+        85.54031707763671
+      ],
+      "method": "PDFium non-white pixel bounds at 600dpi, honoring clipping; converted to original PDF points, no scaling.",
+      "render_dpi": 600,
+      "raster_dimensions": [
+        1072,
+        892
+      ],
+      "visible_pixel_bbox": [
+        198,
+        179,
+        874,
+        700
+      ],
+      "original_page_size_pt": [
+        128.6282501220703,
+        107.02031707763672
+      ]
+    },
+    "center_bond_lengths_pt": [
+      11.5,
+      11.500000000000005,
+      11.499999999999996,
+      11.500000000000012,
+      11.5,
+      11.499999999999996,
+      11.499999999999996,
+      11.500000000000005,
+      11.500000000000009,
+      11.499999999999998,
+      11.499999999999984,
+      11.499999999999995,
+      11.500000000000028,
+      11.499999999999991,
+      11.500000000000009,
+      11.5
+    ],
+    "atom_font_sizes_pt": [
+      7.0
+    ],
+    "all_final_text_family": "Arial",
+    "bond_stroke_pt": 0.6,
+    "circle_stroke_pt": 0.9,
+    "actual_text": [
+      "O",
+      "N",
+      "H",
+      "C",
+      "l",
+      "N"
+    ],
+    "PNG_dpi": 600,
+    "PNG_pixel_size": [
+      692,
+      537
+    ],
+    "PNG_metadata_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "SVG_text_is_editable": true,
+    "PDF_actual_fonts": [
+      {
+        "font": "/ArialMT",
+        "embedded": true
+      }
+    ],
+    "post_export_scaling": false,
+    "RDKit": "2026.03.6",
+    "matched_atom_indices": [
+      4,
+      5
+    ],
+    "geometry_file": "manuscript/draft_round4_20261027/sources/chemical_assets/molecules/T1_CID60628745_geometry.json",
+    "source_graph_is_query": false,
+    "atom_label_alignment_records": [
+      {
+        "atom_index": 5,
+        "primary_symbol": "O",
+        "text_component_indices": [
+          0
+        ],
+        "translation_pt": [
+          -0.5396814535889547,
+          -1.1468124274279248
+        ],
+        "primary_ink_center_relative_to_atom_after_pt": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "atom_index": 6,
+        "primary_symbol": "N",
+        "text_component_indices": [
+          1,
+          2
+        ],
+        "translation_pt": [
+          -0.3115306614625126,
+          -1.1458214968266205
+        ],
+        "primary_ink_center_relative_to_atom_after_pt": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "atom_index": 10,
+        "primary_symbol": "Cl",
+        "text_component_indices": [
+          3,
+          4
+        ],
+        "translation_pt": [
+          -1.0393978620231081,
+          -1.1471223731582416
+        ],
+        "primary_ink_center_relative_to_atom_after_pt": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "atom_index": 15,
+        "primary_symbol": "N",
+        "text_component_indices": [
+          5
+        ],
+        "translation_pt": [
+          -0.3144053867560359,
+          -1.149439771516228
+        ],
+        "primary_ink_center_relative_to_atom_after_pt": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+    "new_model_or_scientific_estimation": false
+  },
+  "shared_molecule_drawing_audit": {
+    "native_size_in": [
+      1.1544444444444444,
+      0.8961111111111111
+    ],
+    "scaling_applied": false,
+    "style": {
+      "atom_center_bond_length_pt": 11.5,
+      "black_bond_linewidth_pt": 0.6,
+      "atom_font_family": "Arial",
+      "atom_fontsize_pt": 7.0,
+      "match_circle_linewidth_pt": 0.9,
+      "match_circle_radius_pt": 3.2,
+      "match_circle_fill": "none",
+      "native_ink_margin_pt": 1.0,
+      "PNG_dpi": 600,
+      "whole_asset_scaling_allowed": false,
+      "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+      "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+    }
+  },
+  "group_query_placements": [
+    {
+      "group": "Rings",
+      "representative_concept_id": 0,
+      "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_0_geometry.json",
+      "exact_input_SMILES": "C1CC1",
+      "R_mapping": [],
+      "center_y_in": 4.295142432766674,
+      "native_size_in": [
+        0.09920225811417234,
+        0.11103287415651415
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    },
+    {
+      "group": "Carboxylic acids",
+      "representative_concept_id": 14,
+      "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_14_geometry.json",
+      "exact_input_SMILES": "*C(=O)O",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "center_y_in": 3.1950046849245273,
+      "native_size_in": [
+        0.29307676089397827,
+        0.21924262152777782
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    },
+    {
+      "group": "Carbonyls",
+      "representative_concept_id": 24,
+      "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_24_geometry.json",
+      "exact_input_SMILES": "*C(=O)*",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        },
+        {
+          "atom_index": 3,
+          "atom_map": 0,
+          "display": "R′",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "center_y_in": 2.261369702285638,
+      "native_size_in": [
+        0.24925581799744975,
+        0.21802734375000002
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    },
+    {
+      "group": "Hydroxyls",
+      "representative_concept_id": 26,
+      "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_26_geometry.json",
+      "exact_input_SMILES": "*CO",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "center_y_in": 1.602356030410638,
+      "native_size_in": [
+        0.29340767625514785,
+        0.09854268828175766
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    },
+    {
+      "group": "Amine",
+      "representative_concept_id": 18,
+      "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_18_geometry.json",
+      "exact_input_SMILES": "*CN",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "center_y_in": 0.9890423431348796,
+      "native_size_in": [
+        0.35338269799786326,
+        0.138084686269759
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    }
+  ],
+  "protein_class_icons": [
+    {
+      "kind": "HELIX",
+      "native_width_pt": 17.28,
+      "native_height_pt": 8.64,
+      "left_in": 4.79125,
+      "center_y_in": 4.7
+    },
+    {
+      "kind": "STRAND",
+      "native_width_pt": 17.28,
+      "native_height_pt": 8.64,
+      "left_in": 4.9125,
+      "center_y_in": 4.25
+    }
+  ],
+  "categorical_display_row_positions_in": {
+    "18": 0.86,
+    "27": 1.2730846862697591,
+    "26": 1.493084686269759,
+    "25": 1.872356030410638,
+    "24": 2.092356030410638,
+    "16": 2.5853833741606382,
+    "15": 2.8053833741606384,
+    "14": 3.0253833741606386,
+    "3": 3.5196259956884166,
+    "2": 3.739625995688417,
+    "1": 3.959625995688417,
+    "0": 4.179625995688417
+  },
+  "all72_source_display_records_exactly_reused": true,
+  "lookup_AP_source_column": "radius1",
+  "absolute_loss_CI": false,
+  "per_concept_CI_or_test": false,
+  "CI_semantics": "95% estimation thick; 98.75% Bonferroni t-reference thin; four-test Holm is separate",
+  "display_values": [
+    {
+      "panel": "A",
+      "object": "Ring3",
+      "concept_id": 0,
+      "field": "Native_AP",
+      "source_value": 0.6237854861505485,
+      "plotted_value": 0.6237854861505485,
+      "display_multiplier": 1.0,
+      "converted_value": 0.6237854861505485,
+      "display": "0.624",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=0].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring3",
+      "concept_id": 0,
+      "field": "Lookup_AP",
+      "source_value": 0.13919594164414742,
+      "plotted_value": 0.13919594164414742,
+      "display_multiplier": 1.0,
+      "converted_value": 0.13919594164414742,
+      "display": "0.139",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=0].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring3",
+      "concept_id": 0,
+      "field": "Delta_Brier",
+      "source_value": 0.0007697700329540557,
+      "plotted_value": 0.0007697700329540557,
+      "display_multiplier": 1000.0,
+      "converted_value": 0.7697700329540558,
+      "display": "0.77",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=0].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring4",
+      "concept_id": 1,
+      "field": "Native_AP",
+      "source_value": 0.09279310074216827,
+      "plotted_value": 0.09279310074216827,
+      "display_multiplier": 1.0,
+      "converted_value": 0.09279310074216827,
+      "display": "0.093",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=1].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring4",
+      "concept_id": 1,
+      "field": "Lookup_AP",
+      "source_value": 0.09943765641976239,
+      "plotted_value": 0.09943765641976239,
+      "display_multiplier": 1.0,
+      "converted_value": 0.09943765641976239,
+      "display": "0.099",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=1].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring4",
+      "concept_id": 1,
+      "field": "Delta_Brier",
+      "source_value": 0.0002109106292067046,
+      "plotted_value": 0.0002109106292067046,
+      "display_multiplier": 1000.0,
+      "converted_value": 0.2109106292067046,
+      "display": "0.21",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=1].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring5",
+      "concept_id": 2,
+      "field": "Native_AP",
+      "source_value": 0.31832321121907675,
+      "plotted_value": 0.31832321121907675,
+      "display_multiplier": 1.0,
+      "converted_value": 0.31832321121907675,
+      "display": "0.318",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=2].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring5",
+      "concept_id": 2,
+      "field": "Lookup_AP",
+      "source_value": 0.6827015837702143,
+      "plotted_value": 0.6827015837702143,
+      "display_multiplier": 1.0,
+      "converted_value": 0.6827015837702143,
+      "display": "0.683",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=2].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring5",
+      "concept_id": 2,
+      "field": "Delta_Brier",
+      "source_value": 0.00282414175172711,
+      "plotted_value": 0.00282414175172711,
+      "display_multiplier": 1000.0,
+      "converted_value": 2.82414175172711,
+      "display": "2.82",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=2].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring6",
+      "concept_id": 3,
+      "field": "Native_AP",
+      "source_value": 0.7786297621969774,
+      "plotted_value": 0.7786297621969774,
+      "display_multiplier": 1.0,
+      "converted_value": 0.7786297621969774,
+      "display": "0.779",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=3].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring6",
+      "concept_id": 3,
+      "field": "Lookup_AP",
+      "source_value": 0.9408811653298458,
+      "plotted_value": 0.9408811653298458,
+      "display_multiplier": 1.0,
+      "converted_value": 0.9408811653298458,
+      "display": "0.941",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=3].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Ring6",
+      "concept_id": 3,
+      "field": "Delta_Brier",
+      "source_value": 0.0019438913656658519,
+      "plotted_value": 0.0019438913656658519,
+      "display_multiplier": 1000.0,
+      "converted_value": 1.9438913656658519,
+      "display": "1.94",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=3].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carboxylic acid",
+      "concept_id": 14,
+      "field": "Native_AP",
+      "source_value": 1.0,
+      "plotted_value": 1.0,
+      "display_multiplier": 1.0,
+      "converted_value": 1.0,
+      "display": "1.00",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=14].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carboxylic acid",
+      "concept_id": 14,
+      "field": "Lookup_AP",
+      "source_value": 0.7216007077467658,
+      "plotted_value": 0.7216007077467658,
+      "display_multiplier": 1.0,
+      "converted_value": 0.7216007077467658,
+      "display": "0.722",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=14].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carboxylic acid",
+      "concept_id": 14,
+      "field": "Delta_Brier",
+      "source_value": 0.0035833791832020423,
+      "plotted_value": 0.0035833791832020423,
+      "display_multiplier": 1000.0,
+      "converted_value": 3.5833791832020423,
+      "display": "3.58",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=14].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Arom. carboxylic acid",
+      "concept_id": 15,
+      "field": "Native_AP",
+      "source_value": 0.707937418917197,
+      "plotted_value": 0.707937418917197,
+      "display_multiplier": 1.0,
+      "converted_value": 0.707937418917197,
+      "display": "0.708",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=15].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Arom. carboxylic acid",
+      "concept_id": 15,
+      "field": "Lookup_AP",
+      "source_value": 0.49929098888111667,
+      "plotted_value": 0.49929098888111667,
+      "display_multiplier": 1.0,
+      "converted_value": 0.49929098888111667,
+      "display": "0.499",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=15].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Arom. carboxylic acid",
+      "concept_id": 15,
+      "field": "Delta_Brier",
+      "source_value": 0.0002901852730141777,
+      "plotted_value": 0.0002901852730141777,
+      "display_multiplier": 1000.0,
+      "converted_value": 0.29018527301417774,
+      "display": "0.29",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=15].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aliph. carboxylic acid",
+      "concept_id": 16,
+      "field": "Native_AP",
+      "source_value": 0.9756872964112221,
+      "plotted_value": 0.9756872964112221,
+      "display_multiplier": 1.0,
+      "converted_value": 0.9756872964112221,
+      "display": "0.976",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=16].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aliph. carboxylic acid",
+      "concept_id": 16,
+      "field": "Lookup_AP",
+      "source_value": 0.6325418379757161,
+      "plotted_value": 0.6325418379757161,
+      "display_multiplier": 1.0,
+      "converted_value": 0.6325418379757161,
+      "display": "0.633",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=16].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aliph. carboxylic acid",
+      "concept_id": 16,
+      "field": "Delta_Brier",
+      "source_value": 0.0001128777415506932,
+      "plotted_value": 0.0001128777415506932,
+      "display_multiplier": 1000.0,
+      "converted_value": 0.1128777415506932,
+      "display": "0.11",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=16].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carbonyl",
+      "concept_id": 24,
+      "field": "Native_AP",
+      "source_value": 0.7849312628894846,
+      "plotted_value": 0.7849312628894846,
+      "display_multiplier": 1.0,
+      "converted_value": 0.7849312628894846,
+      "display": "0.785",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=24].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carbonyl",
+      "concept_id": 24,
+      "field": "Lookup_AP",
+      "source_value": 0.999339545223478,
+      "plotted_value": 0.999339545223478,
+      "display_multiplier": 1.0,
+      "converted_value": 0.999339545223478,
+      "display": "0.999",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=24].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carbonyl",
+      "concept_id": 24,
+      "field": "Delta_Brier",
+      "source_value": 1.460987124840847e-19,
+      "plotted_value": 1.460987124840847e-19,
+      "display_multiplier": 1000.0,
+      "converted_value": 1.4609871248408471e-16,
+      "display": "< 0.01",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=24].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carbonyl (noCOO)",
+      "concept_id": 25,
+      "field": "Native_AP",
+      "source_value": 0.8160537259364388,
+      "plotted_value": 0.8160537259364388,
+      "display_multiplier": 1.0,
+      "converted_value": 0.8160537259364388,
+      "display": "0.816",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=25].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carbonyl (noCOO)",
+      "concept_id": 25,
+      "field": "Lookup_AP",
+      "source_value": 0.9519510608413649,
+      "plotted_value": 0.9519510608413649,
+      "display_multiplier": 1.0,
+      "converted_value": 0.9519510608413649,
+      "display": "0.952",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=25].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Carbonyl (noCOO)",
+      "concept_id": 25,
+      "field": "Delta_Brier",
+      "source_value": 0.000633608638288331,
+      "plotted_value": 0.000633608638288331,
+      "display_multiplier": 1000.0,
+      "converted_value": 0.6336086382883309,
+      "display": "0.63",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=25].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aliphatic OH",
+      "concept_id": 26,
+      "field": "Native_AP",
+      "source_value": 0.7780195799040408,
+      "plotted_value": 0.7780195799040408,
+      "display_multiplier": 1.0,
+      "converted_value": 0.7780195799040408,
+      "display": "0.778",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=26].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aliphatic OH",
+      "concept_id": 26,
+      "field": "Lookup_AP",
+      "source_value": 0.975612436707436,
+      "plotted_value": 0.975612436707436,
+      "display_multiplier": 1.0,
+      "converted_value": 0.975612436707436,
+      "display": "0.976",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=26].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aliphatic OH",
+      "concept_id": 26,
+      "field": "Delta_Brier",
+      "source_value": 3.324637132396972e-06,
+      "plotted_value": 3.324637132396972e-06,
+      "display_multiplier": 1000.0,
+      "converted_value": 0.003324637132396972,
+      "display": "< 0.01",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=26].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aromatic OH",
+      "concept_id": 27,
+      "field": "Native_AP",
+      "source_value": 0.9798930897758531,
+      "plotted_value": 0.9798930897758531,
+      "display_multiplier": 1.0,
+      "converted_value": 0.9798930897758531,
+      "display": "0.980",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=27].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aromatic OH",
+      "concept_id": 27,
+      "field": "Lookup_AP",
+      "source_value": 0.9993847782224721,
+      "plotted_value": 0.9993847782224721,
+      "display_multiplier": 1.0,
+      "converted_value": 0.9993847782224721,
+      "display": "0.999",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=27].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Aromatic OH",
+      "concept_id": 27,
+      "field": "Delta_Brier",
+      "source_value": 4.019312148238147e-23,
+      "plotted_value": 4.019312148238147e-23,
+      "display_multiplier": 1000.0,
+      "converted_value": 4.019312148238147e-20,
+      "display": "< 0.01",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=27].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Primary aliph. amine",
+      "concept_id": 18,
+      "field": "Native_AP",
+      "source_value": 0.668333548399216,
+      "plotted_value": 0.668333548399216,
+      "display_multiplier": 1.0,
+      "converted_value": 0.668333548399216,
+      "display": "0.668",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=18].Native_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Primary aliph. amine",
+      "concept_id": 18,
+      "field": "Lookup_AP",
+      "source_value": 0.9833366346131087,
+      "plotted_value": 0.9833366346131087,
+      "display_multiplier": 1.0,
+      "converted_value": 0.9833366346131087,
+      "display": "0.983",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=18].Lookup_AP",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Primary aliph. amine",
+      "concept_id": 18,
+      "field": "Delta_Brier",
+      "source_value": 3.5756770050096616e-22,
+      "plotted_value": 3.5756770050096616e-22,
+      "display_multiplier": 1000.0,
+      "converted_value": 3.5756770050096617e-19,
+      "display": "< 0.01",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "concept_rows[concept_id=18].Delta_Brier",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Held-out panel mean",
+      "concept_id": "",
+      "field": "point",
+      "source_value": 0.0008643407710617802,
+      "plotted_value": 0.0008643407710617802,
+      "display_multiplier": 1000,
+      "converted_value": 0.8643407710617802,
+      "display": "0.86",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "panel_mean_comparison.original_T.point",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Held-out panel mean",
+      "concept_id": "",
+      "field": "CI95_lower",
+      "source_value": 0.0008240835187488196,
+      "plotted_value": 0.0008240835187488196,
+      "display_multiplier": 1000,
+      "converted_value": 0.8240835187488196,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "panel_mean_comparison.original_T.CI95_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Held-out panel mean",
+      "concept_id": "",
+      "field": "CI95_upper",
+      "source_value": 0.0009087445620562057,
+      "plotted_value": 0.0009087445620562057,
+      "display_multiplier": 1000,
+      "converted_value": 0.9087445620562057,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "panel_mean_comparison.original_T.CI95_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Scaffold-unseen mean",
+      "concept_id": "",
+      "field": "point",
+      "source_value": 0.0008461177180704328,
+      "plotted_value": 0.0008461177180704328,
+      "display_multiplier": 1000,
+      "converted_value": 0.8461177180704328,
+      "display": "0.85",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "panel_mean_comparison.D_unseen_slice.point",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Scaffold-unseen mean",
+      "concept_id": "",
+      "field": "CI95_lower",
+      "source_value": 0.000796278376385623,
+      "plotted_value": 0.000796278376385623,
+      "display_multiplier": 1000,
+      "converted_value": 0.7962783763856229,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "panel_mean_comparison.D_unseen_slice.CI95_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "A",
+      "object": "Scaffold-unseen mean",
+      "concept_id": "",
+      "field": "CI95_upper",
+      "source_value": 0.000894801718836284,
+      "plotted_value": 0.000894801718836284,
+      "display_multiplier": 1000,
+      "converted_value": 0.894801718836284,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_4_plot_data.json",
+      "source_field": "panel_mean_comparison.D_unseen_slice.CI95_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "C",
+      "object": "X",
+      "concept_id": "",
+      "field": "paired_Brier_mean",
+      "source_value": "0.19433152888970243",
+      "plotted_value": 0.19433152888970243,
+      "display_multiplier": 1.0,
+      "converted_value": 0.19433152888970243,
+      "display": "0.194",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "absolute_losses[model=X].paired_Brier_mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "C",
+      "object": "Xj",
+      "concept_id": "",
+      "field": "paired_Brier_mean",
+      "source_value": "0.17725874171070671",
+      "plotted_value": 0.1772587417107067,
+      "display_multiplier": 1.0,
+      "converted_value": 0.1772587417107067,
+      "display": "0.177",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "absolute_losses[model=Xj].paired_Brier_mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "C",
+      "object": "S",
+      "concept_id": "",
+      "field": "paired_Brier_mean",
+      "source_value": "0.18727026427745269",
+      "plotted_value": 0.1872702642774527,
+      "display_multiplier": 1.0,
+      "converted_value": 0.1872702642774527,
+      "display": "0.187",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "absolute_losses[model=S].paired_Brier_mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "C",
+      "object": "Sj",
+      "concept_id": "",
+      "field": "paired_Brier_mean",
+      "source_value": "0.17279844057414487",
+      "plotted_value": 0.17279844057414487,
+      "display_multiplier": 1.0,
+      "converted_value": 0.17279844057414487,
+      "display": "0.173",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "absolute_losses[model=Sj].paired_Brier_mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "C",
+      "object": "L",
+      "concept_id": "",
+      "field": "paired_Brier_mean",
+      "source_value": "0.19177128351312969",
+      "plotted_value": 0.1917712835131297,
+      "display_multiplier": 1.0,
+      "converted_value": 0.1917712835131297,
+      "display": "0.192",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "absolute_losses[model=L].paired_Brier_mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "C",
+      "object": "Lj",
+      "concept_id": "",
+      "field": "paired_Brier_mean",
+      "source_value": "0.17322552695462412",
+      "plotted_value": 0.17322552695462412,
+      "display_multiplier": 1.0,
+      "converted_value": 0.17322552695462412,
+      "display": "0.173",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "absolute_losses[model=Lj].paired_Brier_mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gX",
+      "concept_id": "",
+      "field": "mean",
+      "source_value": "0.01707278717899573",
+      "plotted_value": 0.01707278717899573,
+      "display_multiplier": 1.0,
+      "converted_value": 0.01707278717899573,
+      "display": "0.0171",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gX].mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gX",
+      "concept_id": "",
+      "field": "CI95_lower",
+      "source_value": "0.010494582338470625",
+      "plotted_value": 0.010494582338470625,
+      "display_multiplier": 1.0,
+      "converted_value": 0.010494582338470625,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gX].CI95_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gX",
+      "concept_id": "",
+      "field": "CI95_upper",
+      "source_value": "0.023650992019520835",
+      "plotted_value": 0.023650992019520835,
+      "display_multiplier": 1.0,
+      "converted_value": 0.023650992019520835,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gX].CI95_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gX",
+      "concept_id": "",
+      "field": "CI98_75_lower",
+      "source_value": "0.0086859066093935167",
+      "plotted_value": 0.008685906609393517,
+      "display_multiplier": 1.0,
+      "converted_value": 0.008685906609393517,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gX].CI98_75_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gX",
+      "concept_id": "",
+      "field": "CI98_75_upper",
+      "source_value": "0.025459667748597946",
+      "plotted_value": 0.025459667748597946,
+      "display_multiplier": 1.0,
+      "converted_value": 0.025459667748597946,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gX].CI98_75_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gX",
+      "concept_id": "",
+      "field": "Holm_p",
+      "source_value": "8.1461992683810042e-07",
+      "plotted_value": 8.146199268381004e-07,
+      "display_multiplier": 1.0,
+      "converted_value": 8.146199268381004e-07,
+      "display": "<0.000001",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gX].Holm_p",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gS",
+      "concept_id": "",
+      "field": "mean",
+      "source_value": "0.014471823703307822",
+      "plotted_value": 0.014471823703307822,
+      "display_multiplier": 1.0,
+      "converted_value": 0.014471823703307822,
+      "display": "0.0145",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gS].mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gS",
+      "concept_id": "",
+      "field": "CI95_lower",
+      "source_value": "0.0086877135302435154",
+      "plotted_value": 0.008687713530243515,
+      "display_multiplier": 1.0,
+      "converted_value": 0.008687713530243515,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gS].CI95_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gS",
+      "concept_id": "",
+      "field": "CI95_upper",
+      "source_value": "0.020255933876372128",
+      "plotted_value": 0.020255933876372128,
+      "display_multiplier": 1.0,
+      "converted_value": 0.020255933876372128,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gS].CI95_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gS",
+      "concept_id": "",
+      "field": "CI98_75_lower",
+      "source_value": "0.0070973739257543496",
+      "plotted_value": 0.00709737392575435,
+      "display_multiplier": 1.0,
+      "converted_value": 0.00709737392575435,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gS].CI98_75_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gS",
+      "concept_id": "",
+      "field": "CI98_75_upper",
+      "source_value": "0.021846273480861295",
+      "plotted_value": 0.021846273480861295,
+      "display_multiplier": 1.0,
+      "converted_value": 0.021846273480861295,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gS].CI98_75_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gS",
+      "concept_id": "",
+      "field": "Holm_p",
+      "source_value": "1.4872386680536672e-06",
+      "plotted_value": 1.4872386680536672e-06,
+      "display_multiplier": 1.0,
+      "converted_value": 1.4872386680536672e-06,
+      "display": "0.00000149",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gS].Holm_p",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gL",
+      "concept_id": "",
+      "field": "mean",
+      "source_value": "0.018545756558505586",
+      "plotted_value": 0.018545756558505586,
+      "display_multiplier": 1.0,
+      "converted_value": 0.018545756558505586,
+      "display": "0.0185",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gL].mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gL",
+      "concept_id": "",
+      "field": "CI95_lower",
+      "source_value": "0.011146118994263012",
+      "plotted_value": 0.011146118994263012,
+      "display_multiplier": 1.0,
+      "converted_value": 0.011146118994263012,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gL].CI95_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gL",
+      "concept_id": "",
+      "field": "CI95_upper",
+      "source_value": "0.025945394122748159",
+      "plotted_value": 0.02594539412274816,
+      "display_multiplier": 1.0,
+      "converted_value": 0.02594539412274816,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gL].CI95_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gL",
+      "concept_id": "",
+      "field": "CI98_75_lower",
+      "source_value": "0.0091115905490611639",
+      "plotted_value": 0.009111590549061164,
+      "display_multiplier": 1.0,
+      "converted_value": 0.009111590549061164,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gL].CI98_75_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gL",
+      "concept_id": "",
+      "field": "CI98_75_upper",
+      "source_value": "0.027979922567950007",
+      "plotted_value": 0.027979922567950007,
+      "display_multiplier": 1.0,
+      "converted_value": 0.027979922567950007,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gL].CI98_75_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "gL",
+      "concept_id": "",
+      "field": "Holm_p",
+      "source_value": "1.4872386680536672e-06",
+      "plotted_value": 1.4872386680536672e-06,
+      "display_multiplier": 1.0,
+      "converted_value": 1.4872386680536672e-06,
+      "display": "0.00000149",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=gL].Holm_p",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "psi",
+      "concept_id": "",
+      "field": "mean",
+      "source_value": "0.0026009634756879109",
+      "plotted_value": 0.002600963475687911,
+      "display_multiplier": 1.0,
+      "converted_value": 0.002600963475687911,
+      "display": "0.0026",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=psi].mean",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "psi",
+      "concept_id": "",
+      "field": "CI95_lower",
+      "source_value": "0.00072829610197071618",
+      "plotted_value": 0.0007282961019707162,
+      "display_multiplier": 1.0,
+      "converted_value": 0.0007282961019707162,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=psi].CI95_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "psi",
+      "concept_id": "",
+      "field": "CI95_upper",
+      "source_value": "0.0044736308494051054",
+      "plotted_value": 0.004473630849405105,
+      "display_multiplier": 1.0,
+      "converted_value": 0.004473630849405105,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=psi].CI95_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "psi",
+      "concept_id": "",
+      "field": "CI98_75_lower",
+      "source_value": "0.00021340668919188083",
+      "plotted_value": 0.00021340668919188083,
+      "display_multiplier": 1.0,
+      "converted_value": 0.00021340668919188083,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=psi].CI98_75_lower",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "psi",
+      "concept_id": "",
+      "field": "CI98_75_upper",
+      "source_value": "0.004988520262183941",
+      "plotted_value": 0.004988520262183941,
+      "display_multiplier": 1.0,
+      "converted_value": 0.004988520262183941,
+      "display": "interval endpoint only",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=psi].CI98_75_upper",
+      "coordinate_value_modified": false
+    },
+    {
+      "panel": "D",
+      "object": "psi",
+      "concept_id": "",
+      "field": "Holm_p",
+      "source_value": "0.0065212771592392804",
+      "plotted_value": 0.00652127715923928,
+      "display_multiplier": 1.0,
+      "converted_value": 0.00652127715923928,
+      "display": "0.0065",
+      "source_file": "manuscript/draft_sixfig_redesign_20261025/figures/figure_6_plot_data.json",
+      "source_field": "endpoints[endpoint=psi].Holm_p",
+      "coordinate_value_modified": false
+    }
+  ],
+  "C_plot_pairs": [
+    {
+      "model": "X",
+      "without_unit": 0.19433152888970243,
+      "with_unit": 0.1772587417107067
+    },
+    {
+      "model": "S",
+      "without_unit": 0.1872702642774527,
+      "with_unit": 0.17279844057414487
+    },
+    {
+      "model": "L",
+      "without_unit": 0.1917712835131297,
+      "with_unit": 0.17322552695462412
+    }
+  ],
+  "source_arrays_opened": false,
+  "new_fits_forwards_bootstraps_p_tests": 0,
+  "scientific_source_fields_modified": false,
+  "preceding_scientific_baseline": "manuscript/draft_revision_20261027/figures/figure_4_plot_data.json",
+  "physical_layout": {
+    "shared_radius1_glyph": {
+      "kind": "radius1",
+      "bounds_in": [
+        3.84,
+        5.68,
+        4.04,
+        5.88
+      ],
+      "placement_in": [
+        3.84,
+        5.68,
+        0.2,
+        0.2
+      ],
+      "center_count": 1,
+      "neighbor_count": 3,
+      "circle_diameter_in": 0.060869565217391314,
+      "bond_linewidth_pt": 0.75,
+      "centers_in": [
+        [
+          3.94,
+          5.776
+        ],
+        [
+          3.8704347826086956,
+          5.710434782608695
+        ],
+        [
+          4.009565217391304,
+          5.710434782608695
+        ],
+        [
+          3.94,
+          5.849565217391304
+        ]
+      ]
+    },
+    "shared_sequence_windows": [
+      {
+        "kind": "masked_sequence_window",
+        "bounds_in": [
+          4.2,
+          4.4,
+          5.640000000000001,
+          4.5600000000000005
+        ],
+        "placement_in": [
+          4.2,
+          4.4,
+          1.44,
+          0.16
+        ],
+        "sequence_original": "DLGAWWEER",
+        "mask_index_zero_based": 3,
+        "original_target_residue": "A",
+        "model_input_residues": [
+          "D",
+          "L",
+          "G",
+          "[MASK]",
+          "W",
+          "W",
+          "E",
+          "E",
+          "R"
+        ],
+        "original_target_is_not_supplied_as_input": true,
+        "mask_color": "#0077BB",
+        "cell_in": 0.16,
+        "font_pt": 7.5,
+        "alignment": "equal-width Arial residue cells"
+      },
+      {
+        "kind": "masked_sequence_window",
+        "bounds_in": [
+          4.2,
+          3.95,
+          7.0600000000000005,
+          4.08
+        ],
+        "placement_in": [
+          4.2,
+          3.95,
+          2.8600000000000003,
+          0.13
+        ],
+        "sequence_original": "DLGAWWEERTGLPLPLGAILAR",
+        "mask_index_zero_based": 17,
+        "original_target_residue": "A",
+        "model_input_residues": [
+          "D",
+          "L",
+          "G",
+          "A",
+          "W",
+          "W",
+          "E",
+          "E",
+          "R",
+          "T",
+          "G",
+          "L",
+          "P",
+          "L",
+          "P",
+          "L",
+          "G",
+          "[MASK]",
+          "I",
+          "L",
+          "A",
+          "R"
+        ],
+        "original_target_is_not_supplied_as_input": true,
+        "mask_color": "#0077BB",
+        "cell_in": 0.13,
+        "font_pt": 7.5,
+        "alignment": "equal-width Arial residue cells"
+      }
+    ],
+    "A164_view_original_range_1based": [
+      161,
+      169
+    ],
+    "A178_input_original_range_1based": [
+      161,
+      182
+    ],
+    "panel_bounds_in": {
+      "A": [
+        0.15,
+        0.15,
+        3.9,
+        5.7
+      ],
+      "B": [
+        4.2,
+        3.75,
+        3.05,
+        2.1
+      ],
+      "C": [
+        4.2,
+        2.1,
+        3.05,
+        1.5
+      ],
+      "D": [
+        4.2,
+        0.15,
+        3.05,
+        1.8
+      ]
+    },
+    "outer_panel_margin_in": 0.15,
+    "right_column_panel_gaps_in": [
+      0.15,
+      0.15
+    ],
+    "A_row_spacing_in": 0.22,
+    "C_row_spacing_in": 0.22,
+    "D_row_spacing_in": 0.22,
+    "A_mean_row_spacing_in": 0.22,
+    "A_group_separator_clearance_in": 0.08,
+    "A_row_positions_in": {
+      "18": 0.86,
+      "27": 1.2730846862697591,
+      "26": 1.493084686269759,
+      "25": 1.872356030410638,
+      "24": 2.092356030410638,
+      "16": 2.5853833741606382,
+      "15": 2.8053833741606384,
+      "14": 3.0253833741606386,
+      "3": 3.5196259956884166,
+      "2": 3.739625995688417,
+      "1": 3.959625995688417,
+      "0": 4.179625995688417
+    },
+    "A_group_header_centers_in": {
+      "Amine": 0.9890423431348796,
+      "Hydroxyls": 1.602356030410638,
+      "Carbonyls": 2.261369702285638,
+      "Carboxylic acids": 3.1950046849245273,
+      "Rings": 4.295142432766674
+    },
+    "A_separator_positions_in": [
+      1.1380846862697591,
+      1.737356030410638,
+      2.450383374160638,
+      3.3846259956884164
+    ],
+    "A_axes_bounds_in": [
+      1.62,
+      0.4,
+      1.04,
+      4.38
+    ],
+    "C_axes_bounds_in": [
+      4.52,
+      2.51,
+      1.46,
+      0.72
+    ],
+    "D_axes_bounds_in": [
+      4.54,
+      0.43,
+      1.44,
+      0.94
+    ],
+    "group_representative_SMILES_placements": [
+      {
+        "group": "Rings",
+        "representative_concept_id": 0,
+        "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_0_geometry.json",
+        "exact_input_SMILES": "C1CC1",
+        "R_mapping": [],
+        "center_y_in": 4.295142432766674,
+        "native_size_in": [
+          0.09920225811417234,
+          0.11103287415651415
+        ],
+        "query_circles": 0,
+        "scaled": false,
+        "first_concept_example_not_group_definition": true
+      },
+      {
+        "group": "Carboxylic acids",
+        "representative_concept_id": 14,
+        "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_14_geometry.json",
+        "exact_input_SMILES": "*C(=O)O",
+        "R_mapping": [
+          {
+            "atom_index": 0,
+            "atom_map": 0,
+            "display": "R",
+            "neighbors": [
+              1
+            ]
+          }
+        ],
+        "center_y_in": 3.1950046849245273,
+        "native_size_in": [
+          0.29307676089397827,
+          0.21924262152777782
+        ],
+        "query_circles": 0,
+        "scaled": false,
+        "first_concept_example_not_group_definition": true
+      },
+      {
+        "group": "Carbonyls",
+        "representative_concept_id": 24,
+        "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_24_geometry.json",
+        "exact_input_SMILES": "*C(=O)*",
+        "R_mapping": [
+          {
+            "atom_index": 0,
+            "atom_map": 0,
+            "display": "R",
+            "neighbors": [
+              1
+            ]
+          },
+          {
+            "atom_index": 3,
+            "atom_map": 0,
+            "display": "R′",
+            "neighbors": [
+              1
+            ]
+          }
+        ],
+        "center_y_in": 2.261369702285638,
+        "native_size_in": [
+          0.24925581799744975,
+          0.21802734375000002
+        ],
+        "query_circles": 0,
+        "scaled": false,
+        "first_concept_example_not_group_definition": true
+      },
+      {
+        "group": "Hydroxyls",
+        "representative_concept_id": 26,
+        "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_26_geometry.json",
+        "exact_input_SMILES": "*CO",
+        "R_mapping": [
+          {
+            "atom_index": 0,
+            "atom_map": 0,
+            "display": "R",
+            "neighbors": [
+              1
+            ]
+          }
+        ],
+        "center_y_in": 1.602356030410638,
+        "native_size_in": [
+          0.29340767625514785,
+          0.09854268828175766
+        ],
+        "query_circles": 0,
+        "scaled": false,
+        "first_concept_example_not_group_definition": true
+      },
+      {
+        "group": "Amine",
+        "representative_concept_id": 18,
+        "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig4_concept_18_geometry.json",
+        "exact_input_SMILES": "*CN",
+        "R_mapping": [
+          {
+            "atom_index": 0,
+            "atom_map": 0,
+            "display": "R",
+            "neighbors": [
+              1
+            ]
+          }
+        ],
+        "center_y_in": 0.9890423431348796,
+        "native_size_in": [
+          0.35338269799786326,
+          0.138084686269759
+        ],
+        "query_circles": 0,
+        "scaled": false,
+        "first_concept_example_not_group_definition": true
+      }
+    ],
+    "protein_class_icons": [
+      {
+        "kind": "HELIX",
+        "native_width_pt": 17.28,
+        "native_height_pt": 8.64,
+        "left_in": 4.79125,
+        "center_y_in": 4.7
+      },
+      {
+        "kind": "STRAND",
+        "native_width_pt": 17.28,
+        "native_height_pt": 8.64,
+        "left_in": 4.9125,
+        "center_y_in": 4.25
+      }
+    ],
+    "amide_native_size_in": [
+      0.643334976697905,
+      0.5276060984008597
+    ],
+    "amide_position_in": [
+      0.15,
+      4.95
+    ],
+    "amide_CPK_geometry": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/T1_CID60628745_geometry.json",
+    "mean_CI_geometry": [
+      {
+        "object": "Held-out panel mean",
+        "point": 0.0008643407710617802,
+        "ci95": [
+          0.0008240835187488196,
+          0.0009087445620562057
+        ],
+        "horizontal_CI_span_pt": 1.4573376834154186,
+        "marker_size_pt": 6.5,
+        "CI_cap_height_pt": 3
+      },
+      {
+        "object": "Scaffold-unseen mean",
+        "point": 0.0008461177180704328,
+        "ci95": [
+          0.000796278376385623,
+          0.000894801718836284
+        ],
+        "horizontal_CI_span_pt": 1.6959604328058617,
+        "marker_size_pt": 6.5,
+        "CI_cap_height_pt": 3
+      }
+    ],
+    "whole_asset_scaling": false,
+    "AP_microbar_height_in": 0.08,
+    "AP_microbar_range": [
+      0,
+      1
+    ],
+    "AP_microbar_color": "#DDDDDD",
+    "CPK_palette": {
+      "N": "#0077BB",
+      "O": "#CC3311",
+      "S": "#CCBB44",
+      "Cl": "#009988",
+      "C": "#000000",
+      "R": "#000000",
+      "*": "#000000",
+      "H": "#000000"
+    },
+    "family_colors": {
+      "Rings": "#33BBEE",
+      "Carboxylic acids": "#CC3311",
+      "Carbonyls": "#EE7733",
+      "Hydroxyls": "#EE3377",
+      "Amine": "#555555"
+    },
+    "family_markers": {
+      "Rings": "o",
+      "Carboxylic acids": "^",
+      "Carbonyls": "s",
+      "Hydroxyls": "v",
+      "Amine": "P"
+    },
+    "A_legend_family_color_text": "Color: chemical family",
+    "A_legend_dark_gray_lookup_only_removed": true
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "shared_radius1_glyph": {
+    "kind": "radius1",
+    "bounds_in": [
+      3.84,
+      5.68,
+      4.04,
+      5.88
+    ],
+    "placement_in": [
+      3.84,
+      5.68,
+      0.2,
+      0.2
+    ],
+    "center_count": 1,
+    "neighbor_count": 3,
+    "circle_diameter_in": 0.060869565217391314,
+    "bond_linewidth_pt": 0.75,
+    "centers_in": [
+      [
+        3.94,
+        5.776
+      ],
+      [
+        3.8704347826086956,
+        5.710434782608695
+      ],
+      [
+        4.009565217391304,
+        5.710434782608695
+      ],
+      [
+        3.94,
+        5.849565217391304
+      ]
+    ]
+  },
+  "shared_sequence_windows": [
+    {
+      "kind": "masked_sequence_window",
+      "bounds_in": [
+        4.2,
+        4.4,
+        5.640000000000001,
+        4.5600000000000005
+      ],
+      "placement_in": [
+        4.2,
+        4.4,
+        1.44,
+        0.16
+      ],
+      "sequence_original": "DLGAWWEER",
+      "mask_index_zero_based": 3,
+      "original_target_residue": "A",
+      "model_input_residues": [
+        "D",
+        "L",
+        "G",
+        "[MASK]",
+        "W",
+        "W",
+        "E",
+        "E",
+        "R"
+      ],
+      "original_target_is_not_supplied_as_input": true,
+      "mask_color": "#0077BB",
+      "cell_in": 0.16,
+      "font_pt": 7.5,
+      "alignment": "equal-width Arial residue cells"
+    },
+    {
+      "kind": "masked_sequence_window",
+      "bounds_in": [
+        4.2,
+        3.95,
+        5.640000000000001,
+        4.11
+      ],
+      "placement_in": [
+        4.2,
+        3.95,
+        1.44,
+        0.16
+      ],
+      "sequence_original": "LPLGAILAR",
+      "mask_index_zero_based": 4,
+      "original_target_residue": "A",
+      "model_input_residues": [
+        "L",
+        "P",
+        "L",
+        "G",
+        "[MASK]",
+        "I",
+        "L",
+        "A",
+        "R"
+      ],
+      "original_target_is_not_supplied_as_input": true,
+      "mask_color": "#0077BB",
+      "cell_in": 0.16,
+      "font_pt": 7.5,
+      "alignment": "equal-width Arial residue cells"
+    }
+  ],
+  "A164_view_original_range_1based": [
+    161,
+    169
+  ],
+  "A178_view_original_range_1based": [
+    174,
+    182
+  ],
+  "scientific_input_original_range_1based": [
+    161,
+    182
+  ],
+  "panel_bounds_in": {
+    "A": [
+      0.15,
+      0.15,
+      3.9,
+      5.7
+    ],
+    "B": [
+      4.2,
+      3.75,
+      3.05,
+      2.1
+    ],
+    "C": [
+      4.2,
+      2.1,
+      3.05,
+      1.5
+    ],
+    "D": [
+      4.2,
+      0.15,
+      3.05,
+      1.8
+    ]
+  },
+  "outer_panel_margin_in": 0.15,
+  "right_column_panel_gaps_in": [
+    0.15,
+    0.15
+  ],
+  "A_row_spacing_in": 0.22,
+  "C_row_spacing_in": 0.22,
+  "D_row_spacing_in": 0.22,
+  "A_mean_row_spacing_in": 0.22,
+  "A_group_separator_clearance_in": 0.08,
+  "A_row_positions_in": {
+    "18": 0.86,
+    "27": 1.2730846862697591,
+    "26": 1.493084686269759,
+    "25": 1.872356030410638,
+    "24": 2.092356030410638,
+    "16": 2.5853833741606382,
+    "15": 2.8053833741606384,
+    "14": 3.0253833741606386,
+    "3": 3.5196259956884166,
+    "2": 3.739625995688417,
+    "1": 3.959625995688417,
+    "0": 4.179625995688417
+  },
+  "A_group_header_centers_in": {
+    "Amine": 0.9890423431348796,
+    "Hydroxyls": 1.602356030410638,
+    "Carbonyls": 2.261369702285638,
+    "Carboxylic acids": 3.1950046849245273,
+    "Rings": 4.295142432766674
+  },
+  "A_separator_positions_in": [
+    1.1380846862697591,
+    1.737356030410638,
+    2.450383374160638,
+    3.3846259956884164
+  ],
+  "A_axes_bounds_in": [
+    1.62,
+    0.4,
+    1.04,
+    4.38
+  ],
+  "C_axes_bounds_in": [
+    4.52,
+    2.51,
+    1.46,
+    0.72
+  ],
+  "D_axes_bounds_in": [
+    4.54,
+    0.43,
+    1.44,
+    0.94
+  ],
+  "group_representative_SMILES_placements": [
+    {
+      "group": "Rings",
+      "representative_concept_id": 0,
+      "geometry_file": "manuscript/draft_round8_20261102/sources/fig13_frozen/fig4_concept_0_geometry.json",
+      "exact_input_SMILES": "C1CC1",
+      "R_mapping": [],
+      "center_y_in": 4.295142432766674,
+      "native_size_in": [
+        0.09920225811417234,
+        0.11103287415651415
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    },
+    {
+      "group": "Carboxylic acids",
+      "representative_concept_id": 14,
+      "geometry_file": "manuscript/draft_round8_20261102/sources/fig13_frozen/fig4_concept_14_geometry.json",
+      "exact_input_SMILES": "*C(=O)O",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "center_y_in": 3.1950046849245273,
+      "native_size_in": [
+        0.29307676089397827,
+        0.21924262152777782
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    },
+    {
+      "group": "Carbonyls",
+      "representative_concept_id": 24,
+      "geometry_file": "manuscript/draft_round8_20261102/sources/fig13_frozen/fig4_concept_24_geometry.json",
+      "exact_input_SMILES": "*C(=O)*",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        },
+        {
+          "atom_index": 3,
+          "atom_map": 0,
+          "display": "R′",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "center_y_in": 2.261369702285638,
+      "native_size_in": [
+        0.24925581799744975,
+        0.21802734375000002
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    },
+    {
+      "group": "Hydroxyls",
+      "representative_concept_id": 26,
+      "geometry_file": "manuscript/draft_round8_20261102/sources/fig13_frozen/fig4_concept_26_geometry.json",
+      "exact_input_SMILES": "*CO",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "center_y_in": 1.602356030410638,
+      "native_size_in": [
+        0.29340767625514785,
+        0.09854268828175766
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    },
+    {
+      "group": "Amine",
+      "representative_concept_id": 18,
+      "geometry_file": "manuscript/draft_round8_20261102/sources/fig13_frozen/fig4_concept_18_geometry.json",
+      "exact_input_SMILES": "*CN",
+      "R_mapping": [
+        {
+          "atom_index": 0,
+          "atom_map": 0,
+          "display": "R",
+          "neighbors": [
+            1
+          ]
+        }
+      ],
+      "center_y_in": 0.9890423431348796,
+      "native_size_in": [
+        0.35338269799786326,
+        0.138084686269759
+      ],
+      "query_circles": 0,
+      "scaled": false,
+      "first_concept_example_not_group_definition": true
+    }
+  ],
+  "protein_class_icons": [
+    {
+      "kind": "HELIX",
+      "native_width_pt": 17.28,
+      "native_height_pt": 8.64,
+      "left_in": 4.79125,
+      "center_y_in": 4.7
+    },
+    {
+      "kind": "STRAND",
+      "native_width_pt": 17.28,
+      "native_height_pt": 8.64,
+      "left_in": 4.9125,
+      "center_y_in": 4.25
+    }
+  ],
+  "amide_native_size_in": [
+    0.643334976697905,
+    0.5276060984008597
+  ],
+  "amide_position_in": [
+    0.15,
+    4.95
+  ],
+  "amide_CPK_geometry": "manuscript/draft_round8_20261102/sources/fig13_frozen/T1_CID60628745_geometry.json",
+  "mean_CI_geometry": [
+    {
+      "object": "Held-out panel mean",
+      "point": 0.0008643407710617802,
+      "ci95": [
+        0.0008240835187488196,
+        0.0009087445620562057
+      ],
+      "horizontal_CI_span_pt": 1.4573376834154186,
+      "marker_size_pt": 6.5,
+      "CI_cap_height_pt": 3
+    },
+    {
+      "object": "Scaffold-unseen mean",
+      "point": 0.0008461177180704328,
+      "ci95": [
+        0.000796278376385623,
+        0.000894801718836284
+      ],
+      "horizontal_CI_span_pt": 1.6959604328058617,
+      "marker_size_pt": 6.5,
+      "CI_cap_height_pt": 3
+    }
+  ],
+  "whole_asset_scaling": false,
+  "AP_microbar_height_in": 0.08,
+  "AP_microbar_range": [
+    0,
+    1
+  ],
+  "AP_microbar_color": "#DDDDDD",
+  "CPK_palette": {
+    "N": "#0077BB",
+    "O": "#CC3311",
+    "S": "#CCBB44",
+    "Cl": "#009988",
+    "C": "#000000",
+    "R": "#000000",
+    "*": "#000000",
+    "H": "#000000"
+  },
+  "family_colors": {
+    "Rings": "#33BBEE",
+    "Carboxylic acids": "#CC3311",
+    "Carbonyls": "#EE7733",
+    "Hydroxyls": "#EE3377",
+    "Amine": "#555555"
+  },
+  "family_markers": {
+    "Rings": "o",
+    "Carboxylic acids": "^",
+    "Carbonyls": "s",
+    "Hydroxyls": "v",
+    "Amine": "P"
+  },
+  "A_legend_family_color_text": null,
+  "A_legend_dark_gray_lookup_only_removed": true
+}

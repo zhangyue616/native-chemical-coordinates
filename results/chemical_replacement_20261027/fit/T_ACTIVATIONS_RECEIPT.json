@@ -1,0 +1,283 @@
+{
+  "schema": "chemical-continuous-T-predictions/1",
+  "status": "PASS_ALL_T_FROZEN_PREDICTIONS",
+  "created_utc": "2026-10-27T09:25:18.038301+00:00",
+  "T_activations_sha256": "728a91a0449447d3fd78dfbab61773f2d0ce1aebbc1de5639b819778b511d345",
+  "D_FIT_sha256": "7bd8e95a02a9e21d881455a49474b2a0a401d2d3832af4f874cbf10f9147ba6d",
+  "protocol_sha256": "83d1ddb465d977841ec779e4ce0461d3bc06d78371f48a98dd23a69398e5fb27",
+  "implementation_sha256": "641890e0f1f46c377c61979b5454729f644ce30f837266e6e712c2135d73ecd4",
+  "shape": {
+    "actual": [
+      246722,
+      2
+    ],
+    "predictions": [
+      246722,
+      2,
+      3
+    ],
+    "target_labels": [
+      246722,
+      2
+    ],
+    "labels_all": [
+      246722,
+      91
+    ],
+    "mol_offsets": [
+      10001
+    ]
+  },
+  "dtype": {
+    "actual": "float32",
+    "predictions": "float64",
+    "bins": "int8"
+  },
+  "coordinate_ids": [
+    293,
+    454
+  ],
+  "concept_ids": [
+    26,
+    24
+  ],
+  "conditions": [
+    "D_mean",
+    "M1",
+    "M2"
+  ],
+  "fallback_reports": {
+    "j293": {
+      "atoms": 246722,
+      "unseen_counts": {
+        "r0": 8,
+        "r1": 2648
+      },
+      "unseen_fractions": {
+        "r0": 3.2425158680620295e-05,
+        "r1": 0.010732727523285317
+      },
+      "actual_fallback_counts": {
+        "r1": 244074,
+        "r0": 2640,
+        "global": 8
+      },
+      "actual_fallback_fractions": {
+        "r1": 0.9892672724767146,
+        "r0": 0.010700302364604697,
+        "global": 3.2425158680620295e-05
+      },
+      "T_Dfixed_bin_atom_counts": [
+        49983,
+        49272,
+        38,
+        0,
+        147429
+      ]
+    },
+    "j454": {
+      "atoms": 246722,
+      "unseen_counts": {
+        "r0": 8,
+        "r1": 2648
+      },
+      "unseen_fractions": {
+        "r0": 3.2425158680620295e-05,
+        "r1": 0.010732727523285317
+      },
+      "actual_fallback_counts": {
+        "r1": 244074,
+        "r0": 2640,
+        "global": 8
+      },
+      "actual_fallback_fractions": {
+        "r1": 0.9892672724767146,
+        "r0": 0.010700302364604697,
+        "global": 3.2425158680620295e-05
+      },
+      "T_Dfixed_bin_atom_counts": [
+        48559,
+        49219,
+        50369,
+        49496,
+        49079
+      ]
+    }
+  },
+  "input_metadata_T": {
+    "split": "T",
+    "status": "PASS_METADATA_SHAPE_GRAPH_ANCHOR_IDENTITY",
+    "n_molecules": 10000,
+    "n_atoms": 246722,
+    "label_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "max_tokens": 106,
+    "inputs": {
+      "data/revision_20261017/chemistry/sealed/T.tsv": {
+        "path": "data/revision_20261017/chemistry/sealed/T.tsv",
+        "bytes": 1987478,
+        "mtime_ns": 1792244283928370300,
+        "sha256_from_existing_receipt": "b1fdc3cb87b03b9cde0bcd8cad5c2a3996c5766296199c1dc77412fc3f6c7494"
+      },
+      "data/revision_20261017/chemistry/sealed/anchors_T.jsonl.gz": {
+        "path": "data/revision_20261017/chemistry/sealed/anchors_T.jsonl.gz",
+        "bytes": 4244380,
+        "mtime_ns": 1792244283927690100,
+        "sha256_from_existing_receipt": "221a9d85d9e85b21ce9701f60fe4bdd89829f9e1485e8899c55b1a6fa589c396"
+      },
+      "data/revision_20261017/chemistry/test/labels_T.npz": {
+        "path": "data/revision_20261017/chemistry/test/labels_T.npz",
+        "bytes": 540472,
+        "mtime_ns": 1792248000869014800,
+        "sha256_from_existing_receipt": "18dfd55814a124ae59598752362a7420d2d1c6e5b9fb2dab0df900f47442d180"
+      },
+      "data/revision_20261017/chemistry/test/atoms_T.npz": {
+        "path": "data/revision_20261017/chemistry/test/atoms_T.npz",
+        "bytes": 131593,
+        "mtime_ns": 1792248000938151600,
+        "sha256_from_existing_receipt": "43be90973e7df2dddff944e69c8778d32060be16d07987e5f21a2909ebb21833"
+      }
+    },
+    "cache_files": {
+      "atom_a.npy": {
+        "path": "data/revision_20261017/chemistry/activations_T/trained/atom_a.npy",
+        "bytes": 457916160,
+        "mtime_ns": 1792248036147933500,
+        "sha256_from_existing_receipt": "39b8542456b7c893439609d463e99f43d7e82d18bad7e7ff6f6ca7816bef4c8c",
+        "shape": [
+          246722,
+          464
+        ],
+        "dtype": "float32"
+      },
+      "normalized_head.npy": {
+        "path": "data/revision_20261017/chemistry/activations_T/trained/normalized_head.npy",
+        "bytes": 7960128,
+        "mtime_ns": 1792248036165990700,
+        "sha256_from_existing_receipt": "f1958400a4fedaa8989de65de9d8392d2e37c10ee33053ce86e23e3a0ef35840",
+        "shape": [
+          10000,
+          199
+        ],
+        "dtype": "float32"
+      }
+    },
+    "cache_binding": {
+      "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+      "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+      "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+    },
+    "T_binding": {
+      "D_OUTPUT_LOCK_sha256": "cdbd08f688632b49c44d664783431e62aa42755516d40960cfbf3e4e1adb0b86",
+      "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+      "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+      "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+    },
+    "source_data_receipt": {
+      "path": "data/revision_20261017/chemistry/test/T_DATA_RECEIPT.json",
+      "bytes": 3279,
+      "mtime_ns": 1792248001160846200
+    },
+    "source_cache_receipt": {
+      "path": "data/revision_20261017/chemistry/activations_T/trained/CACHE_RECEIPT.json",
+      "bytes": 1692,
+      "mtime_ns": 1792248099131413000
+    },
+    "verification_scope": "once per process: bytes/accepted-cache mtime, NPY header, all molecule/atom/anchor identities; existing large scientific files not rehashed"
+  },
+  "prediction_inputs": "D-frozen model and T exact graph keys; M1 additionally uses existing target atom labels",
+  "T_actual_use": "read only after prediction: actual output array and D-fixed descriptive bins; never input to prediction",
+  "model_forwards": 0,
+  "T_refitting": false
+}

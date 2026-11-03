@@ -1,0 +1,23 @@
+{
+  "schema": "chemical-replacement-forward-binding/1",
+  "created_utc": "2026-10-27T09:28:23.248880+00:00",
+  "protocol_sha256": "83d1ddb465d977841ec779e4ce0461d3bc06d78371f48a98dd23a69398e5fb27",
+  "resource_lock_sha256": "6a6a36c823b42cc3102cf3031157b3122b5f5f01d84640a9da3467e24d1e56cb",
+  "runner_sha256": "0c1168bfeca3c54817ccc35be1d6a987a65e52dfd7ab79982591eae9995c4546",
+  "data_fit_sha256": "641890e0f1f46c377c61979b5454729f644ce30f837266e6e712c2135d73ecd4",
+  "D_FIT_sha256": "7bd8e95a02a9e21d881455a49474b2a0a401d2d3832af4f874cbf10f9147ba6d",
+  "D_FIT_LOCK_sha256": "1c2eb984558bf8ee188cccaa5e14216a22bb51daf8c0a2dfceab1bef387e0937",
+  "T_activations_sha256": "728a91a0449447d3fd78dfbab61773f2d0ce1aebbc1de5639b819778b511d345",
+  "T_ACTIVATIONS_RECEIPT_sha256": "e92cd15570f6826a585514a7c1e24724407065f9a6ccbbd78cc307950c886f99",
+  "coordinate_ids": [
+    293,
+    454
+  ],
+  "condition_names": [
+    "D_mean",
+    "M1",
+    "M2",
+    "M1_delta_perm",
+    "M2_delta_perm"
+  ]
+}

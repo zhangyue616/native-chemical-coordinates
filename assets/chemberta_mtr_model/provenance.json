@@ -1,0 +1,41 @@
+{
+  "repository": "DeepChem/ChemBERTa-77M-MTR",
+  "revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "downloaded_at_utc": "2026-10-17T13:09:20.944113+00:00",
+  "files": [
+    {
+      "relative_file": "config.json",
+      "source_url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/config.json",
+      "size_bytes": 17669,
+      "sha256": "6c15d3fd119919afb92b762c4e55cd46a595251ab799435168baa75a6ebd07e6",
+      "response_metadata": {
+        "etag": "W/\"a5834a73022847aba65f0615ebe6360a47b8ed18\"",
+        "x-repo-commit": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "relative_file": "roberta_regression_official.py",
+      "source_url": "https://raw.githubusercontent.com/seyonechithrananda/bert-loves-chemistry/9933ac747141053ff72f35a8fa2cc650ecd5fee9/chemberta/utils/roberta_regression.py",
+      "size_bytes": 10378,
+      "sha256": "ad4866925c0d090cc1a61030210b0664539bd945fd09aa0b373969c1fa7d9806",
+      "response_metadata": {
+        "etag": "W/\"7b201e7fa45d7ef7525f37e054c40153a2a49a177c790f769a5be2754bf80c77\"",
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "1932"
+      }
+    },
+    {
+      "relative_file": "pytorch_model.bin",
+      "source_url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/pytorch_model.bin",
+      "size_bytes": 14036589,
+      "sha256": "7882205587d3985c07e425632d0e57ba0fc2fc778e3b47aab02aef9b7961407f",
+      "response_metadata": {
+        "etag": "\"919eb10d06c628283ddb5335516c0d55f8236db9efca8974fb9c1127a9cc2b34\"",
+        "content-type": "application/octet-stream",
+        "content-length": "14036589"
+      }
+    }
+  ],
+  "distribution_status": "Source metadata only. Third-party model/tokenizer files are acquired explicitly from pinned upstream sources; no redistribution license inferred."
+}

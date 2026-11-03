@@ -1,0 +1,352 @@
+{
+  "scope": "v5/v6 and post hoc H2 shuffling source and frozen result packaging; source hashes recorded while copying; no scientific rerun",
+  "source_paths": "Original project-relative layout only",
+  "files": [
+    {
+      "source_layout": "scripts/lineB/models.py",
+      "published_path": "scripts/lineB/models.py",
+      "source_sha256": "dad8c7ffa4a0f469bf9eceb0c9436cbbf96034722aafef4b47bb7edf8c4e7269",
+      "source_bytes": 19652,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/lift.py",
+      "published_path": "scripts/lineB/lift.py",
+      "source_sha256": "8fcdcea26f94308b440af178c075d5798f4edfac1fc4455684da9b13e3f76147",
+      "source_bytes": 6960,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/audit.py",
+      "published_path": "scripts/lineB/audit.py",
+      "source_sha256": "2aac6242a4c649e1dd25008e6fec3fb8861126bbcafb40195ee512f58f0a6a4e",
+      "source_bytes": 5419,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/audit_v5.py",
+      "published_path": "scripts/lineB/audit_v5.py",
+      "source_sha256": "472d26c61e7ab4fda7095f295a9858e854a886dc0a04ce256f0223785dc2f94e",
+      "source_bytes": 4741,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/gates_v5.py",
+      "published_path": "scripts/lineB/gates_v5.py",
+      "source_sha256": "cc722f7e5913c3a63f026e6b171474d54341db4b06fd106956e8654c678dd6d7",
+      "source_bytes": 3870,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/audit_v6.py",
+      "published_path": "scripts/lineB/audit_v6.py",
+      "source_sha256": "20a3cbf1991cb4c3cb151cfb454ded980b1fb56ae42d360c0f223ef546a4ca51",
+      "source_bytes": 14717,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/gates_v6.py",
+      "published_path": "scripts/lineB/gates_v6.py",
+      "source_sha256": "2b2c4b1f08fb3dca06b44317e3810478187b8bc13e688c4cd3f9e7329a06ec69",
+      "source_bytes": 21820,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/gates_v2.py",
+      "published_path": "scripts/lineB/gates_v2.py",
+      "source_sha256": "612f15cde276dd3b13900c7ee66bc6459805de8247318c3f38a614e0eff36320",
+      "source_bytes": 3955,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/build_corpus.py",
+      "published_path": "scripts/lineB/build_corpus.py",
+      "source_sha256": "0df72a18ae849130ebd1b8ae496e04264326e2e8d1607d528e21598f4fd2ab72",
+      "source_bytes": 5132,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/build_corpus_v5.py",
+      "published_path": "scripts/lineB/build_corpus_v5.py",
+      "source_sha256": "2292630aa7c0af248ef863593f8c99bfb1feb489c4a79735876773ac00b89989",
+      "source_bytes": 3723,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/build_concepts.py",
+      "published_path": "scripts/lineB/build_concepts.py",
+      "source_sha256": "089b0c47e2670bc3bd2d99624fcb93734b816273ff8b5c863f185f5adf3a5f57",
+      "source_bytes": 13398,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/check_chemberta_alignment.py",
+      "published_path": "scripts/lineB/check_chemberta_alignment.py",
+      "source_sha256": "b704fff00dd256d2c3846e5caaa1a8d134037a34da2ede422f9308bdaa574c3e",
+      "source_bytes": 2379,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/check_molformer_alignment.py",
+      "published_path": "scripts/lineB/check_molformer_alignment.py",
+      "source_sha256": "b765e01608690cba73171d420daf8575e4165db0cc58b0247d2d720382679be8",
+      "source_bytes": 3159,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/molformer_checkpoint_facts.py",
+      "published_path": "scripts/lineB/molformer_checkpoint_facts.py",
+      "source_sha256": "c6fdcb5df69217e94c940f8554a7162fc061ab89d76e2634d147dc6123752fc4",
+      "source_bytes": 3460,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/molformer_stereo_check.py",
+      "published_path": "scripts/lineB/molformer_stereo_check.py",
+      "source_sha256": "f9e93ddb6d4aa2d4810f827b48d17d731b9afa78ad53c753b08657f343e408a5",
+      "source_bytes": 2614,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/molformer_determinism_check.py",
+      "published_path": "scripts/lineB/molformer_determinism_check.py",
+      "source_sha256": "7fe01661878e732662480138818c2d2b2d007a96841de2ba9d74c23fac65d6be",
+      "source_bytes": 4271,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "scripts/lineB/token_visible_concepts.py",
+      "published_path": "scripts/lineB/token_visible_concepts.py",
+      "source_sha256": "fc6057de4fde764455d0dbeaa1869c563ca3c0f351bb381b8fbb908707cbd566",
+      "source_bytes": 2939,
+      "adaptation": "R13 dependency-free CLI help guard; original scientific formulas retained. Model/path helpers additionally use explicit environment or repository-relative filesystem roots."
+    },
+    {
+      "source_layout": "refs/code_upstream/pretrain-gnns_chem/LICENSE",
+      "published_path": "third_party_licenses/pretrain_gnns_MIT.txt",
+      "source_sha256": "857174d742cf54cd32ca258cc98cacd165eec0d1424a71888efb16f1e52477d4",
+      "source_bytes": 1070,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "refs/code_upstream/MolCLR/LICENSE",
+      "published_path": "third_party_licenses/MolCLR_MIT.txt",
+      "source_sha256": "40883a7fab0f4f9b1bfe4cb7336d88d402fea8f8472f38a29d46fb1f43587251",
+      "source_bytes": 1068,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/concepts/concepts_v1.json",
+      "published_path": "data/derived/lineB/concepts/concepts_v1.json",
+      "source_sha256": "0feeb77ab4afb8e7237d6e70926f4f79e247006f2bf9b28944caa7143254ce47",
+      "source_bytes": 44639,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/concepts/labels_H4.npz",
+      "published_path": "data/derived/lineB/concepts/labels_H4.npz",
+      "source_sha256": "4c7f1b79e6ae70506377417f63ab4df620916d7dc25d87f154492f708c3e2635",
+      "source_bytes": 2640408,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/concepts/atoms_H4.npz",
+      "published_path": "data/derived/lineB/concepts/atoms_H4.npz",
+      "source_sha256": "3b072b8d973c8e46e3356c65dd61a93925b5f2f00b1b31e53068470fb772271a",
+      "source_bytes": 1966758,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/concepts/label_H4.json",
+      "published_path": "data/derived/lineB/concepts/label_H4.json",
+      "source_sha256": "cc73258a9fb93743595a5a2aa2cad26ce48c5c6e8414c7ee9f81a4aeba8e8772",
+      "source_bytes": 234,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/concepts/build_concepts.json",
+      "published_path": "data/derived/lineB/concepts/build_concepts.json",
+      "source_sha256": "0f7173b339cf493d20516a8463e1dfc01192d4f3a96347275e73b5ffb423f753",
+      "source_bytes": 707,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/corpus/H4_used.tsv",
+      "published_path": "data/derived/lineB/corpus/H4_used.tsv",
+      "source_sha256": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e",
+      "source_bytes": 618431,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/corpus/corpus_50k.tsv",
+      "published_path": "data/derived/lineB/corpus/corpus_50k.tsv",
+      "source_sha256": "5a4e1e80f9b637489a4176f13288a8a7344fb3a9354e9be6979f4ec3099facf8",
+      "source_bytes": 3194455,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/corpus/prepare_H4.json",
+      "published_path": "data/derived/lineB/corpus/prepare_H4.json",
+      "source_sha256": "61df263f0a85b1068d40e0eccf3900429b60e6f9136c4cbbf5a4902c321aedbe",
+      "source_bytes": 660,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/corpus/corpus_build.json",
+      "published_path": "data/derived/lineB/corpus/corpus_build.json",
+      "source_sha256": "678f1c03d16aeb1e60f03ba3a542ad181021e9492f945fd0d9e6b63ba09ce9e2",
+      "source_bytes": 758,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/results_v5/gates_v5.json",
+      "published_path": "frozen_results/lineB/v5/gates_v5.json",
+      "source_sha256": "93e2f76ca47ba3101ba6389087d2a49094597ea6af383b1aebcadbfdc8706e2f",
+      "source_bytes": 9006,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "lineB/results_v6/gates_v6.json",
+      "published_path": "frozen_results/lineB/v6/gates_v6.json",
+      "source_sha256": "aca5c8bd92fb1090663365d74507ba7dc3c1091cd00b7d1f2d98bea304d72a71",
+      "source_bytes": 27575,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "lineB/results_v6/alignment_molformer.json",
+      "published_path": "frozen_results/lineB/v6/alignment_molformer.json",
+      "source_sha256": "01ef54f8bd9557e2574d460b3acfcda0638b4fb55b445de84878e95d051ac1ae",
+      "source_bytes": 1124,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "lineB/results_v6/checkpoint_facts.json",
+      "published_path": "frozen_results/lineB/v6/checkpoint_facts.json",
+      "source_sha256": "00cf17193e5c363e7a3bdc96234944354c154a1aaf27f520f2b640aedbd2e2d8",
+      "source_bytes": 2721,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "lineB/results_v6/determinism_check.json",
+      "published_path": "frozen_results/lineB/v6/determinism_check.json",
+      "source_sha256": "940398110a3461eb3d8f79ac41e96dc305a8ab734ea47ec4ba02da1d557ecb88",
+      "source_bytes": 2438,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "lineB/results_v6/stereo_check.json",
+      "published_path": "frozen_results/lineB/v6/stereo_check.json",
+      "source_sha256": "d8ce6dab070bbcba7209fbf2e55a30e49eb04d7ea519dfc0692688d5df56c4a0",
+      "source_bytes": 4136,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "lineB/results_v6/token_visible_concepts.json",
+      "published_path": "frozen_results/lineB/v6/token_visible_concepts.json",
+      "source_sha256": "a726d9961524f3880048e70ce62ac295db17fdf960309e239592337d00953487",
+      "source_bytes": 28292,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "lineB/results_v6/molformer/fingerprints.json",
+      "published_path": "frozen_results/lineB/v6/molformer/fingerprints.json",
+      "source_sha256": "97364b815118c210202d554e7703a1bb9c6d8dcd17078888834b28293f7c54f3",
+      "source_bytes": 26589,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "lineB/results_v6/molformer/run_record.json",
+      "published_path": "frozen_results/lineB/v6/molformer/run_record.json",
+      "source_sha256": "3037eaa6a38380d80f9201e5019d9403c0d60a340fd99ec1b9c83f2cd964bb5b",
+      "source_bytes": 16641,
+      "adaptation": "JSON whitespace normalization and private path redaction"
+    },
+    {
+      "source_layout": "data/derived/lineB/corpus/pilot_20k.tsv",
+      "published_path": "data/derived/lineB/corpus/pilot_20k.tsv",
+      "source_sha256": "97a9b454d4daa3656757f82fa3a2d3d078ac6e5d195d7ed0548d92ffebd9927f",
+      "source_bytes": 1263532,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/concepts/labels_pilot.npz",
+      "published_path": "data/derived/lineB/concepts/labels_pilot.npz",
+      "source_sha256": "44580554301533ea75cf7273ed3db13398690199c02d125882a22e03c55ce148",
+      "source_bytes": 5318356,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "data/derived/lineB/concepts/atoms_pilot.npz",
+      "published_path": "data/derived/lineB/concepts/atoms_pilot.npz",
+      "source_sha256": "cf50c3d0aacd0cdb4418aa4ff4a52c35a94e1231c66bfe59b92c9257d597fb72",
+      "source_bytes": 3955702,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/results_posthoc/alignment_check.json",
+      "published_path": "lineB/results_posthoc/alignment_check.json",
+      "source_sha256": "48e80cb05dce5c18cc5a54c0362c3e7b2942057669462894976133e8dabd064a",
+      "source_bytes": 3587,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "scripts/lineB/posthoc_m4_shuffled.py",
+      "published_path": "scripts/lineB/posthoc_m4_shuffled.py",
+      "source_sha256": "64d953abc8d6ece55deccedaaf3074dc3a24a26678d261bba84ce6003ed70bea",
+      "source_bytes": 4357,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "scripts/lineB/figures/common.py",
+      "published_path": "scripts/lineB/figures/common.py",
+      "source_sha256": "bd9b3ab8504a80dd0fa250d4d54f889b0d48c17d5d67ee72bc78ddd461c43c23",
+      "source_bytes": 7294,
+      "adaptation": "Project root read from NATIVE_UNIT_LEGACY_ROOT or a repository-relative default; original scientific formulas retained."
+    },
+    {
+      "source_layout": "lineB/results_posthoc/m4_shuffled.json",
+      "published_path": "lineB/results_posthoc/m4_shuffled.json",
+      "source_sha256": "917a2454c65b922a39eb86a3d19a8908456fc12711d9c4f18c9324f422be41ee",
+      "source_bytes": 3156,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/figures/cache/v3_chemeleon.npz",
+      "published_path": "lineB/figures/cache/v3_chemeleon.npz",
+      "source_sha256": "f95f78cf18292f7b57ee5823032edc2e491533e36215bce4dd2ecd51a75b783c",
+      "source_bytes": 556254,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/figures/cache/v3_molclr.npz",
+      "published_path": "lineB/figures/cache/v3_molclr.npz",
+      "source_sha256": "36b040dfefaf3f0ac90fe121e882523988a17e3bdc4693c510b6879da1afdf52",
+      "source_bytes": 556258,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/figures/cache/v3_hu.npz",
+      "published_path": "lineB/figures/cache/v3_hu.npz",
+      "source_sha256": "2eb7da6d8b07d03e26711931acf1ac746aa7f7f13c7bc7650a5d318aa9b8ab0b",
+      "source_bytes": 599358,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/figures/cache/v3_chemberta.npz",
+      "published_path": "lineB/figures/cache/v3_chemberta.npz",
+      "source_sha256": "e9d72fae9a1994b304da6e66b76a6a7474d49a1b129e83c4b128d459eb3087c0",
+      "source_bytes": 570642,
+      "adaptation": "byte copy"
+    },
+    {
+      "source_layout": "lineB/results_posthoc/m4/",
+      "published_path": "lineB/results_posthoc/m4_S_vectors.zip",
+      "source_sha256": "4329f242e2208833ba246f1a5ca8ddf74963488d539c1ed64b275fd11ce484f4",
+      "source_bytes": 500900,
+      "adaptation": "320 original NPY files (39 shuffled networks plus one pipeline check for each of 8 checkpoints) archived byte for byte; hash and size describe this archive."
+    }
+  ],
+  "modified_scientific_formulas": false,
+  "historical_v3_limitation": "Current models.py/lift.py do not establish the exact historical v3 bytes; original v3 receipt records that gap.",
+  "download_log": "models/download_log.csv retains only 16 ChemBERTa acquisition rows and required five metadata columns; it is not the original whole-machine download log."
+}

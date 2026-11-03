@@ -1,0 +1,157 @@
+{
+  "figures": [
+    {
+      "label": "Figure 1",
+      "png": "figures/figure_1.png",
+      "source_png": "manuscript/draft_round9_20261102/review_versions/figure_1/round9_20261102_v01/figure_1.png",
+      "source_data": "source_data/figure_1_plot_data.json",
+      "renderer": "figure_source/main/plot_figure_1.py",
+      "render_level": "frozen numerical values and saved geometry"
+    },
+    {
+      "label": "Figure 2",
+      "png": "figures/figure_2.png",
+      "source_png": "manuscript/draft_round9_20261102/review_versions/figure_2/round9_20261102_v01/figure_2.png",
+      "source_data": "source_data/figure_2_plot_data.json",
+      "renderer": "figure_source/main/plot_figure_2.py",
+      "render_level": "frozen numerical values and saved geometry"
+    },
+    {
+      "label": "Figure 3",
+      "png": "figures/figure_3.png",
+      "source_png": "manuscript/draft_round9_20261102/review_versions/figure_3/r8_frozen_v01/figure_3.png",
+      "source_data": "source_data/figure_3_plot_data.json",
+      "renderer": "figure_source/main/plot_figure_3.py",
+      "render_level": "frozen numerical values and saved geometry"
+    },
+    {
+      "label": "Figure 4",
+      "png": "figures/figure_4.png",
+      "source_png": "manuscript/draft_round9_20261102/review_versions/figure_4/r9_20261102_v02/figure_4.png",
+      "source_data": "source_data/figure_4_plot_data.json",
+      "renderer": "figure_source/main/plot_figure_4.py",
+      "render_level": "frozen numerical values and saved geometry"
+    },
+    {
+      "label": "Figure S-B1",
+      "png": "figures/figure_S_B1.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_B1.png",
+      "source_data": "source_data/figure_S_B1_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen source-data; renderer not packaged"
+    },
+    {
+      "label": "Figure S-C1",
+      "png": "figures/figure_S_C1.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_C1.png",
+      "source_data": "source_data/figure_S_C1_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen source-data; renderer not packaged"
+    },
+    {
+      "label": "Figure S-C2",
+      "png": "figures/figure_S_C2.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_C2.png",
+      "source_data": "source_data/figure_S_C2_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen numerical example summary plus original raster tiles; atom-level response arrays are not in these summaries"
+    },
+    {
+      "label": "Figure S-C3",
+      "png": "figures/figure_S_C3.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_C3.png",
+      "source_data": "source_data/figure_S_C3_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen numerical example summary plus original raster tiles; atom-level response arrays are not in these summaries"
+    },
+    {
+      "label": "Figure S-C4",
+      "png": "figures/figure_S_C4.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_C4.png",
+      "source_data": "source_data/figure_S_C4_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen numerical example summary plus original raster tiles; atom-level response arrays are not in these summaries"
+    },
+    {
+      "label": "Figure S-C5",
+      "png": "figures/figure_S_C5.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_C5.png",
+      "source_data": "source_data/figure_S_C5_plot_data.json",
+      "renderer": "figure_source/historical/plot_S_C2_to_C5.py",
+      "render_level": "Historical fig_s3 branch: saved best-lift matrices, original effect/null formulas and frozen gate effects; final R7 PNG remains unchanged."
+    },
+    {
+      "label": "Figure S-C6",
+      "png": "figures/figure_S_C6.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_C6.png",
+      "source_data": "source_data/figure_S_C6_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen source-data; renderer not packaged"
+    },
+    {
+      "label": "Figure S-E1",
+      "png": "figures/figure_S_E1.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_E1.png",
+      "source_data": "source_data/figure_S_E1_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen source-data; renderer not packaged"
+    },
+    {
+      "label": "Figure S-I1",
+      "png": "figures/figure_S_I1.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_I1.png",
+      "source_data": "source_data/figure_S_I1_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen source-data; renderer not packaged"
+    },
+    {
+      "label": "Figure S-J1",
+      "png": "figures/figure_S_J1.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/figure_S_J1.png",
+      "source_data": "source_data/figure_S_J1_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen source-data; renderer not packaged"
+    },
+    {
+      "label": "TOC graphic",
+      "png": "figures/toc_graphic.png",
+      "source_png": "manuscript/draft_round7_20261031/figures/toc_graphic.png",
+      "source_data": "source_data/toc_graphic_plot_data.json",
+      "renderer": null,
+      "render_level": "frozen source-data; renderer not packaged"
+    }
+  ],
+  "figure_count": 15,
+  "frozen_PNG_copied_without_redrawing": true,
+  "data_sanitization": "Only provenance/workflow metadata and machine-specific path strings removed or normalized; retained numeric fields unchanged.",
+  "main_rendering_validation": "Import and frozen-data loading only; no new figure rendered during packaging.",
+  "reproduction_scope": "Presentation from frozen results; not a full model-training or inference rerun.",
+  "historical_SC5_validation": {
+    "date": "2026-11-03",
+    "scope": "Local validation of fig_s3 only; other branches were not executed",
+    "status": "PASS",
+    "restored_original_constant": "K = 39",
+    "model_layer_rows": 8,
+    "frozen_effect_comparisons": 16,
+    "tolerance": 1e-9,
+    "max_absolute_effect_difference": 1.1102230246251565e-16,
+    "null_clouds": 16,
+    "null_cloud_length": 39,
+    "all_null_values_finite": true,
+    "output_formats": [
+      "PDF",
+      "SVG",
+      "PNG"
+    ],
+    "outputs": "New local validation directory; original published figure PNGs not replaced",
+    "runtime": {
+      "python": "3.11.15",
+      "numpy": "1.26.4",
+      "matplotlib": "3.11.2",
+      "pillow": "13.0.0"
+    },
+    "inference_fitting_bootstrap_or_pvalue_recomputation": false,
+    "full_script_or_main_renderers_validated": false,
+    "full_model_reproduction": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Offline saved-results integrity and scientific-object coverage",
+  "concepts": 200,
+  "readable_concepts": 173,
+  "H4_molecules": 10000,
+  "checks": {
+    "v5": {
+      "frozen_vectors": 8044,
+      "sampled_numeric_vectors": 16,
+      "all_expected_network_rotation_paths_present": true
+    },
+    "v6": {
+      "frozen_vectors": 24577,
+      "sampled_numeric_vectors": 24,
+      "all_expected_network_rotation_paths_present": true
+    }
+  },
+  "model_calls": 0,
+  "statistical_recomputations": 0,
+  "limitations": "No model execution, clean-machine installation or historical confirmation rerun."
+}

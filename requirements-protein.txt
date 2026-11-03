@@ -1,0 +1,4 @@
+# Python 3.11; deterministic saved-data/KRR replay only.
+numpy==1.26.4
+scipy==1.14.1
+threadpoolctl==3.7.0

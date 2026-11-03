@@ -1,0 +1,56 @@
+{
+  "status": "PASS_D_EXTRACTION",
+  "binding": {
+    "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+    "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+    "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+  },
+  "network": "init21002",
+  "initialization_seed": 21002,
+  "n_molecules": 5000,
+  "n_atoms": 124530,
+  "dtype": "float32",
+  "layer_zero_based": 1,
+  "atom_order": "D.tsv order then graph_atom_id; positions read independently from saved mapper audit",
+  "atom_shape": [
+    124530,
+    464
+  ],
+  "cls_shape": [
+    5000,
+    464
+  ],
+  "head_shape": [
+    5000,
+    199
+  ],
+  "moment_SD_ddof": 0,
+  "moment_and_column_norm_dtype": "float64",
+  "normalization": "normalized anonymous head",
+  "files": {
+    "atom_a.npy": {
+      "bytes": 231127808,
+      "mtime_ns": 1792244755093319500,
+      "sha256": "437d6bfce1059564e92b343542dc89aeb391726779df6d5555afcaa1c9c2f16b"
+    },
+    "cls_a.npy": {
+      "bytes": 9280128,
+      "mtime_ns": 1792244755097566100,
+      "sha256": "859f4017837e0e2df7fb76ca73733b269b252cc5c2783f2e4ac75db6930e645a"
+    },
+    "normalized_head.npy": {
+      "bytes": 3980128,
+      "mtime_ns": 1792244755111888100,
+      "sha256": "2e0187cc7465fa79f71f2ab846b1373f747972b604cb4efd261ad24836be3017"
+    },
+    "D_moments.npz": {
+      "bytes": 27790,
+      "mtime_ns": 1792244781998604700,
+      "sha256": "ac1430af4f7276209a100e58cacb1ae8a891ba97c309b27e17e34a2f3e8aa15d"
+    }
+  },
+  "completed_utc": "2026-10-17T13:46:22.223971+00:00",
+  "T_reads": 0,
+  "rss_bytes": 781819904,
+  "peak_rss_bytes": 800378880
+}

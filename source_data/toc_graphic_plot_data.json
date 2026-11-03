@@ -1,0 +1,428 @@
+{
+  "graphic": "TOC",
+  "version": "v01",
+  "label_records": [
+    {
+      "label": "Native chemical\nalignment",
+      "anchor_in": [
+        0.805,
+        1.545
+      ],
+      "size_pt": 8,
+      "role": "native_chemical_alignment",
+      "ink_bounds_in": [
+        0.41375,
+        1.4399375,
+        1.19625,
+        1.6500625
+      ]
+    },
+    {
+      "label": "Out-of-sample\ntransfer",
+      "anchor_in": [
+        2.445,
+        1.545
+      ],
+      "size_pt": 8,
+      "role": "out_of_sample_transfer",
+      "ink_bounds_in": [
+        2.0931249999999997,
+        1.4399656250000001,
+        2.796875,
+        1.650034375
+      ]
+    },
+    {
+      "label": "Continuous activation\nreconstruction",
+      "anchor_in": [
+        0.805,
+        0.715
+      ],
+      "size_pt": 8,
+      "role": "continuous_activation_reconstruction",
+      "ink_bounds_in": [
+        0.274375,
+        0.6102,
+        1.335625,
+        0.8198000000000001
+      ]
+    },
+    {
+      "label": "Frozen-network coordinate\nreplacement",
+      "anchor_in": [
+        2.445,
+        0.715
+      ],
+      "size_pt": 8,
+      "role": "frozen_network_coordinate_replacement",
+      "ink_bounds_in": [
+        1.7837499999999997,
+        0.6099375,
+        3.10625,
+        0.8200624999999999
+      ]
+    },
+    {
+      "label": "M1",
+      "anchor_in": [
+        0.455,
+        0.44
+      ],
+      "size_pt": 7,
+      "role": "activation_explanation_program",
+      "ink_bounds_in": [
+        0.3875,
+        0.395,
+        0.5225,
+        0.485
+      ]
+    },
+    {
+      "label": "M2",
+      "anchor_in": [
+        0.455,
+        0.22000000000000003
+      ],
+      "size_pt": 7,
+      "role": "activation_explanation_program",
+      "ink_bounds_in": [
+        0.3875,
+        0.17500000000000004,
+        0.5225,
+        0.265
+      ]
+    }
+  ],
+  "arrows": [
+    {
+      "start_in": [
+        2.25,
+        1.144
+      ],
+      "end_in": [
+        2.65,
+        1.144
+      ],
+      "role": "locked source-coordinate readout applied out of sample"
+    },
+    {
+      "start_in": [
+        0.72,
+        0.44
+      ],
+      "end_in": [
+        0.96,
+        0.44
+      ],
+      "role": "M1 predicts continuous activation, not a label probability"
+    },
+    {
+      "start_in": [
+        0.72,
+        0.22000000000000003
+      ],
+      "end_in": [
+        0.96,
+        0.22000000000000003
+      ],
+      "role": "M2 predicts continuous activation, not a label probability"
+    },
+    {
+      "start_in": [
+        2.14,
+        0.325
+      ],
+      "end_in": [
+        2.23,
+        0.325
+      ],
+      "role": "frozen block1 to block2"
+    },
+    {
+      "start_in": [
+        2.54,
+        0.325
+      ],
+      "end_in": [
+        2.63,
+        0.325
+      ],
+      "role": "replaced coordinate continues to frozen block3"
+    },
+    {
+      "start_in": [
+        2.95,
+        0.325
+      ],
+      "end_in": [
+        3.06,
+        0.325
+      ],
+      "role": "frozen output head readout"
+    },
+    {
+      "start_in": [
+        2.385,
+        0.523
+      ],
+      "end_in": [
+        2.385,
+        0.471
+      ],
+      "role": "substitute continuous chemical prediction at specified coordinate"
+    }
+  ],
+  "chemical_queries": [
+    {
+      "concept_id": 26,
+      "geometry_file": "manuscript/draft_revision_20261027/sources/chemical_assets/queries/query_26_geometry.json",
+      "left_in": 0.28194444444444444,
+      "bottom_in": 1.045,
+      "native_size_pt": [
+        29.959999999999997,
+        20.839999999999996
+      ],
+      "matched_atom_indices": [
+        0,
+        1
+      ],
+      "circle_colors": [
+        "#000000"
+      ],
+      "style": {
+        "atom_center_bond_length_pt": 11.5,
+        "black_bond_linewidth_pt": 0.6,
+        "atom_font_family": "Arial",
+        "atom_fontsize_pt": 7.0,
+        "match_circle_linewidth_pt": 0.9,
+        "match_circle_radius_pt": 3.2,
+        "match_circle_fill": "none",
+        "native_ink_margin_pt": 1.0,
+        "PNG_dpi": 600,
+        "whole_asset_scaling_allowed": false,
+        "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+        "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+      },
+      "scaling_applied": false,
+      "layout_recomputed": false,
+      "role": "native chemical query glyph, not an empirical molecule or activation map"
+    },
+    {
+      "concept_id": 24,
+      "geometry_file": "manuscript/draft_revision_20261027/sources/chemical_assets/queries/query_24_geometry.json",
+      "left_in": 0.9702777777777779,
+      "bottom_in": 1.075,
+      "native_size_pt": [
+        21.559999999999995,
+        16.52
+      ],
+      "matched_atom_indices": [
+        0,
+        1
+      ],
+      "circle_colors": [
+        "#000000"
+      ],
+      "style": {
+        "atom_center_bond_length_pt": 11.5,
+        "black_bond_linewidth_pt": 0.6,
+        "atom_font_family": "Arial",
+        "atom_fontsize_pt": 7.0,
+        "match_circle_linewidth_pt": 0.9,
+        "match_circle_radius_pt": 3.2,
+        "match_circle_fill": "none",
+        "native_ink_margin_pt": 1.0,
+        "PNG_dpi": 600,
+        "whole_asset_scaling_allowed": false,
+        "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+        "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+      },
+      "scaling_applied": false,
+      "layout_recomputed": false,
+      "role": "native chemical query glyph, not an empirical molecule or activation map"
+    }
+  ],
+  "coordinate_glyphs": [
+    {
+      "role": "query26_coordinate_association",
+      "bounds_in": [
+        0.315,
+        0.96,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "query24_coordinate_association",
+      "bounds_in": [
+        0.9450000000000001,
+        0.96,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "fit_locked_coordinate",
+      "bounds_in": [
+        1.84,
+        1.25,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "held_out_application_same_coordinate",
+      "bounds_in": [
+        2.72,
+        1.25,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "fit_locked_coordinate",
+      "bounds_in": [
+        1.84,
+        1.12,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "held_out_application_same_coordinate",
+      "bounds_in": [
+        2.72,
+        1.12,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "fit_locked_coordinate",
+      "bounds_in": [
+        1.84,
+        0.99,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "held_out_application_same_coordinate",
+      "bounds_in": [
+        2.72,
+        0.99,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "M1_predicted_activation_coordinate",
+      "bounds_in": [
+        1.02,
+        0.416,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "M2_predicted_activation_coordinate",
+      "bounds_in": [
+        1.02,
+        0.196,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    },
+    {
+      "role": "chemical_prediction_for_coordinate_replacement",
+      "bounds_in": [
+        2.21,
+        0.535,
+        0.35000000000000003,
+        0.048
+      ],
+      "selected_index": 2,
+      "fill": "#D55E00"
+    }
+  ],
+  "panel_bounds_in": {
+    "native_alignment": [
+      0.1,
+      0.9,
+      1.41,
+      0.75
+    ],
+    "transfer": [
+      1.74,
+      0.9,
+      1.41,
+      0.75
+    ],
+    "reconstruction": [
+      0.1,
+      0.1,
+      1.41,
+      0.75
+    ],
+    "replacement": [
+      1.74,
+      0.1,
+      1.41,
+      0.75
+    ]
+  },
+  "semantics": "Four complementary views in row-wise reading order; no inter-panel scientific pipeline or independence claim. Native alignment spans checkpoint audit, whereas continuous reconstruction/replacement concern two fixed MTR physical coordinates. M1/M2 are alternative continuous activation explanations, distinct from old label-probability program L.",
+  "colors": {
+    "orange_filled_cell": "selected or replaced unit coordinate",
+    "blue_outline": "fitted chemical reference program",
+    "gray_outline": "other coordinate context",
+    "black_open_circles": "chemical query matches, not activation or intervention sites"
+  },
+  "historical_H_Hpair_removed_from_TOC": true,
+  "historical_H_Hpair_retained_in_manuscript": "Figure5D and SI",
+  "scientific_facts": "docs/chemical_replacement_20261027/RESULTS_FOR_WRITING.md",
+  "old_TOC_script_read_only_reference": "scripts/draft_sixfig_20261025/plot_toc.py",
+  "new_fits_forwards_statistics_API_RDKit_layout_calls": 0,
+  "export": {
+    "physical_in": [
+      3.25,
+      1.75
+    ],
+    "physical_mm": [
+      82.55,
+      44.45
+    ],
+    "crop_or_scaling_applied": false,
+    "PNG_dpi": 600,
+    "expected_PNG_pixels": [
+      1950,
+      1050
+    ],
+    "minimum_configured_text_pt": 7,
+    "font_family": "Arial",
+    "SVG_raster_image_count": 0,
+    "visible_text_outside_canvas": [],
+    "final_PDF_measurement": "Frozen figure source"
+  },
+  "caption": "**TOC graphic.** Modeling continuous activations from explicit radius-1 local graph environments (M2) reconstructs locked aliphatic hydroxyl (j293) and carbonyl (j454) coordinates across confirmation molecules (R² = 0.834 and 0.635) and reduces frozen-network output mean absolute error upon coordinate replacement (to 0.00586 and 0.00233) relative to development-mean clamping and within-molecule residual permutations."
+}

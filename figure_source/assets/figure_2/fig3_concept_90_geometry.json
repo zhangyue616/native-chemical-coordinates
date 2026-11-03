@@ -1,0 +1,632 @@
+{
+  "style": {
+    "atom_center_bond_length_pt": 6.4,
+    "black_bond_linewidth_pt": 0.6,
+    "atom_font_family": "Arial",
+    "atom_fontsize_pt": 7.0,
+    "match_circle_linewidth_pt": 0.9,
+    "match_circle_radius_pt": 3.2,
+    "match_circle_fill": "none",
+    "native_ink_margin_pt": 1.0,
+    "PNG_dpi": 600,
+    "whole_asset_scaling_allowed": false,
+    "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+    "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+  },
+  "width_pt": 38.127614134653804,
+  "height_pt": 12.685125168440821,
+  "paths": [
+    {
+      "vertices": [
+        [
+          33.01105163465381,
+          6.342562584220411
+        ],
+        [
+          29.017538324430745,
+          6.342562584220411
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-0 atom-0 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          29.017538324430745,
+          6.342562584220411
+        ],
+        [
+          25.819682843901482,
+          11.88512516844082
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-1 atom-1 atom-2",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          25.819682843901482,
+          11.88512516844082
+        ],
+        [
+          19.418168152388276,
+          11.88512516844082
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-2 atom-2 atom-3",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          25.26252472025211,
+          10.927509643418446
+        ],
+        [
+          19.975326276037663,
+          10.927509643418446
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-2 atom-2 atom-3",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          19.418168152388276,
+          11.88512516844082
+        ],
+        [
+          16.220312671859013,
+          6.342562584220411
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-3 atom-3 atom-4",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          16.220312671859013,
+          6.342562584220411
+        ],
+        [
+          11.993004759653804,
+          6.342562584220411
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-4 atom-4 atom-5",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          16.220312671859013,
+          6.342562584220411
+        ],
+        [
+          19.418168152388276,
+          0.8000000000000003
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-5 atom-4 atom-6",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          17.3288251887031,
+          6.342562584220411
+        ],
+        [
+          19.975326276037663,
+          1.7576155250223748
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-5 atom-4 atom-6",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          19.418168152388276,
+          0.8
+        ],
+        [
+          25.819682843901482,
+          0.8
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-6 atom-6 atom-7",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          25.819682843901482,
+          0.8
+        ],
+        [
+          29.017538324430745,
+          6.342562584220411
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-7 atom-7 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          25.26252472025211,
+          1.7576155250223748
+        ],
+        [
+          27.909025807586666,
+          6.342562584220411
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-7 atom-7 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          25.98218729663256,
+          11.606546106616129
+        ],
+        [
+          25.819682843901482,
+          11.88512516844082
+        ],
+        [
+          25.50047766889403,
+          11.88512516844082
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          19.737373327395737,
+          11.88512516844082
+        ],
+        [
+          19.418168152388276,
+          11.88512516844082
+        ],
+        [
+          19.26146743011189,
+          11.606546106616129
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          19.26146743011189,
+          1.0785790618246909
+        ],
+        [
+          19.418168152388276,
+          0.8
+        ],
+        [
+          19.737373327395737,
+          0.8
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          25.50047766889403,
+          0.8
+        ],
+        [
+          25.819682843901482,
+          0.8
+        ],
+        [
+          25.98218729663256,
+          1.0785790618246909
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    }
+  ],
+  "texts": [
+    {
+      "x": 32.660895384653806,
+      "y": 8.847796959220409,
+      "text": "R",
+      "source_class": "atom-0",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#000000"
+    },
+    {
+      "x": -0.0610937499999995,
+      "y": 8.847796959220409,
+      "text": "H",
+      "source_class": "atom-5",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#0077BB"
+    },
+    {
+      "x": 4.9759095016446775,
+      "y": 11.767798844231818,
+      "text": "2",
+      "source_class": "atom-5",
+      "source_font_size_px": "46px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#0077BB"
+    },
+    {
+      "x": 7.311911009653803,
+      "y": 8.847796959220409,
+      "text": "N",
+      "source_class": "atom-5",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#0077BB"
+    }
+  ],
+  "circles": [],
+  "atoms": [
+    {
+      "index": 0,
+      "element": "R",
+      "x": 35.419332884653805,
+      "y": 6.342562584220407,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 1,
+      "element": "C",
+      "x": 29.019332884653807,
+      "y": 6.34256258422041,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 2,
+      "element": "C",
+      "x": 25.819332884653797,
+      "y": 11.88512516844082,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 3,
+      "element": "C",
+      "x": 19.419332884653805,
+      "y": 11.885125168440815,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 4,
+      "element": "C",
+      "x": 16.219332884653806,
+      "y": 6.342562584220407,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 5,
+      "element": "N",
+      "x": 9.819332884653804,
+      "y": 6.342562584220406,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 6,
+      "element": "C",
+      "x": 19.419332884653805,
+      "y": 0.8000000000000003,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 7,
+      "element": "C",
+      "x": 25.819332884653804,
+      "y": 0.8000000000000012,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    }
+  ],
+  "bonds": [
+    {
+      "index": 0,
+      "begin": 0,
+      "end": 1,
+      "type": "SINGLE"
+    },
+    {
+      "index": 1,
+      "begin": 1,
+      "end": 2,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 2,
+      "begin": 2,
+      "end": 3,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 3,
+      "begin": 3,
+      "end": 4,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 4,
+      "begin": 4,
+      "end": 5,
+      "type": "SINGLE"
+    },
+    {
+      "index": 5,
+      "begin": 4,
+      "end": 6,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 6,
+      "begin": 6,
+      "end": 7,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 7,
+      "begin": 7,
+      "end": 1,
+      "type": "AROMATIC"
+    }
+  ],
+  "matched_atom_indices": [],
+  "center_bond_lengths_pt": [
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4
+  ],
+  "source_RDKit_SVG": "Frozen figure source",
+  "source_SVG_to_point_unit": 0.10428578160755025,
+  "source_graph_is_query": false,
+  "source_graph_SMARTS": "[#0]-[#6]1:[#6]:[#6]:[#6](-[#7]):[#6]:[#6]:1",
+  "RDKit": "2026.03.6",
+  "metadata": {
+    "concept_id": 90,
+    "concept_name": "Aromatic anchor of amine/hydrazine/hydrazide/amidine motifs",
+    "exact_input_SMILES": "*c1ccc(N)cc1",
+    "MolFromSmiles_used": true,
+    "rendered_graph_is_query": false,
+    "frozen_definition": "[$(a-[NX3H2]),$(a-[NH1][NH2]),$(a-C(=[OX1])[NH1][NH2]),$(a-C(=[NH])[NH2])]",
+    "R_mapping": [
+      {
+        "atom_index": 0,
+        "atom_map": 0,
+        "display": "R",
+        "neighbors": [
+          1
+        ]
+      }
+    ],
+    "representative_top_level_matches": [
+      [
+        4
+      ]
+    ],
+    "carbon_completed_witness_SMILES": "Cc1ccc(N)cc1",
+    "carbon_completed_witness_matches": [
+      [
+        4
+      ]
+    ],
+    "semantic_boundary": "R is the omitted ring substituent; this aniline branch illustrates one of four recursive branches, and the labeled query atom remains aromatic a.",
+    "frozen_label_definition_changed": false,
+    "selection_is_illustrative_not_empirical_response_evidence": true,
+    "mapping_advice_reused": "Frozen figure source"
+  },
+  "geometry_finalized": true,
+  "chemical_graph_modified": false,
+  "text_override": "All actual SVG text kept; Arial7pt primary-symbol ink alignment in exporter preserves within-atom component baseline differences",
+  "atom_label_alignment_records": [
+    {
+      "atom_index": 0,
+      "primary_symbol": "R",
+      "text_component_indices": [
+        0
+      ],
+      "translation_pt": [
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "atom_index": 5,
+      "primary_symbol": "N",
+      "text_component_indices": [
+        1,
+        2,
+        3
+      ],
+      "translation_pt": [
+        -1.7763568394002505e-15,
+        -8.881784197001252e-16
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+  "native_ink_bounds_pt": [
+    1.0,
+    1.0,
+    58.599999999999994,
+    21.64
+  ],
+  "text_clearance_display_repair": {
+    "pad_pt": 0.2,
+    "straight_paths_trimmed": 2,
+    "graph_atoms_bonds_and_text_positions_unchanged": true,
+    "reason": "Fixed Arial7 label ink is not reduced with center geometry"
+  },
+  "halos": [],
+  "native_geometry_source": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_90_representative_geometry.json",
+  "CPK_palette": {
+    "N": "#0077BB",
+    "O": "#CC3311",
+    "S": "#CCBB44",
+    "Cl": "#009988",
+    "C": "#000000",
+    "R": "#000000",
+    "*": "#000000",
+    "H": "#000000"
+  },
+  "finalset_uniform_geometry_scale": 0.5565217391304348,
+  "finalset_atom_center_bond_length_pt": 6.4,
+  "query_halo_is_neural_response_evidence": false,
+  "identity_reuse_evidence": {
+    "atoms_identity_equal": true,
+    "bonds_exactly_equal": true,
+    "text_runs_exactly_equal": true,
+    "matched_atom_indices_exactly_equal": true,
+    "source_graph_SMARTS_exactly_equal": true
+  }
+}

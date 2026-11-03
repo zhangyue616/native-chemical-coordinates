@@ -1,0 +1,138 @@
+{
+  "cache_all199": {
+    "max_abs": 0.0,
+    "T_molecule_index": 0,
+    "endpoint": 0,
+    "actual": -1.7023992538452148,
+    "cached": -1.7023992538452148,
+    "label": "q"
+  },
+  "cache_selected_q": {
+    "115": {
+      "max_abs": 0.0,
+      "T_molecule_index": 0,
+      "endpoint": 115,
+      "actual": -0.26856327056884766,
+      "cached": -0.26856327056884766,
+      "label": "q"
+    },
+    "124": {
+      "max_abs": 0.0,
+      "T_molecule_index": 0,
+      "endpoint": 124,
+      "actual": -0.6675320863723755,
+      "cached": -0.6675320863723755,
+      "label": "q"
+    },
+    "125": {
+      "max_abs": 0.0,
+      "T_molecule_index": 0,
+      "endpoint": 125,
+      "actual": -0.6675406694412231,
+      "cached": -0.6675406694412231,
+      "label": "q"
+    }
+  },
+  "cache_atom_coordinates": {
+    "293": {
+      "max_abs": 0.0,
+      "T_molecule_index": 0,
+      "graph_atom_id": 0,
+      "global_atom_index": 0,
+      "anchor_token_index": 1,
+      "actual": -1.1300066944386344e-05,
+      "cached": -1.1300066944386344e-05
+    },
+    "454": {
+      "max_abs": 0.0,
+      "T_molecule_index": 0,
+      "graph_atom_id": 0,
+      "global_atom_index": 0,
+      "anchor_token_index": 1,
+      "actual": -4.6478089643642306e-07,
+      "cached": -4.6478089643642306e-07
+    }
+  },
+  "replay": [
+    {
+      "T_begin": 0,
+      "coordinate": 293,
+      "output_bitwise_exact": true,
+      "activation_bitwise_exact": true
+    },
+    {
+      "T_begin": 0,
+      "coordinate": 454,
+      "output_bitwise_exact": true,
+      "activation_bitwise_exact": true
+    },
+    {
+      "T_begin": 4000,
+      "coordinate": 293,
+      "output_bitwise_exact": true,
+      "activation_bitwise_exact": true
+    },
+    {
+      "T_begin": 4000,
+      "coordinate": 454,
+      "output_bitwise_exact": true,
+      "activation_bitwise_exact": true
+    },
+    {
+      "T_begin": 8380,
+      "coordinate": 293,
+      "output_bitwise_exact": true,
+      "activation_bitwise_exact": true
+    },
+    {
+      "T_begin": 8380,
+      "coordinate": 454,
+      "output_bitwise_exact": true,
+      "activation_bitwise_exact": true
+    },
+    {
+      "T_begin": 9996,
+      "coordinate": 293,
+      "output_bitwise_exact": true,
+      "activation_bitwise_exact": true
+    },
+    {
+      "T_begin": 9996,
+      "coordinate": 454,
+      "output_bitwise_exact": true,
+      "activation_bitwise_exact": true
+    }
+  ],
+  "scope": [
+    {
+      "T_begin": 0,
+      "coordinate": 293,
+      "other_coordinates_and_nonanchors_bitwise_exact": true,
+      "real_post_GELU_applied_capture_exact": true
+    },
+    {
+      "T_begin": 0,
+      "coordinate": 454,
+      "other_coordinates_and_nonanchors_bitwise_exact": true,
+      "real_post_GELU_applied_capture_exact": true
+    },
+    {
+      "T_begin": 8380,
+      "coordinate": 293,
+      "other_coordinates_and_nonanchors_bitwise_exact": true,
+      "real_post_GELU_applied_capture_exact": true
+    },
+    {
+      "T_begin": 8380,
+      "coordinate": 454,
+      "other_coordinates_and_nonanchors_bitwise_exact": true,
+      "real_post_GELU_applied_capture_exact": true
+    }
+  ],
+  "float32_delta_max_abs_error": 4.96686079820563e-07,
+  "float32_delta_max_tolerance_ratio": 0.023814956456574107,
+  "float32_delta_L2_max_abs_error": 4.165688878288165e-07,
+  "float64_permutation_L2_raw_sum_max_abs_difference": 1.7763568394002505e-15,
+  "float64_permutation_sorted_multiset_exact": true,
+  "float64_permutation_canonical_L2_exact": true
+}

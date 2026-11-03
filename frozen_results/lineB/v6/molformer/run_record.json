@@ -1,0 +1,423 @@
+{
+  "starts": [
+    {
+      "protocol": "lineB PROTOCOL_v6",
+      "args": {
+        "tsv": "data\\derived\\lineB\\corpus\\H4_used.tsv",
+        "cdir": "data\\derived\\lineB\\concepts",
+        "tag": "H4",
+        "out_root": "lineB\\results_v6",
+        "K": 199,
+        "R": 9,
+        "K_hf": 39,
+        "K_orf": 9,
+        "n_mol": null,
+        "blind": false,
+        "lift_batch": 256,
+        "freeze_dir": null
+      },
+      "confirmatory": true,
+      "started_utc": "2026-10-18T08:04:55Z",
+      "versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.20.0",
+        "tokenizers": "0.23.3",
+        "rdkit": "2026.03.6",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1"
+      },
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "python": "3.11.17",
+      "script_sha256": {
+        "audit_v6.py": "20a3cbf1991cb4c3cb151cfb454ded980b1fb56ae42d360c0f223ef546a4ca51",
+        "gates_v6.py": "2b2c4b1f08fb3dca06b44317e3810478187b8bc13e688c4cd3f9e7329a06ec69",
+        "models.py": "dad8c7ffa4a0f469bf9eceb0c9436cbbf96034722aafef4b47bb7edf8c4e7269",
+        "lift.py": "8fcdcea26f94308b440af178c075d5798f4edfac1fc4455684da9b13e3f76147",
+        "audit.py": "2aac6242a4c649e1dd25008e6fec3fb8861126bbcafb40195ee512f58f0a6a4e",
+        "gates_v2.py": "612f15cde276dd3b13900c7ee66bc6459805de8247318c3f38a614e0eff36320",
+        "check_molformer_alignment.py": "b765e01608690cba73171d420daf8575e4165db0cc58b0247d2d720382679be8",
+        "molformer_checkpoint_facts.py": "c6fdcb5df69217e94c940f8554a7162fc061ab89d76e2634d147dc6123752fc4",
+        "molformer_stereo_check.py": "f9e93ddb6d4aa2d4810f827b48d17d731b9afa78ad53c753b08657f343e408a5",
+        "molformer_determinism_check.py": "7fe01661878e732662480138818c2d2b2d007a96841de2ba9d74c23fac65d6be",
+        "token_visible_concepts.py": "fc6057de4fde764455d0dbeaa1869c563ca3c0f351bb381b8fbb908707cbd566"
+      },
+      "model_file_sha256": {
+        "config.json": "3ef9eaac8c7ca6282fd6256ed038d151bd4ff42a4ff855367e0d7197bbc1c284",
+        "configuration_molformer.py": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+        "modeling_molformer.py": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c",
+        "tokenizer.json": "3df1f2219653c44fac9fa03b7f788b372eb2544ecc176737bb9aca8411b471a5",
+        "tokenizer_config.json": "56f93dc43e4383fcfc6342e09d782ef38d48ef227215a4a92ff8762fd5b8ff3e",
+        "model.safetensors": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6"
+      },
+      "input_sha256": {
+        "tsv": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e",
+        "labels": "4c7f1b79e6ae70506377417f63ab4df620916d7dc25d87f154492f708c3e2635",
+        "concepts": "0feeb77ab4afb8e7237d6e70926f4f79e247006f2bf9b28944caa7143254ce47"
+      },
+      "seeds": {
+        "twins": [
+          4000,
+          4198
+        ],
+        "twins_hf": [
+          6000,
+          6038
+        ],
+        "pretrained_orf": [
+          7000,
+          7008
+        ],
+        "blind_twin": null,
+        "rotations": [
+          200,
+          208
+        ]
+      },
+      "freeze": {
+        "protocol_line": "6c15d9593064dc1684154cb7af14ee21fc08722755732c991bfc85bb68484455  PROTOCOL_v6_MOLFORMER.md  frozen 2026-10-18T08:04:20Z",
+        "manifest_sha256": "f36b67b043e23801e60463e1bd183f69fe7fe7897826a5c2b127064d1ab08cc7",
+        "manifest_entries": 47,
+        "manifest_header": "# frozen 2026-10-18T08:04:20Z"
+      }
+    },
+    {
+      "protocol": "lineB PROTOCOL_v6",
+      "args": {
+        "tsv": "data\\derived\\lineB\\corpus\\H4_used.tsv",
+        "cdir": "data\\derived\\lineB\\concepts",
+        "tag": "H4",
+        "out_root": "lineB\\results_v6",
+        "K": 199,
+        "R": 9,
+        "K_hf": 39,
+        "K_orf": 9,
+        "n_mol": null,
+        "blind": false,
+        "lift_batch": 128,
+        "freeze_dir": null
+      },
+      "confirmatory": true,
+      "started_utc": "2026-10-18T08:32:58Z",
+      "versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.20.0",
+        "tokenizers": "0.23.3",
+        "rdkit": "2026.03.6",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1"
+      },
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "python": "3.11.17",
+      "script_sha256": {
+        "audit_v6.py": "20a3cbf1991cb4c3cb151cfb454ded980b1fb56ae42d360c0f223ef546a4ca51",
+        "gates_v6.py": "2b2c4b1f08fb3dca06b44317e3810478187b8bc13e688c4cd3f9e7329a06ec69",
+        "models.py": "dad8c7ffa4a0f469bf9eceb0c9436cbbf96034722aafef4b47bb7edf8c4e7269",
+        "lift.py": "8fcdcea26f94308b440af178c075d5798f4edfac1fc4455684da9b13e3f76147",
+        "audit.py": "2aac6242a4c649e1dd25008e6fec3fb8861126bbcafb40195ee512f58f0a6a4e",
+        "gates_v2.py": "612f15cde276dd3b13900c7ee66bc6459805de8247318c3f38a614e0eff36320",
+        "check_molformer_alignment.py": "b765e01608690cba73171d420daf8575e4165db0cc58b0247d2d720382679be8",
+        "molformer_checkpoint_facts.py": "c6fdcb5df69217e94c940f8554a7162fc061ab89d76e2634d147dc6123752fc4",
+        "molformer_stereo_check.py": "f9e93ddb6d4aa2d4810f827b48d17d731b9afa78ad53c753b08657f343e408a5",
+        "molformer_determinism_check.py": "7fe01661878e732662480138818c2d2b2d007a96841de2ba9d74c23fac65d6be",
+        "token_visible_concepts.py": "fc6057de4fde764455d0dbeaa1869c563ca3c0f351bb381b8fbb908707cbd566"
+      },
+      "model_file_sha256": {
+        "config.json": "3ef9eaac8c7ca6282fd6256ed038d151bd4ff42a4ff855367e0d7197bbc1c284",
+        "configuration_molformer.py": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+        "modeling_molformer.py": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c",
+        "tokenizer.json": "3df1f2219653c44fac9fa03b7f788b372eb2544ecc176737bb9aca8411b471a5",
+        "tokenizer_config.json": "56f93dc43e4383fcfc6342e09d782ef38d48ef227215a4a92ff8762fd5b8ff3e",
+        "model.safetensors": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6"
+      },
+      "input_sha256": {
+        "tsv": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e",
+        "labels": "4c7f1b79e6ae70506377417f63ab4df620916d7dc25d87f154492f708c3e2635",
+        "concepts": "0feeb77ab4afb8e7237d6e70926f4f79e247006f2bf9b28944caa7143254ce47"
+      },
+      "seeds": {
+        "twins": [
+          4000,
+          4198
+        ],
+        "twins_hf": [
+          6000,
+          6038
+        ],
+        "pretrained_orf": [
+          7000,
+          7008
+        ],
+        "blind_twin": null,
+        "rotations": [
+          200,
+          208
+        ]
+      },
+      "freeze": {
+        "protocol_line": "6c15d9593064dc1684154cb7af14ee21fc08722755732c991bfc85bb68484455  PROTOCOL_v6_MOLFORMER.md  frozen 2026-10-18T08:04:20Z",
+        "manifest_sha256": "f36b67b043e23801e60463e1bd183f69fe7fe7897826a5c2b127064d1ab08cc7",
+        "manifest_entries": 47,
+        "manifest_header": "# frozen 2026-10-18T08:04:20Z"
+      }
+    },
+    {
+      "protocol": "lineB PROTOCOL_v6",
+      "args": {
+        "tsv": "data\\derived\\lineB\\corpus\\H4_used.tsv",
+        "cdir": "data\\derived\\lineB\\concepts",
+        "tag": "H4",
+        "out_root": "lineB\\results_v6",
+        "K": 199,
+        "R": 9,
+        "K_hf": 39,
+        "K_orf": 9,
+        "n_mol": null,
+        "blind": false,
+        "lift_batch": 128,
+        "freeze_dir": null
+      },
+      "confirmatory": true,
+      "started_utc": "2026-10-18T08:40:40Z",
+      "versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.20.0",
+        "tokenizers": "0.23.3",
+        "rdkit": "2026.03.6",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1"
+      },
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "python": "3.11.17",
+      "script_sha256": {
+        "audit_v6.py": "20a3cbf1991cb4c3cb151cfb454ded980b1fb56ae42d360c0f223ef546a4ca51",
+        "gates_v6.py": "2b2c4b1f08fb3dca06b44317e3810478187b8bc13e688c4cd3f9e7329a06ec69",
+        "models.py": "dad8c7ffa4a0f469bf9eceb0c9436cbbf96034722aafef4b47bb7edf8c4e7269",
+        "lift.py": "8fcdcea26f94308b440af178c075d5798f4edfac1fc4455684da9b13e3f76147",
+        "audit.py": "2aac6242a4c649e1dd25008e6fec3fb8861126bbcafb40195ee512f58f0a6a4e",
+        "gates_v2.py": "612f15cde276dd3b13900c7ee66bc6459805de8247318c3f38a614e0eff36320",
+        "check_molformer_alignment.py": "b765e01608690cba73171d420daf8575e4165db0cc58b0247d2d720382679be8",
+        "molformer_checkpoint_facts.py": "c6fdcb5df69217e94c940f8554a7162fc061ab89d76e2634d147dc6123752fc4",
+        "molformer_stereo_check.py": "f9e93ddb6d4aa2d4810f827b48d17d731b9afa78ad53c753b08657f343e408a5",
+        "molformer_determinism_check.py": "7fe01661878e732662480138818c2d2b2d007a96841de2ba9d74c23fac65d6be",
+        "token_visible_concepts.py": "fc6057de4fde764455d0dbeaa1869c563ca3c0f351bb381b8fbb908707cbd566"
+      },
+      "model_file_sha256": {
+        "config.json": "3ef9eaac8c7ca6282fd6256ed038d151bd4ff42a4ff855367e0d7197bbc1c284",
+        "configuration_molformer.py": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+        "modeling_molformer.py": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c",
+        "tokenizer.json": "3df1f2219653c44fac9fa03b7f788b372eb2544ecc176737bb9aca8411b471a5",
+        "tokenizer_config.json": "56f93dc43e4383fcfc6342e09d782ef38d48ef227215a4a92ff8762fd5b8ff3e",
+        "model.safetensors": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6"
+      },
+      "input_sha256": {
+        "tsv": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e",
+        "labels": "4c7f1b79e6ae70506377417f63ab4df620916d7dc25d87f154492f708c3e2635",
+        "concepts": "0feeb77ab4afb8e7237d6e70926f4f79e247006f2bf9b28944caa7143254ce47"
+      },
+      "seeds": {
+        "twins": [
+          4000,
+          4198
+        ],
+        "twins_hf": [
+          6000,
+          6038
+        ],
+        "pretrained_orf": [
+          7000,
+          7008
+        ],
+        "blind_twin": null,
+        "rotations": [
+          200,
+          208
+        ]
+      },
+      "freeze": {
+        "protocol_line": "6c15d9593064dc1684154cb7af14ee21fc08722755732c991bfc85bb68484455  PROTOCOL_v6_MOLFORMER.md  frozen 2026-10-18T08:04:20Z",
+        "manifest_sha256": "f36b67b043e23801e60463e1bd183f69fe7fe7897826a5c2b127064d1ab08cc7",
+        "manifest_entries": 47,
+        "manifest_header": "# frozen 2026-10-18T08:04:20Z"
+      }
+    },
+    {
+      "protocol": "lineB PROTOCOL_v6",
+      "args": {
+        "tsv": "data\\derived\\lineB\\corpus\\H4_used.tsv",
+        "cdir": "data\\derived\\lineB\\concepts",
+        "tag": "H4",
+        "out_root": "lineB\\results_v6",
+        "K": 199,
+        "R": 9,
+        "K_hf": 39,
+        "K_orf": 9,
+        "n_mol": null,
+        "blind": false,
+        "lift_batch": 64,
+        "freeze_dir": null
+      },
+      "confirmatory": true,
+      "started_utc": "2026-10-20T07:19:25Z",
+      "versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.20.0",
+        "tokenizers": "0.23.3",
+        "rdkit": "2026.03.6",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1"
+      },
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "python": "3.11.17",
+      "script_sha256": {
+        "audit_v6.py": "20a3cbf1991cb4c3cb151cfb454ded980b1fb56ae42d360c0f223ef546a4ca51",
+        "gates_v6.py": "2b2c4b1f08fb3dca06b44317e3810478187b8bc13e688c4cd3f9e7329a06ec69",
+        "models.py": "dad8c7ffa4a0f469bf9eceb0c9436cbbf96034722aafef4b47bb7edf8c4e7269",
+        "lift.py": "8fcdcea26f94308b440af178c075d5798f4edfac1fc4455684da9b13e3f76147",
+        "audit.py": "2aac6242a4c649e1dd25008e6fec3fb8861126bbcafb40195ee512f58f0a6a4e",
+        "gates_v2.py": "612f15cde276dd3b13900c7ee66bc6459805de8247318c3f38a614e0eff36320",
+        "check_molformer_alignment.py": "b765e01608690cba73171d420daf8575e4165db0cc58b0247d2d720382679be8",
+        "molformer_checkpoint_facts.py": "c6fdcb5df69217e94c940f8554a7162fc061ab89d76e2634d147dc6123752fc4",
+        "molformer_stereo_check.py": "f9e93ddb6d4aa2d4810f827b48d17d731b9afa78ad53c753b08657f343e408a5",
+        "molformer_determinism_check.py": "7fe01661878e732662480138818c2d2b2d007a96841de2ba9d74c23fac65d6be",
+        "token_visible_concepts.py": "fc6057de4fde764455d0dbeaa1869c563ca3c0f351bb381b8fbb908707cbd566"
+      },
+      "model_file_sha256": {
+        "config.json": "3ef9eaac8c7ca6282fd6256ed038d151bd4ff42a4ff855367e0d7197bbc1c284",
+        "configuration_molformer.py": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+        "modeling_molformer.py": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c",
+        "tokenizer.json": "3df1f2219653c44fac9fa03b7f788b372eb2544ecc176737bb9aca8411b471a5",
+        "tokenizer_config.json": "56f93dc43e4383fcfc6342e09d782ef38d48ef227215a4a92ff8762fd5b8ff3e",
+        "model.safetensors": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6"
+      },
+      "input_sha256": {
+        "tsv": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e",
+        "labels": "4c7f1b79e6ae70506377417f63ab4df620916d7dc25d87f154492f708c3e2635",
+        "concepts": "0feeb77ab4afb8e7237d6e70926f4f79e247006f2bf9b28944caa7143254ce47"
+      },
+      "seeds": {
+        "twins": [
+          4000,
+          4198
+        ],
+        "twins_hf": [
+          6000,
+          6038
+        ],
+        "pretrained_orf": [
+          7000,
+          7008
+        ],
+        "blind_twin": null,
+        "rotations": [
+          200,
+          208
+        ]
+      },
+      "freeze": {
+        "protocol_line": "6c15d9593064dc1684154cb7af14ee21fc08722755732c991bfc85bb68484455  PROTOCOL_v6_MOLFORMER.md  frozen 2026-10-18T08:04:20Z",
+        "manifest_sha256": "f36b67b043e23801e60463e1bd183f69fe7fe7897826a5c2b127064d1ab08cc7",
+        "manifest_entries": 47,
+        "manifest_header": "# frozen 2026-10-18T08:04:20Z"
+      }
+    },
+    {
+      "protocol": "lineB PROTOCOL_v6",
+      "args": {
+        "tsv": "data\\derived\\lineB\\corpus\\H4_used.tsv",
+        "cdir": "data\\derived\\lineB\\concepts",
+        "tag": "H4",
+        "out_root": "lineB\\results_v6",
+        "K": 199,
+        "R": 9,
+        "K_hf": 39,
+        "K_orf": 9,
+        "n_mol": null,
+        "blind": false,
+        "lift_batch": 64,
+        "freeze_dir": null
+      },
+      "confirmatory": true,
+      "started_utc": "2026-10-22T15:41:55Z",
+      "versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.20.0",
+        "tokenizers": "0.23.3",
+        "rdkit": "2026.03.6",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1"
+      },
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "python": "3.11.17",
+      "script_sha256": {
+        "audit_v6.py": "20a3cbf1991cb4c3cb151cfb454ded980b1fb56ae42d360c0f223ef546a4ca51",
+        "gates_v6.py": "2b2c4b1f08fb3dca06b44317e3810478187b8bc13e688c4cd3f9e7329a06ec69",
+        "models.py": "dad8c7ffa4a0f469bf9eceb0c9436cbbf96034722aafef4b47bb7edf8c4e7269",
+        "lift.py": "8fcdcea26f94308b440af178c075d5798f4edfac1fc4455684da9b13e3f76147",
+        "audit.py": "2aac6242a4c649e1dd25008e6fec3fb8861126bbcafb40195ee512f58f0a6a4e",
+        "gates_v2.py": "612f15cde276dd3b13900c7ee66bc6459805de8247318c3f38a614e0eff36320",
+        "check_molformer_alignment.py": "b765e01608690cba73171d420daf8575e4165db0cc58b0247d2d720382679be8",
+        "molformer_checkpoint_facts.py": "c6fdcb5df69217e94c940f8554a7162fc061ab89d76e2634d147dc6123752fc4",
+        "molformer_stereo_check.py": "f9e93ddb6d4aa2d4810f827b48d17d731b9afa78ad53c753b08657f343e408a5",
+        "molformer_determinism_check.py": "7fe01661878e732662480138818c2d2b2d007a96841de2ba9d74c23fac65d6be",
+        "token_visible_concepts.py": "fc6057de4fde764455d0dbeaa1869c563ca3c0f351bb381b8fbb908707cbd566"
+      },
+      "model_file_sha256": {
+        "config.json": "3ef9eaac8c7ca6282fd6256ed038d151bd4ff42a4ff855367e0d7197bbc1c284",
+        "configuration_molformer.py": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+        "modeling_molformer.py": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c",
+        "tokenizer.json": "3df1f2219653c44fac9fa03b7f788b372eb2544ecc176737bb9aca8411b471a5",
+        "tokenizer_config.json": "56f93dc43e4383fcfc6342e09d782ef38d48ef227215a4a92ff8762fd5b8ff3e",
+        "model.safetensors": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6"
+      },
+      "input_sha256": {
+        "tsv": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e",
+        "labels": "4c7f1b79e6ae70506377417f63ab4df620916d7dc25d87f154492f708c3e2635",
+        "concepts": "0feeb77ab4afb8e7237d6e70926f4f79e247006f2bf9b28944caa7143254ce47"
+      },
+      "seeds": {
+        "twins": [
+          4000,
+          4198
+        ],
+        "twins_hf": [
+          6000,
+          6038
+        ],
+        "pretrained_orf": [
+          7000,
+          7008
+        ],
+        "blind_twin": null,
+        "rotations": [
+          200,
+          208
+        ]
+      },
+      "freeze": {
+        "protocol_line": "6c15d9593064dc1684154cb7af14ee21fc08722755732c991bfc85bb68484455  PROTOCOL_v6_MOLFORMER.md  frozen 2026-10-18T08:04:20Z",
+        "manifest_sha256": "f36b67b043e23801e60463e1bd183f69fe7fe7897826a5c2b127064d1ab08cc7",
+        "manifest_entries": 47,
+        "manifest_header": "# frozen 2026-10-18T08:04:20Z"
+      }
+    }
+  ],
+  "completed": {
+    "finished_utc": "2026-10-22T19:34:02Z",
+    "seconds": 13927.172822237015,
+    "networks": 248,
+    "computed_this_start": 64,
+    "K": 199,
+    "R": 9,
+    "K_hf": 39,
+    "K_orf": 9,
+    "blind": false,
+    "N_atoms": 245749,
+    "N_mol": 10000,
+    "peak_gpu_memory_gb": 12.358765125274658
+  }
+}

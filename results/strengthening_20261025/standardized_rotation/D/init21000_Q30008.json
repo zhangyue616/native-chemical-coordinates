@@ -1,0 +1,16 @@
+{
+  "phase": "D_standardize_rotate_and_all928_selection",
+  "network": "init21000",
+  "basis": "Q30008",
+  "start_cpu": 1715.125,
+  "start_wall": 29226.613712,
+  "started_utc": "2026-10-25T17:09:58.930197+00:00",
+  "cpu_seconds": 98.109375,
+  "wall_seconds": 25.32732500000202,
+  "finished_utc": "2026-10-25T17:10:24.258400+00:00",
+  "rss_bytes": 362328064,
+  "peak_rss_bytes": 620023808,
+  "candidates_per_concept": 928,
+  "concepts": 71,
+  "T_scientific_reads": 0
+}

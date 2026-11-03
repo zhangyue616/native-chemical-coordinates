@@ -1,0 +1,24 @@
+{
+ "protocol": "lineB PROTOCOL_v5 \u00a71",
+ "source": "CID-SMILES.gz",
+ "source_sha256": "36b683a59272b196ed7ece140903a249f7df475a06c312c963a5c761f1037f1a",
+ "salt": "lineB-v5:",
+ "keep_below": 150,
+ "lines": 124717116,
+ "candidates": 18868,
+ "removed": {
+  "heavy_atoms": 1011,
+  "used_structure": 48,
+  "radical_or_isotope": 73,
+  "bio_structure": 117,
+  "element": 54,
+  "parse_fail": 6,
+  "used_cid": 8,
+  "duplicate_canonical": 6
+ },
+ "passed_filters": 17545,
+ "dropped_alignment_before_10000": 0,
+ "dropped_alignment_examples": [],
+ "n_H4": 10000,
+ "H4_sha256": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e"
+}

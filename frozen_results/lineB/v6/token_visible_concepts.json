@@ -1,0 +1,1228 @@
+{
+  "rule": "share of positive atoms whose MoLFormer token is a bracket atom, Cl or Br (tokens ChemBERTa-2 does not emit as single tokens); token-visible if share >= threshold",
+  "threshold": 0.8,
+  "molecules": 20000,
+  "atoms": 494367,
+  "share_of_all_atoms": 0.03677025367793562,
+  "n_token_visible": 5,
+  "ids": [
+    23,
+    42,
+    102,
+    136,
+    163
+  ],
+  "concepts": [
+    {
+      "id": 0,
+      "name": "topo:ring3",
+      "n_positive": 3761,
+      "share_on_tokens_absent_in_chemberta": 0.07072587077904813,
+      "token_visible": false
+    },
+    {
+      "id": 1,
+      "name": "topo:ring4",
+      "n_positive": 2814,
+      "share_on_tokens_absent_in_chemberta": 0.07107320540156362,
+      "token_visible": false
+    },
+    {
+      "id": 2,
+      "name": "topo:ring5",
+      "n_positive": 70585,
+      "share_on_tokens_absent_in_chemberta": 0.05754763760005667,
+      "token_visible": false
+    },
+    {
+      "id": 3,
+      "name": "topo:ring6",
+      "n_positive": 223605,
+      "share_on_tokens_absent_in_chemberta": 0.017937881532166095,
+      "token_visible": false
+    },
+    {
+      "id": 4,
+      "name": "topo:ring7",
+      "n_positive": 4972,
+      "share_on_tokens_absent_in_chemberta": 0.039621882542236524,
+      "token_visible": false
+    },
+    {
+      "id": 5,
+      "name": "topo:ring8",
+      "n_positive": 731,
+      "share_on_tokens_absent_in_chemberta": 0.08071135430916553,
+      "token_visible": false
+    },
+    {
+      "id": 6,
+      "name": "topo:ring_ge9",
+      "n_positive": 1995,
+      "share_on_tokens_absent_in_chemberta": 0.10426065162907268,
+      "token_visible": false
+    },
+    {
+      "id": 7,
+      "name": "topo:fused_ring_atom",
+      "n_positive": 23801,
+      "share_on_tokens_absent_in_chemberta": 0.08587874459056342,
+      "token_visible": false
+    },
+    {
+      "id": 8,
+      "name": "topo:spiro_atom",
+      "n_positive": 610,
+      "share_on_tokens_absent_in_chemberta": 0.2540983606557377,
+      "token_visible": false
+    },
+    {
+      "id": 9,
+      "name": "topo:stereocenter",
+      "n_positive": 20201,
+      "share_on_tokens_absent_in_chemberta": 0.403742388990644,
+      "token_visible": false
+    },
+    {
+      "id": 10,
+      "name": "topo:pyridine_type_N",
+      "n_positive": 13480,
+      "share_on_tokens_absent_in_chemberta": 0.0005192878338278931,
+      "token_visible": false
+    },
+    {
+      "id": 11,
+      "name": "topo:pyrrole_type_N",
+      "n_positive": 6195,
+      "share_on_tokens_absent_in_chemberta": 0.2858757062146893,
+      "token_visible": false
+    },
+    {
+      "id": 12,
+      "name": "topo:aromatic_O",
+      "n_positive": 1694,
+      "share_on_tokens_absent_in_chemberta": 0.0017709563164108619,
+      "token_visible": false
+    },
+    {
+      "id": 13,
+      "name": "topo:aromatic_S",
+      "n_positive": 2305,
+      "share_on_tokens_absent_in_chemberta": 0.0008676789587852494,
+      "token_visible": false
+    },
+    {
+      "id": 14,
+      "name": "fg:CarboxylicAcid",
+      "n_positive": 5961,
+      "share_on_tokens_absent_in_chemberta": 0.013085052843482638,
+      "token_visible": false
+    },
+    {
+      "id": 15,
+      "name": "fg:CarboxylicAcid.Aromatic",
+      "n_positive": 1422,
+      "share_on_tokens_absent_in_chemberta": 0.011954992967651195,
+      "token_visible": false
+    },
+    {
+      "id": 16,
+      "name": "fg:CarboxylicAcid.Aliphatic",
+      "n_positive": 4485,
+      "share_on_tokens_absent_in_chemberta": 0.013600891861761426,
+      "token_visible": false
+    },
+    {
+      "id": 17,
+      "name": "fg:CarboxylicAcid.AlphaAmino",
+      "n_positive": 276,
+      "share_on_tokens_absent_in_chemberta": 0.014492753623188406,
+      "token_visible": false
+    },
+    {
+      "id": 18,
+      "name": "fg:Amine.Primary.Aliphatic",
+      "n_positive": 1371,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 19,
+      "name": "fg:Amine.Secondary.Aromatic",
+      "n_positive": 1800,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 20,
+      "name": "fg:Amine.Secondary.Aliphatic",
+      "n_positive": 2215,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 21,
+      "name": "fg:Amine.Tertiary.Aromatic",
+      "n_positive": 1913,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 22,
+      "name": "fg:Amine.Tertiary.Aliphatic",
+      "n_positive": 3085,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 23,
+      "name": "fg:Halogen.Bromine.Aromatic",
+      "n_positive": 1401,
+      "share_on_tokens_absent_in_chemberta": 1.0,
+      "token_visible": true
+    },
+    {
+      "id": 24,
+      "name": "frag:fr_C=O",
+      "n_positive": 38460,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 25,
+      "name": "frag:fr_C=O_noCOO",
+      "n_positive": 34700,
+      "share_on_tokens_absent_in_chemberta": 5.7636887608069166e-05,
+      "token_visible": false
+    },
+    {
+      "id": 26,
+      "name": "frag:fr_Al_OH",
+      "n_positive": 6739,
+      "share_on_tokens_absent_in_chemberta": 0.14349309986644904,
+      "token_visible": false
+    },
+    {
+      "id": 27,
+      "name": "frag:fr_Ar_OH",
+      "n_positive": 1954,
+      "share_on_tokens_absent_in_chemberta": 0.0005117707267144319,
+      "token_visible": false
+    },
+    {
+      "id": 28,
+      "name": "frag:fr_methoxy",
+      "n_positive": 13529,
+      "share_on_tokens_absent_in_chemberta": 0.0053219011013378665,
+      "token_visible": false
+    },
+    {
+      "id": 29,
+      "name": "frag:fr_oxime",
+      "n_positive": 579,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 30,
+      "name": "frag:fr_ester",
+      "n_positive": 13112,
+      "share_on_tokens_absent_in_chemberta": 0.039124466137888954,
+      "token_visible": false
+    },
+    {
+      "id": 31,
+      "name": "frag:fr_Al_COO",
+      "n_positive": 5622,
+      "share_on_tokens_absent_in_chemberta": 0.05407328352899324,
+      "token_visible": false
+    },
+    {
+      "id": 32,
+      "name": "frag:fr_Ar_COO",
+      "n_positive": 1876,
+      "share_on_tokens_absent_in_chemberta": 0.00906183368869936,
+      "token_visible": false
+    },
+    {
+      "id": 33,
+      "name": "frag:fr_COO",
+      "n_positive": 7498,
+      "share_on_tokens_absent_in_chemberta": 0.04281141637770072,
+      "token_visible": false
+    },
+    {
+      "id": 34,
+      "name": "frag:fr_ketone",
+      "n_positive": 6506,
+      "share_on_tokens_absent_in_chemberta": 0.032585305871503226,
+      "token_visible": false
+    },
+    {
+      "id": 35,
+      "name": "frag:fr_ether",
+      "n_positive": 43301,
+      "share_on_tokens_absent_in_chemberta": 0.03447957322001801,
+      "token_visible": false
+    },
+    {
+      "id": 36,
+      "name": "frag:fr_phenol",
+      "n_positive": 5548,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 37,
+      "name": "frag:fr_aldehyde",
+      "n_positive": 699,
+      "share_on_tokens_absent_in_chemberta": 0.032904148783977114,
+      "token_visible": false
+    },
+    {
+      "id": 38,
+      "name": "frag:fr_NH2",
+      "n_positive": 3539,
+      "share_on_tokens_absent_in_chemberta": 0.00734670810963549,
+      "token_visible": false
+    },
+    {
+      "id": 39,
+      "name": "frag:fr_NH1",
+      "n_positive": 15323,
+      "share_on_tokens_absent_in_chemberta": 0.11544736670364811,
+      "token_visible": false
+    },
+    {
+      "id": 40,
+      "name": "frag:fr_NH0",
+      "n_positive": 33156,
+      "share_on_tokens_absent_in_chemberta": 0.03405115212932802,
+      "token_visible": false
+    },
+    {
+      "id": 41,
+      "name": "frag:fr_Ar_N",
+      "n_positive": 19675,
+      "share_on_tokens_absent_in_chemberta": 0.09036848792884371,
+      "token_visible": false
+    },
+    {
+      "id": 42,
+      "name": "frag:fr_Ar_NH",
+      "n_positive": 1669,
+      "share_on_tokens_absent_in_chemberta": 1.0,
+      "token_visible": true
+    },
+    {
+      "id": 43,
+      "name": "frag:fr_aniline",
+      "n_positive": 18646,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 44,
+      "name": "frag:fr_Imine",
+      "n_positive": 2993,
+      "share_on_tokens_absent_in_chemberta": 0.017039759438690277,
+      "token_visible": false
+    },
+    {
+      "id": 45,
+      "name": "frag:fr_nitrile",
+      "n_positive": 2160,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 46,
+      "name": "frag:fr_hdrzine",
+      "n_positive": 793,
+      "share_on_tokens_absent_in_chemberta": 0.007566204287515763,
+      "token_visible": false
+    },
+    {
+      "id": 47,
+      "name": "frag:fr_hdrzone",
+      "n_positive": 1101,
+      "share_on_tokens_absent_in_chemberta": 0.004541326067211626,
+      "token_visible": false
+    },
+    {
+      "id": 48,
+      "name": "frag:fr_N-O",
+      "n_positive": 647,
+      "share_on_tokens_absent_in_chemberta": 0.06027820710973725,
+      "token_visible": false
+    },
+    {
+      "id": 49,
+      "name": "frag:fr_nitro",
+      "n_positive": 1444,
+      "share_on_tokens_absent_in_chemberta": 0.502770083102493,
+      "token_visible": false
+    },
+    {
+      "id": 50,
+      "name": "frag:fr_amide",
+      "n_positive": 38200,
+      "share_on_tokens_absent_in_chemberta": 0.0004973821989528796,
+      "token_visible": false
+    },
+    {
+      "id": 51,
+      "name": "frag:fr_priamide",
+      "n_positive": 1463,
+      "share_on_tokens_absent_in_chemberta": 0.000683526999316473,
+      "token_visible": false
+    },
+    {
+      "id": 52,
+      "name": "frag:fr_amidine",
+      "n_positive": 1531,
+      "share_on_tokens_absent_in_chemberta": 0.015022860875244938,
+      "token_visible": false
+    },
+    {
+      "id": 53,
+      "name": "frag:fr_guanido",
+      "n_positive": 1814,
+      "share_on_tokens_absent_in_chemberta": 0.003858875413450937,
+      "token_visible": false
+    },
+    {
+      "id": 54,
+      "name": "frag:fr_imide",
+      "n_positive": 2862,
+      "share_on_tokens_absent_in_chemberta": 0.002445842068483578,
+      "token_visible": false
+    },
+    {
+      "id": 55,
+      "name": "frag:fr_halogen",
+      "n_positive": 15000,
+      "share_on_tokens_absent_in_chemberta": 0.3816,
+      "token_visible": false
+    },
+    {
+      "id": 56,
+      "name": "frag:fr_alkyl_halide",
+      "n_positive": 8617,
+      "share_on_tokens_absent_in_chemberta": 0.06580016246953696,
+      "token_visible": false
+    },
+    {
+      "id": 57,
+      "name": "frag:fr_sulfide",
+      "n_positive": 4633,
+      "share_on_tokens_absent_in_chemberta": 0.02654867256637168,
+      "token_visible": false
+    },
+    {
+      "id": 58,
+      "name": "frag:fr_C=S",
+      "n_positive": 636,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 59,
+      "name": "frag:fr_sulfone",
+      "n_positive": 2329,
+      "share_on_tokens_absent_in_chemberta": 0.0060111635895234005,
+      "token_visible": false
+    },
+    {
+      "id": 60,
+      "name": "frag:fr_sulfonamd",
+      "n_positive": 7290,
+      "share_on_tokens_absent_in_chemberta": 0.0010973936899862826,
+      "token_visible": false
+    },
+    {
+      "id": 61,
+      "name": "frag:fr_prisulfonamd",
+      "n_positive": 415,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 62,
+      "name": "frag:fr_urea",
+      "n_positive": 3573,
+      "share_on_tokens_absent_in_chemberta": 0.0019591379792891126,
+      "token_visible": false
+    },
+    {
+      "id": 63,
+      "name": "frag:fr_term_acetylene",
+      "n_positive": 264,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 64,
+      "name": "frag:fr_imidazole",
+      "n_positive": 5749,
+      "share_on_tokens_absent_in_chemberta": 0.0572273438858932,
+      "token_visible": false
+    },
+    {
+      "id": 65,
+      "name": "frag:fr_furan",
+      "n_positive": 3802,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 66,
+      "name": "frag:fr_thiophene",
+      "n_positive": 5856,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 67,
+      "name": "frag:fr_thiazole",
+      "n_positive": 4623,
+      "share_on_tokens_absent_in_chemberta": 0.004109885355829548,
+      "token_visible": false
+    },
+    {
+      "id": 68,
+      "name": "frag:fr_oxazole",
+      "n_positive": 1015,
+      "share_on_tokens_absent_in_chemberta": 0.005911330049261084,
+      "token_visible": false
+    },
+    {
+      "id": 69,
+      "name": "frag:fr_pyridine",
+      "n_positive": 21284,
+      "share_on_tokens_absent_in_chemberta": 0.0101014846833302,
+      "token_visible": false
+    },
+    {
+      "id": 70,
+      "name": "frag:fr_piperdine",
+      "n_positive": 13231,
+      "share_on_tokens_absent_in_chemberta": 0.049958430957599574,
+      "token_visible": false
+    },
+    {
+      "id": 71,
+      "name": "frag:fr_piperzine",
+      "n_positive": 6032,
+      "share_on_tokens_absent_in_chemberta": 0.021220159151193633,
+      "token_visible": false
+    },
+    {
+      "id": 72,
+      "name": "frag:fr_morpholine",
+      "n_positive": 3471,
+      "share_on_tokens_absent_in_chemberta": 0.04235090751944685,
+      "token_visible": false
+    },
+    {
+      "id": 73,
+      "name": "frag:fr_lactam",
+      "n_positive": 280,
+      "share_on_tokens_absent_in_chemberta": 0.26071428571428573,
+      "token_visible": false
+    },
+    {
+      "id": 74,
+      "name": "frag:fr_lactone",
+      "n_positive": 686,
+      "share_on_tokens_absent_in_chemberta": 0.0597667638483965,
+      "token_visible": false
+    },
+    {
+      "id": 75,
+      "name": "frag:fr_tetrazole",
+      "n_positive": 690,
+      "share_on_tokens_absent_in_chemberta": 0.04492753623188406,
+      "token_visible": false
+    },
+    {
+      "id": 76,
+      "name": "frag:fr_unbrch_alkane",
+      "n_positive": 9157,
+      "share_on_tokens_absent_in_chemberta": 0.00021841214371519057,
+      "token_visible": false
+    },
+    {
+      "id": 77,
+      "name": "frag:fr_bicyclic",
+      "n_positive": 21178,
+      "share_on_tokens_absent_in_chemberta": 0.07866654074983473,
+      "token_visible": false
+    },
+    {
+      "id": 78,
+      "name": "frag:fr_benzene",
+      "n_positive": 141492,
+      "share_on_tokens_absent_in_chemberta": 0.00028976903287818395,
+      "token_visible": false
+    },
+    {
+      "id": 79,
+      "name": "frag:fr_nitro_arom",
+      "n_positive": 589,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 80,
+      "name": "frag:fr_nitro_arom_nonortho",
+      "n_positive": 325,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 81,
+      "name": "frag:fr_phenol_noOrthoHbond",
+      "n_positive": 858,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 82,
+      "name": "frag:fr_Al_OH_noTert",
+      "n_positive": 2869,
+      "share_on_tokens_absent_in_chemberta": 0.2851167654234925,
+      "token_visible": false
+    },
+    {
+      "id": 83,
+      "name": "frag:fr_para_hydroxylation",
+      "n_positive": 3713,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 84,
+      "name": "frag:fr_allylic_oxid",
+      "n_positive": 3852,
+      "share_on_tokens_absent_in_chemberta": 0.0010384215991692627,
+      "token_visible": false
+    },
+    {
+      "id": 85,
+      "name": "frag:fr_aryl_methyl",
+      "n_positive": 8210,
+      "share_on_tokens_absent_in_chemberta": 0.00438489646772229,
+      "token_visible": false
+    },
+    {
+      "id": 86,
+      "name": "frag:fr_Ndealkylation1",
+      "n_positive": 1527,
+      "share_on_tokens_absent_in_chemberta": 0.03143418467583497,
+      "token_visible": false
+    },
+    {
+      "id": 87,
+      "name": "frag:fr_Ndealkylation2",
+      "n_positive": 2470,
+      "share_on_tokens_absent_in_chemberta": 0.013765182186234818,
+      "token_visible": false
+    },
+    {
+      "id": 88,
+      "name": "frag:fr_alkyl_carbamate",
+      "n_positive": 1750,
+      "share_on_tokens_absent_in_chemberta": 0.052571428571428575,
+      "token_visible": false
+    },
+    {
+      "id": 89,
+      "name": "frag:fr_ketone_Topliss",
+      "n_positive": 1410,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 90,
+      "name": "frag:fr_ArN",
+      "n_positive": 1100,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 91,
+      "name": "ertl:C=CC",
+      "n_positive": 614,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 92,
+      "name": "ertl:CC#N",
+      "n_positive": 650,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 93,
+      "name": "ertl:CC(=O)C",
+      "n_positive": 338,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 94,
+      "name": "ertl:CC(=O)N(C)C",
+      "n_positive": 3924,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 95,
+      "name": "ertl:CC(=O)NC",
+      "n_positive": 630,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 96,
+      "name": "ertl:CC(=O)O",
+      "n_positive": 3645,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 97,
+      "name": "ertl:CC(=O)OC",
+      "n_positive": 381,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 98,
+      "name": "ertl:CC(C)=O",
+      "n_positive": 584,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 99,
+      "name": "ertl:CC(N)=O",
+      "n_positive": 714,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 100,
+      "name": "ertl:CC=C(C)C",
+      "n_positive": 318,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 101,
+      "name": "ertl:CC=CC",
+      "n_positive": 374,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 102,
+      "name": "ertl:CCl",
+      "n_positive": 333,
+      "share_on_tokens_absent_in_chemberta": 1.0,
+      "token_visible": true
+    },
+    {
+      "id": 103,
+      "name": "ertl:CF",
+      "n_positive": 5485,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 104,
+      "name": "ertl:CN",
+      "n_positive": 1241,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 105,
+      "name": "ertl:CN(C(C)=O)C",
+      "n_positive": 297,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 106,
+      "name": "ertl:CN(C)C",
+      "n_positive": 2892,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 107,
+      "name": "ertl:CN(S(C)(=O)=O)C",
+      "n_positive": 300,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 108,
+      "name": "ertl:CN1C(=O)ccC1=O",
+      "n_positive": 260,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 109,
+      "name": "ertl:CN=C(NC)N(C)C",
+      "n_positive": 320,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 110,
+      "name": "ertl:CN=C(NC)NC",
+      "n_positive": 832,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 111,
+      "name": "ertl:CNC",
+      "n_positive": 2031,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 112,
+      "name": "ertl:CNC(=O)C",
+      "n_positive": 306,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 113,
+      "name": "ertl:CNC(=O)N(C)C",
+      "n_positive": 464,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 114,
+      "name": "ertl:CNC(=O)NC",
+      "n_positive": 296,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 115,
+      "name": "ertl:CNC(=O)OC",
+      "n_positive": 744,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 116,
+      "name": "ertl:CNC(C)=O",
+      "n_positive": 4578,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 117,
+      "name": "ertl:CO",
+      "n_positive": 3049,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 118,
+      "name": "ertl:COC",
+      "n_positive": 2880,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 119,
+      "name": "ertl:COC(=O)N(C)C",
+      "n_positive": 968,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 120,
+      "name": "ertl:COC(=O)NC",
+      "n_positive": 328,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 121,
+      "name": "ertl:COC(C)=O",
+      "n_positive": 3219,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 122,
+      "name": "ertl:CS(=O)(=O)C",
+      "n_positive": 294,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 123,
+      "name": "ertl:CS(C)(=O)=O",
+      "n_positive": 318,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 124,
+      "name": "ertl:CSC",
+      "n_positive": 343,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 125,
+      "name": "ertl:Cn1ccnn1",
+      "n_positive": 330,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 126,
+      "name": "ertl:c-n(c)c",
+      "n_positive": 468,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 127,
+      "name": "ertl:c-n(c)nc",
+      "n_positive": 620,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 128,
+      "name": "ertl:c1cOCO1",
+      "n_positive": 405,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 129,
+      "name": "ertl:c=O",
+      "n_positive": 1446,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 130,
+      "name": "ertl:cC#N",
+      "n_positive": 1122,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 131,
+      "name": "ertl:cC(=O)N(C)C",
+      "n_positive": 2625,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 132,
+      "name": "ertl:cC(=O)NC",
+      "n_positive": 3273,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 133,
+      "name": "ertl:cC(=O)OC",
+      "n_positive": 2082,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 134,
+      "name": "ertl:cC(C)=O",
+      "n_positive": 976,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 135,
+      "name": "ertl:cC(N)=O",
+      "n_positive": 474,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 136,
+      "name": "ertl:cCl",
+      "n_positive": 3647,
+      "share_on_tokens_absent_in_chemberta": 1.0,
+      "token_visible": true
+    },
+    {
+      "id": 137,
+      "name": "ertl:cF",
+      "n_positive": 3392,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 138,
+      "name": "ertl:cN",
+      "n_positive": 1001,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 139,
+      "name": "ertl:cN(C)C",
+      "n_positive": 1697,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 140,
+      "name": "ertl:cN(C)C(=O)C",
+      "n_positive": 600,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 141,
+      "name": "ertl:cN(C)S(C)(=O)=O",
+      "n_positive": 276,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 142,
+      "name": "ertl:cN(C)S(c)(=O)=O",
+      "n_positive": 272,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 143,
+      "name": "ertl:cN1C(=O)CCC1=O",
+      "n_positive": 295,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 144,
+      "name": "ertl:cNC",
+      "n_positive": 1212,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 145,
+      "name": "ertl:cNC(=O)C",
+      "n_positive": 363,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 146,
+      "name": "ertl:cNC(=O)N(C)C",
+      "n_positive": 480,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 147,
+      "name": "ertl:cNC(=O)NC",
+      "n_positive": 440,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 148,
+      "name": "ertl:cNC(=O)OC",
+      "n_positive": 280,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 149,
+      "name": "ertl:cNC(C)=O",
+      "n_positive": 3924,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 150,
+      "name": "ertl:cNC(c)=O",
+      "n_positive": 1953,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 151,
+      "name": "ertl:cNS(C)(=O)=O",
+      "n_positive": 292,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 152,
+      "name": "ertl:cNS(c)(=O)=O",
+      "n_positive": 644,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 153,
+      "name": "ertl:cNc",
+      "n_positive": 441,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 154,
+      "name": "ertl:cO",
+      "n_positive": 976,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 155,
+      "name": "ertl:cOC",
+      "n_positive": 6328,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 156,
+      "name": "ertl:cOc",
+      "n_positive": 361,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 157,
+      "name": "ertl:cS(=O)(=O)N(C)C",
+      "n_positive": 1580,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 158,
+      "name": "ertl:cS(=O)(=O)NC",
+      "n_positive": 1028,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 159,
+      "name": "ertl:cS(C)(=O)=O",
+      "n_positive": 555,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 160,
+      "name": "ertl:cS(N)(=O)=O",
+      "n_positive": 268,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 161,
+      "name": "ertl:cSC",
+      "n_positive": 743,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 162,
+      "name": "ertl:c[N+](=O)[O-]",
+      "n_positive": 2052,
+      "share_on_tokens_absent_in_chemberta": 0.6666666666666666,
+      "token_visible": false
+    },
+    {
+      "id": 163,
+      "name": "ertl:c[nH]c",
+      "n_positive": 1178,
+      "share_on_tokens_absent_in_chemberta": 1.0,
+      "token_visible": true
+    },
+    {
+      "id": 164,
+      "name": "ertl:cn(C)c",
+      "n_positive": 1427,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 165,
+      "name": "ertl:cn(c)c",
+      "n_positive": 276,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 166,
+      "name": "ertl:cn[nH]c",
+      "n_positive": 732,
+      "share_on_tokens_absent_in_chemberta": 0.5,
+      "token_visible": false
+    },
+    {
+      "id": 167,
+      "name": "ertl:cnc",
+      "n_positive": 8841,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 168,
+      "name": "ertl:cnn(C)c",
+      "n_positive": 1900,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 169,
+      "name": "ertl:cnn(c)c",
+      "n_positive": 426,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 170,
+      "name": "ertl:cnnc",
+      "n_positive": 1198,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 171,
+      "name": "ertl:cnoc",
+      "n_positive": 946,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    },
+    {
+      "id": 172,
+      "name": "ertl:coc",
+      "n_positive": 1187,
+      "share_on_tokens_absent_in_chemberta": 0.0,
+      "token_visible": false
+    }
+  ]
+}

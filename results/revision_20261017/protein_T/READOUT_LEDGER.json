@@ -1,0 +1,16 @@
+{
+  "CPU_seconds": 1.625,
+  "created_utc": "2026-10-17T14:12:56.836013+00:00",
+  "maximum_CPU_seconds": 3600.0,
+  "model_forwards": 0,
+  "predictions_completed": [
+    "X",
+    "Xj",
+    "S",
+    "Sj",
+    "L",
+    "Lj"
+  ],
+  "real_fits": 0,
+  "status": "COMPLETE_NO_REFIT"
+}

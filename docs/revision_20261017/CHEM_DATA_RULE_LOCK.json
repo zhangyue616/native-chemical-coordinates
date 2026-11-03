@@ -1,0 +1,9 @@
+{
+  "status": "LOCKED",
+  "frozen_utc": "2026-10-17T13:27:37.6727869+00:00",
+  "data_builder_ready_sha256": "7d1ca4d28e21eed15e20fcaaf6913af7b1cee6f8e3356aea9afa813045f54f86",
+  "allowed": "One fixed source build, D labels only; T input construction only",
+  "T_labels_authorized": false,
+  "model_forwards_authorized": false,
+  "historical_implementation_review": "Reviewed source sampling, exact standardization, ID/identity exclusion, unique anchor gate, full-digest ordering, D/T split, frozen 91 definitions, D-only labels and occurrence counts, fixed coverage/panel and T scientific boundary. Reuse 33 synthetic data checks and 47 mapper checks."
+}

@@ -1,0 +1,436 @@
+{
+  "source": "Frozen figure source",
+  "source_panels": [
+    "B",
+    "C"
+  ],
+  "H3_readouts_all_concepts": [
+    {
+      "model": "chemberta_mlm",
+      "layer": "L2",
+      "display_label": "MLM layer 3",
+      "saved_folds": {
+        "J1_fold": 2.393,
+        "J2_fold": 1.547,
+        "joint_pass": true
+      },
+      "source_log_effects": {
+        "J1": {
+          "T_target": 0.8636431006373203,
+          "T_competitors_max": 0.5759596857862753,
+          "T_competitors_median": 0.4842152067585594,
+          "p": 0.025,
+          "E_median_log_ratio": 0.8724190203542823,
+          "win_fraction": 0.7630057803468208,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.8335556543649029,
+          "T_competitors_max": 0.577738254038832,
+          "T_competitors_median": 0.48851341336890475,
+          "p": 0.025,
+          "E_median_log_ratio": 0.43617528731386945,
+          "win_fraction": 0.6242774566473989,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": true,
+        "n_concepts": 173
+      }
+    },
+    {
+      "model": "chemberta_mlm",
+      "layer": "L1",
+      "display_label": "MLM layer 2",
+      "saved_folds": {
+        "J1_fold": 2.608,
+        "J2_fold": 1.393,
+        "joint_pass": true
+      },
+      "source_log_effects": {
+        "J1": {
+          "T_target": 0.8989180376463612,
+          "T_competitors_max": 0.5769971839336001,
+          "T_competitors_median": 0.4856973469690232,
+          "p": 0.025,
+          "E_median_log_ratio": 0.9586550019646429,
+          "win_fraction": 0.8092485549132948,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.7960575070401661,
+          "T_competitors_max": 0.5433526011560693,
+          "T_competitors_median": 0.5012598191788944,
+          "p": 0.025,
+          "E_median_log_ratio": 0.3317755092181133,
+          "win_fraction": 0.5202312138728323,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": true,
+        "n_concepts": 173
+      }
+    },
+    {
+      "model": "chemberta_mlm",
+      "layer": "L0",
+      "display_label": "MLM layer 1",
+      "saved_folds": {
+        "J1_fold": 2.07,
+        "J2_fold": 1.462,
+        "joint_pass": true
+      },
+      "source_log_effects": {
+        "J1": {
+          "T_target": 0.8796502149103306,
+          "T_competitors_max": 0.5749221876389506,
+          "T_competitors_median": 0.4994812509263376,
+          "p": 0.025,
+          "E_median_log_ratio": 0.727743657450069,
+          "win_fraction": 0.7456647398843931,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.7598932859048465,
+          "T_competitors_max": 0.5927078701645175,
+          "T_competitors_median": 0.49473840225285315,
+          "p": 0.025,
+          "E_median_log_ratio": 0.3797504574769204,
+          "win_fraction": 0.5549132947976878,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": true,
+        "n_concepts": 173
+      }
+    },
+    {
+      "model": "chemberta_mtr",
+      "layer": "L2",
+      "display_label": "MTR layer 3",
+      "saved_folds": {
+        "J1_fold": 1.781,
+        "J2_fold": 1.69,
+        "joint_pass": true
+      },
+      "source_log_effects": {
+        "J1": {
+          "T_target": 0.6548095449829554,
+          "T_competitors_max": 0.5807025344597598,
+          "T_competitors_median": 0.48940269749518306,
+          "p": 0.025,
+          "E_median_log_ratio": 0.5773961155059295,
+          "win_fraction": 0.5895953757225434,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.8677930932266193,
+          "T_competitors_max": 0.5769971839336001,
+          "T_competitors_median": 0.4876241292426264,
+          "p": 0.025,
+          "E_median_log_ratio": 0.5245294419245217,
+          "win_fraction": 0.653179190751445,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": true,
+        "n_concepts": 173
+      }
+    },
+    {
+      "model": "chemberta_mtr",
+      "layer": "L1",
+      "display_label": "MTR layer 2",
+      "saved_folds": {
+        "J1_fold": 11.033,
+        "J2_fold": 1.563,
+        "joint_pass": true
+      },
+      "source_log_effects": {
+        "J1": {
+          "T_target": 0.9521268712020158,
+          "T_competitors_max": 0.5753668297020899,
+          "T_competitors_median": 0.4840669927375129,
+          "p": 0.025,
+          "E_median_log_ratio": 2.4009008194525756,
+          "win_fraction": 0.9421965317919075,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.8460056321327998,
+          "T_competitors_max": 0.5421668889876983,
+          "T_competitors_median": 0.5006669630947087,
+          "p": 0.025,
+          "E_median_log_ratio": 0.44685341124508277,
+          "win_fraction": 0.6127167630057804,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": true,
+        "n_concepts": 173
+      }
+    },
+    {
+      "model": "chemberta_mtr",
+      "layer": "L0",
+      "display_label": "MTR layer 1",
+      "saved_folds": {
+        "J1_fold": 2.983,
+        "J2_fold": 1.228,
+        "joint_pass": true
+      },
+      "source_log_effects": {
+        "J1": {
+          "T_target": 0.9777678968430414,
+          "T_competitors_max": 0.5718096931969764,
+          "T_competitors_median": 0.4969616125685489,
+          "p": 0.025,
+          "E_median_log_ratio": 1.092874433594351,
+          "win_fraction": 0.9132947976878613,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.6795612864977028,
+          "T_competitors_max": 0.5944864384170743,
+          "T_competitors_median": 0.4966651845264562,
+          "p": 0.025,
+          "E_median_log_ratio": 0.20501403660367495,
+          "win_fraction": 0.4046242774566474,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": true,
+        "n_concepts": 173
+      }
+    },
+    {
+      "model": "chemeleon",
+      "layer": "main",
+      "display_label": "CheMeleon main",
+      "saved_folds": {
+        "J1_fold": 1.121,
+        "J2_fold": 1.961,
+        "joint_pass": true
+      },
+      "source_log_effects": {
+        "J1": {
+          "T_target": 0.5658811323551207,
+          "T_competitors_max": 0.5606936416184971,
+          "T_competitors_median": 0.4948866162738995,
+          "p": 0.025,
+          "E_median_log_ratio": 0.11463619993193497,
+          "win_fraction": 0.23699421965317918,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.9127019416036758,
+          "T_competitors_max": 0.5340151178301468,
+          "T_competitors_median": 0.4939973321476211,
+          "p": 0.025,
+          "E_median_log_ratio": 0.6736251108387732,
+          "win_fraction": 0.5664739884393064,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": true,
+        "n_concepts": 173
+      }
+    },
+    {
+      "model": "chemeleon",
+      "layer": "mp3",
+      "display_label": "CheMeleon mp3",
+      "saved_folds": {
+        "J1_fold": 0.772,
+        "J2_fold": 1.713,
+        "joint_pass": false
+      },
+      "source_log_effects": {
+        "J1": {
+          "T_target": 0.28701645175633617,
+          "T_competitors_max": 0.603453386690381,
+          "T_competitors_median": 0.5063732029049948,
+          "p": 1.0,
+          "E_median_log_ratio": -0.2592949193988403,
+          "win_fraction": 0.03468208092485549,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.8209574625759598,
+          "T_competitors_max": 0.5617311397658219,
+          "T_competitors_median": 0.4913294797687861,
+          "p": 0.025,
+          "E_median_log_ratio": 0.5381895804105477,
+          "win_fraction": 0.47398843930635837,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": false,
+        "n_concepts": 173
+      }
+    }
+  ],
+  "CheMeleon_main_subsets": [
+    {
+      "subset": "all",
+      "display": {
+        "J1_fold": 1.121,
+        "J2_fold": 1.961,
+        "joint_pass": true
+      },
+      "source": {
+        "J1": {
+          "T_target": 0.5658811323551207,
+          "T_competitors_max": 0.5606936416184971,
+          "T_competitors_median": 0.4948866162738995,
+          "p": 0.025,
+          "E_median_log_ratio": 0.11463619993193497,
+          "win_fraction": 0.23699421965317918,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "J2": {
+          "T_target": 0.9127019416036758,
+          "T_competitors_max": 0.5340151178301468,
+          "T_competitors_median": 0.4939973321476211,
+          "p": 0.025,
+          "E_median_log_ratio": 0.6736251108387732,
+          "win_fraction": 0.5664739884393064,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 173
+        },
+        "joint_pass": true,
+        "n_concepts": 173
+      }
+    },
+    {
+      "subset": "common",
+      "display": {
+        "J1_fold": 1.245,
+        "J2_fold": 1.79,
+        "joint_pass": true
+      },
+      "source": {
+        "J1": {
+          "T_target": 0.6907297830374753,
+          "T_competitors_max": 0.5905325443786983,
+          "T_competitors_median": 0.501775147928994,
+          "p": 0.025,
+          "E_median_log_ratio": 0.21917055914365546,
+          "win_fraction": 0.4,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 65
+        },
+        "J2": {
+          "T_target": 0.9333333333333333,
+          "T_competitors_max": 0.5723865877712031,
+          "T_competitors_median": 0.4903353057199211,
+          "p": 0.025,
+          "E_median_log_ratio": 0.5820150331529135,
+          "win_fraction": 0.6461538461538462,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 65
+        },
+        "joint_pass": true,
+        "n_concepts": 65
+      }
+    },
+    {
+      "subset": "curated",
+      "display": {
+        "J1_fold": 1.28,
+        "J2_fold": 2.181,
+        "joint_pass": true
+      },
+      "source": {
+        "J1": {
+          "T_target": 0.6970977740208508,
+          "T_competitors_max": 0.5666384897154126,
+          "T_competitors_median": 0.49760495914342073,
+          "p": 0.025,
+          "E_median_log_ratio": 0.24707656960614122,
+          "win_fraction": 0.3626373626373626,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 91
+        },
+        "J2": {
+          "T_target": 0.9382924767540153,
+          "T_competitors_max": 0.5579036348267117,
+          "T_competitors_median": 0.49027895181741343,
+          "p": 0.025,
+          "E_median_log_ratio": 0.7796088646024921,
+          "win_fraction": 0.6923076923076923,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 91
+        },
+        "joint_pass": true,
+        "n_concepts": 91
+      }
+    },
+    {
+      "subset": "rare",
+      "display": {
+        "J1_fold": 1.03,
+        "J2_fold": 2.248,
+        "joint_pass": false
+      },
+      "source": {
+        "J1": {
+          "T_target": 0.4907407407407406,
+          "T_competitors_max": 0.5700379867046533,
+          "T_competitors_median": 0.4985754985754986,
+          "p": 0.575,
+          "E_median_log_ratio": 0.029587889874739037,
+          "win_fraction": 0.1388888888888889,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 108
+        },
+        "J2": {
+          "T_target": 0.9002849002849004,
+          "T_competitors_max": 0.5655270655270656,
+          "T_competitors_median": 0.4876543209876543,
+          "p": 0.025,
+          "E_median_log_ratio": 0.8100984110058029,
+          "win_fraction": 0.5185185185185185,
+          "chance_win": 0.025,
+          "n_competitors": 39,
+          "n_concepts": 108
+        },
+        "joint_pass": false,
+        "n_concepts": 108
+      }
+    }
+  ],
+  "new_statistics": false
+}

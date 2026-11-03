@@ -1,0 +1,50 @@
+{
+  "config": {
+    "schema": "chemistry-T-runner/1",
+    "molecules": 10000,
+    "networks": [
+      "trained",
+      "init21000",
+      "init21001",
+      "init21002"
+    ],
+    "bases": [
+      "native",
+      "Q30000",
+      "Q30001",
+      "Q30002",
+      "Q30003",
+      "Q30004",
+      "Q30005",
+      "Q30006",
+      "Q30007",
+      "Q30008"
+    ],
+    "candidates_per_basis": 928,
+    "fixed_winners": "only D_FINAL_WINNERS.npz, no reselection for confirmation",
+    "oracle": "same T/all928 for all4 networks/all10 bases, point estimates only",
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 42017,
+    "bootstrap": "whole-molecule shared integer weights; each replicate recomputes weighted AP,prevalence,medians,means",
+    "native_and_rotated_scores": "float32; rotations use the D saved float64 Q cast to float32",
+    "score_ties": "exact float32 equality",
+    "AP": "float64 distinct-score-threshold AP",
+    "winner_tie_tolerance": 1.7763568394002505e-15,
+    "winner_tie_order": "unit ascending then positive pole first",
+    "quantile": "NumPy linear",
+    "event_gate": {
+      "positive_molecules": 20,
+      "all_negative_molecules": 100,
+      "positive_atoms": 50
+    },
+    "threads": 4,
+    "batch_size": 4,
+    "shared_CPU_ledger": ".\\results\\revision_20261017\\chemistry_D\\CPU_LEDGER.json",
+    "encoder_and_intervention_total_CPU_seconds": 14400,
+    "statistics_D_T_oracle_all_bootstrap_total_CPU_seconds": 43200,
+    "finite_input_and_mechanism": "separate root-owned runner, same shared CPU ledger"
+  },
+  "files": {
+    "synthetic_file_identity": true
+  }
+}

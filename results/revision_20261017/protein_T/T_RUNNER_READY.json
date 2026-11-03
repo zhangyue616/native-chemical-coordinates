@@ -1,0 +1,189 @@
+{
+  "D_block_scales": {
+    "P": 56.22222222222222,
+    "Q": 1.9918795232013622,
+    "X": 0.4464130441696709,
+    "j": 0.061732866058424964
+  },
+  "T_predictions_read": 0,
+  "awaiting": "root T_OUTPUT_GO with ready_sha256, T_model_forward_authorized=true, T_readout_authorized=true, maximum_forwards=2608 and timestamp after READY",
+  "bindings": {
+    "D_acceptance": {
+      "path": "results/revision_20261017/protein_D/D_ARTIFACT_CHECK.json",
+      "sha256": "22592b5832b68d24ed6740d05e3eeb9a1ec2a8c368194dfc16926719ce71bc42"
+    },
+    "D_development": {
+      "path": "results/revision_20261017/protein_D/D_DEVELOPMENT.json",
+      "sha256": "c1711841e4bd30ca25c4488372575b98330b5ed0bfa76af07ce9a434f8ddb71d"
+    },
+    "D_final_models": {
+      "path": "results/revision_20261017/protein_D/FINAL_MODELS.npz",
+      "sha256": "f8dc035e77a0535832127f1946bc202bb0e7d42a0e4443f34144c025a3980d0b"
+    },
+    "D_precision": {
+      "path": "results/revision_20261017/protein_D/PRECISION_PLAN.json",
+      "sha256": "57141a39c0d728450c668b99237eeb5402579f2ac465ba6be9446f09775fb15b"
+    },
+    "accepted_model_identity": {
+      "path": "results/pilot3a/INITIAL_LOCK.json",
+      "sha256": "298f74f2a21566aecc0223c462999b6d3281a8d810ed3b62e64d13f817110b28"
+    },
+    "fresh_acceptance": {
+      "path": "data/revision_20261017/protein_fresh/FRESH_DATA_ACCEPTANCE.json",
+      "sha256": "b94049e9e21baadd61b1984c09232ee50e9638a5202b90a9385958dfe835af80"
+    },
+    "fresh_groups": {
+      "path": "data/revision_20261017/protein_fresh/OLD_SELECTED_FINAL_GROUPS.json",
+      "sha256": "cab235c09db762c431b1b5eee393e2875560618287fe550937b37abdef47e33e"
+    },
+    "fresh_result": {
+      "path": "data/revision_20261017/protein_fresh/FRESH_DATA_RESULT.json",
+      "sha256": "77a0ebd1b41202c1e308ef2143ecd4250b4f754c1802b710b102069685224026"
+    },
+    "fresh_sealed": {
+      "path": "data/revision_20261017/protein_fresh/SEALED_FRESH_CASES.json",
+      "sha256": "2919b0296c28e0b017e90e759c8ddad40222acc6dd832b61ee4e3a77507acbcc"
+    },
+    "frozen_KRR": {
+      "path": "scripts/revision_20261017/protein_krr.py",
+      "sha256": "d8de9b248d1d0d5bb73c9dbef6f61ea9b59c0352b5a80e7b681dfb4d1f6ccfc2"
+    },
+    "frozen_native_runner": {
+      "path": "scripts/pilot3a.py",
+      "sha256": "48d193f5d6a5373d2b81063ce87856ed48ae692d71af88390e31c306938ae6ab"
+    },
+    "model_config": {
+      "path": "assets/esm2_8m/config.json",
+      "sha256": "facb9355e8252149f6f99dff5fd1e32e890c3c655362b261d0c81cd6b5839c85"
+    },
+    "prior_model_acceptance": {
+      "path": "results/pilot3a/ACCEPTANCE.json",
+      "sha256": "1b4386f7c9c17d1f8b272711c20aa094cc676d16fbc16df3023bb7ed8e838e28"
+    },
+    "protocol": {
+      "path": "docs/revision_20261017/PROTEIN_T_CONFIRM_PROTOCOL.md",
+      "sha256": "ce84ae89634d5a66f0443b3d4b930ad8840571f77f0822a2c0416f87d4eb8c47"
+    },
+    "scientific_contract": {
+      "path": "docs/revision_20261017/PROTEIN_KRR_PROTOCOL.md",
+      "sha256": "51f8814c0be5d1803d49726fa488d9044220a3dded04cae908a411dc3c7c0682"
+    },
+    "script": {
+      "path": "scripts/revision_20261017/protein_T_confirm.py",
+      "sha256": "2cb6c4fe5a4ecf225ba5d6678d8985ff68943f32cfc7e340f6cfb690f574aa89"
+    },
+    "selftest": {
+      "path": "results/revision_20261017/protein_T/SYNTHETIC_CHECKS.json",
+      "sha256": "35abb5a679bd5fa71ebd5bc112cc32ec982423db7340a045cd9a3fe7ad596827"
+    },
+    "test": {
+      "path": "scripts/revision_20261017/test_protein_T_confirm.py",
+      "sha256": "4b2cd52e72e9a84576a97a3c4727fcbe7b24f2a3b56d1074b1e817855cf158f9"
+    }
+  },
+  "config": {
+    "HTTP_requests": 0,
+    "cases": 2608,
+    "full_Z_policy": "cache only; only z1246 enters the six frozen D readouts",
+    "inference": "frozen group t-reference helper",
+    "maximum_token_length": 514,
+    "model": "existing accepted ESM2 8M only",
+    "model_CPU_seconds": 3600.0,
+    "multiplicity": "Holm fixed four, alpha .05",
+    "new_fits": 0,
+    "new_units_or_initializations": 0,
+    "observation": "third block (0-based 2) post-GELU at the single masked center token q+1",
+    "pair_order": "sealed canonical q ascending",
+    "partial_confirmation": false,
+    "per_case_forward": "one case, one single center MASK; two different masks for each protein pair",
+    "precision_report": "actual 98.75% t-reference CI half-width <=.01 per endpoint; no guarantee",
+    "primary_family": {
+      "gL": "greater",
+      "gS": "greater",
+      "gX": "greater",
+      "psi": "two-sided"
+    },
+    "readout_CPU_seconds": 3600.0,
+    "readouts": [
+      "X",
+      "Xj",
+      "S",
+      "Sj",
+      "L",
+      "Lj"
+    ],
+    "schema": "protein-long-T/1",
+    "scientific_retries": 0,
+    "selected_pairs": 1304,
+    "sequence_forwards": 2608,
+    "sequence_length": [
+      257,
+      512
+    ],
+    "special_tokens": 2,
+    "threads": 4,
+    "unit": 1246
+  },
+  "created_utc": "2026-10-17T13:54:10.514851+00:00",
+  "maximum_observed_tokens": 514,
+  "model_file_stats": {
+    "config.json": {
+      "accepted_sha256": "facb9355e8252149f6f99dff5fd1e32e890c3c655362b261d0c81cd6b5839c85",
+      "bytes": 775,
+      "mtime_ns": 1792129187556967000
+    },
+    "model.safetensors": {
+      "accepted_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189",
+      "bytes": 31384292,
+      "mtime_ns": 1792129190651659800
+    },
+    "special_tokens_map.json": {
+      "accepted_sha256": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1",
+      "bytes": 125,
+      "mtime_ns": 1792129192920266700
+    },
+    "tokenizer_config.json": {
+      "accepted_sha256": "7e9161ecdb548ec45a41cbc6b24aa4476fdd418461f491c4207baa99419a29ad",
+      "bytes": 95,
+      "mtime_ns": 1792129196675242800
+    },
+    "vocab.txt": {
+      "accepted_sha256": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03",
+      "bytes": 93,
+      "mtime_ns": 1792129198216780300
+    }
+  },
+  "model_identity": {
+    "files_sha256": {
+      "config.json": "facb9355e8252149f6f99dff5fd1e32e890c3c655362b261d0c81cd6b5839c85",
+      "model.safetensors": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189",
+      "special_tokens_map.json": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1",
+      "tokenizer_config.json": "7e9161ecdb548ec45a41cbc6b24aa4476fdd418461f491c4207baa99419a29ad",
+      "vocab.txt": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03"
+    },
+    "path": ".\\assets\\esm2_8m"
+  },
+  "new_model_loads": 0,
+  "new_real_PLM_forwards": 0,
+  "runtime": {
+    "executable": ".\\.venv\\Scripts\\python.exe",
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "threadpoolctl": "3.7.0",
+      "torch": "2.7.1+cpu",
+      "transformers": "4.44.2"
+    },
+    "python": "3.11.15 (main, May 10 2026, 19:31:25) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "selected_D_lambda": {
+    "L": 0.001,
+    "Lj": 0.01,
+    "S": 0.01,
+    "Sj": 0.01,
+    "X": 0.01,
+    "Xj": 0.01
+  },
+  "source_selector_Dgroup_acceptance_repeated": false,
+  "status": "PROTEIN_T_READY_NO_MODEL_OUTPUT"
+}

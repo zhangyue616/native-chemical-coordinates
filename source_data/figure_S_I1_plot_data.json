@@ -1,0 +1,441 @@
+{
+  "source": "results/strengthening_20261025/figures/figure_1_plot_data.json",
+  "source_panels": [
+    "a",
+    "b"
+  ],
+  "lineage": {
+    "analysis": "A1_POST_HOC_IDENTITY_LINEAGE_AND_STRUCTURE_ONLY_SLICE",
+    "rdkit": "2026.03.6",
+    "inputs": {
+      "H4": {
+        "path": "data/derived/lineB/corpus/H4_used.tsv",
+        "sha256": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e",
+        "bytes": 618431,
+        "expected_n": 10000
+      },
+      "D": {
+        "path": "data/revision_20261017/chemistry/development/D.tsv",
+        "sha256": "e40b8a81e2aad73d7a66f4030f2ab12948d4ebea2d63539c5b755fb1e2ac31f2",
+        "bytes": 992575,
+        "expected_n": 5000
+      },
+      "T": {
+        "path": "data/revision_20261017/chemistry/sealed/T.tsv",
+        "sha256": "b1fdc3cb87b03b9cde0bcd8cad5c2a3996c5766296199c1dc77412fc3f6c7494",
+        "bytes": 1987478,
+        "expected_n": 10000
+      }
+    },
+    "post_hoc": true,
+    "not_new_independent_scaffold_split": true,
+    "identity_rule": "saved SMILES -> MolFromSmiles(default sanitize) -> RemoveHs -> canonical isomeric; copies remove stereochemistry; no salt/neutralization/tautomer/largest-fragment operation",
+    "empty_scaffold_policy": "count separately; excluded from all scaffold identity sets/intersections and from slice",
+    "sets": {
+      "H4": {
+        "n_rows": 10000,
+        "parse_failure_rows": 0,
+        "identity_failure_rows": 0,
+        "scaffold_failure_rows": 0,
+        "empty_scaffold_rows": 413,
+        "saved_smiles_equal_common_isomeric_rows": 10000,
+        "identity_counts": {
+          "cid_identity": {
+            "rows_with_identity": 10000,
+            "unique_identities": 10000,
+            "duplicate_excess_rows": 0,
+            "duplicate_groups": 0,
+            "rows_in_duplicate_groups": 0,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "canonical_isomeric_smiles": {
+            "rows_with_identity": 10000,
+            "unique_identities": 10000,
+            "duplicate_excess_rows": 0,
+            "duplicate_groups": 0,
+            "rows_in_duplicate_groups": 0,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "canonical_nonisomeric_smiles": {
+            "rows_with_identity": 10000,
+            "unique_identities": 9999,
+            "duplicate_excess_rows": 1,
+            "duplicate_groups": 1,
+            "rows_in_duplicate_groups": 2,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "murcko_scaffold_smiles": {
+            "rows_with_identity": 9587,
+            "unique_identities": 7219,
+            "duplicate_excess_rows": 2368,
+            "duplicate_groups": 483,
+            "rows_in_duplicate_groups": 2851,
+            "rows_without_identity": 413,
+            "failure_rows": 0
+          }
+        }
+      },
+      "D": {
+        "n_rows": 5000,
+        "parse_failure_rows": 0,
+        "identity_failure_rows": 0,
+        "scaffold_failure_rows": 0,
+        "empty_scaffold_rows": 214,
+        "saved_smiles_equal_common_isomeric_rows": 5000,
+        "identity_counts": {
+          "cid_identity": {
+            "rows_with_identity": 5000,
+            "unique_identities": 5000,
+            "duplicate_excess_rows": 0,
+            "duplicate_groups": 0,
+            "rows_in_duplicate_groups": 0,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "canonical_isomeric_smiles": {
+            "rows_with_identity": 5000,
+            "unique_identities": 5000,
+            "duplicate_excess_rows": 0,
+            "duplicate_groups": 0,
+            "rows_in_duplicate_groups": 0,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "canonical_nonisomeric_smiles": {
+            "rows_with_identity": 5000,
+            "unique_identities": 5000,
+            "duplicate_excess_rows": 0,
+            "duplicate_groups": 0,
+            "rows_in_duplicate_groups": 0,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "murcko_scaffold_smiles": {
+            "rows_with_identity": 4786,
+            "unique_identities": 3794,
+            "duplicate_excess_rows": 992,
+            "duplicate_groups": 212,
+            "rows_in_duplicate_groups": 1204,
+            "rows_without_identity": 214,
+            "failure_rows": 0
+          }
+        }
+      },
+      "T": {
+        "n_rows": 10000,
+        "parse_failure_rows": 0,
+        "identity_failure_rows": 0,
+        "scaffold_failure_rows": 0,
+        "empty_scaffold_rows": 396,
+        "saved_smiles_equal_common_isomeric_rows": 10000,
+        "identity_counts": {
+          "cid_identity": {
+            "rows_with_identity": 10000,
+            "unique_identities": 10000,
+            "duplicate_excess_rows": 0,
+            "duplicate_groups": 0,
+            "rows_in_duplicate_groups": 0,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "canonical_isomeric_smiles": {
+            "rows_with_identity": 10000,
+            "unique_identities": 10000,
+            "duplicate_excess_rows": 0,
+            "duplicate_groups": 0,
+            "rows_in_duplicate_groups": 0,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "canonical_nonisomeric_smiles": {
+            "rows_with_identity": 10000,
+            "unique_identities": 10000,
+            "duplicate_excess_rows": 0,
+            "duplicate_groups": 0,
+            "rows_in_duplicate_groups": 0,
+            "rows_without_identity": 0,
+            "failure_rows": 0
+          },
+          "murcko_scaffold_smiles": {
+            "rows_with_identity": 9604,
+            "unique_identities": 7281,
+            "duplicate_excess_rows": 2323,
+            "duplicate_groups": 484,
+            "rows_in_duplicate_groups": 2807,
+            "rows_without_identity": 396,
+            "failure_rows": 0
+          }
+        }
+      }
+    },
+    "intersections": {
+      "cid_identity": {
+        "H4-D": {
+          "unique_identities": 1,
+          "left_rows": 1,
+          "right_rows": 1
+        },
+        "H4-T": {
+          "unique_identities": 1,
+          "left_rows": 1,
+          "right_rows": 1
+        },
+        "D-T": {
+          "unique_identities": 0,
+          "left_rows": 0,
+          "right_rows": 0
+        },
+        "H4-D-T": {
+          "unique_identities": 0
+        }
+      },
+      "canonical_isomeric_smiles": {
+        "H4-D": {
+          "unique_identities": 3,
+          "left_rows": 3,
+          "right_rows": 3
+        },
+        "H4-T": {
+          "unique_identities": 7,
+          "left_rows": 7,
+          "right_rows": 7
+        },
+        "D-T": {
+          "unique_identities": 0,
+          "left_rows": 0,
+          "right_rows": 0
+        },
+        "H4-D-T": {
+          "unique_identities": 0
+        }
+      },
+      "canonical_nonisomeric_smiles": {
+        "H4-D": {
+          "unique_identities": 3,
+          "left_rows": 3,
+          "right_rows": 3
+        },
+        "H4-T": {
+          "unique_identities": 8,
+          "left_rows": 8,
+          "right_rows": 8
+        },
+        "D-T": {
+          "unique_identities": 1,
+          "left_rows": 1,
+          "right_rows": 1
+        },
+        "H4-D-T": {
+          "unique_identities": 0
+        }
+      },
+      "murcko_scaffold_smiles": {
+        "H4-D": {
+          "unique_identities": 467,
+          "left_rows": 2493,
+          "right_rows": 1414
+        },
+        "H4-T": {
+          "unique_identities": 675,
+          "left_rows": 2824,
+          "right_rows": 2789
+        },
+        "D-T": {
+          "unique_identities": 455,
+          "left_rows": 1392,
+          "right_rows": 2399
+        },
+        "H4-D-T": {
+          "unique_identities": 280
+        }
+      }
+    },
+    "model_forward_calls": 0,
+    "fit_calls": 0,
+    "statistical_resamples": 0,
+    "slice": {
+      "rule": "T row included iff successful nonempty achiral Bemis-Murcko scaffold is absent from D nonempty successful scaffold set; retain all such rows; H4 overlap is not an exclusion",
+      "n_T": 10000,
+      "n_included": 7205,
+      "n_excluded": 2795,
+      "exclusion_reasons": {
+        "nonempty_scaffold_present_D": 2399,
+        "empty_scaffold": 396
+      },
+      "included_unique_scaffolds": 6826,
+      "included_rows_with_H4_nonempty_scaffold": 622
+    },
+    "engineering_checks": {
+      "input_expected_counts_and_ranks": true,
+      "row_order_and_original_identities_preserved": true,
+      "identity_counts_and_intersection_bounds": true,
+      "scaffold_success_empty_failure_partition": true,
+      "mask_dtype_length_and_frozen_rule": true,
+      "saved_mask_readback_equal": true,
+      "no_empty_scaffold_in_sets_or_selected_rows": true
+    },
+    "engineering_status": "PASS"
+  },
+  "mapping": {
+    "schema": "h4-strict-mapping-posthoc-audit/1",
+    "started_utc": "2026-10-25T16:59:06.479365+00:00",
+    "state": "COMPLETE_AUDIT",
+    "input_binding_sha256": "c832fa597a5c98f206b05860ee610a7528743ebf0400521e16836b9876b6322e",
+    "protocol_sha256": "405c10b5274efc631b0dde0d76b1c02547a5882b314ed868917cb4ab1104e030",
+    "planned_model_molecule_denominator": 20000,
+    "models": {
+      "chemberta_mlm": {
+        "family": "chemberta_mlm",
+        "original_molecule_denominator": 10000,
+        "processed_molecules": 10000,
+        "unprocessed_molecules": 0,
+        "category_counts": {
+          "verified_unique_anchor_match": 9835,
+          "ambiguous/unverifiable": 165,
+          "hardfail": 0,
+          "actual_position_disagreement": 0
+        },
+        "reason_subtype_molecule_counts": {
+          "all_graph_indices_have_equal_unique_verified_anchor": 9835,
+          "atom_identity_loss_retained": 4641,
+          "full_offset_defects_retained_anchor_unaffected": 1886,
+          "strict_source_graph_contract_unsupported:original/auxiliary graph edge or stereo mismatch": 114,
+          "strict_anchor_token_source_text_mismatch": 51,
+          "strict_anchor_atom_without_element_anchor": 51,
+          "strict_unique_element_anchor_not_established": 51,
+          "strict_atom_without_anchor": 51
+        },
+        "legacy_parseable_atom_count": 245749,
+        "legacy_position_atom_count": 245749,
+        "strict_graph_atom_count": 242359,
+        "strict_unique_anchor_atom_count": 242296,
+        "definitively_comparable_atom_count": 241267,
+        "actual_position_disagreement_atom_count": 0,
+        "full_offset_blocked_molecule_count": 1937,
+        "element_anchor_blocked_molecule_count": 51,
+        "identity_lossy_molecule_count": 4692,
+        "identity_lossy_atom_count": 8905,
+        "lost_attribute_atom_counts": {
+          "formal_charge": 639,
+          "explicit_hydrogens": 4287,
+          "bracket_boundaries": 6068,
+          "atomic_number": 2984,
+          "stereochemistry": 3907
+        },
+        "full_offset_error_occurrence_counts": {
+          "token_source_text_mismatch": 3330,
+          "atom_without_element_anchor": 63
+        },
+        "full_offset_error_molecule_counts": {
+          "token_source_text_mismatch": 1937,
+          "atom_without_element_anchor": 51
+        },
+        "anchor_error_occurrence_counts": {
+          "atom_without_element_anchor": 63,
+          "token_source_text_mismatch": 63
+        },
+        "anchor_error_molecule_counts": {
+          "atom_without_element_anchor": 51,
+          "token_source_text_mismatch": 51
+        },
+        "lost_syntax_molecule_count": 1888,
+        "encoding_mismatch_molecule_count": 0,
+        "cross_original_tokenizer_encoding_mismatch_count": 0,
+        "exception_molecule_count": 114,
+        "first_actual_disagreement": null,
+        "input_duplicates": {
+          "cid_extra_occurrences": 0,
+          "smiles_extra_occurrences": 0,
+          "whole_row_extra_occurrences": 0,
+          "policy": "all original rows retained"
+        }
+      },
+      "chemberta_mtr": {
+        "family": "chemberta_mtr",
+        "original_molecule_denominator": 10000,
+        "processed_molecules": 10000,
+        "unprocessed_molecules": 0,
+        "category_counts": {
+          "verified_unique_anchor_match": 9835,
+          "ambiguous/unverifiable": 165,
+          "hardfail": 0,
+          "actual_position_disagreement": 0
+        },
+        "reason_subtype_molecule_counts": {
+          "all_graph_indices_have_equal_unique_verified_anchor": 9835,
+          "atom_identity_loss_retained": 4641,
+          "full_offset_defects_retained_anchor_unaffected": 1886,
+          "strict_source_graph_contract_unsupported:original/auxiliary graph edge or stereo mismatch": 114,
+          "strict_anchor_token_source_text_mismatch": 51,
+          "strict_anchor_atom_without_element_anchor": 51,
+          "strict_unique_element_anchor_not_established": 51,
+          "strict_atom_without_anchor": 51
+        },
+        "legacy_parseable_atom_count": 245749,
+        "legacy_position_atom_count": 245749,
+        "strict_graph_atom_count": 242359,
+        "strict_unique_anchor_atom_count": 242296,
+        "definitively_comparable_atom_count": 241267,
+        "actual_position_disagreement_atom_count": 0,
+        "full_offset_blocked_molecule_count": 1937,
+        "element_anchor_blocked_molecule_count": 51,
+        "identity_lossy_molecule_count": 4692,
+        "identity_lossy_atom_count": 8905,
+        "lost_attribute_atom_counts": {
+          "formal_charge": 639,
+          "explicit_hydrogens": 4287,
+          "bracket_boundaries": 6068,
+          "atomic_number": 2984,
+          "stereochemistry": 3907
+        },
+        "full_offset_error_occurrence_counts": {
+          "token_source_text_mismatch": 3330,
+          "atom_without_element_anchor": 63
+        },
+        "full_offset_error_molecule_counts": {
+          "token_source_text_mismatch": 1937,
+          "atom_without_element_anchor": 51
+        },
+        "anchor_error_occurrence_counts": {
+          "atom_without_element_anchor": 63,
+          "token_source_text_mismatch": 63
+        },
+        "anchor_error_molecule_counts": {
+          "atom_without_element_anchor": 51,
+          "token_source_text_mismatch": 51
+        },
+        "lost_syntax_molecule_count": 1888,
+        "encoding_mismatch_molecule_count": 0,
+        "cross_original_tokenizer_encoding_mismatch_count": 0,
+        "exception_molecule_count": 114,
+        "first_actual_disagreement": null,
+        "input_duplicates": {
+          "cid_extra_occurrences": 0,
+          "smiles_extra_occurrences": 0,
+          "whole_row_extra_occurrences": 0,
+          "policy": "all original rows retained"
+        }
+      }
+    },
+    "historical_tokenizer_routing": "both MLM and MTR activation paths call chemberta_tokenizer(), which loads original chemberta_77m_mlm",
+    "interpretation_limit": "element-anchor positions only; identity loss and full-offset defects are retained separately; no old result or scientific population changed",
+    "reused_reference_mapper_engineering_checks": "47/47, not rerun",
+    "adapter_checks": {
+      "checks": 31,
+      "passed": 31
+    },
+    "process_cpu_prior_to_run": 2.921875,
+    "finished_utc": "2026-10-25T16:59:55.587286+00:00",
+    "process_cpu_through_final_summary": 53.375,
+    "processed_model_molecules": 20000,
+    "unprocessed_model_molecules": 0,
+    "classification_sum_checks": {
+      "chemberta_mlm": true,
+      "chemberta_mtr": true
+    }
+  },
+  "new_statistics": false
+}

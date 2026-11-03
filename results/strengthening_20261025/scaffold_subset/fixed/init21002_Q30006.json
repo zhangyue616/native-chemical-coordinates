@@ -1,0 +1,15 @@
+{
+  "prepared_sha256": "0baac728e62fba0bf235f57878b4362930638c1e33243cb026246850adacb619",
+  "sha256": "bfb69484929cc582ed3337c5b7da8c0e9c85f8b4f91b8be25c1923285d09d57e",
+  "network": "init21002",
+  "basis": "Q30006",
+  "cpu_seconds": 97.8125,
+  "memory": {
+    "rss_bytes": 1082646528,
+    "peak_rss_bytes": 1095909376
+  },
+  "replicates": 2000,
+  "fixed_D_winners": true,
+  "score_dtype": "float32",
+  "score_ties": "exact equality"
+}

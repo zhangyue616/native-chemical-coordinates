@@ -1,0 +1,11 @@
+{
+  "seed": 30000,
+  "dtype": "float64",
+  "shape": [
+    464,
+    464
+  ],
+  "sha256": "ae7e63a6f3f78f93f17d77edb236397bb343d08ab38a7d5503b2b5935154e888",
+  "algorithm": "NumPy default_rng PCG64 Gaussian/float64QR; Q columns multiplied by sign(R diagonal); zero sign=+1",
+  "all_networks_share_this_Q": true
+}

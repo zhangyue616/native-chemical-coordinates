@@ -1,0 +1,212 @@
+{
+  "status": "D_SECONDARY_FROZEN_AWAIT_ROOT_D_OUTPUT_LOCK",
+  "created_utc": "2026-10-17T14:38:10.863828+00:00",
+  "binding": {
+    "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+    "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+    "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+  },
+  "D_final_winners_sha256": "04383e2c5ae415c1b9f16675dd9cbc2f86346e829e3ab60721e6a67cb21ad9ca",
+  "panel_ids": [
+    0,
+    14,
+    24,
+    1,
+    15,
+    25,
+    2,
+    16,
+    26,
+    3,
+    18,
+    27
+  ],
+  "readout_tables": [
+    {
+      "concept_id": 0,
+      "candidate": 188,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_0.json",
+      "sha256": "eaf7bc665028122d08188b090e2b3f7f2daf92aa7159434c2659e36510d15fd2",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4850
+      },
+      "observed_bin_count": 3
+    },
+    {
+      "concept_id": 14,
+      "candidate": 266,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_14.json",
+      "sha256": "93545bac6402b6e6b3515566ddf781019a3c5b6cbf9408489c87ccf7bd90a8e0",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4447
+      },
+      "observed_bin_count": 3
+    },
+    {
+      "concept_id": 24,
+      "candidate": 454,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_24.json",
+      "sha256": "1b1118e71708b04c862a010a0960fc401612fdd44f442568108243b6dbcff172",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 6493
+      },
+      "observed_bin_count": 5
+    },
+    {
+      "concept_id": 1,
+      "candidate": 188,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_1.json",
+      "sha256": "65b76701e734d7ddc44ddba829fcf7ddb80d4cbc67f9cc79c3a824eae6d5a04a",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4850
+      },
+      "observed_bin_count": 3
+    },
+    {
+      "concept_id": 15,
+      "candidate": 266,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_15.json",
+      "sha256": "ce94bbe55e4e54e4219ad2df12a0ae2c7b1fb0e43e5a02f5c499a1a48ddf7ce9",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4447
+      },
+      "observed_bin_count": 3
+    },
+    {
+      "concept_id": 25,
+      "candidate": 454,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_25.json",
+      "sha256": "f1cad724bdc5a8760d72118851077d01873a8c4b7811c5411fe1f8530b447fb9",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 6493
+      },
+      "observed_bin_count": 5
+    },
+    {
+      "concept_id": 2,
+      "candidate": 813,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_2.json",
+      "sha256": "eb6a767f93043fbece986a3b468b43d923d604dac54936a2250bd06c1cbfe601",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4797
+      },
+      "observed_bin_count": 4
+    },
+    {
+      "concept_id": 16,
+      "candidate": 99,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_16.json",
+      "sha256": "efac6b77d24edd0c8da2a56c1cb82227ac33b5e37e96a1f06dd9a36d7674d69e",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 3284
+      },
+      "observed_bin_count": 2
+    },
+    {
+      "concept_id": 26,
+      "candidate": 293,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_26.json",
+      "sha256": "4aee8abfd3c2e8cd0dd931df9e9c911adc4fd91ea72a36699e02364685298260",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4656
+      },
+      "observed_bin_count": 4
+    },
+    {
+      "concept_id": 3,
+      "candidate": 121,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_3.json",
+      "sha256": "953815e98abd77dc948d7951d6fe094cdc64e0e00eb27c552c28a9b8ebc43f10",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 6363
+      },
+      "observed_bin_count": 5
+    },
+    {
+      "concept_id": 18,
+      "candidate": 382,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_18.json",
+      "sha256": "51fb92652789a3fcc8eef864da26f4c625bb96251b89ed45297e45799aec1073",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 5609
+      },
+      "observed_bin_count": 5
+    },
+    {
+      "concept_id": 27,
+      "candidate": 388,
+      "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_27.json",
+      "sha256": "e07b2abefc41130614a615701e3b626a9132ce0d956571994728b8d30d3676d9",
+      "category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4791
+      },
+      "observed_bin_count": 4
+    }
+  ],
+  "mechanism_plan": {
+    "file": "results\\revision_20261017\\chemistry_D\\secondary\\MECHANISM_D_PLAN.json",
+    "sha256": "1e6cd407c4d36daa3383bee31d11e5b679fcc7c2ad40fc114c32505238610da0"
+  },
+  "implementation": {
+    "scripts\\revision_20261017\\chem_D_secondary.py": "5b29b4d767650808141eb72e370e1fd5ef29deaee761d923fe3043a52c1915a0",
+    "scripts\\revision_20261017\\chem_input_reference.py": "63167dd1039c75d0b927f3378cc4befde7208d1138e3e82d2f3f7c25d9449a13",
+    "scripts\\revision_20261017\\chem_mechanism_plan.py": "69f5eb876758b7c2a6e00f0132dcf4e149ca456653c5957af7b31ac09d53cf65"
+  },
+  "mechanism_object_statuses": [
+    {
+      "concept_id": 24,
+      "status": "D_MECHANISM_OBJECT_LOCKABLE",
+      "failure_reasons": []
+    },
+    {
+      "concept_id": 25,
+      "status": "D_MECHANISM_OBJECT_LOCKABLE",
+      "failure_reasons": []
+    },
+    {
+      "concept_id": 26,
+      "status": "D_MECHANISM_OBJECT_LOCKABLE",
+      "failure_reasons": []
+    }
+  ],
+  "T_reads": 0,
+  "model_forwards": 0,
+  "T_authorized": false,
+  "CPU_ledger": "results\\revision_20261017\\chemistry_D\\CPU_LEDGER.json"
+}

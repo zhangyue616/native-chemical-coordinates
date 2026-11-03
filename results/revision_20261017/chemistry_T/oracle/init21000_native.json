@@ -1,0 +1,11 @@
+{
+  "binding": {
+    "D_OUTPUT_LOCK_sha256": "cdbd08f688632b49c44d664783431e62aa42755516d40960cfbf3e4e1adb0b86",
+    "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+    "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+    "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+  },
+  "sha256": "a4a676409b8118f9a2e6e65314e2ed27928d57f9c1cbc21974a6e49e0b081246",
+  "candidates_per_concept": 928,
+  "selection_on_T": "descriptive oracle only,never replaces D fixed winners"
+}

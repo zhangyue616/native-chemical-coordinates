@@ -1,0 +1,32 @@
+{
+  "N_req": 1304,
+  "N_req_by_endpoint": {
+    "gL": 1292,
+    "gS": 967,
+    "gX": 1304,
+    "psi": 121
+  },
+  "SD_inflation": 1.25,
+  "authorized_target_within_cap": 1304,
+  "group_SD": {
+    "gL": 0.11510027462146757,
+    "gS": 0.0995557711893116,
+    "gX": 0.11562724471288473,
+    "psi": 0.03515678051392664
+  },
+  "group_count": 421,
+  "group_mean": {
+    "gL": 0.015995763314780052,
+    "gS": 0.019602320294895864,
+    "gX": 0.029172770086983796,
+    "psi": 0.009570449792087916
+  },
+  "half_width": 0.01,
+  "interpretation": "D-selected cross-fit planning only; short-D variance does not guarantee long-T precision or power",
+  "maximum_target": 1536,
+  "pair_count": 432,
+  "requested_target": 1304,
+  "simultaneous_z": 2.4977,
+  "source_gate": "NOT_EVALUATED: 2074 metadata components are only a pre-sequence/label upper bound",
+  "status": "PRECISION_TARGET_FEASIBLE_PENDING_FRESH_SOURCE"
+}

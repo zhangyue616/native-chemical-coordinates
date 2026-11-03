@@ -1,0 +1,189 @@
+{
+  "schema": "chemical-replacement-summary/1",
+  "status": "COMPLETE_SUMMARY_PENDING_ROOT_SCIENTIFIC_ACCEPTANCE",
+  "created_utc": "2026-10-27T09:36:38.580702+00:00",
+  "coordinate_ids": [
+    293,
+    454
+  ],
+  "concept_ids": [
+    26,
+    24
+  ],
+  "condition_names": [
+    "D_mean",
+    "M1",
+    "M2",
+    "M1_delta_perm",
+    "M2_delta_perm"
+  ],
+  "endpoints": [
+    {
+      "coordinate": 293,
+      "q": 115,
+      "role": "primary",
+      "anonymous_normalized_output": true
+    },
+    {
+      "coordinate": 454,
+      "q": 124,
+      "role": "comparison",
+      "anonymous_normalized_output": true
+    },
+    {
+      "coordinate": 454,
+      "q": 125,
+      "role": "secondary",
+      "anonymous_normalized_output": true
+    }
+  ],
+  "denominators": {
+    "j293": {
+      "all_T": {
+        "n_molecules": 10000,
+        "n_atoms": 246722
+      },
+      "any_target_positive_molecule": {
+        "n_molecules": 1271,
+        "n_atoms": 32380
+      },
+      "all_target_negative_molecule": {
+        "n_molecules": 8729,
+        "n_atoms": 214342
+      }
+    },
+    "j454": {
+      "all_T": {
+        "n_molecules": 10000,
+        "n_atoms": 246722
+      },
+      "any_target_positive_molecule": {
+        "n_molecules": 6278,
+        "n_atoms": 165179
+      },
+      "all_target_negative_molecule": {
+        "n_molecules": 3722,
+        "n_atoms": 81543
+      }
+    }
+  },
+  "D_fixed_bin_atom_counts": {
+    "j293": [
+      49983,
+      49272,
+      38,
+      0,
+      147429
+    ],
+    "j454": [
+      48559,
+      49219,
+      50369,
+      49496,
+      49079
+    ]
+  },
+  "D_fixed_bin_note": "Four D linear percentile cutpoints are retained including ties; bins may be highly unequal or empty, never asserted equal-size quintiles",
+  "output_metric_rows": 243,
+  "activation_metric_rows": 120,
+  "bin_chemistry_rows": 910,
+  "figure_data_rows": 393,
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20261028,
+    "generator": "NumPy PCG64",
+    "algorithm": "Each draw samples 10000 global molecule indices with replacement using rng.integers; counts reused for all coordinates, conditions, endpoints and strata",
+    "weight_file": "bootstrap_weights.npy",
+    "weight_dtype": "int16",
+    "weight_shape": [
+      2000,
+      10000
+    ],
+    "matrix_columns": 240,
+    "reduction_dtype": "float64",
+    "interval": "marginal 95% percentile, numpy.quantile method=linear; finite draws retained and undefined draw counts explicit",
+    "unit": "whole molecule including all atoms and conditions",
+    "simultaneous_coverage": false,
+    "p_values_computed": false,
+    "endpoint_search_performed": false,
+    "activation_sst": "Pooled atom SST recomputes corresponding stratum/draw T mean via centered sum-of-squares sufficient statistics; zero SST yields null R2",
+    "point_only": [
+      "absolute_error_p95",
+      "target-atom-label activation groups",
+      "D-fixed activation bins",
+      "bin chemistry",
+      "realized activation displacement dose"
+    ]
+  },
+  "definitions": {
+    "mae": "mean across molecules of abs(condition_q-fresh_baseline_q)",
+    "absolute_error_p95": "linear 95th percentile across molecules of abs(condition_q-fresh_baseline_q)",
+    "signed_mean_shift": "mean across molecules of condition_q-fresh_baseline_q",
+    "mean_normalized199_rms": "mean across molecules of sqrt(mean across all199 normalized output dimensions of squared condition-fresh_baseline shift))",
+    "paired_mae_minus_D_mean": "condition MAE minus D_mean MAE using paired molecule draw; negative favors condition",
+    "paired_mae_minus_own_delta_perm": "M1 or M2 MAE minus its own delta-permuted condition MAE using paired molecule draw; negative favors unpermuted",
+    "molecular_positive": "at least one target-label-positive atom; activation metrics include every atom of included molecules",
+    "molecular_negative": "no target-label-positive atoms; activation metrics include every atom of included molecules",
+    "bin_composition": "all91 overlapping atom-level labels; hit proportions need not sum to one; uncaptured means no dictionary label hits on the atom; empty bin proportions null"
+  },
+  "interpretation_limits": [
+    "New post hoc analysis on previously analyzed T; not preregistered or independent confirmation",
+    "Anonymous normalized outputs have no asserted descriptor identities",
+    "Delta permutation preserves prescribed within-molecule displacement multiset/dose, changes direction and replacement margins; not a strict distribution-matched null",
+    "No equivalence or complete-fidelity claim; marginal intervals are not simultaneous intervals"
+  ],
+  "input_bindings": {
+    "protocol_sha256": "83d1ddb465d977841ec779e4ce0461d3bc06d78371f48a98dd23a69398e5fb27",
+    "resource_lock_sha256": "6a6a36c823b42cc3102cf3031157b3122b5f5f01d84640a9da3467e24d1e56cb",
+    "summarize_program_sha256": "cf2de9cc0f7c658697d56cad96238e89587c2643119d5f6d09d4633890de5f0c",
+    "fit_receipt_path": ".\\results\\chemical_replacement_20261027\\fit\\T_ACTIVATIONS_RECEIPT.json",
+    "fit_receipt_sha256": "e92cd15570f6826a585514a7c1e24724407065f9a6ccbbd78cc307950c886f99",
+    "fit_resource_ledger_path": ".\\results\\chemical_replacement_20261027\\fit\\EXECUTION_all.json",
+    "fit_resource_ledger_sha256": "37b8b27868b661e69413d29265adf8cc9e9fa221403dc759eabdccb49a63dbae",
+    "T_activations_sha256_from_fit_receipt": "728a91a0449447d3fd78dfbab61773f2d0ce1aebbc1de5639b819778b511d345",
+    "D_FIT_sha256_from_fit_receipt": "7bd8e95a02a9e21d881455a49474b2a0a401d2d3832af4f874cbf10f9147ba6d",
+    "forward_receipt_path": ".\\results\\chemical_replacement_20261027\\forward\\FORWARD_RECEIPT.json",
+    "forward_receipt_sha256": "0ee5495436207a63523beb6fa06674ec863e0998f57da4fa98feb188467505d8",
+    "identity_validation": "Reuses completed fit/forward identity receipts; no old-cache or checkpoint rehash/rerun"
+  },
+  "output_sha256": {
+    "bootstrap_weights.npy": "b11bbba644f39be712c36b5376695b2db87c247e8c0d9fb54fd0e5ffdd7d7a8d",
+    "OUTPUT_METRICS.csv": "4172eaca7504a430787149a1d22350d58aa56f96433ca17ae3ddd803fa4ec94e",
+    "ACTIVATION_METRICS.csv": "e9b12d1e1158ea2e8105c84e46c48905169aa0935f199ec0d18ed7bee80d9aee",
+    "BIN_CHEMISTRY.csv": "0ef0759704e6ca9ec7e302c009d40aa55aa25c0fd75ddbacb4ce86d9fb41f723",
+    "figure_data.csv": "c4be1272ecd3a5b00e16d0ff05b93b561dd0afb20ea5f72fe42aa26a952ab5f2"
+  },
+  "resource_ledger": {
+    "fit_wall_seconds": 17.777077700011432,
+    "fit_process_cpu_seconds": 16.609375,
+    "summary_wall_seconds": 1.4219999999913853,
+    "summary_process_cpu_seconds": 1.515625,
+    "combined_wall_seconds": 19.199077700002817,
+    "combined_process_cpu_seconds": 18.125,
+    "combined_peak_rss_bytes": 1332785152,
+    "combined_peak_private_commit_bytes": 731381760,
+    "peak_rss_bytes": 406937600,
+    "private_commit_bytes": 225595392,
+    "peak_private_commit_bytes": 407486464,
+    "thread_limit": 4,
+    "actual_threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 4,
+        "prefix": "libopenblas",
+        "filepath": ".\\.venv_chem\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+        "version": "0.3.23.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Prescott"
+      }
+    ],
+    "source_resource_lock": "fit_and_summary_combined"
+  },
+  "synthetic_hand_calculation": {
+    "status": "PASS_SYNTHETIC_HAND_CALCULATION_PREVIOUSLY_RUN",
+    "opened_T_inputs": false,
+    "evidence": "docs/chemical_replacement_20261027/SUMMARY_IMPLEMENTATION.md",
+    "rerun_during_scientific_summary": false
+  }
+}
