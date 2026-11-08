@@ -1,0 +1,53 @@
+{
+  "status": "ENGINEERING_ADAPTER_READY_AWAIT_ROOT_ONCE_GO",
+  "prepared_utc": "2026-10-17T15:27:34.807499+00:00",
+  "files": {
+    "scripts/revision_20261017/chem_T_oracle_memory_resume.py": {
+      "bytes": 6109,
+      "sha256": "cd4a82a10c0aeddec813c9837e3fbc9051e1f1d6f7e1ae7cdaf3d68bd71d9900"
+    },
+    "results/revision_20261017/chemistry_T/T_RUNNER_READY.json": {
+      "bytes": 3810,
+      "sha256": "6a60a31be8e9951f7d6b0da40ecd45ffd46f313033cbc444cdcf7b60e2bde25b"
+    },
+    "scripts/revision_20261017/chem_T_run.py": {
+      "bytes": 24981,
+      "sha256": "71cecc82a28b287235627951167b8662d6dfebe77d202b0fd5053f1cca4ca31e"
+    }
+  },
+  "original_T_ready_sha256": "6a60a31be8e9951f7d6b0da40ecd45ffd46f313033cbc444cdcf7b60e2bde25b",
+  "original_oracle_dependencies": {
+    "oracle_T": [
+      "T_binding",
+      "concept_ids",
+      "labels",
+      "winners"
+    ],
+    "event_gate": [
+      "concept_ids",
+      "labels",
+      "molecules"
+    ],
+    "require_cache": [
+      "T_binding",
+      "binding",
+      "labels"
+    ]
+  },
+  "drop_only_after_original_load_T_validation": [
+    "rows",
+    "audits"
+  ],
+  "synthetic_syntax_and_required_key_identity": "PASS",
+  "real_T_inputs_or_arrays_read_during_prepare": 0,
+  "model_forward_calls": 0,
+  "selection_or_bootstrap_calls": 0,
+  "science_changes": "none; original oracle_T and its exact kernels/40bases/928candidates remain in use",
+  "limits": {
+    "threads": 4,
+    "RSS_bytes": 2147483648,
+    "shared_statistics_CPU_seconds": 43200
+  },
+  "context": "pure input-memory release after fixed T outputs were seen; not a new science lock",
+  "run_command": ".venv_chem/Scripts/python.exe -B scripts/revision_20261017/chem_T_oracle_memory_resume.py run"
+}

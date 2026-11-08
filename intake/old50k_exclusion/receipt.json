@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "source_path": "<legacy-source-root>\\data\\derived\\lineB\\corpus\\corpus_50k.tsv",
+  "received_at_utc": "2026-10-17T13:00:49.200711+00:00",
+  "output_path": "<temporary-export-dir>\\old_50k_exclusion.tsv",
+  "expected_source_schema": [
+    "rank",
+    "cid",
+    "hash",
+    "smiles"
+  ],
+  "output_schema": [
+    "cid",
+    "canonical_smiles_sha256"
+  ],
+  "authorization_scope": "Completed old 50000 corpus only; cid and persisted canonical smiles fields used for exclusion metadata; no labels, activations, v5, or new reserve accessed.",
+  "hash_contract": "SHA256 of the UTF-8 bytes of the persisted smiles CSV field, with no newline, strip, Unicode normalization, or other transformation; lowercase hexadecimal.",
+  "rdkit_recomputed": false,
+  "original_standardization": {
+    "recorded_rdkit_version": "2026.3.6",
+    "version_source": "<legacy-source-root>/models/ENV_neuroaudit_freeze.txt:74",
+    "implementation_source": "<legacy-source-root>/scripts/lineB/build_corpus.py:29-61",
+    "protocol_source": "<legacy-source-root>/lineB/PROTOCOL_v1.md:32-45",
+    "procedure": "Original RDKit default parse/sanitize; fragment sanitize; retain largest heavy-atom fragment with first tie retained; RemoveHs; original filters; MolToSmiles defaults and roundtrip checks. No new RDKit execution or charge/tautomer standardization in this export."
+  },
+  "source_sha256": "5a4e1e80f9b637489a4176f13288a8a7344fb3a9354e9be6979f4ec3099facf8",
+  "source_sha256_read_passes": 1,
+  "source_file_size_bytes": 3194455,
+  "source_stat_unchanged_during_export": true,
+  "row_count": 50000,
+  "expected_row_count": 50000,
+  "unique_cid_count": 50000,
+  "missing_cid_count": 0,
+  "nondecimal_cid_count": 0,
+  "duplicate_cid_row_count": 0,
+  "missing_smiles_count": 0,
+  "unique_canonical_smiles_sha256_count": 50000,
+  "duplicate_canonical_smiles_sha256_row_count": 0,
+  "malformed_row_count": 0,
+  "completed_at_utc": "2026-10-17T13:00:49.409541+00:00"
+}

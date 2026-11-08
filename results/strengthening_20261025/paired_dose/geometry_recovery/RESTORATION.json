@@ -1,0 +1,283 @@
+{
+  "status": "ALL18_RESTORED_NUMERICALLY",
+  "created_utc": "2026-10-25T17:11:10.823965+00:00",
+  "concept_id": 26,
+  "row": 200,
+  "T_index": 8381,
+  "geometry": [
+    8380,
+    8381,
+    8382,
+    8383
+  ],
+  "parameter_sha256": "6cd3913007da395b08e73fb4a07742faffb308492c0eb0c99766f583a3a3ea3a",
+  "baseline_reused_from_diagnostic": true,
+  "new_evaluations_this_stage": 68,
+  "total_geometry_evaluations": 76,
+  "original_baseline_and_condition_arrays_preserved": true,
+  "restored_arrays_sha256": "f93ad367041cb171e12ccad92f659a4dbd4947ba1fc04abdfa1e8101294cc305",
+  "conditions": [
+    {
+      "scale": 0.25,
+      "unit": 293,
+      "before_response_and_dose": [
+        0.0007717609405517578,
+        0.1218859276295577
+      ],
+      "after_response_and_dose": [
+        0.0007719993591308594,
+        0.12188592769359705
+      ],
+      "before_dose_error": 7.744412289234504e-08,
+      "after_dose_error": 7.738008354907233e-08,
+      "original_tolerance": 1.1251725454186853e-06
+    },
+    {
+      "scale": 0.25,
+      "unit": 162,
+      "before_response_and_dose": [
+        -0.00017070770263671875,
+        0.12188604043476355
+      ],
+      "after_response_and_dose": [
+        -0.00017142295837402344,
+        0.12188604047615682
+      ],
+      "before_dose_error": 3.5361082950657874e-08,
+      "after_dose_error": 3.540247622835224e-08,
+      "original_tolerance": 1.1251725454186853e-06
+    },
+    {
+      "scale": 0.25,
+      "unit": 10,
+      "before_response_and_dose": [
+        -0.00049591064453125,
+        0.12188562864688765
+      ],
+      "after_response_and_dose": [
+        -0.0004968643188476562,
+        0.12188603384034681
+      ],
+      "before_dose_error": 3.7642679294458414e-07,
+      "after_dose_error": 2.8766666215762626e-08,
+      "original_tolerance": 1.1251725454186853e-06
+    },
+    {
+      "scale": 0.25,
+      "unit": 119,
+      "before_response_and_dose": [
+        0.0011463165283203125,
+        0.1218859921747352
+      ],
+      "after_response_and_dose": [
+        0.0011446475982666016,
+        0.12188600627881463
+      ],
+      "before_dose_error": 1.2898945397910033e-08,
+      "after_dose_error": 1.2051340342322803e-09,
+      "original_tolerance": 1.1251725454186853e-06
+    },
+    {
+      "scale": 0.25,
+      "unit": 184,
+      "before_response_and_dose": [
+        0.0023059844970703125,
+        0.121885985754563
+      ],
+      "after_response_and_dose": [
+        0.0023059844970703125,
+        0.12188600796425525
+      ],
+      "before_dose_error": 1.9319117597338398e-08,
+      "after_dose_error": 2.8905746546348254e-09,
+      "original_tolerance": 1.1251725454186853e-06
+    },
+    {
+      "scale": 0.25,
+      "unit": 81,
+      "before_response_and_dose": [
+        -0.0015277862548828125,
+        0.12188600480185055
+      ],
+      "after_response_and_dose": [
+        -0.001528024673461914,
+        0.1218860068589066
+      ],
+      "before_dose_error": 2.7183004458475324e-10,
+      "after_dose_error": 1.7852260086881344e-09,
+      "original_tolerance": 1.1251725454186853e-06
+    },
+    {
+      "scale": 0.5,
+      "unit": 293,
+      "before_response_and_dose": [
+        0.0015368461608886719,
+        0.2437721060102362
+      ],
+      "after_response_and_dose": [
+        0.0015354156494140625,
+        0.24377210608127367
+      ],
+      "before_dose_error": 9.586287499918633e-08,
+      "after_dose_error": 9.59339124806391e-08,
+      "original_tolerance": 1.2503450908373708e-06
+    },
+    {
+      "scale": 0.5,
+      "unit": 162,
+      "before_response_and_dose": [
+        -0.00034427642822265625,
+        0.24377196977118173
+      ],
+      "after_response_and_dose": [
+        -0.00034499168395996094,
+        0.2437719699669117
+      ],
+      "before_dose_error": 4.0376179455403616e-08,
+      "after_dose_error": 4.018044949538613e-08,
+      "original_tolerance": 1.2503450908373708e-06
+    },
+    {
+      "scale": 0.5,
+      "unit": 10,
+      "before_response_and_dose": [
+        -0.0009794235229492188,
+        0.24377125711951542
+      ],
+      "after_response_and_dose": [
+        -0.0009808540344238281,
+        0.24377199967710317
+      ],
+      "before_dose_error": 7.530278457734685e-07,
+      "after_dose_error": 1.0470258021699763e-08,
+      "original_tolerance": 1.2503450908373708e-06
+    },
+    {
+      "scale": 0.5,
+      "unit": 119,
+      "before_response_and_dose": [
+        0.0022745132446289062,
+        0.24377198691073795
+      ],
+      "after_response_and_dose": [
+        0.002274036407470703,
+        0.2437720146310377
+      ],
+      "before_dose_error": 2.323662323666653e-08,
+      "after_dose_error": 4.483676513400425e-09,
+      "original_tolerance": 1.2503450908373708e-06
+    },
+    {
+      "scale": 0.5,
+      "unit": 184,
+      "before_response_and_dose": [
+        0.0046062469482421875,
+        0.2437719714638101
+      ],
+      "after_response_and_dose": [
+        0.004605770111083984,
+        0.2437720135512649
+      ],
+      "before_dose_error": 3.8683551084606194e-08,
+      "after_dose_error": 3.403903714449541e-09,
+      "original_tolerance": 1.2503450908373708e-06
+    },
+    {
+      "scale": 0.5,
+      "unit": 81,
+      "before_response_and_dose": [
+        -0.003086090087890625,
+        0.2437720102021456
+      ],
+      "after_response_and_dose": [
+        -0.003086566925048828,
+        0.24377201382032251
+      ],
+      "before_dose_error": 5.47843992393382e-11,
+      "after_dose_error": 3.672961323974988e-09,
+      "original_tolerance": 1.2503450908373708e-06
+    },
+    {
+      "scale": 1.0,
+      "unit": 293,
+      "before_response_and_dose": [
+        0.0030350685119628906,
+        0.487544197721363
+      ],
+      "after_response_and_dose": [
+        0.0030341148376464844,
+        0.48754396580916043
+      ],
+      "before_dose_error": 1.774266406018299e-07,
+      "after_dose_error": 5.448556195108978e-08,
+      "original_tolerance": 1.500690181674742e-06
+    },
+    {
+      "scale": 1.0,
+      "unit": 162,
+      "before_response_and_dose": [
+        -0.0007047653198242188,
+        0.48754396333282146
+      ],
+      "after_response_and_dose": [
+        -0.0007047653198242188,
+        0.4875439585127831
+      ],
+      "before_dose_error": 5.696190091830644e-08,
+      "after_dose_error": 6.178193928674247e-08,
+      "original_tolerance": 1.500690181674742e-06
+    },
+    {
+      "scale": 1.0,
+      "unit": 10,
+      "before_response_and_dose": [
+        -0.0019021034240722656,
+        0.4875424458065862
+      ],
+      "after_response_and_dose": [
+        -0.0019030570983886719,
+        0.487543999546846
+      ],
+      "before_dose_error": 1.5744881362023122e-06,
+      "after_dose_error": 2.0747876361415507e-08,
+      "original_tolerance": 1.500690181674742e-06
+    },
+    {
+      "scale": 1.0,
+      "unit": 119,
+      "before_response_and_dose": null,
+      "after_response_and_dose": [
+        0.004418849945068359,
+        0.4875440263077379
+      ],
+      "before_dose_error": null,
+      "after_dose_error": 6.013015529937604e-09,
+      "original_tolerance": 1.500690181674742e-06
+    },
+    {
+      "scale": 1.0,
+      "unit": 184,
+      "before_response_and_dose": null,
+      "after_response_and_dose": [
+        0.009189844131469727,
+        0.4875440267339766
+      ],
+      "before_dose_error": null,
+      "after_dose_error": 6.439254240930836e-09,
+      "original_tolerance": 1.500690181674742e-06
+    },
+    {
+      "scale": 1.0,
+      "unit": 81,
+      "before_response_and_dose": null,
+      "after_response_and_dose": [
+        -0.0062847137451171875,
+        0.4875440257853249
+      ],
+      "before_dose_error": null,
+      "after_dose_error": 5.490602528190891e-09,
+      "original_tolerance": 1.500690181674742e-06
+    }
+  ],
+  "controller_authorization": "2026-10-25: restore this one molecule in baseline and all18 conditions, numerical-only amendment, no gate widening or scientific change"
+}

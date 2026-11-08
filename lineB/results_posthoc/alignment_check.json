@@ -1,0 +1,189 @@
+{
+ "pilot": {
+  "molecules": 20000,
+  "aligned_molecules": 20000,
+  "unaligned_molecules": 0,
+  "atoms_checked": 494367,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "atoms_by_symbol": {
+   "C(ar)": 188530,
+   "C": 179632,
+   "O": 49715,
+   "N": 32347,
+   "N(ar)": 19675,
+   "F": 9041,
+   "S": 4702,
+   "Cl": 4129,
+   "S(ar)": 2305,
+   "O(ar)": 1694,
+   "Br": 1591,
+   "Si": 319,
+   "P": 306,
+   "I": 239,
+   "B": 136,
+   "P(ar)": 4,
+   "B(ar)": 2
+  }
+ },
+ "H1": {
+  "molecules": 10000,
+  "aligned_molecules": 10000,
+  "unaligned_molecules": 0,
+  "atoms_checked": 247052,
+  "mismatches": 3,
+  "mismatch_examples": [
+   {
+    "smiles": "COc1nc2cc(CO)cc3c2nc1-c1cccc2c1SN(CC[C@@H]1C[C@@H](CO1)O3)C2=O",
+    "atom": 20,
+    "symbol": "S",
+    "token": "S"
+   },
+   {
+    "smiles": "COc1nc2cc(CO)cc3c2nc1-c1cccc2c1SN(CC[C@@H]1C[C@@H](CO1)O3)C2=O",
+    "atom": 21,
+    "symbol": "N",
+    "token": "N"
+   },
+   {
+    "smiles": "COc1nc2cc(CO)cc3c2nc1-c1cccc2c1SN(CC[C@@H]1C[C@@H](CO1)O3)C2=O",
+    "atom": 30,
+    "symbol": "C",
+    "token": "C"
+   }
+  ],
+  "atoms_by_symbol": {
+   "C(ar)": 92934,
+   "C": 90896,
+   "O": 24863,
+   "N": 16181,
+   "N(ar)": 10031,
+   "F": 4278,
+   "S": 2453,
+   "Cl": 2084,
+   "S(ar)": 1157,
+   "O(ar)": 907,
+   "Br": 778,
+   "P": 161,
+   "I": 145,
+   "Si": 134,
+   "B": 46,
+   "P(ar)": 4
+  }
+ },
+ "H2": {
+  "molecules": 10000,
+  "aligned_molecules": 10000,
+  "unaligned_molecules": 0,
+  "atoms_checked": 246468,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "atoms_by_symbol": {
+   "C(ar)": 93652,
+   "C": 89834,
+   "O": 24623,
+   "N": 16323,
+   "N(ar)": 9883,
+   "F": 4426,
+   "S": 2394,
+   "Cl": 2135,
+   "S(ar)": 1098,
+   "O(ar)": 824,
+   "Br": 769,
+   "Si": 155,
+   "P": 149,
+   "I": 144,
+   "B": 57,
+   "B(ar)": 1,
+   "P(ar)": 1
+  }
+ },
+ "H3": {
+  "molecules": 10000,
+  "aligned_molecules": 10000,
+  "unaligned_molecules": 0,
+  "atoms_checked": 248187,
+  "mismatches": 6,
+  "mismatch_examples": [
+   {
+    "smiles": "CC(C)(Sc1nc(CCN2c3ccc(-c4ccccc4)c2c3F)cs1)C(=O)O",
+    "atom": 10,
+    "symbol": "C",
+    "token": "c"
+   },
+   {
+    "smiles": "CC(C)(Sc1nc(CCN2c3ccc(-c4ccccc4)c2c3F)cs1)C(=O)O",
+    "atom": 11,
+    "symbol": "C",
+    "token": "c"
+   },
+   {
+    "smiles": "CC(C)(Sc1nc(CCN2c3ccc(-c4ccccc4)c2c3F)cs1)C(=O)O",
+    "atom": 12,
+    "symbol": "C",
+    "token": "c"
+   },
+   {
+    "smiles": "CC(C)(Sc1nc(CCN2c3ccc(-c4ccccc4)c2c3F)cs1)C(=O)O",
+    "atom": 13,
+    "symbol": "C",
+    "token": "c"
+   },
+   {
+    "smiles": "CC(C)(Sc1nc(CCN2c3ccc(-c4ccccc4)c2c3F)cs1)C(=O)O",
+    "atom": 20,
+    "symbol": "C",
+    "token": "c"
+   },
+   {
+    "smiles": "CC(C)(Sc1nc(CCN2c3ccc(-c4ccccc4)c2c3F)cs1)C(=O)O",
+    "atom": 21,
+    "symbol": "C",
+    "token": "c"
+   }
+  ],
+  "atoms_by_symbol": {
+   "C(ar)": 93862,
+   "C": 90856,
+   "O": 25056,
+   "N": 16291,
+   "N(ar)": 9911,
+   "F": 4565,
+   "S": 2296,
+   "Cl": 2065,
+   "S(ar)": 1150,
+   "O(ar)": 835,
+   "Br": 804,
+   "P": 168,
+   "I": 135,
+   "Si": 135,
+   "B": 56,
+   "P(ar)": 2
+  }
+ },
+ "H4": {
+  "molecules": 10000,
+  "aligned_molecules": 10000,
+  "unaligned_molecules": 0,
+  "atoms_checked": 245749,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "atoms_by_symbol": {
+   "C(ar)": 93265,
+   "C": 89996,
+   "O": 24720,
+   "N": 16151,
+   "N(ar)": 9664,
+   "F": 4280,
+   "S": 2341,
+   "Cl": 2069,
+   "S(ar)": 1117,
+   "O(ar)": 874,
+   "Br": 740,
+   "P": 174,
+   "Si": 152,
+   "I": 134,
+   "B": 72
+  }
+ }
+}

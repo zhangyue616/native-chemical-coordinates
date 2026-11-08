@@ -1,0 +1,575 @@
+{
+  "joint_all_frozen_C_event_gate": true,
+  "concepts": [
+    {
+      "concept_id": 0,
+      "positive_molecules": 626,
+      "all_negative_molecules": 9374,
+      "positive_atoms": 1990,
+      "max_single_molecule_positive_atom_contribution": 9,
+      "event_gate": true
+    },
+    {
+      "concept_id": 1,
+      "positive_molecules": 352,
+      "all_negative_molecules": 9648,
+      "positive_atoms": 1463,
+      "max_single_molecule_positive_atom_contribution": 11,
+      "event_gate": true
+    },
+    {
+      "concept_id": 2,
+      "positive_molecules": 5345,
+      "all_negative_molecules": 4655,
+      "positive_atoms": 35371,
+      "max_single_molecule_positive_atom_contribution": 25,
+      "event_gate": true
+    },
+    {
+      "concept_id": 3,
+      "positive_molecules": 8907,
+      "all_negative_molecules": 1093,
+      "positive_atoms": 112051,
+      "max_single_molecule_positive_atom_contribution": 48,
+      "event_gate": true
+    },
+    {
+      "concept_id": 4,
+      "positive_molecules": 356,
+      "all_negative_molecules": 9644,
+      "positive_atoms": 2557,
+      "max_single_molecule_positive_atom_contribution": 14,
+      "event_gate": true
+    },
+    {
+      "concept_id": 7,
+      "positive_molecules": 3772,
+      "all_negative_molecules": 6228,
+      "positive_atoms": 11876,
+      "max_single_molecule_positive_atom_contribution": 26,
+      "event_gate": true
+    },
+    {
+      "concept_id": 9,
+      "positive_molecules": 5340,
+      "all_negative_molecules": 4660,
+      "positive_atoms": 10170,
+      "max_single_molecule_positive_atom_contribution": 19,
+      "event_gate": true
+    },
+    {
+      "concept_id": 10,
+      "positive_molecules": 4086,
+      "all_negative_molecules": 5914,
+      "positive_atoms": 6839,
+      "max_single_molecule_positive_atom_contribution": 6,
+      "event_gate": true
+    },
+    {
+      "concept_id": 11,
+      "positive_molecules": 2622,
+      "all_negative_molecules": 7378,
+      "positive_atoms": 3159,
+      "max_single_molecule_positive_atom_contribution": 4,
+      "event_gate": true
+    },
+    {
+      "concept_id": 12,
+      "positive_molecules": 870,
+      "all_negative_molecules": 9130,
+      "positive_atoms": 917,
+      "max_single_molecule_positive_atom_contribution": 3,
+      "event_gate": true
+    },
+    {
+      "concept_id": 13,
+      "positive_molecules": 1054,
+      "all_negative_molecules": 8946,
+      "positive_atoms": 1127,
+      "max_single_molecule_positive_atom_contribution": 4,
+      "event_gate": true
+    },
+    {
+      "concept_id": 14,
+      "positive_molecules": 933,
+      "all_negative_molecules": 9067,
+      "positive_atoms": 2982,
+      "max_single_molecule_positive_atom_contribution": 21,
+      "event_gate": true
+    },
+    {
+      "concept_id": 15,
+      "positive_molecules": 279,
+      "all_negative_molecules": 9721,
+      "positive_atoms": 864,
+      "max_single_molecule_positive_atom_contribution": 9,
+      "event_gate": true
+    },
+    {
+      "concept_id": 16,
+      "positive_molecules": 655,
+      "all_negative_molecules": 9345,
+      "positive_atoms": 2103,
+      "max_single_molecule_positive_atom_contribution": 21,
+      "event_gate": true
+    },
+    {
+      "concept_id": 18,
+      "positive_molecules": 682,
+      "all_negative_molecules": 9318,
+      "positive_atoms": 711,
+      "max_single_molecule_positive_atom_contribution": 4,
+      "event_gate": true
+    },
+    {
+      "concept_id": 19,
+      "positive_molecules": 834,
+      "all_negative_molecules": 9166,
+      "positive_atoms": 914,
+      "max_single_molecule_positive_atom_contribution": 3,
+      "event_gate": true
+    },
+    {
+      "concept_id": 20,
+      "positive_molecules": 1098,
+      "all_negative_molecules": 8902,
+      "positive_atoms": 1150,
+      "max_single_molecule_positive_atom_contribution": 5,
+      "event_gate": true
+    },
+    {
+      "concept_id": 21,
+      "positive_molecules": 861,
+      "all_negative_molecules": 9139,
+      "positive_atoms": 924,
+      "max_single_molecule_positive_atom_contribution": 4,
+      "event_gate": true
+    },
+    {
+      "concept_id": 22,
+      "positive_molecules": 1442,
+      "all_negative_molecules": 8558,
+      "positive_atoms": 1588,
+      "max_single_molecule_positive_atom_contribution": 4,
+      "event_gate": true
+    },
+    {
+      "concept_id": 23,
+      "positive_molecules": 582,
+      "all_negative_molecules": 9418,
+      "positive_atoms": 648,
+      "max_single_molecule_positive_atom_contribution": 4,
+      "event_gate": true
+    },
+    {
+      "concept_id": 24,
+      "positive_molecules": 6278,
+      "all_negative_molecules": 3722,
+      "positive_atoms": 19174,
+      "max_single_molecule_positive_atom_contribution": 24,
+      "event_gate": true
+    },
+    {
+      "concept_id": 25,
+      "positive_molecules": 5857,
+      "all_negative_molecules": 4143,
+      "positive_atoms": 17296,
+      "max_single_molecule_positive_atom_contribution": 18,
+      "event_gate": true
+    },
+    {
+      "concept_id": 26,
+      "positive_molecules": 1271,
+      "all_negative_molecules": 8729,
+      "positive_atoms": 3257,
+      "max_single_molecule_positive_atom_contribution": 14,
+      "event_gate": true
+    },
+    {
+      "concept_id": 27,
+      "positive_molecules": 414,
+      "all_negative_molecules": 9586,
+      "positive_atoms": 980,
+      "max_single_molecule_positive_atom_contribution": 8,
+      "event_gate": true
+    },
+    {
+      "concept_id": 28,
+      "positive_molecules": 1824,
+      "all_negative_molecules": 8176,
+      "positive_atoms": 6926,
+      "max_single_molecule_positive_atom_contribution": 18,
+      "event_gate": true
+    },
+    {
+      "concept_id": 30,
+      "positive_molecules": 1090,
+      "all_negative_molecules": 8910,
+      "positive_atoms": 6618,
+      "max_single_molecule_positive_atom_contribution": 30,
+      "event_gate": true
+    },
+    {
+      "concept_id": 31,
+      "positive_molecules": 632,
+      "all_negative_molecules": 9368,
+      "positive_atoms": 2707,
+      "max_single_molecule_positive_atom_contribution": 28,
+      "event_gate": true
+    },
+    {
+      "concept_id": 32,
+      "positive_molecules": 279,
+      "all_negative_molecules": 9721,
+      "positive_atoms": 1152,
+      "max_single_molecule_positive_atom_contribution": 12,
+      "event_gate": true
+    },
+    {
+      "concept_id": 33,
+      "positive_molecules": 905,
+      "all_negative_molecules": 9095,
+      "positive_atoms": 3859,
+      "max_single_molecule_positive_atom_contribution": 28,
+      "event_gate": true
+    },
+    {
+      "concept_id": 34,
+      "positive_molecules": 729,
+      "all_negative_molecules": 9271,
+      "positive_atoms": 3323,
+      "max_single_molecule_positive_atom_contribution": 16,
+      "event_gate": true
+    },
+    {
+      "concept_id": 35,
+      "positive_molecules": 4644,
+      "all_negative_molecules": 5356,
+      "positive_atoms": 21463,
+      "max_single_molecule_positive_atom_contribution": 39,
+      "event_gate": true
+    },
+    {
+      "concept_id": 36,
+      "positive_molecules": 358,
+      "all_negative_molecules": 9642,
+      "positive_atoms": 2786,
+      "max_single_molecule_positive_atom_contribution": 21,
+      "event_gate": true
+    },
+    {
+      "concept_id": 38,
+      "positive_molecules": 1649,
+      "all_negative_molecules": 8351,
+      "positive_atoms": 1811,
+      "max_single_molecule_positive_atom_contribution": 7,
+      "event_gate": true
+    },
+    {
+      "concept_id": 39,
+      "positive_molecules": 5577,
+      "all_negative_molecules": 4423,
+      "positive_atoms": 7709,
+      "max_single_molecule_positive_atom_contribution": 6,
+      "event_gate": true
+    },
+    {
+      "concept_id": 40,
+      "positive_molecules": 7347,
+      "all_negative_molecules": 2653,
+      "positive_atoms": 16590,
+      "max_single_molecule_positive_atom_contribution": 12,
+      "event_gate": true
+    },
+    {
+      "concept_id": 41,
+      "positive_molecules": 4640,
+      "all_negative_molecules": 5360,
+      "positive_atoms": 9998,
+      "max_single_molecule_positive_atom_contribution": 9,
+      "event_gate": true
+    },
+    {
+      "concept_id": 42,
+      "positive_molecules": 785,
+      "all_negative_molecules": 9215,
+      "positive_atoms": 836,
+      "max_single_molecule_positive_atom_contribution": 3,
+      "event_gate": true
+    },
+    {
+      "concept_id": 43,
+      "positive_molecules": 3534,
+      "all_negative_molecules": 6466,
+      "positive_atoms": 9227,
+      "max_single_molecule_positive_atom_contribution": 14,
+      "event_gate": true
+    },
+    {
+      "concept_id": 44,
+      "positive_molecules": 477,
+      "all_negative_molecules": 9523,
+      "positive_atoms": 1554,
+      "max_single_molecule_positive_atom_contribution": 12,
+      "event_gate": true
+    },
+    {
+      "concept_id": 45,
+      "positive_molecules": 483,
+      "all_negative_molecules": 9517,
+      "positive_atoms": 1068,
+      "max_single_molecule_positive_atom_contribution": 12,
+      "event_gate": true
+    },
+    {
+      "concept_id": 49,
+      "positive_molecules": 334,
+      "all_negative_molecules": 9666,
+      "positive_atoms": 702,
+      "max_single_molecule_positive_atom_contribution": 6,
+      "event_gate": true
+    },
+    {
+      "concept_id": 50,
+      "positive_molecules": 4596,
+      "all_negative_molecules": 5404,
+      "positive_atoms": 18802,
+      "max_single_molecule_positive_atom_contribution": 21,
+      "event_gate": true
+    },
+    {
+      "concept_id": 51,
+      "positive_molecules": 259,
+      "all_negative_molecules": 9741,
+      "positive_atoms": 798,
+      "max_single_molecule_positive_atom_contribution": 6,
+      "event_gate": true
+    },
+    {
+      "concept_id": 52,
+      "positive_molecules": 164,
+      "all_negative_molecules": 9836,
+      "positive_atoms": 689,
+      "max_single_molecule_positive_atom_contribution": 10,
+      "event_gate": true
+    },
+    {
+      "concept_id": 54,
+      "positive_molecules": 226,
+      "all_negative_molecules": 9774,
+      "positive_atoms": 1212,
+      "max_single_molecule_positive_atom_contribution": 10,
+      "event_gate": true
+    },
+    {
+      "concept_id": 55,
+      "positive_molecules": 3726,
+      "all_negative_molecules": 6274,
+      "positive_atoms": 7251,
+      "max_single_molecule_positive_atom_contribution": 20,
+      "event_gate": true
+    },
+    {
+      "concept_id": 56,
+      "positive_molecules": 1017,
+      "all_negative_molecules": 8983,
+      "positive_atoms": 4133,
+      "max_single_molecule_positive_atom_contribution": 27,
+      "event_gate": true
+    },
+    {
+      "concept_id": 57,
+      "positive_molecules": 746,
+      "all_negative_molecules": 9254,
+      "positive_atoms": 2389,
+      "max_single_molecule_positive_atom_contribution": 15,
+      "event_gate": true
+    },
+    {
+      "concept_id": 59,
+      "positive_molecules": 235,
+      "all_negative_molecules": 9765,
+      "positive_atoms": 1220,
+      "max_single_molecule_positive_atom_contribution": 15,
+      "event_gate": true
+    },
+    {
+      "concept_id": 60,
+      "positive_molecules": 689,
+      "all_negative_molecules": 9311,
+      "positive_atoms": 3554,
+      "max_single_molecule_positive_atom_contribution": 14,
+      "event_gate": true
+    },
+    {
+      "concept_id": 62,
+      "positive_molecules": 417,
+      "all_negative_molecules": 9583,
+      "positive_atoms": 1697,
+      "max_single_molecule_positive_atom_contribution": 8,
+      "event_gate": true
+    },
+    {
+      "concept_id": 64,
+      "positive_molecules": 569,
+      "all_negative_molecules": 9431,
+      "positive_atoms": 2948,
+      "max_single_molecule_positive_atom_contribution": 15,
+      "event_gate": true
+    },
+    {
+      "concept_id": 65,
+      "positive_molecules": 395,
+      "all_negative_molecules": 9605,
+      "positive_atoms": 2060,
+      "max_single_molecule_positive_atom_contribution": 15,
+      "event_gate": true
+    },
+    {
+      "concept_id": 66,
+      "positive_molecules": 558,
+      "all_negative_molecules": 9442,
+      "positive_atoms": 2946,
+      "max_single_molecule_positive_atom_contribution": 20,
+      "event_gate": true
+    },
+    {
+      "concept_id": 67,
+      "positive_molecules": 442,
+      "all_negative_molecules": 9558,
+      "positive_atoms": 2240,
+      "max_single_molecule_positive_atom_contribution": 10,
+      "event_gate": true
+    },
+    {
+      "concept_id": 69,
+      "positive_molecules": 1648,
+      "all_negative_molecules": 8352,
+      "positive_atoms": 10914,
+      "max_single_molecule_positive_atom_contribution": 18,
+      "event_gate": true
+    },
+    {
+      "concept_id": 70,
+      "positive_molecules": 1061,
+      "all_negative_molecules": 8939,
+      "positive_atoms": 6694,
+      "max_single_molecule_positive_atom_contribution": 18,
+      "event_gate": true
+    },
+    {
+      "concept_id": 71,
+      "positive_molecules": 539,
+      "all_negative_molecules": 9461,
+      "positive_atoms": 3318,
+      "max_single_molecule_positive_atom_contribution": 12,
+      "event_gate": true
+    },
+    {
+      "concept_id": 72,
+      "positive_molecules": 221,
+      "all_negative_molecules": 9779,
+      "positive_atoms": 1344,
+      "max_single_molecule_positive_atom_contribution": 12,
+      "event_gate": true
+    },
+    {
+      "concept_id": 76,
+      "positive_molecules": 658,
+      "all_negative_molecules": 9342,
+      "positive_atoms": 4907,
+      "max_single_molecule_positive_atom_contribution": 38,
+      "event_gate": true
+    },
+    {
+      "concept_id": 77,
+      "positive_molecules": 3572,
+      "all_negative_molecules": 6428,
+      "positive_atoms": 10565,
+      "max_single_molecule_positive_atom_contribution": 18,
+      "event_gate": true
+    },
+    {
+      "concept_id": 78,
+      "positive_molecules": 7241,
+      "all_negative_molecules": 2759,
+      "positive_atoms": 70030,
+      "max_single_molecule_positive_atom_contribution": 48,
+      "event_gate": true
+    },
+    {
+      "concept_id": 81,
+      "positive_molecules": 352,
+      "all_negative_molecules": 9648,
+      "positive_atoms": 422,
+      "max_single_molecule_positive_atom_contribution": 4,
+      "event_gate": true
+    },
+    {
+      "concept_id": 82,
+      "positive_molecules": 1090,
+      "all_negative_molecules": 8910,
+      "positive_atoms": 1378,
+      "max_single_molecule_positive_atom_contribution": 7,
+      "event_gate": true
+    },
+    {
+      "concept_id": 83,
+      "positive_molecules": 1417,
+      "all_negative_molecules": 8583,
+      "positive_atoms": 1826,
+      "max_single_molecule_positive_atom_contribution": 6,
+      "event_gate": true
+    },
+    {
+      "concept_id": 84,
+      "positive_molecules": 803,
+      "all_negative_molecules": 9197,
+      "positive_atoms": 1779,
+      "max_single_molecule_positive_atom_contribution": 18,
+      "event_gate": true
+    },
+    {
+      "concept_id": 85,
+      "positive_molecules": 3052,
+      "all_negative_molecules": 6948,
+      "positive_atoms": 4160,
+      "max_single_molecule_positive_atom_contribution": 6,
+      "event_gate": true
+    },
+    {
+      "concept_id": 86,
+      "positive_molecules": 674,
+      "all_negative_molecules": 9326,
+      "positive_atoms": 718,
+      "max_single_molecule_positive_atom_contribution": 2,
+      "event_gate": true
+    },
+    {
+      "concept_id": 87,
+      "positive_molecules": 1198,
+      "all_negative_molecules": 8802,
+      "positive_atoms": 1264,
+      "max_single_molecule_positive_atom_contribution": 3,
+      "event_gate": true
+    },
+    {
+      "concept_id": 89,
+      "positive_molecules": 618,
+      "all_negative_molecules": 9382,
+      "positive_atoms": 694,
+      "max_single_molecule_positive_atom_contribution": 4,
+      "event_gate": true
+    },
+    {
+      "concept_id": 90,
+      "positive_molecules": 550,
+      "all_negative_molecules": 9450,
+      "positive_atoms": 594,
+      "max_single_molecule_positive_atom_contribution": 7,
+      "event_gate": true
+    }
+  ],
+  "failed_concept_ids": [],
+  "C_deleted_or_reselected": false
+}

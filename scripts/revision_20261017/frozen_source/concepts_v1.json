@@ -1,0 +1,2003 @@
+[
+ {
+  "name": "topo:ring3",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:ring3",
+  "partition": "readable",
+  "prevalence": 0.007607708443322471,
+  "n_pos": 3761,
+  "id": 0
+ },
+ {
+  "name": "topo:ring4",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:ring4",
+  "partition": "readable",
+  "prevalence": 0.0056921275085108835,
+  "n_pos": 2814,
+  "id": 1
+ },
+ {
+  "name": "topo:ring5",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:ring5",
+  "partition": "readable",
+  "prevalence": 0.14277854306618362,
+  "n_pos": 70585,
+  "id": 2
+ },
+ {
+  "name": "topo:ring6",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:ring6",
+  "partition": "readable",
+  "prevalence": 0.45230567574291974,
+  "n_pos": 223605,
+  "id": 3
+ },
+ {
+  "name": "topo:ring7",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:ring7",
+  "partition": "readable",
+  "prevalence": 0.010057305604945313,
+  "n_pos": 4972,
+  "id": 4
+ },
+ {
+  "name": "topo:ring8",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:ring8",
+  "partition": "readable",
+  "prevalence": 0.00147865856742056,
+  "n_pos": 731,
+  "id": 5
+ },
+ {
+  "name": "topo:ring_ge9",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:ring_ge9",
+  "partition": "readable",
+  "prevalence": 0.0040354635321532386,
+  "n_pos": 1995,
+  "id": 6
+ },
+ {
+  "name": "topo:fused_ring_atom",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:fused_ring_atom",
+  "partition": "readable",
+  "prevalence": 0.048144394751267784,
+  "n_pos": 23801,
+  "id": 7
+ },
+ {
+  "name": "topo:spiro_atom",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:spiro_atom",
+  "partition": "readable",
+  "prevalence": 0.0012339011301320678,
+  "n_pos": 610,
+  "id": 8
+ },
+ {
+  "name": "topo:stereocenter",
+  "source": "topology",
+  "kind": "function",
+  "definition": "topo:stereocenter",
+  "partition": "readable",
+  "prevalence": 0.040862355294750664,
+  "n_pos": 20201,
+  "id": 9
+ },
+ {
+  "name": "topo:pyridine_type_N",
+  "source": "topology",
+  "kind": "smarts",
+  "definition": "[n;X2;H0]",
+  "partition": "readable",
+  "prevalence": 0.027267192187180777,
+  "n_pos": 13480,
+  "id": 10
+ },
+ {
+  "name": "topo:pyrrole_type_N",
+  "source": "topology",
+  "kind": "smarts",
+  "definition": "[n;H1,X3]",
+  "partition": "readable",
+  "prevalence": 0.012531176231423214,
+  "n_pos": 6195,
+  "id": 11
+ },
+ {
+  "name": "topo:aromatic_O",
+  "source": "topology",
+  "kind": "smarts",
+  "definition": "[o]",
+  "partition": "readable",
+  "prevalence": 0.00342660412203889,
+  "n_pos": 1694,
+  "id": 12
+ },
+ {
+  "name": "topo:aromatic_S",
+  "source": "topology",
+  "kind": "smarts",
+  "definition": "[s]",
+  "partition": "readable",
+  "prevalence": 0.00466252804090888,
+  "n_pos": 2305,
+  "id": 13
+ },
+ {
+  "name": "fg:CarboxylicAcid",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "C(=O)[O;H,-]",
+  "partition": "readable",
+  "prevalence": 0.0120578436667496,
+  "n_pos": 5961,
+  "id": 14
+ },
+ {
+  "name": "fg:CarboxylicAcid.Aromatic",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[$(C-!@[a])](=O)([O;H,-])",
+  "partition": "readable",
+  "prevalence": 0.0028764055853242633,
+  "n_pos": 1422,
+  "id": 15
+ },
+ {
+  "name": "fg:CarboxylicAcid.Aliphatic",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[$(C-!@[A;!O])](=O)([O;H,-])",
+  "partition": "readable",
+  "prevalence": 0.00907220748957758,
+  "n_pos": 4485,
+  "id": 16
+ },
+ {
+  "name": "fg:CarboxylicAcid.AlphaAmino",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[$(C-[C;!$(C=[!#6])]-[N;!H0;!$(N-[!#6;!#1]);!$(N-C=[O,N,S])])](=O)([O;H,-])",
+  "partition": "readable",
+  "prevalence": 0.0005582896916663127,
+  "n_pos": 276,
+  "id": 17
+ },
+ {
+  "name": "fg:Amine.Primary.Aliphatic",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[N;H2;D1;$(N-!@C);!$(N-C=[O,N,S])]",
+  "partition": "readable",
+  "prevalence": 0.0027732433596902705,
+  "n_pos": 1371,
+  "id": 18
+ },
+ {
+  "name": "fg:Amine.Secondary.Aromatic",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[N;H1;D2;$(N(-[c])-[#6]);!$(N-C=[O,N,S])]",
+  "partition": "readable",
+  "prevalence": 0.0036410197282585608,
+  "n_pos": 1800,
+  "id": 19
+ },
+ {
+  "name": "fg:Amine.Secondary.Aliphatic",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[N;H1;D2;$(N(-C)-C);!$(N-C=[O,N,S])]",
+  "partition": "readable",
+  "prevalence": 0.004480477054495951,
+  "n_pos": 2215,
+  "id": 20
+ },
+ {
+  "name": "fg:Amine.Tertiary.Aromatic",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[N;H0;D3;$(N(-[c])(-[#6])-[#6]);!$(N-C=[O,N,S])]",
+  "partition": "readable",
+  "prevalence": 0.003869594855643682,
+  "n_pos": 1913,
+  "id": 21
+ },
+ {
+  "name": "fg:Amine.Tertiary.Aliphatic",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[N;H0;D3;$(N(-C)(-C)-C);!$(N-C=[O,N,S])]",
+  "partition": "readable",
+  "prevalence": 0.006240303256487589,
+  "n_pos": 3085,
+  "id": 22
+ },
+ {
+  "name": "fg:Halogen.Bromine.Aromatic",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[Br;$(Br-!@c)]",
+  "partition": "readable",
+  "prevalence": 0.002833927021827913,
+  "n_pos": 1401,
+  "id": 23
+ },
+ {
+  "name": "frag:fr_C=O",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[CX3]=[OX1]",
+  "partition": "readable",
+  "prevalence": 0.07779645486045791,
+  "n_pos": 38460,
+  "id": 24
+ },
+ {
+  "name": "frag:fr_C=O_noCOO",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[C!$(C-[OH])]=O",
+  "partition": "readable",
+  "prevalence": 0.07019076920587337,
+  "n_pos": 34700,
+  "id": 25
+ },
+ {
+  "name": "frag:fr_Al_OH",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[C!$(C=O)]-[OH]",
+  "partition": "readable",
+  "prevalence": 0.013631573304852467,
+  "n_pos": 6739,
+  "id": 26
+ },
+ {
+  "name": "frag:fr_Ar_OH",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "c[OH1]",
+  "partition": "readable",
+  "prevalence": 0.00395252919389846,
+  "n_pos": 1954,
+  "id": 27
+ },
+ {
+  "name": "frag:fr_methoxy",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[OX2](-[#6])-[CH3]",
+  "partition": "readable",
+  "prevalence": 0.02736630883533893,
+  "n_pos": 13529,
+  "id": 28
+ },
+ {
+  "name": "frag:fr_oxime",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[CX3]=[NX2]-[OX2]",
+  "partition": "readable",
+  "prevalence": 0.0011711946792565039,
+  "n_pos": 579,
+  "id": 29
+ },
+ {
+  "name": "frag:fr_ester",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[#6][CX3](=O)[OX2H0][#6]",
+  "partition": "readable",
+  "prevalence": 0.026522805931625697,
+  "n_pos": 13112,
+  "id": 30
+ },
+ {
+  "name": "frag:fr_Al_COO",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C-C(=O)[O;H1,-]",
+  "partition": "readable",
+  "prevalence": 0.01137211828459424,
+  "n_pos": 5622,
+  "id": 31
+ },
+ {
+  "name": "frag:fr_Ar_COO",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "c-C(=O)[O;H1,-]",
+  "partition": "readable",
+  "prevalence": 0.003794751672340589,
+  "n_pos": 1876,
+  "id": 32
+ },
+ {
+  "name": "frag:fr_COO",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[#6]C(=O)[O;H,-1]",
+  "partition": "readable",
+  "prevalence": 0.015166869956934828,
+  "n_pos": 7498,
+  "id": 33
+ },
+ {
+  "name": "frag:fr_ketone",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[#6][CX3](=O)[#6]",
+  "partition": "readable",
+  "prevalence": 0.013160263528916777,
+  "n_pos": 6506,
+  "id": 34
+ },
+ {
+  "name": "frag:fr_ether",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[OD2]([#6])[#6]",
+  "partition": "readable",
+  "prevalence": 0.08758877514073553,
+  "n_pos": 43301,
+  "id": 35
+ },
+ {
+  "name": "frag:fr_phenol",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[OX2H]-c1ccccc1",
+  "partition": "readable",
+  "prevalence": 0.011222431917988053,
+  "n_pos": 5548,
+  "id": 36
+ },
+ {
+  "name": "frag:fr_aldehyde",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[CX3H1](=O)[#6]",
+  "partition": "readable",
+  "prevalence": 0.0014139293278070744,
+  "n_pos": 699,
+  "id": 37
+ },
+ {
+  "name": "frag:fr_NH2",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[NH2,nH2]",
+  "partition": "readable",
+  "prevalence": 0.007158649343503915,
+  "n_pos": 3539,
+  "id": 38
+ },
+ {
+  "name": "frag:fr_NH1",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[NH1,nH1]",
+  "partition": "readable",
+  "prevalence": 0.03099519183116996,
+  "n_pos": 15323,
+  "id": 39
+ },
+ {
+  "name": "frag:fr_NH0",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[NH0,nH0]",
+  "partition": "readable",
+  "prevalence": 0.06706758339452269,
+  "n_pos": 33156,
+  "id": 40
+ },
+ {
+  "name": "frag:fr_Ar_N",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "n",
+  "partition": "readable",
+  "prevalence": 0.03979836841860399,
+  "n_pos": 19675,
+  "id": 41
+ },
+ {
+  "name": "frag:fr_Ar_NH",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[nH]",
+  "partition": "readable",
+  "prevalence": 0.0033760344035908547,
+  "n_pos": 1669,
+  "id": 42
+ },
+ {
+  "name": "frag:fr_aniline",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "c-[NX3;!$(N=*)]",
+  "partition": "readable",
+  "prevalence": 0.03771691880728285,
+  "n_pos": 18646,
+  "id": 43
+ },
+ {
+  "name": "frag:fr_Imine",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[Nv3](=C)-[#6]",
+  "partition": "readable",
+  "prevalence": 0.006054206692598818,
+  "n_pos": 2993,
+  "id": 44
+ },
+ {
+  "name": "frag:fr_nitrile",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[NX1]#[CX2]",
+  "partition": "readable",
+  "prevalence": 0.004369223673910273,
+  "n_pos": 2160,
+  "id": 45
+ },
+ {
+  "name": "frag:fr_hdrzine",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[NX3]-[NX3]",
+  "partition": "readable",
+  "prevalence": 0.0016040714691716881,
+  "n_pos": 793,
+  "id": 46
+ },
+ {
+  "name": "frag:fr_hdrzone",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C=N-[NX3]",
+  "partition": "readable",
+  "prevalence": 0.0022270904004514864,
+  "n_pos": 1101,
+  "id": 47
+ },
+ {
+  "name": "frag:fr_N-O",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[N!$(N=O)](-O)-C",
+  "partition": "readable",
+  "prevalence": 0.0013087443134351606,
+  "n_pos": 647,
+  "id": 48
+ },
+ {
+  "name": "frag:fr_nitro",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$([NX3](=O)=O),$([NX3+](=O)[O-])][!#8]",
+  "partition": "readable",
+  "prevalence": 0.0029209069375585343,
+  "n_pos": 1444,
+  "id": 49
+ },
+ {
+  "name": "frag:fr_amide",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C(=O)-N",
+  "partition": "readable",
+  "prevalence": 0.07727052978859834,
+  "n_pos": 38200,
+  "id": 50
+ },
+ {
+  "name": "frag:fr_priamide",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C(=O)-[NH2]",
+  "partition": "readable",
+  "prevalence": 0.0029593399235790414,
+  "n_pos": 1463,
+  "id": 51
+ },
+ {
+  "name": "frag:fr_amidine",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C(=N)(-N)-[!#7]",
+  "partition": "readable",
+  "prevalence": 0.0030968895577576983,
+  "n_pos": 1531,
+  "id": 52
+ },
+ {
+  "name": "frag:fr_guanido",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C(=N)(N)N",
+  "partition": "readable",
+  "prevalence": 0.003669338770589461,
+  "n_pos": 1814,
+  "id": 53
+ },
+ {
+  "name": "frag:fr_imide",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "N(-C(=O))-C=O",
+  "partition": "readable",
+  "prevalence": 0.005789221367931112,
+  "n_pos": 2862,
+  "id": 54
+ },
+ {
+  "name": "frag:fr_halogen",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[#9,#17,#35,#53]",
+  "partition": "readable",
+  "prevalence": 0.03034183106882134,
+  "n_pos": 15000,
+  "id": 55
+ },
+ {
+  "name": "frag:fr_alkyl_halide",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[CX4]-[Cl,Br,I,F]",
+  "partition": "readable",
+  "prevalence": 0.017430370554668898,
+  "n_pos": 8617,
+  "id": 56
+ },
+ {
+  "name": "frag:fr_sulfide",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[SX2](-[#6])-C",
+  "partition": "readable",
+  "prevalence": 0.009371580222789952,
+  "n_pos": 4633,
+  "id": 57
+ },
+ {
+  "name": "frag:fr_C=S",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C=[SX1]",
+  "partition": "readable",
+  "prevalence": 0.0012864936373180248,
+  "n_pos": 636,
+  "id": 58
+ },
+ {
+  "name": "frag:fr_sulfone",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "S(=,-[OX1;+0,-1])(=,-[OX1;+0,-1])(-[#6])-[#6]",
+  "partition": "readable",
+  "prevalence": 0.004711074970618993,
+  "n_pos": 2329,
+  "id": 59
+ },
+ {
+  "name": "frag:fr_sulfonamd",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "N-S(=,-[OX1;+0,-1])(=,-[OX1;+0,-1])-[#6]",
+  "partition": "readable",
+  "prevalence": 0.014746129899447171,
+  "n_pos": 7290,
+  "id": 60
+ },
+ {
+  "name": "frag:fr_prisulfonamd",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[NH2]-S(=,-[OX1;+0,-1])(=,-[OX1;+0,-1])-[#6]",
+  "partition": "readable",
+  "prevalence": 0.0008394573262373905,
+  "n_pos": 415,
+  "id": 61
+ },
+ {
+  "name": "frag:fr_urea",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C(=O)(-N)-N",
+  "partition": "readable",
+  "prevalence": 0.007227424160593243,
+  "n_pos": 3573,
+  "id": 62
+ },
+ {
+  "name": "frag:fr_term_acetylene",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C#[CH]",
+  "partition": "readable",
+  "prevalence": 0.0005340162268112557,
+  "n_pos": 264,
+  "id": 63
+ },
+ {
+  "name": "frag:fr_imidazole",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "n1cncc1",
+  "partition": "readable",
+  "prevalence": 0.011629012454310259,
+  "n_pos": 5749,
+  "id": 64
+ },
+ {
+  "name": "frag:fr_furan",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "o1cccc1",
+  "partition": "readable",
+  "prevalence": 0.007690642781577249,
+  "n_pos": 3802,
+  "id": 65
+ },
+ {
+  "name": "frag:fr_thiophene",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "s1cccc1",
+  "partition": "readable",
+  "prevalence": 0.011845450849267851,
+  "n_pos": 5856,
+  "id": 66
+ },
+ {
+  "name": "frag:fr_thiazole",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "c1scnc1",
+  "partition": "readable",
+  "prevalence": 0.009351352335410738,
+  "n_pos": 4623,
+  "id": 67
+ },
+ {
+  "name": "frag:fr_oxazole",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "c1ocnc1",
+  "partition": "readable",
+  "prevalence": 0.002053130568990244,
+  "n_pos": 1015,
+  "id": 68
+ },
+ {
+  "name": "frag:fr_pyridine",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "n1ccccc1",
+  "partition": "readable",
+  "prevalence": 0.04305303549791956,
+  "n_pos": 21284,
+  "id": 69
+ },
+ {
+  "name": "frag:fr_piperdine",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "N1CCCCC1",
+  "partition": "readable",
+  "prevalence": 0.026763517791438346,
+  "n_pos": 13231,
+  "id": 70
+ },
+ {
+  "name": "frag:fr_piperzine",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "N1CCNCC1",
+  "partition": "readable",
+  "prevalence": 0.012201461667142022,
+  "n_pos": 6032,
+  "id": 71
+ },
+ {
+  "name": "frag:fr_morpholine",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "O1CCNCC1",
+  "partition": "readable",
+  "prevalence": 0.0070210997093252585,
+  "n_pos": 3471,
+  "id": 72
+ },
+ {
+  "name": "frag:fr_lactam",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "N1C(=O)CC1",
+  "partition": "readable",
+  "prevalence": 0.0005663808466179984,
+  "n_pos": 280,
+  "id": 73
+ },
+ {
+  "name": "frag:fr_lactone",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[C&R1](=O)[O&R1][C&R1]",
+  "partition": "readable",
+  "prevalence": 0.001387633074214096,
+  "n_pos": 686,
+  "id": 74
+ },
+ {
+  "name": "frag:fr_tetrazole",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "c1nnnn1",
+  "partition": "readable",
+  "prevalence": 0.0013957242291657817,
+  "n_pos": 690,
+  "id": 75
+ },
+ {
+  "name": "frag:fr_unbrch_alkane",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[CR0;D2,D1][CR0;D2][CR0;D2][CR0;D2,D1]",
+  "partition": "readable",
+  "prevalence": 0.018522676473146468,
+  "n_pos": 9157,
+  "id": 76
+ },
+ {
+  "name": "frag:fr_bicyclic",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[R2][R2]",
+  "partition": "readable",
+  "prevalence": 0.04283861989169989,
+  "n_pos": 21178,
+  "id": 77
+ },
+ {
+  "name": "frag:fr_benzene",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "c1ccccc1",
+  "partition": "readable",
+  "prevalence": 0.28620842410597797,
+  "n_pos": 141492,
+  "id": 78
+ },
+ {
+  "name": "frag:fr_nitro_arom",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$(c1(-[$([NX3](=O)=O),$([NX3+](=O)[O-])])ccccc1)]",
+  "partition": "readable",
+  "prevalence": 0.001191422566635718,
+  "n_pos": 589,
+  "id": 79
+ },
+ {
+  "name": "frag:fr_nitro_arom_nonortho",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$(c1(-[$([NX3](=O)=O),$([NX3+](=O)[O-])])ccccc1);!$(cc-!:*)]",
+  "partition": "readable",
+  "prevalence": 0.0006574063398244624,
+  "n_pos": 325,
+  "id": 80
+ },
+ {
+  "name": "frag:fr_phenol_noOrthoHbond",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$(c1(-[OX2H])ccccc1);!$(cc-!:[CH2]-[OX2H]);!$(cc-!:C(=O)[O;H1,-]);!$(cc-!:C(=O)-[NH2])]",
+  "partition": "readable",
+  "prevalence": 0.0017355527371365807,
+  "n_pos": 858,
+  "id": 81
+ },
+ {
+  "name": "frag:fr_Al_OH_noTert",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$(C-[OX2H]);!$([CX3](-[OX2H])=[OX1]);!$([CD4]-[OX2H])]",
+  "partition": "readable",
+  "prevalence": 0.0058033808890965615,
+  "n_pos": 2869,
+  "id": 82
+ },
+ {
+  "name": "frag:fr_para_hydroxylation",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$([cH]1[cH]cc(c[cH]1)~[$([#8,$([#8]~[H,c,C])])]),$([cH]1[cH]cc(c[cH]1)~[$([#7X3,$([#7](~[H,c,C])~[H,c,C])])]),$([cH]1[cH]cc(c[cH]1)-!:[$([NX3H,$(NC(=O)[H,c,C])])])]",
+  "partition": "readable",
+  "prevalence": 0.007510614583902243,
+  "n_pos": 3713,
+  "id": 83
+ },
+ {
+  "name": "frag:fr_allylic_oxid",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$(C=C-C);!$(C=C-C-[N,O,S]);!$(C=C-C-C-[N,O]);!$(C12=CC(=O)CCC1C3C(C4C(CCC4)CC3)CC2)]",
+  "partition": "readable",
+  "prevalence": 0.007791782218473321,
+  "n_pos": 3852,
+  "id": 84
+ },
+ {
+  "name": "frag:fr_aryl_methyl",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$(a-[CH3]),$(a-[CH2]-[CH3]),$(a-[CH2]-[CH2]~[!N;!O]);!$(a(:a!:*):a!:*)]",
+  "partition": "readable",
+  "prevalence": 0.016607095538334882,
+  "n_pos": 8210,
+  "id": 85
+ },
+ {
+  "name": "frag:fr_Ndealkylation1",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$(N(-[CH3])-C-[$(C~O),$(C-a),$(C-N),$(C=C)]),$(N(-[CH2][CH3])-C-[$(C~O),$(C-a),$(C-N),$(C=C)])]",
+  "partition": "readable",
+  "prevalence": 0.0030887984028060127,
+  "n_pos": 1527,
+  "id": 86
+ },
+ {
+  "name": "frag:fr_Ndealkylation2",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$([N&R1]1(-C)CCC1),$([N&R1]1(-C)CCCC1),$([N&R1]1(-C)CCCCC1),$([N&R1]1(-C)CCCCCC1),$([N&R1]1(-C)CCCCCCC1)]",
+  "partition": "readable",
+  "prevalence": 0.004996288182665914,
+  "n_pos": 2470,
+  "id": 87
+ },
+ {
+  "name": "frag:fr_alkyl_carbamate",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "C[NH1]C(=O)OC",
+  "partition": "readable",
+  "prevalence": 0.0035398802913624897,
+  "n_pos": 1750,
+  "id": 88
+ },
+ {
+  "name": "frag:fr_ketone_Topliss",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$([CX3](=[OX1])(C)([c,C]));!$([CX3](=[OX1])([CH1]=C)[c,C])]",
+  "partition": "readable",
+  "prevalence": 0.002852132120469206,
+  "n_pos": 1410,
+  "id": 89
+ },
+ {
+  "name": "frag:fr_ArN",
+  "source": "fragment_descriptors",
+  "kind": "smarts",
+  "definition": "[$(a-[NX3H2]),$(a-[NH1][NH2]),$(a-C(=[OX1])[NH1][NH2]),$(a-C(=[NH])[NH2])]",
+  "partition": "readable",
+  "prevalence": 0.002225067611713565,
+  "n_pos": 1100,
+  "id": 90
+ },
+ {
+  "name": "ertl:C=CC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "C=CC",
+  "partition": "readable",
+  "prevalence": 0.0012419922850837536,
+  "n_pos": 614,
+  "id": 91
+ },
+ {
+  "name": "ertl:CC#N",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC#N",
+  "partition": "readable",
+  "prevalence": 0.0013148126796489249,
+  "n_pos": 650,
+  "id": 92
+ },
+ {
+  "name": "ertl:CC(=O)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC(=O)C",
+  "partition": "readable",
+  "prevalence": 0.0006837025934174408,
+  "n_pos": 338,
+  "id": 93
+ },
+ {
+  "name": "ertl:CC(=O)N(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC(=O)N(C)C",
+  "partition": "readable",
+  "prevalence": 0.007937423007603663,
+  "n_pos": 3924,
+  "id": 94
+ },
+ {
+  "name": "ertl:CC(=O)NC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC(=O)NC",
+  "partition": "readable",
+  "prevalence": 0.0012743569048904962,
+  "n_pos": 630,
+  "id": 95
+ },
+ {
+  "name": "ertl:CC(=O)O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC(=O)O",
+  "partition": "readable",
+  "prevalence": 0.007373064949723586,
+  "n_pos": 3645,
+  "id": 96
+ },
+ {
+  "name": "ertl:CC(=O)OC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC(=O)OC",
+  "partition": "readable",
+  "prevalence": 0.0007706825091480621,
+  "n_pos": 381,
+  "id": 97
+ },
+ {
+  "name": "ertl:CC(C)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC(C)=O",
+  "partition": "readable",
+  "prevalence": 0.001181308622946111,
+  "n_pos": 584,
+  "id": 98
+ },
+ {
+  "name": "ertl:CC(N)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC(N)=O",
+  "partition": "readable",
+  "prevalence": 0.0014442711588758957,
+  "n_pos": 714,
+  "id": 99
+ },
+ {
+  "name": "ertl:CC=C(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC=C(C)C",
+  "partition": "readable",
+  "prevalence": 0.0006432468186590124,
+  "n_pos": 318,
+  "id": 100
+ },
+ {
+  "name": "ertl:CC=CC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CC=CC",
+  "partition": "readable",
+  "prevalence": 0.0007565229879826121,
+  "n_pos": 374,
+  "id": 101
+ },
+ {
+  "name": "ertl:CCl",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CCl",
+  "partition": "readable",
+  "prevalence": 0.0006735886497278337,
+  "n_pos": 333,
+  "id": 102
+ },
+ {
+  "name": "ertl:CF",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CF",
+  "partition": "readable",
+  "prevalence": 0.011094996227499003,
+  "n_pos": 5485,
+  "id": 103
+ },
+ {
+  "name": "ertl:CN",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CN",
+  "partition": "readable",
+  "prevalence": 0.0025102808237604858,
+  "n_pos": 1241,
+  "id": 104
+ },
+ {
+  "name": "ertl:CN(C(C)=O)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CN(C(C)=O)C",
+  "partition": "readable",
+  "prevalence": 0.0006007682551626626,
+  "n_pos": 297,
+  "id": 105
+ },
+ {
+  "name": "ertl:CN(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CN(C)C",
+  "partition": "readable",
+  "prevalence": 0.005849905030068755,
+  "n_pos": 2892,
+  "id": 106
+ },
+ {
+  "name": "ertl:CN(S(C)(=O)=O)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CN(S(C)(=O)=O)C",
+  "partition": "readable",
+  "prevalence": 0.0006068366213764268,
+  "n_pos": 300,
+  "id": 107
+ },
+ {
+  "name": "ertl:CN1C(=O)ccC1=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CN1C(=O)ccC1=O",
+  "partition": "readable",
+  "prevalence": 0.00052592507185957,
+  "n_pos": 260,
+  "id": 108
+ },
+ {
+  "name": "ertl:CN=C(NC)N(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CN=C(NC)N(C)C",
+  "partition": "readable",
+  "prevalence": 0.0006472923961348553,
+  "n_pos": 320,
+  "id": 109
+ },
+ {
+  "name": "ertl:CN=C(NC)NC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CN=C(NC)NC",
+  "partition": "readable",
+  "prevalence": 0.0016829602299506237,
+  "n_pos": 832,
+  "id": 110
+ },
+ {
+  "name": "ertl:CNC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CNC",
+  "partition": "readable",
+  "prevalence": 0.004108283926718409,
+  "n_pos": 2031,
+  "id": 111
+ },
+ {
+  "name": "ertl:CNC(=O)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CNC(=O)C",
+  "partition": "readable",
+  "prevalence": 0.0006189733538039554,
+  "n_pos": 306,
+  "id": 112
+ },
+ {
+  "name": "ertl:CNC(=O)N(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CNC(=O)N(C)C",
+  "partition": "readable",
+  "prevalence": 0.0009385739743955401,
+  "n_pos": 464,
+  "id": 113
+ },
+ {
+  "name": "ertl:CNC(=O)NC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CNC(=O)NC",
+  "partition": "readable",
+  "prevalence": 0.0005987454664247411,
+  "n_pos": 296,
+  "id": 114
+ },
+ {
+  "name": "ertl:CNC(=O)OC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CNC(=O)OC",
+  "partition": "readable",
+  "prevalence": 0.0015049548210135386,
+  "n_pos": 744,
+  "id": 115
+ },
+ {
+  "name": "ertl:CNC(C)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CNC(C)=O",
+  "partition": "readable",
+  "prevalence": 0.009260326842204273,
+  "n_pos": 4578,
+  "id": 116
+ },
+ {
+  "name": "ertl:CO",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CO",
+  "partition": "readable",
+  "prevalence": 0.006167482861922418,
+  "n_pos": 3049,
+  "id": 117
+ },
+ {
+  "name": "ertl:COC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "COC",
+  "partition": "readable",
+  "prevalence": 0.005825631565213697,
+  "n_pos": 2880,
+  "id": 118
+ },
+ {
+  "name": "ertl:COC(=O)N(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "COC(=O)N(C)C",
+  "partition": "readable",
+  "prevalence": 0.0019580594983079373,
+  "n_pos": 968,
+  "id": 119
+ },
+ {
+  "name": "ertl:COC(=O)NC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "COC(=O)NC",
+  "partition": "readable",
+  "prevalence": 0.0006634747060382266,
+  "n_pos": 328,
+  "id": 120
+ },
+ {
+  "name": "ertl:COC(C)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "COC(C)=O",
+  "partition": "readable",
+  "prevalence": 0.00651135694736906,
+  "n_pos": 3219,
+  "id": 121
+ },
+ {
+  "name": "ertl:CS(=O)(=O)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CS(=O)(=O)C",
+  "partition": "readable",
+  "prevalence": 0.0005946998889488983,
+  "n_pos": 294,
+  "id": 122
+ },
+ {
+  "name": "ertl:CS(C)(=O)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CS(C)(=O)=O",
+  "partition": "readable",
+  "prevalence": 0.0006432468186590124,
+  "n_pos": 318,
+  "id": 123
+ },
+ {
+  "name": "ertl:CSC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "CSC",
+  "partition": "readable",
+  "prevalence": 0.000693816537107048,
+  "n_pos": 343,
+  "id": 124
+ },
+ {
+  "name": "ertl:Cn1ccnn1",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "Cn1ccnn1",
+  "partition": "readable",
+  "prevalence": 0.0006675202835140695,
+  "n_pos": 330,
+  "id": 125
+ },
+ {
+  "name": "ertl:c-n(c)c",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "c-n(c)c",
+  "partition": "readable",
+  "prevalence": 0.0009466651293472258,
+  "n_pos": 468,
+  "id": 126
+ },
+ {
+  "name": "ertl:c-n(c)nc",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "c-n(c)nc",
+  "partition": "readable",
+  "prevalence": 0.001254129017511282,
+  "n_pos": 620,
+  "id": 127
+ },
+ {
+  "name": "ertl:c1cOCO1",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "c1cOCO1",
+  "partition": "readable",
+  "prevalence": 0.0008192294388581762,
+  "n_pos": 405,
+  "id": 128
+ },
+ {
+  "name": "ertl:c=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "c=O",
+  "partition": "readable",
+  "prevalence": 0.0029249525150343773,
+  "n_pos": 1446,
+  "id": 129
+ },
+ {
+  "name": "ertl:cC#N",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cC#N",
+  "partition": "readable",
+  "prevalence": 0.0022695689639478365,
+  "n_pos": 1122,
+  "id": 130
+ },
+ {
+  "name": "ertl:cC(=O)N(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cC(=O)N(C)C",
+  "partition": "readable",
+  "prevalence": 0.005309820437043734,
+  "n_pos": 2625,
+  "id": 131
+ },
+ {
+  "name": "ertl:cC(=O)NC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cC(=O)NC",
+  "partition": "readable",
+  "prevalence": 0.006620587539216817,
+  "n_pos": 3273,
+  "id": 132
+ },
+ {
+  "name": "ertl:cC(=O)OC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cC(=O)OC",
+  "partition": "readable",
+  "prevalence": 0.004211446152352402,
+  "n_pos": 2082,
+  "id": 133
+ },
+ {
+  "name": "ertl:cC(C)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cC(C)=O",
+  "partition": "readable",
+  "prevalence": 0.0019742418082113085,
+  "n_pos": 976,
+  "id": 134
+ },
+ {
+  "name": "ertl:cC(N)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cC(N)=O",
+  "partition": "readable",
+  "prevalence": 0.0009588018617747544,
+  "n_pos": 474,
+  "id": 135
+ },
+ {
+  "name": "ertl:cCl",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cCl",
+  "partition": "readable",
+  "prevalence": 0.007377110527199429,
+  "n_pos": 3647,
+  "id": 136
+ },
+ {
+  "name": "ertl:cF",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cF",
+  "partition": "readable",
+  "prevalence": 0.006861299399029466,
+  "n_pos": 3392,
+  "id": 137
+ },
+ {
+  "name": "ertl:cN",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cN",
+  "partition": "readable",
+  "prevalence": 0.0020248115266593442,
+  "n_pos": 1001,
+  "id": 138
+ },
+ {
+  "name": "ertl:cN(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cN(C)C",
+  "partition": "readable",
+  "prevalence": 0.0034326724882526543,
+  "n_pos": 1697,
+  "id": 139
+ },
+ {
+  "name": "ertl:cN(C)C(=O)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cN(C)C(=O)C",
+  "partition": "readable",
+  "prevalence": 0.0012136732427528536,
+  "n_pos": 600,
+  "id": 140
+ },
+ {
+  "name": "ertl:cN(C)S(C)(=O)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cN(C)S(C)(=O)=O",
+  "partition": "readable",
+  "prevalence": 0.0005582896916663127,
+  "n_pos": 276,
+  "id": 141
+ },
+ {
+  "name": "ertl:cN(C)S(c)(=O)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cN(C)S(c)(=O)=O",
+  "partition": "readable",
+  "prevalence": 0.000550198536714627,
+  "n_pos": 272,
+  "id": 142
+ },
+ {
+  "name": "ertl:cN1C(=O)CCC1=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cN1C(=O)CCC1=O",
+  "partition": "readable",
+  "prevalence": 0.0005967226776868197,
+  "n_pos": 295,
+  "id": 143
+ },
+ {
+  "name": "ertl:cNC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNC",
+  "partition": "readable",
+  "prevalence": 0.0024516199503607644,
+  "n_pos": 1212,
+  "id": 144
+ },
+ {
+  "name": "ertl:cNC(=O)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNC(=O)C",
+  "partition": "readable",
+  "prevalence": 0.0007342723118654765,
+  "n_pos": 363,
+  "id": 145
+ },
+ {
+  "name": "ertl:cNC(=O)N(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNC(=O)N(C)C",
+  "partition": "readable",
+  "prevalence": 0.0009709385942022829,
+  "n_pos": 480,
+  "id": 146
+ },
+ {
+  "name": "ertl:cNC(=O)NC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNC(=O)NC",
+  "partition": "readable",
+  "prevalence": 0.000890027044685426,
+  "n_pos": 440,
+  "id": 147
+ },
+ {
+  "name": "ertl:cNC(=O)OC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNC(=O)OC",
+  "partition": "readable",
+  "prevalence": 0.0005663808466179984,
+  "n_pos": 280,
+  "id": 148
+ },
+ {
+  "name": "ertl:cNC(C)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNC(C)=O",
+  "partition": "readable",
+  "prevalence": 0.007937423007603663,
+  "n_pos": 3924,
+  "id": 149
+ },
+ {
+  "name": "ertl:cNC(c)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNC(c)=O",
+  "partition": "readable",
+  "prevalence": 0.003950506405160538,
+  "n_pos": 1953,
+  "id": 150
+ },
+ {
+  "name": "ertl:cNS(C)(=O)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNS(C)(=O)=O",
+  "partition": "readable",
+  "prevalence": 0.0005906543114730555,
+  "n_pos": 292,
+  "id": 151
+ },
+ {
+  "name": "ertl:cNS(c)(=O)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNS(c)(=O)=O",
+  "partition": "readable",
+  "prevalence": 0.0013026759472213963,
+  "n_pos": 644,
+  "id": 152
+ },
+ {
+  "name": "ertl:cNc",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cNc",
+  "partition": "readable",
+  "prevalence": 0.0008920498334233474,
+  "n_pos": 441,
+  "id": 153
+ },
+ {
+  "name": "ertl:cO",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cO",
+  "partition": "readable",
+  "prevalence": 0.0019742418082113085,
+  "n_pos": 976,
+  "id": 154
+ },
+ {
+  "name": "ertl:cOC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cOC",
+  "partition": "readable",
+  "prevalence": 0.012800207133566763,
+  "n_pos": 6328,
+  "id": 155
+ },
+ {
+  "name": "ertl:cOc",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cOc",
+  "partition": "readable",
+  "prevalence": 0.0007302267343896336,
+  "n_pos": 361,
+  "id": 156
+ },
+ {
+  "name": "ertl:cS(=O)(=O)N(C)C",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cS(=O)(=O)N(C)C",
+  "partition": "readable",
+  "prevalence": 0.003196006205915848,
+  "n_pos": 1580,
+  "id": 157
+ },
+ {
+  "name": "ertl:cS(=O)(=O)NC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cS(=O)(=O)NC",
+  "partition": "readable",
+  "prevalence": 0.0020794268225832226,
+  "n_pos": 1028,
+  "id": 158
+ },
+ {
+  "name": "ertl:cS(C)(=O)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cS(C)(=O)=O",
+  "partition": "readable",
+  "prevalence": 0.0011226477495463896,
+  "n_pos": 555,
+  "id": 159
+ },
+ {
+  "name": "ertl:cS(N)(=O)=O",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cS(N)(=O)=O",
+  "partition": "readable",
+  "prevalence": 0.0005421073817629413,
+  "n_pos": 268,
+  "id": 160
+ },
+ {
+  "name": "ertl:cSC",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cSC",
+  "partition": "readable",
+  "prevalence": 0.001502932032275617,
+  "n_pos": 743,
+  "id": 161
+ },
+ {
+  "name": "ertl:c[N+](=O)[O-]",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "c[N+](=O)[O-]",
+  "partition": "readable",
+  "prevalence": 0.004150762490214759,
+  "n_pos": 2052,
+  "id": 162
+ },
+ {
+  "name": "ertl:c[nH]c",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "c[nH]c",
+  "partition": "readable",
+  "prevalence": 0.002382845133271436,
+  "n_pos": 1178,
+  "id": 163
+ },
+ {
+  "name": "ertl:cn(C)c",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cn(C)c",
+  "partition": "readable",
+  "prevalence": 0.00288651952901387,
+  "n_pos": 1427,
+  "id": 164
+ },
+ {
+  "name": "ertl:cn(c)c",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cn(c)c",
+  "partition": "readable",
+  "prevalence": 0.0005582896916663127,
+  "n_pos": 276,
+  "id": 165
+ },
+ {
+  "name": "ertl:cn[nH]c",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cn[nH]c",
+  "partition": "readable",
+  "prevalence": 0.0014806813561584814,
+  "n_pos": 732,
+  "id": 166
+ },
+ {
+  "name": "ertl:cnc",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cnc",
+  "partition": "readable",
+  "prevalence": 0.0178834752319633,
+  "n_pos": 8841,
+  "id": 167
+ },
+ {
+  "name": "ertl:cnn(C)c",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cnn(C)c",
+  "partition": "readable",
+  "prevalence": 0.0038432986020507033,
+  "n_pos": 1900,
+  "id": 168
+ },
+ {
+  "name": "ertl:cnn(c)c",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cnn(c)c",
+  "partition": "readable",
+  "prevalence": 0.0008617080023545261,
+  "n_pos": 426,
+  "id": 169
+ },
+ {
+  "name": "ertl:cnnc",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cnnc",
+  "partition": "readable",
+  "prevalence": 0.0024233009080298646,
+  "n_pos": 1198,
+  "id": 170
+ },
+ {
+  "name": "ertl:cnoc",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "cnoc",
+  "partition": "readable",
+  "prevalence": 0.0019135581460736658,
+  "n_pos": 946,
+  "id": 171
+ },
+ {
+  "name": "ertl:coc",
+  "source": "ertl",
+  "kind": "ertl_type",
+  "definition": "coc",
+  "partition": "readable",
+  "prevalence": 0.0024010502319127287,
+  "n_pos": 1187,
+  "id": 172
+ },
+ {
+  "name": "input:element_B",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_B",
+  "partition": "input",
+  "prevalence": 0.00027914484583315633,
+  "n_pos": 138,
+  "id": 173
+ },
+ {
+  "name": "input:element_C",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_C",
+  "partition": "input",
+  "prevalence": 0.7447139473306268,
+  "n_pos": 368162,
+  "id": 174
+ },
+ {
+  "name": "input:element_N",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_N",
+  "partition": "input",
+  "prevalence": 0.10522951572414825,
+  "n_pos": 52022,
+  "id": 175
+ },
+ {
+  "name": "input:element_O",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_O",
+  "partition": "input",
+  "prevalence": 0.10398954622780242,
+  "n_pos": 51409,
+  "id": 176
+ },
+ {
+  "name": "input:element_F",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_F",
+  "partition": "input",
+  "prevalence": 0.018288032979547585,
+  "n_pos": 9041,
+  "id": 177
+ },
+ {
+  "name": "input:element_Si",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_Si",
+  "partition": "input",
+  "prevalence": 0.0006452696073969338,
+  "n_pos": 319,
+  "id": 178
+ },
+ {
+  "name": "input:element_P",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_P",
+  "partition": "input",
+  "prevalence": 0.000627064508755641,
+  "n_pos": 310,
+  "id": 179
+ },
+ {
+  "name": "input:element_S",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_S",
+  "partition": "input",
+  "prevalence": 0.01417368068661541,
+  "n_pos": 7007,
+  "id": 180
+ },
+ {
+  "name": "input:element_Cl",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_Cl",
+  "partition": "input",
+  "prevalence": 0.008352094698877554,
+  "n_pos": 4129,
+  "id": 181
+ },
+ {
+  "name": "input:element_Br",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_Br",
+  "partition": "input",
+  "prevalence": 0.0032182568820329836,
+  "n_pos": 1591,
+  "id": 182
+ },
+ {
+  "name": "input:element_I",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:element_I",
+  "partition": "input",
+  "prevalence": 0.00048344650836322,
+  "n_pos": 239,
+  "id": 183
+ },
+ {
+  "name": "input:aromatic",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:aromatic",
+  "partition": "input",
+  "prevalence": 0.42925599807430515,
+  "n_pos": 212210,
+  "id": 184
+ },
+ {
+  "name": "input:charge_pos",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:charge_pos",
+  "partition": "input",
+  "prevalence": 0.0025709644858981284,
+  "n_pos": 1271,
+  "id": 185
+ },
+ {
+  "name": "input:charge_neg",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:charge_neg",
+  "partition": "input",
+  "prevalence": 0.002397004654436886,
+  "n_pos": 1185,
+  "id": 186
+ },
+ {
+  "name": "input:totalH_0",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:totalH_0",
+  "partition": "input",
+  "prevalence": 0.4363155307696509,
+  "n_pos": 215700,
+  "id": 187
+ },
+ {
+  "name": "input:totalH_1",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:totalH_1",
+  "partition": "input",
+  "prevalence": 0.3175919913748288,
+  "n_pos": 157007,
+  "id": 188
+ },
+ {
+  "name": "input:totalH_2",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:totalH_2",
+  "partition": "input",
+  "prevalence": 0.16869855795390873,
+  "n_pos": 83399,
+  "id": 189
+ },
+ {
+  "name": "input:totalH_3",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:totalH_3",
+  "partition": "input",
+  "prevalence": 0.07739391990161155,
+  "n_pos": 38261,
+  "id": 190
+ },
+ {
+  "name": "input:hyb_SP",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:hyb_SP",
+  "partition": "input",
+  "prevalence": 0.006347511059597424,
+  "n_pos": 3138,
+  "id": 191
+ },
+ {
+  "name": "input:hyb_SP2",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:hyb_SP2",
+  "partition": "input",
+  "prevalence": 0.6231402986040735,
+  "n_pos": 308060,
+  "id": 192
+ },
+ {
+  "name": "input:hyb_SP3",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:hyb_SP3",
+  "partition": "input",
+  "prevalence": 0.37046566619535687,
+  "n_pos": 183146,
+  "id": 193
+ },
+ {
+  "name": "input:degree_1",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:degree_1",
+  "partition": "input",
+  "prevalence": 0.18976387987062243,
+  "n_pos": 93813,
+  "id": 194
+ },
+ {
+  "name": "input:degree_2",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:degree_2",
+  "partition": "input",
+  "prevalence": 0.495340506142198,
+  "n_pos": 244880,
+  "id": 195
+ },
+ {
+  "name": "input:degree_3",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:degree_3",
+  "partition": "input",
+  "prevalence": 0.294238895395526,
+  "n_pos": 145462,
+  "id": 196
+ },
+ {
+  "name": "input:degree_4",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:degree_4",
+  "partition": "input",
+  "prevalence": 0.020640536281750197,
+  "n_pos": 10204,
+  "id": 197
+ },
+ {
+  "name": "input:in_ring",
+  "source": "input",
+  "kind": "function",
+  "definition": "input:in_ring",
+  "partition": "input",
+  "prevalence": 0.5966842447007992,
+  "n_pos": 294981,
+  "id": 198
+ },
+ {
+  "name": "fg:Halogen.Bromine",
+  "source": "fg_hierarchy",
+  "kind": "smarts",
+  "definition": "[Br;$([Br]-!@[#6]);!$([Br]-!@C-!@[F,Cl,Br,I]);!$([Br]-[C,S](=[O,S,N]))]",
+  "partition": "input_equivalent",
+  "equivalent_to": "input:element_Br",
+  "prevalence": 0.003157573219895341,
+  "n_pos": 1561,
+  "id": 199
+ }
+]

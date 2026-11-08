@@ -1,0 +1,96 @@
+{
+  "repository": "DeepChem/ChemBERTa-77M-MTR",
+  "revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "downloaded_at_utc": "2026-10-17T12:51:10.947783+00:00",
+  "download_method": "unauthenticated HTTPS GET to official HF resolve URL built by huggingface_hub.hf_hub_url",
+  "files": [
+    {
+      "relative_file": "added_tokens.json",
+      "size_bytes": 25,
+      "sha256": "2b0e66b84bd97bc08467f7a7c033cfd5a66c6335eb79779a144b50f8e7b2557d",
+      "source_url": "https://hf-mirror.com/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/added_tokens.json",
+      "response_metadata": {
+        "etag": "\"016b2483e7c4139ca3bcf51a6be96ae2196b4ac5\"",
+        "x-repo-commit": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "project_relative_file": "assets/chemberta_mtr_tokenizer/added_tokens.json"
+    },
+    {
+      "relative_file": "config.json",
+      "size_bytes": 17669,
+      "sha256": "6c15d3fd119919afb92b762c4e55cd46a595251ab799435168baa75a6ebd07e6",
+      "source_url": "https://hf-mirror.com/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/config.json",
+      "response_metadata": {
+        "etag": "\"a5834a73022847aba65f0615ebe6360a47b8ed18\"",
+        "x-repo-commit": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "project_relative_file": "assets/chemberta_mtr_tokenizer/config.json"
+    },
+    {
+      "relative_file": "merges.txt",
+      "size_bytes": 52,
+      "sha256": "291976363a8a20ed148ff687cf3da54ada8ddbc99655fa876326f0ef28dbd6ad",
+      "source_url": "https://hf-mirror.com/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/merges.txt",
+      "response_metadata": {
+        "etag": "\"0809d44ce8365aeb44f7147fae635254ab0891de\"",
+        "x-repo-commit": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "project_relative_file": "assets/chemberta_mtr_tokenizer/merges.txt"
+    },
+    {
+      "relative_file": "special_tokens_map.json",
+      "size_bytes": 420,
+      "sha256": "23dbc119b7e11cb23d3c43b13004c5a4ab4e6530c7146e34fa1f9564856b5580",
+      "source_url": "https://hf-mirror.com/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/special_tokens_map.json",
+      "response_metadata": {
+        "etag": "\"22ad7b9d36b6b7745bec24be464488a788d92a3c\"",
+        "x-repo-commit": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "project_relative_file": "assets/chemberta_mtr_tokenizer/special_tokens_map.json"
+    },
+    {
+      "relative_file": "tokenizer.json",
+      "size_bytes": 8262,
+      "sha256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+      "source_url": "https://hf-mirror.com/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/tokenizer.json",
+      "response_metadata": {
+        "etag": "\"e9860f97fe31a7016940e5f7d752098226d28ce5\"",
+        "x-repo-commit": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "project_relative_file": "assets/chemberta_mtr_tokenizer/tokenizer.json"
+    },
+    {
+      "relative_file": "tokenizer_config.json",
+      "size_bytes": 1271,
+      "sha256": "79919cd4b54bdf241f19956753e8a47b8b782eb4b38eec0e0254bd2434545abd",
+      "source_url": "https://hf-mirror.com/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/tokenizer_config.json",
+      "response_metadata": {
+        "etag": "\"485c900fe7fd974e5e2d2afa547580a784f52c3a\"",
+        "x-repo-commit": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "project_relative_file": "assets/chemberta_mtr_tokenizer/tokenizer_config.json"
+    },
+    {
+      "relative_file": "vocab.json",
+      "size_bytes": 6963,
+      "sha256": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
+      "source_url": "https://hf-mirror.com/DeepChem/ChemBERTa-77M-MTR/resolve/66b895cab8adebea0cb59a8effa66b2020f204ca/vocab.json",
+      "response_metadata": {
+        "etag": "\"4f1006880296b590ef1eb82c22beb2d8192b8daf\"",
+        "x-repo-commit": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "project_relative_file": "assets/chemberta_mtr_tokenizer/vocab.json"
+    }
+  ],
+  "model_weights_downloaded": false,
+  "local_asset_directory": "assets/chemberta_mtr_tokenizer",
+  "license_status": "No license file in the fixed-revision repository file listing; not inferred.",
+  "distribution_status": "Source metadata only. Third-party model/tokenizer files are acquired explicitly from pinned upstream sources; no redistribution license inferred."
+}

@@ -1,0 +1,283 @@
+{
+  "assets": [
+    {
+      "id": "models/chemberta_77m_mlm/config.json",
+      "model": "ChemBERTa-77M-MLM",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/resolve/main/config.json",
+      "bytes": 631,
+      "sha256": "b9ec477f76a173461741cb0f339b89661c9d9249af2f6a84df7593c3baede9b0",
+      "downloaded_at_snapshot": "2026-10-16 00:55:28",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mtr/config.json",
+      "model": "ChemBERTa-77M-MTR",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/main/config.json",
+      "bytes": 17669,
+      "sha256": "6c15d3fd119919afb92b762c4e55cd46a595251ab799435168baa75a6ebd07e6",
+      "downloaded_at_snapshot": "2026-10-16 00:55:30",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mlm/pytorch_model.bin",
+      "model": "ChemBERTa-77M-MLM",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/resolve/main/pytorch_model.bin",
+      "bytes": 13734116,
+      "sha256": "95571af26b61ba8d56b9d61ff108b5c9afe96fd69ea3cbd1901d9421e3d2dd6d",
+      "downloaded_at_snapshot": "2026-10-16 00:55:36",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mtr/pytorch_model.bin",
+      "model": "ChemBERTa-77M-MTR",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/main/pytorch_model.bin",
+      "bytes": 14036589,
+      "sha256": "7882205587d3985c07e425632d0e57ba0fc2fc778e3b47aab02aef9b7961407f",
+      "downloaded_at_snapshot": "2026-10-16 00:55:41",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mlm/tokenizer.json",
+      "model": "ChemBERTa-77M-MLM",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/resolve/main/tokenizer.json",
+      "bytes": 8262,
+      "sha256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+      "downloaded_at_snapshot": "2026-10-16 00:55:42",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mtr/tokenizer.json",
+      "model": "ChemBERTa-77M-MTR",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/main/tokenizer.json",
+      "bytes": 8262,
+      "sha256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+      "downloaded_at_snapshot": "2026-10-16 00:55:43",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mlm/tokenizer_config.json",
+      "model": "ChemBERTa-77M-MLM",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/resolve/main/tokenizer_config.json",
+      "bytes": 1271,
+      "sha256": "79919cd4b54bdf241f19956753e8a47b8b782eb4b38eec0e0254bd2434545abd",
+      "downloaded_at_snapshot": "2026-10-16 00:55:45",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mtr/tokenizer_config.json",
+      "model": "ChemBERTa-77M-MTR",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/main/tokenizer_config.json",
+      "bytes": 1271,
+      "sha256": "79919cd4b54bdf241f19956753e8a47b8b782eb4b38eec0e0254bd2434545abd",
+      "downloaded_at_snapshot": "2026-10-16 00:55:46",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mlm/vocab.json",
+      "model": "ChemBERTa-77M-MLM",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/resolve/main/vocab.json",
+      "bytes": 6963,
+      "sha256": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
+      "downloaded_at_snapshot": "2026-10-16 00:55:47",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mtr/vocab.json",
+      "model": "ChemBERTa-77M-MTR",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/main/vocab.json",
+      "bytes": 6963,
+      "sha256": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
+      "downloaded_at_snapshot": "2026-10-16 00:55:48",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mlm/merges.txt",
+      "model": "ChemBERTa-77M-MLM",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/resolve/main/merges.txt",
+      "bytes": 52,
+      "sha256": "291976363a8a20ed148ff687cf3da54ada8ddbc99655fa876326f0ef28dbd6ad",
+      "downloaded_at_snapshot": "2026-10-16 00:55:50",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mtr/merges.txt",
+      "model": "ChemBERTa-77M-MTR",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/main/merges.txt",
+      "bytes": 52,
+      "sha256": "291976363a8a20ed148ff687cf3da54ada8ddbc99655fa876326f0ef28dbd6ad",
+      "downloaded_at_snapshot": "2026-10-16 00:55:50",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mlm/special_tokens_map.json",
+      "model": "ChemBERTa-77M-MLM",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/resolve/main/special_tokens_map.json",
+      "bytes": 420,
+      "sha256": "23dbc119b7e11cb23d3c43b13004c5a4ab4e6530c7146e34fa1f9564856b5580",
+      "downloaded_at_snapshot": "2026-10-16 00:55:51",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mtr/special_tokens_map.json",
+      "model": "ChemBERTa-77M-MTR",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/main/special_tokens_map.json",
+      "bytes": 420,
+      "sha256": "23dbc119b7e11cb23d3c43b13004c5a4ab4e6530c7146e34fa1f9564856b5580",
+      "downloaded_at_snapshot": "2026-10-16 00:55:53",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mlm/added_tokens.json",
+      "model": "ChemBERTa-77M-MLM",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/resolve/main/added_tokens.json",
+      "bytes": 25,
+      "sha256": "2b0e66b84bd97bc08467f7a7c033cfd5a66c6335eb79779a144b50f8e7b2557d",
+      "downloaded_at_snapshot": "2026-10-16 00:55:54",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/chemberta_77m_mtr/added_tokens.json",
+      "model": "ChemBERTa-77M-MTR",
+      "url": "https://huggingface.co/DeepChem/ChemBERTa-77M-MTR/resolve/main/added_tokens.json",
+      "bytes": 25,
+      "sha256": "2b0e66b84bd97bc08467f7a7c033cfd5a66c6335eb79779a144b50f8e7b2557d",
+      "downloaded_at_snapshot": "2026-10-16 00:55:55",
+      "license": "UNKNOWN checkpoint license; acquire from publisher under its terms"
+    },
+    {
+      "id": "models/molformer_xl_both_10pct/config.json",
+      "model": "MoLFormer-XL",
+      "url": "https://huggingface.co/ibm/MoLFormer-XL-both-10pct/resolve/main/config.json",
+      "bytes": 1015,
+      "sha256": "3ef9eaac8c7ca6282fd6256ed038d151bd4ff42a4ff855367e0d7197bbc1c284",
+      "downloaded_at_snapshot": "2026-10-16 00:55:57",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/molformer_xl_both_10pct/model.safetensors",
+      "model": "MoLFormer-XL",
+      "url": "https://huggingface.co/ibm/MoLFormer-XL-both-10pct/resolve/main/model.safetensors",
+      "bytes": 187248784,
+      "sha256": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6",
+      "downloaded_at_snapshot": "2026-10-16 00:56:37",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/molformer_xl_both_10pct/tokenizer.json",
+      "model": "MoLFormer-XL",
+      "url": "https://huggingface.co/ibm/MoLFormer-XL-both-10pct/resolve/main/tokenizer.json",
+      "bytes": 54010,
+      "sha256": "3df1f2219653c44fac9fa03b7f788b372eb2544ecc176737bb9aca8411b471a5",
+      "downloaded_at_snapshot": "2026-10-16 00:56:39",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/molformer_xl_both_10pct/tokenizer_config.json",
+      "model": "MoLFormer-XL",
+      "url": "https://huggingface.co/ibm/MoLFormer-XL-both-10pct/resolve/main/tokenizer_config.json",
+      "bytes": 1132,
+      "sha256": "56f93dc43e4383fcfc6342e09d782ef38d48ef227215a4a92ff8762fd5b8ff3e",
+      "downloaded_at_snapshot": "2026-10-16 00:56:41",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/molformer_xl_both_10pct/configuration_molformer.py",
+      "model": "MoLFormer-XL",
+      "url": "https://huggingface.co/ibm/MoLFormer-XL-both-10pct/resolve/main/configuration_molformer.py",
+      "bytes": 7101,
+      "sha256": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+      "downloaded_at_snapshot": "2026-10-16 00:56:42",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/molformer_xl_both_10pct/modeling_molformer.py",
+      "model": "MoLFormer-XL",
+      "url": "https://huggingface.co/ibm/MoLFormer-XL-both-10pct/resolve/main/modeling_molformer.py",
+      "bytes": 36884,
+      "sha256": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c",
+      "downloaded_at_snapshot": "2026-10-16 00:56:44",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/molformer_xl_both_10pct/README.md",
+      "model": "MoLFormer-XL",
+      "url": "https://huggingface.co/ibm/MoLFormer-XL-both-10pct/resolve/main/README.md",
+      "bytes": 6279,
+      "sha256": "fff331c6a973fa6995662ac31354c702ac0f4805d494e7506b979a3a6cee6f44",
+      "downloaded_at_snapshot": "2026-10-16 00:56:46",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/pretrain_gnns_gin/contextpred.pth",
+      "model": "pretrain-gnns",
+      "url": "https://github.com/snap-stanford/pretrain-gnns/raw/master/chem/model_gin/contextpred.pth",
+      "bytes": 7452448,
+      "sha256": "9538cef4c19ea734be8490a8eda8e17f9cb5df76a77ef069c6a8d5f5b8195564",
+      "downloaded_at_snapshot": "2026-10-16 00:58:10",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/pretrain_gnns_gin/edgepred.pth",
+      "model": "pretrain-gnns",
+      "url": "https://github.com/snap-stanford/pretrain-gnns/raw/master/chem/model_gin/edgepred.pth",
+      "bytes": 7452448,
+      "sha256": "57b25b697139e54f13961fa31f9833c631a7d8b3a17ae09cafeedd475df9116c",
+      "downloaded_at_snapshot": "2026-10-16 00:58:16",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/pretrain_gnns_gin/infomax.pth",
+      "model": "pretrain-gnns",
+      "url": "https://github.com/snap-stanford/pretrain-gnns/raw/master/chem/model_gin/infomax.pth",
+      "bytes": 7452448,
+      "sha256": "02d2ed7b64ba387b973b4cc297b280425ab1f718661e403fc60a7c495a48976d",
+      "downloaded_at_snapshot": "2026-10-16 00:58:20",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/pretrain_gnns_gin/masking.pth",
+      "model": "pretrain-gnns",
+      "url": "https://github.com/snap-stanford/pretrain-gnns/raw/master/chem/model_gin/masking.pth",
+      "bytes": 7452448,
+      "sha256": "77dd7f4eeeb16200be1d001411972d0edb04bd406023ca8ab4eaa18f772aa9e4",
+      "downloaded_at_snapshot": "2026-10-16 00:58:24",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/molclr/pretrained_gin_model.pth",
+      "model": "MolCLR",
+      "url": "https://github.com/yuyangw/MolCLR/raw/master/ckpt/pretrained_gin/checkpoints/model.pth",
+      "bytes": 9649766,
+      "sha256": "93bc4f02ea8847cd44fa21ec3f65600ff2f4a7ae6d3a85e8519a5bcc56afc20a",
+      "downloaded_at_snapshot": "2026-10-16 00:58:52",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/molclr/config.yaml",
+      "model": "MolCLR",
+      "url": "https://raw.githubusercontent.com/yuyangw/MolCLR/master/config.yaml",
+      "bytes": 1657,
+      "sha256": "99698a219812c3fa94ba57595c93b81e22801ddee9c144656c3372aacb4e68a9",
+      "downloaded_at_snapshot": "2026-10-16 00:58:57",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    },
+    {
+      "id": "models/chemeleon/chemeleon_mp.pt",
+      "model": "CheMeleon",
+      "url": "https://zenodo.org/records/15460715/files/chemeleon_mp.pt?download=1",
+      "bytes": 34859448,
+      "sha256": "c376624d3407204e780a0ed13a9ac097cc9bb1c13ef89cdbc633c1715c183651",
+      "downloaded_at_snapshot": "2026-10-16 00:59:31",
+      "license": "External asset; publisher terms apply; not redistributed here"
+    }
+  ],
+  "pubchem": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz",
+    "snapshot_date": "2026-09-27",
+    "sha256": "36b683a59272b196ed7ece140903a249f7df475a06c312c963a5c761f1037f1a",
+    "rows": 124717116,
+    "available_from_rolling_url": "UNKNOWN; download must match expected hash for historical replay",
+    "redistributed": false
+  },
+  "licensing": "Only MIT-licensed GIN ports are redistributed with their licenses; pretrained weights and external MoLFormer implementation are acquisition-only. Original model code and checkpoint terms are separate."
+}

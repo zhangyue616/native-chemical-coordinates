@@ -1,0 +1,16 @@
+{
+  "representation": "Frozen best-lift matrices and frozen gate summaries, not newly computed null-cloud coordinates.",
+  "matrix_files": [
+    "figure_S_C5_matrices/v4_chemberta_L0.npz",
+    "figure_S_C5_matrices/v4_chemberta_L1.npz",
+    "figure_S_C5_matrices/v4_chemberta_L2.npz",
+    "figure_S_C5_matrices/v4_chemeleon_main.npz",
+    "figure_S_C5_matrices/v4_chemeleon_mp3.npz"
+  ],
+  "gate_summary": "figure_S_C5_gates.json",
+  "initialization_twins": 39,
+  "orthogonal_rotations": 9,
+  "concept_count": 173,
+  "historical_family": "H3; separate from H4 v5 and MoLFormer v6",
+  "null_cloud_display_values_recomputed_during_packaging": false
+}

@@ -1,0 +1,4 @@
+# Frozen package list of the eight-checkpoint audit environment (Python 3.11.17).
+# Historical execution snapshot, not a clean-install validation. torch uses the CUDA 12.8 build.
+--extra-index-url https://download.pytorch.org/whl/cu128
+-r models/ENV_neuroaudit_freeze.txt

@@ -1,0 +1,258 @@
+{
+  "note": "CPU; textbook molecules; probability mass on stereo tokens at masked stereo positions",
+  "n_positions": 11,
+  "p_stereo_min": 0.3158058524131775,
+  "p_stereo_median": 0.9462251663208008,
+  "molecules": {
+    "L-alanine": {
+      "smiles": "C[C@H](N)C(=O)O",
+      "masked_positions": [
+        {
+          "position": 2,
+          "masked": "[C@H]",
+          "p_stereo": 0.5032328367233276,
+          "p_same": 0.3529146909713745,
+          "top3": [
+            [
+              "C",
+              0.49
+            ],
+            [
+              "[C@H]",
+              0.353
+            ],
+            [
+              "[C@@H]",
+              0.15
+            ]
+          ]
+        }
+      ]
+    },
+    "D-glucose (open chain)": {
+      "smiles": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O",
+      "masked_positions": [
+        {
+          "position": 3,
+          "masked": "[C@@H]",
+          "p_stereo": 0.9232072234153748,
+          "p_same": 0.29491305351257324,
+          "top3": [
+            [
+              "[C@H]",
+              0.628
+            ],
+            [
+              "[C@@H]",
+              0.295
+            ],
+            [
+              "C",
+              0.075
+            ]
+          ]
+        },
+        {
+          "position": 7,
+          "masked": "[C@@H]",
+          "p_stereo": 0.9843726754188538,
+          "p_same": 0.3924551010131836,
+          "top3": [
+            [
+              "[C@H]",
+              0.592
+            ],
+            [
+              "[C@@H]",
+              0.392
+            ],
+            [
+              "C",
+              0.016
+            ]
+          ]
+        },
+        {
+          "position": 11,
+          "masked": "[C@H]",
+          "p_stereo": 0.9787603616714478,
+          "p_same": 0.6377008557319641,
+          "top3": [
+            [
+              "[C@H]",
+              0.638
+            ],
+            [
+              "[C@@H]",
+              0.341
+            ],
+            [
+              "C",
+              0.021
+            ]
+          ]
+        },
+        {
+          "position": 15,
+          "masked": "[C@@H]",
+          "p_stereo": 0.9462251663208008,
+          "p_same": 0.4299205541610718,
+          "top3": [
+            [
+              "[C@H]",
+              0.516
+            ],
+            [
+              "[C@@H]",
+              0.43
+            ],
+            [
+              "C",
+              0.051
+            ]
+          ]
+        }
+      ]
+    },
+    "(R)-1-phenylethanol": {
+      "smiles": "C[C@@H](O)c1ccccc1",
+      "masked_positions": [
+        {
+          "position": 2,
+          "masked": "[C@@H]",
+          "p_stereo": 0.682942271232605,
+          "p_same": 0.35858502984046936,
+          "top3": [
+            [
+              "[C@@H]",
+              0.359
+            ],
+            [
+              "[C@H]",
+              0.324
+            ],
+            [
+              "C",
+              0.306
+            ]
+          ]
+        }
+      ]
+    },
+    "(E)-stilbene": {
+      "smiles": "C(=C/c1ccccc1)\\c1ccccc1",
+      "masked_positions": [
+        {
+          "position": 5,
+          "masked": "/",
+          "p_stereo": 0.989749014377594,
+          "p_same": 0.6454695463180542,
+          "top3": [
+            [
+              "/",
+              0.645
+            ],
+            [
+              "\\",
+              0.344
+            ],
+            [
+              "(",
+              0.006
+            ]
+          ]
+        },
+        {
+          "position": 15,
+          "masked": "\\",
+          "p_stereo": 0.6373206377029419,
+          "p_same": 0.384256511926651,
+          "top3": [
+            [
+              "\\",
+              0.384
+            ],
+            [
+              "/",
+              0.253
+            ],
+            [
+              "O",
+              0.123
+            ]
+          ]
+        }
+      ]
+    },
+    "(Z)-2-butene": {
+      "smiles": "C/C=C\\C",
+      "masked_positions": [
+        {
+          "position": 2,
+          "masked": "/",
+          "p_stereo": 0.9998406767845154,
+          "p_same": 0.994917631149292,
+          "top3": [
+            [
+              "/",
+              0.995
+            ],
+            [
+              "\\",
+              0.005
+            ],
+            [
+              "C",
+              0.0
+            ]
+          ]
+        },
+        {
+          "position": 6,
+          "masked": "\\",
+          "p_stereo": 0.9924142956733704,
+          "p_same": 0.5172650218009949,
+          "top3": [
+            [
+              "\\",
+              0.517
+            ],
+            [
+              "/",
+              0.475
+            ],
+            [
+              "C",
+              0.007
+            ]
+          ]
+        }
+      ]
+    },
+    "ibuprofen (S)": {
+      "smiles": "CC(C)Cc1ccc(cc1)[C@H](C)C(=O)O",
+      "masked_positions": [
+        {
+          "position": 17,
+          "masked": "[C@H]",
+          "p_stereo": 0.3158058524131775,
+          "p_same": 0.15662804245948792,
+          "top3": [
+            [
+              "C",
+              0.352
+            ],
+            [
+              "N",
+              0.318
+            ],
+            [
+              "[C@@H]",
+              0.159
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

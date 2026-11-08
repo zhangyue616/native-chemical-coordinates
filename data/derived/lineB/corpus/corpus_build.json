@@ -1,0 +1,24 @@
+{
+ "protocol": "lineB PROTOCOL_v1 O1",
+ "source": "CID-SMILES.gz",
+ "lines": 124717116,
+ "candidates": 250033,
+ "removed": {
+  "bio_structure": 1815,
+  "heavy_atoms": 14567,
+  "radical_or_isotope": 940,
+  "element": 919,
+  "parse_fail": 77,
+  "duplicate_canonical": 753
+ },
+ "kept_before_truncation": 230962,
+ "n_total": 50000,
+ "n_pilot": 20000,
+ "n_val": 10000,
+ "files_sha256": {
+  "corpus_50k.tsv": "5a4e1e80f9b637489a4176f13288a8a7344fb3a9354e9be6979f4ec3099facf8",
+  "pilot_20k.tsv": "97a9b454d4daa3656757f82fa3a2d3d078ac6e5d195d7ed0548d92ffebd9927f",
+  "val_10k.tsv": "4535f929b75ec59c02fbb662bb5b510e1ee7631ab8b71b2c5bb5065074e7a7c3",
+  "reserve_20k.tsv": "cfa06e400d9d3c54081f97056698177858f5423351fd3198e220d1112c884f1e"
+ }
+}

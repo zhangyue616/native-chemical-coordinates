@@ -1,0 +1,1173 @@
+{
+  "style": {
+    "atom_center_bond_length_pt": 6.4,
+    "black_bond_linewidth_pt": 0.6,
+    "atom_font_family": "Arial",
+    "atom_fontsize_pt": 7.0,
+    "match_circle_linewidth_pt": 0.9,
+    "match_circle_radius_pt": 3.2,
+    "match_circle_fill": "none",
+    "native_ink_margin_pt": 1.0,
+    "PNG_dpi": 600,
+    "whole_asset_scaling_allowed": false,
+    "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+    "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+  },
+  "width_pt": 46.32011832224916,
+  "height_pt": 37.9876390848619,
+  "paths": [
+    {
+      "vertices": [
+        [
+          0.8,
+          15.847161040688313
+        ],
+        [
+          6.063240737848498,
+          19.495411794958578
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-0 atom-0 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          6.063240737848498,
+          19.495411794958578
+        ],
+        [
+          11.849319959589232,
+          16.75922372925588
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-1 atom-1 atom-2",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          11.849319959589232,
+          16.75922372925588
+        ],
+        [
+          17.112560697437733,
+          20.401665167038452
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-2 atom-2 atom-3",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          17.112560697437733,
+          20.401665167038452
+        ],
+        [
+          22.898639919178468,
+          17.671286417823445
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-3 atom-3 atom-4",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          23.351766605218405,
+          17.984989508158787
+        ],
+        [
+          23.675481877247744,
+          14.084991230852921
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-4 atom-4 atom-5",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          22.393229384749304,
+          17.9094683938188
+        ],
+        [
+          22.710258412732003,
+          14.084991230852921
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-4 atom-4 atom-5",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          22.898639919178468,
+          17.671286417823445
+        ],
+        [
+          25.98450420022319,
+          19.81125603305476
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-5 atom-4 atom-6",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          30.331847950223185,
+          20.289687056548708
+        ],
+        [
+          33.942150562280005,
+          18.583349106391008
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-6 atom-6 atom-7",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          33.942150562280005,
+          18.583349106391008
+        ],
+        [
+          34.47079836265993,
+          12.204719602905744
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-7 atom-7 atom-8",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          34.47079836265993,
+          12.204719602905744
+        ],
+        [
+          40.25687758440067,
+          9.468531537203045
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-8 atom-8 atom-9",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          35.38286105122749,
+          12.832125783576423
+        ],
+        [
+          40.1639285205976,
+          10.57230166986443
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-8 atom-8 atom-9",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          40.25687758440067,
+          9.468531537203045
+        ],
+        [
+          40.55415122126159,
+          5.881093750000001
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-9 atom-9 atom-10",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          40.25687758440067,
+          9.468531537203045
+        ],
+        [
+          45.52011832224916,
+          13.110972974985614
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-10 atom-9 atom-11",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          45.52011832224916,
+          13.110972974985614
+        ],
+        [
+          44.99147052186924,
+          19.489602478470886
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-11 atom-11 atom-12",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          44.51510656987853,
+          13.58733692697632
+        ],
+        [
+          44.079407833301666,
+          18.862196297800203
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-11 atom-11 atom-12",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          44.99147052186924,
+          19.489602478470886
+        ],
+        [
+          39.205391300128504,
+          22.225790544173584
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-12 atom-12 atom-13",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          39.205391300128504,
+          22.225790544173584
+        ],
+        [
+          38.68255281623627,
+          28.604420047658845
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-13 atom-13 atom-14",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          38.68255281623627,
+          28.604420047658845
+        ],
+        [
+          38.37649029230268,
+          32.27717033486189
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-14 atom-14 atom-15",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          39.63528072021768,
+          28.685750478486526
+        ],
+        [
+          39.33986428079784,
+          32.27717033486189
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-14 atom-14 atom-15",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          37.72401559576717,
+          28.523089616831168
+        ],
+        [
+          37.41558173395713,
+          32.27717033486189
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-14 atom-14 atom-15",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          39.205391300128504,
+          22.225790544173584
+        ],
+        [
+          33.942150562280005,
+          18.583349106391008
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-15 atom-13 atom-7",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          39.298340363931565,
+          21.1220204115122
+        ],
+        [
+          34.947162314650626,
+          18.10698515440031
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-15 atom-13 atom-7",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          5.801821495902381,
+          19.309513667352448
+        ],
+        [
+          6.063240737848498,
+          19.495411794958578
+        ],
+        [
+          6.353706562233074,
+          19.35598819925398
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          11.558854135204657,
+          16.898647324960475
+        ],
+        [
+          11.849319959589232,
+          16.75922372925588
+        ],
+        [
+          12.110739201535349,
+          16.945121856862006
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          16.845332139003922,
+          20.221576355920018
+        ],
+        [
+          17.112560697437733,
+          20.401665167038452
+        ],
+        [
+          17.397217205334616,
+          20.268050887821545
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          22.608174094793892,
+          17.80490069704035
+        ],
+        [
+          22.898639919178468,
+          17.671286417823445
+        ],
+        [
+          23.090347363272283,
+          17.80490069704035
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          34.44175178022147,
+          12.524232009728777
+        ],
+        [
+          34.47079836265993,
+          12.204719602905744
+        ],
+        [
+          34.7612641870445,
+          12.065296007201148
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          45.252889763815354,
+          12.93088416386718
+        ],
+        [
+          45.52011832224916,
+          13.110972974985614
+        ],
+        [
+          45.4910717398107,
+          13.430485381808648
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          45.02051710430769,
+          19.170090071647852
+        ],
+        [
+          44.99147052186924,
+          19.489602478470886
+        ],
+        [
+          44.70100469748466,
+          19.629026074175478
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          38.705790082187036,
+          28.284907640835815
+        ],
+        [
+          38.68255281623627,
+          28.604420047658845
+        ],
+        [
+          38.659315550285505,
+          28.854220656629582
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    }
+  ],
+  "texts": [
+    {
+      "x": 20.688541609962495,
+      "y": 13.799678730852921,
+      "text": "O",
+      "source_class": "atom-5",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#CC3311"
+    },
+    {
+      "x": 25.650754200223187,
+      "y": 23.820331037846707,
+      "text": "N",
+      "source_class": "atom-6",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#0077BB"
+    },
+    {
+      "x": 25.650754200223187,
+      "y": 30.250518225160235,
+      "text": "H",
+      "source_class": "atom-6",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#0077BB"
+    },
+    {
+      "x": 37.556043108136876,
+      "y": 5.595781250000001,
+      "text": "C",
+      "source_class": "atom-10",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#009988"
+    },
+    {
+      "x": 42.59789442546227,
+      "y": 5.595781250000001,
+      "text": "l",
+      "source_class": "atom-10",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#009988"
+    },
+    {
+      "x": 35.646988028420374,
+      "y": 37.4876390848619,
+      "text": "N",
+      "source_class": "atom-15",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#0077BB"
+    }
+  ],
+  "circles": [],
+  "atoms": [
+    {
+      "index": 0,
+      "element": "C",
+      "x": 0.8018744651889225,
+      "y": 15.849498596684448,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 1,
+      "element": "C",
+      "x": 6.062848828125438,
+      "y": 19.49396683670585,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 2,
+      "element": "C",
+      "x": 11.849538088737795,
+      "y": 16.760063509754875,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 3,
+      "element": "C",
+      "x": 17.11051245167431,
+      "y": 20.404531749776282,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 4,
+      "element": "C",
+      "x": 22.897201712286673,
+      "y": 17.6706284228253,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 5,
+      "element": "O",
+      "x": 23.4229166099625,
+      "y": 11.29225685585292,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 6,
+      "element": "N",
+      "x": 28.158176075223185,
+      "y": 21.315096662846706,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 7,
+      "element": "C",
+      "x": 33.94486533583553,
+      "y": 18.581193335895726,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 8,
+      "element": "C",
+      "x": 34.47058023351138,
+      "y": 12.202821768923346,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 9,
+      "element": "C",
+      "x": 40.25726949412374,
+      "y": 9.468918441972377,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 10,
+      "element": "Cl",
+      "x": 40.78298439179957,
+      "y": 3.0905468750000007,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 11,
+      "element": "C",
+      "x": 45.51824385706024,
+      "y": 13.113386681993784,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 12,
+      "element": "C",
+      "x": 44.992528959384416,
+      "y": 19.49175824896616,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 13,
+      "element": "C",
+      "x": 39.205839698772046,
+      "y": 22.225661575917137,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 14,
+      "element": "C",
+      "x": 38.68012480109621,
+      "y": 28.60403314288951,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 15,
+      "element": "N",
+      "x": 38.15440990342037,
+      "y": 34.982404709861896,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    }
+  ],
+  "bonds": [
+    {
+      "index": 0,
+      "begin": 0,
+      "end": 1,
+      "type": "SINGLE"
+    },
+    {
+      "index": 1,
+      "begin": 1,
+      "end": 2,
+      "type": "SINGLE"
+    },
+    {
+      "index": 2,
+      "begin": 2,
+      "end": 3,
+      "type": "SINGLE"
+    },
+    {
+      "index": 3,
+      "begin": 3,
+      "end": 4,
+      "type": "SINGLE"
+    },
+    {
+      "index": 4,
+      "begin": 4,
+      "end": 5,
+      "type": "DOUBLE"
+    },
+    {
+      "index": 5,
+      "begin": 4,
+      "end": 6,
+      "type": "SINGLE"
+    },
+    {
+      "index": 6,
+      "begin": 6,
+      "end": 7,
+      "type": "SINGLE"
+    },
+    {
+      "index": 7,
+      "begin": 7,
+      "end": 8,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 8,
+      "begin": 8,
+      "end": 9,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 9,
+      "begin": 9,
+      "end": 10,
+      "type": "SINGLE"
+    },
+    {
+      "index": 10,
+      "begin": 9,
+      "end": 11,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 11,
+      "begin": 11,
+      "end": 12,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 12,
+      "begin": 12,
+      "end": 13,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 13,
+      "begin": 13,
+      "end": 14,
+      "type": "SINGLE"
+    },
+    {
+      "index": 14,
+      "begin": 14,
+      "end": 15,
+      "type": "TRIPLE"
+    },
+    {
+      "index": 15,
+      "begin": 13,
+      "end": 7,
+      "type": "AROMATIC"
+    }
+  ],
+  "matched_atom_indices": [
+    4,
+    5
+  ],
+  "center_bond_lengths_pt": [
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4
+  ],
+  "source_RDKit_SVG": "Frozen figure source",
+  "source_SVG_to_point_unit": 0.10438615563820666,
+  "source_graph_is_query": false,
+  "source_graph_SMARTS": "[#6]-[#6]-[#6]-[#6]-[#6](=[#8])-[#7]-[#6]1:[#6]:[#6](-[#17]):[#6]:[#6]:[#6]:1-[#6]#[#7]",
+  "RDKit": "2026.03.6",
+  "metadata": {
+    "T_row_index": 263,
+    "source_file": "data/revision_20261017/chemistry/sealed/T.tsv",
+    "source_line_number": 265,
+    "source_line_verbatim": "5263\t60628745\t05e2639d5095165004982958b1bf17cc6ca4423888fea864ca244dd6c8c98c14\tb628d2fc3283c9fd6d4f69117b4e17a229033637d52f889d8cbdcd6702a1d247\t33978228\tCCCCC(=O)Nc1cc(Cl)ccc1C#N",
+    "source_fields_verbatim": {
+      "rank": "5263",
+      "cid": "60628745",
+      "cid_sha256": "05e2639d5095165004982958b1bf17cc6ca4423888fea864ca244dd6c8c98c14",
+      "canonical_smiles_sha256": "b628d2fc3283c9fd6d4f69117b4e17a229033637d52f889d8cbdcd6702a1d247",
+      "source_line": "33978228",
+      "smiles": "CCCCC(=O)Nc1cc(Cl)ccc1C#N"
+    },
+    "saved_rank": 5263,
+    "CID": 60628745,
+    "SMILES": "CCCCC(=O)Nc1cc(Cl)ccc1C#N",
+    "SMARTS_matches": {
+      "carbonyl": [
+        [
+          4,
+          5
+        ]
+      ],
+      "ketone": [],
+      "amide": [
+        [
+          6,
+          4,
+          5,
+          3
+        ]
+      ],
+      "amidine": []
+    },
+    "features": {
+      "fragments": 1,
+      "charged_atoms": 0,
+      "heavy_atoms": 16,
+      "heteroatoms": 4,
+      "rings": 1,
+      "tetrahedral_stereocenters": [],
+      "chiral_atoms": [],
+      "bond_directions": [],
+      "stereo_bonds": []
+    },
+    "accepted": true,
+    "chemical_rejection_reasons": [],
+    "role": "Fig1 held-out example; new Fig4 also reuses T1 at native size",
+    "query_definition": "[CX3]=[OX1]",
+    "concept_id": 24,
+    "matched_atom_semantics": "Only the actual carbonyl C/O pair; orange open circles are query matches, not neural responses",
+    "selection_scan": "T_first_three_selection_scan.json",
+    "score_response_access": false
+  },
+  "geometry_finalized": true,
+  "chemical_graph_modified": false,
+  "text_override": "All actual SVG text kept; Arial7pt primary-symbol ink alignment in exporter preserves within-atom component baseline differences",
+  "atom_label_alignment_records": [
+    {
+      "atom_index": 5,
+      "primary_symbol": "O",
+      "text_component_indices": [
+        0
+      ],
+      "translation_pt": [
+        -3.552713678800501e-15,
+        -1.7763568394002505e-15
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "atom_index": 6,
+      "primary_symbol": "N",
+      "text_component_indices": [
+        1,
+        2
+      ],
+      "translation_pt": [
+        7.105427357601002e-15,
+        0.0
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "atom_index": 10,
+      "primary_symbol": "Cl",
+      "text_component_indices": [
+        3,
+        4
+      ],
+      "translation_pt": [
+        0.0,
+        2.220446049250313e-15
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "atom_index": 15,
+      "primary_symbol": "N",
+      "text_component_indices": [
+        5
+      ],
+      "translation_pt": [
+        -7.105427357601002e-15,
+        0.0
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+  "native_ink_bounds_pt": [
+    1.0,
+    1.0,
+    82.11999999999999,
+    63.519999999999996
+  ],
+  "text_clearance_display_repair": {
+    "pad_pt": 0.2,
+    "straight_paths_trimmed": 8,
+    "graph_atoms_bonds_and_text_positions_unchanged": true,
+    "reason": "Fixed Arial7 label ink is not reduced with center geometry"
+  },
+  "halos": [
+    {
+      "x": 22.897201712286673,
+      "y": 17.6706284228253,
+      "atom_index": 4,
+      "radius_pt": 2.56,
+      "color": "#EE7733",
+      "alpha": 0.25
+    },
+    {
+      "x": 23.4229166099625,
+      "y": 11.29225685585292,
+      "atom_index": 5,
+      "radius_pt": 2.56,
+      "color": "#EE7733",
+      "alpha": 0.25
+    }
+  ],
+  "native_geometry_source": "manuscript/draft_round7_20261031/sources/chemical_assets/molecules/T1_CID60628745_geometry.json",
+  "CPK_palette": {
+    "N": "#0077BB",
+    "O": "#CC3311",
+    "S": "#CCBB44",
+    "Cl": "#009988",
+    "C": "#000000",
+    "R": "#000000",
+    "*": "#000000",
+    "H": "#000000"
+  },
+  "finalset_uniform_geometry_scale": 0.5565217391304347,
+  "finalset_atom_center_bond_length_pt": 6.4,
+  "query_halo_is_neural_response_evidence": false,
+  "identity_reuse_evidence": {
+    "atoms_identity_equal": true,
+    "bonds_exactly_equal": true,
+    "text_runs_exactly_equal": true,
+    "matched_atom_indices_exactly_equal": true,
+    "source_graph_SMARTS_exactly_equal": true
+  }
+}

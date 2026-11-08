@@ -1,0 +1,16 @@
+{
+  "CPU_seconds": 2.765625,
+  "created_utc": "2026-10-17T14:07:04.263866+00:00",
+  "model_identity": {
+    "files_sha256": {
+      "config.json": "facb9355e8252149f6f99dff5fd1e32e890c3c655362b261d0c81cd6b5839c85",
+      "model.safetensors": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189",
+      "special_tokens_map.json": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1",
+      "tokenizer_config.json": "7e9161ecdb548ec45a41cbc6b24aa4476fdd418461f491c4207baa99419a29ad",
+      "vocab.txt": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03"
+    },
+    "path": ".\\assets\\esm2_8m"
+  },
+  "model_load_attempts": 1,
+  "wall_seconds": 4.051549800002249
+}

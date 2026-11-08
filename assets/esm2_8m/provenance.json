@@ -1,0 +1,41 @@
+{
+  "downloaded_at_utc": "2026-10-16T05:39:58.217373+00:00",
+  "model_id": "facebook/esm2_t6_8M_UR50D",
+  "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+  "declared_license": "mit",
+  "license_evidence": "Hugging Face model card metadata; repository has no standalone LICENSE",
+  "metadata_source": "https://huggingface.co/api/models/facebook/esm2_t6_8M_UR50D/revision/c731040fcd8d73dceaa04b0a8e6329b345b0f5df?blobs=true",
+  "files": [
+    {
+      "file": "README.md",
+      "source": "https://huggingface.co/facebook/esm2_t6_8M_UR50D/resolve/c731040fcd8d73dceaa04b0a8e6329b345b0f5df/README.md",
+      "size": 1705
+    },
+    {
+      "file": "config.json",
+      "source": "https://huggingface.co/facebook/esm2_t6_8M_UR50D/resolve/c731040fcd8d73dceaa04b0a8e6329b345b0f5df/config.json",
+      "size": 775
+    },
+    {
+      "file": "model.safetensors",
+      "source": "https://huggingface.co/facebook/esm2_t6_8M_UR50D/resolve/c731040fcd8d73dceaa04b0a8e6329b345b0f5df/model.safetensors",
+      "size": 31384292,
+      "sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189"
+    },
+    {
+      "file": "special_tokens_map.json",
+      "source": "https://huggingface.co/facebook/esm2_t6_8M_UR50D/resolve/c731040fcd8d73dceaa04b0a8e6329b345b0f5df/special_tokens_map.json",
+      "size": 125
+    },
+    {
+      "file": "tokenizer_config.json",
+      "source": "https://huggingface.co/facebook/esm2_t6_8M_UR50D/resolve/c731040fcd8d73dceaa04b0a8e6329b345b0f5df/tokenizer_config.json",
+      "size": 95
+    },
+    {
+      "file": "vocab.txt",
+      "source": "https://huggingface.co/facebook/esm2_t6_8M_UR50D/resolve/c731040fcd8d73dceaa04b0a8e6329b345b0f5df/vocab.txt",
+      "size": 93
+    }
+  ]
+}

@@ -1,0 +1,1284 @@
+{
+  "style": {
+    "atom_center_bond_length_pt": 8.0,
+    "black_bond_linewidth_pt": 0.6,
+    "atom_font_family": "Arial",
+    "atom_fontsize_pt": 7.0,
+    "match_circle_linewidth_pt": 0.9,
+    "match_circle_radius_pt": 3.2,
+    "match_circle_fill": "none",
+    "native_ink_margin_pt": 1.0,
+    "PNG_dpi": 600,
+    "whole_asset_scaling_allowed": false,
+    "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+    "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+  },
+  "width_pt": 82.0540217265817,
+  "height_pt": 45.09839362071666,
+  "paths": [
+    {
+      "vertices": [
+        [
+          17.078928695252884,
+          40.52591760083844
+        ],
+        [
+          22.04810354790592,
+          34.25181237721559
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-0 atom-0 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          22.04810354790592,
+          34.25181237721559
+        ],
+        [
+          27.50793222004361,
+          35.055649485733
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-1 atom-1 atom-2",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          31.902937709469935,
+          32.95732144921354
+        ],
+        [
+          34.9303761701199,
+          29.136485323013936
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-2 atom-2 atom-3",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          34.9303761701199,
+          29.136485323013936
+        ],
+        [
+          33.53149081244025,
+          25.618393042879326
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-3 atom-3 atom-4",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          33.55236969837577,
+          28.93813590662652
+        ],
+        [
+          32.4144704148901,
+          26.067289090492938
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-3 atom-3 atom-4",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          29.522744712820998,
+          21.338221426098347
+        ],
+        [
+          24.06291604068331,
+          20.544823760548702
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-4 atom-4 atom-5",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          24.06291604068331,
+          20.544823760548702
+        ],
+        [
+          21.108553680807656,
+          13.1015009245369
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-5 atom-5 atom-6",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          21.359100312033863,
+          13.748746388537924
+        ],
+        [
+          24.083794926618825,
+          10.314169652145385
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-6 atom-6 atom-7",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          20.4195504449356,
+          13.007545937827073
+        ],
+        [
+          23.14424505952056,
+          9.562529758466773
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-6 atom-6 atom-7",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          21.108553680807656,
+          13.1015009245369
+        ],
+        [
+          15.64872500866997,
+          12.308103258987256
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-7 atom-6 atom-8",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          12.214148272277429,
+          9.489453657692465
+        ],
+        [
+          10.241093551371074,
+          4.509839362071666
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-8 atom-8 atom-9",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          10.731747370855723,
+          15.053676759507736
+        ],
+        [
+          8.226281058593687,
+          18.216827978738557
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-9 atom-8 atom-10",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          34.9303761701199,
+          29.136485323013936
+        ],
+        [
+          40.37976539928982,
+          29.94032243153134
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-10 atom-3 atom-11",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          44.785210331683906,
+          27.84199439501188
+        ],
+        [
+          47.8022093493661,
+          24.021158268812275
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-11 atom-11 atom-12",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          47.8022093493661,
+          24.021158268812275
+        ],
+        [
+          55.71530711892704,
+          25.190375881201227
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-12 atom-12 atom-13",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          55.71530711892704,
+          25.190375881201227
+        ],
+        [
+          60.68448197158008,
+          18.916270657578377
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-13 atom-13 atom-14",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          60.68448197158008,
+          18.916270657578377
+        ],
+        [
+          57.730119611704424,
+          11.472947821566576
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-14 atom-14 atom-15",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          61.540516294936275,
+          17.830568588931495
+        ],
+        [
+          59.097686640480795,
+          11.681736680921746
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-14 atom-14 atom-15",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          57.730119611704424,
+          11.472947821566576
+        ],
+        [
+          52.270290939566735,
+          10.679550156016932
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-15 atom-15 atom-16",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          57.730119611704424,
+          11.472947821566576
+        ],
+        [
+          62.69929446435747,
+          5.198842597943726
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-16 atom-15 atom-17",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          62.69929446435747,
+          5.198842597943726
+        ],
+        [
+          70.6123922339184,
+          6.368060210332676
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-17 atom-17 atom-18",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          63.21082716977763,
+          6.493333525945778
+        ],
+        [
+          69.74591846759445,
+          7.45376227897956
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-17 atom-17 atom-18",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          70.6123922339184,
+          6.368060210332676
+        ],
+        [
+          73.56675459379406,
+          13.800943603376718
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-18 atom-18 atom-19",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          73.56675459379406,
+          13.800943603376718
+        ],
+        [
+          68.59757974114102,
+          20.07504882699957
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-19 atom-19 atom-20",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          72.18874812204993,
+          13.60259418698931
+        ],
+        [
+          68.08604703572085,
+          18.790997341965276
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-19 atom-19 atom-20",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          68.59757974114102,
+          20.07504882699957
+        ],
+        [
+          70.57063446204737,
+          25.054663122620365
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-20 atom-20 atom-21",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          55.71530711892704,
+          25.190375881201227
+        ],
+        [
+          57.698801282801156,
+          30.169990176822026
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-21 atom-13 atom-22",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          56.216400381379444,
+          35.72377383566954
+        ],
+        [
+          53.710934069117414,
+          38.89736449786812
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-22 atom-22 atom-23",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          61.122938576225934,
+          32.978200335149054
+        ],
+        [
+          66.58276724836362,
+          33.78203744366646
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-23 atom-22 atom-24",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          68.59757974114102,
+          20.07504882699957
+        ],
+        [
+          60.68448197158008,
+          18.916270657578377
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-24 atom-20 atom-14",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          21.79755691667972,
+          34.56499566624835
+        ],
+        [
+          22.04810354790592,
+          34.25181237721559
+        ],
+        [
+          22.319529065067645,
+          34.29357014908663
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          24.33434155784503,
+          20.586581532419732
+        ],
+        [
+          24.06291604068331,
+          20.544823760548702
+        ],
+        [
+          23.906324396166934,
+          20.169003813709395
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          21.254705882356276,
+          13.477320871376206
+        ],
+        [
+          21.108553680807656,
+          13.1015009245369
+        ],
+        [
+          20.837128163645936,
+          13.070182595633625
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          47.65605714781749,
+          24.219507685199687
+        ],
+        [
+          47.8022093493661,
+          24.021158268812275
+        ],
+        [
+          48.198908182140926,
+          24.083794926618825
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          62.44874783313127,
+          5.5224653299442386
+        ],
+        [
+          62.69929446435747,
+          5.198842597943726
+        ],
+        [
+          63.08555385416452,
+          5.2614792557502765
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          70.21569340114358,
+          6.3054235525261255
+        ],
+        [
+          70.6123922339184,
+          6.368060210332676
+        ],
+        [
+          70.75854443546702,
+          6.733440714204224
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          73.41016294927768,
+          13.425123656537412
+        ],
+        [
+          73.56675459379406,
+          13.800943603376718
+        ],
+        [
+          73.31620796256784,
+          14.114126892409471
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6
+    }
+  ],
+  "texts": [
+    {
+      "x": 27.768918294237572,
+      "y": 39.06439558535225,
+      "text": "N",
+      "source_class": "atom-2",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 32.81116924766492,
+      "y": 39.06439558535225,
+      "text": "H",
+      "source_class": "atom-2",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 29.78373078701496,
+      "y": 25.357406968685364,
+      "text": "N",
+      "source_class": "atom-4",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 23.875006067263655,
+      "y": 10.48120073962952,
+      "text": "O",
+      "source_class": "atom-7",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 11.003172888017446,
+      "y": 15.596527793831179,
+      "text": "N",
+      "source_class": "atom-8",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 40.65119091645154,
+      "y": 33.949068531150594,
+      "text": "N",
+      "source_class": "atom-11",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 45.69344186987889,
+      "y": 33.949068531150594,
+      "text": "H",
+      "source_class": "atom-11",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 47.62473881891421,
+      "y": 13.967974690860855,
+      "text": "F",
+      "source_class": "atom-16",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 69.35965907778738,
+      "y": 31.161737258759082,
+      "text": "F",
+      "source_class": "atom-21",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 56.47738645557341,
+      "y": 36.27706431296074,
+      "text": "N",
+      "source_class": "atom-22",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    }
+  ],
+  "circles": [],
+  "atoms": [
+    {
+      "index": 0,
+      "element": "C",
+      "x": 17.08371696967558,
+      "y": 40.52591760083844,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 1,
+      "element": "C",
+      "x": 22.047096320466093,
+      "y": 34.25177499645445,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 2,
+      "element": "N",
+      "x": 29.962352878224138,
+      "y": 35.41311630066615,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 3,
+      "element": "C",
+      "x": 34.92573222901465,
+      "y": 29.138973696282164,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 4,
+      "element": "N",
+      "x": 31.973855022047115,
+      "y": 21.703489787686465,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 5,
+      "element": "C",
+      "x": 24.058598464289062,
+      "y": 20.542148483474758,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 6,
+      "element": "C",
+      "x": 21.106721257321535,
+      "y": 13.106664574879066,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 7,
+      "element": "O",
+      "x": 26.070100608112046,
+      "y": 6.832521970495081,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 8,
+      "element": "N",
+      "x": 13.191464699563488,
+      "y": 11.94532327066736,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 9,
+      "element": "C",
+      "x": 10.23958749259595,
+      "y": 4.509839362071666,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 10,
+      "element": "C",
+      "x": 8.228085348772984,
+      "y": 18.21946587505136,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 11,
+      "element": "N",
+      "x": 42.8409887867727,
+      "y": 30.30031500049386,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 12,
+      "element": "C",
+      "x": 47.80436813756321,
+      "y": 24.026172396109867,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 13,
+      "element": "C",
+      "x": 55.719624695321265,
+      "y": 25.18751370032157,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 14,
+      "element": "C",
+      "x": 60.68300404611177,
+      "y": 18.91337109593758,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 15,
+      "element": "C",
+      "x": 57.73112683914424,
+      "y": 11.477887187341883,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 16,
+      "element": "F",
+      "x": 49.81587028138618,
+      "y": 10.316545883130177,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 17,
+      "element": "C",
+      "x": 62.69450618993474,
+      "y": 5.203744582957893,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 18,
+      "element": "C",
+      "x": 70.6097627476928,
+      "y": 6.3650858871696006,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 19,
+      "element": "C",
+      "x": 73.56163995466034,
+      "y": 13.800569795765291,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 20,
+      "element": "C",
+      "x": 68.59826060386982,
+      "y": 20.07471240014928,
+      "formal_charge": 0,
+      "is_aromatic": true,
+      "query_description": null
+    },
+    {
+      "index": 21,
+      "element": "F",
+      "x": 71.55013781083736,
+      "y": 27.51019630874498,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 22,
+      "element": "N",
+      "x": 58.6715019022888,
+      "y": 32.62299760891726,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 23,
+      "element": "C",
+      "x": 53.708122551498285,
+      "y": 38.897140213301256,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 24,
+      "element": "C",
+      "x": 66.58675846004685,
+      "y": 33.78433891312897,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    }
+  ],
+  "bonds": [
+    {
+      "index": 0,
+      "begin": 0,
+      "end": 1,
+      "type": "SINGLE"
+    },
+    {
+      "index": 1,
+      "begin": 1,
+      "end": 2,
+      "type": "SINGLE"
+    },
+    {
+      "index": 2,
+      "begin": 2,
+      "end": 3,
+      "type": "SINGLE"
+    },
+    {
+      "index": 3,
+      "begin": 3,
+      "end": 4,
+      "type": "DOUBLE"
+    },
+    {
+      "index": 4,
+      "begin": 4,
+      "end": 5,
+      "type": "SINGLE"
+    },
+    {
+      "index": 5,
+      "begin": 5,
+      "end": 6,
+      "type": "SINGLE"
+    },
+    {
+      "index": 6,
+      "begin": 6,
+      "end": 7,
+      "type": "DOUBLE"
+    },
+    {
+      "index": 7,
+      "begin": 6,
+      "end": 8,
+      "type": "SINGLE"
+    },
+    {
+      "index": 8,
+      "begin": 8,
+      "end": 9,
+      "type": "SINGLE"
+    },
+    {
+      "index": 9,
+      "begin": 8,
+      "end": 10,
+      "type": "SINGLE"
+    },
+    {
+      "index": 10,
+      "begin": 3,
+      "end": 11,
+      "type": "SINGLE"
+    },
+    {
+      "index": 11,
+      "begin": 11,
+      "end": 12,
+      "type": "SINGLE"
+    },
+    {
+      "index": 12,
+      "begin": 12,
+      "end": 13,
+      "type": "SINGLE"
+    },
+    {
+      "index": 13,
+      "begin": 13,
+      "end": 14,
+      "type": "SINGLE"
+    },
+    {
+      "index": 14,
+      "begin": 14,
+      "end": 15,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 15,
+      "begin": 15,
+      "end": 16,
+      "type": "SINGLE"
+    },
+    {
+      "index": 16,
+      "begin": 15,
+      "end": 17,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 17,
+      "begin": 17,
+      "end": 18,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 18,
+      "begin": 18,
+      "end": 19,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 19,
+      "begin": 19,
+      "end": 20,
+      "type": "AROMATIC"
+    },
+    {
+      "index": 20,
+      "begin": 20,
+      "end": 21,
+      "type": "SINGLE"
+    },
+    {
+      "index": 21,
+      "begin": 13,
+      "end": 22,
+      "type": "SINGLE"
+    },
+    {
+      "index": 22,
+      "begin": 22,
+      "end": 23,
+      "type": "SINGLE"
+    },
+    {
+      "index": 23,
+      "begin": 22,
+      "end": 24,
+      "type": "SINGLE"
+    },
+    {
+      "index": 24,
+      "begin": 20,
+      "end": 14,
+      "type": "AROMATIC"
+    }
+  ],
+  "matched_atom_indices": [],
+  "center_bond_lengths_pt": [
+    7.9999999999999964,
+    7.999999999999991,
+    7.999999999999991,
+    8.000000000000002,
+    8.0,
+    7.999999999999993,
+    7.999999999999993,
+    7.999999999999995,
+    7.999999999999998,
+    7.999999999999999,
+    7.999999999999995,
+    7.999999999999999,
+    8.000000000000004,
+    7.999999999999992,
+    7.999999999999999,
+    8.000000000000004,
+    7.999999999999993,
+    8.000000000000004,
+    7.999999999999996,
+    8.000000000000002,
+    8.000000000000004,
+    7.999999999999994,
+    8.000000000000007,
+    7.999999999999997,
+    7.999999999999996
+  ],
+  "source_RDKit_SVG": "Frozen figure source",
+  "source_SVG_to_point_unit": 0.10439442967758486,
+  "source_graph_is_query": false,
+  "source_graph_SMARTS": "[#6]-[#6]-[#7]-[#6](=[#7]-[#6]-[#6](=[#8])-[#7](-[#6])-[#6])-[#7]-[#6]-[#6](-[#6]1:[#6](-[#9]):[#6]:[#6]:[#6]:[#6]:1-[#9])-[#7](-[#6])-[#6]",
+  "RDKit": "2026.03.6",
+  "metadata": {
+    "selection_source": "manuscript/draft_round8_20261102/sources/fig24_atom_activation/selected_saved_atom_values_20261102.json",
+    "molecule_id": 111796826,
+    "exact_input_SMILES": "CCNC(=NCC(=O)N(C)C)NCC(c1c(F)cccc1F)N(C)C",
+    "atom_order": "Chem.MolFromSmiles exact input; no renumbering",
+    "scientific_prediction_computed": false,
+    "style_source": "R7 Figure1 polish_20261102_v02 full molecules: 8pt bonds, Arial7, 0.6pt ink"
+  },
+  "geometry_finalized": false,
+  "chemical_graph_modified": false,
+  "text_override": "All actual SVG text kept; Arial7pt primary-symbol ink alignment in exporter preserves within-atom component baseline differences"
+}

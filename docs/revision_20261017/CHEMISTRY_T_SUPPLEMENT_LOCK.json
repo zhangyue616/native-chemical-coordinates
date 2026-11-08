@@ -1,0 +1,9 @@
+{
+  "status": "T_OPERATIONAL_SUPPLEMENT_FROZEN_BEFORE_T_OUTPUT",
+  "created_utc": "2026-10-17T13:49:03.8450343+00:00",
+  "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+  "supplement_sha256": "c19bbb63dac9f6b23d93efcc9c37076a2d7fbe008cc0321266cd953ec0fa3fd5",
+  "T_scientific_outputs_read": 0,
+  "T_execution_authorized": false,
+  "scope": "fullT rho seed45018, H seed45017, separate 3-object families and object IUT"
+}

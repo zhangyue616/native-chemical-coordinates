@@ -1,0 +1,112 @@
+{
+  "style": {
+    "atom_center_bond_length_pt": 11.5,
+    "black_bond_linewidth_pt": 0.6,
+    "atom_font_family": "Arial",
+    "atom_fontsize_pt": 7.0,
+    "match_circle_linewidth_pt": 0.9,
+    "match_circle_radius_pt": 3.2,
+    "match_circle_fill": "none",
+    "native_ink_margin_pt": 1.0,
+    "PNG_dpi": 600,
+    "whole_asset_scaling_allowed": false,
+    "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+    "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+  },
+  "width_pt": 29.959999999999997,
+  "height_pt": 20.839999999999996,
+  "paths": [
+    {
+      "vertices": [
+        [
+          10.149240837311787,
+          4.719999694824223
+        ],
+        [
+          16.468326551597503,
+          4.719999694824223
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-0 atom-0 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6
+    }
+  ],
+  "texts": [
+    {
+      "x": 4.996249999999998,
+      "y": 7.225234069824223,
+      "text": "C",
+      "source_class": "atom-0",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 16.325625,
+      "y": 7.227421569824223,
+      "text": "O",
+      "source_class": "atom-1",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 21.404024999999997,
+      "y": 7.227421569824223,
+      "text": "H",
+      "source_class": "atom-1",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 0.5599999999999987,
+      "y": 19.71999969482422,
+      "text": "non-C=O",
+      "color": "#7F7F7F",
+      "anchor": "start",
+      "font_size_pt": 7,
+      "font_family": "Arial",
+      "source_class": "derived-condition-label"
+    }
+  ],
+  "circles": [
+    {
+      "x": 7.559999999999999,
+      "y": 4.719999694824223,
+      "atom_index": 0,
+      "radius_pt": 3.2,
+      "color": "#000000",
+      "linewidth_pt": 0.9
+    },
+    {
+      "x": 19.06,
+      "y": 4.719999694824223,
+      "atom_index": 1,
+      "radius_pt": 3.2,
+      "color": "#000000",
+      "linewidth_pt": 0.9
+    }
+  ],
+  "matched_atom_indices": [
+    0,
+    1
+  ],
+  "source_SVG_to_point_unit": 0.10514285714285718,
+  "geometry_finalized": true,
+  "metadata": {
+    "asset_kind": "released_display_glyph_not_complete_frozen_query",
+    "concept_id": 26,
+    "source_token": "frag:fr_Al_OH",
+    "approved_display_name": "Aliphatic OH",
+    "frozen_definition": "[C!$(C=O)]-[OH]"
+  }
+}

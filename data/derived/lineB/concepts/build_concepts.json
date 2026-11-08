@@ -1,0 +1,25 @@
+{
+ "protocol": "lineB PROTOCOL_v1 O2",
+ "molecules": 20000,
+ "atoms": 494367,
+ "unparseable_smarts": [],
+ "stats": {
+  "defined_noninput": 4028,
+  "noninput_with_any_hit": 3995,
+  "noninput_in_prevalence_range": 179,
+  "moved_to_input_partition": 1,
+  "removed_as_duplicate": 5,
+  "kept_readable": 173
+ },
+ "dup_of": {
+  "frag:fr_COO2": "fg:CarboxylicAcid",
+  "frag:fr_Nhpyrrole": "frag:fr_Ar_NH",
+  "ertl:cBr": "fg:Halogen.Bromine.Aromatic",
+  "ertl:cC(=O)O": "fg:CarboxylicAcid.Aromatic",
+  "ertl:csc": "topo:aromatic_S"
+ },
+ "moved_to_input": {
+  "fg:Halogen.Bromine": "input:element_Br"
+ },
+ "concepts_sha256": "0feeb77ab4afb8e7237d6e70926f4f79e247006f2bf9b28944caa7143254ce47"
+}

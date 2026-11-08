@@ -1,0 +1,8 @@
+{
+ "protocol": "lineB PROTOCOL_v2 §2",
+ "molecules": 10000,
+ "atoms": 245749,
+ "concepts": 200,
+ "concepts_json_sha256": "0feeb77ab4afb8e7237d6e70926f4f79e247006f2bf9b28944caa7143254ce47",
+ "readable_with_zero_positives": []
+}

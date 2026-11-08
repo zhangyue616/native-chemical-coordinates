@@ -1,0 +1,888 @@
+{
+  "protocol": "lineB PROTOCOL_v4",
+  "models": {
+    "chemeleon": {
+      "main": {
+        "all": {
+          "J1": {
+            "T_target": 0.5658811323551207,
+            "T_competitors_max": 0.5606936416184971,
+            "T_competitors_median": 0.4948866162738995,
+            "p": 0.025,
+            "E_median_log_ratio": 0.11463619993193497,
+            "win_fraction": 0.23699421965317918,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.9127019416036758,
+            "T_competitors_max": 0.5340151178301468,
+            "T_competitors_median": 0.4939973321476211,
+            "p": 0.025,
+            "E_median_log_ratio": 0.6736251108387732,
+            "win_fraction": 0.5664739884393064,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "joint_pass": true,
+          "n_concepts": 173
+        },
+        "common": {
+          "J1": {
+            "T_target": 0.6907297830374753,
+            "T_competitors_max": 0.5905325443786983,
+            "T_competitors_median": 0.501775147928994,
+            "p": 0.025,
+            "E_median_log_ratio": 0.21917055914365546,
+            "win_fraction": 0.4,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "J2": {
+            "T_target": 0.9333333333333333,
+            "T_competitors_max": 0.5723865877712031,
+            "T_competitors_median": 0.4903353057199211,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5820150331529135,
+            "win_fraction": 0.6461538461538462,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "joint_pass": true,
+          "n_concepts": 65
+        },
+        "rare": {
+          "J1": {
+            "T_target": 0.4907407407407406,
+            "T_competitors_max": 0.5700379867046533,
+            "T_competitors_median": 0.4985754985754986,
+            "p": 0.575,
+            "E_median_log_ratio": 0.029587889874739037,
+            "win_fraction": 0.1388888888888889,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "J2": {
+            "T_target": 0.9002849002849004,
+            "T_competitors_max": 0.5655270655270656,
+            "T_competitors_median": 0.4876543209876543,
+            "p": 0.025,
+            "E_median_log_ratio": 0.8100984110058029,
+            "win_fraction": 0.5185185185185185,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "joint_pass": false,
+          "n_concepts": 108
+        },
+        "curated": {
+          "J1": {
+            "T_target": 0.6970977740208508,
+            "T_competitors_max": 0.5666384897154126,
+            "T_competitors_median": 0.49760495914342073,
+            "p": 0.025,
+            "E_median_log_ratio": 0.24707656960614122,
+            "win_fraction": 0.3626373626373626,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "J2": {
+            "T_target": 0.9382924767540153,
+            "T_competitors_max": 0.5579036348267117,
+            "T_competitors_median": 0.49027895181741343,
+            "p": 0.025,
+            "E_median_log_ratio": 0.7796088646024921,
+            "win_fraction": 0.6923076923076923,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "joint_pass": true,
+          "n_concepts": 91
+        }
+      },
+      "mp3": {
+        "all": {
+          "J1": {
+            "T_target": 0.28701645175633617,
+            "T_competitors_max": 0.603453386690381,
+            "T_competitors_median": 0.5063732029049948,
+            "p": 1.0,
+            "E_median_log_ratio": -0.2592949193988403,
+            "win_fraction": 0.03468208092485549,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.8209574625759598,
+            "T_competitors_max": 0.5617311397658219,
+            "T_competitors_median": 0.4913294797687861,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5381895804105477,
+            "win_fraction": 0.47398843930635837,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "joint_pass": false,
+          "n_concepts": 173
+        },
+        "common": {
+          "J1": {
+            "T_target": 0.24299802761341222,
+            "T_competitors_max": 0.5936883629191321,
+            "T_competitors_median": 0.512820512820513,
+            "p": 1.0,
+            "E_median_log_ratio": -0.24729665581042282,
+            "win_fraction": 0.03076923076923077,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "J2": {
+            "T_target": 0.7534516765285996,
+            "T_competitors_max": 0.5637080867850097,
+            "T_competitors_median": 0.4923076923076924,
+            "p": 0.025,
+            "E_median_log_ratio": 0.27622922233425745,
+            "win_fraction": 0.4,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "joint_pass": false,
+          "n_concepts": 65
+        },
+        "rare": {
+          "J1": {
+            "T_target": 0.3135090218423552,
+            "T_competitors_max": 0.6093304843304843,
+            "T_competitors_median": 0.5067663817663817,
+            "p": 1.0,
+            "E_median_log_ratio": -0.26212342037472003,
+            "win_fraction": 0.037037037037037035,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "J2": {
+            "T_target": 0.8615859449192783,
+            "T_competitors_max": 0.5667141500474834,
+            "T_competitors_median": 0.49002849002848997,
+            "p": 0.025,
+            "E_median_log_ratio": 0.6514576659156204,
+            "win_fraction": 0.5185185185185185,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "joint_pass": false,
+          "n_concepts": 108
+        },
+        "curated": {
+          "J1": {
+            "T_target": 0.33981403212172445,
+            "T_competitors_max": 0.6193293885601577,
+            "T_competitors_median": 0.5033812341504649,
+            "p": 1.0,
+            "E_median_log_ratio": -0.2029054911046575,
+            "win_fraction": 0.054945054945054944,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "J2": {
+            "T_target": 0.8157227387996618,
+            "T_competitors_max": 0.5753733446041137,
+            "T_competitors_median": 0.49027895181741343,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5137996199267001,
+            "win_fraction": 0.5604395604395604,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "joint_pass": false,
+          "n_concepts": 91
+        }
+      }
+    },
+    "chemberta_mlm": {
+      "L2": {
+        "all": {
+          "J1": {
+            "T_target": 0.8636431006373203,
+            "T_competitors_max": 0.5759596857862753,
+            "T_competitors_median": 0.4842152067585594,
+            "p": 0.025,
+            "E_median_log_ratio": 0.8724190203542823,
+            "win_fraction": 0.7630057803468208,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.8335556543649029,
+            "T_competitors_max": 0.577738254038832,
+            "T_competitors_median": 0.48851341336890475,
+            "p": 0.025,
+            "E_median_log_ratio": 0.43617528731386945,
+            "win_fraction": 0.6242774566473989,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "joint_pass": true,
+          "n_concepts": 173
+        },
+        "common": {
+          "J1": {
+            "T_target": 0.8603550295857988,
+            "T_competitors_max": 0.5897435897435898,
+            "T_competitors_median": 0.4867850098619329,
+            "p": 0.025,
+            "E_median_log_ratio": 0.7169344472158956,
+            "win_fraction": 0.7846153846153846,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "J2": {
+            "T_target": 0.8840236686390534,
+            "T_competitors_max": 0.5889546351084813,
+            "T_competitors_median": 0.4930966469428008,
+            "p": 0.025,
+            "E_median_log_ratio": 0.3454737809148414,
+            "win_fraction": 0.7846153846153846,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "joint_pass": true,
+          "n_concepts": 65
+        },
+        "rare": {
+          "J1": {
+            "T_target": 0.8656220322886989,
+            "T_competitors_max": 0.6013770180436848,
+            "T_competitors_median": 0.48979107312440645,
+            "p": 0.025,
+            "E_median_log_ratio": 1.0579570988307403,
+            "win_fraction": 0.75,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "J2": {
+            "T_target": 0.8031813865147198,
+            "T_competitors_max": 0.6054131054131053,
+            "T_competitors_median": 0.48646723646723655,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5081450753296508,
+            "win_fraction": 0.5277777777777778,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "joint_pass": true,
+          "n_concepts": 108
+        },
+        "curated": {
+          "J1": {
+            "T_target": 0.8447449985911525,
+            "T_competitors_max": 0.5948154409692871,
+            "T_competitors_median": 0.4843617920540997,
+            "p": 0.025,
+            "E_median_log_ratio": 0.7899717761526954,
+            "win_fraction": 0.7582417582417582,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "J2": {
+            "T_target": 0.8608058608058609,
+            "T_competitors_max": 0.556494787264018,
+            "T_competitors_median": 0.4761904761904762,
+            "p": 0.025,
+            "E_median_log_ratio": 0.38537598825235453,
+            "win_fraction": 0.6813186813186813,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "joint_pass": true,
+          "n_concepts": 91
+        }
+      },
+      "L0": {
+        "all": {
+          "J1": {
+            "T_target": 0.8796502149103306,
+            "T_competitors_max": 0.5749221876389506,
+            "T_competitors_median": 0.4994812509263376,
+            "p": 0.025,
+            "E_median_log_ratio": 0.727743657450069,
+            "win_fraction": 0.7456647398843931,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.7598932859048465,
+            "T_competitors_max": 0.5927078701645175,
+            "T_competitors_median": 0.49473840225285315,
+            "p": 0.025,
+            "E_median_log_ratio": 0.3797504574769204,
+            "win_fraction": 0.5549132947976878,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "joint_pass": true,
+          "n_concepts": 173
+        },
+        "common": {
+          "J1": {
+            "T_target": 0.8777120315581854,
+            "T_competitors_max": 0.650887573964497,
+            "T_competitors_median": 0.4907297830374753,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5722038627295492,
+            "win_fraction": 0.8307692307692308,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "J2": {
+            "T_target": 0.8461538461538461,
+            "T_competitors_max": 0.619723865877712,
+            "T_competitors_median": 0.49428007889546355,
+            "p": 0.025,
+            "E_median_log_ratio": 0.35812594746632037,
+            "win_fraction": 0.7076923076923077,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "joint_pass": true,
+          "n_concepts": 65
+        },
+        "rare": {
+          "J1": {
+            "T_target": 0.8808167141500475,
+            "T_competitors_max": 0.568613485280152,
+            "T_competitors_median": 0.4978632478632478,
+            "p": 0.025,
+            "E_median_log_ratio": 0.85729873619693,
+            "win_fraction": 0.6944444444444444,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "J2": {
+            "T_target": 0.707977207977208,
+            "T_competitors_max": 0.5776353276353275,
+            "T_competitors_median": 0.4957264957264958,
+            "p": 0.025,
+            "E_median_log_ratio": 0.40506479766103043,
+            "win_fraction": 0.46296296296296297,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "joint_pass": true,
+          "n_concepts": 108
+        },
+        "curated": {
+          "J1": {
+            "T_target": 0.8740490278951818,
+            "T_competitors_max": 0.5965060580445196,
+            "T_competitors_median": 0.5007044237813467,
+            "p": 0.025,
+            "E_median_log_ratio": 0.8165082915336541,
+            "win_fraction": 0.8131868131868132,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "J2": {
+            "T_target": 0.8300929839391379,
+            "T_competitors_max": 0.5810087348548887,
+            "T_competitors_median": 0.5001408847562694,
+            "p": 0.025,
+            "E_median_log_ratio": 0.4050620547871492,
+            "win_fraction": 0.6593406593406593,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "joint_pass": true,
+          "n_concepts": 91
+        }
+      },
+      "L1": {
+        "all": {
+          "J1": {
+            "T_target": 0.8989180376463612,
+            "T_competitors_max": 0.5769971839336001,
+            "T_competitors_median": 0.4856973469690232,
+            "p": 0.025,
+            "E_median_log_ratio": 0.9586550019646429,
+            "win_fraction": 0.8092485549132948,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.7960575070401661,
+            "T_competitors_max": 0.5433526011560693,
+            "T_competitors_median": 0.5012598191788944,
+            "p": 0.025,
+            "E_median_log_ratio": 0.3317755092181133,
+            "win_fraction": 0.5202312138728323,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "joint_pass": true,
+          "n_concepts": 173
+        },
+        "common": {
+          "J1": {
+            "T_target": 0.8785009861932939,
+            "T_competitors_max": 0.6339250493096646,
+            "T_competitors_median": 0.4958579881656804,
+            "p": 0.025,
+            "E_median_log_ratio": 0.6528853952658134,
+            "win_fraction": 0.8307692307692308,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "J2": {
+            "T_target": 0.8863905325443787,
+            "T_competitors_max": 0.6205128205128205,
+            "T_competitors_median": 0.4808678500986193,
+            "p": 0.025,
+            "E_median_log_ratio": 0.23497577303273265,
+            "win_fraction": 0.6615384615384615,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "joint_pass": true,
+          "n_concepts": 65
+        },
+        "rare": {
+          "J1": {
+            "T_target": 0.9112060778727445,
+            "T_competitors_max": 0.5835707502374169,
+            "T_competitors_median": 0.4826685660018994,
+            "p": 0.025,
+            "E_median_log_ratio": 1.0739774683729908,
+            "win_fraction": 0.7962962962962963,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "J2": {
+            "T_target": 0.741690408357075,
+            "T_competitors_max": 0.561965811965812,
+            "T_competitors_median": 0.4969135802469136,
+            "p": 0.025,
+            "E_median_log_ratio": 0.3709624043973141,
+            "win_fraction": 0.4351851851851852,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "joint_pass": true,
+          "n_concepts": 108
+        },
+        "curated": {
+          "J1": {
+            "T_target": 0.8712313327697944,
+            "T_competitors_max": 0.6235559312482389,
+            "T_competitors_median": 0.49056072132995204,
+            "p": 0.025,
+            "E_median_log_ratio": 0.9095669558586548,
+            "win_fraction": 0.7912087912087912,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "J2": {
+            "T_target": 0.8560157790927022,
+            "T_competitors_max": 0.5714285714285714,
+            "T_competitors_median": 0.48633417864187095,
+            "p": 0.025,
+            "E_median_log_ratio": 0.31677425205565446,
+            "win_fraction": 0.6153846153846154,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "joint_pass": true,
+          "n_concepts": 91
+        }
+      }
+    },
+    "chemberta_mtr": {
+      "L2": {
+        "all": {
+          "J1": {
+            "T_target": 0.6548095449829554,
+            "T_competitors_max": 0.5807025344597598,
+            "T_competitors_median": 0.48940269749518306,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5773961155059295,
+            "win_fraction": 0.5895953757225434,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.8677930932266193,
+            "T_competitors_max": 0.5769971839336001,
+            "T_competitors_median": 0.4876241292426264,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5245294419245217,
+            "win_fraction": 0.653179190751445,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "joint_pass": true,
+          "n_concepts": 173
+        },
+        "common": {
+          "J1": {
+            "T_target": 0.6003944773175541,
+            "T_competitors_max": 0.5960552268244577,
+            "T_competitors_median": 0.4930966469428008,
+            "p": 0.025,
+            "E_median_log_ratio": 0.3291203901669346,
+            "win_fraction": 0.6,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "J2": {
+            "T_target": 0.9305719921104537,
+            "T_competitors_max": 0.588560157790927,
+            "T_competitors_median": 0.49191321499013807,
+            "p": 0.025,
+            "E_median_log_ratio": 0.4484804235658157,
+            "win_fraction": 0.8,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "joint_pass": true,
+          "n_concepts": 65
+        },
+        "rare": {
+          "J1": {
+            "T_target": 0.687559354226021,
+            "T_competitors_max": 0.6051756885090219,
+            "T_competitors_median": 0.4945394112060778,
+            "p": 0.025,
+            "E_median_log_ratio": 0.8530502970060068,
+            "win_fraction": 0.5833333333333334,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "J2": {
+            "T_target": 0.8300094966761634,
+            "T_competitors_max": 0.6051756885090218,
+            "T_competitors_median": 0.48504273504273504,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5827248047458594,
+            "win_fraction": 0.5648148148148148,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "joint_pass": true,
+          "n_concepts": 108
+        },
+        "curated": {
+          "J1": {
+            "T_target": 0.6813186813186813,
+            "T_competitors_max": 0.5987602141448295,
+            "T_competitors_median": 0.4885883347421809,
+            "p": 0.025,
+            "E_median_log_ratio": 0.9866195161668523,
+            "win_fraction": 0.6703296703296703,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "J2": {
+            "T_target": 0.9788672865595944,
+            "T_competitors_max": 0.5522682445759369,
+            "T_competitors_median": 0.4750633981403212,
+            "p": 0.025,
+            "E_median_log_ratio": 0.66024181037915,
+            "win_fraction": 0.8461538461538461,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "joint_pass": true,
+          "n_concepts": 91
+        }
+      },
+      "L0": {
+        "all": {
+          "J1": {
+            "T_target": 0.9777678968430414,
+            "T_competitors_max": 0.5718096931969764,
+            "T_competitors_median": 0.4969616125685489,
+            "p": 0.025,
+            "E_median_log_ratio": 1.092874433594351,
+            "win_fraction": 0.9132947976878613,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.6795612864977028,
+            "T_competitors_max": 0.5944864384170743,
+            "T_competitors_median": 0.4966651845264562,
+            "p": 0.025,
+            "E_median_log_ratio": 0.20501403660367495,
+            "win_fraction": 0.4046242774566474,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "joint_pass": true,
+          "n_concepts": 173
+        },
+        "common": {
+          "J1": {
+            "T_target": 0.9838264299802761,
+            "T_competitors_max": 0.6477317554240631,
+            "T_competitors_median": 0.4875739644970414,
+            "p": 0.025,
+            "E_median_log_ratio": 0.6842603634506341,
+            "win_fraction": 0.9384615384615385,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "J2": {
+            "T_target": 0.7282051282051283,
+            "T_competitors_max": 0.6220907297830374,
+            "T_competitors_median": 0.4974358974358974,
+            "p": 0.025,
+            "E_median_log_ratio": 0.20382657214686392,
+            "win_fraction": 0.5538461538461539,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "joint_pass": true,
+          "n_concepts": 65
+        },
+        "rare": {
+          "J1": {
+            "T_target": 0.9741215574548908,
+            "T_competitors_max": 0.5664767331433999,
+            "T_competitors_median": 0.4938271604938272,
+            "p": 0.025,
+            "E_median_log_ratio": 1.2732352295413885,
+            "win_fraction": 0.8981481481481481,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "J2": {
+            "T_target": 0.6502849002849004,
+            "T_competitors_max": 0.5781101614434947,
+            "T_competitors_median": 0.49762583095916435,
+            "p": 0.025,
+            "E_median_log_ratio": 0.20926299578919777,
+            "win_fraction": 0.3148148148148148,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "joint_pass": true,
+          "n_concepts": 108
+        },
+        "curated": {
+          "J1": {
+            "T_target": 0.9861932938856016,
+            "T_competitors_max": 0.5931248238940547,
+            "T_competitors_median": 0.49760495914342057,
+            "p": 0.025,
+            "E_median_log_ratio": 0.9675221564312368,
+            "win_fraction": 0.9230769230769231,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "J2": {
+            "T_target": 0.7283741899126515,
+            "T_competitors_max": 0.5829811214426599,
+            "T_competitors_median": 0.5029585798816568,
+            "p": 0.025,
+            "E_median_log_ratio": 0.27441454874338606,
+            "win_fraction": 0.5384615384615384,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "joint_pass": true,
+          "n_concepts": 91
+        }
+      },
+      "L1": {
+        "all": {
+          "J1": {
+            "T_target": 0.9521268712020158,
+            "T_competitors_max": 0.5753668297020899,
+            "T_competitors_median": 0.4840669927375129,
+            "p": 0.025,
+            "E_median_log_ratio": 2.4009008194525756,
+            "win_fraction": 0.9421965317919075,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "J2": {
+            "T_target": 0.8460056321327998,
+            "T_competitors_max": 0.5421668889876983,
+            "T_competitors_median": 0.5006669630947087,
+            "p": 0.025,
+            "E_median_log_ratio": 0.44685341124508277,
+            "win_fraction": 0.6127167630057804,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 173
+          },
+          "joint_pass": true,
+          "n_concepts": 173
+        },
+        "common": {
+          "J1": {
+            "T_target": 0.9100591715976332,
+            "T_competitors_max": 0.6323471400394478,
+            "T_competitors_median": 0.4950690335305719,
+            "p": 0.025,
+            "E_median_log_ratio": 1.8695825899469662,
+            "win_fraction": 0.8923076923076924,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "J2": {
+            "T_target": 0.9380670611439843,
+            "T_competitors_max": 0.6185404339250493,
+            "T_competitors_median": 0.4777120315581854,
+            "p": 0.025,
+            "E_median_log_ratio": 0.4186721574851779,
+            "win_fraction": 0.8,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 65
+          },
+          "joint_pass": true,
+          "n_concepts": 65
+        },
+        "rare": {
+          "J1": {
+            "T_target": 0.9774453941120608,
+            "T_competitors_max": 0.5816714150047483,
+            "T_competitors_median": 0.48053181386514726,
+            "p": 0.025,
+            "E_median_log_ratio": 2.7847914597112142,
+            "win_fraction": 0.9722222222222222,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "J2": {
+            "T_target": 0.7905982905982906,
+            "T_competitors_max": 0.5610161443494777,
+            "T_competitors_median": 0.4962013295346629,
+            "p": 0.025,
+            "E_median_log_ratio": 0.4563002320846649,
+            "win_fraction": 0.5,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 108
+          },
+          "joint_pass": true,
+          "n_concepts": 108
+        },
+        "curated": {
+          "J1": {
+            "T_target": 0.9202592279515356,
+            "T_competitors_max": 0.6218653141730065,
+            "T_competitors_median": 0.4891518737672584,
+            "p": 0.025,
+            "E_median_log_ratio": 2.362611072058135,
+            "win_fraction": 0.9120879120879121,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "J2": {
+            "T_target": 0.9053254437869821,
+            "T_competitors_max": 0.569737954353339,
+            "T_competitors_median": 0.48577063961679345,
+            "p": 0.025,
+            "E_median_log_ratio": 0.5471575043891391,
+            "win_fraction": 0.7362637362637363,
+            "chance_win": 0.025,
+            "n_competitors": 39,
+            "n_concepts": 91
+          },
+          "joint_pass": true,
+          "n_concepts": 91
+        }
+      }
+    }
+  },
+  "gates": {
+    "chemeleon": {
+      "W3_R1": true,
+      "W3_R2": true,
+      "W3_R3_descriptive": {
+        "mp3": false
+      },
+      "robust": true
+    },
+    "chemberta_mlm": {
+      "W3_R1": true,
+      "W3_R2": true,
+      "W3_R3_descriptive": {
+        "L0": true,
+        "L1": true
+      },
+      "robust": true
+    },
+    "chemberta_mtr": {
+      "W3_R1": true,
+      "W3_R2": true,
+      "W3_R3_descriptive": {
+        "L0": true,
+        "L1": true
+      },
+      "robust": true
+    }
+  },
+  "W3_overall_robust": true
+}

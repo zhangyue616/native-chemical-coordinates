@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-02",
+  "source_example": "scripts/draft_round7_20261031/prepare_representative_smiles.py",
+  "source_concept_id": 24,
+  "smiles": "*C(=O)*",
+  "is_complete_CID_molecule": false,
+  "interpretation": "Existing illustrative carbonyl fragment; wildcard atoms denote omitted substituents. No activation for this fragment was measured.",
+  "tokenizer_repository": "DeepChem/ChemBERTa-77M-MTR",
+  "tokenizer_revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "tokenizer_path": "assets/chemberta_mtr_tokenizer/tokenizer.json",
+  "tokenizer_SHA256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+  "tokenizers_version": "0.19.1",
+  "rdkit_version": "2026.03.6",
+  "display_add_special_tokens": false,
+  "tokens": [
+    "*",
+    "C",
+    "(",
+    "=",
+    "O",
+    ")",
+    "*"
+  ],
+  "token_ids": [
+    256,
+    16,
+    17,
+    22,
+    19,
+    18,
+    256
+  ],
+  "character_offsets": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "model_input_tokens_with_specials": [
+    "[CLS]",
+    "*",
+    "C",
+    "(",
+    "=",
+    "O",
+    ")",
+    "*",
+    "[SEP]"
+  ],
+  "carbonyl_query": "[CX3]=[OX1]",
+  "matched_RDKit_atom_indices_zero_based": [
+    1,
+    2
+  ],
+  "carbon_anchor_character_offset_zero_based": 1,
+  "carbon_anchor_display_token_index_zero_based": 1,
+  "carbon_anchor_model_input_token_index_zero_based": 2,
+  "display_token_cells": 7,
+  "SMILES_cells_containing_alphanumeric": 2,
+  "punctuation_only_cells": [
+    "*",
+    "(",
+    "=",
+    ")",
+    "*"
+  ],
+  "model_loaded": false,
+  "forward_calls": 0,
+  "network_calls": 0,
+  "caption_material": "The token strip illustrates the existing fragment *C(=O)* with the frozen ChemBERTa-77M-MTR tokenizer. Wildcards denote omitted substituents; this is not one of the three complete held-out molecules. Seven displayed tokens omit model special tokens. The carbonyl carbon is the second displayed token (zero-based index 1), aligned to the orange schematic unit cell; the strip does not depict newly measured activations."
+}

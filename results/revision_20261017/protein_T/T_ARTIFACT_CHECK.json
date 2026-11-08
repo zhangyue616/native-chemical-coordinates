@@ -1,0 +1,176 @@
+{
+  "all_actual_simultaneous_CI_half_widths_le_0_01": true,
+  "checks": {
+    "2608_precharged_successful_forwards_no_retries": true,
+    "L_finite_probability_and_paired_Brier": true,
+    "Lj_finite_probability_and_paired_Brier": true,
+    "S_finite_probability_and_paired_Brier": true,
+    "Sj_finite_probability_and_paired_Brier": true,
+    "X_finite_probability_and_paired_Brier": true,
+    "Xj_finite_probability_and_paired_Brier": true,
+    "all_case_ID_alignment_and_only_native_j1246": true,
+    "canonical_pair_targets_1304_unique_groups": true,
+    "complete_fixed_N1304_2608_cases": true,
+    "fixed_four_sides_and_Holm_family": true,
+    "forward_case_order_center_token_linkage": true,
+    "gL_independent_mean_SD_SE_p_CI_Holm": true,
+    "gS_independent_mean_SD_SE_p_CI_Holm": true,
+    "gX_independent_mean_SD_SE_p_CI_Holm": true,
+    "native_and_predictions_current_hash_links": true,
+    "native_fullZ_cache_shape_and_finite": true,
+    "no_failure_or_partial_cache": true,
+    "prospective_T_lock_and_unique_start": true,
+    "psi_independent_mean_SD_SE_p_CI_Holm": true,
+    "raw_pair_group_four_contributions": true,
+    "single_model_load_four_threads_independent_CPU_caps": true,
+    "six_frozen_readouts_zero_new_fits_no_fullZ_or_H_readout": true
+  },
+  "created_utc": "2026-10-17T14:14:24.046541+00:00",
+  "forward_only_CPU_seconds": 666.78125,
+  "groups": 1304,
+  "interpretation_boundaries": [
+    "Short-D to long-T transfer",
+    "Independent lambda pipelines; no mechanism or mediation claim",
+    "Known graph isolation and approximate group t-reference retain homology/pretraining limits",
+    "No manuscript, release or submission authorization"
+  ],
+  "model_loads": 1,
+  "model_phase_CPU_seconds": 788.4375,
+  "native_cache_sha256": "b2b9f7302da7bc1f258d9a82de5b4422fe565f0ba717d7920ada1c299e393679",
+  "new_fits": 0,
+  "pairs": 1304,
+  "predictions_sha256": "d799186de27140dfa9ea4de2174786e99f3c5fcfe6e1941a752b22cb50af3c98",
+  "primary": {
+    "alpha": 0.05,
+    "endpoints": [
+      {
+        "CI_95_estimation": [
+          0.010494582338470625,
+          0.023650992019520835
+        ],
+        "CI_98_75_Bonferroni": [
+          0.008685906609393517,
+          0.025459667748597946
+        ],
+        "SD": 0.12108615753475702,
+        "SE": 0.003353171004768141,
+        "actual_half_width_le_0_01": true,
+        "actual_simultaneous_CI_half_width": 0.008386880569602215,
+        "direction": "greater",
+        "mean": 0.01707278717899573,
+        "n_groups": 1304,
+        "name": "gX",
+        "p_Holm": 8.146199268381004e-07,
+        "p_for_Holm": 2.036549817095251e-07,
+        "reject": true,
+        "status": "TESTABLE",
+        "t": 5.091534894796172
+      },
+      {
+        "CI_95_estimation": [
+          0.008687713530243515,
+          0.020255933876372128
+        ],
+        "CI_98_75_Bonferroni": [
+          0.00709737392575435,
+          0.021846273480861295
+        ],
+        "SD": 0.10646911924958358,
+        "SE": 0.002948389566895192,
+        "actual_half_width_le_0_01": true,
+        "actual_simultaneous_CI_half_width": 0.007374449777553473,
+        "direction": "greater",
+        "mean": 0.014471823703307822,
+        "n_groups": 1304,
+        "name": "gS",
+        "p_Holm": 1.4872386680536672e-06,
+        "p_for_Holm": 5.171908526825804e-07,
+        "reject": true,
+        "status": "TESTABLE",
+        "t": 4.9083824830337495
+      },
+      {
+        "CI_95_estimation": [
+          0.011146118994263012,
+          0.02594539412274816
+        ],
+        "CI_98_75_Bonferroni": [
+          0.009111590549061164,
+          0.027979922567950007
+        ],
+        "SD": 0.1362064121634223,
+        "SE": 0.0037718877304268802,
+        "actual_half_width_le_0_01": true,
+        "actual_simultaneous_CI_half_width": 0.009434166009444422,
+        "direction": "greater",
+        "mean": 0.018545756558505586,
+        "n_groups": 1304,
+        "name": "gL",
+        "p_Holm": 1.4872386680536672e-06,
+        "p_for_Holm": 4.957462226845558e-07,
+        "reject": true,
+        "status": "TESTABLE",
+        "t": 4.916836842438755
+      },
+      {
+        "CI_95_estimation": [
+          0.0007282961019707162,
+          0.004473630849405105
+        ],
+        "CI_98_75_Bonferroni": [
+          0.00021340668919188083,
+          0.004988520262183941
+        ],
+        "SD": 0.0344705131751445,
+        "SE": 0.0009545725758552924,
+        "actual_half_width_le_0_01": true,
+        "actual_simultaneous_CI_half_width": 0.00238755678649603,
+        "direction": "two-sided",
+        "mean": 0.002600963475687911,
+        "n_groups": 1304,
+        "name": "psi",
+        "p_Holm": 0.00652127715923928,
+        "p_for_Holm": 0.00652127715923928,
+        "reject": true,
+        "status": "TESTABLE",
+        "t": 2.7247414617557606
+      }
+    ],
+    "family_size": 4,
+    "inference": "Approximate paired group t-reference; residual homology remains a limitation"
+  },
+  "process_exit_code": 0,
+  "process_session": 79719,
+  "readout_CPU_seconds": 1.625,
+  "scope": "One concentrated acceptance of new T artifacts only; no forward/refit/source/selector/D acceptance rerun",
+  "sequence_forwards": 2608,
+  "six_Brier": {
+    "L": {
+      "group_mean": 0.19177128351312972,
+      "pair_mean": 0.1917712835131297
+    },
+    "Lj": {
+      "group_mean": 0.1732255269546241,
+      "pair_mean": 0.17322552695462412
+    },
+    "S": {
+      "group_mean": 0.1872702642774527,
+      "pair_mean": 0.1872702642774527
+    },
+    "Sj": {
+      "group_mean": 0.17279844057414487,
+      "pair_mean": 0.17279844057414487
+    },
+    "X": {
+      "group_mean": 0.19433152888970245,
+      "pair_mean": 0.19433152888970243
+    },
+    "Xj": {
+      "group_mean": 0.1772587417107067,
+      "pair_mean": 0.1772587417107067
+    }
+  },
+  "status": "PROTEIN_LONG_T_ARTIFACT_PASS",
+  "summary_sha256": "1f9996a459ae778b4b88eed3e32a683e121a7c3cd4cbf28e9c348986fff2cba4",
+  "threads": 4
+}

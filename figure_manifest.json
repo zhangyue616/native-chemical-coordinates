@@ -1,0 +1,95 @@
+{
+  "figures": [
+    {
+      "label": "Figure 1",
+      "png": "figures/figure_1.png",
+      "source_data": "source_data/figure_1_plot_data.json",
+      "renderer": "figure_source/main/plot_figure_1.py"
+    },
+    {
+      "label": "Figure 2",
+      "png": "figures/figure_2.png",
+      "source_data": "source_data/figure_2_plot_data.json",
+      "renderer": "figure_source/main/plot_figure_2.py"
+    },
+    {
+      "label": "Figure 3",
+      "png": "figures/figure_3.png",
+      "source_data": "source_data/figure_3_plot_data.json",
+      "renderer": "figure_source/main/plot_figure_3.py"
+    },
+    {
+      "label": "Figure 4",
+      "png": "figures/figure_4.png",
+      "source_data": "source_data/figure_4_plot_data.json",
+      "renderer": "figure_source/main/plot_figure_4.py"
+    },
+    {
+      "label": "Figure S-B1",
+      "png": "figures/figure_S_B1.png",
+      "source_data": "source_data/figure_S_B1_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "Figure S-C1",
+      "png": "figures/figure_S_C1.png",
+      "source_data": "source_data/figure_S_C1_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "Figure S-C2",
+      "png": "figures/figure_S_C2.png",
+      "source_data": "source_data/figure_S_C2_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "Figure S-C3",
+      "png": "figures/figure_S_C3.png",
+      "source_data": "source_data/figure_S_C3_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "Figure S-C4",
+      "png": "figures/figure_S_C4.png",
+      "source_data": "source_data/figure_S_C4_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "Figure S-C5",
+      "png": "figures/figure_S_C5.png",
+      "source_data": "source_data/figure_S_C5_plot_data.json",
+      "renderer": "figure_source/historical/plot_S_C2_to_C5.py"
+    },
+    {
+      "label": "Figure S-C6",
+      "png": "figures/figure_S_C6.png",
+      "source_data": "source_data/figure_S_C6_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "Figure S-E1",
+      "png": "figures/figure_S_E1.png",
+      "source_data": "source_data/figure_S_E1_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "Figure S-I1",
+      "png": "figures/figure_S_I1.png",
+      "source_data": "source_data/figure_S_I1_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "Figure S-J1",
+      "png": "figures/figure_S_J1.png",
+      "source_data": "source_data/figure_S_J1_plot_data.json",
+      "renderer": null
+    },
+    {
+      "label": "TOC graphic",
+      "png": "figures/toc_graphic.png",
+      "source_data": "source_data/toc_graphic_plot_data.json",
+      "renderer": "figure_source/main/plot_toc_graphic.py"
+    }
+  ],
+  "figure_count": 15
+}

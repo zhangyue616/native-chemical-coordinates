@@ -1,0 +1,336 @@
+{
+  "canvas_in": [
+    7,
+    7
+  ],
+  "requested_row_heights_in": [
+    2.4,
+    1.4,
+    2.4
+  ],
+  "row_content_bands_in": {
+    "A": [
+      4.5,
+      6.9
+    ],
+    "B": [
+      2.75,
+      4.15
+    ],
+    "CD": [
+      0.3,
+      2.7
+    ]
+  },
+  "remaining_vertical_budget_in": 0.8,
+  "A_axes_in": [
+    [
+      1.5,
+      4.54,
+      2.1,
+      1.98
+    ],
+    [
+      3.85,
+      4.54,
+      2.1,
+      1.98
+    ]
+  ],
+  "B_axes_in": [
+    [
+      0.99,
+      3.1,
+      2.3,
+      0.75
+    ],
+    [
+      4.34,
+      3.1,
+      2.3,
+      0.75
+    ]
+  ],
+  "C_panel_width_in": 4.6,
+  "C_axes_in": [
+    0.56,
+    0.46,
+    3.69,
+    1.45
+  ],
+  "D_axes_in": [
+    4.75,
+    0.4,
+    2.2,
+    2.2
+  ],
+  "D_data_axes_square_in": 2.2,
+  "C_D_panel_gap_in": 0.15,
+  "C_markers_pt": 4,
+  "C_nested_cohort_marker_pt": 2.6,
+  "D_y_label_inside_axes": false,
+  "D_y_label_location": "left of y ticks, centered at y=1.50in",
+  "D_y_label_reason": "Frozen figure source",
+  "D_y_label": {
+    "semantic_text": "G_init",
+    "rotation": 90,
+    "group_center_y_in": 1.5,
+    "D_y_axis_midpoint_in": 1.5,
+    "editable_components": [
+      {
+        "text": "G",
+        "anchor_in": [
+          4.32,
+          1.3900000000000001
+        ],
+        "rotation": 90.0,
+        "fontsize_pt": 8.0,
+        "color": "#000000",
+        "ink_bounds_in": [
+          4.2700000000000005,
+          1.3900000000000003,
+          4.370000000000001,
+          1.4775000000000003
+        ]
+      },
+      {
+        "text": "init",
+        "anchor_in": [
+          4.35,
+          1.4750000000000003
+        ],
+        "rotation": 90.0,
+        "fontsize_pt": 7.5,
+        "color": "#000000",
+        "ink_bounds_in": [
+          4.3,
+          1.4750000000000003,
+          4.3999999999999995,
+          1.6100000000000003
+        ]
+      }
+    ]
+  },
+  "B_y_label_colors": {
+    "J1": "#000000",
+    "J2": "#000000"
+  },
+  "baseline_version": "r8_20261102_v04",
+  "A_checkpoint_row_spacing_in": 0.22,
+  "A_eight_checkpoint_MoLFormer_separator": {
+    "x_bounds_in": [
+      1.45,
+      6.84
+    ],
+    "y_in": 4.744,
+    "color": "#BBBBBB",
+    "linewidth_pt": 0.5,
+    "frozen_R7_offset_from_data_bottom_in": 0.20399999999999996
+  },
+  "C_representative_fragments": [
+    {
+      "concept_id": 18,
+      "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig3_concept_18_geometry.json",
+      "rank": 1,
+      "leader_target_data": [
+        1,
+        2.7063200749982985
+      ],
+      "native_size_in": [
+        0.35338269799786326,
+        0.138084686269759
+      ]
+    },
+    {
+      "concept_id": 38,
+      "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig3_concept_38_geometry.json",
+      "rank": 2,
+      "leader_target_data": [
+        2,
+        1.7716627199677082
+      ],
+      "native_size_in": [
+        0.28831587068721726,
+        0.12427511272938663
+      ]
+    },
+    {
+      "concept_id": 90,
+      "geometry_file": "manuscript/draft_round7_20261031/sources/chemical_assets/finalset_20261102/fig3_concept_90_geometry.json",
+      "rank": 3,
+      "leader_target_data": [
+        3,
+        1.4805637051145148
+      ],
+      "native_size_in": [
+        0.5295501963146362,
+        0.1761822940061225
+      ]
+    }
+  ],
+  "decorative_state_matrices": [
+    {
+      "kind": "state_matrix",
+      "bounds_in": [
+        2.56,
+        6.55,
+        2.72,
+        6.71
+      ],
+      "placement_in": [
+        2.56,
+        6.55,
+        0.16,
+        0.16
+      ],
+      "column_order": [
+        "Native",
+        "Rotated"
+      ],
+      "row_order_top_to_bottom": [
+        "Trained",
+        "Initialization"
+      ],
+      "marker_order": [
+        "filled o",
+        "filled D",
+        "open o",
+        "open D"
+      ],
+      "centers_in": {
+        "trained_native": [
+          2.6,
+          6.67
+        ],
+        "trained_rotated": [
+          2.68,
+          6.67
+        ],
+        "init_native": [
+          2.6,
+          6.59
+        ],
+        "init_rotated": [
+          2.68,
+          6.59
+        ]
+      },
+      "arrows": [
+        {
+          "role": "J1",
+          "start_in": [
+            2.6,
+            6.59
+          ],
+          "end_in": [
+            2.6,
+            6.67
+          ],
+          "color": "#33BBEE"
+        },
+        {
+          "role": "reference",
+          "start_in": [
+            2.68,
+            6.59
+          ],
+          "end_in": [
+            2.6,
+            6.59
+          ],
+          "color": "#999999"
+        }
+      ],
+      "metric": "J1",
+      "schematic_not_statistical_values": true
+    },
+    {
+      "kind": "state_matrix",
+      "bounds_in": [
+        4.91,
+        6.55,
+        5.07,
+        6.71
+      ],
+      "placement_in": [
+        4.91,
+        6.55,
+        0.16,
+        0.16
+      ],
+      "column_order": [
+        "Native",
+        "Rotated"
+      ],
+      "row_order_top_to_bottom": [
+        "Trained",
+        "Initialization"
+      ],
+      "marker_order": [
+        "filled o",
+        "filled D",
+        "open o",
+        "open D"
+      ],
+      "centers_in": {
+        "trained_native": [
+          4.95,
+          6.67
+        ],
+        "trained_rotated": [
+          5.03,
+          6.67
+        ],
+        "init_native": [
+          4.95,
+          6.59
+        ],
+        "init_rotated": [
+          5.03,
+          6.59
+        ]
+      },
+      "arrows": [
+        {
+          "role": "J2",
+          "start_in": [
+            5.03,
+            6.67
+          ],
+          "end_in": [
+            4.95,
+            6.67
+          ],
+          "color": "#EE3377"
+        },
+        {
+          "role": "reference",
+          "start_in": [
+            5.03,
+            6.59
+          ],
+          "end_in": [
+            4.95,
+            6.59
+          ],
+          "color": "#999999"
+        }
+      ],
+      "metric": "J2",
+      "schematic_not_statistical_values": true
+    }
+  ],
+  "Support_statistics_distinct_from_decorative_state_matrices": true,
+  "minimum_font_pt": 7,
+  "deleted_visible_strings": [
+    "Membership overrides hue",
+    "Atom key (CPK): N"
+  ],
+  "point_counts": {
+    "A": 34,
+    "B": 24,
+    "C": 142,
+    "D": 71
+  },
+  "whole_figure_scaled": false
+}

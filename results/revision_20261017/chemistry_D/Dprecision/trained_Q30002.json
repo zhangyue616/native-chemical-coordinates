@@ -1,0 +1,12 @@
+{
+  "binding": {
+    "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+    "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+    "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+  },
+  "sha256": "67bc3afd6b194e20cfac42aaf296adde38e3e413b59b563a2393bd8ffb425b29",
+  "replicates": 500,
+  "point_plus_replicates": 501,
+  "sorted_once_per_selected_scalar": true,
+  "T_reads": 0
+}

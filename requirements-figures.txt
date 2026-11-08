@@ -1,0 +1,4 @@
+matplotlib>=2.2.3
+# Additional dependencies for the optional historical S-C2--S-C5 renderer:
+numpy>=1.17
+Pillow>=9

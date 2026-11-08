@@ -1,0 +1,1439 @@
+{
+  "schema": "R8-selected-saved-atom-activation/1",
+  "activation_cache": "results/chemical_replacement_20261027/fit/T_activations.npz",
+  "selection_rule": "Post-hoc structural/display selection without activations, errors, or method advantage.",
+  "activation_object": "block-index1 post-GELU token FFN, graph atom mapped to its verified element-anchor token",
+  "representative_error_claim": false,
+  "native_graph_node_activation_claim": false,
+  "new_scientific_computation": false,
+  "molecules": [
+    {
+      "molecule_id": 132361686,
+      "T_index": 8091,
+      "coordinate": 293,
+      "concept_id": 26,
+      "ci": 0,
+      "name": "Aliphatic OH",
+      "smiles": "COCCN(CC(C)C)c1cc(N2CCCCC2CO)ncn1",
+      "atom_slice": [
+        199440,
+        199463
+      ],
+      "n_atoms": 23,
+      "target_graph_atom_ids": [
+        18,
+        19
+      ],
+      "selection_label": "OH-2",
+      "display_id": "CID 132361686",
+      "rank": 13091,
+      "sealed_T_record": {
+        "rank": "13091",
+        "cid": "132361686",
+        "cid_sha256": "0eb02254922ec026715feced2675a1476e5c855d9dcc6ebee0cb4112df2d6539",
+        "canonical_smiles_sha256": "5007a7996414d0424cb1206c91cb4162079b182a7d91f439c46c6396ff6a0a59",
+        "source_line": "87451269",
+        "smiles": "COCCN(CC(C)C)c1cc(N2CCCCC2CO)ncn1"
+      },
+      "graph_atom_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "observed": [
+        -7.925340469228104e-05,
+        -0.0005269675166346133,
+        -7.610527177348558e-07,
+        0.0,
+        0.0,
+        0.0,
+        -0.028199778869748116,
+        -3.519573147059418e-05,
+        -0.0004850007826462388,
+        -6.091766772442497e-05,
+        0.0,
+        -9.10076323634712e-07,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.14963966608047485,
+        10.315757751464844,
+        0.18853367865085602,
+        -0.021684931591153145,
+        -0.001305165234953165,
+        -0.0073129842057824135
+      ],
+      "M1": [
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        5.070590918243506,
+        5.070590918243506,
+        0.0022440685287875065,
+        0.0022440685287875065,
+        0.0022440685287875065
+      ],
+      "M2": [
+        0.008946747593671494,
+        0.024622218187178444,
+        0.00849174265503278,
+        0.0028785063837145795,
+        -0.0001837462760738358,
+        0.0006405020899060245,
+        -0.03708951250222369,
+        -4.050932473306905e-05,
+        -4.050932473306905e-05,
+        -0.00014898440320549052,
+        -4.712170344081164e-06,
+        -0.00014898440320549052,
+        -0.0008577275406012753,
+        0.0028785063837145795,
+        0.01537782813117158,
+        0.01537782813117158,
+        0.006948241146267343,
+        0.01211511157625795,
+        7.817448632519498,
+        0.17641278766713875,
+        -0.0026284606085353497,
+        -0.0028940116149118837,
+        -0.0026284606085353497
+      ],
+      "target_labels": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "saved_anchor_mapping": [
+        {
+          "graph_atom_id": 0,
+          "source_atom_span": [
+            0,
+            1
+          ],
+          "source_element_span": [
+            0,
+            1
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 1,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            0,
+            1
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 1,
+          "source_atom_span": [
+            1,
+            2
+          ],
+          "source_element_span": [
+            1,
+            2
+          ],
+          "source_atom_spelling": "O",
+          "source_element_spelling": "O",
+          "anchor_token_index": 2,
+          "anchor_token_id": 19,
+          "anchor_token_spelling": "O",
+          "anchor_raw_offset": [
+            1,
+            2
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 2,
+          "source_atom_span": [
+            2,
+            3
+          ],
+          "source_element_span": [
+            2,
+            3
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 3,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            2,
+            3
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 3,
+          "source_atom_span": [
+            3,
+            4
+          ],
+          "source_element_span": [
+            3,
+            4
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 4,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            3,
+            4
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 4,
+          "source_atom_span": [
+            4,
+            5
+          ],
+          "source_element_span": [
+            4,
+            5
+          ],
+          "source_atom_spelling": "N",
+          "source_element_spelling": "N",
+          "anchor_token_index": 5,
+          "anchor_token_id": 23,
+          "anchor_token_spelling": "N",
+          "anchor_raw_offset": [
+            4,
+            5
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 5,
+          "source_atom_span": [
+            6,
+            7
+          ],
+          "source_element_span": [
+            6,
+            7
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 7,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            6,
+            7
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 6,
+          "source_atom_span": [
+            7,
+            8
+          ],
+          "source_element_span": [
+            7,
+            8
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 8,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            7,
+            8
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 7,
+          "source_atom_span": [
+            9,
+            10
+          ],
+          "source_element_span": [
+            9,
+            10
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 10,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            9,
+            10
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 8,
+          "source_atom_span": [
+            11,
+            12
+          ],
+          "source_element_span": [
+            11,
+            12
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 12,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            11,
+            12
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 9,
+          "source_atom_span": [
+            13,
+            14
+          ],
+          "source_element_span": [
+            13,
+            14
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 14,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            13,
+            14
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 10,
+          "source_atom_span": [
+            15,
+            16
+          ],
+          "source_element_span": [
+            15,
+            16
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 16,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            15,
+            16
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 11,
+          "source_atom_span": [
+            16,
+            17
+          ],
+          "source_element_span": [
+            16,
+            17
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 17,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            16,
+            17
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 12,
+          "source_atom_span": [
+            18,
+            19
+          ],
+          "source_element_span": [
+            18,
+            19
+          ],
+          "source_atom_spelling": "N",
+          "source_element_spelling": "N",
+          "anchor_token_index": 19,
+          "anchor_token_id": 23,
+          "anchor_token_spelling": "N",
+          "anchor_raw_offset": [
+            18,
+            19
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 13,
+          "source_atom_span": [
+            20,
+            21
+          ],
+          "source_element_span": [
+            20,
+            21
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 21,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            20,
+            21
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 14,
+          "source_atom_span": [
+            21,
+            22
+          ],
+          "source_element_span": [
+            21,
+            22
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 22,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            21,
+            22
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 15,
+          "source_atom_span": [
+            22,
+            23
+          ],
+          "source_element_span": [
+            22,
+            23
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 23,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            22,
+            23
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 16,
+          "source_atom_span": [
+            23,
+            24
+          ],
+          "source_element_span": [
+            23,
+            24
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 24,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            23,
+            24
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 17,
+          "source_atom_span": [
+            24,
+            25
+          ],
+          "source_element_span": [
+            24,
+            25
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 25,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            24,
+            25
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 18,
+          "source_atom_span": [
+            26,
+            27
+          ],
+          "source_element_span": [
+            26,
+            27
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 27,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            26,
+            27
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 19,
+          "source_atom_span": [
+            27,
+            28
+          ],
+          "source_element_span": [
+            27,
+            28
+          ],
+          "source_atom_spelling": "O",
+          "source_element_spelling": "O",
+          "anchor_token_index": 28,
+          "anchor_token_id": 19,
+          "anchor_token_spelling": "O",
+          "anchor_raw_offset": [
+            27,
+            28
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 20,
+          "source_atom_span": [
+            29,
+            30
+          ],
+          "source_element_span": [
+            29,
+            30
+          ],
+          "source_atom_spelling": "n",
+          "source_element_spelling": "n",
+          "anchor_token_index": 30,
+          "anchor_token_id": 25,
+          "anchor_token_spelling": "n",
+          "anchor_raw_offset": [
+            29,
+            30
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 21,
+          "source_atom_span": [
+            30,
+            31
+          ],
+          "source_element_span": [
+            30,
+            31
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 31,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            30,
+            31
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 22,
+          "source_atom_span": [
+            31,
+            32
+          ],
+          "source_element_span": [
+            31,
+            32
+          ],
+          "source_atom_spelling": "n",
+          "source_element_spelling": "n",
+          "anchor_token_index": 32,
+          "anchor_token_id": 25,
+          "anchor_token_spelling": "n",
+          "anchor_raw_offset": [
+            31,
+            32
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        }
+      ],
+      "mapping_source": "data/revision_20261017/chemistry/sealed/anchors_T.jsonl.gz"
+    },
+    {
+      "molecule_id": 111796826,
+      "T_index": 5003,
+      "coordinate": 454,
+      "concept_id": 24,
+      "ci": 1,
+      "name": "Carbonyl",
+      "smiles": "CCNC(=NCC(=O)N(C)C)NCC(c1c(F)cccc1F)N(C)C",
+      "atom_slice": [
+        123495,
+        123520
+      ],
+      "n_atoms": 25,
+      "target_graph_atom_ids": [
+        6,
+        7
+      ],
+      "selection_label": "CO-2",
+      "display_id": "CID 111796826",
+      "rank": 10003,
+      "sealed_T_record": {
+        "rank": "10003",
+        "cid": "111796826",
+        "cid_sha256": "0b2e357105e931417df702ec72cdad2b315efc94a3b8fd05e8558e2bc8494a17",
+        "canonical_smiles_sha256": "c1c3db5b31de679a03430501de60ea6f07da117897036c1cebc9d543efb02e49",
+        "source_line": "71048031",
+        "smiles": "CCNC(=NCC(=O)N(C)C)NCC(c1c(F)cccc1F)N(C)C"
+      },
+      "graph_atom_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "observed": [
+        -8.260580216301605e-05,
+        -0.0001353349507553503,
+        -0.003408419666811824,
+        -0.15183362364768982,
+        -0.1668146401643753,
+        0.4289909899234772,
+        2.266446113586426,
+        2.8061771392822266,
+        -0.13741829991340637,
+        -0.0017438583308830857,
+        -0.0003380521957296878,
+        -0.13016653060913086,
+        -0.042811810970306396,
+        -0.06088265776634216,
+        -0.16987961530685425,
+        -0.03647852689027786,
+        -0.000757969100959599,
+        -0.037014130502939224,
+        -0.02766468934714794,
+        -0.028602121397852898,
+        -0.011038904078304768,
+        -0.00032104901038110256,
+        -0.05994478240609169,
+        -9.60151828621747e-06,
+        -3.202131119905971e-05
+      ],
+      "M1": [
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        1.5715172640806474,
+        1.5715172640806474,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433,
+        -0.017289333247393433
+      ],
+      "M2": [
+        0.0012562298467599922,
+        0.03150622690749058,
+        -0.03938771401220099,
+        0.06200124717589634,
+        -0.029670761125565083,
+        0.06162757432309243,
+        1.1117069460943236,
+        1.6813021972825386,
+        -0.05547892913637083,
+        0.005968525883731794,
+        0.005968525883731794,
+        -0.03938771401220099,
+        -0.034211794992455816,
+        0.03684135062902744,
+        -0.028575623760355894,
+        -0.01889139015148539,
+        -0.0017982743676967174,
+        -0.02030288061346474,
+        -0.030440798130952976,
+        -0.02030288061346474,
+        -0.01889139015148539,
+        -0.0017982743676967174,
+        -0.021381539101265612,
+        0.009050913373737498,
+        0.009050913373737498
+      ],
+      "target_labels": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "saved_anchor_mapping": [
+        {
+          "graph_atom_id": 0,
+          "source_atom_span": [
+            0,
+            1
+          ],
+          "source_element_span": [
+            0,
+            1
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 1,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            0,
+            1
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 1,
+          "source_atom_span": [
+            1,
+            2
+          ],
+          "source_element_span": [
+            1,
+            2
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 2,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            1,
+            2
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 2,
+          "source_atom_span": [
+            2,
+            3
+          ],
+          "source_element_span": [
+            2,
+            3
+          ],
+          "source_atom_spelling": "N",
+          "source_element_spelling": "N",
+          "anchor_token_index": 3,
+          "anchor_token_id": 23,
+          "anchor_token_spelling": "N",
+          "anchor_raw_offset": [
+            2,
+            3
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 3,
+          "source_atom_span": [
+            3,
+            4
+          ],
+          "source_element_span": [
+            3,
+            4
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 4,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            3,
+            4
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 4,
+          "source_atom_span": [
+            6,
+            7
+          ],
+          "source_element_span": [
+            6,
+            7
+          ],
+          "source_atom_spelling": "N",
+          "source_element_spelling": "N",
+          "anchor_token_index": 7,
+          "anchor_token_id": 23,
+          "anchor_token_spelling": "N",
+          "anchor_raw_offset": [
+            6,
+            7
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 5,
+          "source_atom_span": [
+            7,
+            8
+          ],
+          "source_element_span": [
+            7,
+            8
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 8,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            7,
+            8
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 6,
+          "source_atom_span": [
+            8,
+            9
+          ],
+          "source_element_span": [
+            8,
+            9
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 9,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            8,
+            9
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 7,
+          "source_atom_span": [
+            11,
+            12
+          ],
+          "source_element_span": [
+            11,
+            12
+          ],
+          "source_atom_spelling": "O",
+          "source_element_spelling": "O",
+          "anchor_token_index": 12,
+          "anchor_token_id": 19,
+          "anchor_token_spelling": "O",
+          "anchor_raw_offset": [
+            11,
+            12
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 8,
+          "source_atom_span": [
+            13,
+            14
+          ],
+          "source_element_span": [
+            13,
+            14
+          ],
+          "source_atom_spelling": "N",
+          "source_element_spelling": "N",
+          "anchor_token_index": 14,
+          "anchor_token_id": 23,
+          "anchor_token_spelling": "N",
+          "anchor_raw_offset": [
+            13,
+            14
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 9,
+          "source_atom_span": [
+            15,
+            16
+          ],
+          "source_element_span": [
+            15,
+            16
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 16,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            15,
+            16
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 10,
+          "source_atom_span": [
+            17,
+            18
+          ],
+          "source_element_span": [
+            17,
+            18
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 18,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            17,
+            18
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 11,
+          "source_atom_span": [
+            19,
+            20
+          ],
+          "source_element_span": [
+            19,
+            20
+          ],
+          "source_atom_spelling": "N",
+          "source_element_spelling": "N",
+          "anchor_token_index": 20,
+          "anchor_token_id": 23,
+          "anchor_token_spelling": "N",
+          "anchor_raw_offset": [
+            19,
+            20
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 12,
+          "source_atom_span": [
+            20,
+            21
+          ],
+          "source_element_span": [
+            20,
+            21
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 21,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            20,
+            21
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 13,
+          "source_atom_span": [
+            21,
+            22
+          ],
+          "source_element_span": [
+            21,
+            22
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 22,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            21,
+            22
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 14,
+          "source_atom_span": [
+            23,
+            24
+          ],
+          "source_element_span": [
+            23,
+            24
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 24,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            23,
+            24
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 15,
+          "source_atom_span": [
+            25,
+            26
+          ],
+          "source_element_span": [
+            25,
+            26
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 26,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            25,
+            26
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 16,
+          "source_atom_span": [
+            27,
+            28
+          ],
+          "source_element_span": [
+            27,
+            28
+          ],
+          "source_atom_spelling": "F",
+          "source_element_spelling": "F",
+          "anchor_token_index": 28,
+          "anchor_token_id": 27,
+          "anchor_token_spelling": "F",
+          "anchor_raw_offset": [
+            27,
+            28
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 17,
+          "source_atom_span": [
+            29,
+            30
+          ],
+          "source_element_span": [
+            29,
+            30
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 30,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            29,
+            30
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 18,
+          "source_atom_span": [
+            30,
+            31
+          ],
+          "source_element_span": [
+            30,
+            31
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 31,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            30,
+            31
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 19,
+          "source_atom_span": [
+            31,
+            32
+          ],
+          "source_element_span": [
+            31,
+            32
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 32,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            31,
+            32
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 20,
+          "source_atom_span": [
+            32,
+            33
+          ],
+          "source_element_span": [
+            32,
+            33
+          ],
+          "source_atom_spelling": "c",
+          "source_element_spelling": "c",
+          "anchor_token_index": 33,
+          "anchor_token_id": 15,
+          "anchor_token_spelling": "c",
+          "anchor_raw_offset": [
+            32,
+            33
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 21,
+          "source_atom_span": [
+            34,
+            35
+          ],
+          "source_element_span": [
+            34,
+            35
+          ],
+          "source_atom_spelling": "F",
+          "source_element_spelling": "F",
+          "anchor_token_index": 35,
+          "anchor_token_id": 27,
+          "anchor_token_spelling": "F",
+          "anchor_raw_offset": [
+            34,
+            35
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 22,
+          "source_atom_span": [
+            36,
+            37
+          ],
+          "source_element_span": [
+            36,
+            37
+          ],
+          "source_atom_spelling": "N",
+          "source_element_spelling": "N",
+          "anchor_token_index": 37,
+          "anchor_token_id": 23,
+          "anchor_token_spelling": "N",
+          "anchor_raw_offset": [
+            36,
+            37
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 23,
+          "source_atom_span": [
+            38,
+            39
+          ],
+          "source_element_span": [
+            38,
+            39
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 39,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            38,
+            39
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        },
+        {
+          "graph_atom_id": 24,
+          "source_atom_span": [
+            40,
+            41
+          ],
+          "source_element_span": [
+            40,
+            41
+          ],
+          "source_atom_spelling": "C",
+          "source_element_spelling": "C",
+          "anchor_token_index": 41,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            40,
+            41
+          ],
+          "anchor_offset_verified": true,
+          "identity_lossy": false,
+          "lost_attributes": []
+        }
+      ],
+      "mapping_source": "data/revision_20261017/chemistry/sealed/anchors_T.jsonl.gz"
+    }
+  ]
+}

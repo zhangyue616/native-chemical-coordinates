@@ -1,0 +1,16 @@
+{
+  "binding": {
+    "D_OUTPUT_LOCK_sha256": "cdbd08f688632b49c44d664783431e62aa42755516d40960cfbf3e4e1adb0b86",
+    "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+    "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+    "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+  },
+  "sha256": "9386ed757b8eed034e4fc20fb960e83c7a784cfa24025d00a2164b6491787f68",
+  "shape": [
+    2000,
+    10000
+  ],
+  "dtype": "int32",
+  "seed": 42017,
+  "all_atoms_and_labels_and_scalars_carried": true
+}

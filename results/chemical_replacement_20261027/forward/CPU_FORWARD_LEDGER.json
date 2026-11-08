@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-10-27T09:28:23.239119+00:00",
+  "attempted_forward_molecule_evaluations": 110048,
+  "completed_forward_molecule_evaluations": 110048,
+  "attempted_by_category": {
+    "condition": 100000,
+    "baseline": 10000,
+    "replay": 32,
+    "scope": 16
+  },
+  "completed_by_category": {
+    "condition": 100000,
+    "baseline": 10000,
+    "replay": 32,
+    "scope": 16
+  },
+  "preflight_molecule_evaluations_separate": 16,
+  "limits": {
+    "condition_molecule_evaluations": 100000,
+    "fresh_baseline_molecule_evaluations": 10000,
+    "exact_replay_molecule_evaluations": 32,
+    "engineering_scope_molecule_evaluations": 16,
+    "total_molecule_evaluation_cap": 110048,
+    "wall_seconds_cap": 3600,
+    "process_cpu_seconds_cap": 7200,
+    "peak_rss_bytes_cap": 3221225472,
+    "private_commit_bytes_cap": 5368709120
+  },
+  "current": {
+    "category": "condition",
+    "T_begin": 9996,
+    "coordinate": 454,
+    "condition": "M2_delta_perm"
+  },
+  "wall_seconds": 432.06200000000536,
+  "process_cpu_seconds": 950.578125,
+  "memory": {
+    "rss_bytes": 1626918912,
+    "peak_rss_bytes": 1646223360,
+    "private_commit_bytes": 1946693632,
+    "peak_private_commit_bytes": 1966284800
+  },
+  "updated_utc": "2026-10-27T09:35:32.147489+00:00"
+}

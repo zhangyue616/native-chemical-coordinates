@@ -1,0 +1,292 @@
+{
+  "status": "D_STD_OUTPUT_LOCKED",
+  "utc": "2026-10-25T17:17:46.864115+00:00",
+  "config": {
+    "analysis": "POST_HOC_D_STANDARDIZED_POST_GELU_ROTATION",
+    "networks": [
+      "trained",
+      "init21000",
+      "init21001",
+      "init21002"
+    ],
+    "bases": [
+      "native",
+      "Q30000",
+      "Q30001",
+      "Q30002",
+      "Q30003",
+      "Q30004",
+      "Q30005",
+      "Q30006",
+      "Q30007",
+      "Q30008"
+    ],
+    "concepts": 71,
+    "units": 464,
+    "candidates_per_basis": 928,
+    "replicates": 2000,
+    "bootstrap_weights_seed": 42017,
+    "bootstrap_weights": "reuse unchanged original count weights",
+    "normalization": "float64(a-mu_D)/safe_sd_D -> float32 -> matmul Q_float32 -> score_float32",
+    "near_constant_threshold": 1e-12,
+    "near_constant_denominator": 1.0,
+    "moments": "reuse per-network D float64 population moments of saved float32 activations; ddof0",
+    "score_ties": "exact float32 equality; no epsilon merging",
+    "winner_AP_atol": 1.7763568394002505e-15,
+    "winner_tie_order": "unit ascending then positive pole",
+    "threads": 4,
+    "native": "all original D selection and T point/bootstrap evidence reused",
+    "T_reselection": false,
+    "model_forward_calls": 0,
+    "new_random_weights": 0,
+    "memory_cap_bytes": 2147483648
+  },
+  "new_D_rotated_units": 36,
+  "original_native_units_reused": 4,
+  "concept_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    49,
+    50,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    59,
+    60,
+    62,
+    64,
+    65,
+    66,
+    67,
+    69,
+    70,
+    71,
+    72,
+    76,
+    77,
+    78,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    90
+  ],
+  "winner_sha256": "dcec048e1ba381dd8b4b35ff970a039cd965454ef22ce5e63837e4e83475f1e0",
+  "parameter_sha256": "756b536eecf16323dde8519e493421a9836f5e97f6a837bc29a097e6fe493878",
+  "protocol_sha256": "725a3f8de216b8481f927ed0c193d75019ef3bed45f2fa50f9b9aa3b19ef0e47",
+  "script_sha256": "55658621d7571fbdb55e0379babb5a9e297cf2226e33264ffd32e19f01a0a1c6",
+  "inputs": {
+    ".\\results\\revision_20261017\\chemistry_D\\D_FINAL_WINNERS.npz": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\D_FINAL_WINNERS.npz",
+      "bytes": 36020,
+      "sha256": "04383e2c5ae415c1b9f16675dd9cbc2f86346e829e3ab60721e6a67cb21ad9ca",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\corpus\\BUILD_RECEIPT.json": {
+      "path": ".\\data\\revision_20261017\\chemistry\\corpus\\BUILD_RECEIPT.json",
+      "bytes": 5278,
+      "sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\scripts\\revision_20261017\\chem_statistics.py": {
+      "path": ".\\scripts\\revision_20261017\\chem_statistics.py",
+      "bytes": 12336,
+      "sha256": "6279bcad615bc70b45a5280b65236c71e46df2f0052b6d6fa92c6224c1e6616b",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\trained\\D_moments.npz": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\trained\\D_moments.npz",
+      "bytes": 27790,
+      "sha256": "b5b5489ba39c38a59ab7886649a495f27dd350270f1af3d928efff6c4a657afd",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21000\\D_moments.npz": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21000\\D_moments.npz",
+      "bytes": 27790,
+      "sha256": "dd82040523cef67b326c1d252881548ee19b85a23b706a3bb4e7aa086b3c3115",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21001\\D_moments.npz": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21001\\D_moments.npz",
+      "bytes": 27790,
+      "sha256": "bc4bcd5b968cfe70ca6292e1b67c3164c2878c5535e0bb0762dde677d5821fc0",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21002\\D_moments.npz": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21002\\D_moments.npz",
+      "bytes": 27790,
+      "sha256": "ac1430af4f7276209a100e58cacb1ae8a891ba97c309b27e17e34a2f3e8aa15d",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30000.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30000.npy",
+      "bytes": 1722496,
+      "sha256": "ae7e63a6f3f78f93f17d77edb236397bb343d08ab38a7d5503b2b5935154e888",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30001.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30001.npy",
+      "bytes": 1722496,
+      "sha256": "6906a3a3a388197d39fd68881d9a614386e48acb8ed2b9570c35f7db291320cf",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30002.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30002.npy",
+      "bytes": 1722496,
+      "sha256": "d9e1773ca891de81b0c49971417de4b9387acecf4c50652799648297020322d0",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30003.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30003.npy",
+      "bytes": 1722496,
+      "sha256": "3b8007762b19a1816196b85fcaa20270dea00361981ae53d26396cd4737802fc",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30004.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30004.npy",
+      "bytes": 1722496,
+      "sha256": "314c92109c9ea6243ef9f1bc252a4bef0527638d385a18e73638f22eec552fff",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30005.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30005.npy",
+      "bytes": 1722496,
+      "sha256": "5ab4155ffcab8a5cb67cd34b18a66bf00431ae45338464723e3dff8aab730966",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30006.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30006.npy",
+      "bytes": 1722496,
+      "sha256": "9a9ad6490232cab25aeb39b1fc718bee3a210e1469c295a9e84e97e26ec157f4",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30007.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30007.npy",
+      "bytes": 1722496,
+      "sha256": "00e475f9fed53fa98bdf229e41622c8474193e57922ab49b2e070d5f2c259b2d",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30008.npy": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\rotations\\Q30008.npy",
+      "bytes": 1722496,
+      "sha256": "7e8aa43752b109f7865c13ccbdc4166f34bf677b6e819e2f1bb16f0236c8d1e5",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\results\\revision_20261017\\chemistry_D\\STATISTICS_ENGINEERING.json": {
+      "path": ".\\results\\revision_20261017\\chemistry_D\\STATISTICS_ENGINEERING.json",
+      "bytes": 3989,
+      "sha256": "1697ab10909e64239a572c51c4c680c342955c69f7e84b48095404aa1825b5ae",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\development\\labels_D.npz": {
+      "path": ".\\data\\revision_20261017\\chemistry\\development\\labels_D.npz",
+      "bytes": 272560,
+      "sha256": "a3c4117202423710d6534b1eaded0a0ef20d6899d2d4440e525b881f780b80a9",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\development\\atoms_D.npz": {
+      "path": ".\\data\\revision_20261017\\chemistry\\development\\atoms_D.npz",
+      "bytes": 66520,
+      "sha256": "62668f53f0969c30434a0874ef9d5cb5a0e1f864252f7f2685a20e44b28631a0",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\trained\\CACHE_RECEIPT.json": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\trained\\CACHE_RECEIPT.json",
+      "bytes": 1738,
+      "sha256": "5b5b3cd265b0d2c08162614421b88e2e73b0a8eaf0188150e367baf3aaea0d8a",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\trained\\atom_a.npy": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\trained\\atom_a.npy",
+      "bytes": 231127808,
+      "mtime_ns": 1792244670475055200,
+      "sha256": "c0242a053f93764704cc3f8055dde6d582696a2a09fe50468e8ce25bd904a7d3",
+      "identity_method": "reuse original closeout SHA; current size,mtime,shape,dtype verified; no rehash"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21000\\CACHE_RECEIPT.json": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21000\\CACHE_RECEIPT.json",
+      "bytes": 1741,
+      "sha256": "e7eaa71e34b8bdd200746a6d18b2deaa4d3bbc5cf4d8b7ab52a9bd051187f876",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21000\\atom_a.npy": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21000\\atom_a.npy",
+      "bytes": 231127808,
+      "mtime_ns": 1792244698966115700,
+      "sha256": "e54664b89cf4ad70c0406eac88584d7b880e524659806d6e2a61b4dd019fbead",
+      "identity_method": "reuse original closeout SHA; current size,mtime,shape,dtype verified; no rehash"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21001\\CACHE_RECEIPT.json": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21001\\CACHE_RECEIPT.json",
+      "bytes": 1741,
+      "sha256": "1a3dce230e5524c8355113b86f5f6275cdeb6a11c9979899a94f5c93a564bcaf",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21001\\atom_a.npy": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21001\\atom_a.npy",
+      "bytes": 231127808,
+      "mtime_ns": 1792244726895509900,
+      "sha256": "119a88f6c919dd64309dd730c236013d1cb38c6c5cfd773cf97b3f64941fe622",
+      "identity_method": "reuse original closeout SHA; current size,mtime,shape,dtype verified; no rehash"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21002\\CACHE_RECEIPT.json": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21002\\CACHE_RECEIPT.json",
+      "bytes": 1741,
+      "sha256": "d05f3bc932056bfa18b1f8eb6fb4bc1d4e00f68ce71960f8d9766959dbb2d10f",
+      "identity_method": "actual SHA256 once"
+    },
+    ".\\data\\revision_20261017\\chemistry\\activations_D\\init21002\\atom_a.npy": {
+      "path": ".\\data\\revision_20261017\\chemistry\\activations_D\\init21002\\atom_a.npy",
+      "bytes": 231127808,
+      "mtime_ns": 1792244755093319500,
+      "sha256": "437d6bfce1059564e92b343542dc89aeb391726779df6d5555afcaa1c9c2f16b",
+      "identity_method": "reuse original closeout SHA; current size,mtime,shape,dtype verified; no rehash"
+    }
+  },
+  "T_new_score_or_label_reads_before_lock": 0
+}

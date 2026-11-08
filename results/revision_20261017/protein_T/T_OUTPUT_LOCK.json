@@ -1,0 +1,16 @@
+{
+  "status": "T_OUTPUT_GO",
+  "created_utc": "2026-10-17T13:57:14.8952006+00:00",
+  "ready_sha256": "a0ed30ee46ab7389ddb7f6a7e6394d6916446c9ea1c0d4166310a04f7497e7b0",
+  "T_model_forward_authorized": true,
+  "T_readout_authorized": true,
+  "maximum_forwards": 2608,
+  "new_fits_authorized": false,
+  "authority": "Main explicitly read protocol/READY and authorized root to freeze and run once after chemistry current heavy CPU stage ends; root reviewed key wrapper/pair/readout/inference logic and reused 8 synthetic checks",
+  "model_CPU_seconds": 3600,
+  "readout_CPU_seconds": 3600,
+  "threads": 4,
+  "scientific_retries": 0,
+  "unused_194_replacement_allowed": false,
+  "scheduling": "Run only at the agreed chemistry Dprecision/finalD boundary, single scientific process"
+}

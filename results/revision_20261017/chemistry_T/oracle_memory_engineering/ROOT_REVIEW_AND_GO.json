@@ -1,0 +1,18 @@
+{
+  "status": "ROOT_KEY_REVIEW_PASS_ONE_ENGINEERING_RESUME_AUTHORIZED",
+  "utc": "2026-10-17T15:28:26.749Z",
+  "adapter": "scripts/revision_20261017/chem_T_oracle_memory_resume.py",
+  "adapter_sha256": "cd4a82a10c0aeddec813c9837e3fbc9051e1f1d6f7e1ae7cdaf3d68bd71d9900",
+  "ready_sha256": "4f1212a36cdec259afc28e32beaa5b0cdf2dc71907af2a2552ed6090bca33049",
+  "reviewed": [
+    "complete adapter source",
+    "original oracle_T/event_gate/require_cache/basis_matrix dependencies",
+    "original load_T full identity validation and returned keys",
+    "shared Budget accounting and unchanged 2GiB cap"
+  ],
+  "decision": "one actual run then original final-T on success; no automatic retry after failure",
+  "science_changed": false,
+  "limits_and_algorithm_changed": false,
+  "failed_evidence_retained": true,
+  "other_processes_touched": false
+}

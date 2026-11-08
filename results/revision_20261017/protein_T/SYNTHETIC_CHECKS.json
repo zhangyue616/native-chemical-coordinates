@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-17T13:53:40.592993+00:00",
+  "new_fits": 0,
+  "real_PLM_forwards": 0,
+  "real_model_loads": 0,
+  "scope": "Finite synthetic wrapper/mask/count/CPU/array-prediction/fixed-family checks; no scientific input/activation/prediction reads",
+  "script_sha256": "2cb6c4fe5a4ecf225ba5d6678d8985ff68943f32cfc7e340f6cfb690f574aa89",
+  "status": "PASS",
+  "test_sha256": "4b2cd52e72e9a84576a97a3c4727fcbe7b24f2a3b56d1074b1e817855cf158f9",
+  "tests_run": 8
+}

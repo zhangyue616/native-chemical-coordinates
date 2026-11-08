@@ -1,0 +1,50 @@
+{
+  "status": "PASS_T_EXTRACTION",
+  "binding": {
+    "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+    "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+    "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+  },
+  "T_binding": {
+    "D_OUTPUT_LOCK_sha256": "cdbd08f688632b49c44d664783431e62aa42755516d40960cfbf3e4e1adb0b86",
+    "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+    "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+    "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+  },
+  "network": "init21001",
+  "n_molecules": 10000,
+  "n_atoms": 246722,
+  "dtype": "float32",
+  "layer_zero_based": 1,
+  "atom_shape": [
+    246722,
+    464
+  ],
+  "cls_shape": [
+    10000,
+    464
+  ],
+  "head_shape": [
+    10000,
+    199
+  ],
+  "normalization": "normalized anonymous head",
+  "completed_utc": "2026-10-17T14:43:50.048739+00:00",
+  "files": {
+    "atom_a.npy": {
+      "bytes": 457916160,
+      "mtime_ns": 1792248165186598600,
+      "sha256": "2aae52017343ae99a1202380e70114c14ed44b5d81e79b26afaa9e87d6866507"
+    },
+    "cls_a.npy": {
+      "bytes": 18560128,
+      "mtime_ns": 1792248165190599400,
+      "sha256": "9005bed307e69d557fee0ca673f7182551ea7aafb10ba82cfb4d3fbe56ec832a"
+    },
+    "normalized_head.npy": {
+      "bytes": 7960128,
+      "mtime_ns": 1792248165194035200,
+      "sha256": "3f0ea57b8107ba366b1c0d1102de64fd80676aae19aa78b02c6a794092e3fee9"
+    }
+  }
+}

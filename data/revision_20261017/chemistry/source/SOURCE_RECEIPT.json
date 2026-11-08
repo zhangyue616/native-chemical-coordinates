@@ -1,0 +1,21 @@
+{
+  "method": "authorized read-only copy of identical public-source cache",
+  "source": "<legacy-source-root>\\data\\raw\\pubchem_cid_smiles_20260927\\CID-SMILES.gz",
+  "destination": "data\\revision_20261017\\chemistry\\source\\CID-SMILES.gz",
+  "started_utc": "2026-10-17T13:16:13.841420+00:00",
+  "source_before": {
+    "bytes": 1486837335,
+    "mtime_ns": 1792145087179933900
+  },
+  "source_only_no_decompression": true,
+  "sha256_passes": 1,
+  "authority": "main thread 2026-10-17 explicit narrow public gzip cache reuse",
+  "received_bytes": 1486837335,
+  "sha256": "36b683a59272b196ed7ece140903a249f7df475a06c312c963a5c761f1037f1a",
+  "completed_utc": "2026-10-17T13:16:15.986617+00:00",
+  "source_after": {
+    "bytes": 1486837335,
+    "mtime_ns": 1792145087179933900
+  },
+  "status": "PASS_SOURCE_IDENTITY"
+}

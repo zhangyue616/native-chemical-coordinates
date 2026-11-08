@@ -1,0 +1,905 @@
+[
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/trained/atom_a.npy",
+    "bytes": 231127808,
+    "sha256_from_original_receipt": "c0242a053f93764704cc3f8055dde6d582696a2a09fe50468e8ce25bd904a7d3",
+    "mtime_ns_from_original_receipt": 1792244670475055200,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/trained/cls_a.npy",
+    "bytes": 9280128,
+    "sha256_from_original_receipt": "369ccfae1884538ad193b8922862cec7c89f77331a90a3e64964045d970583c0",
+    "mtime_ns_from_original_receipt": 1792244670483524600,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/trained/normalized_head.npy",
+    "bytes": 3980128,
+    "sha256_from_original_receipt": "b9e0d33e177d11d853358ddd391fee8c11a35b9504c5b4380fd12e3455e466b4",
+    "mtime_ns_from_original_receipt": 1792244670502450100,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/trained/D_moments.npz",
+    "bytes": 27790,
+    "sha256_from_original_receipt": "b5b5489ba39c38a59ab7886649a495f27dd350270f1af3d928efff6c4a657afd",
+    "mtime_ns_from_original_receipt": 1792244698415913400,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21000/atom_a.npy",
+    "bytes": 231127808,
+    "sha256_from_original_receipt": "e54664b89cf4ad70c0406eac88584d7b880e524659806d6e2a61b4dd019fbead",
+    "mtime_ns_from_original_receipt": 1792244698966115700,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21000/cls_a.npy",
+    "bytes": 9280128,
+    "sha256_from_original_receipt": "6b7bdb27feee3bbb326d06769c368f8232eb8a015fd853a0215420b4512347d9",
+    "mtime_ns_from_original_receipt": 1792244698968967600,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21000/normalized_head.npy",
+    "bytes": 3980128,
+    "sha256_from_original_receipt": "6e568606b6747064e8d1efa5a2e13cdd4407dbb7a4fe876f2a4d544041a26697",
+    "mtime_ns_from_original_receipt": 1792244698983049000,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21000/D_moments.npz",
+    "bytes": 27790,
+    "sha256_from_original_receipt": "dd82040523cef67b326c1d252881548ee19b85a23b706a3bb4e7aa086b3c3115",
+    "mtime_ns_from_original_receipt": 1792244726298020700,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21001/atom_a.npy",
+    "bytes": 231127808,
+    "sha256_from_original_receipt": "119a88f6c919dd64309dd730c236013d1cb38c6c5cfd773cf97b3f64941fe622",
+    "mtime_ns_from_original_receipt": 1792244726895509900,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21001/cls_a.npy",
+    "bytes": 9280128,
+    "sha256_from_original_receipt": "96eea0c36d9d45c056bc4c65e743c9e64f8b7fb9e1f6b9196f06310cebd0b482",
+    "mtime_ns_from_original_receipt": 1792244726898011700,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21001/normalized_head.npy",
+    "bytes": 3980128,
+    "sha256_from_original_receipt": "21b46b82a0f1014c138ca2e5dc7ae2ec16144128d938c28e912432af668b539f",
+    "mtime_ns_from_original_receipt": 1792244726910525600,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21001/D_moments.npz",
+    "bytes": 27790,
+    "sha256_from_original_receipt": "bc4bcd5b968cfe70ca6292e1b67c3164c2878c5535e0bb0762dde677d5821fc0",
+    "mtime_ns_from_original_receipt": 1792244754502939900,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21002/atom_a.npy",
+    "bytes": 231127808,
+    "sha256_from_original_receipt": "437d6bfce1059564e92b343542dc89aeb391726779df6d5555afcaa1c9c2f16b",
+    "mtime_ns_from_original_receipt": 1792244755093319500,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21002/cls_a.npy",
+    "bytes": 9280128,
+    "sha256_from_original_receipt": "859f4017837e0e2df7fb76ca73733b269b252cc5c2783f2e4ac75db6930e645a",
+    "mtime_ns_from_original_receipt": 1792244755097566100,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21002/normalized_head.npy",
+    "bytes": 3980128,
+    "sha256_from_original_receipt": "2e0187cc7465fa79f71f2ab846b1373f747972b604cb4efd261ad24836be3017",
+    "mtime_ns_from_original_receipt": 1792244755111888100,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/init21002/D_moments.npz",
+    "bytes": 27790,
+    "sha256_from_original_receipt": "ac1430af4f7276209a100e58cacb1ae8a891ba97c309b27e17e34a2f3e8aa15d",
+    "mtime_ns_from_original_receipt": 1792244781998604700,
+    "rebuild": "scripts/revision_20261017/chem_run.py extract-D"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/trained/atom_a.npy",
+    "bytes": 457916160,
+    "sha256_from_original_receipt": "39b8542456b7c893439609d463e99f43d7e82d18bad7e7ff6f6ca7816bef4c8c",
+    "mtime_ns_from_original_receipt": 1792248036147933500,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/trained/cls_a.npy",
+    "bytes": 18560128,
+    "sha256_from_original_receipt": "ed184cdd12b4db8f7bcd72cf3a7fa65476c2089868e6909d7b5863ec1fbcd686",
+    "mtime_ns_from_original_receipt": 1792248036157492300,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/trained/normalized_head.npy",
+    "bytes": 7960128,
+    "sha256_from_original_receipt": "f1958400a4fedaa8989de65de9d8392d2e37c10ee33053ce86e23e3a0ef35840",
+    "mtime_ns_from_original_receipt": 1792248036165990700,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21000/atom_a.npy",
+    "bytes": 457916160,
+    "sha256_from_original_receipt": "cd35ccc4230746f5fecab74fcde1a7af7665b6ebca4c0c347e35ff22ae6b8e59",
+    "mtime_ns_from_original_receipt": 1792248099667324300,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21000/cls_a.npy",
+    "bytes": 18560128,
+    "sha256_from_original_receipt": "11518f94eb5f4faf38c386a7b8cd6e39c5a73df3fb86bb420a5497cef67dbdb0",
+    "mtime_ns_from_original_receipt": 1792248099671327100,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21000/normalized_head.npy",
+    "bytes": 7960128,
+    "sha256_from_original_receipt": "3c935a6f34e7c24c37138e19b3286f503961e7131b54b1cc655f83b37ddf675a",
+    "mtime_ns_from_original_receipt": 1792248099674326900,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21001/atom_a.npy",
+    "bytes": 457916160,
+    "sha256_from_original_receipt": "2aae52017343ae99a1202380e70114c14ed44b5d81e79b26afaa9e87d6866507",
+    "mtime_ns_from_original_receipt": 1792248165186598600,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21001/cls_a.npy",
+    "bytes": 18560128,
+    "sha256_from_original_receipt": "9005bed307e69d557fee0ca673f7182551ea7aafb10ba82cfb4d3fbe56ec832a",
+    "mtime_ns_from_original_receipt": 1792248165190599400,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21001/normalized_head.npy",
+    "bytes": 7960128,
+    "sha256_from_original_receipt": "3f0ea57b8107ba366b1c0d1102de64fd80676aae19aa78b02c6a794092e3fee9",
+    "mtime_ns_from_original_receipt": 1792248165194035200,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21002/atom_a.npy",
+    "bytes": 457916160,
+    "sha256_from_original_receipt": "b0697946483ddf7c4975be1743bf5751bc75204eaf47de5251d67e216f4decf9",
+    "mtime_ns_from_original_receipt": 1792248231180830900,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21002/cls_a.npy",
+    "bytes": 18560128,
+    "sha256_from_original_receipt": "01cbca9474858bb78387d07afae9688ef0df1c9bd63b0fce848c1a9829bac6b3",
+    "mtime_ns_from_original_receipt": 1792248231326830400,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/init21002/normalized_head.npy",
+    "bytes": 7960128,
+    "sha256_from_original_receipt": "67fe9e2f58f09559f8fffe22c12a5d1c4091fc2edfc5766ddce00cf008179644",
+    "mtime_ns_from_original_receipt": 1792248231330818000,
+    "rebuild": "scripts/revision_20261017/chem_T_run.py extract-T"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/source/CID-SMILES.gz",
+    "bytes": 1486837335,
+    "sha256_from_original_receipt": "36b683a59272b196ed7ece140903a249f7df475a06c312c963a5c761f1037f1a",
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz",
+    "availability": "mutable upstream URL; frozen September 2026 bytes are not independently archived here"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30000.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30001.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30002.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30003.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30004.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30005.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30006.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30007.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_D/rotations/Q30008.npy",
+    "bytes": 1722496,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_native.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30000.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30001.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30002.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30003.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30004.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30005.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30006.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30007.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21000_Q30008.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_native.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30000.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30001.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30002.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30003.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30004.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30005.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30006.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30007.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21001_Q30008.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_native.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30000.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30001.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30002.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30003.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30004.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30005.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30006.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30007.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/init21002_Q30008.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_native.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30000.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30001.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30002.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30003.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30004.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30005.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30006.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30007.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/fixed/trained_Q30008.npz",
+    "bytes": 2273632,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "See WORKFLOWS.md method table and historical protocol stages"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/secondary/input/predictions_T.npy",
+    "bytes": 94741376,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/revision_20261017/chem_T_secondary.py input-T"
+  },
+  {
+    "relative_path": "results/revision_20261017/chemistry_T/T_BOOTSTRAP_WEIGHTS.npy",
+    "bytes": 80000128,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/revision_20261017/chem_T_run.py fixed-T"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/rotation_scratch.npy",
+    "bytes": 457916160,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30000.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30001.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30002.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30003.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30004.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30005.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30006.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30007.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21000_Q30008.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30000.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30001.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30002.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30003.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30004.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30005.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30006.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30007.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21001_Q30008.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30000.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30001.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30002.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30003.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30004.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30005.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30006.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30007.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/init21002_Q30008.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30000.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30001.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30002.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30003.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30004.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30005.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30006.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30007.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/standardized_rotation/T/trained_Q30008.npz",
+    "bytes": 2274720,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/b_standardized_rotation.py"
+  },
+  {
+    "relative_path": "results/chemical_replacement_20261027/summary/bootstrap_weights.npy",
+    "bytes": 40000128,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/chemical_replacement_20261027/summarize.py --execute"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_D/rotation_scratch.npy",
+    "bytes": 231127808,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/revision_20261017/chem_run.py"
+  },
+  {
+    "relative_path": "data/revision_20261017/chemistry/activations_T/rotation_scratch.npy",
+    "bytes": 457916160,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/revision_20261017/chem_T_run.py"
+  },
+  {
+    "relative_path": "data/revision_20261017/protein_fresh/candidate_filter_audit.jsonl",
+    "bytes": 74176537,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/revision_20261017/protein_fresh_data.py"
+  },
+  {
+    "relative_path": "data/revision_20261017/protein_fresh/eligible_site_audit.jsonl",
+    "bytes": 141146385,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/revision_20261017/protein_fresh_data.py"
+  },
+  {
+    "relative_path": "data/revision_20261017/protein_fresh/feature_evidence_audit.jsonl",
+    "bytes": 98668182,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/revision_20261017/protein_fresh_data.py"
+  },
+  {
+    "relative_path": "results/revision_20261017/protein_T/FORWARD_LEDGER.json",
+    "bytes": 1115211,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/revision_20261017/protein_T_confirm.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/mapping/chemberta_mlm.details.jsonl.gz",
+    "bytes": 39717272,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/a_h4_mapping.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/mapping/chemberta_mtr.details.jsonl.gz",
+    "bytes": 39859975,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/a_h4_mapping.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/scaffold_subset/scores_scratch.npy",
+    "bytes": 358560768,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/a_scaffold_subset.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/scaffold_subset/SLICE_BOOTSTRAP_WEIGHTS.npy",
+    "bytes": 57640128,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/a_scaffold_subset.py"
+  },
+  {
+    "relative_path": "results/strengthening_20261025/scaffold_subset/SLICE_INPUT.npz",
+    "bytes": 15304022,
+    "sha256_from_original_receipt": null,
+    "hash_status": "Not recovered from a saved receipt; no new hash sweep performed",
+    "rebuild": "scripts/strengthening_20261025/a_scaffold_subset.py"
+  }
+]

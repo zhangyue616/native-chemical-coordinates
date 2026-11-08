@@ -1,0 +1,49 @@
+{
+  "freeze_status": "STRUCTURE_ONLY_POST_HOC_SLICE_FROZEN",
+  "utc": "2026-10-25T16:56:20.202789+00:00",
+  "rule": "T row included iff successful nonempty achiral Bemis-Murcko scaffold is absent from D nonempty successful scaffold set; retain all such rows; H4 overlap is not an exclusion",
+  "rdkit": "2026.03.6",
+  "inputs": {
+    "H4": {
+      "path": "<legacy-source-root>\\data\\derived\\lineB\\corpus\\H4_used.tsv",
+      "sha256": "940b42df0580f31c977d9ff5675eecb0a9d2c09172595f56ce29b58b63c3ee2e",
+      "bytes": 618431,
+      "expected_n": 10000
+    },
+    "D": {
+      "path": ".\\data\\revision_20261017\\chemistry\\development\\D.tsv",
+      "sha256": "e40b8a81e2aad73d7a66f4030f2ab12948d4ebea2d63539c5b755fb1e2ac31f2",
+      "bytes": 992575,
+      "expected_n": 5000
+    },
+    "T": {
+      "path": ".\\data\\revision_20261017\\chemistry\\sealed\\T.tsv",
+      "sha256": "b1fdc3cb87b03b9cde0bcd8cad5c2a3996c5766296199c1dc77412fc3f6c7494",
+      "bytes": 1987478,
+      "expected_n": 10000
+    }
+  },
+  "mask_file": ".\\results\\strengthening_20261025\\lineage\\T_D_UNSEEN_SCAFFOLD_MASK.npy",
+  "mask_sha256": "9868f076079c3321a37ce0c4ccbe109c3b6caa921380f3d83758dcac102d992b",
+  "mask_dtype": "bool",
+  "mask_shape": [
+    10000
+  ],
+  "n_T": 10000,
+  "n_selected": 7205,
+  "empty_T_scaffold_rows": 396,
+  "failed_T_structure_or_scaffold_rows": 0,
+  "row_order": "exact T.tsv order; row_index 0..9999; retain original rank 5000..14999, CID, saved SMILES",
+  "H4_overlap_excluded": false,
+  "new_independent_scaffold_split": false,
+  "no_scores_or_labels_read_declaration": "This executable only read the three enumerated identity TSVs and its protocol/source. No labels, scores, AP, model activations, outputs, or downstream statistical results were read to select the mask.",
+  "engineering_checks": {
+    "input_expected_counts_and_ranks": true,
+    "row_order_and_original_identities_preserved": true,
+    "identity_counts_and_intersection_bounds": true,
+    "scaffold_success_empty_failure_partition": true,
+    "mask_dtype_length_and_frozen_rule": true,
+    "saved_mask_readback_equal": true,
+    "no_empty_scaffold_in_sets_or_selected_rows": true
+  }
+}

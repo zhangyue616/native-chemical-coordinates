@@ -1,0 +1,35 @@
+{
+  "status": "DESCRIPTIVE_SYMMETRIC_T_ORACLE_COMPLETE",
+  "binding": {
+    "D_OUTPUT_LOCK_sha256": "cdbd08f688632b49c44d664783431e62aa42755516d40960cfbf3e4e1adb0b86",
+    "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+    "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+    "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+  },
+  "networks": [
+    "trained",
+    "init21000",
+    "init21001",
+    "init21002"
+  ],
+  "bases": [
+    "native",
+    "Q30000",
+    "Q30001",
+    "Q30002",
+    "Q30003",
+    "Q30004",
+    "Q30005",
+    "Q30006",
+    "Q30007",
+    "Q30008"
+  ],
+  "candidates_per_concept": 928,
+  "uncertainty": "point estimates only",
+  "Theta": 0.5080886425530914,
+  "G_init": 1.8539338602134032,
+  "oracle_minus_fixed_Theta": 0.0006201373929293208,
+  "oracle_minus_fixed_G_init": -0.02628249125955895,
+  "oracle_minus_fixed_Theta_nonnegative_not_required": true,
+  "fixed_winners_replaced": false
+}

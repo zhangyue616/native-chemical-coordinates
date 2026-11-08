@@ -1,0 +1,897 @@
+{
+  "status": "PASS",
+  "scope": "synthetic source strings, RDKit graph parsing and tokenizer offsets only; no scientific acceptance",
+  "timestamp_utc": "2026-10-17T13:10:09.350097+00:00",
+  "tokenizer": {
+    "repository": "DeepChem/ChemBERTa-77M-MTR",
+    "revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+    "tokenizer_sha256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814"
+  },
+  "runtime": {
+    "rdkit": "2026.03.6",
+    "tokenizers": "0.19.1"
+  },
+  "counts": {
+    "checks": 47,
+    "passed": 47,
+    "failed": 0,
+    "golden_fixture_families": 16
+  },
+  "execution_ledger": {
+    "model_loads": 0,
+    "model_forwards": 0,
+    "gpu_calls": 0,
+    "scientific_data_reads": 0,
+    "fits": 0,
+    "bootstrap_or_inference": 0,
+    "network_requests_during_acceptance": 0
+  },
+  "collision_examples": [
+    {
+      "input_ids": [
+        12,
+        16,
+        16,
+        13
+      ],
+      "distinct_exact_inputs": [
+        "CC",
+        "CCl"
+      ]
+    },
+    {
+      "input_ids": [
+        12,
+        16,
+        54,
+        13
+      ],
+      "distinct_exact_inputs": [
+        "CB",
+        "CBr"
+      ]
+    },
+    {
+      "input_ids": [
+        12,
+        23,
+        16,
+        17,
+        16,
+        18,
+        16,
+        17,
+        22,
+        19,
+        18,
+        19,
+        13
+      ],
+      "distinct_exact_inputs": [
+        "N[C@@H](C)C(=O)O",
+        "N[C@H](C)C(=O)O"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "case": "canonical",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned source-text-preserved",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {}
+      }
+    },
+    {
+      "case": "noncanonical_reorder",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned source-text-preserved",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {}
+      }
+    },
+    {
+      "case": "branch",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned identity-lossy",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {
+          "3": [
+            "atomic_number"
+          ]
+        }
+      }
+    },
+    {
+      "case": "branch_reorder",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned identity-lossy",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {
+          "3": [
+            "atomic_number"
+          ]
+        }
+      }
+    },
+    {
+      "case": "aromatic",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned source-text-preserved",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {}
+      }
+    },
+    {
+      "case": "kekule",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned source-text-preserved",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {}
+      }
+    },
+    {
+      "case": "charge_and_dot",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "BLOCKED",
+        "element_anchor_position_status": "position-aligned",
+        "raw_offset_errors": [
+          "token_source_text_mismatch:3"
+        ],
+        "raw_invalid_tokens": [
+          {
+            "token_index": 3,
+            "id": 24,
+            "token": ".",
+            "offset": [
+              4,
+              5
+            ],
+            "attention_mask": 1,
+            "special_tokens_mask": 0,
+            "graph_atom_id": null,
+            "atom_context_graph_atom_ids": [],
+            "source_atom_ids": [],
+            "offset_source_text_valid": false,
+            "kind": "invalid_source_offset",
+            "raw_offset_atom_context_graph_atom_ids": [
+              0
+            ],
+            "raw_offset_anchor_graph_atom_ids": [],
+            "source_text_at_offset": "+",
+            "decoded_token_text": "."
+          }
+        ],
+        "candidate_contracts": {
+          "unique_element_anchor": {
+            "eligible": true,
+            "meaning": "one positionally anchored element token per graph atom; attribute-only bracket tokens stay null, with atom context; identity loss remains a separate measured property"
+          },
+          "complete_atom_span_single_token": {
+            "eligible": false,
+            "meaning": "one token overlaps each complete source atom span, including bracket attributes; no aggregation"
+          },
+          "complete_atom_span_single_token_identity_preserving": {
+            "eligible": false,
+            "meaning": "the preceding optional strict contract plus complete atom source-text coverage"
+          },
+          "scientific_population_or_aggregation_selected": false
+        },
+        "lost_attributes": {
+          "0": [
+            "formal_charge",
+            "explicit_hydrogens",
+            "bracket_boundaries"
+          ],
+          "1": [
+            "atomic_number",
+            "bracket_boundaries"
+          ]
+        }
+      }
+    },
+    {
+      "case": "isotope_and_H",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned identity-lossy",
+        "span_relations": [
+          "one_to_many",
+          "one_to_one"
+        ],
+        "lost_attributes": {
+          "0": [
+            "explicit_hydrogens",
+            "bracket_boundaries"
+          ]
+        }
+      }
+    },
+    {
+      "case": "aromatic_bracket_H",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned identity-lossy",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {
+          "3": [
+            "explicit_hydrogens",
+            "bracket_boundaries"
+          ]
+        }
+      }
+    },
+    {
+      "case": "chiral",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "BLOCKED",
+        "element_anchor_position_status": "position-aligned",
+        "raw_offset_errors": [
+          "token_source_text_mismatch:3"
+        ],
+        "raw_invalid_tokens": [
+          {
+            "token_index": 3,
+            "id": 17,
+            "token": "(",
+            "offset": [
+              6,
+              7
+            ],
+            "attention_mask": 1,
+            "special_tokens_mask": 0,
+            "graph_atom_id": null,
+            "atom_context_graph_atom_ids": [],
+            "source_atom_ids": [],
+            "offset_source_text_valid": false,
+            "kind": "invalid_source_offset",
+            "raw_offset_atom_context_graph_atom_ids": [
+              1
+            ],
+            "raw_offset_anchor_graph_atom_ids": [],
+            "source_text_at_offset": "]",
+            "decoded_token_text": "("
+          }
+        ],
+        "candidate_contracts": {
+          "unique_element_anchor": {
+            "eligible": true,
+            "meaning": "one positionally anchored element token per graph atom; attribute-only bracket tokens stay null, with atom context; identity loss remains a separate measured property"
+          },
+          "complete_atom_span_single_token": {
+            "eligible": false,
+            "meaning": "one token overlaps each complete source atom span, including bracket attributes; no aggregation"
+          },
+          "complete_atom_span_single_token_identity_preserving": {
+            "eligible": false,
+            "meaning": "the preceding optional strict contract plus complete atom source-text coverage"
+          },
+          "scientific_population_or_aggregation_selected": false
+        },
+        "lost_attributes": {
+          "1": [
+            "explicit_hydrogens",
+            "stereochemistry",
+            "bracket_boundaries"
+          ]
+        }
+      }
+    },
+    {
+      "case": "multi_letter",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "BLOCKED",
+        "element_anchor_position_status": "position-aligned",
+        "raw_offset_errors": [
+          "token_source_text_mismatch:3"
+        ],
+        "raw_invalid_tokens": [
+          {
+            "token_index": 3,
+            "id": 17,
+            "token": "(",
+            "offset": [
+              5,
+              6
+            ],
+            "attention_mask": 1,
+            "special_tokens_mask": 0,
+            "graph_atom_id": null,
+            "atom_context_graph_atom_ids": [],
+            "source_atom_ids": [],
+            "offset_source_text_valid": false,
+            "kind": "invalid_source_offset",
+            "raw_offset_atom_context_graph_atom_ids": [
+              1
+            ],
+            "raw_offset_anchor_graph_atom_ids": [],
+            "source_text_at_offset": "]",
+            "decoded_token_text": "("
+          }
+        ],
+        "candidate_contracts": {
+          "unique_element_anchor": {
+            "eligible": true,
+            "meaning": "one positionally anchored element token per graph atom; attribute-only bracket tokens stay null, with atom context; identity loss remains a separate measured property"
+          },
+          "complete_atom_span_single_token": {
+            "eligible": false,
+            "meaning": "one token overlaps each complete source atom span, including bracket attributes; no aggregation"
+          },
+          "complete_atom_span_single_token_identity_preserving": {
+            "eligible": false,
+            "meaning": "the preceding optional strict contract plus complete atom source-text coverage"
+          },
+          "scientific_population_or_aggregation_selected": false
+        },
+        "lost_attributes": {
+          "1": [
+            "atomic_number",
+            "explicit_hydrogens",
+            "bracket_boundaries"
+          ],
+          "2": [
+            "atomic_number"
+          ],
+          "3": [
+            "atomic_number"
+          ]
+        }
+      }
+    },
+    {
+      "case": "silicon_H_count_split",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned identity-lossy",
+        "span_relations": [
+          "one_to_many",
+          "one_to_one"
+        ],
+        "lost_attributes": {
+          "0": [
+            "atomic_number",
+            "explicit_hydrogens",
+            "bracket_boundaries"
+          ]
+        }
+      }
+    },
+    {
+      "case": "percent_ring",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned source-text-preserved",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {}
+      }
+    },
+    {
+      "case": "ring_digit",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned source-text-preserved",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {}
+      }
+    },
+    {
+      "case": "double_bond_stereo",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned source-text-preserved",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one",
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {}
+      }
+    },
+    {
+      "case": "triple_bond",
+      "status": "PASS",
+      "evidence": {
+        "golden_errors": [],
+        "mapping_status": "position-aligned source-text-preserved",
+        "span_relations": [
+          "one_to_one",
+          "one_to_one"
+        ],
+        "lost_attributes": {}
+      }
+    },
+    {
+      "case": "same_stable_graph:canonical:noncanonical_reorder",
+      "status": "PASS",
+      "evidence": "independent mapped gold graphs agree after sanitization"
+    },
+    {
+      "case": "same_stable_graph:branch:branch_reorder",
+      "status": "PASS",
+      "evidence": "independent mapped gold graphs agree after sanitization"
+    },
+    {
+      "case": "same_stable_graph:aromatic:kekule",
+      "status": "PASS",
+      "evidence": "independent mapped gold graphs agree after sanitization"
+    },
+    {
+      "case": "same_stable_graph:ring_digit:percent_ring",
+      "status": "PASS",
+      "evidence": "independent mapped gold graphs agree after sanitization"
+    },
+    {
+      "case": "PAD_SPECIAL_null_and_stable",
+      "status": "PASS",
+      "evidence": "right padding adds null atoms; CLS/SEP offsets=(0,0)"
+    },
+    {
+      "case": "negative_same_count_wrong_token_order",
+      "status": "PASS",
+      "evidence": [
+        "wrong_token_graph_identity"
+      ]
+    },
+    {
+      "case": "negative_equal_C_tokens_Cl_C_identity_swap",
+      "status": "PASS",
+      "evidence": [
+        "wrong_graph_chemical_identity",
+        "wrong_source_graph_identity",
+        "wrong_token_graph_identity"
+      ]
+    },
+    {
+      "case": "negative_same_count_same_composition_wrong_graph",
+      "status": "PASS",
+      "evidence": [
+        "wrong_graph_adjacency_order_or_stereo"
+      ]
+    },
+    {
+      "case": "negative_duplicate_offset_missing_atom",
+      "status": "PASS",
+      "evidence": [
+        "atom_without_element_anchor:2",
+        "duplicate_or_overlapping_offset:2",
+        "nonmonotonic_offset:2"
+      ]
+    },
+    {
+      "case": "negative_reversed_equal_C_offsets",
+      "status": "PASS",
+      "evidence": [
+        "nonmonotonic_offset:2"
+      ]
+    },
+    {
+      "case": "negative_one_token_crosses_two_atoms",
+      "status": "PASS",
+      "evidence": [
+        "atom_without_element_anchor:1",
+        "nonmonotonic_offset:2",
+        "token_crosses_multiple_atoms:1",
+        "token_source_text_mismatch:1"
+      ]
+    },
+    {
+      "case": "negative_missing_offset",
+      "status": "PASS",
+      "evidence": [
+        "atom_without_element_anchor:1",
+        "invalid_offset:1"
+      ]
+    },
+    {
+      "case": "negative_UNK",
+      "status": "PASS",
+      "evidence": [
+        "atom_without_element_anchor:1",
+        "unknown_token:1"
+      ]
+    },
+    {
+      "case": "negative_token_source_text_mismatch",
+      "status": "PASS",
+      "evidence": [
+        "atom_without_element_anchor:1",
+        "token_source_text_mismatch:1"
+      ]
+    },
+    {
+      "case": "exact_512_window",
+      "status": "PASS",
+      "evidence": "510 source atoms + CLS/SEP = 512; no truncation"
+    },
+    {
+      "case": "over_512_window_rejected",
+      "status": "PASS",
+      "evidence": {
+        "n_input_ids": 513,
+        "errors": [
+          "over_token_window_no_truncation"
+        ]
+      }
+    },
+    {
+      "case": "negative_mapped_input",
+      "status": "PASS",
+      "evidence": "model input must be atom-map-free"
+    },
+    {
+      "case": "negative_unsupported_nonascii",
+      "status": "PASS",
+      "evidence": "require nonempty ASCII SMILES without whitespace"
+    },
+    {
+      "case": "negative_unsupported_wildcard",
+      "status": "PASS",
+      "evidence": "unsupported character at offset 0"
+    },
+    {
+      "case": "negative_unsupported_CXSMILES",
+      "status": "PASS",
+      "evidence": "require nonempty ASCII SMILES without whitespace"
+    },
+    {
+      "case": "actual_token_collisions",
+      "status": "PASS",
+      "evidence": [
+        {
+          "input_ids": [
+            12,
+            16,
+            16,
+            13
+          ],
+          "distinct_exact_inputs": [
+            "CC",
+            "CCl"
+          ]
+        },
+        {
+          "input_ids": [
+            12,
+            16,
+            54,
+            13
+          ],
+          "distinct_exact_inputs": [
+            "CB",
+            "CBr"
+          ]
+        },
+        {
+          "input_ids": [
+            12,
+            23,
+            16,
+            17,
+            16,
+            18,
+            16,
+            17,
+            22,
+            19,
+            18,
+            19,
+            13
+          ],
+          "distinct_exact_inputs": [
+            "N[C@@H](C)C(=O)O",
+            "N[C@H](C)C(=O)O"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "Cl_positionally_mapped_despite_identity_loss",
+      "status": "PASS",
+      "evidence": {
+        "status": "position-aligned identity-lossy",
+        "candidate_contracts": {
+          "unique_element_anchor": {
+            "eligible": true,
+            "meaning": "one positionally anchored element token per graph atom; attribute-only bracket tokens stay null, with atom context; identity loss remains a separate measured property"
+          },
+          "complete_atom_span_single_token": {
+            "eligible": true,
+            "meaning": "one token overlaps each complete source atom span, including bracket attributes; no aggregation"
+          },
+          "complete_atom_span_single_token_identity_preserving": {
+            "eligible": false,
+            "meaning": "the preceding optional strict contract plus complete atom source-text coverage"
+          },
+          "scientific_population_or_aggregation_selected": false
+        }
+      }
+    },
+    {
+      "case": "bracket_context_vs_anchor_contracts",
+      "status": "PASS",
+      "evidence": {
+        "unique_element_anchor": {
+          "eligible": true,
+          "meaning": "one positionally anchored element token per graph atom; attribute-only bracket tokens stay null, with atom context; identity loss remains a separate measured property"
+        },
+        "complete_atom_span_single_token": {
+          "eligible": false,
+          "meaning": "one token overlaps each complete source atom span, including bracket attributes; no aggregation"
+        },
+        "complete_atom_span_single_token_identity_preserving": {
+          "eligible": false,
+          "meaning": "the preceding optional strict contract plus complete atom source-text coverage"
+        },
+        "scientific_population_or_aggregation_selected": false
+      }
+    },
+    {
+      "case": "source_filter_scope_separate",
+      "status": "PASS",
+      "evidence": "isotope/charge/silicon fixtures test mapper engineering only; no corpus filter or scientific eligibility is changed"
+    },
+    {
+      "case": "audit_canonical_Cl_unique_lossy_anchor",
+      "status": "PASS",
+      "evidence": {
+        "gate": "PASS_POSITIONAL_ELEMENT_ANCHOR",
+        "chlorine_atom": {
+          "graph_atom_id": 1,
+          "source_atom_id": 2,
+          "source_atom_span": [
+            1,
+            3
+          ],
+          "source_element_span": [
+            1,
+            3
+          ],
+          "source_atom_spelling": "Cl",
+          "source_element_spelling": "Cl",
+          "graph_properties": {
+            "atomic_number": 17,
+            "element": "Cl",
+            "isotope": 0,
+            "formal_charge": 0,
+            "aromatic": false,
+            "chiral_tag": "CHI_UNSPECIFIED",
+            "cip": null,
+            "explicit_hydrogens": 0,
+            "implicit_hydrogens": 0,
+            "radical_electrons": 0
+          },
+          "anchor_token_index": 2,
+          "anchor_token_id": 16,
+          "anchor_token_spelling": "C",
+          "anchor_raw_offset": [
+            1,
+            2
+          ],
+          "source_text_at_anchor_offset": "C",
+          "anchor_offset_verified": true,
+          "identity_lossy": true,
+          "lost_attributes": [
+            "atomic_number"
+          ],
+          "complete_atom_span_relation": "one_to_one",
+          "complete_atom_span_token_indices": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "case": "audit_bracket_attribute_tokens_null",
+      "status": "PASS",
+      "evidence": {
+        "gate": "PASS_POSITIONAL_ELEMENT_ANCHOR",
+        "non_anchor_tokens": [
+          {
+            "token_index": 0,
+            "token": "[CLS]",
+            "raw_offset": [
+              0,
+              0
+            ],
+            "kind": "special",
+            "graph_atom_id": null,
+            "atom_context_graph_atom_ids": []
+          },
+          {
+            "token_index": 2,
+            "token": "4",
+            "raw_offset": [
+              3,
+              4
+            ],
+            "kind": "atom_attribute_context",
+            "graph_atom_id": null,
+            "atom_context_graph_atom_ids": [
+              0
+            ]
+          },
+          {
+            "token_index": 3,
+            "token": "[SEP]",
+            "raw_offset": [
+              0,
+              0
+            ],
+            "kind": "special",
+            "graph_atom_id": null,
+            "atom_context_graph_atom_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "case": "audit_full_offset_BLOCKED_anchor_PASS_separate",
+      "status": "PASS",
+      "evidence": {
+        "gate": "PASS_POSITIONAL_ELEMENT_ANCHOR",
+        "full_offset_status": "BLOCKED",
+        "full_offset_errors": [
+          "token_source_text_mismatch:3"
+        ]
+      }
+    },
+    {
+      "case": "audit_noncanonical_excluded_without_input_replacement",
+      "status": "PASS",
+      "evidence": {
+        "exact_input_is_canonical": false,
+        "canonical_representation_for_check_only": "CCO",
+        "model_input_changed": false
+      }
+    },
+    {
+      "case": "audit_uncovered_actual_atom_whole_molecule_excluded",
+      "status": "PASS",
+      "evidence": [
+        "atom_without_element_anchor:1"
+      ]
+    },
+    {
+      "case": "audit_unsupported_grammar_excluded",
+      "status": "PASS",
+      "evidence": [
+        "unsupported_or_invalid_source:unsupported character at offset 0"
+      ]
+    },
+    {
+      "case": "audit_window_excluded_without_truncation",
+      "status": "PASS",
+      "evidence": [
+        "over_token_window_no_truncation"
+      ]
+    }
+  ],
+  "remaining_scientific_gates": [
+    "root final freeze of positional element-anchor rule, exclusion population, model observation point and scientific estimand",
+    "freeze treatment of identity-lossy representations and source sanitation separately",
+    "check actual checkpoint/model-input path and observation point before any model extraction",
+    "synthetic fixtures do not estimate corpus-wide eligibility or recover historical v3 mapping"
+  ],
+  "acceptance_history": {
+    "initial_checks": {
+      "checks": 40,
+      "passed": 40,
+      "failed": 0,
+      "golden_fixture_families": 16
+    },
+    "initial_failures": [
+      "charge_and_dot",
+      "chiral",
+      "multi_letter"
+    ],
+    "reason": "Real tokenizer punctuation offsets can disagree with raw text; retain full-offset BLOCKED and independently validate element anchors. No offset repair.",
+    "targeted_recheck_cases": [
+      "charge_and_dot",
+      "chiral",
+      "multi_letter",
+      "negative_duplicate_offset_missing_atom",
+      "negative_reversed_equal_C_offsets",
+      "negative_one_token_crosses_two_atoms",
+      "negative_missing_offset",
+      "negative_token_source_text_mismatch",
+      "negative_UNK"
+    ],
+    "unaffected_checks_reused": 31
+  },
+  "raw_tokenizer_offset_contract": {
+    "full_offsets_reliable_for_all_supported_SMILES": false,
+    "observed_raw_offset_error_fixtures": [
+      "charge_and_dot",
+      "chiral",
+      "multi_letter"
+    ],
+    "element_anchor_positions": "individually validated against exact source; not inferred from token counts",
+    "invalid_syntax_offsets_repaired": false,
+    "full_offset_BLOCKED_is_preserved": true
+  },
+  "interface_acceptance": {
+    "new_checks": 7,
+    "existing_mapper_checks_reused": 40,
+    "scope": "all-atoms-or-exclude positional element-anchor audit API; no new corpus or model execution"
+  },
+  "selected_newlane_mapping_contract": "unique_element_anchor; identity loss permitted and separately reported",
+  "scientific_protocol_final_freeze_complete": false
+}

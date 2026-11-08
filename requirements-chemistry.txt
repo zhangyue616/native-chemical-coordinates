@@ -1,0 +1,9 @@
+# Historical method environment, not a clean-install validation.
+numpy==1.26.4
+transformers==4.44.2
+tokenizers==0.19.1
+threadpoolctl==3.6.0
+rdkit==2026.3.6
+numba==0.61.2
+# This is the historical chemistry environment from ENVIRONMENT.json.
+# Install a platform-appropriate CPU Torch distribution separately.

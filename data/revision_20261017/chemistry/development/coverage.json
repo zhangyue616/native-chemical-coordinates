@@ -1,0 +1,904 @@
+{
+  "split": "D",
+  "n_molecules": 5000,
+  "concepts": [
+    {
+      "id": 0,
+      "name": "topo:ring3",
+      "source": "topology",
+      "positive_molecules_D": 305,
+      "all_negative_molecules_D": 4695,
+      "positive_atoms_D": 975,
+      "in_C": true
+    },
+    {
+      "id": 1,
+      "name": "topo:ring4",
+      "source": "topology",
+      "positive_molecules_D": 167,
+      "all_negative_molecules_D": 4833,
+      "positive_atoms_D": 713,
+      "in_C": true
+    },
+    {
+      "id": 2,
+      "name": "topo:ring5",
+      "source": "topology",
+      "positive_molecules_D": 2662,
+      "all_negative_molecules_D": 2338,
+      "positive_atoms_D": 17525,
+      "in_C": true
+    },
+    {
+      "id": 3,
+      "name": "topo:ring6",
+      "source": "topology",
+      "positive_molecules_D": 4433,
+      "all_negative_molecules_D": 567,
+      "positive_atoms_D": 56503,
+      "in_C": true
+    },
+    {
+      "id": 4,
+      "name": "topo:ring7",
+      "source": "topology",
+      "positive_molecules_D": 165,
+      "all_negative_molecules_D": 4835,
+      "positive_atoms_D": 1189,
+      "in_C": true
+    },
+    {
+      "id": 5,
+      "name": "topo:ring8",
+      "source": "topology",
+      "positive_molecules_D": 17,
+      "all_negative_molecules_D": 4983,
+      "positive_atoms_D": 136,
+      "in_C": false
+    },
+    {
+      "id": 6,
+      "name": "topo:ring_ge9",
+      "source": "topology",
+      "positive_molecules_D": 40,
+      "all_negative_molecules_D": 4960,
+      "positive_atoms_D": 597,
+      "in_C": false
+    },
+    {
+      "id": 7,
+      "name": "topo:fused_ring_atom",
+      "source": "topology",
+      "positive_molecules_D": 1863,
+      "all_negative_molecules_D": 3137,
+      "positive_atoms_D": 5972,
+      "in_C": true
+    },
+    {
+      "id": 8,
+      "name": "topo:spiro_atom",
+      "source": "topology",
+      "positive_molecules_D": 150,
+      "all_negative_molecules_D": 4850,
+      "positive_atoms_D": 156,
+      "in_C": false
+    },
+    {
+      "id": 9,
+      "name": "topo:stereocenter",
+      "source": "topology",
+      "positive_molecules_D": 2707,
+      "all_negative_molecules_D": 2293,
+      "positive_atoms_D": 5096,
+      "in_C": true
+    },
+    {
+      "id": 10,
+      "name": "topo:pyridine_type_N",
+      "source": "topology",
+      "positive_molecules_D": 1988,
+      "all_negative_molecules_D": 3012,
+      "positive_atoms_D": 3365,
+      "in_C": true
+    },
+    {
+      "id": 11,
+      "name": "topo:pyrrole_type_N",
+      "source": "topology",
+      "positive_molecules_D": 1300,
+      "all_negative_molecules_D": 3700,
+      "positive_atoms_D": 1564,
+      "in_C": true
+    },
+    {
+      "id": 12,
+      "name": "topo:aromatic_O",
+      "source": "topology",
+      "positive_molecules_D": 395,
+      "all_negative_molecules_D": 4605,
+      "positive_atoms_D": 418,
+      "in_C": true
+    },
+    {
+      "id": 13,
+      "name": "topo:aromatic_S",
+      "source": "topology",
+      "positive_molecules_D": 528,
+      "all_negative_molecules_D": 4472,
+      "positive_atoms_D": 567,
+      "in_C": true
+    },
+    {
+      "id": 14,
+      "name": "fg:CarboxylicAcid",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 495,
+      "all_negative_molecules_D": 4505,
+      "positive_atoms_D": 1581,
+      "in_C": true
+    },
+    {
+      "id": 15,
+      "name": "fg:CarboxylicAcid.Aromatic",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 127,
+      "all_negative_molecules_D": 4873,
+      "positive_atoms_D": 384,
+      "in_C": true
+    },
+    {
+      "id": 16,
+      "name": "fg:CarboxylicAcid.Aliphatic",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 371,
+      "all_negative_molecules_D": 4629,
+      "positive_atoms_D": 1185,
+      "in_C": true
+    },
+    {
+      "id": 17,
+      "name": "fg:CarboxylicAcid.AlphaAmino",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 28,
+      "all_negative_molecules_D": 4972,
+      "positive_atoms_D": 84,
+      "in_C": false
+    },
+    {
+      "id": 18,
+      "name": "fg:Amine.Primary.Aliphatic",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 335,
+      "all_negative_molecules_D": 4665,
+      "positive_atoms_D": 354,
+      "in_C": true
+    },
+    {
+      "id": 19,
+      "name": "fg:Amine.Secondary.Aromatic",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 426,
+      "all_negative_molecules_D": 4574,
+      "positive_atoms_D": 462,
+      "in_C": true
+    },
+    {
+      "id": 20,
+      "name": "fg:Amine.Secondary.Aliphatic",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 537,
+      "all_negative_molecules_D": 4463,
+      "positive_atoms_D": 569,
+      "in_C": true
+    },
+    {
+      "id": 21,
+      "name": "fg:Amine.Tertiary.Aromatic",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 417,
+      "all_negative_molecules_D": 4583,
+      "positive_atoms_D": 448,
+      "in_C": true
+    },
+    {
+      "id": 22,
+      "name": "fg:Amine.Tertiary.Aliphatic",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 688,
+      "all_negative_molecules_D": 4312,
+      "positive_atoms_D": 761,
+      "in_C": true
+    },
+    {
+      "id": 23,
+      "name": "fg:Halogen.Bromine.Aromatic",
+      "source": "fg_hierarchy",
+      "positive_molecules_D": 316,
+      "all_negative_molecules_D": 4684,
+      "positive_atoms_D": 351,
+      "in_C": true
+    },
+    {
+      "id": 24,
+      "name": "frag:fr_C=O",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 3215,
+      "all_negative_molecules_D": 1785,
+      "positive_atoms_D": 9822,
+      "in_C": true
+    },
+    {
+      "id": 25,
+      "name": "frag:fr_C=O_noCOO",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 2989,
+      "all_negative_molecules_D": 2011,
+      "positive_atoms_D": 8838,
+      "in_C": true
+    },
+    {
+      "id": 26,
+      "name": "frag:fr_Al_OH",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 575,
+      "all_negative_molecules_D": 4425,
+      "positive_atoms_D": 1530,
+      "in_C": true
+    },
+    {
+      "id": 27,
+      "name": "frag:fr_Ar_OH",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 200,
+      "all_negative_molecules_D": 4800,
+      "positive_atoms_D": 484,
+      "in_C": true
+    },
+    {
+      "id": 28,
+      "name": "frag:fr_methoxy",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 890,
+      "all_negative_molecules_D": 4110,
+      "positive_atoms_D": 3533,
+      "in_C": true
+    },
+    {
+      "id": 29,
+      "name": "frag:fr_oxime",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 38,
+      "all_negative_molecules_D": 4962,
+      "positive_atoms_D": 114,
+      "in_C": false
+    },
+    {
+      "id": 30,
+      "name": "frag:fr_ester",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 555,
+      "all_negative_molecules_D": 4445,
+      "positive_atoms_D": 3385,
+      "in_C": true
+    },
+    {
+      "id": 31,
+      "name": "frag:fr_Al_COO",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 350,
+      "all_negative_molecules_D": 4650,
+      "positive_atoms_D": 1495,
+      "in_C": true
+    },
+    {
+      "id": 32,
+      "name": "frag:fr_Ar_COO",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 126,
+      "all_negative_molecules_D": 4874,
+      "positive_atoms_D": 508,
+      "in_C": true
+    },
+    {
+      "id": 33,
+      "name": "frag:fr_COO",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 469,
+      "all_negative_molecules_D": 4531,
+      "positive_atoms_D": 2003,
+      "in_C": true
+    },
+    {
+      "id": 34,
+      "name": "frag:fr_ketone",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 326,
+      "all_negative_molecules_D": 4674,
+      "positive_atoms_D": 1472,
+      "in_C": true
+    },
+    {
+      "id": 35,
+      "name": "frag:fr_ether",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 2377,
+      "all_negative_molecules_D": 2623,
+      "positive_atoms_D": 10964,
+      "in_C": true
+    },
+    {
+      "id": 36,
+      "name": "frag:fr_phenol",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 174,
+      "all_negative_molecules_D": 4826,
+      "positive_atoms_D": 1349,
+      "in_C": true
+    },
+    {
+      "id": 37,
+      "name": "frag:fr_aldehyde",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 50,
+      "all_negative_molecules_D": 4950,
+      "positive_atoms_D": 156,
+      "in_C": false
+    },
+    {
+      "id": 38,
+      "name": "frag:fr_NH2",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 764,
+      "all_negative_molecules_D": 4236,
+      "positive_atoms_D": 845,
+      "in_C": true
+    },
+    {
+      "id": 39,
+      "name": "frag:fr_NH1",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 2838,
+      "all_negative_molecules_D": 2162,
+      "positive_atoms_D": 3867,
+      "in_C": true
+    },
+    {
+      "id": 40,
+      "name": "frag:fr_NH0",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 3719,
+      "all_negative_molecules_D": 1281,
+      "positive_atoms_D": 8303,
+      "in_C": true
+    },
+    {
+      "id": 41,
+      "name": "frag:fr_Ar_N",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 2280,
+      "all_negative_molecules_D": 2720,
+      "positive_atoms_D": 4929,
+      "in_C": true
+    },
+    {
+      "id": 42,
+      "name": "frag:fr_Ar_NH",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 344,
+      "all_negative_molecules_D": 4656,
+      "positive_atoms_D": 370,
+      "in_C": true
+    },
+    {
+      "id": 43,
+      "name": "frag:fr_aniline",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 1724,
+      "all_negative_molecules_D": 3276,
+      "positive_atoms_D": 4574,
+      "in_C": true
+    },
+    {
+      "id": 44,
+      "name": "frag:fr_Imine",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 223,
+      "all_negative_molecules_D": 4777,
+      "positive_atoms_D": 737,
+      "in_C": true
+    },
+    {
+      "id": 45,
+      "name": "frag:fr_nitrile",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 216,
+      "all_negative_molecules_D": 4784,
+      "positive_atoms_D": 456,
+      "in_C": true
+    },
+    {
+      "id": 46,
+      "name": "frag:fr_hdrzine",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 89,
+      "all_negative_molecules_D": 4911,
+      "positive_atoms_D": 183,
+      "in_C": false
+    },
+    {
+      "id": 47,
+      "name": "frag:fr_hdrzone",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 87,
+      "all_negative_molecules_D": 4913,
+      "positive_atoms_D": 270,
+      "in_C": false
+    },
+    {
+      "id": 48,
+      "name": "frag:fr_N-O",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 49,
+      "all_negative_molecules_D": 4951,
+      "positive_atoms_D": 183,
+      "in_C": false
+    },
+    {
+      "id": 49,
+      "name": "frag:fr_nitro",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 184,
+      "all_negative_molecules_D": 4816,
+      "positive_atoms_D": 394,
+      "in_C": true
+    },
+    {
+      "id": 50,
+      "name": "frag:fr_amide",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 2392,
+      "all_negative_molecules_D": 2608,
+      "positive_atoms_D": 9821,
+      "in_C": true
+    },
+    {
+      "id": 51,
+      "name": "frag:fr_priamide",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 105,
+      "all_negative_molecules_D": 4895,
+      "positive_atoms_D": 324,
+      "in_C": true
+    },
+    {
+      "id": 52,
+      "name": "frag:fr_amidine",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 101,
+      "all_negative_molecules_D": 4899,
+      "positive_atoms_D": 427,
+      "in_C": true
+    },
+    {
+      "id": 53,
+      "name": "frag:fr_guanido",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 88,
+      "all_negative_molecules_D": 4912,
+      "positive_atoms_D": 358,
+      "in_C": false
+    },
+    {
+      "id": 54,
+      "name": "frag:fr_imide",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 147,
+      "all_negative_molecules_D": 4853,
+      "positive_atoms_D": 778,
+      "in_C": true
+    },
+    {
+      "id": 55,
+      "name": "frag:fr_halogen",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 1924,
+      "all_negative_molecules_D": 3076,
+      "positive_atoms_D": 3727,
+      "in_C": true
+    },
+    {
+      "id": 56,
+      "name": "frag:fr_alkyl_halide",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 520,
+      "all_negative_molecules_D": 4480,
+      "positive_atoms_D": 2157,
+      "in_C": true
+    },
+    {
+      "id": 57,
+      "name": "frag:fr_sulfide",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 416,
+      "all_negative_molecules_D": 4584,
+      "positive_atoms_D": 1334,
+      "in_C": true
+    },
+    {
+      "id": 58,
+      "name": "frag:fr_C=S",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 71,
+      "all_negative_molecules_D": 4929,
+      "positive_atoms_D": 144,
+      "in_C": false
+    },
+    {
+      "id": 59,
+      "name": "frag:fr_sulfone",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 105,
+      "all_negative_molecules_D": 4895,
+      "positive_atoms_D": 530,
+      "in_C": true
+    },
+    {
+      "id": 60,
+      "name": "frag:fr_sulfonamd",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 354,
+      "all_negative_molecules_D": 4646,
+      "positive_atoms_D": 1819,
+      "in_C": true
+    },
+    {
+      "id": 61,
+      "name": "frag:fr_prisulfonamd",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 21,
+      "all_negative_molecules_D": 4979,
+      "positive_atoms_D": 105,
+      "in_C": false
+    },
+    {
+      "id": 62,
+      "name": "frag:fr_urea",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 240,
+      "all_negative_molecules_D": 4760,
+      "positive_atoms_D": 991,
+      "in_C": true
+    },
+    {
+      "id": 63,
+      "name": "frag:fr_term_acetylene",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 35,
+      "all_negative_molecules_D": 4965,
+      "positive_atoms_D": 76,
+      "in_C": false
+    },
+    {
+      "id": 64,
+      "name": "frag:fr_imidazole",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 258,
+      "all_negative_molecules_D": 4742,
+      "positive_atoms_D": 1316,
+      "in_C": true
+    },
+    {
+      "id": 65,
+      "name": "frag:fr_furan",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 170,
+      "all_negative_molecules_D": 4830,
+      "positive_atoms_D": 900,
+      "in_C": true
+    },
+    {
+      "id": 66,
+      "name": "frag:fr_thiophene",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 286,
+      "all_negative_molecules_D": 4714,
+      "positive_atoms_D": 1511,
+      "in_C": true
+    },
+    {
+      "id": 67,
+      "name": "frag:fr_thiazole",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 204,
+      "all_negative_molecules_D": 4796,
+      "positive_atoms_D": 1050,
+      "in_C": true
+    },
+    {
+      "id": 68,
+      "name": "frag:fr_oxazole",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 51,
+      "all_negative_molecules_D": 4949,
+      "positive_atoms_D": 255,
+      "in_C": false
+    },
+    {
+      "id": 69,
+      "name": "frag:fr_pyridine",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 796,
+      "all_negative_molecules_D": 4204,
+      "positive_atoms_D": 5322,
+      "in_C": true
+    },
+    {
+      "id": 70,
+      "name": "frag:fr_piperdine",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 559,
+      "all_negative_molecules_D": 4441,
+      "positive_atoms_D": 3533,
+      "in_C": true
+    },
+    {
+      "id": 71,
+      "name": "frag:fr_piperzine",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 249,
+      "all_negative_molecules_D": 4751,
+      "positive_atoms_D": 1500,
+      "in_C": true
+    },
+    {
+      "id": 72,
+      "name": "frag:fr_morpholine",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 140,
+      "all_negative_molecules_D": 4860,
+      "positive_atoms_D": 864,
+      "in_C": true
+    },
+    {
+      "id": 73,
+      "name": "frag:fr_lactam",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 15,
+      "all_negative_molecules_D": 4985,
+      "positive_atoms_D": 75,
+      "in_C": false
+    },
+    {
+      "id": 74,
+      "name": "frag:fr_lactone",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 55,
+      "all_negative_molecules_D": 4945,
+      "positive_atoms_D": 230,
+      "in_C": false
+    },
+    {
+      "id": 75,
+      "name": "frag:fr_tetrazole",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 29,
+      "all_negative_molecules_D": 4971,
+      "positive_atoms_D": 145,
+      "in_C": false
+    },
+    {
+      "id": 76,
+      "name": "frag:fr_unbrch_alkane",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 345,
+      "all_negative_molecules_D": 4655,
+      "positive_atoms_D": 2737,
+      "in_C": true
+    },
+    {
+      "id": 77,
+      "name": "frag:fr_bicyclic",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 1744,
+      "all_negative_molecules_D": 3256,
+      "positive_atoms_D": 5247,
+      "in_C": true
+    },
+    {
+      "id": 78,
+      "name": "frag:fr_benzene",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 3652,
+      "all_negative_molecules_D": 1348,
+      "positive_atoms_D": 35615,
+      "in_C": true
+    },
+    {
+      "id": 79,
+      "name": "frag:fr_nitro_arom",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 145,
+      "all_negative_molecules_D": 4855,
+      "positive_atoms_D": 154,
+      "in_C": false
+    },
+    {
+      "id": 80,
+      "name": "frag:fr_nitro_arom_nonortho",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 67,
+      "all_negative_molecules_D": 4933,
+      "positive_atoms_D": 68,
+      "in_C": false
+    },
+    {
+      "id": 81,
+      "name": "frag:fr_phenol_noOrthoHbond",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 170,
+      "all_negative_molecules_D": 4830,
+      "positive_atoms_D": 211,
+      "in_C": true
+    },
+    {
+      "id": 82,
+      "name": "frag:fr_Al_OH_noTert",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 489,
+      "all_negative_molecules_D": 4511,
+      "positive_atoms_D": 648,
+      "in_C": true
+    },
+    {
+      "id": 83,
+      "name": "frag:fr_para_hydroxylation",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 766,
+      "all_negative_molecules_D": 4234,
+      "positive_atoms_D": 971,
+      "in_C": true
+    },
+    {
+      "id": 84,
+      "name": "frag:fr_allylic_oxid",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 396,
+      "all_negative_molecules_D": 4604,
+      "positive_atoms_D": 864,
+      "in_C": true
+    },
+    {
+      "id": 85,
+      "name": "frag:fr_aryl_methyl",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 1543,
+      "all_negative_molecules_D": 3457,
+      "positive_atoms_D": 2153,
+      "in_C": true
+    },
+    {
+      "id": 86,
+      "name": "frag:fr_Ndealkylation1",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 352,
+      "all_negative_molecules_D": 4648,
+      "positive_atoms_D": 386,
+      "in_C": true
+    },
+    {
+      "id": 87,
+      "name": "frag:fr_Ndealkylation2",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 594,
+      "all_negative_molecules_D": 4406,
+      "positive_atoms_D": 632,
+      "in_C": true
+    },
+    {
+      "id": 88,
+      "name": "frag:fr_alkyl_carbamate",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 68,
+      "all_negative_molecules_D": 4932,
+      "positive_atoms_D": 422,
+      "in_C": false
+    },
+    {
+      "id": 89,
+      "name": "frag:fr_ketone_Topliss",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 288,
+      "all_negative_molecules_D": 4712,
+      "positive_atoms_D": 326,
+      "in_C": true
+    },
+    {
+      "id": 90,
+      "name": "frag:fr_ArN",
+      "source": "fragment_descriptors",
+      "positive_molecules_D": 244,
+      "all_negative_molecules_D": 4756,
+      "positive_atoms_D": 258,
+      "in_C": true
+    }
+  ],
+  "C_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    49,
+    50,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    59,
+    60,
+    62,
+    64,
+    65,
+    66,
+    67,
+    69,
+    70,
+    71,
+    72,
+    76,
+    77,
+    78,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    90
+  ],
+  "coverage_gate": "PASS",
+  "thresholds": {
+    "positive_molecules": 100,
+    "all_negative_molecules": 100,
+    "positive_atoms": 200
+  }
+}

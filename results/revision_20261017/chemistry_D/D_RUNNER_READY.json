@@ -1,0 +1,173 @@
+{
+  "status": "READY_AWAIT_ROOT_D_RUN_LOCK_AND_D_GO",
+  "created_utc": "2026-10-17T13:43:40.135589+00:00",
+  "config": {
+    "schema": "chemistry-D-runner/1",
+    "networks": [
+      "trained",
+      "init21000",
+      "init21001",
+      "init21002"
+    ],
+    "bases": [
+      "native",
+      "Q30000",
+      "Q30001",
+      "Q30002",
+      "Q30003",
+      "Q30004",
+      "Q30005",
+      "Q30006",
+      "Q30007",
+      "Q30008"
+    ],
+    "initialization_seeds": [
+      21000,
+      21001,
+      21002
+    ],
+    "rotation_seeds": [
+      30000,
+      30001,
+      30002,
+      30003,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008
+    ],
+    "layer_zero_based": 1,
+    "native_or_rotated_score_dtype": "float32",
+    "Q_saved_dtype": "float64",
+    "Q_algorithm": "NumPy default_rng PCG64 Gaussian/float64QR; Q columns multiplied by sign(R diagonal); zero sign=+1",
+    "AP_accumulator_dtype": "float64",
+    "score_ties": "exact equality; no epsilon score merging",
+    "winner_AP_absolute_tolerance": 1.7763568394002505e-15,
+    "winner_tie_break": "unit ascending, positive pole first",
+    "candidate_encoding": "+a_j=j;-a_j=464+j",
+    "AP": "distinct-threshold precision weighted by positive recall increments; not trapezoid",
+    "bootstrap": "shared PCG64 integers molecule-resample count weights; no atom-IID or approximation",
+    "D_fit_molecules": 4000,
+    "D_precision_molecules": 1000,
+    "D_precision_replicates": 500,
+    "D_precision_seed": 42016,
+    "T_replicates_not_run_here": 2000,
+    "T_seed_not_run_here": 42017,
+    "quantile_method": "linear",
+    "D_halfwidth": "(q.975-q.025)/2 per estimand; max of Theta/G_init times1.25sqrt(.1)",
+    "D_target_halfwidth": 0.09531017980432493,
+    "undefined_replicate_max_fraction": 0.01,
+    "encoder_and_intervention_total_cpu_seconds": 14400,
+    "AP_rotation_clusterbootstrap_total_cpu_seconds": 43200,
+    "budget_unit": "cumulative process CPU seconds, separate wall time; shared across D and any future T",
+    "threads": 4,
+    "torch_interop_threads": 1,
+    "batch_size": 4,
+    "memory_working_set_stop_bytes": 2147483648,
+    "max_atom_rows_D": 250000,
+    "activation_bytes_per_network_max": 464000000,
+    "retained_basis_matrices": "one temporary rotated score matrix; no 40-matrix expansion",
+    "intervention_budget_total_molecule_evaluations": 10000,
+    "T_access": "none; later T stage must separately require root D_OUTPUT_LOCK"
+  },
+  "files": {
+    "scripts/revision_20261017/chem_run.py": {
+      "bytes": 35595,
+      "sha256": "9810c16adb1183ac974622d13a292cc920810a550f9a8b26928bc5c183962001"
+    },
+    "scripts/revision_20261017/chem_statistics.py": {
+      "bytes": 12336,
+      "sha256": "6279bcad615bc70b45a5280b65236c71e46df2f0052b6d6fa92c6224c1e6616b"
+    },
+    "scripts/revision_20261017/chem_model.py": {
+      "bytes": 18226,
+      "sha256": "2896068dcab018923c0f426153b47a06e3950257848c77d86bd194c6251c1bd0"
+    },
+    "scripts/revision_20261017/test_chem_statistics.py": {
+      "bytes": 12351,
+      "sha256": "815ed28e7ef69a3f6b9e893e3d3dc8a6d42708b86db477765f75d67f791cacd3"
+    },
+    "docs/revision_20261017/CHEMISTRY_CONFIRMATION_PROTOCOL.md": {
+      "bytes": 12481,
+      "sha256": "5f3b8ac91fef95fc8b40cadcff62f8cf947e0aee3e4fb130f4a5cb9f6524685c"
+    },
+    "docs/revision_20261017/CHEMISTRY_DATA_PROTOCOL.md": {
+      "bytes": 6398,
+      "sha256": "ed6a5441c54ec81813e4d80dbe1ee96c3d227a4e8fc7c561484bd6bc7d90e6de"
+    },
+    "assets/chemberta_mtr_model/config.json": {
+      "bytes": 17669,
+      "sha256": "6c15d3fd119919afb92b762c4e55cd46a595251ab799435168baa75a6ebd07e6"
+    },
+    "assets/chemberta_mtr_model/provenance.json": {
+      "bytes": 1838,
+      "sha256": "d4c00be3011887b5f811b4f5719bc3302149a1a4f61ed918d8bf1d1df2c928ad"
+    },
+    "results/revision_20261017/chemistry_D/STATISTICS_ENGINEERING.json": {
+      "bytes": 3989,
+      "sha256": "1697ab10909e64239a572c51c4c680c342955c69f7e84b48095404aa1825b5ae"
+    },
+    "results/revision_20261017/chemistry_D/CPU_BUDGET_PROBE.json": {
+      "bytes": 2001,
+      "sha256": "c1671c9f5aec0dcf7e0e612d79817c9685bf082ce0931d799f0d5f41ecba9e02"
+    },
+    "results/revision_20261017/chemistry_D/CPU_BUDGET_PLAN.json": {
+      "bytes": 1981,
+      "sha256": "1763dcb91a7b0fe9c5a710aa815d738d3c65d5fbe637d070afaf679ea27fe446"
+    },
+    "results/revision_20261017/chemistry_D/RUNNER_ENGINEERING.json": {
+      "bytes": 1437,
+      "sha256": "07f4fa82ec9939fae119ec3d5c278ba5a7b1938471a7633b6aac417c07954119"
+    }
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "torch": "2.7.1+cpu",
+    "transformers": "4.44.2",
+    "tokenizers": "0.19.1",
+    "rdkit": "2026.3.6",
+    "numba": "0.61.2",
+    "llvmlite": "0.44.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "python_executable": ".\\.venv_chem\\Scripts\\python.exe",
+  "lock_contract": {
+    "default_path": ".\\docs\\revision_20261017\\D_RUN_LOCK.json",
+    "required_status": "D_RUN_LOCKED",
+    "required_fields": [
+      "runner_ready_sha256",
+      "data_build_receipt_sha256"
+    ],
+    "meaning": "root authorizes D only; no D_OUTPUT_LOCK is created by this runner"
+  },
+  "D_reads_or_model_forwards_or_D_winner_selection": 0,
+  "commands_after_root_D_GO": [
+    ".venv_chem/Scripts/python.exe -B scripts/revision_20261017/chem_run.py extract-D --lock docs/revision_20261017/D_RUN_LOCK.json",
+    ".venv_chem/Scripts/python.exe -B scripts/revision_20261017/chem_run.py precision-D --lock docs/revision_20261017/D_RUN_LOCK.json",
+    ".venv_chem/Scripts/python.exe -B scripts/revision_20261017/chem_run.py final-D --lock docs/revision_20261017/D_RUN_LOCK.json"
+  ],
+  "handoff": "root owns finite input references, mechanism selection, D_OUTPUT_LOCK and any T runner",
+  "cache_schema": {
+    "root": ".\\data\\revision_20261017\\chemistry\\activations_D",
+    "networks": [
+      "trained",
+      "init21000",
+      "init21001",
+      "init21002"
+    ],
+    "atom_a.npy": "float32[n_D_atoms,464]; D molecule order then canonical RDKit atom index",
+    "cls_a.npy": "float32[5000,464]; position0 in D molecule order",
+    "normalized_head.npy": "float32[5000,199]; anonymous normalized coordinates",
+    "D_moments.npz": "float64[464] each: atom_mean,atom_mean_abs,atom_sd,cls_mean,cls_sd,output_dense_column_norm,residual_dose; population SD ddof0",
+    "D_FINAL_WINNERS.npz": "candidate_indices int32[4,10,C], AP_D float64[4,10,C], concept_ids,networks,bases",
+    "D_PRECISION.json": "both estimands,500 shared cluster replicates,undefined fraction,projected halfwidth,precision_gate"
+  },
+  "known_budget_limit": "CPU caps include future T work; D usage is additive, not reset by each command",
+  "memory": {
+    "process_working_set_stop_bytes": 2147483648,
+    "max_disk_native_four_network_atom_arrays_bytes": 1856000000,
+    "temporary_rotated_array_max_bytes": 464000000,
+    "algorithm": "native mmap per network, one basis scratch mmap, one sorted scalar and concept-label block, 500x1000 molecule weights"
+  }
+}

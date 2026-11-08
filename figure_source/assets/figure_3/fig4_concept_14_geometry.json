@@ -1,0 +1,381 @@
+{
+  "style": {
+    "atom_center_bond_length_pt": 6.4,
+    "black_bond_linewidth_pt": 0.6,
+    "atom_font_family": "Arial",
+    "atom_fontsize_pt": 7.0,
+    "match_circle_linewidth_pt": 0.9,
+    "match_circle_radius_pt": 3.2,
+    "match_circle_fill": "none",
+    "native_ink_margin_pt": 1.0,
+    "PNG_dpi": 600,
+    "whole_asset_scaling_allowed": false,
+    "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+    "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+  },
+  "width_pt": 21.101526784366435,
+  "height_pt": 15.785468750000003,
+  "paths": [
+    {
+      "vertices": [
+        [
+          5.1165625,
+          11.301534822070227
+        ],
+        [
+          8.253080761812232,
+          9.493372028079323
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-0 atom-0 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          8.730361807457703,
+          9.772756054798622
+        ],
+        [
+          8.730361807457703,
+          5.88546875
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-1 atom-1 atom-2",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          7.7699792156101095,
+          9.772756054798622
+        ],
+        [
+          7.7699792156101095,
+          5.88546875
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-1 atom-1 atom-2",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          8.253080761812232,
+          9.493372028079323
+        ],
+        [
+          11.197000168440816,
+          11.190504037283054
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-2 atom-1 atom-3",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    },
+    {
+      "vertices": [
+        [
+          8.043542741772757,
+          9.609782039212364
+        ],
+        [
+          8.253080761812232,
+          9.493372028079323
+        ],
+        [
+          8.456798281295054,
+          9.609782039212364
+        ]
+      ],
+      "codes": [
+        1,
+        2,
+        2
+      ],
+      "source_class": "",
+      "dash": null,
+      "linewidth_pt": 0.6,
+      "color": "#000000"
+    }
+  ],
+  "texts": [
+    {
+      "x": -0.05015625000000001,
+      "y": 15.19796875,
+      "text": "R",
+      "source_class": "atom-0",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#000000"
+    },
+    {
+      "x": 5.516468834220406,
+      "y": 5.60015625,
+      "text": "O",
+      "source_class": "atom-2",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#CC3311"
+    },
+    {
+      "x": 11.059031418440815,
+      "y": 15.200156250000003,
+      "text": "O",
+      "source_class": "atom-3",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#CC3311"
+    },
+    {
+      "x": 16.110589284366434,
+      "y": 15.200156250000003,
+      "text": "H",
+      "source_class": "atom-3",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start",
+      "color": "#CC3311"
+    }
+  ],
+  "circles": [],
+  "atoms": [
+    {
+      "index": 0,
+      "element": "R",
+      "x": 2.70828125,
+      "y": 12.692734374999999,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 1,
+      "element": "C",
+      "x": 8.250843834220406,
+      "y": 9.492734375000001,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 2,
+      "element": "O",
+      "x": 8.250843834220406,
+      "y": 3.092734375,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    },
+    {
+      "index": 3,
+      "element": "O",
+      "x": 13.793406418440815,
+      "y": 12.692734375000002,
+      "formal_charge": 0,
+      "is_aromatic": false,
+      "query_description": null
+    }
+  ],
+  "bonds": [
+    {
+      "index": 0,
+      "begin": 0,
+      "end": 1,
+      "type": "SINGLE"
+    },
+    {
+      "index": 1,
+      "begin": 1,
+      "end": 2,
+      "type": "DOUBLE"
+    },
+    {
+      "index": 2,
+      "begin": 1,
+      "end": 3,
+      "type": "SINGLE"
+    }
+  ],
+  "matched_atom_indices": [],
+  "center_bond_lengths_pt": [
+    6.4,
+    6.4,
+    6.4
+  ],
+  "source_RDKit_SVG": "Frozen figure source",
+  "source_SVG_to_point_unit": 0.10458711937734201,
+  "source_graph_is_query": false,
+  "source_graph_SMARTS": "[#0]-[#6](=[#8])-[#8]",
+  "RDKit": "2026.03.6",
+  "metadata": {
+    "concept_id": 14,
+    "concept_name": "Carboxylic acid",
+    "exact_input_SMILES": "*C(=O)O",
+    "MolFromSmiles_used": true,
+    "rendered_graph_is_query": false,
+    "frozen_definition": "C(=O)[O;H,-]",
+    "R_mapping": [
+      {
+        "atom_index": 0,
+        "atom_map": 0,
+        "display": "R",
+        "neighbors": [
+          1
+        ]
+      }
+    ],
+    "representative_top_level_matches": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "carbon_completed_witness_SMILES": "CC(=O)O",
+    "carbon_completed_witness_matches": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "semantic_boundary": "R is the omitted non-acid substituent; neutral COOH illustrates one permitted state, not all carboxylates.",
+    "frozen_label_definition_changed": false,
+    "selection_is_illustrative_not_empirical_response_evidence": true,
+    "mapping_advice_reused": "Frozen figure source"
+  },
+  "geometry_finalized": true,
+  "chemical_graph_modified": false,
+  "text_override": "All actual SVG text kept; Arial7pt primary-symbol ink alignment in exporter preserves within-atom component baseline differences",
+  "atom_label_alignment_records": [
+    {
+      "atom_index": 0,
+      "primary_symbol": "R",
+      "text_component_indices": [
+        0
+      ],
+      "translation_pt": [
+        -6.661338147750939e-16,
+        0.0
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "atom_index": 2,
+      "primary_symbol": "O",
+      "text_component_indices": [
+        1
+      ],
+      "translation_pt": [
+        -1.7763568394002505e-15,
+        0.0
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "atom_index": 3,
+      "primary_symbol": "O",
+      "text_component_indices": [
+        2,
+        3
+      ],
+      "translation_pt": [
+        0.0,
+        -1.7763568394002505e-15
+      ],
+      "primary_ink_center_relative_to_atom_after_pt": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "atom_label_alignment_method": "Actual Arial7pt TextPath ink bounds, preserving per-atom component baseline differences; no atom/bond/circle movement",
+  "native_ink_bounds_pt": [
+    1.0,
+    1.0,
+    30.04,
+    23.560000000000002
+  ],
+  "text_clearance_display_repair": {
+    "pad_pt": 0.2,
+    "straight_paths_trimmed": 4,
+    "graph_atoms_bonds_and_text_positions_unchanged": true,
+    "reason": "Fixed Arial7 label ink is not reduced with center geometry"
+  },
+  "halos": [
+    {
+      "x": 8.250843834220406,
+      "y": 9.492734375000001,
+      "atom_index": 1,
+      "radius_pt": 2.56,
+      "color": "#EE7733",
+      "alpha": 0.25
+    },
+    {
+      "x": 8.250843834220406,
+      "y": 3.092734375,
+      "atom_index": 2,
+      "radius_pt": 2.56,
+      "color": "#EE7733",
+      "alpha": 0.25
+    }
+  ],
+  "native_geometry_source": "manuscript/draft_round6_20261027/sources/chemical_assets/representative_smiles/concept_14_representative_geometry.json",
+  "CPK_palette": {
+    "N": "#0077BB",
+    "O": "#CC3311",
+    "S": "#CCBB44",
+    "Cl": "#009988",
+    "C": "#000000",
+    "R": "#000000",
+    "*": "#000000",
+    "H": "#000000"
+  },
+  "finalset_uniform_geometry_scale": 0.5565217391304348,
+  "finalset_atom_center_bond_length_pt": 6.4,
+  "query_halo_is_neural_response_evidence": false,
+  "identity_reuse_evidence": {
+    "atoms_identity_equal": true,
+    "bonds_exactly_equal": true,
+    "text_runs_exactly_equal": true,
+    "matched_atom_indices_exactly_equal": true,
+    "source_graph_SMARTS_exactly_equal": true
+  }
+}

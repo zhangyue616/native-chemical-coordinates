@@ -1,0 +1,4720 @@
+{
+  "figure": 4,
+  "version": "r8_20261102_v01",
+  "R7_frozen_source": "manuscript/draft_round7_20261031/review_versions/figure_5/finalset_20261102_v04/figure_5_plot_data.json",
+  "new_statistics": false,
+  "activation_rows": [
+    {
+      "panel": "A",
+      "row_top_to_bottom": 1,
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_row": {
+        "kind": "activation",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_T",
+        "condition": "D_mean",
+        "metric": "pooled_atom_r2",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "-5.961916082819485e-05",
+        "ci95_lower": "-0.00019477143255222095",
+        "ci95_upper": "-2.9483208881575585e-06",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "source_csv_line": 3
+      },
+      "plot_values": [
+        -5.961916082819485e-05,
+        -0.00019477143255222095,
+        -2.9483208881575585e-06
+      ],
+      "display_row_y": 1,
+      "label": "Aliphatic OH",
+      "condition": "D_mean"
+    },
+    {
+      "panel": "A",
+      "row_top_to_bottom": 2,
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_row": {
+        "kind": "activation",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_T",
+        "condition": "M1",
+        "metric": "pooled_atom_r2",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.6621234950424753",
+        "ci95_lower": "0.6448681296664628",
+        "ci95_upper": "0.6786537593322816",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "source_csv_line": 5
+      },
+      "plot_values": [
+        0.6621234950424753,
+        0.6448681296664628,
+        0.6786537593322816
+      ],
+      "display_row_y": 1,
+      "label": "Aliphatic OH",
+      "condition": "M1"
+    },
+    {
+      "panel": "A",
+      "row_top_to_bottom": 3,
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_row": {
+        "kind": "activation",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_T",
+        "condition": "M2",
+        "metric": "pooled_atom_r2",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.8336593383193934",
+        "ci95_lower": "0.8224672554563034",
+        "ci95_upper": "0.8442071018171816",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "source_csv_line": 7
+      },
+      "plot_values": [
+        0.8336593383193934,
+        0.8224672554563034,
+        0.8442071018171816
+      ],
+      "display_row_y": 1,
+      "label": "Aliphatic OH",
+      "condition": "M2"
+    },
+    {
+      "panel": "A",
+      "row_top_to_bottom": 4,
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_row": {
+        "kind": "activation",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_T",
+        "condition": "D_mean",
+        "metric": "pooled_atom_r2",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "-4.832491897466262e-05",
+        "ci95_lower": "-0.0001472404195811905",
+        "ci95_upper": "-3.654155461857437e-06",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "source_csv_line": 21
+      },
+      "plot_values": [
+        -4.832491897466262e-05,
+        -0.0001472404195811905,
+        -3.654155461857437e-06
+      ],
+      "display_row_y": 0,
+      "label": "Carbonyl",
+      "condition": "D_mean"
+    },
+    {
+      "panel": "A",
+      "row_top_to_bottom": 5,
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_row": {
+        "kind": "activation",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_T",
+        "condition": "M1",
+        "metric": "pooled_atom_r2",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.49170871194398924",
+        "ci95_lower": "0.4823402000696161",
+        "ci95_upper": "0.50035928483257",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "source_csv_line": 23
+      },
+      "plot_values": [
+        0.49170871194398924,
+        0.4823402000696161,
+        0.50035928483257
+      ],
+      "display_row_y": 0,
+      "label": "Carbonyl",
+      "condition": "M1"
+    },
+    {
+      "panel": "A",
+      "row_top_to_bottom": 6,
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_row": {
+        "kind": "activation",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_T",
+        "condition": "M2",
+        "metric": "pooled_atom_r2",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.6346371626418226",
+        "ci95_lower": "0.6280553358175818",
+        "ci95_upper": "0.6411221718508424",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "source_csv_line": 25
+      },
+      "plot_values": [
+        0.6346371626418226,
+        0.6280553358175818,
+        0.6411221718508424
+      ],
+      "display_row_y": 0,
+      "label": "Carbonyl",
+      "condition": "M2"
+    }
+  ],
+  "output_rows": [
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 1,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_T",
+        "condition": "D_mean",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.02019296935480088",
+        "ci95_lower": "0.0189823050108389",
+        "ci95_upper": "0.02147747581565054",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 2
+      },
+      "plot_values_original_units": [
+        0.02019296935480088,
+        0.0189823050108389,
+        0.02147747581565054
+      ],
+      "plot_values_display_units": [
+        20.19296935480088,
+        18.9823050108389,
+        21.47747581565054
+      ],
+      "display_row_y": 5,
+      "label": "Aliphatic OH / All",
+      "condition": "D_mean"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 2,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_T",
+        "condition": "M1",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.00854557664031163",
+        "ci95_lower": "0.007983237611947115",
+        "ci95_upper": "0.009159247903681826",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 7
+      },
+      "plot_values_original_units": [
+        0.00854557664031163,
+        0.007983237611947115,
+        0.009159247903681826
+      ],
+      "plot_values_display_units": [
+        8.54557664031163,
+        7.983237611947115,
+        9.159247903681827
+      ],
+      "display_row_y": 5,
+      "label": "Aliphatic OH / All",
+      "condition": "M1"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 3,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_T",
+        "condition": "M2",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.005855377367930487",
+        "ci95_lower": "0.005424718877713894",
+        "ci95_upper": "0.006304772314616712",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 13
+      },
+      "plot_values_original_units": [
+        0.005855377367930487,
+        0.005424718877713894,
+        0.006304772314616712
+      ],
+      "plot_values_display_units": [
+        5.855377367930487,
+        5.424718877713894,
+        6.304772314616712
+      ],
+      "display_row_y": 5,
+      "label": "Aliphatic OH / All",
+      "condition": "M2"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 4,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_T",
+        "condition": "M1_delta_perm",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.018976091672759505",
+        "ci95_lower": "0.017722873593482655",
+        "ci95_upper": "0.02029863860777346",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 19
+      },
+      "plot_values_original_units": [
+        0.018976091672759505,
+        0.017722873593482655,
+        0.02029863860777346
+      ],
+      "plot_values_display_units": [
+        18.976091672759505,
+        17.722873593482657,
+        20.298638607773462
+      ],
+      "display_row_y": 5,
+      "label": "Aliphatic OH / All",
+      "condition": "M1_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 5,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_T",
+        "condition": "M2_delta_perm",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.015504672462074086",
+        "ci95_lower": "0.014426788153126835",
+        "ci95_upper": "0.01670915155215305",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 24
+      },
+      "plot_values_original_units": [
+        0.015504672462074086,
+        0.014426788153126835,
+        0.01670915155215305
+      ],
+      "plot_values_display_units": [
+        15.504672462074087,
+        14.426788153126836,
+        16.709151552153052
+      ],
+      "display_row_y": 5,
+      "label": "Aliphatic OH / All",
+      "condition": "M2_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 1,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "any_target_positive_molecule",
+        "condition": "D_mean",
+        "metric": "mae",
+        "n_molecules": "1271",
+        "n_atoms": "32380",
+        "estimate": "0.14395813511451522",
+        "ci95_lower": "0.13715452588009258",
+        "ci95_upper": "0.15077241769423871",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 29
+      },
+      "plot_values_original_units": [
+        0.14395813511451522,
+        0.13715452588009258,
+        0.15077241769423871
+      ],
+      "plot_values_display_units": [
+        143.95813511451522,
+        137.1545258800926,
+        150.77241769423873
+      ],
+      "display_row_y": 4,
+      "label": "Aliphatic OH / Concept-positive",
+      "condition": "D_mean"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 2,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "any_target_positive_molecule",
+        "condition": "M1",
+        "metric": "mae",
+        "n_molecules": "1271",
+        "n_atoms": "32380",
+        "estimate": "0.060179713389518975",
+        "ci95_lower": "0.057007872332633124",
+        "ci95_upper": "0.0634402392012389",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 34
+      },
+      "plot_values_original_units": [
+        0.060179713389518975,
+        0.057007872332633124,
+        0.0634402392012389
+      ],
+      "plot_values_display_units": [
+        60.17971338951897,
+        57.00787233263312,
+        63.440239201238896
+      ],
+      "display_row_y": 4,
+      "label": "Aliphatic OH / Concept-positive",
+      "condition": "M1"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 3,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "any_target_positive_molecule",
+        "condition": "M2",
+        "metric": "mae",
+        "n_molecules": "1271",
+        "n_atoms": "32380",
+        "estimate": "0.03772374375611192",
+        "ci95_lower": "0.03491569023680511",
+        "ci95_upper": "0.04064658856715639",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 40
+      },
+      "plot_values_original_units": [
+        0.03772374375611192,
+        0.03491569023680511,
+        0.04064658856715639
+      ],
+      "plot_values_display_units": [
+        37.72374375611192,
+        34.91569023680511,
+        40.646588567156385
+      ],
+      "display_row_y": 4,
+      "label": "Aliphatic OH / Concept-positive",
+      "condition": "M2"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 4,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "any_target_positive_molecule",
+        "condition": "M1_delta_perm",
+        "metric": "mae",
+        "n_molecules": "1271",
+        "n_atoms": "32380",
+        "estimate": "0.14188876881738238",
+        "ci95_lower": "0.13481236148971898",
+        "ci95_upper": "0.14917080906074456",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 46
+      },
+      "plot_values_original_units": [
+        0.14188876881738238,
+        0.13481236148971898,
+        0.14917080906074456
+      ],
+      "plot_values_display_units": [
+        141.88876881738238,
+        134.81236148971897,
+        149.17080906074457
+      ],
+      "display_row_y": 4,
+      "label": "Aliphatic OH / Concept-positive",
+      "condition": "M1_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 5,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "any_target_positive_molecule",
+        "condition": "M2_delta_perm",
+        "metric": "mae",
+        "n_molecules": "1271",
+        "n_atoms": "32380",
+        "estimate": "0.11386134838326346",
+        "ci95_lower": "0.10735278697796755",
+        "ci95_upper": "0.12083859188090944",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 51
+      },
+      "plot_values_original_units": [
+        0.11386134838326346,
+        0.10735278697796755,
+        0.12083859188090944
+      ],
+      "plot_values_display_units": [
+        113.86134838326346,
+        107.35278697796754,
+        120.83859188090943
+      ],
+      "display_row_y": 4,
+      "label": "Aliphatic OH / Concept-positive",
+      "condition": "M2_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 1,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_target_negative_molecule",
+        "condition": "D_mean",
+        "metric": "mae",
+        "n_molecules": "8729",
+        "n_atoms": "214342",
+        "estimate": "0.0021719445317287134",
+        "ci95_lower": "0.0019843392153838756",
+        "ci95_upper": "0.0023745822118402217",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 56
+      },
+      "plot_values_original_units": [
+        0.0021719445317287134,
+        0.0019843392153838756,
+        0.0023745822118402217
+      ],
+      "plot_values_display_units": [
+        2.1719445317287134,
+        1.9843392153838755,
+        2.3745822118402216
+      ],
+      "display_row_y": 3,
+      "label": "Aliphatic OH / All-negative",
+      "condition": "D_mean"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 2,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_target_negative_molecule",
+        "condition": "M1",
+        "metric": "mae",
+        "n_molecules": "8729",
+        "n_atoms": "214342",
+        "estimate": "0.0010273056117582394",
+        "ci95_lower": "0.000822940998234526",
+        "ci95_upper": "0.001257600741023917",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 61
+      },
+      "plot_values_original_units": [
+        0.0010273056117582394,
+        0.000822940998234526,
+        0.001257600741023917
+      ],
+      "plot_values_display_units": [
+        1.0273056117582393,
+        0.822940998234526,
+        1.257600741023917
+      ],
+      "display_row_y": 3,
+      "label": "Aliphatic OH / All-negative",
+      "condition": "M1"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 3,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_target_negative_molecule",
+        "condition": "M2",
+        "metric": "mae",
+        "n_molecules": "8729",
+        "n_atoms": "214342",
+        "estimate": "0.0012151329322129245",
+        "ci95_lower": "0.0010362702460045743",
+        "ci95_upper": "0.0014130342651175807",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 67
+      },
+      "plot_values_original_units": [
+        0.0012151329322129245,
+        0.0010362702460045743,
+        0.0014130342651175807
+      ],
+      "plot_values_display_units": [
+        1.2151329322129245,
+        1.0362702460045743,
+        1.4130342651175807
+      ],
+      "display_row_y": 3,
+      "label": "Aliphatic OH / All-negative",
+      "condition": "M2"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 4,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_target_negative_molecule",
+        "condition": "M1_delta_perm",
+        "metric": "mae",
+        "n_molecules": "8729",
+        "n_atoms": "214342",
+        "estimate": "0.001079194817356172",
+        "ci95_lower": "0.0008797810021623087",
+        "ci95_upper": "0.0012917473645118322",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 73
+      },
+      "plot_values_original_units": [
+        0.001079194817356172,
+        0.0008797810021623087,
+        0.0012917473645118322
+      ],
+      "plot_values_display_units": [
+        1.079194817356172,
+        0.8797810021623087,
+        1.2917473645118323
+      ],
+      "display_row_y": 3,
+      "label": "Aliphatic OH / All-negative",
+      "condition": "M1_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 5,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "293",
+        "concept": "26",
+        "stratum": "all_target_negative_molecule",
+        "condition": "M2_delta_perm",
+        "metric": "mae",
+        "n_molecules": "8729",
+        "n_atoms": "214342",
+        "estimate": "0.001183291422340817",
+        "ci95_lower": "0.001021239614174236",
+        "ci95_upper": "0.0013623915105590713",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "115",
+        "endpoint_role": "primary",
+        "source_csv_line": 78
+      },
+      "plot_values_original_units": [
+        0.001183291422340817,
+        0.001021239614174236,
+        0.0013623915105590713
+      ],
+      "plot_values_display_units": [
+        1.183291422340817,
+        1.021239614174236,
+        1.3623915105590714
+      ],
+      "display_row_y": 3,
+      "label": "Aliphatic OH / All-negative",
+      "condition": "M2_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 1,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_T",
+        "condition": "D_mean",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.0043730363494250924",
+        "ci95_lower": "0.004283394596941071",
+        "ci95_upper": "0.004467003080933936",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 83
+      },
+      "plot_values_original_units": [
+        0.0043730363494250924,
+        0.004283394596941071,
+        0.004467003080933936
+      ],
+      "plot_values_display_units": [
+        4.373036349425092,
+        4.28339459694107,
+        4.467003080933936
+      ],
+      "display_row_y": 2,
+      "label": "Carbonyl / All",
+      "condition": "D_mean"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 2,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_T",
+        "condition": "M1",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.0028124841439537704",
+        "ci95_lower": "0.002728972779242904",
+        "ci95_upper": "0.0028978312632424058",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 88
+      },
+      "plot_values_original_units": [
+        0.0028124841439537704,
+        0.002728972779242904,
+        0.0028978312632424058
+      ],
+      "plot_values_display_units": [
+        2.81248414395377,
+        2.7289727792429037,
+        2.8978312632424057
+      ],
+      "display_row_y": 2,
+      "label": "Carbonyl / All",
+      "condition": "M1"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 3,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_T",
+        "condition": "M2",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.0023309687913162635",
+        "ci95_lower": "0.002258851254718029",
+        "ci95_upper": "0.0024022463720780795",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 94
+      },
+      "plot_values_original_units": [
+        0.0023309687913162635,
+        0.002258851254718029,
+        0.0024022463720780795
+      ],
+      "plot_values_display_units": [
+        2.3309687913162636,
+        2.258851254718029,
+        2.4022463720780793
+      ],
+      "display_row_y": 2,
+      "label": "Carbonyl / All",
+      "condition": "M2"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 4,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_T",
+        "condition": "M1_delta_perm",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.005285546638653614",
+        "ci95_lower": "0.005135357080537942",
+        "ci95_upper": "0.005441900672502815",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 100
+      },
+      "plot_values_original_units": [
+        0.005285546638653614,
+        0.005135357080537942,
+        0.005441900672502815
+      ],
+      "plot_values_display_units": [
+        5.285546638653614,
+        5.135357080537942,
+        5.441900672502815
+      ],
+      "display_row_y": 2,
+      "label": "Carbonyl / All",
+      "condition": "M1_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 1,
+      "row_top_to_bottom": 5,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_T",
+        "condition": "M2_delta_perm",
+        "metric": "mae",
+        "n_molecules": "10000",
+        "n_atoms": "246722",
+        "estimate": "0.00411254552686587",
+        "ci95_lower": "0.003993867333784",
+        "ci95_upper": "0.004235490824919544",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 105
+      },
+      "plot_values_original_units": [
+        0.00411254552686587,
+        0.003993867333784,
+        0.004235490824919544
+      ],
+      "plot_values_display_units": [
+        4.11254552686587,
+        3.9938673337840003,
+        4.235490824919544
+      ],
+      "display_row_y": 2,
+      "label": "Carbonyl / All",
+      "condition": "M2_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 1,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "any_target_positive_molecule",
+        "condition": "D_mean",
+        "metric": "mae",
+        "n_molecules": "6278",
+        "n_atoms": "165179",
+        "estimate": "0.005349248829044048",
+        "ci95_lower": "0.005228433513377106",
+        "ci95_upper": "0.005482138205995858",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 110
+      },
+      "plot_values_original_units": [
+        0.005349248829044048,
+        0.005228433513377106,
+        0.005482138205995858
+      ],
+      "plot_values_display_units": [
+        5.349248829044048,
+        5.228433513377106,
+        5.482138205995858
+      ],
+      "display_row_y": 1,
+      "label": "Carbonyl / Concept-positive",
+      "condition": "D_mean"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 2,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "any_target_positive_molecule",
+        "condition": "M1",
+        "metric": "mae",
+        "n_molecules": "6278",
+        "n_atoms": "165179",
+        "estimate": "0.004259793567149293",
+        "ci95_lower": "0.004143697396813125",
+        "ci95_upper": "0.004377439094453893",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 115
+      },
+      "plot_values_original_units": [
+        0.004259793567149293,
+        0.004143697396813125,
+        0.004377439094453893
+      ],
+      "plot_values_display_units": [
+        4.259793567149293,
+        4.143697396813125,
+        4.377439094453893
+      ],
+      "display_row_y": 1,
+      "label": "Carbonyl / Concept-positive",
+      "condition": "M1"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 3,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "any_target_positive_molecule",
+        "condition": "M2",
+        "metric": "mae",
+        "n_molecules": "6278",
+        "n_atoms": "165179",
+        "estimate": "0.003347578531882674",
+        "ci95_lower": "0.003246256021523184",
+        "ci95_upper": "0.003451911710954807",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 121
+      },
+      "plot_values_original_units": [
+        0.003347578531882674,
+        0.003246256021523184,
+        0.003451911710954807
+      ],
+      "plot_values_display_units": [
+        3.3475785318826743,
+        3.2462560215231844,
+        3.451911710954807
+      ],
+      "display_row_y": 1,
+      "label": "Carbonyl / Concept-positive",
+      "condition": "M2"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 4,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "any_target_positive_molecule",
+        "condition": "M1_delta_perm",
+        "metric": "mae",
+        "n_molecules": "6278",
+        "n_atoms": "165179",
+        "estimate": "0.008208910947125293",
+        "ci95_lower": "0.008005462700133404",
+        "ci95_upper": "0.008419771723846059",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 127
+      },
+      "plot_values_original_units": [
+        0.008208910947125293,
+        0.008005462700133404,
+        0.008419771723846059
+      ],
+      "plot_values_display_units": [
+        8.208910947125293,
+        8.005462700133403,
+        8.41977172384606
+      ],
+      "display_row_y": 1,
+      "label": "Carbonyl / Concept-positive",
+      "condition": "M1_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 2,
+      "row_top_to_bottom": 5,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "any_target_positive_molecule",
+        "condition": "M2_delta_perm",
+        "metric": "mae",
+        "n_molecules": "6278",
+        "n_atoms": "165179",
+        "estimate": "0.00622167662702864",
+        "ci95_lower": "0.006060131214584976",
+        "ci95_upper": "0.006400167028155268",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 132
+      },
+      "plot_values_original_units": [
+        0.00622167662702864,
+        0.006060131214584976,
+        0.006400167028155268
+      ],
+      "plot_values_display_units": [
+        6.22167662702864,
+        6.060131214584977,
+        6.400167028155268
+      ],
+      "display_row_y": 1,
+      "label": "Carbonyl / Concept-positive",
+      "condition": "M2_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 1,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_target_negative_molecule",
+        "condition": "D_mean",
+        "metric": "mae",
+        "n_molecules": "3722",
+        "n_atoms": "81543",
+        "estimate": "0.0027264318499495943",
+        "ci95_lower": "0.002628928115758982",
+        "ci95_upper": "0.0028268401688579196",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 137
+      },
+      "plot_values_original_units": [
+        0.0027264318499495943,
+        0.002628928115758982,
+        0.0028268401688579196
+      ],
+      "plot_values_display_units": [
+        2.726431849949594,
+        2.6289281157589817,
+        2.8268401688579194
+      ],
+      "display_row_y": 0,
+      "label": "Carbonyl / All-negative",
+      "condition": "D_mean"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 2,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_target_negative_molecule",
+        "condition": "M1",
+        "metric": "mae",
+        "n_molecules": "3722",
+        "n_atoms": "81543",
+        "estimate": "0.00037126744357185426",
+        "ci95_lower": "0.0003438948548597913",
+        "ci95_upper": "0.0004004885507519935",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 142
+      },
+      "plot_values_original_units": [
+        0.00037126744357185426,
+        0.0003438948548597913,
+        0.0004004885507519935
+      ],
+      "plot_values_display_units": [
+        0.37126744357185426,
+        0.3438948548597913,
+        0.4004885507519935
+      ],
+      "display_row_y": 0,
+      "label": "Carbonyl / All-negative",
+      "condition": "M1"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 3,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_target_negative_molecule",
+        "condition": "M2",
+        "metric": "mae",
+        "n_molecules": "3722",
+        "n_atoms": "81543",
+        "estimate": "0.0006162251182168738",
+        "ci95_lower": "0.0005698483554222717",
+        "ci95_upper": "0.0006649013283872726",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 148
+      },
+      "plot_values_original_units": [
+        0.0006162251182168738,
+        0.0005698483554222717,
+        0.0006649013283872726
+      ],
+      "plot_values_display_units": [
+        0.6162251182168738,
+        0.5698483554222716,
+        0.6649013283872727
+      ],
+      "display_row_y": 0,
+      "label": "Carbonyl / All-negative",
+      "condition": "M2"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 4,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_target_negative_molecule",
+        "condition": "M1_delta_perm",
+        "metric": "mae",
+        "n_molecules": "3722",
+        "n_atoms": "81543",
+        "estimate": "0.0003546274746060051",
+        "ci95_lower": "0.000330598539293174",
+        "ci95_upper": "0.00038119575146543624",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 154
+      },
+      "plot_values_original_units": [
+        0.0003546274746060051,
+        0.000330598539293174,
+        0.00038119575146543624
+      ],
+      "plot_values_display_units": [
+        0.3546274746060051,
+        0.330598539293174,
+        0.3811957514654362
+      ],
+      "display_row_y": 0,
+      "label": "Carbonyl / All-negative",
+      "condition": "M1_delta_perm"
+    },
+    {
+      "panel": "B",
+      "stratum_column": 3,
+      "row_top_to_bottom": 5,
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_row": {
+        "kind": "output",
+        "coordinate": "454",
+        "concept": "24",
+        "stratum": "all_target_negative_molecule",
+        "condition": "M2_delta_perm",
+        "metric": "mae",
+        "n_molecules": "3722",
+        "n_atoms": "81543",
+        "estimate": "0.0005550159602828849",
+        "ci95_lower": "0.000518290163911903",
+        "ci95_upper": "0.0005976723113800641",
+        "bootstrap_defined": "2000",
+        "bootstrap_undefined": "0",
+        "uncertainty": "marginal_95_percentile_linear",
+        "endpoint": "124",
+        "endpoint_role": "comparison",
+        "source_csv_line": 159
+      },
+      "plot_values_original_units": [
+        0.0005550159602828849,
+        0.000518290163911903,
+        0.0005976723113800641
+      ],
+      "plot_values_display_units": [
+        0.5550159602828848,
+        0.518290163911903,
+        0.5976723113800642
+      ],
+      "display_row_y": 0,
+      "label": "Carbonyl / All-negative",
+      "condition": "M2_delta_perm"
+    }
+  ],
+  "historical_contrast_rows": [
+    {
+      "row_top_to_bottom": 1,
+      "concept_id": 26,
+      "name": "Aliphatic OH",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "historical_source_index": 2,
+      "paired_source_index": 2,
+      "full_clamp_original_precision": [
+        "0.1444401242211461",
+        "0.12688054846289257",
+        "0.16332770612525443"
+      ],
+      "paired_dose_original_precision": [
+        -0.0002916359901428223,
+        -0.0012484744839991132,
+        0.0008778274307648344
+      ],
+      "full_clamp_display_values": [
+        144.4401242211461,
+        126.88054846289256,
+        163.32770612525442
+      ],
+      "paired_dose_display_values": [
+        -0.29163599014282227,
+        -1.2484744839991133,
+        0.8778274307648344
+      ],
+      "display_row_y": 2,
+      "original_ci_percent": 98.3333333333
+    },
+    {
+      "row_top_to_bottom": 2,
+      "concept_id": 24,
+      "name": "Carbonyl",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "historical_source_index": 0,
+      "paired_source_index": 0,
+      "full_clamp_original_precision": [
+        "0.0016490223072469239",
+        "0.00052512829750776292",
+        "0.0026070800525291519"
+      ],
+      "paired_dose_original_precision": [
+        -0.0004718846082687378,
+        -0.0008760605787392706,
+        8.434163856630525e-05
+      ],
+      "full_clamp_display_values": [
+        1.649022307246924,
+        0.5251282975077629,
+        2.607080052529152
+      ],
+      "paired_dose_display_values": [
+        -0.4718846082687378,
+        -0.8760605787392706,
+        0.08434163856630525
+      ],
+      "display_row_y": 1,
+      "original_ci_percent": 98.3333333333
+    },
+    {
+      "row_top_to_bottom": 3,
+      "concept_id": 25,
+      "name": "Carbonyl (noCOO)",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "historical_source_index": 1,
+      "paired_source_index": 1,
+      "full_clamp_original_precision": [
+        "0.0021743459114804864",
+        "0.001344746882600399",
+        "0.0032859724566806111"
+      ],
+      "paired_dose_original_precision": [
+        -0.00020456598605960607,
+        -0.0005379923585569487,
+        0.0001171810138427342
+      ],
+      "full_clamp_display_values": [
+        2.1743459114804864,
+        1.344746882600399,
+        3.285972456680611
+      ],
+      "paired_dose_display_values": [
+        -0.20456598605960608,
+        -0.5379923585569487,
+        0.1171810138427342
+      ],
+      "display_row_y": 0,
+      "original_ci_percent": 98.3333333333
+    }
+  ],
+  "source_display_values_ABD": [
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 3,
+      "source_field": "estimate",
+      "source_value_original_precision": "-5.961916082819485e-05",
+      "display_position": -5.961916082819485e-05,
+      "display_row_y": 5,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 3,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "-0.00019477143255222095",
+      "display_position": -0.00019477143255222095,
+      "display_row_y": 5,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 3,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "-2.9483208881575585e-06",
+      "display_position": -2.9483208881575585e-06,
+      "display_row_y": 5,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 5,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.6621234950424753",
+      "display_position": 0.6621234950424753,
+      "display_row_y": 4,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 5,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.6448681296664628",
+      "display_position": 0.6448681296664628,
+      "display_row_y": 4,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 5,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.6786537593322816",
+      "display_position": 0.6786537593322816,
+      "display_row_y": 4,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 7,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.8336593383193934",
+      "display_position": 0.8336593383193934,
+      "display_row_y": 3,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 7,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.8224672554563034",
+      "display_position": 0.8224672554563034,
+      "display_row_y": 3,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Aliphatic OH, Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 7,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.8442071018171816",
+      "display_position": 0.8442071018171816,
+      "display_row_y": 3,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 21,
+      "source_field": "estimate",
+      "source_value_original_precision": "-4.832491897466262e-05",
+      "display_position": -4.832491897466262e-05,
+      "display_row_y": 2,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 21,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "-0.0001472404195811905",
+      "display_position": -0.0001472404195811905,
+      "display_row_y": 2,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 21,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "-3.654155461857437e-06",
+      "display_position": -3.654155461857437e-06,
+      "display_row_y": 2,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 23,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.49170871194398924",
+      "display_position": 0.49170871194398924,
+      "display_row_y": 1,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 23,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.4823402000696161",
+      "display_position": 0.4823402000696161,
+      "display_row_y": 1,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 23,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.50035928483257",
+      "display_position": 0.50035928483257,
+      "display_row_y": 1,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 25,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.6346371626418226",
+      "display_position": 0.6346371626418226,
+      "display_row_y": 0,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 25,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.6280553358175818",
+      "display_position": 0.6280553358175818,
+      "display_row_y": 0,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "A",
+      "subpanel": null,
+      "name": "Carbonyl, Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/ACTIVATION_METRICS.csv",
+      "source_csv_line": 25,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.6411221718508424",
+      "display_position": 0.6411221718508424,
+      "display_row_y": 0,
+      "display_units": "dimensionless R2",
+      "R7_original_panel": "A"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 2,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.02019296935480088",
+      "display_position": 20.19296935480088,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 2,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.0189823050108389",
+      "display_position": 18.9823050108389,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 2,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.02147747581565054",
+      "display_position": 21.47747581565054,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 7,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.00854557664031163",
+      "display_position": 8.54557664031163,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 7,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.007983237611947115",
+      "display_position": 7.983237611947115,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 7,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.009159247903681826",
+      "display_position": 9.159247903681827,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 13,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.005855377367930487",
+      "display_position": 5.855377367930487,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 13,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.005424718877713894",
+      "display_position": 5.424718877713894,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 13,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.006304772314616712",
+      "display_position": 6.304772314616712,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 19,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.018976091672759505",
+      "display_position": 18.976091672759505,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 19,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.017722873593482655",
+      "display_position": 17.722873593482657,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 19,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.02029863860777346",
+      "display_position": 20.298638607773462,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 24,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.015504672462074086",
+      "display_position": 15.504672462074087,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 24,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.014426788153126835",
+      "display_position": 14.426788153126836,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Aliphatic OH / All / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 24,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.01670915155215305",
+      "display_position": 16.709151552153052,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 29,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.14395813511451522",
+      "display_position": 143.95813511451522,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 29,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.13715452588009258",
+      "display_position": 137.1545258800926,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 29,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.15077241769423871",
+      "display_position": 150.77241769423873,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 34,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.060179713389518975",
+      "display_position": 60.17971338951897,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 34,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.057007872332633124",
+      "display_position": 57.00787233263312,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 34,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0634402392012389",
+      "display_position": 63.440239201238896,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 40,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.03772374375611192",
+      "display_position": 37.72374375611192,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 40,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.03491569023680511",
+      "display_position": 34.91569023680511,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 40,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.04064658856715639",
+      "display_position": 40.646588567156385,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 46,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.14188876881738238",
+      "display_position": 141.88876881738238,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 46,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.13481236148971898",
+      "display_position": 134.81236148971897,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 46,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.14917080906074456",
+      "display_position": 149.17080906074457,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 51,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.11386134838326346",
+      "display_position": 113.86134838326346,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 51,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.10735278697796755",
+      "display_position": 107.35278697796754,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Aliphatic OH / Concept-positive / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 51,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.12083859188090944",
+      "display_position": 120.83859188090943,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 56,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0021719445317287134",
+      "display_position": 2.1719445317287134,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 56,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.0019843392153838756",
+      "display_position": 1.9843392153838755,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 56,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0023745822118402217",
+      "display_position": 2.3745822118402216,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 61,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0010273056117582394",
+      "display_position": 1.0273056117582393,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 61,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.000822940998234526",
+      "display_position": 0.822940998234526,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 61,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.001257600741023917",
+      "display_position": 1.257600741023917,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 67,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0012151329322129245",
+      "display_position": 1.2151329322129245,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 67,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.0010362702460045743",
+      "display_position": 1.0362702460045743,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 67,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0014130342651175807",
+      "display_position": 1.4130342651175807,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 73,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.001079194817356172",
+      "display_position": 1.079194817356172,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 73,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.0008797810021623087",
+      "display_position": 0.8797810021623087,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 73,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0012917473645118322",
+      "display_position": 1.2917473645118323,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 78,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.001183291422340817",
+      "display_position": 1.183291422340817,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 78,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.001021239614174236",
+      "display_position": 1.021239614174236,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Aliphatic OH / All-negative / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 78,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0013623915105590713",
+      "display_position": 1.3623915105590714,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "B"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 83,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0043730363494250924",
+      "display_position": 4.373036349425092,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 83,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.004283394596941071",
+      "display_position": 4.28339459694107,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 83,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.004467003080933936",
+      "display_position": 4.467003080933936,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 88,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0028124841439537704",
+      "display_position": 2.81248414395377,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 88,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.002728972779242904",
+      "display_position": 2.7289727792429037,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 88,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0028978312632424058",
+      "display_position": 2.8978312632424057,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 94,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0023309687913162635",
+      "display_position": 2.3309687913162636,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 94,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.002258851254718029",
+      "display_position": 2.258851254718029,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 94,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0024022463720780795",
+      "display_position": 2.4022463720780793,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 100,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.005285546638653614",
+      "display_position": 5.285546638653614,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 100,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.005135357080537942",
+      "display_position": 5.135357080537942,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 100,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.005441900672502815",
+      "display_position": 5.441900672502815,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 105,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.00411254552686587",
+      "display_position": 4.11254552686587,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 105,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.003993867333784",
+      "display_position": 3.9938673337840003,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_T",
+      "name": "Carbonyl / All / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 105,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.004235490824919544",
+      "display_position": 4.235490824919544,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 110,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.005349248829044048",
+      "display_position": 5.349248829044048,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 110,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.005228433513377106",
+      "display_position": 5.228433513377106,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 110,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.005482138205995858",
+      "display_position": 5.482138205995858,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 115,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.004259793567149293",
+      "display_position": 4.259793567149293,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 115,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.004143697396813125",
+      "display_position": 4.143697396813125,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 115,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.004377439094453893",
+      "display_position": 4.377439094453893,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 121,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.003347578531882674",
+      "display_position": 3.3475785318826743,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 121,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.003246256021523184",
+      "display_position": 3.2462560215231844,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 121,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.003451911710954807",
+      "display_position": 3.451911710954807,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 127,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.008208910947125293",
+      "display_position": 8.208910947125293,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 127,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.008005462700133404",
+      "display_position": 8.005462700133403,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 127,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.008419771723846059",
+      "display_position": 8.41977172384606,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 132,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.00622167662702864",
+      "display_position": 6.22167662702864,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 132,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.006060131214584976",
+      "display_position": 6.060131214584977,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "any_target_positive_molecule",
+      "name": "Carbonyl / Concept-positive / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 132,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.006400167028155268",
+      "display_position": 6.400167028155268,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 137,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0027264318499495943",
+      "display_position": 2.726431849949594,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 137,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.002628928115758982",
+      "display_position": 2.6289281157589817,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Fit mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 137,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0028268401688579196",
+      "display_position": 2.8268401688579194,
+      "display_row_y": 4,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 142,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.00037126744357185426",
+      "display_position": 0.37126744357185426,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 142,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.0003438948548597913",
+      "display_position": 0.3438948548597913,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Concept mean",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 142,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0004004885507519935",
+      "display_position": 0.4004885507519935,
+      "display_row_y": 3,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 148,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0006162251182168738",
+      "display_position": 0.6162251182168738,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 148,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.0005698483554222717",
+      "display_position": 0.5698483554222716,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Local chemistry",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 148,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0006649013283872726",
+      "display_position": 0.6649013283872727,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 154,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0003546274746060051",
+      "display_position": 0.3546274746060051,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 154,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.000330598539293174",
+      "display_position": 0.330598539293174,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Concept shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 154,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.00038119575146543624",
+      "display_position": 0.3811957514654362,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 159,
+      "source_field": "estimate",
+      "source_value_original_precision": "0.0005550159602828849",
+      "display_position": 0.5550159602828848,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 159,
+      "source_field": "ci95_lower",
+      "source_value_original_precision": "0.000518290163911903",
+      "display_position": 0.518290163911903,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "B",
+      "subpanel": "all_target_negative_molecule",
+      "name": "Carbonyl / All-negative / Local shuffled",
+      "source_file": "results/chemical_replacement_20261027/summary/OUTPUT_METRICS.csv",
+      "source_csv_line": 159,
+      "source_field": "ci95_upper",
+      "source_value_original_precision": "0.0005976723113800641",
+      "display_position": 0.5976723113800642,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "C"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Aliphatic OH / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[2].H",
+      "source_value_original_precision": "0.1444401242211461",
+      "display_position": 144.4401242211461,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Aliphatic OH / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[2].H_CI_lower",
+      "source_value_original_precision": "0.12688054846289257",
+      "display_position": 126.88054846289256,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Aliphatic OH / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[2].H_CI_upper",
+      "source_value_original_precision": "0.16332770612525443",
+      "display_position": 163.32770612525442,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Aliphatic OH / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[2].H_pair1_existing",
+      "source_value_original_precision": -0.0002916359901428223,
+      "display_position": -0.29163599014282227,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Aliphatic OH / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[2].H_pair1_CI98_3333333333_existing[0]",
+      "source_value_original_precision": -0.0012484744839991132,
+      "display_position": -1.2484744839991133,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Aliphatic OH / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[2].H_pair1_CI98_3333333333_existing[1]",
+      "source_value_original_precision": 0.0008778274307648344,
+      "display_position": 0.8778274307648344,
+      "display_row_y": 2,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Carbonyl / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[0].H",
+      "source_value_original_precision": "0.0016490223072469239",
+      "display_position": 1.649022307246924,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Carbonyl / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[0].H_CI_lower",
+      "source_value_original_precision": "0.00052512829750776292",
+      "display_position": 0.5251282975077629,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Carbonyl / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[0].H_CI_upper",
+      "source_value_original_precision": "0.0026070800525291519",
+      "display_position": 2.607080052529152,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Carbonyl / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[0].H_pair1_existing",
+      "source_value_original_precision": -0.0004718846082687378,
+      "display_position": -0.4718846082687378,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Carbonyl / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[0].H_pair1_CI98_3333333333_existing[0]",
+      "source_value_original_precision": -0.0008760605787392706,
+      "display_position": -0.8760605787392706,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Carbonyl / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[0].H_pair1_CI98_3333333333_existing[1]",
+      "source_value_original_precision": 8.434163856630525e-05,
+      "display_position": 0.08434163856630525,
+      "display_row_y": 1,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Carbonyl (noCOO) / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[1].H",
+      "source_value_original_precision": "0.0021743459114804864",
+      "display_position": 2.1743459114804864,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Carbonyl (noCOO) / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[1].H_CI_lower",
+      "source_value_original_precision": "0.001344746882600399",
+      "display_position": 1.344746882600399,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "full_clamp",
+      "name": "Carbonyl (noCOO) / full_clamp",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "historical_objects[1].H_CI_upper",
+      "source_value_original_precision": "0.0032859724566806111",
+      "display_position": 3.285972456680611,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Carbonyl (noCOO) / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[1].H_pair1_existing",
+      "source_value_original_precision": -0.00020456598605960607,
+      "display_position": -0.20456598605960608,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Carbonyl (noCOO) / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[1].H_pair1_CI98_3333333333_existing[0]",
+      "source_value_original_precision": -0.0005379923585569487,
+      "display_position": -0.5379923585569487,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    },
+    {
+      "panel": "D",
+      "subpanel": "paired_dose",
+      "name": "Carbonyl (noCOO) / paired_dose",
+      "source_file": "manuscript/draft_round4_20261027/figures/figure_5_plot_data.json",
+      "source_csv_line": null,
+      "source_field": "paired_objects[1].H_pair1_CI98_3333333333_existing[1]",
+      "source_value_original_precision": 0.0001171810138427342,
+      "display_position": 0.1171810138427342,
+      "display_row_y": 0,
+      "display_units": "0.001 anonymous checkpoint-normalized output units",
+      "R7_original_panel": "D"
+    }
+  ],
+  "C_saved_atom_values": {
+    "selection_source": "manuscript/draft_round8_20261102/sources/fig24_atom_activation/selected_saved_atom_values_20261102.json",
+    "source_metadata": {
+      "schema": "R8-selected-saved-atom-activation/1",
+      "activation_cache": "results/chemical_replacement_20261027/fit/T_activations.npz",
+      "selection_rule": "Post-hoc structural/display selection without activations, errors, or method advantage.",
+      "activation_object": "block-index1 post-GELU token FFN, graph atom mapped to its verified element-anchor token",
+      "representative_error_claim": false,
+      "native_graph_node_activation_claim": false,
+      "new_scientific_computation": false
+    },
+    "molecules": [
+      {
+        "molecule": {
+          "molecule_id": 132361686,
+          "T_index": 8091,
+          "coordinate": 293,
+          "concept_id": 26,
+          "ci": 0,
+          "name": "Aliphatic OH",
+          "smiles": "COCCN(CC(C)C)c1cc(N2CCCCC2CO)ncn1",
+          "atom_slice": [
+            199440,
+            199463
+          ],
+          "n_atoms": 23,
+          "target_graph_atom_ids": [
+            18,
+            19
+          ],
+          "selection_label": "OH-2",
+          "display_id": "CID 132361686",
+          "rank": 13091,
+          "sealed_T_record": {
+            "rank": "13091",
+            "cid": "132361686",
+            "cid_sha256": "0eb02254922ec026715feced2675a1476e5c855d9dcc6ebee0cb4112df2d6539",
+            "canonical_smiles_sha256": "5007a7996414d0424cb1206c91cb4162079b182a7d91f439c46c6396ff6a0a59",
+            "source_line": "87451269",
+            "smiles": "COCCN(CC(C)C)c1cc(N2CCCCC2CO)ncn1"
+          },
+          "graph_atom_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "observed": [
+            -7.925340469228104e-05,
+            -0.0005269675166346133,
+            -7.610527177348558e-07,
+            0.0,
+            0.0,
+            0.0,
+            -0.028199778869748116,
+            -3.519573147059418e-05,
+            -0.0004850007826462388,
+            -6.091766772442497e-05,
+            0.0,
+            -9.10076323634712e-07,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.14963966608047485,
+            10.315757751464844,
+            0.18853367865085602,
+            -0.021684931591153145,
+            -0.001305165234953165,
+            -0.0073129842057824135
+          ],
+          "M1": [
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            5.070590918243506,
+            5.070590918243506,
+            0.0022440685287875065,
+            0.0022440685287875065,
+            0.0022440685287875065
+          ],
+          "M2": [
+            0.008946747593671494,
+            0.024622218187178444,
+            0.00849174265503278,
+            0.0028785063837145795,
+            -0.0001837462760738358,
+            0.0006405020899060245,
+            -0.03708951250222369,
+            -4.050932473306905e-05,
+            -4.050932473306905e-05,
+            -0.00014898440320549052,
+            -4.712170344081164e-06,
+            -0.00014898440320549052,
+            -0.0008577275406012753,
+            0.0028785063837145795,
+            0.01537782813117158,
+            0.01537782813117158,
+            0.006948241146267343,
+            0.01211511157625795,
+            7.817448632519498,
+            0.17641278766713875,
+            -0.0026284606085353497,
+            -0.0028940116149118837,
+            -0.0026284606085353497
+          ],
+          "target_labels": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          "saved_anchor_mapping": [
+            {
+              "graph_atom_id": 0,
+              "source_atom_span": [
+                0,
+                1
+              ],
+              "source_element_span": [
+                0,
+                1
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 1,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                0,
+                1
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 1,
+              "source_atom_span": [
+                1,
+                2
+              ],
+              "source_element_span": [
+                1,
+                2
+              ],
+              "source_atom_spelling": "O",
+              "source_element_spelling": "O",
+              "anchor_token_index": 2,
+              "anchor_token_id": 19,
+              "anchor_token_spelling": "O",
+              "anchor_raw_offset": [
+                1,
+                2
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 2,
+              "source_atom_span": [
+                2,
+                3
+              ],
+              "source_element_span": [
+                2,
+                3
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 3,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                2,
+                3
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 3,
+              "source_atom_span": [
+                3,
+                4
+              ],
+              "source_element_span": [
+                3,
+                4
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 4,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                3,
+                4
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 4,
+              "source_atom_span": [
+                4,
+                5
+              ],
+              "source_element_span": [
+                4,
+                5
+              ],
+              "source_atom_spelling": "N",
+              "source_element_spelling": "N",
+              "anchor_token_index": 5,
+              "anchor_token_id": 23,
+              "anchor_token_spelling": "N",
+              "anchor_raw_offset": [
+                4,
+                5
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 5,
+              "source_atom_span": [
+                6,
+                7
+              ],
+              "source_element_span": [
+                6,
+                7
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 7,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                6,
+                7
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 6,
+              "source_atom_span": [
+                7,
+                8
+              ],
+              "source_element_span": [
+                7,
+                8
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 8,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                7,
+                8
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 7,
+              "source_atom_span": [
+                9,
+                10
+              ],
+              "source_element_span": [
+                9,
+                10
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 10,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                9,
+                10
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 8,
+              "source_atom_span": [
+                11,
+                12
+              ],
+              "source_element_span": [
+                11,
+                12
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 12,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                11,
+                12
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 9,
+              "source_atom_span": [
+                13,
+                14
+              ],
+              "source_element_span": [
+                13,
+                14
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 14,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                13,
+                14
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 10,
+              "source_atom_span": [
+                15,
+                16
+              ],
+              "source_element_span": [
+                15,
+                16
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 16,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                15,
+                16
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 11,
+              "source_atom_span": [
+                16,
+                17
+              ],
+              "source_element_span": [
+                16,
+                17
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 17,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                16,
+                17
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 12,
+              "source_atom_span": [
+                18,
+                19
+              ],
+              "source_element_span": [
+                18,
+                19
+              ],
+              "source_atom_spelling": "N",
+              "source_element_spelling": "N",
+              "anchor_token_index": 19,
+              "anchor_token_id": 23,
+              "anchor_token_spelling": "N",
+              "anchor_raw_offset": [
+                18,
+                19
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 13,
+              "source_atom_span": [
+                20,
+                21
+              ],
+              "source_element_span": [
+                20,
+                21
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 21,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                20,
+                21
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 14,
+              "source_atom_span": [
+                21,
+                22
+              ],
+              "source_element_span": [
+                21,
+                22
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 22,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                21,
+                22
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 15,
+              "source_atom_span": [
+                22,
+                23
+              ],
+              "source_element_span": [
+                22,
+                23
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 23,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                22,
+                23
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 16,
+              "source_atom_span": [
+                23,
+                24
+              ],
+              "source_element_span": [
+                23,
+                24
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 24,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                23,
+                24
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 17,
+              "source_atom_span": [
+                24,
+                25
+              ],
+              "source_element_span": [
+                24,
+                25
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 25,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                24,
+                25
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 18,
+              "source_atom_span": [
+                26,
+                27
+              ],
+              "source_element_span": [
+                26,
+                27
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 27,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                26,
+                27
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 19,
+              "source_atom_span": [
+                27,
+                28
+              ],
+              "source_element_span": [
+                27,
+                28
+              ],
+              "source_atom_spelling": "O",
+              "source_element_spelling": "O",
+              "anchor_token_index": 28,
+              "anchor_token_id": 19,
+              "anchor_token_spelling": "O",
+              "anchor_raw_offset": [
+                27,
+                28
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 20,
+              "source_atom_span": [
+                29,
+                30
+              ],
+              "source_element_span": [
+                29,
+                30
+              ],
+              "source_atom_spelling": "n",
+              "source_element_spelling": "n",
+              "anchor_token_index": 30,
+              "anchor_token_id": 25,
+              "anchor_token_spelling": "n",
+              "anchor_raw_offset": [
+                29,
+                30
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 21,
+              "source_atom_span": [
+                30,
+                31
+              ],
+              "source_element_span": [
+                30,
+                31
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 31,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                30,
+                31
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 22,
+              "source_atom_span": [
+                31,
+                32
+              ],
+              "source_element_span": [
+                31,
+                32
+              ],
+              "source_atom_spelling": "n",
+              "source_element_spelling": "n",
+              "anchor_token_index": 32,
+              "anchor_token_id": 25,
+              "anchor_token_spelling": "n",
+              "anchor_raw_offset": [
+                31,
+                32
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            }
+          ],
+          "mapping_source": "data/revision_20261017/chemistry/sealed/anchors_T.jsonl.gz"
+        },
+        "raw_geometry_source": "manuscript/draft_round8_20261102/sources/fig24_atom_activation/molecule_132361686_raw_geometry.json",
+        "placements": [
+          {
+            "method": "Observed",
+            "bounds_in": [
+              3.656606396280324,
+              3.796179970391088,
+              1.0667872074393527,
+              0.607640059217823
+            ]
+          },
+          {
+            "method": "M1",
+            "bounds_in": [
+              4.7666063962803245,
+              3.796179970391088,
+              1.0667872074393527,
+              0.607640059217823
+            ]
+          },
+          {
+            "method": "M2",
+            "bounds_in": [
+              5.876606396280324,
+              3.796179970391088,
+              1.0667872074393527,
+              0.607640059217823
+            ]
+          }
+        ],
+        "colormap": "linear white #FFFFFF to orange #EE7733",
+        "shared_color_range": [
+          -0.14963966608047485,
+          10.315757751464844
+        ],
+        "normalization": "one common linear range over all three saved arrays for this molecule; no clipping",
+        "negative_values_retained": true,
+        "atom_center_bond_length_pt": 8.0,
+        "atom_font_pt": 7.0,
+        "bond_linewidth_pt": 0.6,
+        "activation_disk_radius_pt": 3.2,
+        "CPK_colors_used": false
+      },
+      {
+        "molecule": {
+          "molecule_id": 111796826,
+          "T_index": 5003,
+          "coordinate": 454,
+          "concept_id": 24,
+          "ci": 1,
+          "name": "Carbonyl",
+          "smiles": "CCNC(=NCC(=O)N(C)C)NCC(c1c(F)cccc1F)N(C)C",
+          "atom_slice": [
+            123495,
+            123520
+          ],
+          "n_atoms": 25,
+          "target_graph_atom_ids": [
+            6,
+            7
+          ],
+          "selection_label": "CO-2",
+          "display_id": "CID 111796826",
+          "rank": 10003,
+          "sealed_T_record": {
+            "rank": "10003",
+            "cid": "111796826",
+            "cid_sha256": "0b2e357105e931417df702ec72cdad2b315efc94a3b8fd05e8558e2bc8494a17",
+            "canonical_smiles_sha256": "c1c3db5b31de679a03430501de60ea6f07da117897036c1cebc9d543efb02e49",
+            "source_line": "71048031",
+            "smiles": "CCNC(=NCC(=O)N(C)C)NCC(c1c(F)cccc1F)N(C)C"
+          },
+          "graph_atom_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "observed": [
+            -8.260580216301605e-05,
+            -0.0001353349507553503,
+            -0.003408419666811824,
+            -0.15183362364768982,
+            -0.1668146401643753,
+            0.4289909899234772,
+            2.266446113586426,
+            2.8061771392822266,
+            -0.13741829991340637,
+            -0.0017438583308830857,
+            -0.0003380521957296878,
+            -0.13016653060913086,
+            -0.042811810970306396,
+            -0.06088265776634216,
+            -0.16987961530685425,
+            -0.03647852689027786,
+            -0.000757969100959599,
+            -0.037014130502939224,
+            -0.02766468934714794,
+            -0.028602121397852898,
+            -0.011038904078304768,
+            -0.00032104901038110256,
+            -0.05994478240609169,
+            -9.60151828621747e-06,
+            -3.202131119905971e-05
+          ],
+          "M1": [
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            1.5715172640806474,
+            1.5715172640806474,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433,
+            -0.017289333247393433
+          ],
+          "M2": [
+            0.0012562298467599922,
+            0.03150622690749058,
+            -0.03938771401220099,
+            0.06200124717589634,
+            -0.029670761125565083,
+            0.06162757432309243,
+            1.1117069460943236,
+            1.6813021972825386,
+            -0.05547892913637083,
+            0.005968525883731794,
+            0.005968525883731794,
+            -0.03938771401220099,
+            -0.034211794992455816,
+            0.03684135062902744,
+            -0.028575623760355894,
+            -0.01889139015148539,
+            -0.0017982743676967174,
+            -0.02030288061346474,
+            -0.030440798130952976,
+            -0.02030288061346474,
+            -0.01889139015148539,
+            -0.0017982743676967174,
+            -0.021381539101265612,
+            0.009050913373737498,
+            0.009050913373737498
+          ],
+          "target_labels": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "saved_anchor_mapping": [
+            {
+              "graph_atom_id": 0,
+              "source_atom_span": [
+                0,
+                1
+              ],
+              "source_element_span": [
+                0,
+                1
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 1,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                0,
+                1
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 1,
+              "source_atom_span": [
+                1,
+                2
+              ],
+              "source_element_span": [
+                1,
+                2
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 2,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                1,
+                2
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 2,
+              "source_atom_span": [
+                2,
+                3
+              ],
+              "source_element_span": [
+                2,
+                3
+              ],
+              "source_atom_spelling": "N",
+              "source_element_spelling": "N",
+              "anchor_token_index": 3,
+              "anchor_token_id": 23,
+              "anchor_token_spelling": "N",
+              "anchor_raw_offset": [
+                2,
+                3
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 3,
+              "source_atom_span": [
+                3,
+                4
+              ],
+              "source_element_span": [
+                3,
+                4
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 4,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                3,
+                4
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 4,
+              "source_atom_span": [
+                6,
+                7
+              ],
+              "source_element_span": [
+                6,
+                7
+              ],
+              "source_atom_spelling": "N",
+              "source_element_spelling": "N",
+              "anchor_token_index": 7,
+              "anchor_token_id": 23,
+              "anchor_token_spelling": "N",
+              "anchor_raw_offset": [
+                6,
+                7
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 5,
+              "source_atom_span": [
+                7,
+                8
+              ],
+              "source_element_span": [
+                7,
+                8
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 8,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                7,
+                8
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 6,
+              "source_atom_span": [
+                8,
+                9
+              ],
+              "source_element_span": [
+                8,
+                9
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 9,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                8,
+                9
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 7,
+              "source_atom_span": [
+                11,
+                12
+              ],
+              "source_element_span": [
+                11,
+                12
+              ],
+              "source_atom_spelling": "O",
+              "source_element_spelling": "O",
+              "anchor_token_index": 12,
+              "anchor_token_id": 19,
+              "anchor_token_spelling": "O",
+              "anchor_raw_offset": [
+                11,
+                12
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 8,
+              "source_atom_span": [
+                13,
+                14
+              ],
+              "source_element_span": [
+                13,
+                14
+              ],
+              "source_atom_spelling": "N",
+              "source_element_spelling": "N",
+              "anchor_token_index": 14,
+              "anchor_token_id": 23,
+              "anchor_token_spelling": "N",
+              "anchor_raw_offset": [
+                13,
+                14
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 9,
+              "source_atom_span": [
+                15,
+                16
+              ],
+              "source_element_span": [
+                15,
+                16
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 16,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                15,
+                16
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 10,
+              "source_atom_span": [
+                17,
+                18
+              ],
+              "source_element_span": [
+                17,
+                18
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 18,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                17,
+                18
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 11,
+              "source_atom_span": [
+                19,
+                20
+              ],
+              "source_element_span": [
+                19,
+                20
+              ],
+              "source_atom_spelling": "N",
+              "source_element_spelling": "N",
+              "anchor_token_index": 20,
+              "anchor_token_id": 23,
+              "anchor_token_spelling": "N",
+              "anchor_raw_offset": [
+                19,
+                20
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 12,
+              "source_atom_span": [
+                20,
+                21
+              ],
+              "source_element_span": [
+                20,
+                21
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 21,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                20,
+                21
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 13,
+              "source_atom_span": [
+                21,
+                22
+              ],
+              "source_element_span": [
+                21,
+                22
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 22,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                21,
+                22
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 14,
+              "source_atom_span": [
+                23,
+                24
+              ],
+              "source_element_span": [
+                23,
+                24
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 24,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                23,
+                24
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 15,
+              "source_atom_span": [
+                25,
+                26
+              ],
+              "source_element_span": [
+                25,
+                26
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 26,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                25,
+                26
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 16,
+              "source_atom_span": [
+                27,
+                28
+              ],
+              "source_element_span": [
+                27,
+                28
+              ],
+              "source_atom_spelling": "F",
+              "source_element_spelling": "F",
+              "anchor_token_index": 28,
+              "anchor_token_id": 27,
+              "anchor_token_spelling": "F",
+              "anchor_raw_offset": [
+                27,
+                28
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 17,
+              "source_atom_span": [
+                29,
+                30
+              ],
+              "source_element_span": [
+                29,
+                30
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 30,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                29,
+                30
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 18,
+              "source_atom_span": [
+                30,
+                31
+              ],
+              "source_element_span": [
+                30,
+                31
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 31,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                30,
+                31
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 19,
+              "source_atom_span": [
+                31,
+                32
+              ],
+              "source_element_span": [
+                31,
+                32
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 32,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                31,
+                32
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 20,
+              "source_atom_span": [
+                32,
+                33
+              ],
+              "source_element_span": [
+                32,
+                33
+              ],
+              "source_atom_spelling": "c",
+              "source_element_spelling": "c",
+              "anchor_token_index": 33,
+              "anchor_token_id": 15,
+              "anchor_token_spelling": "c",
+              "anchor_raw_offset": [
+                32,
+                33
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 21,
+              "source_atom_span": [
+                34,
+                35
+              ],
+              "source_element_span": [
+                34,
+                35
+              ],
+              "source_atom_spelling": "F",
+              "source_element_spelling": "F",
+              "anchor_token_index": 35,
+              "anchor_token_id": 27,
+              "anchor_token_spelling": "F",
+              "anchor_raw_offset": [
+                34,
+                35
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 22,
+              "source_atom_span": [
+                36,
+                37
+              ],
+              "source_element_span": [
+                36,
+                37
+              ],
+              "source_atom_spelling": "N",
+              "source_element_spelling": "N",
+              "anchor_token_index": 37,
+              "anchor_token_id": 23,
+              "anchor_token_spelling": "N",
+              "anchor_raw_offset": [
+                36,
+                37
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 23,
+              "source_atom_span": [
+                38,
+                39
+              ],
+              "source_element_span": [
+                38,
+                39
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 39,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                38,
+                39
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            },
+            {
+              "graph_atom_id": 24,
+              "source_atom_span": [
+                40,
+                41
+              ],
+              "source_element_span": [
+                40,
+                41
+              ],
+              "source_atom_spelling": "C",
+              "source_element_spelling": "C",
+              "anchor_token_index": 41,
+              "anchor_token_id": 16,
+              "anchor_token_spelling": "C",
+              "anchor_raw_offset": [
+                40,
+                41
+              ],
+              "anchor_offset_verified": true,
+              "identity_lossy": false,
+              "lost_attributes": []
+            }
+          ],
+          "mapping_source": "data/revision_20261017/chemistry/sealed/anchors_T.jsonl.gz"
+        },
+        "raw_geometry_source": "manuscript/draft_round8_20261102/sources/fig24_atom_activation/molecule_111796826_raw_geometry.json",
+        "placements": [
+          {
+            "method": "Observed",
+            "bounds_in": [
+              3.6849058707924494,
+              2.078499456675231,
+              1.010188258415102,
+              0.6030010866495386
+            ]
+          },
+          {
+            "method": "M1",
+            "bounds_in": [
+              4.79490587079245,
+              2.078499456675231,
+              1.010188258415102,
+              0.6030010866495386
+            ]
+          },
+          {
+            "method": "M2",
+            "bounds_in": [
+              5.904905870792449,
+              2.078499456675231,
+              1.010188258415102,
+              0.6030010866495386
+            ]
+          }
+        ],
+        "colormap": "linear white #FFFFFF to orange #EE7733",
+        "shared_color_range": [
+          -0.16987961530685425,
+          2.8061771392822266
+        ],
+        "normalization": "one common linear range over all three saved arrays for this molecule; no clipping",
+        "negative_values_retained": true,
+        "atom_center_bond_length_pt": 8.0,
+        "atom_font_pt": 7.0,
+        "bond_linewidth_pt": 0.6,
+        "activation_disk_radius_pt": 3.2,
+        "CPK_colors_used": false
+      }
+    ],
+    "predictions_recomputed": false,
+    "observations_or_predictions_interpolated": false
+  },
+  "interval_families": {
+    "A_B": "Original marginal 95% whole-molecule bootstrap intervals, 2000 shared draws",
+    "D_full_clamp": "Original separate three-object 98.3333333333% family, unchanged",
+    "D_paired_dose": "Original separate three-object 98.3333333333% family, unchanged"
+  },
+  "fit_mean_definition": "D-fitted global activation mean; reference reconstruction",
+  "display_unit_multiplier_B_D": 1000,
+  "different_estimands_D": true,
+  "physical_layout": {
+    "canvas_in": [
+      7.0,
+      5.8
+    ],
+    "axes_bounds_in": {
+      "A": [
+        1.22,
+        4.8,
+        2.15,
+        0.64
+      ],
+      "B": [
+        1.86,
+        2.2,
+        1.51,
+        1.32
+      ],
+      "D": [
+        [
+          2.13,
+          0.35,
+          0.8,
+          0.66
+        ],
+        [
+          3.03,
+          0.35,
+          1.0,
+          0.66
+        ],
+        [
+          5.1,
+          0.35,
+          1.6,
+          0.66
+        ]
+      ]
+    },
+    "A_method_rows": 2,
+    "A_dumbbell_linewidth_pt": 0.75,
+    "B_method_rows": 6,
+    "B_row_spacing_in": 0.22,
+    "B_log_x_limits": [
+      0.2,
+      200
+    ],
+    "B_shuffled_markers_on_same_row": true,
+    "B_n_in_row_labels": true,
+    "C_reserved_bounds_in": [
+      3.65,
+      1.4,
+      3.25,
+      4.03
+    ],
+    "C_saved_array_rendered": true,
+    "D_full_clamp_segments_display": [
+      [
+        -0.2,
+        5
+      ],
+      [
+        120,
+        170
+      ]
+    ],
+    "D_full_clamp_gap_display": [
+      5,
+      120
+    ],
+    "D_paired_dose_limits": [
+      -1.4,
+      1.05
+    ],
+    "D_row_spacing_in": 0.22,
+    "method_symbols": {
+      "D_mean": {
+        "color": "#BBBBBB",
+        "marker": "D",
+        "filled": false
+      },
+      "M1": {
+        "color": "#0077BB",
+        "marker": "o",
+        "filled": true
+      },
+      "M2": {
+        "color": "#009988",
+        "marker": "s",
+        "filled": true
+      },
+      "M1_delta_perm": {
+        "color": "#0077BB",
+        "marker": "o",
+        "filled": false
+      },
+      "M2_delta_perm": {
+        "color": "#009988",
+        "marker": "s",
+        "filled": false
+      }
+    },
+    "old_AB_fragment_glyphs_retained": false,
+    "all_frozen_CI_values_unchanged": true,
+    "whole_figure_scaled": false,
+    "deleted_visible_strings": [
+      "Hue = method; hollow = shuffled (M1/M2)",
+      "Fit mean: separate hollow-diamond baseline",
+      "CPK structures: O red, C black"
+    ]
+  },
+  "caption_facts": {
+    "A": "2 concepts, 3 conditions, original marginal 95% whole-molecule CIs",
+    "B": "2 concepts x 3 strata x 5 conditions; original marginal 95% whole-molecule CIs",
+    "C": "saved post-GELU activation for j293/j454; M1/M2 are frozen saved predictions; values may be negative",
+    "D": "3 objects; original separate full-clamp and paired-dose 98.3333333333% families",
+    "old_representative_fragments_in_A_B": false
+  }
+}

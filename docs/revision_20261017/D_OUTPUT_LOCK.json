@@ -1,0 +1,40 @@
+{
+  "schema": "chemistry-D-output-lock/1",
+  "status": "D_OUTPUT_LOCKED",
+  "created_utc": "2026-10-17T14:39:23.1091658Z",
+  "T_scientific_processing_authorized": true,
+  "authority": "Main chose route B and confirmed continuation through the passing D gates; root owns the implementation and D output lock.",
+  "D_final_status": "PASS_FINAL_D_WINNERS_DEVELOPMENT_ONLY",
+  "D_precision_gate": true,
+  "D_secondary_frozen": true,
+  "prior_T_scientific_reads": 0,
+  "encoder_and_intervention_total_CPU_seconds": 14400,
+  "statistics_D_T_oracle_all_bootstrap_total_CPU_seconds": 43200,
+  "max_new_intervention_molecule_evaluations": 10000,
+  "model_intervention_plan": {
+    "fixed_concept_ids": [
+      24,
+      25,
+      26
+    ],
+    "per_object_conditions": 8,
+    "per_object_max_molecules": 400,
+    "per_object_actual_molecules": "min(200, available positive) + min(200, available negative), after fixed hash ordering; require at least 50 each",
+    "selected_atom_full_max": 1200,
+    "random_controls_atom_full_max": 6000,
+    "selected_atom_half_max": 1200,
+    "selected_CLS_full_max": 1200,
+    "final_layer_structural_zero": 400,
+    "additional_baseline": 0,
+    "additional_sham": 0,
+    "maximum_total": 10000,
+    "all_calls_precharged_to_shared_ledger": true,
+    "no_replacement_or_caliper_change": true
+  },
+  "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c",
+  "D_final_winners_sha256": "04383e2c5ae415c1b9f16675dd9cbc2f86346e829e3ab60721e6a67cb21ad9ca",
+  "T_data_ready_sha256": "58404e4502aedd371a740d45d945e33f6f66e3d9f8d7160ee512c3ef205f7939",
+  "T_runner_ready_sha256": "6a60a31be8e9951f7d6b0da40ecd45ffd46f313033cbc444cdcf7b60e2bde25b",
+  "T_secondary_ready_sha256": "e6d24169dd90c4d7c86751c8b6f1c98d50a6e83ddb72fb25086c4b7031fbf745",
+  "D_secondary_freeze_sha256": "2dcc48c0e308c35c2587914c67e037e455ca122719e80976934cf86a4e801c18"
+}

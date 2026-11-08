@@ -1,0 +1,48 @@
+{
+  "status": "AUTHORIZED_ENGINEERING_RECOVERY_NO_SCIENTIFIC_CHANGE",
+  "created_utc": "2026-10-25T17:01:43.694161+00:00",
+  "original_script_sha256": "6666bfb47f16b3851cc6ba698d0e3c9ffc1ee97755ddaae52c415981651973c0",
+  "revised_script_sha256": "5dbe44494d9c8ebc4499c3612324857e862d062d3dac2fc0318c491c66c3e4f4",
+  "parameter_files_unchanged": {
+    "PARAMETERS_24.npz": "ee2d7600c368a3540ae5262016449f8bf87e29bfdeda6369153e2d2b5947d4d9",
+    "PARAMETERS_25.npz": "0e19eb4c7b7d84476a22eafc67132d854e330b9733769c3d447ff36e6d3d22b6",
+    "PARAMETERS_26.npz": "6cd3913007da395b08e73fb4a07742faffb308492c0eb0c99766f583a3a3ea3a"
+  },
+  "reused_completed_files": {
+    "concept_24\\BASELINE.npy": "5d06691bd8e3c8a60b9e625e042b524dc78a79cd4359b74187f8913beda548a2",
+    "concept_24\\RESULT_ARRAYS.npz": "1dae41782198366b98a78b1210bccb89c42739764179156d9533c6ca53223e0e",
+    "concept_24\\s0.25_unit273.npy": "55df190adf3926dd1d7f235a3472229ff40a7867c8456a37e3e53b970414814d",
+    "concept_24\\s0.25_unit275.npy": "0524a0ce3f10faad0e13ee3286f898e7eaf6adbc51dacce4e23867aacb342f15",
+    "concept_24\\s0.25_unit3.npy": "0e8bd6e9b3179103c38cee2c98c486449263cb7d61358e99912b31ed265149f2",
+    "concept_24\\s0.25_unit409.npy": "6062ff69de6b5802197acd86b1a50af198d6b1491ccd9e0520052781a8f7f3b2",
+    "concept_24\\s0.25_unit454.npy": "d987079b77b07b1a30f0613ddf0ee8ab2c9ec5846a6652338a976dbcc1d53801",
+    "concept_24\\s0.25_unit47.npy": "2f18c8f30b0ed1f9057bf44bbd7cf8a229190e5b47fec9902575a1e0555fd03c",
+    "concept_24\\s0.5_unit273.npy": "c40e67ddd456fe2587a4bdc84f580abff76ddb13000a56194c0c12c64e313c01",
+    "concept_24\\s0.5_unit275.npy": "21d9b7e17d35496e8a712d1ac5ff5e116cb97531f12cacc5ec84037c504b6049",
+    "concept_24\\s0.5_unit3.npy": "3091f6e2cd961a152a182a0a153b69ab0949db35ac37778c119d90c5d6664cce",
+    "concept_24\\s0.5_unit409.npy": "fa55d4ac74be88994fbc0be6582ee9f76c7d3a1031a5fd0d0619d93553fb8012",
+    "concept_24\\s0.5_unit454.npy": "5c06c38dd93283146441a7843402a63fa359f4191570d38a59a089e80742db3c",
+    "concept_24\\s0.5_unit47.npy": "37af9bc28c8f06b03db16bf6e7fb86ab8d7d2a7139bc50f0ed8e6c1cc79442bb",
+    "concept_24\\s1_unit273.npy": "a8c325d0b395adb8835c4816d0483317b70616cab9f0e008a6a589ae2f33704b",
+    "concept_24\\s1_unit275.npy": "2c172602dc2435007e34e36e1b2e83d0003a9232956da86c1af3dcc8784c8b1d",
+    "concept_24\\s1_unit3.npy": "3af2930bd0a17d23e94324dcce8da41fd095f20dd1964a33f9891f7acb871753",
+    "concept_24\\s1_unit409.npy": "2a2ba47bac606e4051576a9f53c584a0f2d6d3f3617d8d78326fc8ae41aaf172",
+    "concept_24\\s1_unit454.npy": "c88095b04e5b717680ee26f688ddfbaf27e24910113d00620bf12e5bbaf794eb",
+    "concept_24\\s1_unit47.npy": "ea78b2a9fe0dfa68ee616055ebdd729276cc47017a9eb27a1870cf64043eee72",
+    "concept_24\\SUMMARY.json": "69752c5d157b94d3560dfe72f88cc1140f0860ce049324da5b65ba881af44f2b",
+    "concept_25/BASELINE.npy": "94577bfa617e94bf8e35c1e2f815bfd4c2d1a7cc29226ba7570f90614828a30e"
+  },
+  "failure": "Extra all-199 absolute baseline comparison 1e-5 stopped on unselected q41 in object25; frozen target q125 was unaffected at that tolerance.",
+  "diagnosis": {
+    "all199_max_abs": 1.1444091796875e-05,
+    "unselected_q": 41,
+    "old_q41_value": 16.73681640625,
+    "new_q41_value": 16.736804962158203,
+    "target_q125_max_abs": 4.172325134277344e-07,
+    "target_q124_max_abs": 5.960464477539062e-07,
+    "alpha0_exact": true,
+    "cause": "Different deterministic batch composition/right-padding changes float32 rounding; fresh baseline and every new intervention use identical geometry."
+  },
+  "change": "Retain and report all199 diagnostic; enforce unchanged 1e-5 tolerance on each frozen target q. Reuse completed object24 and saved object25 baseline. No changes to pair/tau/alpha/hook/statistics/samples, no repeats of completed model conditions.",
+  "controller_message": "2026-10-25 confirms all199 comparison is extra engineering, permits targeted fix and reuse; actual target q or alpha0 failures would remain blocking."
+}

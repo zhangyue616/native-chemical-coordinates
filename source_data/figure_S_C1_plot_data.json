@@ -1,0 +1,275 @@
+{
+  "corpus": "pilot_20k.tsv",
+  "n_smiles": 20000,
+  "n_tokens_emitted": 865639,
+  "vocab_size": 593,
+  "merges_in_tokenizer": 0,
+  "tokens_emitted_at_least_once": 32,
+  "multi_character_tokens_emitted": [],
+  "init_expected_norm": {
+    "chemberta_mlm": 0.39191835884530846,
+    "chemberta_mtr": 0.39191835884530846
+  },
+  "norms": {
+    "chemberta_mlm": {
+      "single-character, emitted": {
+        "n": 30,
+        "median": 4.410854816436768,
+        "min": 2.335057020187378,
+        "max": 13.014862060546875
+      },
+      "single-character, never emitted": {
+        "n": 3,
+        "median": 2.426588535308838,
+        "min": 2.4157485961914062,
+        "max": 2.544402837753296
+      },
+      "multi-character": {
+        "n": 543,
+        "median": 2.4270482063293457,
+        "min": 2.114720344543457,
+        "max": 2.6914775371551514
+      },
+      "special": {
+        "n": 17,
+        "median": 2.4745213985443115,
+        "min": 2.3136773109436035,
+        "max": 4.265658378601074
+      }
+    },
+    "chemberta_mtr": {
+      "single-character, emitted": {
+        "n": 30,
+        "median": 6.195467948913574,
+        "min": 0.36616435647010803,
+        "max": 9.298347473144531
+      },
+      "single-character, never emitted": {
+        "n": 3,
+        "median": 0.391882061958313,
+        "min": 0.38289299607276917,
+        "max": 0.4042925536632538
+      },
+      "multi-character": {
+        "n": 543,
+        "median": 0.3907891511917114,
+        "min": 0.35376667976379395,
+        "max": 0.43309447169303894
+      },
+      "special": {
+        "n": 17,
+        "median": 0.3941180109977722,
+        "min": 0.0,
+        "max": 5.189955711364746
+      }
+    }
+  },
+  "tokens_of_interest": {
+    "c": {
+      "id": 15,
+      "kind": "single-character",
+      "corpus_count": 188530,
+      "norm_mlm": 3.2175021171569824,
+      "norm_mtr": 6.312460899353027
+    },
+    "C": {
+      "id": 16,
+      "kind": "single-character",
+      "corpus_count": 183761,
+      "norm_mlm": 3.2588987350463867,
+      "norm_mtr": 6.193742752075195
+    },
+    "O": {
+      "id": 19,
+      "kind": "single-character",
+      "corpus_count": 49715,
+      "norm_mlm": 3.661898612976074,
+      "norm_mtr": 5.6010613441467285
+    },
+    "N": {
+      "id": 23,
+      "kind": "single-character",
+      "corpus_count": 32347,
+      "norm_mlm": 3.7659902572631836,
+      "norm_mtr": 4.851695537567139
+    },
+    "Cl": {
+      "id": 28,
+      "kind": "multi-character",
+      "corpus_count": 0,
+      "norm_mlm": 2.3526926040649414,
+      "norm_mtr": 0.37489229440689087
+    },
+    "-": {
+      "id": 31,
+      "kind": "single-character",
+      "corpus_count": 5750,
+      "norm_mlm": 5.885880947113037,
+      "norm_mtr": 7.209432125091553
+    },
+    "[C@H]": {
+      "id": 33,
+      "kind": "multi-character",
+      "corpus_count": 0,
+      "norm_mlm": 2.4053049087524414,
+      "norm_mtr": 0.4253195524215698
+    },
+    "S": {
+      "id": 34,
+      "kind": "single-character",
+      "corpus_count": 5021,
+      "norm_mlm": 4.503878116607666,
+      "norm_mtr": 6.110483646392822
+    },
+    "[C@@H]": {
+      "id": 35,
+      "kind": "multi-character",
+      "corpus_count": 0,
+      "norm_mlm": 2.360034227371216,
+      "norm_mtr": 0.36671602725982666
+    },
+    "[O-]": {
+      "id": 36,
+      "kind": "multi-character",
+      "corpus_count": 0,
+      "norm_mlm": 2.38328218460083,
+      "norm_mtr": 0.37503573298454285
+    },
+    "Br": {
+      "id": 37,
+      "kind": "multi-character",
+      "corpus_count": 0,
+      "norm_mlm": 2.4499456882476807,
+      "norm_mtr": 0.39937615394592285
+    },
+    "[nH]": {
+      "id": 40,
+      "kind": "multi-character",
+      "corpus_count": 0,
+      "norm_mlm": 2.32635235786438,
+      "norm_mtr": 0.4096565246582031
+    },
+    "[N+]": {
+      "id": 41,
+      "kind": "multi-character",
+      "corpus_count": 0,
+      "norm_mlm": 2.341669797897339,
+      "norm_mtr": 0.3655514121055603
+    },
+    "B": {
+      "id": 54,
+      "kind": "single-character",
+      "corpus_count": 1727,
+      "norm_mlm": 4.701533794403076,
+      "norm_mtr": 7.943331241607666
+    }
+  },
+  "examples": {
+    "Clc1ccc(Br)cc1": [
+      "[CLS]",
+      "C",
+      "c",
+      "1",
+      "c",
+      "c",
+      "c",
+      "(",
+      "B",
+      ")",
+      "c",
+      "c",
+      "1",
+      "[SEP]"
+    ],
+    "C[C@@H](O)c1ccccc1": [
+      "[CLS]",
+      "C",
+      "C",
+      "(",
+      "O",
+      ")",
+      "c",
+      "1",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "1",
+      "[SEP]"
+    ],
+    "c1cc[nH]c1": [
+      "[CLS]",
+      "c",
+      "1",
+      "c",
+      "c",
+      "n",
+      "c",
+      "1",
+      "[SEP]"
+    ],
+    "C[N+](=O)[O-]": [
+      "[CLS]",
+      "C",
+      "N",
+      "(",
+      "=",
+      "O",
+      ")",
+      "O",
+      "-",
+      "[SEP]"
+    ],
+    "O=C(O)c1ccccc1Cl": [
+      "[CLS]",
+      "O",
+      "=",
+      "C",
+      "(",
+      "O",
+      ")",
+      "c",
+      "1",
+      "c",
+      "c",
+      "c",
+      "c",
+      "c",
+      "1",
+      "C",
+      "[SEP]"
+    ],
+    "CC(C)(C)OC(=O)N1CCC[C@H]1C(=O)O": [
+      "[CLS]",
+      "C",
+      "C",
+      "(",
+      "C",
+      ")",
+      "(",
+      "C",
+      ")",
+      "O",
+      "C",
+      "(",
+      "=",
+      "O",
+      ")",
+      "N",
+      "1",
+      "C",
+      "C",
+      "C",
+      "C",
+      "1",
+      "C",
+      "(",
+      "=",
+      "O",
+      ")",
+      "O",
+      "[SEP]"
+    ]
+  }
+}

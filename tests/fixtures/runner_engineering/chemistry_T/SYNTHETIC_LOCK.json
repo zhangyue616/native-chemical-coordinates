@@ -1,0 +1,8 @@
+{
+  "status": "D_OUTPUT_LOCKED",
+  "T_scientific_processing_authorized": true,
+  "data_build_receipt_sha256": "28f3ecf4a57fdf1b0bfd5dbdcbd6d886c62a94b22968dd19c5a7d4b1b7d01738",
+  "D_final_winners_sha256": "12dc5f35507626924a314f58832200932e19a43e901df2b7708db1ce78e5cb5f",
+  "T_data_ready_sha256": "07fdaa3b86df8903d18528a0cd7d64512d5345b8ca3525ba470685a50b75635d",
+  "T_runner_ready_sha256": "dce0a4805e4d67d8a213ca1a1c8c1225f999880acfa8b1175ea9e5310e0d7ee5"
+}

@@ -1,0 +1,106 @@
+{
+  "status": "COMPLETE_FORWARD_REPLACEMENT",
+  "completed_utc": "2026-10-27T09:35:32.159172+00:00",
+  "binding": {
+    "schema": "chemical-replacement-forward-binding/1",
+    "created_utc": "2026-10-27T09:28:23.248880+00:00",
+    "protocol_sha256": "83d1ddb465d977841ec779e4ce0461d3bc06d78371f48a98dd23a69398e5fb27",
+    "resource_lock_sha256": "6a6a36c823b42cc3102cf3031157b3122b5f5f01d84640a9da3467e24d1e56cb",
+    "runner_sha256": "0c1168bfeca3c54817ccc35be1d6a987a65e52dfd7ab79982591eae9995c4546",
+    "data_fit_sha256": "641890e0f1f46c377c61979b5454729f644ce30f837266e6e712c2135d73ecd4",
+    "D_FIT_sha256": "7bd8e95a02a9e21d881455a49474b2a0a401d2d3832af4f874cbf10f9147ba6d",
+    "D_FIT_LOCK_sha256": "1c2eb984558bf8ee188cccaa5e14216a22bb51daf8c0a2dfceab1bef387e0937",
+    "T_activations_sha256": "728a91a0449447d3fd78dfbab61773f2d0ce1aebbc1de5639b819778b511d345",
+    "T_ACTIVATIONS_RECEIPT_sha256": "e92cd15570f6826a585514a7c1e24724407065f9a6ccbbd78cc307950c886f99",
+    "coordinate_ids": [
+      293,
+      454
+    ],
+    "condition_names": [
+      "D_mean",
+      "M1",
+      "M2",
+      "M1_delta_perm",
+      "M2_delta_perm"
+    ]
+  },
+  "coordinate_ids": [
+    293,
+    454
+  ],
+  "condition_names": [
+    "D_mean",
+    "M1",
+    "M2",
+    "M1_delta_perm",
+    "M2_delta_perm"
+  ],
+  "shapes": {
+    "baseline": [
+      10000,
+      199
+    ],
+    "conditions": [
+      2,
+      5,
+      10000,
+      199
+    ],
+    "dose_rms": [
+      2,
+      5,
+      10000
+    ]
+  },
+  "forward_counts": {
+    "condition": 100000,
+    "baseline": 10000,
+    "replay": 32,
+    "scope": 16
+  },
+  "total_forward_molecule_evaluations": 110048,
+  "files": {
+    "baseline.npy": {
+      "bytes": 7960128,
+      "sha256": "f1958400a4fedaa8989de65de9d8392d2e37c10ee33053ce86e23e3a0ef35840"
+    },
+    "conditions.npy": {
+      "bytes": 79600128,
+      "sha256": "9b776545bd8b5f0383ab9d89a502626666a7979c188d8960a90558869373b70c"
+    },
+    "dose_rms.npy": {
+      "bytes": 800128,
+      "sha256": "a6341acd8d91ed4ccfa16c931cad05b54905f21e66f7b0e26693243142cb3f3b"
+    },
+    "permutation_metadata.npz": {
+      "bytes": 702252,
+      "sha256": "272f2facbb2772210918bbf4ef32389e8d971061195a7bc2a8930c5e42c7a3ff"
+    },
+    "PERMUTATION_METADATA.json": {
+      "bytes": 896,
+      "sha256": "38f8731522a78d160483a2f836edd70acdd1345bfdc10f7caba926cd82e5d953"
+    },
+    "VALIDATION.json": {
+      "bytes": 3586,
+      "sha256": "50503168fa080d9c0e6b24750040865114fede37819be4a67c90c63a289e782c"
+    },
+    "RUN_BINDING.json": {
+      "bytes": 1012,
+      "sha256": "8a829cae1e9947438a03e2f8d7a324009004581d38d9073194a541fda1802e6c"
+    },
+    "PROGRESS.json": {
+      "bytes": 253,
+      "sha256": "4740e0d3bfe7b2046343d5294b2aaaa7f6e165d07b0658266b90bbb3a12a7cc2"
+    },
+    "RUNTIME.json": {
+      "bytes": 2048,
+      "sha256": "0b7b40ee2896782c27627124523bddf355fb043c5aeb7bbdd4c74497d0ca2b26"
+    },
+    "CPU_FORWARD_LEDGER.json": {
+      "bytes": 1333,
+      "sha256": "b02d0ea68eecbc4a210b4b2a96a3e7e4ceabbafc817e155d0e993125ba67cdc5"
+    }
+  },
+  "ledger": "CPU_FORWARD_LEDGER.json",
+  "validation": "VALIDATION.json"
+}

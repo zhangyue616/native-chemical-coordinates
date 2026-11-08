@@ -1,0 +1,77 @@
+{
+  "source": "Completed lineB protocol v5/v6 and recorded result headers",
+  "status": "Retrospective review/reproduction access; no new confirmation",
+  "v5": {
+    "group_models": {
+      "chemeleon": [
+        "chemeleon"
+      ],
+      "molclr": [
+        "molclr_gin"
+      ],
+      "hu": [
+        "hu_masking",
+        "hu_contextpred",
+        "hu_edgepred",
+        "hu_infomax"
+      ],
+      "chemberta": [
+        "chemberta_mlm",
+        "chemberta_mtr"
+      ]
+    },
+    "K": 199,
+    "R": 9,
+    "concepts": 173,
+    "alpha_per_test": 0.00625,
+    "twin_seeds": [
+      3000,
+      3198
+    ],
+    "rotation_seeds": [
+      100,
+      108
+    ]
+  },
+  "v6": {
+    "model": "MoLFormer-XL-both-10pct",
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "K": 199,
+    "R": 9,
+    "K_hf": 39,
+    "K_orf": 9,
+    "N_atoms": 245749,
+    "N_mol": 10000,
+    "twin_seeds": [
+      4000,
+      4198
+    ],
+    "hf_seeds": [
+      6000,
+      6038
+    ],
+    "orf_seeds": [
+      7000,
+      7008
+    ],
+    "rotation_seeds": [
+      200,
+      208
+    ],
+    "comparison": "J1 maximum over layers; J2 at that J1 layer and its own maximum over layers; original gates source is retained."
+  },
+  "historical_v6_freeze": "Historical run freeze is documented in saved gate JSON; portable source bytes differ. Do not call the adapted source an original pre-exposure freeze. H4-tagged source refuses absent original freeze; retrospective gate replay uses --dry with complete frozen vectors."
+}

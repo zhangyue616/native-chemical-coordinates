@@ -1,0 +1,915 @@
+{
+  "status": "INPUT_T_SECONDARY_COMPLETE",
+  "identity": {
+    "T_binding": {
+      "D_OUTPUT_LOCK_sha256": "cdbd08f688632b49c44d664783431e62aa42755516d40960cfbf3e4e1adb0b86",
+      "D_RUN_LOCK_sha256": "2c3e5f3fe954cc648f9990cde5170e4a5199123013244e39ba585a0ec45e04c8",
+      "runner_ready_sha256": "76bd7de9edacfdbf55d89a2f868f46f2a6ec281e5e99c8343796891dd953880f",
+      "data_build_receipt_sha256": "218fadb576924ece2e181349e88f8a9085b5b4ab376c62d9706d05a5ecf3226c"
+    },
+    "T_secondary_ready_sha256": "e6d24169dd90c4d7c86751c8b6f1c98d50a6e83ddb72fb25086c4b7031fbf745",
+    "D_secondary_freeze_sha256": "2dcc48c0e308c35c2587914c67e037e455ca122719e80976934cf86a4e801c18",
+    "T_data_receipt_sha256": "90bcdf16445ce34110a9a4ce04000ad8d3d64465d5598226dc8b77df378753c9",
+    "D_final_winners_sha256": "04383e2c5ae415c1b9f16675dd9cbc2f86346e829e3ab60721e6a67cb21ad9ca"
+  },
+  "panel_ids": [
+    0,
+    14,
+    24,
+    1,
+    15,
+    25,
+    2,
+    16,
+    26,
+    3,
+    18,
+    27
+  ],
+  "concepts": [
+    {
+      "concept_id": 0,
+      "candidate": 188,
+      "D_table": {
+        "concept_id": 0,
+        "candidate": 188,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_0.json",
+        "sha256": "eaf7bc665028122d08188b090e2b3f7f2daf92aa7159434c2659e36510d15fd2",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 4850
+        },
+        "observed_bin_count": 3
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4850
+      },
+      "D_observed_bin_count": 3,
+      "T_bin_atom_counts": [
+        49399,
+        35613,
+        161710
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 4332
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.01755822342555589
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.020754163902145385,
+        0.02121877602568417,
+        0.13919594164414742,
+        0.2657413443850781
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 14,
+      "candidate": 266,
+      "D_table": {
+        "concept_id": 14,
+        "candidate": 266,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_14.json",
+        "sha256": "93545bac6402b6e6b3515566ddf781019a3c5b6cbf9408489c87ccf7bd90a8e0",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 4447
+        },
+        "observed_bin_count": 3
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4447
+      },
+      "D_observed_bin_count": 3,
+      "T_bin_atom_counts": [
+        49873,
+        36587,
+        160262
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 3934
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.01594507178119503
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.06251578883339871,
+        0.06268739497919436,
+        0.7216007077467658,
+        0.9800651319405491
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 24,
+      "candidate": 454,
+      "D_table": {
+        "concept_id": 24,
+        "candidate": 454,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_24.json",
+        "sha256": "1b1118e71708b04c862a010a0960fc401612fdd44f442568108243b6dbcff172",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 6493
+        },
+        "observed_bin_count": 5
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 6493
+      },
+      "D_observed_bin_count": 5,
+      "T_bin_atom_counts": [
+        48559,
+        49219,
+        50369,
+        49496,
+        49079
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 5738
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.023256945063674907
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.27753442147817664,
+        0.28323179525730424,
+        0.999339545223478,
+        0.999339545223478
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 1,
+      "candidate": 188,
+      "D_table": {
+        "concept_id": 1,
+        "candidate": 188,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_1.json",
+        "sha256": "65b76701e734d7ddc44ddba829fcf7ddb80d4cbc67f9cc79c3a824eae6d5a04a",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 4850
+        },
+        "observed_bin_count": 3
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4850
+      },
+      "D_observed_bin_count": 3,
+      "T_bin_atom_counts": [
+        49399,
+        35613,
+        161710
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 4332
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.01755822342555589
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.013207775006794096,
+        0.01349544117501199,
+        0.09943765641976239,
+        0.15068240129158098
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 15,
+      "candidate": 266,
+      "D_table": {
+        "concept_id": 15,
+        "candidate": 266,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_15.json",
+        "sha256": "ce94bbe55e4e54e4219ad2df12a0ae2c7b1fb0e43e5a02f5c499a1a48ddf7ce9",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 4447
+        },
+        "observed_bin_count": 3
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4447
+      },
+      "D_observed_bin_count": 3,
+      "T_bin_atom_counts": [
+        49873,
+        36587,
+        160262
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 3934
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.01594507178119503
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.018113226543278498,
+        0.01824459980677549,
+        0.49929098888111667,
+        0.6009826904802762
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 25,
+      "candidate": 454,
+      "D_table": {
+        "concept_id": 25,
+        "candidate": 454,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_25.json",
+        "sha256": "f1cad724bdc5a8760d72118851077d01873a8c4b7811c5411fe1f8530b447fb9",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 6493
+        },
+        "observed_bin_count": 5
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 6493
+      },
+      "D_observed_bin_count": 5,
+      "T_bin_atom_counts": [
+        48559,
+        49219,
+        50369,
+        49496,
+        49079
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 5738
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.023256945063674907
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.2503512753669836,
+        0.25547743049237537,
+        0.9519510608413649,
+        0.9719813731680625
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 2,
+      "candidate": 813,
+      "D_table": {
+        "concept_id": 2,
+        "candidate": 813,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_2.json",
+        "sha256": "eb6a767f93043fbece986a3b468b43d923d604dac54936a2250bd06c1cbfe601",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 4797
+        },
+        "observed_bin_count": 4
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4797
+      },
+      "D_observed_bin_count": 4,
+      "T_bin_atom_counts": [
+        4525,
+        143436,
+        48921,
+        49840
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 4049
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.016411183437228947
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.3156062784285407,
+        0.31688404449838153,
+        0.6827015837702143,
+        0.701916438076235
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 16,
+      "candidate": 99,
+      "D_table": {
+        "concept_id": 16,
+        "candidate": 99,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_16.json",
+        "sha256": "efac6b77d24edd0c8da2a56c1cb82227ac33b5e37e96a1f06dd9a36d7674d69e",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 3284
+        },
+        "observed_bin_count": 2
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 3284
+      },
+      "D_observed_bin_count": 2,
+      "T_bin_atom_counts": [
+        8526,
+        238196
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 2886
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.011697375994033771
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.04408809655152162,
+        0.044318924767987794,
+        0.6325418379757161,
+        0.6539080377948762
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 26,
+      "candidate": 293,
+      "D_table": {
+        "concept_id": 26,
+        "candidate": 293,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_26.json",
+        "sha256": "4aee8abfd3c2e8cd0dd931df9e9c911adc4fd91ea72a36699e02364685298260",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 4656
+        },
+        "observed_bin_count": 4
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4656
+      },
+      "D_observed_bin_count": 4,
+      "T_bin_atom_counts": [
+        49983,
+        49272,
+        38,
+        147429
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 3977
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.016119357009103365
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.04725618825219705,
+        0.0482261355893442,
+        0.975612436707436,
+        0.9779397041106564
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 3,
+      "candidate": 121,
+      "D_table": {
+        "concept_id": 3,
+        "candidate": 121,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_3.json",
+        "sha256": "953815e98abd77dc948d7951d6fe094cdc64e0e00eb27c552c28a9b8ebc43f10",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 6363
+        },
+        "observed_bin_count": 5
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 6363
+      },
+      "D_observed_bin_count": 5,
+      "T_bin_atom_counts": [
+        49443,
+        49253,
+        48820,
+        49249,
+        49957
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 5387
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.02183429122656269
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.8115027946093234,
+        0.8128354802094429,
+        0.9408811653298458,
+        0.947607011608143
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 18,
+      "candidate": 382,
+      "D_table": {
+        "concept_id": 18,
+        "candidate": 382,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_18.json",
+        "sha256": "51fb92652789a3fcc8eef864da26f4c625bb96251b89ed45297e45799aec1073",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 5609
+        },
+        "observed_bin_count": 5
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 5609
+      },
+      "D_observed_bin_count": 5,
+      "T_bin_atom_counts": [
+        49557,
+        49034,
+        49397,
+        48745,
+        49989
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 4725
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.019151109345741362
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.0441149097226531,
+        0.045682343870470314,
+        0.9833366346131087,
+        0.9833366346131087
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    },
+    {
+      "concept_id": 27,
+      "candidate": 388,
+      "D_table": {
+        "concept_id": 27,
+        "candidate": 388,
+        "file": "results\\revision_20261017\\chemistry_D\\secondary\\input_reference_27.json",
+        "sha256": "e07b2abefc41130614a615701e3b626a9132ce0d956571994728b8d30d3676d9",
+        "category_counts": {
+          "token": 12,
+          "r0": 29,
+          "L": 2993,
+          "Lj": 4791
+        },
+        "observed_bin_count": 4
+      },
+      "D_category_counts": {
+        "token": 12,
+        "r0": 29,
+        "L": 2993,
+        "Lj": 4791
+      },
+      "D_observed_bin_count": 4,
+      "T_bin_atom_counts": [
+        48944,
+        49558,
+        37280,
+        110940
+      ],
+      "coverage": {
+        "atoms": 246722,
+        "unseen_counts": {
+          "token": 3,
+          "r0": 8,
+          "L": 2648,
+          "Lj": 4072
+        },
+        "fallback_fractions": {
+          "token": 1.215943450523261e-05,
+          "r0": 3.2425158680620295e-05,
+          "L": 0.010732727523285317,
+          "Lj": 0.016504405768435728
+        },
+        "columns": [
+          "token",
+          "r0",
+          "L",
+          "Lj"
+        ]
+      },
+      "descriptive_AP_float32_probability_scores": [
+        0.014107861211997514,
+        0.014323279047403121,
+        0.9993847782224721,
+        0.9993847782224721
+      ],
+      "AP_columns": [
+        "token",
+        "radius0",
+        "radius1",
+        "radius1_plus_fixed_native_j"
+      ]
+    }
+  ],
+  "statistics": {
+    "Delta_L_panel": 0.0008643407710617802,
+    "per_concept": [
+      0.0007697700329540557,
+      0.0035833791832020423,
+      1.460987124840847e-19,
+      0.0002109106292067046,
+      0.0002901852730141777,
+      0.000633608638288331,
+      0.00282414175172711,
+      0.0001128777415506932,
+      3.324637132396972e-06,
+      0.0019438913656658519,
+      3.5756770050096616e-22,
+      4.019312148238147e-23
+    ],
+    "panel_ci95": {
+      "ci": [
+        0.0008240835187488196,
+        0.0009087445620562057
+      ],
+      "replicates": 2000,
+      "defined_replicates": 2000,
+      "undefined_replicates": 0,
+      "quantiles": [
+        0.025,
+        0.975
+      ],
+      "quantile_method": "linear"
+    },
+    "Brier_per_concept_reference": [
+      [
+        0.007902335567624666,
+        0.007898763821921296,
+        0.007193775590552294,
+        0.006424005557598601
+      ],
+      [
+        0.011391350112178964,
+        0.011391086416033324,
+        0.00420530631889041,
+        0.0006219271356892023
+      ],
+      [
+        0.058491904170371714,
+        0.05810124298557699,
+        0.0029980801864867143,
+        0.0029980801864867143
+      ],
+      [
+        0.005856177548235679,
+        0.005854724805123136,
+        0.0055732638126215605,
+        0.005362353183413267
+      ],
+      [
+        0.0034445052645767256,
+        0.0034443340487171907,
+        0.002036446944475853,
+        0.0017462616714611307
+      ],
+      [
+        0.05446114382154651,
+        0.05414447562164382,
+        0.006278285413847501,
+        0.005644676775560262
+      ],
+      [
+        0.10647985295581026,
+        0.10633828778781394,
+        0.0749295084931413,
+        0.07210536674148288
+      ],
+      [
+        0.008181105679599478,
+        0.00818112881824352,
+        0.003875772052097565,
+        0.003762894310547854
+      ],
+      [
+        0.01264856758428828,
+        0.012637129922164174,
+        0.002093107548838443,
+        0.002089782911706101
+      ],
+      [
+        0.12576853209494837,
+        0.12535322150347594,
+        0.0846936109130399,
+        0.08274971954740032
+      ],
+      [
+        0.0027546706687143463,
+        0.0027501516629710432,
+        0.0002360038910916438,
+        0.0002360038910916438
+      ],
+      [
+        0.003922163443637993,
+        0.003921373352257258,
+        0.00017241457728460347,
+        0.00017241457728460347
+      ]
+    ],
+    "weighting": "pooled atoms within each concept; equal weight over frozen panel concepts",
+    "inference": "secondary; cannot rescue primary IUT; per-concept values descriptive"
+  },
+  "prediction_schema": {
+    "shape": [
+      246722,
+      12,
+      4
+    ],
+    "dtype": "float64",
+    "axis": "T atoms,panel order,token/r0/L/Lj"
+  },
+  "AP_conversion": "probabilities converted float64 to float32 solely for descriptive AP exact ties",
+  "D_tables_refit": false,
+  "T_tuning": false,
+  "new_model_evaluations": 0,
+  "outputs": {
+    "predictions_T.npy": {
+      "bytes": 94741376,
+      "sha256": "a6b238f20354fc0573f30de213da9858cb3daf7a621b4fc7c10e38d1c99dc978"
+    },
+    "PANEL_BRIER_BOOTSTRAP.npy": {
+      "bytes": 16128,
+      "sha256": "7c9dbfbb4c935a4b36dba3865acd8607e2938c9acb54e927bc05af091585b34a"
+    }
+  }
+}

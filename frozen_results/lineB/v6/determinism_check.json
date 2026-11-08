@@ -1,0 +1,69 @@
+{
+  "pretrained": {
+    "molecules": 256,
+    "single_molecules_compared": 32,
+    "two_passes_identical": true,
+    "single_vs_padded_max_abs_diff": 1.811981201171875e-05,
+    "mean_abs_activation": 2.2888951301574707,
+    "relative_diff": 7.916401137378517e-06,
+    "state_dict_sha256_16": "1ebbe544a35afba1",
+    "attn_implementation": "eager",
+    "rebuild_identical": true
+  },
+  "twin_seed4000": {
+    "molecules": 256,
+    "single_molecules_compared": 32,
+    "two_passes_identical": true,
+    "single_vs_padded_max_abs_diff": 4.5299530029296875e-06,
+    "mean_abs_activation": 0.4614538550376892,
+    "relative_diff": 9.81669771197318e-06,
+    "state_dict_sha256_16": "5924bf9a36ec8950",
+    "attn_implementation": "eager",
+    "rebuild_identical": true
+  },
+  "hf_twin_seed6000": {
+    "molecules": 256,
+    "single_molecules_compared": 32,
+    "two_passes_identical": true,
+    "single_vs_padded_max_abs_diff": 4.76837158203125e-06,
+    "mean_abs_activation": 0.44247424602508545,
+    "relative_diff": 1.0776608186504291e-05,
+    "state_dict_sha256_16": "6be9ecfd90f482c5",
+    "attn_implementation": "eager",
+    "rebuild_identical": true
+  },
+  "orf_redraw_seed7000": {
+    "molecules": 256,
+    "single_molecules_compared": 32,
+    "two_passes_identical": true,
+    "single_vs_padded_max_abs_diff": 1.52587890625e-05,
+    "mean_abs_activation": 2.2948999404907227,
+    "relative_diff": 6.648999720326449e-06,
+    "state_dict_sha256_16": "114130e7af029c68",
+    "attn_implementation": "eager",
+    "rebuild_identical": true,
+    "keys_changed_vs_pretrained": [
+      "encoder.layer.0.attention.self.feature_map.weight",
+      "encoder.layer.1.attention.self.feature_map.weight",
+      "encoder.layer.10.attention.self.feature_map.weight",
+      "encoder.layer.11.attention.self.feature_map.weight",
+      "encoder.layer.2.attention.self.feature_map.weight",
+      "encoder.layer.3.attention.self.feature_map.weight",
+      "encoder.layer.4.attention.self.feature_map.weight",
+      "encoder.layer.5.attention.self.feature_map.weight",
+      "encoder.layer.6.attention.self.feature_map.weight",
+      "encoder.layer.7.attention.self.feature_map.weight",
+      "encoder.layer.8.attention.self.feature_map.weight",
+      "encoder.layer.9.attention.self.feature_map.weight"
+    ],
+    "only_feature_maps_changed": true
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.20.0",
+    "tokenizers": "0.23.3",
+    "rdkit": "2026.03.6",
+    "numpy": "2.4.6"
+  },
+  "passed": true
+}

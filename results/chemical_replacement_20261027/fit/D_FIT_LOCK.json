@@ -1,0 +1,11 @@
+{
+  "schema": "chemical-continuous-D-fit-lock/1",
+  "status": "D_FIT_FROZEN_BEFORE_T_APPLY",
+  "created_utc": "2026-10-27T09:25:04.343885+00:00",
+  "D_FIT_sha256": "7bd8e95a02a9e21d881455a49474b2a0a401d2d3832af4f874cbf10f9147ba6d",
+  "protocol_sha256": "83d1ddb465d977841ec779e4ce0461d3bc06d78371f48a98dd23a69398e5fb27",
+  "resource_lock_sha256": "6a6a36c823b42cc3102cf3031157b3122b5f5f01d84640a9da3467e24d1e56cb",
+  "implementation_sha256": "641890e0f1f46c377c61979b5454729f644ce30f837266e6e712c2135d73ecd4",
+  "T_reads_before_D_freeze": 0,
+  "refitting_on_T_allowed": false
+}

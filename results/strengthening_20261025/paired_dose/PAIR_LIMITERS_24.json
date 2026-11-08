@@ -1,0 +1,3002 @@
+[
+  {
+    "pair": 0,
+    "positive_T_index": 9709,
+    "negative_T_index": 985,
+    "tau": 0.41778105553282574,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 985,
+        "CID": 101316497,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 1,
+    "positive_T_index": 9134,
+    "negative_T_index": 5528,
+    "tau": 0.31832021111987496,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5528,
+        "CID": 105816466,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 2,
+    "positive_T_index": 2241,
+    "negative_T_index": 6305,
+    "tau": 0.4183141650405685,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6305,
+        "CID": 97622160,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 3,
+    "positive_T_index": 2354,
+    "negative_T_index": 5199,
+    "tau": 0.44816821855824884,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5199,
+        "CID": 62564484,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 4,
+    "positive_T_index": 2006,
+    "negative_T_index": 4645,
+    "tau": 0.5000819503391473,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 4645,
+        "CID": 13219540,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 5,
+    "positive_T_index": 5727,
+    "negative_T_index": 1326,
+    "tau": 0.39303057918303197,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 5727,
+        "CID": 79204791,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 6,
+    "positive_T_index": 9052,
+    "negative_T_index": 7930,
+    "tau": 0.43172193707379863,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7930,
+        "CID": 130325596,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 7,
+    "positive_T_index": 6980,
+    "negative_T_index": 618,
+    "tau": 0.45046200235990497,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6980,
+        "CID": 167913844,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 8,
+    "positive_T_index": 4675,
+    "negative_T_index": 868,
+    "tau": 0.6409726572391237,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 868,
+        "CID": 175543126,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 9,
+    "positive_T_index": 2016,
+    "negative_T_index": 788,
+    "tau": 0.44823754233925506,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 788,
+        "CID": 109566800,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 10,
+    "positive_T_index": 5903,
+    "negative_T_index": 8069,
+    "tau": 0.44864660535013684,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 5903,
+        "CID": 17860700,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 11,
+    "positive_T_index": 6536,
+    "negative_T_index": 498,
+    "tau": 0.4616097372047031,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6536,
+        "CID": 15812699,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 12,
+    "positive_T_index": 6816,
+    "negative_T_index": 5656,
+    "tau": 0.3352002513358234,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5656,
+        "CID": 21150972,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 13,
+    "positive_T_index": 4806,
+    "negative_T_index": 3091,
+    "tau": 0.6075046470140036,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 3091,
+        "CID": 81858949,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 14,
+    "positive_T_index": 145,
+    "negative_T_index": 1807,
+    "tau": 0.5120288902466341,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 145,
+        "CID": 63125532,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 15,
+    "positive_T_index": 9573,
+    "negative_T_index": 2143,
+    "tau": 0.4730700419850733,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2143,
+        "CID": 114842138,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 16,
+    "positive_T_index": 3071,
+    "negative_T_index": 1132,
+    "tau": 0.5967909364773961,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1132,
+        "CID": 159208358,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 17,
+    "positive_T_index": 3866,
+    "negative_T_index": 5319,
+    "tau": 0.4177818009655389,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5319,
+        "CID": 102383337,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 18,
+    "positive_T_index": 5255,
+    "negative_T_index": 5353,
+    "tau": 0.4223268873713153,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5353,
+        "CID": 8000205,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 19,
+    "positive_T_index": 4090,
+    "negative_T_index": 8360,
+    "tau": 0.53341545353576,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 4090,
+        "CID": 92294296,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 20,
+    "positive_T_index": 2904,
+    "negative_T_index": 1990,
+    "tau": 0.506011815203806,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1990,
+        "CID": 104336582,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 21,
+    "positive_T_index": 7888,
+    "negative_T_index": 5973,
+    "tau": 0.5166620707909424,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7888,
+        "CID": 79036490,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 22,
+    "positive_T_index": 8817,
+    "negative_T_index": 2962,
+    "tau": 0.48465349241702194,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2962,
+        "CID": 97250616,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 23,
+    "positive_T_index": 2429,
+    "negative_T_index": 6197,
+    "tau": 0.4179437330044318,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 2429,
+        "CID": 175577056,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 24,
+    "positive_T_index": 2672,
+    "negative_T_index": 8671,
+    "tau": 0.41778382493535815,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8671,
+        "CID": 123473738,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 25,
+    "positive_T_index": 4009,
+    "negative_T_index": 8904,
+    "tau": 0.41778360630050254,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8904,
+        "CID": 163894521,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 26,
+    "positive_T_index": 5527,
+    "negative_T_index": 2671,
+    "tau": 0.4710169660670712,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 5527,
+        "CID": 157113835,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 27,
+    "positive_T_index": 1180,
+    "negative_T_index": 3464,
+    "tau": 0.4221953708171912,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 3464,
+        "CID": 114770779,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 28,
+    "positive_T_index": 7031,
+    "negative_T_index": 2231,
+    "tau": 0.47257057483526177,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7031,
+        "CID": 129351541,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 29,
+    "positive_T_index": 3885,
+    "negative_T_index": 4526,
+    "tau": 0.4687280043169715,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 4526,
+        "CID": 60275034,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 30,
+    "positive_T_index": 7236,
+    "negative_T_index": 2585,
+    "tau": 0.49083775405209795,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7236,
+        "CID": 53807533,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 31,
+    "positive_T_index": 7378,
+    "negative_T_index": 2159,
+    "tau": 0.47870823219398034,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2159,
+        "CID": 90326388,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 32,
+    "positive_T_index": 3935,
+    "negative_T_index": 1993,
+    "tau": 0.4177870976671617,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1993,
+        "CID": 88810659,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 33,
+    "positive_T_index": 4442,
+    "negative_T_index": 2371,
+    "tau": 0.4282464138223204,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 4442,
+        "CID": 146500836,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 34,
+    "positive_T_index": 2736,
+    "negative_T_index": 9862,
+    "tau": 0.4195939993304335,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9862,
+        "CID": 168584931,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 35,
+    "positive_T_index": 9363,
+    "negative_T_index": 2754,
+    "tau": 0.4187100624502361,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2754,
+        "CID": 82650339,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 36,
+    "positive_T_index": 2445,
+    "negative_T_index": 96,
+    "tau": 0.5178694192605073,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 2445,
+        "CID": 173751078,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 37,
+    "positive_T_index": 7924,
+    "negative_T_index": 1137,
+    "tau": 0.47774488887343847,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7924,
+        "CID": 124429886,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 38,
+    "positive_T_index": 389,
+    "negative_T_index": 8448,
+    "tau": 0.4644263903975763,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8448,
+        "CID": 105788784,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 39,
+    "positive_T_index": 4124,
+    "negative_T_index": 8379,
+    "tau": 0.582981719859049,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 4124,
+        "CID": 120709991,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 40,
+    "positive_T_index": 9952,
+    "negative_T_index": 1874,
+    "tau": 0.43653606816884183,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1874,
+        "CID": 170652509,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 41,
+    "positive_T_index": 854,
+    "negative_T_index": 5111,
+    "tau": 0.4530866006210494,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 854,
+        "CID": 141077649,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 42,
+    "positive_T_index": 1368,
+    "negative_T_index": 381,
+    "tau": 0.8156742634581134,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 381,
+        "CID": 133404438,
+        "unit": 47,
+        "coordinate_role": "control3"
+      }
+    ]
+  },
+  {
+    "pair": 43,
+    "positive_T_index": 9164,
+    "negative_T_index": 8603,
+    "tau": 0.6044673782558108,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8603,
+        "CID": 18128854,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 44,
+    "positive_T_index": 6350,
+    "negative_T_index": 3145,
+    "tau": 0.41779205741901215,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6350,
+        "CID": 89539898,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 45,
+    "positive_T_index": 1071,
+    "negative_T_index": 894,
+    "tau": 0.4177810332156165,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 894,
+        "CID": 123764414,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 46,
+    "positive_T_index": 6194,
+    "negative_T_index": 3916,
+    "tau": 0.5798410016923221,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6194,
+        "CID": 74228333,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 47,
+    "positive_T_index": 8207,
+    "negative_T_index": 8204,
+    "tau": 0.4224671942411065,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 8207,
+        "CID": 6701533,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 48,
+    "positive_T_index": 5038,
+    "negative_T_index": 8201,
+    "tau": 0.42298735125184267,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8201,
+        "CID": 112744205,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 49,
+    "positive_T_index": 4989,
+    "negative_T_index": 9235,
+    "tau": 0.42683804539536974,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9235,
+        "CID": 80544409,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 50,
+    "positive_T_index": 3668,
+    "negative_T_index": 4528,
+    "tau": 0.42908463228253074,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 4528,
+        "CID": 568981,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 51,
+    "positive_T_index": 1725,
+    "negative_T_index": 2598,
+    "tau": 0.4574710072704547,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 1725,
+        "CID": 118500947,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 52,
+    "positive_T_index": 9061,
+    "negative_T_index": 6937,
+    "tau": 0.3110603136109154,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6937,
+        "CID": 88299913,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 53,
+    "positive_T_index": 5311,
+    "negative_T_index": 9006,
+    "tau": 0.45033790553667774,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9006,
+        "CID": 130286966,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 54,
+    "positive_T_index": 572,
+    "negative_T_index": 6491,
+    "tau": 0.4374757625372226,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 572,
+        "CID": 145301419,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 55,
+    "positive_T_index": 7754,
+    "negative_T_index": 1811,
+    "tau": 0.4222588713749613,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1811,
+        "CID": 123551213,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 56,
+    "positive_T_index": 9792,
+    "negative_T_index": 5331,
+    "tau": 0.4635565871432949,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5331,
+        "CID": 141236364,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 57,
+    "positive_T_index": 679,
+    "negative_T_index": 561,
+    "tau": 0.5549717021527321,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 679,
+        "CID": 73340582,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 58,
+    "positive_T_index": 7684,
+    "negative_T_index": 755,
+    "tau": 0.4831821500010268,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 755,
+        "CID": 142116399,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 59,
+    "positive_T_index": 1538,
+    "negative_T_index": 2218,
+    "tau": 0.42321077819411734,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 1538,
+        "CID": 142774625,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 60,
+    "positive_T_index": 4002,
+    "negative_T_index": 6050,
+    "tau": 0.4261948589273711,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 4002,
+        "CID": 116842994,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 61,
+    "positive_T_index": 8622,
+    "negative_T_index": 4897,
+    "tau": 0.40854694929419016,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 4897,
+        "CID": 106863316,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 62,
+    "positive_T_index": 7697,
+    "negative_T_index": 8703,
+    "tau": 0.36290975001534187,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8703,
+        "CID": 20509059,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 63,
+    "positive_T_index": 4502,
+    "negative_T_index": 9378,
+    "tau": 0.43247075290789283,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9378,
+        "CID": 49735930,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 64,
+    "positive_T_index": 2872,
+    "negative_T_index": 8970,
+    "tau": 0.41778310537735436,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 2872,
+        "CID": 87726922,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 65,
+    "positive_T_index": 614,
+    "negative_T_index": 9749,
+    "tau": 0.48293885036834644,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 614,
+        "CID": 162699679,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 66,
+    "positive_T_index": 6963,
+    "negative_T_index": 587,
+    "tau": 0.3226386945071791,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 587,
+        "CID": 172732091,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 67,
+    "positive_T_index": 8814,
+    "negative_T_index": 2716,
+    "tau": 0.39179591462138147,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2716,
+        "CID": 115044513,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 68,
+    "positive_T_index": 728,
+    "negative_T_index": 6513,
+    "tau": 0.39751246033447996,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 728,
+        "CID": 104349310,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 69,
+    "positive_T_index": 2065,
+    "negative_T_index": 2506,
+    "tau": 0.41939440645116594,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2506,
+        "CID": 119948178,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 70,
+    "positive_T_index": 8023,
+    "negative_T_index": 1940,
+    "tau": 0.4936553332202746,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 8023,
+        "CID": 5295175,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 71,
+    "positive_T_index": 9418,
+    "negative_T_index": 4337,
+    "tau": 0.6801750238759897,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 4337,
+        "CID": 78988400,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 72,
+    "positive_T_index": 3919,
+    "negative_T_index": 2969,
+    "tau": 0.502606044226193,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 3919,
+        "CID": 159386510,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 73,
+    "positive_T_index": 9271,
+    "negative_T_index": 9754,
+    "tau": 0.41778124358853425,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9754,
+        "CID": 141991556,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 74,
+    "positive_T_index": 7779,
+    "negative_T_index": 6495,
+    "tau": 0.5808743603561405,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7779,
+        "CID": 114158293,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 75,
+    "positive_T_index": 7597,
+    "negative_T_index": 7328,
+    "tau": 0.4230540634883841,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7328,
+        "CID": 107448114,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 76,
+    "positive_T_index": 3288,
+    "negative_T_index": 8051,
+    "tau": 0.45682637544741483,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 3288,
+        "CID": 76719379,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 77,
+    "positive_T_index": 3802,
+    "negative_T_index": 8629,
+    "tau": 0.45221088415707295,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8629,
+        "CID": 118503175,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 78,
+    "positive_T_index": 7610,
+    "negative_T_index": 2985,
+    "tau": 0.46148265191208343,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2985,
+        "CID": 101295738,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 79,
+    "positive_T_index": 9989,
+    "negative_T_index": 7232,
+    "tau": 0.4220405156072098,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7232,
+        "CID": 101428046,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 80,
+    "positive_T_index": 3938,
+    "negative_T_index": 696,
+    "tau": 0.41807009849335824,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 3938,
+        "CID": 21569890,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 81,
+    "positive_T_index": 1962,
+    "negative_T_index": 6026,
+    "tau": 0.4184609625372466,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6026,
+        "CID": 61257443,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 82,
+    "positive_T_index": 9999,
+    "negative_T_index": 1645,
+    "tau": 0.46595086783543116,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1645,
+        "CID": 55022196,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 83,
+    "positive_T_index": 5257,
+    "negative_T_index": 2695,
+    "tau": 0.45224599954116373,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2695,
+        "CID": 111089034,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 84,
+    "positive_T_index": 4362,
+    "negative_T_index": 3458,
+    "tau": 0.5111208859894164,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 3458,
+        "CID": 171303234,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 85,
+    "positive_T_index": 8163,
+    "negative_T_index": 9703,
+    "tau": 0.4044914900775432,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 8163,
+        "CID": 115886792,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 86,
+    "positive_T_index": 9051,
+    "negative_T_index": 481,
+    "tau": 0.418781383548421,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 481,
+        "CID": 116882680,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 87,
+    "positive_T_index": 3654,
+    "negative_T_index": 2342,
+    "tau": 0.4252301714286264,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2342,
+        "CID": 62484793,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 88,
+    "positive_T_index": 6792,
+    "negative_T_index": 5116,
+    "tau": 0.4483132514535471,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5116,
+        "CID": 22348892,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 89,
+    "positive_T_index": 7294,
+    "negative_T_index": 3839,
+    "tau": 0.549422653697758,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 3839,
+        "CID": 24472617,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 90,
+    "positive_T_index": 401,
+    "negative_T_index": 8232,
+    "tau": 0.4443484205580382,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 401,
+        "CID": 56109582,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 91,
+    "positive_T_index": 3406,
+    "negative_T_index": 4762,
+    "tau": 0.6401257772958079,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 3406,
+        "CID": 89776506,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 92,
+    "positive_T_index": 5838,
+    "negative_T_index": 7861,
+    "tau": 0.6318925742202535,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7861,
+        "CID": 80767072,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 93,
+    "positive_T_index": 2678,
+    "negative_T_index": 1384,
+    "tau": 0.5227946472587653,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1384,
+        "CID": 146433322,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 94,
+    "positive_T_index": 9923,
+    "negative_T_index": 2316,
+    "tau": 0.3512748991693436,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2316,
+        "CID": 113349357,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 95,
+    "positive_T_index": 7484,
+    "negative_T_index": 919,
+    "tau": 0.31761531739409965,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 919,
+        "CID": 174492080,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 96,
+    "positive_T_index": 7324,
+    "negative_T_index": 8219,
+    "tau": 0.5271226304167759,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8219,
+        "CID": 176119923,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 97,
+    "positive_T_index": 2606,
+    "negative_T_index": 5474,
+    "tau": 0.4835813017015624,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 2606,
+        "CID": 33254039,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 98,
+    "positive_T_index": 688,
+    "negative_T_index": 7181,
+    "tau": 0.5815874561233859,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7181,
+        "CID": 154714101,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 99,
+    "positive_T_index": 5622,
+    "negative_T_index": 5346,
+    "tau": 0.5982759575769341,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 5622,
+        "CID": 23997793,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 100,
+    "positive_T_index": 569,
+    "negative_T_index": 8696,
+    "tau": 0.47136873132363644,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8696,
+        "CID": 118635316,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 101,
+    "positive_T_index": 1035,
+    "negative_T_index": 8017,
+    "tau": 0.34735555458869993,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8017,
+        "CID": 146507426,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 102,
+    "positive_T_index": 1759,
+    "negative_T_index": 9883,
+    "tau": 0.655539108020694,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9883,
+        "CID": 106715847,
+        "unit": 454,
+        "coordinate_role": "selected"
+      }
+    ]
+  },
+  {
+    "pair": 103,
+    "positive_T_index": 929,
+    "negative_T_index": 4360,
+    "tau": 0.42007777005125146,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 4360,
+        "CID": 24761251,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 104,
+    "positive_T_index": 2046,
+    "negative_T_index": 7100,
+    "tau": 0.4177816607786462,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7100,
+        "CID": 175837771,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 105,
+    "positive_T_index": 6006,
+    "negative_T_index": 9320,
+    "tau": 0.4176904360229743,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9320,
+        "CID": 23557558,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 106,
+    "positive_T_index": 6634,
+    "negative_T_index": 669,
+    "tau": 0.5337190840054415,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 669,
+        "CID": 107975149,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 107,
+    "positive_T_index": 1078,
+    "negative_T_index": 3518,
+    "tau": 0.41909908405259444,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 1078,
+        "CID": 58973630,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 108,
+    "positive_T_index": 9748,
+    "negative_T_index": 8253,
+    "tau": 0.4409666518633438,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 9748,
+        "CID": 68186956,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 109,
+    "positive_T_index": 1980,
+    "negative_T_index": 3950,
+    "tau": 0.49210067408785557,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 1980,
+        "CID": 120935358,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 110,
+    "positive_T_index": 9275,
+    "negative_T_index": 3023,
+    "tau": 0.32521080678453823,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 3023,
+        "CID": 43275194,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 111,
+    "positive_T_index": 1324,
+    "negative_T_index": 7915,
+    "tau": 0.4170322480102489,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7915,
+        "CID": 62768199,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 112,
+    "positive_T_index": 7718,
+    "negative_T_index": 6208,
+    "tau": 0.5052697410311827,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6208,
+        "CID": 122425777,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 113,
+    "positive_T_index": 7183,
+    "negative_T_index": 7833,
+    "tau": 0.7287316035916023,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7183,
+        "CID": 56349533,
+        "unit": 47,
+        "coordinate_role": "control3"
+      }
+    ]
+  },
+  {
+    "pair": 114,
+    "positive_T_index": 7192,
+    "negative_T_index": 2472,
+    "tau": 0.42568237233396045,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2472,
+        "CID": 91757046,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 115,
+    "positive_T_index": 937,
+    "negative_T_index": 1829,
+    "tau": 0.4411007325392931,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1829,
+        "CID": 170191047,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 116,
+    "positive_T_index": 22,
+    "negative_T_index": 7115,
+    "tau": 0.48783561050443597,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7115,
+        "CID": 126218457,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 117,
+    "positive_T_index": 9540,
+    "negative_T_index": 6285,
+    "tau": 0.41864525615819415,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 9540,
+        "CID": 71658363,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 118,
+    "positive_T_index": 1210,
+    "negative_T_index": 527,
+    "tau": 0.4821623253933959,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 527,
+        "CID": 69921458,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 119,
+    "positive_T_index": 1400,
+    "negative_T_index": 9253,
+    "tau": 0.5873203469751033,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9253,
+        "CID": 130107477,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 120,
+    "positive_T_index": 2493,
+    "negative_T_index": 4077,
+    "tau": 0.45097928841369583,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 4077,
+        "CID": 114250568,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 121,
+    "positive_T_index": 2867,
+    "negative_T_index": 1023,
+    "tau": 0.41969960080312957,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1023,
+        "CID": 146159351,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 122,
+    "positive_T_index": 5082,
+    "negative_T_index": 9600,
+    "tau": 0.4177816426489155,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9600,
+        "CID": 174105731,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 123,
+    "positive_T_index": 7879,
+    "negative_T_index": 598,
+    "tau": 0.41778528850508884,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 598,
+        "CID": 10705231,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 124,
+    "positive_T_index": 3195,
+    "negative_T_index": 1562,
+    "tau": 0.4324024899023028,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1562,
+        "CID": 130830657,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 125,
+    "positive_T_index": 3420,
+    "negative_T_index": 9662,
+    "tau": 0.43139348382766796,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 3420,
+        "CID": 21566270,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 126,
+    "positive_T_index": 5564,
+    "negative_T_index": 3536,
+    "tau": 0.4902030355593172,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 3536,
+        "CID": 63992618,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 127,
+    "positive_T_index": 3506,
+    "negative_T_index": 480,
+    "tau": 0.4431343063026422,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 480,
+        "CID": 167885890,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 128,
+    "positive_T_index": 644,
+    "negative_T_index": 5210,
+    "tau": 0.4178156322050437,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 644,
+        "CID": 91703806,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 129,
+    "positive_T_index": 4385,
+    "negative_T_index": 690,
+    "tau": 0.4198045019275148,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 4385,
+        "CID": 21099802,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 130,
+    "positive_T_index": 676,
+    "negative_T_index": 9466,
+    "tau": 0.52130660134367,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 676,
+        "CID": 48208953,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 131,
+    "positive_T_index": 6011,
+    "negative_T_index": 9171,
+    "tau": 0.41778391296089185,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6011,
+        "CID": 92436345,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 132,
+    "positive_T_index": 5856,
+    "negative_T_index": 9362,
+    "tau": 0.4412707208825512,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9362,
+        "CID": 83944720,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 133,
+    "positive_T_index": 9938,
+    "negative_T_index": 3398,
+    "tau": 0.5148352303443822,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 3398,
+        "CID": 170982053,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 134,
+    "positive_T_index": 9349,
+    "negative_T_index": 8425,
+    "tau": 0.41820517930666856,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8425,
+        "CID": 86886458,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 135,
+    "positive_T_index": 135,
+    "negative_T_index": 5269,
+    "tau": 0.4221224558988403,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5269,
+        "CID": 60842310,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 136,
+    "positive_T_index": 7400,
+    "negative_T_index": 7535,
+    "tau": 0.4189384315603841,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7400,
+        "CID": 73755385,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 137,
+    "positive_T_index": 6422,
+    "negative_T_index": 3841,
+    "tau": 0.42650480203516933,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6422,
+        "CID": 1743501,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 138,
+    "positive_T_index": 8168,
+    "negative_T_index": 1276,
+    "tau": 0.5768487748173804,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1276,
+        "CID": 84782629,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 139,
+    "positive_T_index": 4769,
+    "negative_T_index": 9185,
+    "tau": 0.40697168383161286,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9185,
+        "CID": 141837616,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 140,
+    "positive_T_index": 1890,
+    "negative_T_index": 6653,
+    "tau": 0.41779454976644537,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 1890,
+        "CID": 131842461,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 141,
+    "positive_T_index": 9583,
+    "negative_T_index": 2941,
+    "tau": 0.5062961615650532,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2941,
+        "CID": 120671253,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 142,
+    "positive_T_index": 6661,
+    "negative_T_index": 6725,
+    "tau": 0.42202402793508614,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6725,
+        "CID": 79141800,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 143,
+    "positive_T_index": 3067,
+    "negative_T_index": 265,
+    "tau": 0.42710536129602156,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 265,
+        "CID": 90608623,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 144,
+    "positive_T_index": 2129,
+    "negative_T_index": 6449,
+    "tau": 0.4183324957144602,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 2129,
+        "CID": 165411632,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 145,
+    "positive_T_index": 5401,
+    "negative_T_index": 8306,
+    "tau": 0.5203447764213638,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 5401,
+        "CID": 90799690,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 146,
+    "positive_T_index": 1732,
+    "negative_T_index": 1745,
+    "tau": 0.35721447394474587,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1745,
+        "CID": 103862785,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 147,
+    "positive_T_index": 7207,
+    "negative_T_index": 7897,
+    "tau": 0.49495323716758916,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7897,
+        "CID": 112563455,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 148,
+    "positive_T_index": 8476,
+    "negative_T_index": 2870,
+    "tau": 0.4427443721430975,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 8476,
+        "CID": 64782542,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 149,
+    "positive_T_index": 6537,
+    "negative_T_index": 6251,
+    "tau": 0.5327031726724695,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6251,
+        "CID": 156889874,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 150,
+    "positive_T_index": 9098,
+    "negative_T_index": 2646,
+    "tau": 0.3631624982723031,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2646,
+        "CID": 56665179,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 151,
+    "positive_T_index": 3891,
+    "negative_T_index": 4768,
+    "tau": 0.4713106303921818,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 3891,
+        "CID": 103821074,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 152,
+    "positive_T_index": 1664,
+    "negative_T_index": 650,
+    "tau": 0.41778220398441385,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 1664,
+        "CID": 152374048,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 153,
+    "positive_T_index": 1336,
+    "negative_T_index": 2619,
+    "tau": 0.512753980916994,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2619,
+        "CID": 10299438,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 154,
+    "positive_T_index": 6095,
+    "negative_T_index": 8861,
+    "tau": 0.48415511326862765,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6095,
+        "CID": 112707500,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 155,
+    "positive_T_index": 5700,
+    "negative_T_index": 5749,
+    "tau": 0.368082283391567,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5749,
+        "CID": 57008137,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 156,
+    "positive_T_index": 6923,
+    "negative_T_index": 9096,
+    "tau": 0.5743240392801157,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6923,
+        "CID": 99817464,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 157,
+    "positive_T_index": 6595,
+    "negative_T_index": 745,
+    "tau": 0.5324788803981382,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6595,
+        "CID": 25255714,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 158,
+    "positive_T_index": 9895,
+    "negative_T_index": 7594,
+    "tau": 0.45557045717169403,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 9895,
+        "CID": 63307792,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 159,
+    "positive_T_index": 6132,
+    "negative_T_index": 4270,
+    "tau": 0.4741683000303497,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 4270,
+        "CID": 115521618,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 160,
+    "positive_T_index": 266,
+    "negative_T_index": 1182,
+    "tau": 0.6226605772659174,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 266,
+        "CID": 136124918,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 161,
+    "positive_T_index": 8938,
+    "negative_T_index": 6211,
+    "tau": 0.4129454907249713,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6211,
+        "CID": 43103190,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 162,
+    "positive_T_index": 9866,
+    "negative_T_index": 6500,
+    "tau": 0.47902221171759485,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6500,
+        "CID": 131119437,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 163,
+    "positive_T_index": 1081,
+    "negative_T_index": 1184,
+    "tau": 0.479055548752744,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 1184,
+        "CID": 60171406,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 164,
+    "positive_T_index": 611,
+    "negative_T_index": 5131,
+    "tau": 0.461474763888843,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5131,
+        "CID": 20062657,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 165,
+    "positive_T_index": 2794,
+    "negative_T_index": 8043,
+    "tau": 0.4200422051803102,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 2794,
+        "CID": 1215356,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 166,
+    "positive_T_index": 5596,
+    "negative_T_index": 5737,
+    "tau": 0.4542035432372712,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 5596,
+        "CID": 132384511,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 167,
+    "positive_T_index": 9978,
+    "negative_T_index": 3224,
+    "tau": 0.4322361789113788,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 9978,
+        "CID": 22214968,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 168,
+    "positive_T_index": 1427,
+    "negative_T_index": 7877,
+    "tau": 0.4374623008357682,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7877,
+        "CID": 82518205,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 169,
+    "positive_T_index": 8555,
+    "negative_T_index": 2552,
+    "tau": 0.417782962677823,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2552,
+        "CID": 12395456,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 170,
+    "positive_T_index": 9798,
+    "negative_T_index": 5363,
+    "tau": 0.42107235318331543,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 9798,
+        "CID": 10601824,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 171,
+    "positive_T_index": 9341,
+    "negative_T_index": 5614,
+    "tau": 0.4257373957590702,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5614,
+        "CID": 145045468,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 172,
+    "positive_T_index": 1516,
+    "negative_T_index": 5753,
+    "tau": 0.41816786006072343,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 1516,
+        "CID": 132209330,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 173,
+    "positive_T_index": 1434,
+    "negative_T_index": 9240,
+    "tau": 0.4187322247868808,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 1434,
+        "CID": 66514604,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 174,
+    "positive_T_index": 78,
+    "negative_T_index": 8315,
+    "tau": 0.3621045958818967,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8315,
+        "CID": 124678782,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 175,
+    "positive_T_index": 4105,
+    "negative_T_index": 1972,
+    "tau": 0.4028744498459029,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 4105,
+        "CID": 114032668,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 176,
+    "positive_T_index": 1351,
+    "negative_T_index": 9658,
+    "tau": 0.41356056750474823,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 9658,
+        "CID": 144258299,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 177,
+    "positive_T_index": 6785,
+    "negative_T_index": 508,
+    "tau": 0.44982790786337246,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 508,
+        "CID": 115262603,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 178,
+    "positive_T_index": 2072,
+    "negative_T_index": 2257,
+    "tau": 0.42592268976900877,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2257,
+        "CID": 165668044,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 179,
+    "positive_T_index": 6967,
+    "negative_T_index": 2865,
+    "tau": 0.4183870293675354,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 6967,
+        "CID": 98568585,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 180,
+    "positive_T_index": 8316,
+    "negative_T_index": 8682,
+    "tau": 0.41778099570050403,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8682,
+        "CID": 101002690,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 181,
+    "positive_T_index": 2490,
+    "negative_T_index": 8286,
+    "tau": 0.4071548263618921,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8286,
+        "CID": 162228465,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 182,
+    "positive_T_index": 3714,
+    "negative_T_index": 6142,
+    "tau": 0.5216541884753839,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 3714,
+        "CID": 173896969,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 183,
+    "positive_T_index": 7306,
+    "negative_T_index": 8774,
+    "tau": 0.43238311542046964,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8774,
+        "CID": 115013170,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 184,
+    "positive_T_index": 9294,
+    "negative_T_index": 3488,
+    "tau": 0.5633319757682091,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 3488,
+        "CID": 157296910,
+        "unit": 409,
+        "coordinate_role": "control5"
+      }
+    ]
+  },
+  {
+    "pair": 185,
+    "positive_T_index": 1542,
+    "negative_T_index": 7893,
+    "tau": 0.5169656592770421,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7893,
+        "CID": 105584444,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 186,
+    "positive_T_index": 1197,
+    "negative_T_index": 2311,
+    "tau": 0.418162919092915,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2311,
+        "CID": 176480216,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 187,
+    "positive_T_index": 7124,
+    "negative_T_index": 8500,
+    "tau": 0.45916009303299654,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7124,
+        "CID": 144965301,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 188,
+    "positive_T_index": 8895,
+    "negative_T_index": 5119,
+    "tau": 0.41924652651195105,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5119,
+        "CID": 117298175,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 189,
+    "positive_T_index": 8394,
+    "negative_T_index": 7109,
+    "tau": 0.41778093206640476,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7109,
+        "CID": 162600916,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 190,
+    "positive_T_index": 7356,
+    "negative_T_index": 5063,
+    "tau": 0.41780566382296874,
+    "limiters": [
+      {
+        "stratum": "positive",
+        "T_index": 7356,
+        "CID": 22612999,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 191,
+    "positive_T_index": 2486,
+    "negative_T_index": 6185,
+    "tau": 0.6827276256248276,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 6185,
+        "CID": 106369982,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 192,
+    "positive_T_index": 4796,
+    "negative_T_index": 8548,
+    "tau": 0.4902972307353575,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8548,
+        "CID": 164986369,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 193,
+    "positive_T_index": 8028,
+    "negative_T_index": 5172,
+    "tau": 0.48358366187176194,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5172,
+        "CID": 105601495,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 194,
+    "positive_T_index": 5987,
+    "negative_T_index": 485,
+    "tau": 0.3046983536091645,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 485,
+        "CID": 21695022,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 195,
+    "positive_T_index": 4889,
+    "negative_T_index": 8483,
+    "tau": 0.5274949497837598,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 8483,
+        "CID": 61270096,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 196,
+    "positive_T_index": 6175,
+    "negative_T_index": 2628,
+    "tau": 0.31512677188172805,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 2628,
+        "CID": 177084894,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 197,
+    "positive_T_index": 9189,
+    "negative_T_index": 7791,
+    "tau": 0.3279870467448955,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7791,
+        "CID": 79707434,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  },
+  {
+    "pair": 198,
+    "positive_T_index": 4472,
+    "negative_T_index": 7767,
+    "tau": 0.4875891404149214,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 7767,
+        "CID": 153416287,
+        "unit": 273,
+        "coordinate_role": "control4"
+      }
+    ]
+  },
+  {
+    "pair": 199,
+    "positive_T_index": 3087,
+    "negative_T_index": 5306,
+    "tau": 0.40044630195667297,
+    "limiters": [
+      {
+        "stratum": "negative",
+        "T_index": 5306,
+        "CID": 110934995,
+        "unit": 3,
+        "coordinate_role": "control2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,358 @@
+{
+  "pilot": {
+    "chemeleon": {
+      "native": 43.26171875,
+      "initialization_mean": 76.72526041666666,
+      "rotation_mean": 46.494140625,
+      "initialization_dots_pct": [
+        77.099609375,
+        77.05078125,
+        76.025390625
+      ],
+      "rotation_dots_pct": [
+        46.826171875,
+        48.046875,
+        45.361328125,
+        48.33984375,
+        47.16796875,
+        46.630859375,
+        45.8984375,
+        46.240234375,
+        43.5546875,
+        46.875
+      ]
+    },
+    "molclr_gin": {
+      "native": 59.66666666666667,
+      "initialization_mean": 27.72222222222222,
+      "rotation_mean": 85.25,
+      "initialization_dots_pct": [
+        24.5,
+        29.833333333333336,
+        28.833333333333332
+      ],
+      "rotation_dots_pct": [
+        85.16666666666667,
+        85.66666666666667,
+        85.5,
+        85.66666666666667,
+        85.5,
+        86.5,
+        85.33333333333334,
+        85.0,
+        85.16666666666667,
+        83.0
+      ]
+    },
+    "hu_masking": {
+      "native": 57.833333333333336,
+      "initialization_mean": 29.055555555555557,
+      "rotation_mean": 69.98333333333333,
+      "initialization_dots_pct": [
+        37.333333333333336,
+        23.0,
+        26.833333333333332
+      ],
+      "rotation_dots_pct": [
+        70.33333333333334,
+        67.33333333333333,
+        71.33333333333334,
+        70.5,
+        70.16666666666667,
+        69.83333333333334,
+        70.16666666666667,
+        71.33333333333334,
+        69.5,
+        69.33333333333334
+      ]
+    }
+  },
+  "H3_examples": [
+    {
+      "source": {
+        "kind": "Single-concept unit",
+        "model": "chemberta_mtr",
+        "unit": 148,
+        "pole": "positive",
+        "concept": "frag:fr_nitro_arom_nonortho",
+        "lift": 1323.1689453125,
+        "precision_top100": 0.85,
+        "twin_best_lift_median": 4.325129985809326,
+        "twin_best_lift_max": 14.219444274902344,
+        "top100_composition": {
+          "concept atoms": 85,
+          "C": 9,
+          "other": 6
+        },
+        "top100_molecules": 92,
+        "molecules_shown": [
+          "COc1ccc(N2C(=O)/C(=C\\c3cccc([N+](=O)[O-])c3)C(=O)NC2=S)cc1",
+          "CCC(=O)N1c2ccccc2NC2=C(C(=O)C[C@H](c3cccc([N+](=O)[O-])c3)C2)[C@@H]1c1ccc(OC)c(OC)c1",
+          "CCOC(=O)C1C(C)=Nc2cnn(CC(C)(C)NCC(O)COc3ccccc3OC)c(=O)c2C1c1cccc([N+](=O)[O-])c1"
+        ]
+      },
+      "depiction": {
+        "model": "chemberta_mtr",
+        "unit": 148,
+        "layer": "L2",
+        "concept_id": 80,
+        "smiles": "COc1ccc(N2C(=O)/C(=C\\c3cccc([N+](=O)[O-])c3)C(=O)NC2=S)cc1",
+        "cid": "125768989",
+        "molecule_index": 5857,
+        "corpus_text_line": 5859,
+        "concept_atom_indices": [
+          15
+        ],
+        "responding_atom_indices": [
+          2,
+          3,
+          4,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          18,
+          19,
+          20,
+          21,
+          25,
+          26
+        ],
+        "highlight_rule": "orange: frozen concept atom; pale blue: other atom >=30% of within-molecule maximum",
+        "atom_raw_preactivations": [
+          0.63720703125,
+          0.7041015625,
+          0.7783203125,
+          0.90283203125,
+          0.9111328125,
+          0.75341796875,
+          0.59765625,
+          1.0205078125,
+          0.935546875,
+          0.6943359375,
+          0.450439453125,
+          0.765625,
+          0.81689453125,
+          0.88525390625,
+          0.93408203125,
+          2.009765625,
+          0.75537109375,
+          0.68994140625,
+          0.81787109375,
+          0.84814453125,
+          0.85498046875,
+          0.83642578125,
+          0.5693359375,
+          0.71142578125,
+          0.6494140625,
+          0.91748046875,
+          0.90185546875
+        ],
+        "atom_pole_scores": [
+          0.47026197562936106,
+          0.5346350443997578,
+          0.6084985242780404,
+          0.7373361268840719,
+          0.7461150889917747,
+          0.5834473314331057,
+          0.4332800655328779,
+          0.8636110196052709,
+          0.7720570002902385,
+          0.5251014266541508,
+          0.30350754435557076,
+          0.5956947361690499,
+          0.6478019773799496,
+          0.7188174502513113,
+          0.7704955071602839,
+          1.9650925540941206,
+          0.5854026447671266,
+          0.5208260612214876,
+          0.6488045444546149,
+          0.6800603149703117,
+          0.6871640642761112,
+          0.667921361347909,
+          0.4073233737466819,
+          0.5418146086517558,
+          0.48184225261543684,
+          0.7528427626278743,
+          0.7363047239543773
+        ],
+        "source_structure": "data/derived/lineB/corpus/reserveB_used.tsv",
+        "source_activation": "data/derived/lineB/activations/chemberta_mtr_reserveB_L2_pre_f16.npy",
+        "source_labels": "data/derived/lineB/concepts/labels_reserveB.npz"
+      },
+      "display_composition": [
+        [
+          "concept atoms",
+          85,
+          "#C87424"
+        ],
+        [
+          "other",
+          15,
+          "#777777"
+        ]
+      ]
+    },
+    {
+      "source": {
+        "kind": "Broader but chemically coherent unit",
+        "model": "chemeleon",
+        "unit": 783,
+        "pole": "positive",
+        "concept": "frag:fr_ketone_Topliss",
+        "lift": 173.4002685546875,
+        "precision_top100": 0.56,
+        "twin_best_lift_median": 20.82308006286621,
+        "twin_best_lift_max": 40.478004455566406,
+        "top100_composition": {
+          "concept atoms": 56,
+          "sulfonyl S": 32,
+          "C": 8,
+          "other": 4
+        },
+        "top100_molecules": 88,
+        "molecules_shown": [
+          "CC(C)=CCC1=C(O)C2(/C=C/C(C)C)C(=O)C(C(=O)c3cccc(O)c3)(CC(CC=C(C)C)C2(C)C)C1=O",
+          "O=C(O)C(CC1=NCCN1CCP(=O)=O)C(=O)O",
+          "C=C(C(=O)OC)C(c1ccc(C)cc1)C(S(=O)(=O)c1ccccc1)S(=O)(=O)c1ccccc1"
+        ]
+      },
+      "depiction": {
+        "model": "chemeleon",
+        "unit": 783,
+        "layer": "main",
+        "concept_id": 89,
+        "smiles": "C=C(C(=O)OC)C(c1ccc(C)cc1)C(S(=O)(=O)c1ccccc1)S(=O)(=O)c1ccccc1",
+        "cid": "139256353",
+        "molecule_index": 7551,
+        "corpus_text_line": 7553,
+        "concept_atom_indices": [],
+        "responding_atom_indices": [
+          15,
+          24
+        ],
+        "highlight_rule": "orange: frozen concept atom; pale blue: other atom >=30% of within-molecule maximum",
+        "atom_raw_preactivations": [
+          -0.290771484375,
+          -0.97509765625,
+          -0.96435546875,
+          -0.372314453125,
+          -1.314453125,
+          -5.2109375,
+          0.93505859375,
+          -0.1624755859375,
+          -1.5400390625,
+          -0.69921875,
+          -1.109375,
+          -1.0244140625,
+          -0.69921875,
+          -1.5400390625,
+          -2.875,
+          3.23828125,
+          -0.9033203125,
+          -0.9033203125,
+          -1.908203125,
+          -1.3388671875,
+          -0.60205078125,
+          -1.251953125,
+          -0.60205078125,
+          -1.3388671875,
+          3.23828125,
+          -0.9033203125,
+          -0.9033203125,
+          -1.908203125,
+          -1.3388671875,
+          -0.60205078125,
+          -1.251953125,
+          -0.60205078125,
+          -1.3388671875
+        ],
+        "atom_pole_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.93505859375,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          3.23828125,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          3.23828125,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_structure": "data/derived/lineB/corpus/reserveB_used.tsv",
+        "source_activation": "data/derived/lineB/activations/chemeleon_reserveB_main_pre_f16.npy",
+        "source_labels": "data/derived/lineB/concepts/labels_reserveB.npz"
+      },
+      "display_composition": [
+        [
+          "ketone C",
+          56,
+          "#C87424"
+        ],
+        [
+          "sulfonyl S",
+          32,
+          "#2468A2"
+        ],
+        [
+          "other",
+          12,
+          "#777777"
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    "lineB/results/gates.json",
+    "lineB/figures/fig2_numbers.json",
+    "lineB/figures/fig5_numbers.json",
+    "manuscript/draft_integrated_20261023/figures/figure_2_structure_plot_data.json"
+  ],
+  "notes": [
+    "Pilot dots are networks / rotations, not confidence intervals.",
+    "Top-100 atom compositions are descriptive and curated after H3 selection.",
+    "MTR concept labels mark only the frozen first-match atom."
+  ],
+  "export": {
+    "physical_mm": [
+      170,
+      144
+    ],
+    "minimum_matplotlib_text_pt": 8.0,
+    "png_dpi": 300,
+    "svg_raster_images": 0,
+    "files": [
+      "figure_2.svg",
+      "figure_2.pdf",
+      "figure_2.png"
+    ]
+  },
+  "new_fits_forwards_bootstraps_p_tests": 0
+}

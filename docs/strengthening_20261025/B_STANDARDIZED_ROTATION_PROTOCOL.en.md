@@ -1,0 +1,41 @@
+# B: Post hoc supplementary evidence from D/T post-GELU scale-standardized rotation
+
+> English reader translation of [`B_STANDARDIZED_ROTATION_PROTOCOL.md`](B_STANDARDIZED_ROTATION_PROTOCOL.md), added for this public release. It is not a study record: the Chinese file is the record of this protocol and governs if the two differ.
+
+Date: 2026-10-25. Status: **POST_HOC_PROTOCOL_RECORDED_BEFORE_NEW_OUTPUTS**. This plan adds independent post hoc results and does not overwrite old protocols, data, rotations, scientific results or ledgers.
+
+## Fixed objects and parameters
+
+- The network order is fixed as `trained,init21000,init21001,init21002`; the original D=5000 and T=10000 molecules; the original atom_a are float32 `[124530,464]` and `[246722,464]` respectively.
+- The concepts are strictly all 71 concept_ids of the original `results/revision_20261017/chemistry_D/D_FINAL_WINNERS.npz`; they must not be reduced because of results/support.
+- The original 9 common Q are `results/revision_20261017/chemistry_D/rotations/Q30000.npy` through `Q30008.npy`, converted from the original float64 files to float32; generating new Q or replacing seeds is prohibited.
+- Each network reuses `atom_mean` and `atom_sd` from its own `data/revision_20261017/chemistry/activations_D/{network}/D_moments.npz`. `chem_run.py:extract_D` has been read firsthand: these moments come from block-wise float64 sum/squares of the originally saved float32 atom_a, `sd=sqrt(max(0,E[a²]-E[a]²))`, population ddof0; there must be no further full fitting/recomputation.
+- Coordinates with `sd<=1e-12` are fully flagged, their scaling denominator is set to 1, and all 464 coordinates are still retained; the specific indices/means/original SDs are reported per network. The parameters depend only on D and are applied to T as fixed.
+
+The numerical path is fixed as follows: each block of original float32 activations is converted to float64, cast to float32 after `(a-mu_D)/safe_sd_D`, then matrix-multiplied with the original Q cast to float32, and the final scores are float32. Centering/scaling and float32 quantization may change exact ties; AP still groups by exact equality of the final float32 values, and scores must never be merged by epsilon. AP accumulation is float64. Thread cap 4, single process, with only one rotation scratch mmap, inside the new directory; load_D/load_T/Budget/basis_matrix, which would write to the old directories, must not be called.
+
+## D reselection and T gate
+
+The original D winner/AP and T point AP/ell/bootstrap ell of the native four networks are all reused read-only; native AP and its bootstrap must not be recomputed. Each network × each Q (36 units) must call the original pure function `chem_statistics.select_winners` on the complete D, searching all 928 signed candidates; the winner tolerance is fixed at `8*np.finfo(float64).eps`, selection is by ascending unit with positive before negative, and the candidate encoding is `+a_j=j;-a_j=464+j`.
+
+Each complete D unit saves a new checkpoint. After all 36 are complete, save `D_STD_WINNERS.npz` of `[4,10,71]` (native from the old winners, 9Q from the new D selection) and `D_STD_OUTPUT_LOCK.json`, binding the identities of the parameters, inputs, script and protocol. **Only after this new D lock is written to disk are the T labels/weights/native bootstrap read and the new T rotation results computed**. Old raw rotation winners must not be used as standardized winners, and there must be no reselection on T.
+
+## T AP, bootstrap and summary
+
+Reuse the read-only original `chemistry_T/T_BOOTSTRAP_WEIGHTS.npy`, which is exactly int32 `[2000,10000]` whole-molecule shared count weights with seed42017; no new random weights may be generated. The point estimate appends one row of all-1 weights; the AP of the new D-locked rotation winners is re-evaluated on all original T atoms and the 71 concepts, and each replicate recomputes prevalence and ell=`log(AP/pi)`. The original `fixed_winner_ap` is called, and score sorting/ties are reused from its original `CachedScalar` implementation.
+
+From the original `T_FIXED_REPLICATES.npz`, take only the required members: concept_ids, point_prevalence, point_AP/native, point_ell/native; replicated_ell is unpacked only once, `[:, :, 0, :]` is copied, and the large original member is then released. Construct the complete `[2001,4,10,71]` ell, with native from the old evidence and the 36 rotations from this run's output. The primary Theta_std strictly calls the original `estimands` / `bootstrap_summary`: first the per-concept median over 9Q for each network, then the initialization reference median, and finally the 71-concept mean. All NA and the original undefined-replicate rule are retained, with 2000 whole-molecule bootstraps and a two-sided 95% linear-quantile interval.
+
+The original point value/interval of G_init is **reused as is** from the old `T_FIXED_SUMMARY.json`; native bootstrap must not be rerun for it. Theta_raw and its original 95% interval from the same old summary are placed alongside as a historical control; the old bootstrap must not be recomputed, no raw−std difference CI may be computed and no new significance claim may be added. AP/ell for all networks/bases/concepts and per-concept Theta/B/G are saved; the checkpoint of every new D/T unit is retained.
+
+Standardization is not whitening; it must not be claimed on this basis that “pure directions” have been identified, and the raw/std effect difference must not be treated as a component contribution proportion. Centering alone, in exact real numbers, adds a constant to each scalar, leaving the ordering and ties of the positive and negative poles unchanged; therefore a centering-only repeat of the scientific analysis is not run separately. This mathematical conclusion does not guarantee absolute invariance under floating-point quantization. The new supplementary evidence does not re-verify the original H4 pre-GELU J2, does not rerun the 199 twins, and is not a new independent confirmation.
+
+## Input identity, budget and acceptance
+
+New files are limited to this protocol, `scripts/strengthening_20261025/b_standardized_rotation.py` and `results/strengthening_20261025/standardized_rotation/`. The actual SHA of the original small files is verified once; the large atom_a reuses the SHA already saved in the original CACHE_RECEIPT, with size/mtime/shape/dtype verified on site, to avoid rehashing per basis. Labels/atoms, original Q, moments, old winners and weights each have their identity verified and recorded at first use.
+
+The initial cumulative hard limit for this B is **10790 CPU seconds**; `time.process_time()` includes import, data, compilation, computation and writing, and the ledger accumulates across resumes of the same entry point. The actual CPU cap is recorded in `cpu_cap_seconds` of the independent `CPU_BUDGET.json`; C/Q/reps/scientific parameters must not be changed. A persistence margin of 10 seconds is reserved; budget/RSS are checked within units, with an RSS stop line of 2GiB; new scratch and all partial outputs are retained, and the scientific scope must not be automatically reduced. The total A+B budget is 6 CPU hours, accumulated jointly. 0 PLM forward, 0 new training, 0 new random weight generation.
+
+First run the actual first locked D standardized rotation unit and record CPU/wall clock/integrity; from its measurements and the existing measurements of the original T, make a cost estimate for 36D+36T; after the first new T is complete, update the measured projection. With all complete units saved, execution of the fixed scope continues; failure/insufficient budget is reported truthfully as partial.
+
+Only the new numerical path gets one minimal synthetic golden: the block-wise float64 standardization→float32→Q32 result agrees with an explicit coordinate-by-coordinate reference, the near-constant denominator is 1 and the number of coordinates is unchanged. The 6 golden evidence items of the original `STATISTICS_ENGINEERING.json` are reused read-only, and the statistical tests must not be redone. The new checkpoints' dimensions/finiteness/original concepts/candidate ranges and consistency with the final summary are recorded along with the run.

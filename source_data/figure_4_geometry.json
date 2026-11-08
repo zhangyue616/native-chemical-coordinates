@@ -1,0 +1,497 @@
+{
+  "canvas_in": [
+    8.73,
+    4.65
+  ],
+  "R8_canvas_in": [
+    7,
+    5.8
+  ],
+  "minimum_width_for_C_at_frozen_left_boundary_in": 8.72050627124528,
+  "layout_slots_in": {
+    "A": [
+      0.1,
+      3.55,
+      3.27,
+      1.0
+    ],
+    "B": [
+      0.1,
+      1.6,
+      3.27,
+      1.8
+    ],
+    "C": [
+      3.65,
+      1.6,
+      4.98,
+      3.05
+    ],
+    "D": [
+      0.1,
+      0.03,
+      8.530000000000001,
+      1.2
+    ]
+  },
+  "axes_bounds_in": {
+    "A": [
+      1.22,
+      3.88,
+      2.15,
+      0.42
+    ],
+    "B": [
+      1.86,
+      1.98,
+      1.51,
+      1.07
+    ],
+    "D": [
+      [
+        2.13,
+        0.42,
+        1.2,
+        0.48
+      ],
+      [
+        3.43,
+        0.42,
+        1.4,
+        0.48
+      ],
+      [
+        6.38,
+        0.42,
+        2.05,
+        0.48
+      ]
+    ]
+  },
+  "A_method_rows": 2,
+  "A_dumbbell_linewidth_pt": 0.75,
+  "B_method_rows": 6,
+  "B_row_spacing_in": 0.17833333333333334,
+  "B_log_x_limits": [
+    0.2,
+    200
+  ],
+  "B_marker_size_pt": 5.0,
+  "B_shuffled_scheme": "Frozen figure source",
+  "B_first_scheme_evidence": "r9_20261102_v01: actual 6.5pt markers and CI up 0.06in; residual intersections remained",
+  "B_shuffled_upward_offset_in": 0.0,
+  "B_additional_jitter": false,
+  "B_n_in_row_labels": true,
+  "B_actual_marker_intersections": [
+    {
+      "row": "Aliphatic OH / All",
+      "intersections": [
+        {
+          "methods": [
+            "D_mean",
+            "M1_delta_perm"
+          ],
+          "center_distance_in": 0.01358668627235593,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "D_mean",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.05775125364992517,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M1_delta_perm",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.04416456737756924,
+          "contains_shuffled": true
+        }
+      ]
+    },
+    {
+      "row": "Aliphatic OH / Concept-positive",
+      "intersections": [
+        {
+          "methods": [
+            "D_mean",
+            "M1_delta_perm"
+          ],
+          "center_distance_in": 0.003165056490042062,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "D_mean",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.05126947768846568,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M1_delta_perm",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.04810442119842362,
+          "contains_shuffled": true
+        }
+      ]
+    },
+    {
+      "row": "Aliphatic OH / All-negative",
+      "intersections": [
+        {
+          "methods": [
+            "M1",
+            "M2"
+          ],
+          "center_distance_in": 0.03670514576675599,
+          "contains_shuffled": false
+        },
+        {
+          "methods": [
+            "M1",
+            "M1_delta_perm"
+          ],
+          "center_distance_in": 0.010771429242850239,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M1",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.030900668104548945,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M2",
+            "M1_delta_perm"
+          ],
+          "center_distance_in": 0.025933716523905748,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M2",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.0058044776622070415,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M1_delta_perm",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.020129238861698706,
+          "contains_shuffled": true
+        }
+      ]
+    },
+    {
+      "row": "Carbonyl / All",
+      "intersections": [
+        {
+          "methods": [
+            "D_mean",
+            "M1_delta_perm"
+          ],
+          "center_distance_in": 0.04142776708412832,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "D_mean",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.013425092175703757,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M1",
+            "M2"
+          ],
+          "center_distance_in": 0.041048657300100544,
+          "contains_shuffled": false
+        },
+        {
+          "methods": [
+            "M1_delta_perm",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.054852859259832076,
+          "contains_shuffled": true
+        }
+      ]
+    },
+    {
+      "row": "Carbonyl / Concept-positive",
+      "intersections": [
+        {
+          "methods": [
+            "D_mean",
+            "M1"
+          ],
+          "center_distance_in": 0.049781804278842046,
+          "contains_shuffled": false
+        },
+        {
+          "methods": [
+            "D_mean",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.03302603271290483,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M1",
+            "M2"
+          ],
+          "center_distance_in": 0.05267774892330079,
+          "contains_shuffled": false
+        },
+        {
+          "methods": [
+            "M1_delta_perm",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.06059031512311375,
+          "contains_shuffled": true
+        }
+      ]
+    },
+    {
+      "row": "Carbonyl / All-negative",
+      "intersections": [
+        {
+          "methods": [
+            "M1",
+            "M1_delta_perm"
+          ],
+          "center_distance_in": 0.010023625771986344,
+          "contains_shuffled": true
+        },
+        {
+          "methods": [
+            "M2",
+            "M2_delta_perm"
+          ],
+          "center_distance_in": 0.022868408786051564,
+          "contains_shuffled": true
+        }
+      ]
+    }
+  ],
+  "B_overlap_eliminated": false,
+  "C_reserved_bounds_in": [
+    3.65,
+    1.6,
+    4.98,
+    3.05
+  ],
+  "C_saved_array_rendered": true,
+  "C_molecule_coordinate_multiplier": 1.4,
+  "C_native_bond_length_pt": 11.2,
+  "C_halo_radius_in": 0.12,
+  "C_colorbar_width_in": 1.2,
+  "C_molecule_rows": [
+    {
+      "row_title": "Aliphatic OH unit",
+      "placements": [
+        {
+          "method": "Observed",
+          "bounds_in": [
+            3.65,
+            3.0696519585475235,
+            1.6035020904150938,
+            0.9606960829049522
+          ],
+          "ink_and_halo_bounds_in": [
+            3.6569444444444446,
+            3.076596402991968,
+            1.5896132015262048,
+            0.9468071940160634
+          ]
+        },
+        {
+          "method": "M1",
+          "bounds_in": [
+            5.333502090415093,
+            3.0696519585475235,
+            1.6035020904150938,
+            0.9606960829049522
+          ],
+          "ink_and_halo_bounds_in": [
+            5.340446534859538,
+            3.076596402991968,
+            1.5896132015262048,
+            0.9468071940160634
+          ]
+        },
+        {
+          "method": "M2",
+          "bounds_in": [
+            7.017004180830188,
+            3.0696519585475235,
+            1.6035020904150938,
+            0.9606960829049522
+          ],
+          "ink_and_halo_bounds_in": [
+            7.023948625274633,
+            3.076596402991968,
+            1.5896132015262048,
+            0.9468071940160634
+          ]
+        }
+      ],
+      "ink_and_halo_size_in": [
+        1.5896132015262048,
+        0.9468071940160634
+      ],
+      "colorbar_bounds_in": [
+        7.430000000000001,
+        4.125,
+        1.2,
+        0.07
+      ],
+      "shared_color_range": [
+        -0.14963966608047485,
+        10.315757751464844
+      ],
+      "measured_center_bond_length_range_pt": [
+        11.199999999999982,
+        11.200000000000017
+      ]
+    },
+    {
+      "row_title": "Carbonyl unit",
+      "placements": [
+        {
+          "method": "Observed",
+          "bounds_in": [
+            3.6896192643169754,
+            1.672899239345323,
+            1.5242635617811429,
+            0.9542015213093538
+          ],
+          "ink_and_halo_bounds_in": [
+            3.69656370876142,
+            1.6798436837897675,
+            1.510374672892254,
+            0.9403126324204649
+          ]
+        },
+        {
+          "method": "M1",
+          "bounds_in": [
+            5.373121354732069,
+            1.672899239345323,
+            1.5242635617811429,
+            0.9542015213093538
+          ],
+          "ink_and_halo_bounds_in": [
+            5.3800657991765135,
+            1.6798436837897675,
+            1.510374672892254,
+            0.9403126324204649
+          ]
+        },
+        {
+          "method": "M2",
+          "bounds_in": [
+            7.056623445147164,
+            1.672899239345323,
+            1.5242635617811429,
+            0.9542015213093538
+          ],
+          "ink_and_halo_bounds_in": [
+            7.063567889591608,
+            1.6798436837897675,
+            1.510374672892254,
+            0.9403126324204649
+          ]
+        }
+      ],
+      "ink_and_halo_size_in": [
+        1.510374672892254,
+        0.9403126324204649
+      ],
+      "colorbar_bounds_in": [
+        7.430000000000001,
+        2.7249999999999996,
+        1.2,
+        0.07
+      ],
+      "shared_color_range": [
+        -0.16987961530685425,
+        2.8061771392822266
+      ],
+      "measured_center_bond_length_range_pt": [
+        11.199999999999982,
+        11.20000000000001
+      ]
+    }
+  ],
+  "D_full_clamp_segments_display": [
+    [
+      -0.2,
+      5
+    ],
+    [
+      120,
+      170
+    ]
+  ],
+  "D_full_clamp_gap_display": [
+    5,
+    120
+  ],
+  "D_paired_dose_limits": [
+    -1.4,
+    1.05
+  ],
+  "D_row_spacing_in": 0.16,
+  "D_full_clamp_title_right_in": 3.005,
+  "D_break_left_ink_in": 3.341,
+  "D_title_to_break_horizontal_clearance_in": 0.3360000000000003,
+  "method_symbols": {
+    "D_mean": {
+      "color": "#BBBBBB",
+      "marker": "D",
+      "filled": false
+    },
+    "M1": {
+      "color": "#0077BB",
+      "marker": "o",
+      "filled": true
+    },
+    "M2": {
+      "color": "#009988",
+      "marker": "s",
+      "filled": true
+    },
+    "M1_delta_perm": {
+      "color": "#0077BB",
+      "marker": "o",
+      "filled": false
+    },
+    "M2_delta_perm": {
+      "color": "#009988",
+      "marker": "s",
+      "filled": false
+    }
+  },
+  "all_frozen_CI_values_unchanged": true,
+  "whole_figure_scaled": false,
+  "old_AB_fragment_glyphs_retained": false,
+  "visible_C_internal_IDs": false,
+  "C_IDs_and_coordinates_in_caption": true
+}

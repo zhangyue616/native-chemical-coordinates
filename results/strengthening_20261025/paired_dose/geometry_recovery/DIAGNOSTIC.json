@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-25T17:10:29.593129+00:00",
+  "concept_id": 26,
+  "row": 200,
+  "T_index": 8381,
+  "geometry": [
+    8380,
+    8381,
+    8382,
+    8383
+  ],
+  "original_cache_batch_source": "chem_T_run.py extract_T range(...,10000,4)",
+  "auxiliary_rows_enter_statistics": false,
+  "new_evaluations": 8,
+  "parameter_sha256": "6cd3913007da395b08e73fb4a07742faffb308492c0eb0c99766f583a3a3ea3a",
+  "target": 0.4875440202947224,
+  "alpha": 0.4180273921210649,
+  "dose_tolerance_original_per_condition": 1.500690181674742e-06,
+  "before_response_and_dose": [
+    -0.0019021034240722656,
+    0.4875424458065862
+  ],
+  "restored_response_and_dose": [
+    -0.0019030570983886719,
+    0.487543999546846
+  ],
+  "before_dose_error": 1.5744881362023122e-06,
+  "restored_dose_error": 2.0747876361415507e-08,
+  "restored_vs_cached_all464_activation_max_abs": 0.0,
+  "restored_vs_cached_all199_baseline_max_abs": 0.0,
+  "restored_vs_cached_frozen_q_baseline_abs": 0.0,
+  "cached_full_dose": [
+    20.88304987378922,
+    9.207738469672266,
+    1.1662968252413584,
+    0.5808259936103342,
+    0.5896662723354449,
+    0.7785762386034009
+  ],
+  "restored_full_dose": [
+    20.88304987378922,
+    9.207738469672266,
+    1.1662968252413584,
+    0.5808259936103342,
+    0.5896662723354449,
+    0.7785762386034009
+  ],
+  "saved_scientific_responses_modified": false,
+  "acceptance_rule": "Only numerical gates; neither response sign nor H used"
+}

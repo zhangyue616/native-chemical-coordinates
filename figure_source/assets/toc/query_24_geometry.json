@@ -1,0 +1,151 @@
+{
+  "style": {
+    "atom_center_bond_length_pt": 11.5,
+    "black_bond_linewidth_pt": 0.6,
+    "atom_font_family": "Arial",
+    "atom_fontsize_pt": 7.0,
+    "match_circle_linewidth_pt": 0.9,
+    "match_circle_radius_pt": 3.2,
+    "match_circle_fill": "none",
+    "native_ink_margin_pt": 1.0,
+    "PNG_dpi": 600,
+    "whole_asset_scaling_allowed": false,
+    "atom_label_alignment": "Actual Arial7pt primary chemical-symbol ink centered at atom; annotations follow rigidly",
+    "source_RDKit_SVG_pixel_font_is_not_final_physical_font": true
+  },
+  "width_pt": 21.559999999999995,
+  "height_pt": 16.52,
+  "paths": [
+    {
+      "vertices": [
+        [
+          7.985199999999997,
+          7.346032459368022
+        ],
+        [
+          14.314799999999998,
+          7.346032459368022
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-0 atom-0 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          7.985199999999997,
+          9.07037531651088
+        ],
+        [
+          14.314799999999998,
+          9.07037531651088
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "source_class": "bond-0 atom-0 atom-1",
+      "dash": null,
+      "linewidth_pt": 0.6
+    },
+    {
+      "vertices": [
+        [
+          3.1999999999999993,
+          12.018715664590982
+        ],
+        [
+          1.4000000000000004,
+          15.13640711821496
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "color": "#7F7F7F",
+      "linewidth_pt": 0.6,
+      "dash": null,
+      "source_class": "derived-illustrative-context"
+    },
+    {
+      "vertices": [
+        [
+          3.1999999999999993,
+          4.39769211128792
+        ],
+        [
+          1.4000000000000004,
+          1.2800006576639409
+        ]
+      ],
+      "codes": [
+        1,
+        2
+      ],
+      "color": "#7F7F7F",
+      "linewidth_pt": 0.6,
+      "dash": null,
+      "source_class": "derived-illustrative-context"
+    }
+  ],
+  "texts": [
+    {
+      "x": 2.8362499999999975,
+      "y": 10.713438262939452,
+      "text": "C",
+      "source_class": "atom-0",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    },
+    {
+      "x": 14.165625000000002,
+      "y": 10.715625762939451,
+      "text": "O",
+      "source_class": "atom-1",
+      "source_font_size_px": "70px",
+      "font_size_pt": 7.0,
+      "font_family": "Arial",
+      "anchor": "start"
+    }
+  ],
+  "circles": [
+    {
+      "x": 5.399999999999999,
+      "y": 8.208203887939451,
+      "atom_index": 0,
+      "radius_pt": 3.2,
+      "color": "#000000",
+      "linewidth_pt": 0.9
+    },
+    {
+      "x": 16.9,
+      "y": 8.208203887939451,
+      "atom_index": 1,
+      "radius_pt": 3.2,
+      "color": "#000000",
+      "linewidth_pt": 0.9
+    }
+  ],
+  "matched_atom_indices": [
+    0,
+    1
+  ],
+  "source_SVG_to_point_unit": 0.10514285714285718,
+  "geometry_finalized": true,
+  "metadata": {
+    "asset_kind": "released_display_glyph_not_complete_frozen_query",
+    "concept_id": 24,
+    "source_token": "frag:fr_C=O",
+    "approved_display_name": "Carbonyl",
+    "frozen_definition": "[CX3]=[OX1]"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "status": "OFFLINE_PROTEIN_REPLAY_PASS",
+  "checks": {
+    "CPU_within_600_seconds": true,
+    "D_group_identity_421_unchanged": true,
+    "L_loss_within_tolerance": true,
+    "L_p_a_within_tolerance": true,
+    "L_score_within_tolerance": true,
+    "Lj_loss_within_tolerance": true,
+    "Lj_p_a_within_tolerance": true,
+    "Lj_score_within_tolerance": true,
+    "S_loss_within_tolerance": true,
+    "S_p_a_within_tolerance": true,
+    "S_score_within_tolerance": true,
+    "Sj_loss_within_tolerance": true,
+    "Sj_p_a_within_tolerance": true,
+    "Sj_score_within_tolerance": true,
+    "X_loss_within_tolerance": true,
+    "X_p_a_within_tolerance": true,
+    "X_score_within_tolerance": true,
+    "Xj_loss_within_tolerance": true,
+    "Xj_p_a_within_tolerance": true,
+    "Xj_score_within_tolerance": true,
+    "all_13658_raw_group_joins_exact": true,
+    "all_discovered_BLAS_threadpools_one_thread": true,
+    "complete_eligibility_and_exclusion_funnel_exact": true,
+    "deterministic_four_contributions_within_tolerance": true,
+    "frozen_D_predictor_code_identity": true,
+    "frozen_long_selector_salt_and_target": true,
+    "full_new_components_rebuilt_exact": true,
+    "metadata_projection_rebuilt_exact": true,
+    "native_cache_case_order_exact": true,
+    "old_16896_raw_all_origins": true,
+    "old_432_D_pair_join_rebuilt_exact": true,
+    "old_exact_sequence_index_rebuilt_exact": true,
+    "old_graph_rebuilt_from_raw_exact": true,
+    "pilot3a_D_pair_count": true,
+    "pilot4a_D_pair_count": true,
+    "pilot5a_D_pair_count": true,
+    "saved_prediction_identity_targets_groups_j": true,
+    "sealed_all_1304_canonical_pairs_exact": true,
+    "sealed_all_case_identity_position_sequence_label_group_exact": true,
+    "selected_1304_protein_records_exact": true,
+    "selected_protein_serialization_identity_exact": true,
+    "source_complete_full": true,
+    "source_complete_metadata": true,
+    "zero_network_attempts": true,
+    "zero_original_scientific_reads_in_core_replay": true
+  },
+  "cohort_replay": {
+    "cases": 2608,
+    "eligible_components": 1498,
+    "frozen_writer_adapter": "in-memory only; no original output writer called",
+    "funnel": {
+      "eligible_final_fresh_components": 1498,
+      "eligible_pair_protein_records": 5779,
+      "old_disconnected_raw_records": 7709,
+      "old_pool_connected_raw_excluded": 5949,
+      "raw_records": 13658,
+      "selected_components": 1304,
+      "standard_reviewed_long_sequence_records": 7701,
+      "with_PDB_crossreference": 7701
+    },
+    "generated_timestamp_excluded_from_comparison": true,
+    "old_connected_excluded": 5949,
+    "raw_records": 13658,
+    "scientific_case_pair_sha256": "fe26c0fdd5f88d4fa138ba382d88af4ba7a182547757637852eccd33deb1c709",
+    "selected_pairs": 1304,
+    "unused_eligible_components": 194
+  },
+  "readout_replay": {
+    "D_source": "FINAL_MODELS.npz saved alpha/trace/train_dx/pa/pb/dj; no D refit or old PLM replay",
+    "absolute_relative_tolerance": 1e-10,
+    "comparisons": {
+      "L": {
+        "loss_max_absolute_error": 2.248201624865942e-15,
+        "p_a_max_absolute_error": 2.3314683517128287e-15,
+        "score_max_absolute_error": 4.6629367034256575e-15
+      },
+      "Lj": {
+        "loss_max_absolute_error": 5.551115123125783e-16,
+        "p_a_max_absolute_error": 5.551115123125783e-16,
+        "score_max_absolute_error": 9.992007221626409e-16
+      },
+      "S": {
+        "loss_max_absolute_error": 1.4432899320127035e-15,
+        "p_a_max_absolute_error": 1.3322676295501878e-15,
+        "score_max_absolute_error": 2.6645352591003757e-15
+      },
+      "Sj": {
+        "loss_max_absolute_error": 4.440892098500626e-16,
+        "p_a_max_absolute_error": 5.551115123125783e-16,
+        "score_max_absolute_error": 1.1102230246251565e-15
+      },
+      "X": {
+        "loss_max_absolute_error": 1.4432899320127035e-15,
+        "p_a_max_absolute_error": 1.5543122344752192e-15,
+        "score_max_absolute_error": 2.942091015256665e-15
+      },
+      "Xj": {
+        "loss_max_absolute_error": 1.4432899320127035e-15,
+        "p_a_max_absolute_error": 1.0547118733938987e-15,
+        "score_max_absolute_error": 2.0539125955565396e-15
+      }
+    },
+    "models": [
+      "X",
+      "Xj",
+      "S",
+      "Sj",
+      "L",
+      "Lj"
+    ],
+    "p_CI_bootstrap_helpers_called": false,
+    "primary_summary_recomputed": false
+  },
+  "cumulative_process_CPU_seconds": 20.71875,
+  "network_attempts": 0,
+  "PLM_forwards": 0,
+  "PLM_loads": 0,
+  "fits": 0,
+  "bootstrap_calls": 0,
+  "p_or_CI_calls": 0,
+  "scientific_threads": 1,
+  "scientific_processing_attempts_this_release": 1,
+  "py_compile_files": 45,
+  "private_path_or_archive_issues": [],
+  "scope": "same-machine path-independent replay of cleaned public package; no cross-machine clean install or encoder recomputation",
+  "non_public_validation_inputs_excluded": true,
+  "omitted_scientific_array_count": 148
+}

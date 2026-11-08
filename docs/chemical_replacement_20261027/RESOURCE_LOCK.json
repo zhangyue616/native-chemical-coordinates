@@ -1,0 +1,30 @@
+{
+  "schema": "chemical-replacement-resource-lock/1",
+  "locked_date": "2026-10-27",
+  "status": "LOCKED_BEFORE_NEW_T_CONDITIONS",
+  "preflight": "RUNTIME_PREFLIGHT.json",
+  "basis": "16 original D baseline molecules, 0 T replacement conditions; geometry-adjusted 110000 evaluations raw extrapolation 13-14 wall minutes / 25-27 process CPU minutes; caps include hook and output IO overhead",
+  "threads": 4,
+  "interop_threads": 1,
+  "batch_size": 4,
+  "forward_stage": {
+    "condition_molecule_evaluations": 100000,
+    "fresh_baseline_molecule_evaluations": 10000,
+    "exact_replay_molecule_evaluations": 32,
+    "engineering_scope_molecule_evaluations": 16,
+    "total_molecule_evaluation_cap": 110048,
+    "wall_seconds_cap": 3600,
+    "process_cpu_seconds_cap": 7200,
+    "peak_rss_bytes_cap": 3221225472,
+    "private_commit_bytes_cap": 5368709120
+  },
+  "fit_and_summary_combined": {
+    "wall_seconds_cap": 1800,
+    "process_cpu_seconds_cap": 3600,
+    "peak_rss_bytes_cap": 3221225472,
+    "private_commit_bytes_cap": 5368709120
+  },
+  "preflight_molecule_evaluations_separately_recorded": 16,
+  "automatic_budget_expansion": false,
+  "automatic_full_rerun": false
+}

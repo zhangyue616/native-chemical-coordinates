@@ -1,0 +1,4936 @@
+{
+  "canvas_in": [
+    7.0,
+    4.46
+  ],
+  "panel_bounds_in": [
+    [
+      0.05,
+      2.4349999999999996,
+      3.375,
+      1.975
+    ],
+    [
+      3.575,
+      2.4349999999999996,
+      3.375,
+      1.975
+    ],
+    [
+      0.05,
+      0.31,
+      3.375,
+      1.975
+    ],
+    [
+      3.575,
+      0.31,
+      3.375,
+      1.975
+    ]
+  ],
+  "panel_rounding_in": 0.06,
+  "panel_gap_in": 0.15,
+  "all_text_records": [
+    {
+      "text": "A  Does it beat simple controls?",
+      "size_pt": 8.5,
+      "source": "Frozen figure source",
+      "role": "lettered_question",
+      "panel": 1,
+      "anchor_in": [
+        0.16,
+        4.26
+      ],
+      "original_display_label": "A  Does it beat simple controls?",
+      "ink_bounds_in": [
+        0.16,
+        4.208671875,
+        1.965,
+        4.311328125
+      ]
+    },
+    {
+      "text": "Fig. 2A–B",
+      "size_pt": 7.2,
+      "source": "Frozen figure source",
+      "role": "method",
+      "panel": 1,
+      "anchor_in": [
+        0.16,
+        4.11
+      ],
+      "original_display_label": "Cross-checkpoint audit · Fig. 2",
+      "ink_bounds_in": [
+        0.16,
+        4.065,
+        0.5975,
+        4.155
+      ]
+    },
+    {
+      "text": "B  Does it carry to new molecules?",
+      "size_pt": 8.5,
+      "source": "Frozen figure source",
+      "role": "lettered_question",
+      "panel": 2,
+      "anchor_in": [
+        3.685,
+        4.26
+      ],
+      "original_display_label": "B  Does it carry to new molecules?",
+      "ink_bounds_in": [
+        3.685,
+        4.208671875,
+        5.64875,
+        4.311328125
+      ]
+    },
+    {
+      "text": "Fig. 2C–D",
+      "size_pt": 7.2,
+      "source": "Frozen figure source",
+      "role": "method",
+      "panel": 2,
+      "anchor_in": [
+        3.685,
+        4.11
+      ],
+      "original_display_label": "Fixed-coordinate transfer · Fig. 3",
+      "ink_bounds_in": [
+        3.685,
+        4.065,
+        4.1325,
+        4.155
+      ]
+    },
+    {
+      "text": "C  Does the unit improve prediction?",
+      "size_pt": 8.5,
+      "source": "Frozen figure source",
+      "role": "lettered_question",
+      "panel": 3,
+      "anchor_in": [
+        0.16,
+        2.135
+      ],
+      "original_display_label": "C  Does the unit improve prediction?",
+      "ink_bounds_in": [
+        0.16,
+        2.083671875,
+        2.23625,
+        2.186328125
+      ]
+    },
+    {
+      "text": "Fig. 3",
+      "size_pt": 7.2,
+      "source": "Frozen figure source",
+      "role": "method",
+      "panel": 3,
+      "anchor_in": [
+        0.16,
+        1.9849999999999999
+      ],
+      "original_display_label": "Lookup with and without unit · Fig. 4",
+      "ink_bounds_in": [
+        0.16,
+        1.94,
+        0.41000000000000003,
+        2.0300000000000002
+      ]
+    },
+    {
+      "text": "D  Can chemistry replace activation?",
+      "size_pt": 8.5,
+      "source": "Frozen figure source",
+      "role": "lettered_question",
+      "panel": 4,
+      "anchor_in": [
+        3.685,
+        2.135
+      ],
+      "original_display_label": "D  Can chemistry replace activation?",
+      "ink_bounds_in": [
+        3.685,
+        2.083671875,
+        5.75875,
+        2.186328125
+      ]
+    },
+    {
+      "text": "Fig. 4",
+      "size_pt": 7.2,
+      "source": "Frozen figure source",
+      "role": "method",
+      "panel": 4,
+      "anchor_in": [
+        3.685,
+        1.9849999999999999
+      ],
+      "original_display_label": "Chemical activation replacement · Fig. 5A–C",
+      "ink_bounds_in": [
+        3.685,
+        1.94,
+        3.935,
+        2.0300000000000002
+      ]
+    },
+    {
+      "text": "ChemBERTa-77M-MLM",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.795
+      ],
+      "original_display_label": "ChemBERTa-77M-MLM",
+      "ink_bounds_in": [
+        0.2,
+        3.75,
+        1.2398437500000001,
+        3.84
+      ]
+    },
+    {
+      "text": "ChemBERTa-77M-MTR",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.6470000000000002
+      ],
+      "original_display_label": "ChemBERTa-77M-MTR",
+      "ink_bounds_in": [
+        0.2,
+        3.602,
+        1.23359375,
+        3.692
+      ]
+    },
+    {
+      "text": "CheMeleon",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.4990000000000006
+      ],
+      "original_display_label": "CheMeleon",
+      "ink_bounds_in": [
+        0.2,
+        3.4540000000000006,
+        0.6975,
+        3.5440000000000005
+      ]
+    },
+    {
+      "text": "MolCLR GIN",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.351
+      ],
+      "original_display_label": "MolCLR GIN",
+      "ink_bounds_in": [
+        0.2,
+        3.3060000000000005,
+        0.75125,
+        3.3960000000000004
+      ]
+    },
+    {
+      "text": "Hu masking",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.2030000000000003
+      ],
+      "original_display_label": "Hu masking",
+      "ink_bounds_in": [
+        0.2,
+        3.1580000000000004,
+        0.7125,
+        3.248
+      ]
+    },
+    {
+      "text": "Hu edgepred",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.0549999999999997
+      ],
+      "original_display_label": "Hu edgepred",
+      "ink_bounds_in": [
+        0.2,
+        3.0100000000000002,
+        0.76125,
+        3.1
+      ]
+    },
+    {
+      "text": "Hu contextpred",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        2.907
+      ],
+      "original_display_label": "Hu contextpred",
+      "ink_bounds_in": [
+        0.2,
+        2.8620000000000005,
+        0.85875,
+        2.9520000000000004
+      ]
+    },
+    {
+      "text": "Hu infomax",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        2.7590000000000003
+      ],
+      "original_display_label": "Hu infomax",
+      "ink_bounds_in": [
+        0.2,
+        2.714,
+        0.6925,
+        2.804
+      ]
+    },
+    {
+      "text": "MoLFormer",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        2.6109999999999998
+      ],
+      "original_display_label": "MoLFormer",
+      "ink_bounds_in": [
+        0.2,
+        2.5660000000000003,
+        0.70375,
+        2.656
+      ]
+    },
+    {
+      "text": "Native",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        2.43,
+        3.7699999999999996
+      ],
+      "original_display_label": "Native",
+      "ink_bounds_in": [
+        2.2931250000000003,
+        3.725,
+        2.566875,
+        3.815
+      ]
+    },
+    {
+      "text": "Rotated",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        3.05,
+        3.7699999999999996
+      ],
+      "original_display_label": "Rotated",
+      "ink_bounds_in": [
+        2.88,
+        3.725,
+        3.22,
+        3.815
+      ]
+    },
+    {
+      "text": "Trained",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        1.96,
+        3.4400000000000004
+      ],
+      "original_display_label": "Trained",
+      "ink_bounds_in": [
+        1.915,
+        3.2756250000000002,
+        2.005,
+        3.604375
+      ]
+    },
+    {
+      "text": "Initialization",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        1.96,
+        2.7800000000000002
+      ],
+      "original_display_label": "Initialization",
+      "ink_bounds_in": [
+        1.915,
+        2.5275,
+        2.005,
+        3.0325
+      ]
+    },
+    {
+      "text": "J1",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        2.28,
+        3.1100000000000003
+      ],
+      "original_display_label": "J1",
+      "ink_bounds_in": [
+        2.22875,
+        3.065,
+        2.33125,
+        3.1550000000000002
+      ]
+    },
+    {
+      "text": "J2",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        2.74,
+        3.59
+      ],
+      "original_display_label": "J2",
+      "ink_bounds_in": [
+        2.68875,
+        3.545,
+        2.7912500000000002,
+        3.6350000000000002
+      ]
+    },
+    {
+      "text": "reference",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:56",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        2.74,
+        2.5999999999999996
+      ],
+      "original_display_label": "reference",
+      "ink_bounds_in": [
+        2.535,
+        2.555,
+        2.945,
+        2.645
+      ]
+    },
+    {
+      "text": "SMILES",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        3.76,
+        3.8600000000000003
+      ],
+      "original_display_label": "SMILES\ntokens",
+      "ink_bounds_in": [
+        3.5825,
+        3.815,
+        3.9375,
+        3.9050000000000002
+      ]
+    },
+    {
+      "text": "Block 1",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.26,
+        3.8550000000000004
+      ],
+      "original_display_label": "Block 1",
+      "ink_bounds_in": [
+        4.099375,
+        3.81,
+        4.420625,
+        3.9
+      ]
+    },
+    {
+      "text": "Block 2",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.779999999999999,
+        3.8550000000000004
+      ],
+      "original_display_label": "Block 2",
+      "ink_bounds_in": [
+        4.619375,
+        3.81,
+        4.940625,
+        3.9
+      ]
+    },
+    {
+      "text": "Block 3",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.62,
+        3.8550000000000004
+      ],
+      "original_display_label": "Block 3",
+      "ink_bounds_in": [
+        6.4593750000000005,
+        3.81,
+        6.780625000000001,
+        3.9
+      ]
+    },
+    {
+      "text": "unit",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        5.31,
+        3.8550000000000004
+      ],
+      "original_display_label": "unit",
+      "ink_bounds_in": [
+        5.1537500000000005,
+        3.81,
+        5.3100000000000005,
+        3.9
+      ]
+    },
+    {
+      "text": "FFN post-GELU",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        5.795,
+        4.02
+      ],
+      "original_display_label": "FFN post-GELU",
+      "ink_bounds_in": [
+        5.4475,
+        3.975,
+        6.1425,
+        4.065
+      ]
+    },
+    {
+      "text": "tokens",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        5.31,
+        3.675
+      ],
+      "original_display_label": "tokens",
+      "ink_bounds_in": [
+        5.0225,
+        3.63,
+        5.3100000000000005,
+        3.72
+      ]
+    },
+    {
+      "text": "*",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.447857142857143,
+        3.675
+      ],
+      "original_display_label": "*",
+      "ink_bounds_in": [
+        5.429107142857143,
+        3.63,
+        5.466607142857144,
+        3.72
+      ]
+    },
+    {
+      "text": "C",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.563571428571429,
+        3.675
+      ],
+      "original_display_label": "C",
+      "ink_bounds_in": [
+        5.528571428571429,
+        3.63,
+        5.598571428571429,
+        3.72
+      ]
+    },
+    {
+      "text": "(",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.679285714285714,
+        3.675
+      ],
+      "original_display_label": "(",
+      "ink_bounds_in": [
+        5.663035714285715,
+        3.63,
+        5.695535714285715,
+        3.72
+      ]
+    },
+    {
+      "text": "=",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.795,
+        3.675
+      ],
+      "original_display_label": "=",
+      "ink_bounds_in": [
+        5.766875,
+        3.63,
+        5.823125,
+        3.72
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.910714285714286,
+        3.675
+      ],
+      "original_display_label": "O",
+      "ink_bounds_in": [
+        5.872589285714286,
+        3.63,
+        5.9488392857142856,
+        3.72
+      ]
+    },
+    {
+      "text": ")",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        6.026428571428571,
+        3.675
+      ],
+      "original_display_label": ")",
+      "ink_bounds_in": [
+        6.010178571428571,
+        3.63,
+        6.042678571428572,
+        3.72
+      ]
+    },
+    {
+      "text": "*",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        6.142142857142857,
+        3.675
+      ],
+      "original_display_label": "*",
+      "ink_bounds_in": [
+        6.123392857142857,
+        3.63,
+        6.160892857142857,
+        3.72
+      ]
+    },
+    {
+      "text": "Carbonyl",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.005,
+        3.495
+      ],
+      "original_display_label": "Carbonyl\nquery",
+      "ink_bounds_in": [
+        3.81,
+        3.45,
+        4.2,
+        3.54
+      ]
+    },
+    {
+      "text": "[CX3]=[OX1]",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:51",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.005,
+        2.92
+      ],
+      "original_display_label": "[CX3]=[OX1]",
+      "ink_bounds_in": [
+        3.73,
+        2.875,
+        4.28,
+        2.965
+      ]
+    },
+    {
+      "text": "C",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/queries/query_24_geometry.json",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 0,
+      "anchor_in": [
+        3.897170138888889,
+        3.1325412341010486
+      ],
+      "ink_bounds_in": [
+        3.897170138888889,
+        3.112541234101048,
+        3.9671701388888887,
+        3.202541234101048
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/queries/query_24_geometry.json",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 1,
+      "anchor_in": [
+        4.054522569444444,
+        3.132510852156604
+      ],
+      "ink_bounds_in": [
+        4.054522569444444,
+        3.1125108521566034,
+        4.130772569444444,
+        3.2025108521566032
+      ]
+    },
+    {
+      "text": "Amide",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.78,
+        3.495
+      ],
+      "original_display_label": "Held-out\namide",
+      "ink_bounds_in": [
+        4.641875,
+        3.45,
+        4.918125,
+        3.54
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 5,
+      "anchor_in": [
+        4.727142324325084,
+        2.8788210672907355
+      ],
+      "ink_bounds_in": [
+        4.727142324325084,
+        2.858821067290736,
+        4.803392324325084,
+        2.9488210672907362
+      ]
+    },
+    {
+      "text": "N",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 6,
+      "anchor_in": [
+        4.712557033184566,
+        3.0704823993557357
+      ],
+      "ink_bounds_in": [
+        4.712557033184566,
+        3.0504823993557357,
+        4.782557033184566,
+        3.140482399355736
+      ]
+    },
+    {
+      "text": "H",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 6,
+      "anchor_in": [
+        4.779781117435139,
+        3.0704823993557357
+      ],
+      "ink_bounds_in": [
+        4.779781117435139,
+        3.0504823993557357,
+        4.848531117435138,
+        3.140482399355736
+      ]
+    },
+    {
+      "text": "C",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 10,
+      "anchor_in": [
+        4.389787398274409,
+        2.8481293402777776
+      ],
+      "ink_bounds_in": [
+        4.389787398274409,
+        2.8281293402777776,
+        4.459787398274409,
+        2.918129340277778
+      ]
+    },
+    {
+      "text": "l",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 10,
+      "anchor_in": [
+        4.457011482524982,
+        2.8481293402777776
+      ],
+      "ink_bounds_in": [
+        4.457011482524982,
+        2.8281293402777776,
+        4.479511482524982,
+        2.918129340277778
+      ]
+    },
+    {
+      "text": "N",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 15,
+      "anchor_in": [
+        4.6306318160510385,
+        3.3528084730436687
+      ],
+      "ink_bounds_in": [
+        4.6306318160510385,
+        3.3328084730436682,
+        4.700631816051039,
+        3.4228084730436685
+      ]
+    },
+    {
+      "text": "Ketone 1",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        5.62,
+        3.495
+      ],
+      "original_display_label": "Held-out\nketone 1",
+      "ink_bounds_in": [
+        5.425625,
+        3.45,
+        5.814375,
+        3.54
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T2_CID43411971_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 1,
+      "anchor_in": [
+        5.370037203936377,
+        2.8481293402777776
+      ],
+      "ink_bounds_in": [
+        5.370037203936376,
+        2.8281293402777776,
+        5.446287203936377,
+        2.918129340277778
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T2_CID43411971_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 5,
+      "anchor_in": [
+        5.2822209857240985,
+        3.222877869250263
+      ],
+      "ink_bounds_in": [
+        5.282220985724099,
+        3.202877869250263,
+        5.358470985724099,
+        3.292877869250263
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T2_CID43411971_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 9,
+      "anchor_in": [
+        5.650670840951259,
+        3.111554680600131
+      ],
+      "ink_bounds_in": [
+        5.650670840951259,
+        3.0915546806001313,
+        5.726920840951259,
+        3.181554680600131
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T2_CID43411971_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 13,
+      "anchor_in": [
+        5.867032005031939,
+        3.1622553978242047
+      ],
+      "ink_bounds_in": [
+        5.86703200503194,
+        3.142255397824205,
+        5.94328200503194,
+        3.2322553978242055
+      ]
+    },
+    {
+      "text": "Ketone 2",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.445,
+        3.495
+      ],
+      "original_display_label": "Held-out\nketone 2",
+      "ink_bounds_in": [
+        6.250625,
+        3.45,
+        6.639375,
+        3.54
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T3_CID678545_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 5,
+      "anchor_in": [
+        6.467010687997074,
+        3.168978591483006
+      ],
+      "ink_bounds_in": [
+        6.467010687997075,
+        3.1489785914830066,
+        6.5432606879970745,
+        3.2389785914830065
+      ]
+    },
+    {
+      "text": "C",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T3_CID678545_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 7,
+      "anchor_in": [
+        6.632816428446101,
+        3.0274516213242153
+      ],
+      "ink_bounds_in": [
+        6.632816428446102,
+        3.0074516213242153,
+        6.702816428446101,
+        3.097451621324215
+      ]
+    },
+    {
+      "text": "l",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T3_CID678545_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 7,
+      "anchor_in": [
+        6.70015142821612,
+        3.0274516213242153
+      ],
+      "ink_bounds_in": [
+        6.700151428216121,
+        3.0074516213242153,
+        6.722651428216121,
+        3.097451621324215
+      ]
+    },
+    {
+      "text": "S",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T3_CID678545_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 10,
+      "anchor_in": [
+        6.170707946783878,
+        3.0130320472090837
+      ],
+      "ink_bounds_in": [
+        6.170707946783879,
+        2.9930320472090837,
+        6.2357079467838785,
+        3.0830320472090835
+      ]
+    },
+    {
+      "text": "Fit 5,000",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        3.73,
+        2.625
+      ],
+      "original_display_label": "Fit 5,000",
+      "ink_bounds_in": [
+        3.73,
+        2.58,
+        4.10625,
+        2.67
+      ]
+    },
+    {
+      "text": "Held-out 10,000",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.6,
+        2.625
+      ],
+      "original_display_label": "Held-out 10,000",
+      "ink_bounds_in": [
+        4.6,
+        2.58,
+        5.2925,
+        2.67
+      ]
+    },
+    {
+      "text": "Tests",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.02,
+        2.75
+      ],
+      "original_display_label": "Tests",
+      "ink_bounds_in": [
+        6.0200000000000005,
+        2.705,
+        6.25859375,
+        2.795
+      ]
+    },
+    {
+      "text": "Transfer 71",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.02,
+        2.6550000000000002
+      ],
+      "original_display_label": "Transfer 71",
+      "ink_bounds_in": [
+        6.0200000000000005,
+        2.61,
+        6.5175,
+        2.7
+      ]
+    },
+    {
+      "text": "Lookup 12",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.02,
+        2.5700000000000003
+      ],
+      "original_display_label": "Lookup 12",
+      "ink_bounds_in": [
+        6.0200000000000005,
+        2.525,
+        6.47625,
+        2.615
+      ]
+    },
+    {
+      "text": "Clamp 3",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.02,
+        2.4850000000000003
+      ],
+      "original_display_label": "Clamp 3",
+      "ink_bounds_in": [
+        6.0200000000000005,
+        2.44,
+        6.3825,
+        2.5300000000000002
+      ]
+    },
+    {
+      "text": "Molecular",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        0.2,
+        1.76
+      ],
+      "original_display_label": "Molecular",
+      "ink_bounds_in": [
+        0.2,
+        1.715,
+        0.655,
+        1.805
+      ]
+    },
+    {
+      "text": "ESM-2 8M,\nblock 3",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        2.39,
+        1.77
+      ],
+      "original_display_label": "ESM-2 8M, block 3",
+      "ink_bounds_in": [
+        2.146875,
+        1.6786,
+        2.633125,
+        1.8614
+      ]
+    },
+    {
+      "text": "D",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        1.935,
+        1.555
+      ],
+      "original_display_label": "D",
+      "ink_bounds_in": [
+        1.9000000000000001,
+        1.51,
+        1.97,
+        1.6
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.085,
+        1.555
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        2.058125,
+        1.51,
+        2.111875,
+        1.6
+      ]
+    },
+    {
+      "text": "G",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.2350000000000003,
+        1.555
+      ],
+      "original_display_label": "G",
+      "ink_bounds_in": [
+        2.1975000000000002,
+        1.51,
+        2.2725000000000004,
+        1.6
+      ]
+    },
+    {
+      "text": "W",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.535,
+        1.555
+      ],
+      "original_display_label": "W",
+      "ink_bounds_in": [
+        2.489375,
+        1.51,
+        2.580625,
+        1.6
+      ]
+    },
+    {
+      "text": "W",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.685,
+        1.555
+      ],
+      "original_display_label": "W",
+      "ink_bounds_in": [
+        2.6393750000000002,
+        1.51,
+        2.730625,
+        1.6
+      ]
+    },
+    {
+      "text": "E",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.835,
+        1.555
+      ],
+      "original_display_label": "E",
+      "ink_bounds_in": [
+        2.803125,
+        1.51,
+        2.866875,
+        1.6
+      ]
+    },
+    {
+      "text": "E",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.9850000000000003,
+        1.555
+      ],
+      "original_display_label": "E",
+      "ink_bounds_in": [
+        2.9531250000000004,
+        1.51,
+        3.0168750000000006,
+        1.6
+      ]
+    },
+    {
+      "text": "R",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        3.135,
+        1.555
+      ],
+      "original_display_label": "R",
+      "ink_bounds_in": [
+        3.1,
+        1.51,
+        3.17,
+        1.6
+      ]
+    },
+    {
+      "text": "mask",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        2.39,
+        1.4
+      ],
+      "original_display_label": "masked residue",
+      "ink_bounds_in": [
+        2.273125,
+        1.355,
+        2.506875,
+        1.445
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "molecular_input",
+      "panel": 3,
+      "anchor_in": [
+        0.18,
+        1.26
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        0.153125,
+        1.215,
+        0.206875,
+        1.305
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        0.685,
+        1.4319999999999997
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        0.658125,
+        1.387,
+        0.711875,
+        1.4769999999999999
+      ]
+    },
+    {
+      "text": "L +",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        0.6000000000000001,
+        1.0819999999999999
+      ],
+      "original_display_label": "L +",
+      "ink_bounds_in": [
+        0.5306250000000001,
+        1.037,
+        0.669375,
+        1.127
+      ]
+    },
+    {
+      "text": "ΔBrier",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        1.27,
+        1.26
+      ],
+      "original_display_label": "ΔBrier",
+      "ink_bounds_in": [
+        1.27,
+        1.215,
+        1.54,
+        1.305
+      ]
+    },
+    {
+      "text": "X",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.0050000000000003,
+        1.212
+      ],
+      "original_display_label": "X",
+      "ink_bounds_in": [
+        1.9725000000000004,
+        1.1669999999999998,
+        2.0375000000000005,
+        1.257
+      ]
+    },
+    {
+      "text": "S",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.2150000000000003,
+        1.212
+      ],
+      "original_display_label": "S",
+      "ink_bounds_in": [
+        2.1825000000000006,
+        1.1669999999999998,
+        2.2475000000000005,
+        1.257
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.4250000000000003,
+        1.212
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        2.3981250000000003,
+        1.1669999999999998,
+        2.4518750000000002,
+        1.257
+      ]
+    },
+    {
+      "text": "X",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        1.93,
+        0.862
+      ],
+      "original_display_label": "X",
+      "ink_bounds_in": [
+        1.8975,
+        0.817,
+        1.9625000000000001,
+        0.9069999999999999
+      ]
+    },
+    {
+      "text": "S",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.14,
+        0.862
+      ],
+      "original_display_label": "S",
+      "ink_bounds_in": [
+        2.1075,
+        0.817,
+        2.1725,
+        0.9069999999999999
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.35,
+        0.862
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        2.323125,
+        0.817,
+        2.376875,
+        0.9069999999999999
+      ]
+    },
+    {
+      "text": "+",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.505,
+        0.862
+      ],
+      "original_display_label": "+",
+      "ink_bounds_in": [
+        2.47625,
+        0.817,
+        2.53375,
+        0.9069999999999999
+      ]
+    },
+    {
+      "text": "ΔBrier",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        3.06,
+        1.04
+      ],
+      "original_display_label": "ΔBrier",
+      "ink_bounds_in": [
+        3.06,
+        0.995,
+        3.33,
+        1.085
+      ]
+    },
+    {
+      "text": "fitted program",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        0.41,
+        0.13
+      ],
+      "original_display_label": "fitted program",
+      "ink_bounds_in": [
+        0.41000000000000003,
+        0.085,
+        1.00875,
+        0.17500000000000002
+      ]
+    },
+    {
+      "text": "selected unit",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        1.9,
+        0.13
+      ],
+      "original_display_label": "selected unit",
+      "ink_bounds_in": [
+        1.9000000000000001,
+        0.085,
+        2.4475000000000002,
+        0.17500000000000002
+      ]
+    },
+    {
+      "text": "J1",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        3.37,
+        0.13
+      ],
+      "original_display_label": "J1",
+      "ink_bounds_in": [
+        3.37,
+        0.085,
+        3.4725,
+        0.17500000000000002
+      ]
+    },
+    {
+      "text": "J2",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        4.17,
+        0.13
+      ],
+      "original_display_label": "J2",
+      "ink_bounds_in": [
+        4.17,
+        0.085,
+        4.2725,
+        0.17500000000000002
+      ]
+    },
+    {
+      "text": "masked residue",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        4.84,
+        0.13
+      ],
+      "original_display_label": "masked residue",
+      "ink_bounds_in": [
+        4.84,
+        0.085,
+        5.53125,
+        0.17500000000000002
+      ]
+    },
+    {
+      "text": "M1\nbinary concept",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        4.035,
+        1.6099999999999999
+      ],
+      "original_display_label": "M1\nbinary concept",
+      "ink_bounds_in": [
+        3.719375,
+        1.5186000000000002,
+        4.350625,
+        1.7013999999999998
+      ]
+    },
+    {
+      "text": "M2\nlocal graph",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        4.035,
+        1.12
+      ],
+      "original_display_label": "M2\nlocal graph",
+      "ink_bounds_in": [
+        3.796875,
+        1.0286,
+        4.273125,
+        1.2114
+      ]
+    },
+    {
+      "text": "Predicted\nactivation",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        4.875,
+        1.485
+      ],
+      "original_display_label": "Predicted\nactivations",
+      "ink_bounds_in": [
+        4.67,
+        1.3936000000000002,
+        5.08,
+        1.5763999999999998
+      ]
+    },
+    {
+      "text": "coordinates",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        5.55,
+        1.74
+      ],
+      "original_display_label": "token ×\ncoordinate",
+      "ink_bounds_in": [
+        5.2975,
+        1.695,
+        5.8025,
+        1.7850000000000001
+      ]
+    },
+    {
+      "text": "atoms",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        5.28,
+        1.41
+      ],
+      "original_display_label": "atoms",
+      "ink_bounds_in": [
+        5.235,
+        1.276875,
+        5.325,
+        1.543125
+      ]
+    },
+    {
+      "text": "Frozen\noutputs",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        6.155,
+        1.335
+      ],
+      "original_display_label": "Frozen\noutputs",
+      "ink_bounds_in": [
+        5.994375,
+        1.2436,
+        6.315625,
+        1.4264
+      ]
+    },
+    {
+      "text": "original",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        6.63,
+        1.86
+      ],
+      "original_display_label": "Original\noutputs",
+      "ink_bounds_in": [
+        6.47375,
+        1.815,
+        6.78625,
+        1.905
+      ]
+    },
+    {
+      "text": "Residuals",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        6.64,
+        1.01
+      ],
+      "original_display_label": "Residuals",
+      "ink_bounds_in": [
+        6.424375,
+        0.965,
+        6.855625,
+        1.055
+      ]
+    },
+    {
+      "text": "Shuffled\ncontrol",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        5.51,
+        0.73
+      ],
+      "original_display_label": "Same-molecule\ndisplacement shuffle",
+      "ink_bounds_in": [
+        5.33,
+        0.6386000000000001,
+        5.69,
+        0.8214
+      ]
+    }
+  ],
+  "visible_text_runs": [
+    {
+      "text": "A  Does it beat simple controls?",
+      "size_pt": 8.5,
+      "source": "Frozen figure source",
+      "role": "lettered_question",
+      "panel": 1,
+      "anchor_in": [
+        0.16,
+        4.26
+      ],
+      "original_display_label": "A  Does it beat simple controls?",
+      "ink_bounds_in": [
+        0.16,
+        4.208671875,
+        1.965,
+        4.311328125
+      ],
+      "raw_text_record_indices": [
+        0
+      ]
+    },
+    {
+      "text": "Fig. 2A–B",
+      "size_pt": 7.2,
+      "source": "Frozen figure source",
+      "role": "method",
+      "panel": 1,
+      "anchor_in": [
+        0.16,
+        4.11
+      ],
+      "original_display_label": "Cross-checkpoint audit · Fig. 2",
+      "ink_bounds_in": [
+        0.16,
+        4.065,
+        0.5975,
+        4.155
+      ],
+      "raw_text_record_indices": [
+        1
+      ]
+    },
+    {
+      "text": "B  Does it carry to new molecules?",
+      "size_pt": 8.5,
+      "source": "Frozen figure source",
+      "role": "lettered_question",
+      "panel": 2,
+      "anchor_in": [
+        3.685,
+        4.26
+      ],
+      "original_display_label": "B  Does it carry to new molecules?",
+      "ink_bounds_in": [
+        3.685,
+        4.208671875,
+        5.64875,
+        4.311328125
+      ],
+      "raw_text_record_indices": [
+        2
+      ]
+    },
+    {
+      "text": "Fig. 2C–D",
+      "size_pt": 7.2,
+      "source": "Frozen figure source",
+      "role": "method",
+      "panel": 2,
+      "anchor_in": [
+        3.685,
+        4.11
+      ],
+      "original_display_label": "Fixed-coordinate transfer · Fig. 3",
+      "ink_bounds_in": [
+        3.685,
+        4.065,
+        4.1325,
+        4.155
+      ],
+      "raw_text_record_indices": [
+        3
+      ]
+    },
+    {
+      "text": "C  Does the unit improve prediction?",
+      "size_pt": 8.5,
+      "source": "Frozen figure source",
+      "role": "lettered_question",
+      "panel": 3,
+      "anchor_in": [
+        0.16,
+        2.135
+      ],
+      "original_display_label": "C  Does the unit improve prediction?",
+      "ink_bounds_in": [
+        0.16,
+        2.083671875,
+        2.23625,
+        2.186328125
+      ],
+      "raw_text_record_indices": [
+        4
+      ]
+    },
+    {
+      "text": "Fig. 3",
+      "size_pt": 7.2,
+      "source": "Frozen figure source",
+      "role": "method",
+      "panel": 3,
+      "anchor_in": [
+        0.16,
+        1.9849999999999999
+      ],
+      "original_display_label": "Lookup with and without unit · Fig. 4",
+      "ink_bounds_in": [
+        0.16,
+        1.94,
+        0.41000000000000003,
+        2.0300000000000002
+      ],
+      "raw_text_record_indices": [
+        5
+      ]
+    },
+    {
+      "text": "D  Can chemistry replace activation?",
+      "size_pt": 8.5,
+      "source": "Frozen figure source",
+      "role": "lettered_question",
+      "panel": 4,
+      "anchor_in": [
+        3.685,
+        2.135
+      ],
+      "original_display_label": "D  Can chemistry replace activation?",
+      "ink_bounds_in": [
+        3.685,
+        2.083671875,
+        5.75875,
+        2.186328125
+      ],
+      "raw_text_record_indices": [
+        6
+      ]
+    },
+    {
+      "text": "Fig. 4",
+      "size_pt": 7.2,
+      "source": "Frozen figure source",
+      "role": "method",
+      "panel": 4,
+      "anchor_in": [
+        3.685,
+        1.9849999999999999
+      ],
+      "original_display_label": "Chemical activation replacement · Fig. 5A–C",
+      "ink_bounds_in": [
+        3.685,
+        1.94,
+        3.935,
+        2.0300000000000002
+      ],
+      "raw_text_record_indices": [
+        7
+      ]
+    },
+    {
+      "text": "ChemBERTa-77M-MLM",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.795
+      ],
+      "original_display_label": "ChemBERTa-77M-MLM",
+      "ink_bounds_in": [
+        0.2,
+        3.75,
+        1.2398437500000001,
+        3.84
+      ],
+      "raw_text_record_indices": [
+        8
+      ]
+    },
+    {
+      "text": "ChemBERTa-77M-MTR",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.6470000000000002
+      ],
+      "original_display_label": "ChemBERTa-77M-MTR",
+      "ink_bounds_in": [
+        0.2,
+        3.602,
+        1.23359375,
+        3.692
+      ],
+      "raw_text_record_indices": [
+        9
+      ]
+    },
+    {
+      "text": "CheMeleon",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.4990000000000006
+      ],
+      "original_display_label": "CheMeleon",
+      "ink_bounds_in": [
+        0.2,
+        3.4540000000000006,
+        0.6975,
+        3.5440000000000005
+      ],
+      "raw_text_record_indices": [
+        10
+      ]
+    },
+    {
+      "text": "MolCLR GIN",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.351
+      ],
+      "original_display_label": "MolCLR GIN",
+      "ink_bounds_in": [
+        0.2,
+        3.3060000000000005,
+        0.75125,
+        3.3960000000000004
+      ],
+      "raw_text_record_indices": [
+        11
+      ]
+    },
+    {
+      "text": "Hu masking",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.2030000000000003
+      ],
+      "original_display_label": "Hu masking",
+      "ink_bounds_in": [
+        0.2,
+        3.1580000000000004,
+        0.7125,
+        3.248
+      ],
+      "raw_text_record_indices": [
+        12
+      ]
+    },
+    {
+      "text": "Hu edgepred",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        3.0549999999999997
+      ],
+      "original_display_label": "Hu edgepred",
+      "ink_bounds_in": [
+        0.2,
+        3.0100000000000002,
+        0.76125,
+        3.1
+      ],
+      "raw_text_record_indices": [
+        13
+      ]
+    },
+    {
+      "text": "Hu contextpred",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        2.907
+      ],
+      "original_display_label": "Hu contextpred",
+      "ink_bounds_in": [
+        0.2,
+        2.8620000000000005,
+        0.85875,
+        2.9520000000000004
+      ],
+      "raw_text_record_indices": [
+        14
+      ]
+    },
+    {
+      "text": "Hu infomax",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        2.7590000000000003
+      ],
+      "original_display_label": "Hu infomax",
+      "ink_bounds_in": [
+        0.2,
+        2.714,
+        0.6925,
+        2.804
+      ],
+      "raw_text_record_indices": [
+        15
+      ]
+    },
+    {
+      "text": "MoLFormer",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:35-45",
+      "role": "checkpoint",
+      "panel": 1,
+      "anchor_in": [
+        0.2,
+        2.6109999999999998
+      ],
+      "original_display_label": "MoLFormer",
+      "ink_bounds_in": [
+        0.2,
+        2.5660000000000003,
+        0.70375,
+        2.656
+      ],
+      "raw_text_record_indices": [
+        16
+      ]
+    },
+    {
+      "text": "Native",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        2.43,
+        3.7699999999999996
+      ],
+      "original_display_label": "Native",
+      "ink_bounds_in": [
+        2.2931250000000003,
+        3.725,
+        2.566875,
+        3.815
+      ],
+      "raw_text_record_indices": [
+        17
+      ]
+    },
+    {
+      "text": "Rotated",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        3.05,
+        3.7699999999999996
+      ],
+      "original_display_label": "Rotated",
+      "ink_bounds_in": [
+        2.88,
+        3.725,
+        3.22,
+        3.815
+      ],
+      "raw_text_record_indices": [
+        18
+      ]
+    },
+    {
+      "text": "Trained",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        1.96,
+        3.4400000000000004
+      ],
+      "original_display_label": "Trained",
+      "ink_bounds_in": [
+        1.915,
+        3.2756250000000002,
+        2.005,
+        3.604375
+      ],
+      "raw_text_record_indices": [
+        19
+      ]
+    },
+    {
+      "text": "Initialization",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        1.96,
+        2.7800000000000002
+      ],
+      "original_display_label": "Initialization",
+      "ink_bounds_in": [
+        1.915,
+        2.5275,
+        2.005,
+        3.0325
+      ],
+      "raw_text_record_indices": [
+        20
+      ]
+    },
+    {
+      "text": "J1",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        2.28,
+        3.1100000000000003
+      ],
+      "original_display_label": "J1",
+      "ink_bounds_in": [
+        2.22875,
+        3.065,
+        2.33125,
+        3.1550000000000002
+      ],
+      "raw_text_record_indices": [
+        21
+      ]
+    },
+    {
+      "text": "J2",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        2.74,
+        3.59
+      ],
+      "original_display_label": "J2",
+      "ink_bounds_in": [
+        2.68875,
+        3.545,
+        2.7912500000000002,
+        3.6350000000000002
+      ],
+      "raw_text_record_indices": [
+        22
+      ]
+    },
+    {
+      "text": "reference",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:56",
+      "role": "label",
+      "panel": 1,
+      "anchor_in": [
+        2.74,
+        2.5999999999999996
+      ],
+      "original_display_label": "reference",
+      "ink_bounds_in": [
+        2.535,
+        2.555,
+        2.945,
+        2.645
+      ],
+      "raw_text_record_indices": [
+        23
+      ]
+    },
+    {
+      "text": "SMILES",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        3.76,
+        3.8600000000000003
+      ],
+      "original_display_label": "SMILES\ntokens",
+      "ink_bounds_in": [
+        3.5825,
+        3.815,
+        3.9375,
+        3.9050000000000002
+      ],
+      "raw_text_record_indices": [
+        24
+      ]
+    },
+    {
+      "text": "Block 1",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.26,
+        3.8550000000000004
+      ],
+      "original_display_label": "Block 1",
+      "ink_bounds_in": [
+        4.099375,
+        3.81,
+        4.420625,
+        3.9
+      ],
+      "raw_text_record_indices": [
+        25
+      ]
+    },
+    {
+      "text": "Block 2",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.779999999999999,
+        3.8550000000000004
+      ],
+      "original_display_label": "Block 2",
+      "ink_bounds_in": [
+        4.619375,
+        3.81,
+        4.940625,
+        3.9
+      ],
+      "raw_text_record_indices": [
+        26
+      ]
+    },
+    {
+      "text": "Block 3",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.62,
+        3.8550000000000004
+      ],
+      "original_display_label": "Block 3",
+      "ink_bounds_in": [
+        6.4593750000000005,
+        3.81,
+        6.780625000000001,
+        3.9
+      ],
+      "raw_text_record_indices": [
+        27
+      ]
+    },
+    {
+      "text": "unit",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        5.31,
+        3.8550000000000004
+      ],
+      "original_display_label": "unit",
+      "ink_bounds_in": [
+        5.1537500000000005,
+        3.81,
+        5.3100000000000005,
+        3.9
+      ],
+      "raw_text_record_indices": [
+        28
+      ]
+    },
+    {
+      "text": "FFN post-GELU",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        5.795,
+        4.02
+      ],
+      "original_display_label": "FFN post-GELU",
+      "ink_bounds_in": [
+        5.4475,
+        3.975,
+        6.1425,
+        4.065
+      ],
+      "raw_text_record_indices": [
+        29
+      ]
+    },
+    {
+      "text": "tokens",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        5.31,
+        3.675
+      ],
+      "original_display_label": "tokens",
+      "ink_bounds_in": [
+        5.0225,
+        3.63,
+        5.3100000000000005,
+        3.72
+      ],
+      "raw_text_record_indices": [
+        30
+      ]
+    },
+    {
+      "text": "*",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.447857142857143,
+        3.675
+      ],
+      "original_display_label": "*",
+      "ink_bounds_in": [
+        5.429107142857143,
+        3.63,
+        5.466607142857144,
+        3.72
+      ],
+      "raw_text_record_indices": [
+        31
+      ]
+    },
+    {
+      "text": "C",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.563571428571429,
+        3.675
+      ],
+      "original_display_label": "C",
+      "ink_bounds_in": [
+        5.528571428571429,
+        3.63,
+        5.598571428571429,
+        3.72
+      ],
+      "raw_text_record_indices": [
+        32
+      ]
+    },
+    {
+      "text": "(",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.679285714285714,
+        3.675
+      ],
+      "original_display_label": "(",
+      "ink_bounds_in": [
+        5.663035714285715,
+        3.63,
+        5.695535714285715,
+        3.72
+      ],
+      "raw_text_record_indices": [
+        33
+      ]
+    },
+    {
+      "text": "=",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.795,
+        3.675
+      ],
+      "original_display_label": "=",
+      "ink_bounds_in": [
+        5.766875,
+        3.63,
+        5.823125,
+        3.72
+      ],
+      "raw_text_record_indices": [
+        34
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        5.910714285714286,
+        3.675
+      ],
+      "original_display_label": "O",
+      "ink_bounds_in": [
+        5.872589285714286,
+        3.63,
+        5.9488392857142856,
+        3.72
+      ],
+      "raw_text_record_indices": [
+        35
+      ]
+    },
+    {
+      "text": ")",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        6.026428571428571,
+        3.675
+      ],
+      "original_display_label": ")",
+      "ink_bounds_in": [
+        6.010178571428571,
+        3.63,
+        6.042678571428572,
+        3.72
+      ],
+      "raw_text_record_indices": [
+        36
+      ]
+    },
+    {
+      "text": "*",
+      "size_pt": 7,
+      "source": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+      "role": "smiles_token",
+      "panel": 2,
+      "anchor_in": [
+        6.142142857142857,
+        3.675
+      ],
+      "original_display_label": "*",
+      "ink_bounds_in": [
+        6.123392857142857,
+        3.63,
+        6.160892857142857,
+        3.72
+      ],
+      "raw_text_record_indices": [
+        37
+      ]
+    },
+    {
+      "text": "Carbonyl",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.005,
+        3.495
+      ],
+      "original_display_label": "Carbonyl\nquery",
+      "ink_bounds_in": [
+        3.81,
+        3.45,
+        4.2,
+        3.54
+      ],
+      "raw_text_record_indices": [
+        38
+      ]
+    },
+    {
+      "text": "[CX3]=[OX1]",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:51",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.005,
+        2.92
+      ],
+      "original_display_label": "[CX3]=[OX1]",
+      "ink_bounds_in": [
+        3.73,
+        2.875,
+        4.28,
+        2.965
+      ],
+      "raw_text_record_indices": [
+        39
+      ]
+    },
+    {
+      "text": "C",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/queries/query_24_geometry.json",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 0,
+      "anchor_in": [
+        3.897170138888889,
+        3.1325412341010486
+      ],
+      "ink_bounds_in": [
+        3.897170138888889,
+        3.112541234101048,
+        3.9671701388888887,
+        3.202541234101048
+      ],
+      "raw_text_record_indices": [
+        40
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/queries/query_24_geometry.json",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 1,
+      "anchor_in": [
+        4.054522569444444,
+        3.132510852156604
+      ],
+      "ink_bounds_in": [
+        4.054522569444444,
+        3.1125108521566034,
+        4.130772569444444,
+        3.2025108521566032
+      ],
+      "raw_text_record_indices": [
+        41
+      ]
+    },
+    {
+      "text": "Amide",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.78,
+        3.495
+      ],
+      "original_display_label": "Held-out\namide",
+      "ink_bounds_in": [
+        4.641875,
+        3.45,
+        4.918125,
+        3.54
+      ],
+      "raw_text_record_indices": [
+        42
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 5,
+      "anchor_in": [
+        4.727142324325084,
+        2.8788210672907355
+      ],
+      "ink_bounds_in": [
+        4.727142324325084,
+        2.858821067290736,
+        4.803392324325084,
+        2.9488210672907362
+      ],
+      "raw_text_record_indices": [
+        43
+      ]
+    },
+    {
+      "text": "NH",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 6,
+      "anchor_in": [
+        4.712557033184566,
+        3.0704823993557357
+      ],
+      "ink_bounds_in": [
+        4.712557033184566,
+        3.0504823993557357,
+        4.782557033184566,
+        3.140482399355736
+      ],
+      "raw_text_record_indices": [
+        44,
+        45
+      ]
+    },
+    {
+      "text": "Cl",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 10,
+      "anchor_in": [
+        4.389787398274409,
+        2.8481293402777776
+      ],
+      "ink_bounds_in": [
+        4.389787398274409,
+        2.8281293402777776,
+        4.459787398274409,
+        2.918129340277778
+      ],
+      "raw_text_record_indices": [
+        46,
+        47
+      ]
+    },
+    {
+      "text": "N",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T1_CID60628745_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 15,
+      "anchor_in": [
+        4.6306318160510385,
+        3.3528084730436687
+      ],
+      "ink_bounds_in": [
+        4.6306318160510385,
+        3.3328084730436682,
+        4.700631816051039,
+        3.4228084730436685
+      ],
+      "raw_text_record_indices": [
+        48
+      ]
+    },
+    {
+      "text": "Ketone 1",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        5.62,
+        3.495
+      ],
+      "original_display_label": "Held-out\nketone 1",
+      "ink_bounds_in": [
+        5.425625,
+        3.45,
+        5.814375,
+        3.54
+      ],
+      "raw_text_record_indices": [
+        49
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T2_CID43411971_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 1,
+      "anchor_in": [
+        5.370037203936377,
+        2.8481293402777776
+      ],
+      "ink_bounds_in": [
+        5.370037203936376,
+        2.8281293402777776,
+        5.446287203936377,
+        2.918129340277778
+      ],
+      "raw_text_record_indices": [
+        50
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T2_CID43411971_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 5,
+      "anchor_in": [
+        5.2822209857240985,
+        3.222877869250263
+      ],
+      "ink_bounds_in": [
+        5.282220985724099,
+        3.202877869250263,
+        5.358470985724099,
+        3.292877869250263
+      ],
+      "raw_text_record_indices": [
+        51
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T2_CID43411971_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 9,
+      "anchor_in": [
+        5.650670840951259,
+        3.111554680600131
+      ],
+      "ink_bounds_in": [
+        5.650670840951259,
+        3.0915546806001313,
+        5.726920840951259,
+        3.181554680600131
+      ],
+      "raw_text_record_indices": [
+        52
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T2_CID43411971_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 13,
+      "anchor_in": [
+        5.867032005031939,
+        3.1622553978242047
+      ],
+      "ink_bounds_in": [
+        5.86703200503194,
+        3.142255397824205,
+        5.94328200503194,
+        3.2322553978242055
+      ],
+      "raw_text_record_indices": [
+        53
+      ]
+    },
+    {
+      "text": "Ketone 2",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.445,
+        3.495
+      ],
+      "original_display_label": "Held-out\nketone 2",
+      "ink_bounds_in": [
+        6.250625,
+        3.45,
+        6.639375,
+        3.54
+      ],
+      "raw_text_record_indices": [
+        54
+      ]
+    },
+    {
+      "text": "O",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T3_CID678545_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 5,
+      "anchor_in": [
+        6.467010687997074,
+        3.168978591483006
+      ],
+      "ink_bounds_in": [
+        6.467010687997075,
+        3.1489785914830066,
+        6.5432606879970745,
+        3.2389785914830065
+      ],
+      "raw_text_record_indices": [
+        55
+      ]
+    },
+    {
+      "text": "Cl",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T3_CID678545_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 7,
+      "anchor_in": [
+        6.632816428446101,
+        3.0274516213242153
+      ],
+      "ink_bounds_in": [
+        6.632816428446102,
+        3.0074516213242153,
+        6.702816428446101,
+        3.097451621324215
+      ],
+      "raw_text_record_indices": [
+        56,
+        57
+      ]
+    },
+    {
+      "text": "S",
+      "size_pt": 7,
+      "source": "sources/chemical_assets/molecules/T3_CID678545_metadata.json:17-18",
+      "role": "chemical_atom_glyph",
+      "panel": 2,
+      "chemical_atom_index": 10,
+      "anchor_in": [
+        6.170707946783878,
+        3.0130320472090837
+      ],
+      "ink_bounds_in": [
+        6.170707946783879,
+        2.9930320472090837,
+        6.2357079467838785,
+        3.0830320472090835
+      ],
+      "raw_text_record_indices": [
+        58
+      ]
+    },
+    {
+      "text": "Fit 5,000",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        3.73,
+        2.625
+      ],
+      "original_display_label": "Fit 5,000",
+      "ink_bounds_in": [
+        3.73,
+        2.58,
+        4.10625,
+        2.67
+      ],
+      "raw_text_record_indices": [
+        59
+      ]
+    },
+    {
+      "text": "Held-out 10,000",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        4.6,
+        2.625
+      ],
+      "original_display_label": "Held-out 10,000",
+      "ink_bounds_in": [
+        4.6,
+        2.58,
+        5.2925,
+        2.67
+      ],
+      "raw_text_record_indices": [
+        60
+      ]
+    },
+    {
+      "text": "Tests",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.02,
+        2.75
+      ],
+      "original_display_label": "Tests",
+      "ink_bounds_in": [
+        6.0200000000000005,
+        2.705,
+        6.25859375,
+        2.795
+      ],
+      "raw_text_record_indices": [
+        61
+      ]
+    },
+    {
+      "text": "Transfer 71",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.02,
+        2.6550000000000002
+      ],
+      "original_display_label": "Transfer 71",
+      "ink_bounds_in": [
+        6.0200000000000005,
+        2.61,
+        6.5175,
+        2.7
+      ],
+      "raw_text_record_indices": [
+        62
+      ]
+    },
+    {
+      "text": "Lookup 12",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.02,
+        2.5700000000000003
+      ],
+      "original_display_label": "Lookup 12",
+      "ink_bounds_in": [
+        6.0200000000000005,
+        2.525,
+        6.47625,
+        2.615
+      ],
+      "raw_text_record_indices": [
+        63
+      ]
+    },
+    {
+      "text": "Clamp 3",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 2,
+      "anchor_in": [
+        6.02,
+        2.4850000000000003
+      ],
+      "original_display_label": "Clamp 3",
+      "ink_bounds_in": [
+        6.0200000000000005,
+        2.44,
+        6.3825,
+        2.5300000000000002
+      ],
+      "raw_text_record_indices": [
+        64
+      ]
+    },
+    {
+      "text": "Molecular",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        0.2,
+        1.76
+      ],
+      "original_display_label": "Molecular",
+      "ink_bounds_in": [
+        0.2,
+        1.715,
+        0.655,
+        1.805
+      ],
+      "raw_text_record_indices": [
+        65
+      ]
+    },
+    {
+      "text": "ESM-2 8M,\nblock 3",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        2.39,
+        1.77
+      ],
+      "original_display_label": "ESM-2 8M, block 3",
+      "ink_bounds_in": [
+        2.146875,
+        1.6786,
+        2.633125,
+        1.8614
+      ],
+      "raw_text_record_indices": [
+        66
+      ]
+    },
+    {
+      "text": "D",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        1.935,
+        1.555
+      ],
+      "original_display_label": "D",
+      "ink_bounds_in": [
+        1.9000000000000001,
+        1.51,
+        1.97,
+        1.6
+      ],
+      "raw_text_record_indices": [
+        67
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.085,
+        1.555
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        2.058125,
+        1.51,
+        2.111875,
+        1.6
+      ],
+      "raw_text_record_indices": [
+        68
+      ]
+    },
+    {
+      "text": "G",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.2350000000000003,
+        1.555
+      ],
+      "original_display_label": "G",
+      "ink_bounds_in": [
+        2.1975000000000002,
+        1.51,
+        2.2725000000000004,
+        1.6
+      ],
+      "raw_text_record_indices": [
+        69
+      ]
+    },
+    {
+      "text": "W",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.535,
+        1.555
+      ],
+      "original_display_label": "W",
+      "ink_bounds_in": [
+        2.489375,
+        1.51,
+        2.580625,
+        1.6
+      ],
+      "raw_text_record_indices": [
+        70
+      ]
+    },
+    {
+      "text": "W",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.685,
+        1.555
+      ],
+      "original_display_label": "W",
+      "ink_bounds_in": [
+        2.6393750000000002,
+        1.51,
+        2.730625,
+        1.6
+      ],
+      "raw_text_record_indices": [
+        71
+      ]
+    },
+    {
+      "text": "E",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.835,
+        1.555
+      ],
+      "original_display_label": "E",
+      "ink_bounds_in": [
+        2.803125,
+        1.51,
+        2.866875,
+        1.6
+      ],
+      "raw_text_record_indices": [
+        72
+      ]
+    },
+    {
+      "text": "E",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        2.9850000000000003,
+        1.555
+      ],
+      "original_display_label": "E",
+      "ink_bounds_in": [
+        2.9531250000000004,
+        1.51,
+        3.0168750000000006,
+        1.6
+      ],
+      "raw_text_record_indices": [
+        73
+      ]
+    },
+    {
+      "text": "R",
+      "size_pt": 7,
+      "source": "Frozen protein example: Q5SI12 / 2CZL chain A, 161–169, A164 masked",
+      "role": "protein_sequence_example",
+      "panel": 3,
+      "anchor_in": [
+        3.135,
+        1.555
+      ],
+      "original_display_label": "R",
+      "ink_bounds_in": [
+        3.1,
+        1.51,
+        3.17,
+        1.6
+      ],
+      "raw_text_record_indices": [
+        74
+      ]
+    },
+    {
+      "text": "mask",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        2.39,
+        1.4
+      ],
+      "original_display_label": "masked residue",
+      "ink_bounds_in": [
+        2.273125,
+        1.355,
+        2.506875,
+        1.445
+      ],
+      "raw_text_record_indices": [
+        75
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "molecular_input",
+      "panel": 3,
+      "anchor_in": [
+        0.18,
+        1.26
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        0.153125,
+        1.215,
+        0.206875,
+        1.305
+      ],
+      "raw_text_record_indices": [
+        76
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        0.685,
+        1.4319999999999997
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        0.658125,
+        1.387,
+        0.711875,
+        1.4769999999999999
+      ],
+      "raw_text_record_indices": [
+        77
+      ]
+    },
+    {
+      "text": "L +",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        0.6000000000000001,
+        1.0819999999999999
+      ],
+      "original_display_label": "L +",
+      "ink_bounds_in": [
+        0.5306250000000001,
+        1.037,
+        0.669375,
+        1.127
+      ],
+      "raw_text_record_indices": [
+        78
+      ]
+    },
+    {
+      "text": "ΔBrier",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        1.27,
+        1.26
+      ],
+      "original_display_label": "ΔBrier",
+      "ink_bounds_in": [
+        1.27,
+        1.215,
+        1.54,
+        1.305
+      ],
+      "raw_text_record_indices": [
+        79
+      ]
+    },
+    {
+      "text": "X",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.0050000000000003,
+        1.212
+      ],
+      "original_display_label": "X",
+      "ink_bounds_in": [
+        1.9725000000000004,
+        1.1669999999999998,
+        2.0375000000000005,
+        1.257
+      ],
+      "raw_text_record_indices": [
+        80
+      ]
+    },
+    {
+      "text": "S",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.2150000000000003,
+        1.212
+      ],
+      "original_display_label": "S",
+      "ink_bounds_in": [
+        2.1825000000000006,
+        1.1669999999999998,
+        2.2475000000000005,
+        1.257
+      ],
+      "raw_text_record_indices": [
+        81
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.4250000000000003,
+        1.212
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        2.3981250000000003,
+        1.1669999999999998,
+        2.4518750000000002,
+        1.257
+      ],
+      "raw_text_record_indices": [
+        82
+      ]
+    },
+    {
+      "text": "X",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        1.93,
+        0.862
+      ],
+      "original_display_label": "X",
+      "ink_bounds_in": [
+        1.8975,
+        0.817,
+        1.9625000000000001,
+        0.9069999999999999
+      ],
+      "raw_text_record_indices": [
+        83
+      ]
+    },
+    {
+      "text": "S",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.14,
+        0.862
+      ],
+      "original_display_label": "S",
+      "ink_bounds_in": [
+        2.1075,
+        0.817,
+        2.1725,
+        0.9069999999999999
+      ],
+      "raw_text_record_indices": [
+        84
+      ]
+    },
+    {
+      "text": "L",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.35,
+        0.862
+      ],
+      "original_display_label": "L",
+      "ink_bounds_in": [
+        2.323125,
+        0.817,
+        2.376875,
+        0.9069999999999999
+      ],
+      "raw_text_record_indices": [
+        85
+      ]
+    },
+    {
+      "text": "+",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "fitted_program",
+      "panel": 3,
+      "anchor_in": [
+        2.505,
+        0.862
+      ],
+      "original_display_label": "+",
+      "ink_bounds_in": [
+        2.47625,
+        0.817,
+        2.53375,
+        0.9069999999999999
+      ],
+      "raw_text_record_indices": [
+        86
+      ]
+    },
+    {
+      "text": "ΔBrier",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 3,
+      "anchor_in": [
+        3.06,
+        1.04
+      ],
+      "original_display_label": "ΔBrier",
+      "ink_bounds_in": [
+        3.06,
+        0.995,
+        3.33,
+        1.085
+      ],
+      "raw_text_record_indices": [
+        87
+      ]
+    },
+    {
+      "text": "fitted program",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        0.41,
+        0.13
+      ],
+      "original_display_label": "fitted program",
+      "ink_bounds_in": [
+        0.41000000000000003,
+        0.085,
+        1.00875,
+        0.17500000000000002
+      ],
+      "raw_text_record_indices": [
+        88
+      ]
+    },
+    {
+      "text": "selected unit",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        1.9,
+        0.13
+      ],
+      "original_display_label": "selected unit",
+      "ink_bounds_in": [
+        1.9000000000000001,
+        0.085,
+        2.4475000000000002,
+        0.17500000000000002
+      ],
+      "raw_text_record_indices": [
+        89
+      ]
+    },
+    {
+      "text": "J1",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        3.37,
+        0.13
+      ],
+      "original_display_label": "J1",
+      "ink_bounds_in": [
+        3.37,
+        0.085,
+        3.4725,
+        0.17500000000000002
+      ],
+      "raw_text_record_indices": [
+        90
+      ]
+    },
+    {
+      "text": "J2",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        4.17,
+        0.13
+      ],
+      "original_display_label": "J2",
+      "ink_bounds_in": [
+        4.17,
+        0.085,
+        4.2725,
+        0.17500000000000002
+      ],
+      "raw_text_record_indices": [
+        91
+      ]
+    },
+    {
+      "text": "masked residue",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "legend",
+      "panel": null,
+      "anchor_in": [
+        4.84,
+        0.13
+      ],
+      "original_display_label": "masked residue",
+      "ink_bounds_in": [
+        4.84,
+        0.085,
+        5.53125,
+        0.17500000000000002
+      ],
+      "raw_text_record_indices": [
+        92
+      ]
+    },
+    {
+      "text": "M1\nbinary concept",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        4.035,
+        1.6099999999999999
+      ],
+      "original_display_label": "M1\nbinary concept",
+      "ink_bounds_in": [
+        3.719375,
+        1.5186000000000002,
+        4.350625,
+        1.7013999999999998
+      ],
+      "raw_text_record_indices": [
+        93
+      ]
+    },
+    {
+      "text": "M2\nlocal graph",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        4.035,
+        1.12
+      ],
+      "original_display_label": "M2\nlocal graph",
+      "ink_bounds_in": [
+        3.796875,
+        1.0286,
+        4.273125,
+        1.2114
+      ],
+      "raw_text_record_indices": [
+        94
+      ]
+    },
+    {
+      "text": "Predicted\nactivation",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        4.875,
+        1.485
+      ],
+      "original_display_label": "Predicted\nactivations",
+      "ink_bounds_in": [
+        4.67,
+        1.3936000000000002,
+        5.08,
+        1.5763999999999998
+      ],
+      "raw_text_record_indices": [
+        95
+      ]
+    },
+    {
+      "text": "coordinates",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        5.55,
+        1.74
+      ],
+      "original_display_label": "token ×\ncoordinate",
+      "ink_bounds_in": [
+        5.2975,
+        1.695,
+        5.8025,
+        1.7850000000000001
+      ],
+      "raw_text_record_indices": [
+        96
+      ]
+    },
+    {
+      "text": "atoms",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        5.28,
+        1.41
+      ],
+      "original_display_label": "atoms",
+      "ink_bounds_in": [
+        5.235,
+        1.276875,
+        5.325,
+        1.543125
+      ],
+      "raw_text_record_indices": [
+        97
+      ]
+    },
+    {
+      "text": "Frozen\noutputs",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        6.155,
+        1.335
+      ],
+      "original_display_label": "Frozen\noutputs",
+      "ink_bounds_in": [
+        5.994375,
+        1.2436,
+        6.315625,
+        1.4264
+      ],
+      "raw_text_record_indices": [
+        98
+      ]
+    },
+    {
+      "text": "original",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        6.63,
+        1.86
+      ],
+      "original_display_label": "Original\noutputs",
+      "ink_bounds_in": [
+        6.47375,
+        1.815,
+        6.78625,
+        1.905
+      ],
+      "raw_text_record_indices": [
+        99
+      ]
+    },
+    {
+      "text": "Residuals",
+      "size_pt": 7,
+      "source": "MANUSCRIPT.md:19",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        6.64,
+        1.01
+      ],
+      "original_display_label": "Residuals",
+      "ink_bounds_in": [
+        6.424375,
+        0.965,
+        6.855625,
+        1.055
+      ],
+      "raw_text_record_indices": [
+        100
+      ]
+    },
+    {
+      "text": "Shuffled\ncontrol",
+      "size_pt": 7,
+      "source": "Frozen figure source",
+      "role": "label",
+      "panel": 4,
+      "anchor_in": [
+        5.51,
+        0.73
+      ],
+      "original_display_label": "Same-molecule\ndisplacement shuffle",
+      "ink_bounds_in": [
+        5.33,
+        0.6386000000000001,
+        5.69,
+        0.8214
+      ],
+      "raw_text_record_indices": [
+        101
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "role": "J1_initialization_native_to_trained_native",
+      "start_in": [
+        2.43,
+        2.8899999999999997
+      ],
+      "end_in": [
+        2.43,
+        3.33
+      ],
+      "path_endpoint_length_in": 0.43999999999999995,
+      "linewidth_pt": 1.0,
+      "color": "#33BBEE",
+      "linestyle": "-"
+    },
+    {
+      "role": "J2_trained_rotated_to_trained_native",
+      "start_in": [
+        2.94,
+        3.4400000000000004
+      ],
+      "end_in": [
+        2.55,
+        3.4400000000000004
+      ],
+      "path_endpoint_length_in": 0.3900000000000001,
+      "linewidth_pt": 1.0,
+      "color": "#EE3377",
+      "linestyle": "-"
+    },
+    {
+      "role": "initialization_rotated_to_native_reference",
+      "start_in": [
+        2.94,
+        2.7800000000000002
+      ],
+      "end_in": [
+        2.55,
+        2.7800000000000002
+      ],
+      "path_endpoint_length_in": 0.3900000000000001,
+      "linewidth_pt": 0.7,
+      "color": "#7A8288",
+      "linestyle": "-"
+    },
+    {
+      "role": "SMILES_to_Block1",
+      "start_in": [
+        3.97,
+        3.8550000000000004
+      ],
+      "end_in": [
+        4.035,
+        3.8550000000000004
+      ],
+      "path_endpoint_length_in": 0.06499999999999995,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "Block1_to_Block2",
+      "start_in": [
+        4.49,
+        3.8550000000000004
+      ],
+      "end_in": [
+        4.55,
+        3.8550000000000004
+      ],
+      "path_endpoint_length_in": 0.05999999999999961,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "Block2_to_post_GELU",
+      "start_in": [
+        5.005,
+        3.9800000000000004
+      ],
+      "end_in": [
+        5.38,
+        3.92
+      ],
+      "path_endpoint_length_in": 0.3797696670351649,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "post_GELU_to_Block3",
+      "start_in": [
+        6.21,
+        3.875
+      ],
+      "end_in": [
+        6.39,
+        3.8550000000000004
+      ],
+      "path_endpoint_length_in": 0.18110770276274804,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "fit_locked_to_held_out",
+      "start_in": [
+        4.28,
+        2.625
+      ],
+      "end_in": [
+        4.53,
+        2.625
+      ],
+      "path_endpoint_length_in": 0.25,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "molecular_input_to_L_program",
+      "start_in": [
+        0.28,
+        1.432
+      ],
+      "end_in": [
+        0.44,
+        1.432
+      ],
+      "path_endpoint_length_in": 0.15999999999999998,
+      "linewidth_pt": 0.55,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "molecular_input_to_L_plus_program",
+      "start_in": [
+        0.28,
+        1.0819999999999999
+      ],
+      "end_in": [
+        0.44,
+        1.0819999999999999
+      ],
+      "path_endpoint_length_in": 0.15999999999999998,
+      "linewidth_pt": 0.55,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "molecular_L_to_DeltaBrier",
+      "start_in": [
+        0.9199999999999999,
+        1.432
+      ],
+      "end_in": [
+        1.23,
+        1.3
+      ],
+      "path_endpoint_length_in": 0.3369332278063415,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "molecular_L_plus_unit_to_DeltaBrier",
+      "start_in": [
+        0.9199999999999999,
+        1.0819999999999999
+      ],
+      "end_in": [
+        1.23,
+        1.22
+      ],
+      "path_endpoint_length_in": 0.33932874915043676,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "protein_without_unit_to_DeltaBrier",
+      "start_in": [
+        2.71,
+        1.212
+      ],
+      "end_in": [
+        3.02,
+        1.08
+      ],
+      "path_endpoint_length_in": 0.3369332278063415,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "protein_with_unit_to_DeltaBrier",
+      "start_in": [
+        2.71,
+        0.862
+      ],
+      "end_in": [
+        3.02,
+        1.0
+      ],
+      "path_endpoint_length_in": 0.33932874915043676,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "protein_input_to_program_without_unit",
+      "start_in": [
+        1.7,
+        1.212
+      ],
+      "end_in": [
+        1.78,
+        1.212
+      ],
+      "path_endpoint_length_in": 0.08000000000000007,
+      "linewidth_pt": 0.55,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "protein_input_to_program_with_unit",
+      "start_in": [
+        1.7,
+        0.862
+      ],
+      "end_in": [
+        1.78,
+        0.862
+      ],
+      "path_endpoint_length_in": 0.08000000000000007,
+      "linewidth_pt": 0.55,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "legend_J1",
+      "start_in": [
+        3.08,
+        0.13
+      ],
+      "end_in": [
+        3.3,
+        0.13
+      ],
+      "path_endpoint_length_in": 0.21999999999999975,
+      "linewidth_pt": 1,
+      "color": "#33BBEE",
+      "linestyle": "-"
+    },
+    {
+      "role": "legend_J2",
+      "start_in": [
+        3.88,
+        0.13
+      ],
+      "end_in": [
+        4.1,
+        0.13
+      ],
+      "path_endpoint_length_in": 0.21999999999999975,
+      "linewidth_pt": 1,
+      "color": "#EE3377",
+      "linestyle": "-"
+    },
+    {
+      "role": "M1_to_predicted_activations",
+      "start_in": [
+        4.38,
+        1.6099999999999999
+      ],
+      "end_in": [
+        4.54,
+        1.36
+      ],
+      "path_endpoint_length_in": 0.2968164415931165,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "M2_to_predicted_activations",
+      "start_in": [
+        4.38,
+        1.12
+      ],
+      "end_in": [
+        4.54,
+        1.25
+      ],
+      "path_endpoint_length_in": 0.20615528128088315,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "predicted_activations_to_replacement_tensor",
+      "start_in": [
+        5.21,
+        1.22
+      ],
+      "end_in": [
+        5.35,
+        1.22
+      ],
+      "path_endpoint_length_in": 0.13999999999999968,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "replacement_tensor_to_same_frozen_downstream",
+      "start_in": [
+        5.75,
+        1.41
+      ],
+      "end_in": [
+        5.84,
+        1.41
+      ],
+      "path_endpoint_length_in": 0.08999999999999986,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "frozen_output_to_subtractor",
+      "start_in": [
+        6.47,
+        1.41
+      ],
+      "end_in": [
+        6.6,
+        1.41
+      ],
+      "path_endpoint_length_in": 0.1299999999999999,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "original_output_to_subtractor_from_above",
+      "start_in": [
+        6.7,
+        1.7
+      ],
+      "end_in": [
+        6.7,
+        1.5050000000000001
+      ],
+      "path_endpoint_length_in": 0.19499999999999984,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "subtractor_to_residuals",
+      "start_in": [
+        6.7,
+        1.31
+      ],
+      "end_in": [
+        6.7,
+        1.13
+      ],
+      "path_endpoint_length_in": 0.18000000000000005,
+      "linewidth_pt": 0.7,
+      "color": "#20252A",
+      "linestyle": "-"
+    },
+    {
+      "role": "predicted_replacement_to_parallel_shuffle",
+      "start_in": [
+        5.51,
+        1.02
+      ],
+      "end_in": [
+        5.51,
+        0.905
+      ],
+      "path_endpoint_length_in": 0.11499999999999999,
+      "linewidth_pt": 0.65,
+      "color": "#7A8288",
+      "linestyle": "--"
+    },
+    {
+      "role": "shuffle_replacement_to_same_frozen_module",
+      "start_in": [
+        6.155,
+        1.02
+      ],
+      "end_in": [
+        6.155,
+        1.135
+      ],
+      "path_endpoint_length_in": 0.11499999999999999,
+      "linewidth_pt": 0.65,
+      "color": "#7A8288",
+      "linestyle": "--"
+    },
+    {
+      "role": "navigation_A_to_B",
+      "start_in": [
+        3.325,
+        4.17
+      ],
+      "end_in": [
+        3.675,
+        4.17
+      ],
+      "path_endpoint_length_in": 0.34999999999999964,
+      "linewidth_pt": 1.5,
+      "color": "#555555",
+      "linestyle": "-"
+    },
+    {
+      "role": "navigation_B_to_C",
+      "start_in": [
+        3.6335906028098104,
+        2.478699017978286
+      ],
+      "end_in": [
+        3.3764093971901894,
+        2.2413009820217136
+      ],
+      "path_endpoint_length_in": 0.35000000000000003,
+      "linewidth_pt": 1.5,
+      "color": "#555555",
+      "linestyle": "-"
+    },
+    {
+      "role": "navigation_C_to_D",
+      "start_in": [
+        3.325,
+        2.05
+      ],
+      "end_in": [
+        3.675,
+        2.05
+      ],
+      "path_endpoint_length_in": 0.34999999999999964,
+      "linewidth_pt": 1.5,
+      "color": "#555555",
+      "linestyle": "-"
+    }
+  ],
+  "glyphs": [
+    {
+      "role": "calibration_matrix_grid",
+      "bounds_in": [
+        2.12,
+        2.5,
+        1.24,
+        1.16
+      ],
+      "rows": 2,
+      "columns": 2,
+      "linewidth_pt": 0.5,
+      "color": "#DDDDDD",
+      "vertical_divider_x_in": 2.74,
+      "horizontal_divider_y_in": 3.1100000000000003
+    },
+    {
+      "role": "post_GELU_selected_coordinate",
+      "bounds_in": [
+        5.39,
+        3.83,
+        0.81,
+        0.09
+      ],
+      "n_cells": 7,
+      "selected_index": 1,
+      "selected_fill": "#EE7733"
+    },
+    {
+      "role": "token_aligned_to_selected_coordinate",
+      "bounds_in": [
+        5.39,
+        3.62,
+        0.81,
+        0.11
+      ],
+      "n_cells": 7,
+      "selected_index": 1,
+      "selected_fill": "#EE7733"
+    },
+    {
+      "role": "protein_single_mask_residue_strip",
+      "bounds_in": [
+        1.86,
+        1.5050000000000001,
+        1.35,
+        0.1
+      ],
+      "n_cells": 9,
+      "selected_index": 3,
+      "selected_fill": "#0077BB"
+    },
+    {
+      "role": "protein_program_chips",
+      "names": [
+        "X",
+        "S",
+        "L"
+      ],
+      "augmented": false,
+      "parent_bounds_in": [
+        1.79,
+        1.0899999999999999,
+        0.92,
+        0.245
+      ],
+      "selected_unit_inside_right": false
+    },
+    {
+      "role": "protein_program_chips",
+      "names": [
+        "X",
+        "S",
+        "L"
+      ],
+      "augmented": true,
+      "parent_bounds_in": [
+        1.79,
+        0.74,
+        0.92,
+        0.245
+      ],
+      "selected_unit_inside_right": true
+    },
+    {
+      "role": "unified_bottom_legend",
+      "bounds_in": [
+        0.16,
+        0.04999999999999999,
+        6.68,
+        0.16
+      ],
+      "entries": [
+        "fitted program",
+        "selected unit",
+        "J1",
+        "J2",
+        "masked residue"
+      ]
+    },
+    {
+      "role": "predicted_activation_six_cell_strip",
+      "bounds_in": [
+        4.61,
+        1.225,
+        0.53,
+        0.08
+      ],
+      "n_cells": 6,
+      "selected_index": 1,
+      "selected_fill": "#EE7733"
+    },
+    {
+      "role": "replacement_tensor",
+      "rows": 4,
+      "columns": 4,
+      "orange_column": 2,
+      "bounds_in": [
+        5.36,
+        1.1800000000000002,
+        0.38,
+        0.38
+      ],
+      "scientific_coordinate_count": 1
+    },
+    {
+      "role": "frozen_output_outline_lock",
+      "bounds_in": [
+        6.1,
+        1.54,
+        0.11,
+        0.125
+      ]
+    },
+    {
+      "role": "shuffled_control_box",
+      "bounds_in": [
+        5.175,
+        0.56,
+        0.67,
+        0.34
+      ],
+      "matches_M2_width_height_in": [
+        0.67,
+        0.34
+      ]
+    }
+  ],
+  "chemical_assets": [
+    {
+      "label": "Carbonyl\nquery",
+      "bounds_in": [
+        3.685,
+        2.8200000000000003,
+        0.64,
+        0.77
+      ],
+      "asset": null,
+      "CID": null,
+      "SMILES": null,
+      "width_pt": 19.999999999999996,
+      "height_pt": 15.456406460551019,
+      "matched_atom_indices": [
+        0,
+        1
+      ],
+      "font_pt": 7,
+      "fit": null,
+      "source_metadata_file": null,
+      "graph_atom_count": 2,
+      "rendered_bond_path_count": 4,
+      "carbonyl_halo_count": 2
+    },
+    {
+      "label": "Held-out\namide",
+      "bounds_in": [
+        4.37,
+        2.8200000000000003,
+        0.82,
+        0.77
+      ],
+      "asset": "T1_CID60628745",
+      "CID": 60628745,
+      "SMILES": "CCCCC(=O)Nc1cc(Cl)ccc1C#N",
+      "width_pt": 56.49280214848511,
+      "height_pt": 42.43267880914415,
+      "matched_atom_indices": [
+        4,
+        5
+      ],
+      "font_pt": 7,
+      "fit": {
+        "available_pt": [
+          58.04,
+          42.48
+        ],
+        "required_pt": [
+          56.49280214848511,
+          42.43267880914415
+        ],
+        "fits": true,
+        "fit_ratio": 0.9988860359968021,
+        "minimum_uniform_point_geometry_bond_pt_tested": 8.0,
+        "font_reduction_applied": false
+      },
+      "source_metadata_file": "manuscript/draft_round6_20261027/sources/chemical_assets/molecules/T1_CID60628745_metadata.json",
+      "graph_atom_count": 16,
+      "rendered_bond_path_count": 30,
+      "carbonyl_halo_count": 2
+    },
+    {
+      "label": "Held-out\nketone 1",
+      "bounds_in": [
+        5.235,
+        2.8200000000000003,
+        0.77,
+        0.77
+      ],
+      "asset": "T2_CID43411971",
+      "CID": 43411971,
+      "SMILES": "COc1cc(OC)cc(OCC(C)=O)c1",
+      "width_pt": 48.96424055572984,
+      "height_pt": 38.52999183342397,
+      "matched_atom_indices": [
+        11,
+        13
+      ],
+      "font_pt": 7,
+      "fit": {
+        "available_pt": [
+          54.44,
+          42.48
+        ],
+        "required_pt": [
+          48.96424055572984,
+          38.52999183342397
+        ],
+        "fits": true,
+        "fit_ratio": 0.9070148736681727,
+        "minimum_uniform_point_geometry_bond_pt_tested": 8.0,
+        "font_reduction_applied": false
+      },
+      "source_metadata_file": "manuscript/draft_round6_20261027/sources/chemical_assets/molecules/T2_CID43411971_metadata.json",
+      "graph_atom_count": 15,
+      "rendered_bond_path_count": 24,
+      "carbonyl_halo_count": 2
+    },
+    {
+      "label": "Held-out\nketone 2",
+      "bounds_in": [
+        6.05,
+        2.8200000000000003,
+        0.79,
+        0.77
+      ],
+      "asset": "T3_CID678545",
+      "CID": 678545,
+      "SMILES": "Cc1cc(C(=O)CCl)c(C)s1",
+      "width_pt": 39.86805566312145,
+      "height_pt": 29.89388046177647,
+      "matched_atom_indices": [
+        4,
+        5
+      ],
+      "font_pt": 7,
+      "fit": {
+        "available_pt": [
+          55.88,
+          42.48
+        ],
+        "required_pt": [
+          39.86805566312145,
+          29.89388046177647
+        ],
+        "fits": true,
+        "fit_ratio": 0.7134584048518513,
+        "minimum_uniform_point_geometry_bond_pt_tested": 8.0,
+        "font_reduction_applied": false
+      },
+      "source_metadata_file": "manuscript/draft_round6_20261027/sources/chemical_assets/molecules/T3_CID678545_metadata.json",
+      "graph_atom_count": 11,
+      "rendered_bond_path_count": 17,
+      "carbonyl_halo_count": 2
+    }
+  ],
+  "all_visible_text_counts": {
+    "whitespace_alphanumeric": 146,
+    "lexical_letters_and_numbers": 158
+  },
+  "count_definitions": {
+    "whitespace_alphanumeric": "Every whitespace-delimited item containing a letter or number, including panel numbers, variables, sequence letters and all chemical atom text-runs; pure operators excluded. RDKit split Cl and NH glyphs merged by source+atom index.",
+    "lexical_letters_and_numbers": "Letter/number lexical tokens, compounds kept where expressed by hyphen/slash, digit groups counted; chemical atom text-runs and schematic sequence letters included. Cl/NH remain whole chemical text-runs.",
+    "token_cells": "Seven SMILES token cells are reported as a separate visible-token category; C/O are also included in the all-visible alphanumeric count. Five punctuation-only cells are excluded from that alphanumeric count."
+  },
+  "SMILES_token_audit": {
+    "evidence_file": "manuscript/draft_round8_20261102/sources/fig13_frozen/figure1_v02/token_strip_evidence.json",
+    "evidence": {
+      "date": "2026-11-02",
+      "source_example": "scripts/draft_round7_20261031/prepare_representative_smiles.py",
+      "source_concept_id": 24,
+      "smiles": "*C(=O)*",
+      "is_complete_CID_molecule": false,
+      "interpretation": "Existing illustrative carbonyl fragment; wildcard atoms denote omitted substituents. No activation for this fragment was measured.",
+      "tokenizer_repository": "DeepChem/ChemBERTa-77M-MTR",
+      "tokenizer_revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+      "tokenizer_path": "assets/chemberta_mtr_tokenizer/tokenizer.json",
+      "tokenizer_SHA256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+      "tokenizers_version": "0.19.1",
+      "rdkit_version": "2026.03.6",
+      "display_add_special_tokens": false,
+      "tokens": [
+        "*",
+        "C",
+        "(",
+        "=",
+        "O",
+        ")",
+        "*"
+      ],
+      "token_ids": [
+        256,
+        16,
+        17,
+        22,
+        19,
+        18,
+        256
+      ],
+      "character_offsets": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "model_input_tokens_with_specials": [
+        "[CLS]",
+        "*",
+        "C",
+        "(",
+        "=",
+        "O",
+        ")",
+        "*",
+        "[SEP]"
+      ],
+      "carbonyl_query": "[CX3]=[OX1]",
+      "matched_RDKit_atom_indices_zero_based": [
+        1,
+        2
+      ],
+      "carbon_anchor_character_offset_zero_based": 1,
+      "carbon_anchor_display_token_index_zero_based": 1,
+      "carbon_anchor_model_input_token_index_zero_based": 2,
+      "display_token_cells": 7,
+      "SMILES_cells_containing_alphanumeric": 2,
+      "punctuation_only_cells": [
+        "*",
+        "(",
+        "=",
+        ")",
+        "*"
+      ],
+      "model_loaded": false,
+      "forward_calls": 0,
+      "network_calls": 0,
+      "caption_material": "The token strip illustrates the existing fragment *C(=O)* with the frozen ChemBERTa-77M-MTR tokenizer. Wildcards denote omitted substituents; this is not one of the three complete held-out molecules. Seven displayed tokens omit model special tokens. The carbonyl carbon is the second displayed token (zero-based index 1), aligned to the orange schematic unit cell; the strip does not depict newly measured activations."
+    },
+    "visible_token_cells": 7,
+    "visible_alphanumeric_token_cells": 2,
+    "punctuation_only_token_cells": 5,
+    "selected_display_token_index_zero_based": 1,
+    "upper_strip_selected_index_zero_based": 1,
+    "activation_strip_is_schematic": true
+  },
+  "chemical_text_audit": {
+    "raw_glyph_count": 16,
+    "visible_atom_label_count": 13,
+    "labels": [
+      "C",
+      "O",
+      "O",
+      "NH",
+      "Cl",
+      "N",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "Cl",
+      "S"
+    ]
+  },
+  "independent_symbol_budget": {
+    "navigation_arrows": 3,
+    "semantic_arrows": 27,
+    "state_markers": 4,
+    "subtractor_nodes": 1,
+    "chemical_halos": 8,
+    "chemical_graph_atoms": 44,
+    "chemical_bond_path_primitives": 75,
+    "P2_strip_cells": 14,
+    "P2_orange_strip_cells": 2,
+    "P3_selected_unit_squares": 2,
+    "selected_unit_legend_square": 1,
+    "masked_residue_square": 1,
+    "P3_sequence_strip_cells": 9,
+    "P4_predicted_activation_cells": 6,
+    "P4_grid_cells": 16,
+    "P4_orange_grid_cells": 4,
+    "P4_selected_columns": 1,
+    "held_out_scope_brackets": 0,
+    "P1_matrix_grid_cells": 4,
+    "SMILES_token_text_cells": 7,
+    "SMILES_token_punctuation_only_cells": 5
+  },
+  "methods_word_counts": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "color_roles": {
+    "selected": "#EE7733",
+    "fitted_program_and_M1": "#0077BB",
+    "M2": "#009988",
+    "J1": "#33BBEE",
+    "J2": "#EE3377",
+    "masked_residue": "#0077BB",
+    "CPK_internal_exception": {
+      "N": "#0077BB",
+      "O": "#CC3311",
+      "S": "#CCBB44",
+      "Cl": "#009988",
+      "C": "#20252A",
+      "H": "#20252A"
+    },
+    "carbonyl_halo": "selected orange, alpha .25"
+  },
+  "panel_HSV_saturation": [
+    0.04780876494023899,
+    0.04761904761904767,
+    0.03225806451612903,
+    0.02429149797570853
+  ],
+  "new_API_calls": 0,
+  "new_scientific_computation": false,
+  "caption_written": false,
+  "physical_layout": {
+    "canvas_in": [
+      7.0,
+      4.46
+    ],
+    "baseline_canvas_in": [
+      7.0,
+      4.2
+    ],
+    "baseline_version": "round8_20261102_v02",
+    "bottom_extension_in": 0.26,
+    "whole_figure_scaled": false,
+    "all_panel_content_translation_in": [
+      0,
+      0.26
+    ],
+    "all_panel_content_physical_dimensions_unchanged": true,
+    "distance_from_page_top_unchanged": true,
+    "panel_bounds_in": [
+      [
+        0.05,
+        2.4349999999999996,
+        3.375,
+        1.975
+      ],
+      [
+        3.575,
+        2.4349999999999996,
+        3.375,
+        1.975
+      ],
+      [
+        0.05,
+        0.31,
+        3.375,
+        1.975
+      ],
+      [
+        3.575,
+        0.31,
+        3.375,
+        1.975
+      ]
+    ],
+    "four_panel_bottom_edge_y_in": 0.31,
+    "legend_strip_bounds_in": [
+      0.16,
+      0.05,
+      6.68,
+      0.16
+    ],
+    "legend_strip_upper_edge_y_in": 0.21000000000000002,
+    "legend_net_gap_in": 0.09999999999999998,
+    "legend_required_gap_in": 0.1,
+    "minimum_font_pt": 7
+  }
+}
